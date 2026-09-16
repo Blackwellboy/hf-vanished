@@ -21,7 +21,7 @@ permissions:
 
 concurrency:
   group: poll-hub
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   poll:
