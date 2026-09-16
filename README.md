@@ -61,6 +61,8 @@ Tone: facts, timestamps, links, diffs. Not a manifesto.
 
 Cadence: GitHub Action cron `0 */6 * * *` (~every 6 hours), plus `workflow_dispatch`.
 
+The poll workflow commits refreshed `data/*.json` **and** deploys Pages in the same run (`GITHUB_TOKEN` pushes do not re-trigger other workflows).
+
 **No secrets.** No HF tokens, no PATs in workflows. Uses `GITHUB_TOKEN` only for committing refreshed data and deploying Pages.
 
 ## Local run
