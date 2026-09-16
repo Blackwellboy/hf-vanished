@@ -1,9 +1,65 @@
 {
   "schema": "hf-vanished.provenance.v1",
-  "generated_at": null,
+  "generated_at": "2026-09-16T14:53:15Z",
   "algorithm": "sha256",
-  "files": [],
-  "root_sha256": null,
+  "files": [
+    {
+      "path": "data/events.json",
+      "size": 77662,
+      "sha256": "9f38f25e7b21572ab8ee5aaa4bca9b4a9173c5e32962c6e81e43f72817e9a65f"
+    },
+    {
+      "path": "data/state.json",
+      "size": 318129,
+      "sha256": "e57c4c8ed6eee68dee506bb4ce1458ecf6498a8b87e6e0a52f036446d53f275c"
+    },
+    {
+      "path": "data/status.json",
+      "size": 387813,
+      "sha256": "5a21819f2c7d1e6d2d48b1ca2f0090fe4b0f547bf61eda6f44099776e76ade1c"
+    },
+    {
+      "path": "data/integrations.json",
+      "size": 61791,
+      "sha256": "d0115e37a52f82aa07567ef68239a9f17822c3530fd94302789e98af6abf43e0"
+    },
+    {
+      "path": "data/reasons.json",
+      "size": 557,
+      "sha256": "022ac2126b9de562921b16842dd169b09345c39704fc79dfc37f097d4799a831"
+    },
+    {
+      "path": "data/evidence.json",
+      "size": 400176,
+      "sha256": "640c926aa5b6372025091a671db744a45461a4cc084e85488c6a30147d46e914"
+    },
+    {
+      "path": "data/manifests.json",
+      "size": 105328,
+      "sha256": "bf3f73383b6c2b214c2af3b4f176b7cfa1fafb2381cb0a1c18b4a72051b0a967"
+    },
+    {
+      "path": "data/incidents.json",
+      "size": 7342,
+      "sha256": "f823b8f8a12a3dfef97a7dfb12e6765c4f7403f9c0eea11473e02edaf89d1629"
+    },
+    {
+      "path": "data/lineage.json",
+      "size": 110558,
+      "sha256": "faf592df14b650e820766bc77a227e41a1be18647944d4803550d5eba2e62204"
+    },
+    {
+      "path": "data/analytics.json",
+      "size": 1731,
+      "sha256": "8a12481a664abcd9e15a0f8c47f0e66fc02abbfb2f5191cead136c94213953ef"
+    },
+    {
+      "path": "data/mirrors.json",
+      "size": 670,
+      "sha256": "a0ff148ec97146a67d8dfe579e68fc5058f3c2d173e11c33250c652673c5716b"
+    }
+  ],
+  "root_sha256": "b56d6cbdc935d8bc9923a31c7cf75494836cae1bd94f970db300eb4d6cc65249",
   "signature": {
     "mode": "sigstore-keyless-if-available",
     "bundle_path": "data/provenance.sigstore.json",

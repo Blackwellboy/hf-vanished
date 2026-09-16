@@ -1,7 +1,3040 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": null,
+  "generated_at": "2026-09-16T14:53:14Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
-  "nodes": {},
-  "edges": []
+  "nodes": {
+    "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
+      "id": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
+      "visibility": "disabled",
+      "revision": "e8e68a646dce5bda37533d9e0074a3cb2d4be28c",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "zai-org/GLM-5.3": {
+      "id": "zai-org/GLM-5.3",
+      "external_to_watchset": true
+    },
+    "mosaicml/mpt-7b-chat": {
+      "id": "mosaicml/mpt-7b-chat",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "OpenAssistant/oasst-sft-6-llama-30b": {
+      "id": "OpenAssistant/oasst-sft-6-llama-30b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "stabilityai/stable-diffusion-2-1": {
+      "id": "stabilityai/stable-diffusion-2-1",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "WizardLM/WizardLM-7B-V1.0": {
+      "id": "WizardLM/WizardLM-7B-V1.0",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
+      "id": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Aeala/ShareGPT_Vicuna_unfiltered": {
+      "id": "Aeala/ShareGPT_Vicuna_unfiltered",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Undi95/LLaMA-2-13B-GPTQ": {
+      "id": "Undi95/LLaMA-2-13B-GPTQ",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "tencent/HunyuanDiT": {
+      "id": "tencent/HunyuanDiT",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "orcarouter/Qwen3.8-27B-Uncensored-FP8": {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "visibility": "public",
+      "revision": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.8-27B": {
+      "id": "Qwen/Qwen3.8-27B",
+      "external_to_watchset": true
+    },
+    "orcarouter/Qwen3.8-27B-Uncensored-GGUF": {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "a855f377abf5cbda99a278414466743f427e97c8",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "rogue-security/prompt-injection-jailbreak-sentinel-v2": {
+      "id": "rogue-security/prompt-injection-jailbreak-sentinel-v2",
+      "visibility": "public",
+      "revision": "05ff9bfd1f28c5228e53121d5ee4427bb5205212",
+      "license": "other",
+      "pipeline_tag": "text-classification"
+    },
+    "Qwen/Qwen3-0.6B": {
+      "id": "Qwen/Qwen3-0.6B",
+      "visibility": "public",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "meta-llama/Meta-Llama-3-8B-Instruct": {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "visibility": "public",
+      "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "license": "llama3",
+      "pipeline_tag": "text-generation"
+    },
+    "meta-llama/Llama-2-7b-hf": {
+      "id": "meta-llama/Llama-2-7b-hf",
+      "visibility": "public",
+      "revision": "01c7f73d771dfac7d292323805ebc428287df4f9",
+      "license": "llama2",
+      "pipeline_tag": "text-generation"
+    },
+    "google/gemma-7b": {
+      "id": "google/gemma-7b",
+      "visibility": "public",
+      "revision": "ff6768d9368919a1f025a54f9f5aa0ee591730bb",
+      "license": "gemma",
+      "pipeline_tag": "text-generation"
+    },
+    "google/gemma-2-9b": {
+      "id": "google/gemma-2-9b",
+      "visibility": "public",
+      "revision": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
+      "license": "gemma",
+      "pipeline_tag": "text-generation"
+    },
+    "black-forest-labs/FLUX.1-dev": {
+      "id": "black-forest-labs/FLUX.1-dev",
+      "visibility": "public",
+      "revision": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
+      "license": "other",
+      "pipeline_tag": "text-to-image"
+    },
+    "bigcode/starcoder": {
+      "id": "bigcode/starcoder",
+      "visibility": "public",
+      "revision": "827cd7721231872c152e3faef5cae1b22964ed58",
+      "license": "bigcode-openrail-m",
+      "pipeline_tag": "text-generation"
+    },
+    "mistralai/Mistral-7B-v0.1": {
+      "id": "mistralai/Mistral-7B-v0.1",
+      "visibility": "public",
+      "revision": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mistralai/Mistral-7B-Instruct-v0.2": {
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "visibility": "public",
+      "revision": "63a8b081895390a26e140280378bc85ec8bce07a",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "HuggingFaceH4/zephyr-7b-beta": {
+      "id": "HuggingFaceH4/zephyr-7b-beta",
+      "visibility": "public",
+      "revision": "892b3d7a7b1cf10c7a701c60881cd93df615734c",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "stabilityai/stable-diffusion-xl-base-1.0": {
+      "id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "visibility": "public",
+      "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+      "license": "openrail++",
+      "pipeline_tag": "text-to-image"
+    },
+    "runwayml/stable-diffusion-v1-5": {
+      "id": "runwayml/stable-diffusion-v1-5",
+      "visibility": "public",
+      "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+      "license": "creativeml-openrail-m",
+      "pipeline_tag": "text-to-image"
+    },
+    "CompVis/stable-diffusion-v1-4": {
+      "id": "CompVis/stable-diffusion-v1-4",
+      "visibility": "public",
+      "revision": "133a221b8aa7292a167afc5127cb63fb5005638b",
+      "license": "creativeml-openrail-m",
+      "pipeline_tag": "text-to-image"
+    },
+    "OpenAssistant/oasst-sft-7-llama-30b-xor": {
+      "id": "OpenAssistant/oasst-sft-7-llama-30b-xor",
+      "visibility": "public",
+      "revision": "d31b76426385f683c6efb8d4daea58379fb9bb09",
+      "license": "other",
+      "pipeline_tag": null
+    },
+    "mlabonne/NeuralDaredevil-8B-abliterated": {
+      "id": "mlabonne/NeuralDaredevil-8B-abliterated",
+      "visibility": "public",
+      "revision": "6567010926ff93a5e9fb809534d61ab667a86674",
+      "license": "llama3",
+      "pipeline_tag": "text-generation"
+    },
+    "mlabonne/Daredevil-8B-abliterated": {
+      "id": "mlabonne/Daredevil-8B-abliterated",
+      "external_to_watchset": true
+    },
+    "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3": {
+      "id": "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
+      "visibility": "public",
+      "revision": "85a25be002841fe738a5267b6806473f36f86715",
+      "license": "llama3",
+      "pipeline_tag": "text-generation"
+    },
+    "failspy/llama-3-70B-Instruct-abliterated": {
+      "id": "failspy/llama-3-70B-Instruct-abliterated",
+      "visibility": "public",
+      "revision": "53ae9dafe8b3d163e05d75387575f8e9f43253d0",
+      "license": "llama3",
+      "pipeline_tag": "text-generation"
+    },
+    "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "8f1b52408a2f6e317535190c9386f776cacf0079",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Orenguteng/Llama-3-8B-Lexi-Uncensored": {
+      "id": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
+      "visibility": "public",
+      "revision": "ff95e3bfcd6142759ce82099b58bc7a789ac241b",
+      "license": "llama3",
+      "pipeline_tag": "text-generation"
+    },
+    "cognitivecomputations/WizardLM-7B-Uncensored": {
+      "id": "cognitivecomputations/WizardLM-7B-Uncensored",
+      "visibility": "public",
+      "revision": "7f640465f3403a4aac373609febb563b9d4ce127",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "cognitivecomputations/Wizard-Vicuna-13B-Uncensored": {
+      "id": "cognitivecomputations/Wizard-Vicuna-13B-Uncensored",
+      "visibility": "public",
+      "revision": "682f6583699ecd916a7d106393f68c44a1c7abf2",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "ehartford/WizardLM-7B-Uncensored": {
+      "id": "ehartford/WizardLM-7B-Uncensored",
+      "visibility": "public",
+      "revision": "7f640465f3403a4aac373609febb563b9d4ce127",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "Undi95/Toppy-M-7B": {
+      "id": "Undi95/Toppy-M-7B",
+      "visibility": "public",
+      "revision": "5d0c492effbb2e52ea04e5100c6ce02eba48a793",
+      "license": "cc-by-nc-4.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Gryphe/MythoMax-L2-13b": {
+      "id": "Gryphe/MythoMax-L2-13b",
+      "visibility": "public",
+      "revision": "58e77dd48a65176f97f6f376c93efe9caad9c130",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "teknium/OpenHermes-2.5-Mistral-7B": {
+      "id": "teknium/OpenHermes-2.5-Mistral-7B",
+      "visibility": "public",
+      "revision": "24c0bea14d53e6f67f1fbe2eca5bfe7cae389b33",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO": {
+      "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "visibility": "public",
+      "revision": "286ae6737d048ad1d965c2e830864df02db50f2f",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mistralai/Mixtral-8x7B-v0.1": {
+      "id": "mistralai/Mixtral-8x7B-v0.1",
+      "external_to_watchset": true
+    },
+    "WizardLM/WizardCoder-15B-V1.0": {
+      "id": "WizardLM/WizardCoder-15B-V1.0",
+      "visibility": "public",
+      "revision": "9c177589dec389eac2c8de51cbc371d45e47984e",
+      "license": "bigscience-openrail-m",
+      "pipeline_tag": "text-generation"
+    },
+    "WizardLM/WizardMath-7B-V1.0": {
+      "id": "WizardLM/WizardMath-7B-V1.0",
+      "visibility": "public",
+      "revision": "825a586f260d6c583b8aa9ceab6cdfaa3d9a4ddc",
+      "license": "llama2",
+      "pipeline_tag": "text-generation"
+    },
+    "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF": {
+      "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "45d0fc0ad6cfcf9eeee6008ddaea925536409b18",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF": {
+      "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "visibility": "public",
+      "revision": "993a5971fda8f30dd1b7eb2654792ba4415c7460",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive": {
+      "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+      "visibility": "public",
+      "revision": "45b6a334b4bcd1d7f37179df58b3b1d66a184e5d",
+      "license": "gemma",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "google/gemma-4-e4b-it": {
+      "id": "google/gemma-4-e4b-it",
+      "external_to_watchset": true
+    },
+    "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
+      "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "20b94f0613b632b4848bbe3b1e05d9ee0c2b1608",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
+      "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "visibility": "public",
+      "revision": "76f454c346937f39146d515b89f87dd12bcf9d57",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP": {
+      "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
+      "external_to_watchset": true
+    },
+    "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive": {
+      "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "visibility": "public",
+      "revision": "f12a584fecbeb5f20001130d8ecd66c9327ae685",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.6-35B-A3B": {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "external_to_watchset": true
+    },
+    "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "visibility": "public",
+      "revision": "89230607b3708bc1efe174e8fd34d4b164476c88",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU": {
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+      "external_to_watchset": true
+    },
+    "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
+      "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "visibility": "public",
+      "revision": "20fdadf6a713f7a4d52202e7d74a51f4355b44e6",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP": {
+      "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP",
+      "external_to_watchset": true
+    },
+    "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive": {
+      "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "visibility": "public",
+      "revision": "0a41c68809d375475f954be12ba7c40efa56c2a9",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Qwen/Qwen3.5-9B": {
+      "id": "Qwen/Qwen3.5-9B",
+      "visibility": "public",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced": {
+      "id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+      "visibility": "public",
+      "revision": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
+      "license": "gemma",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "google/gemma-4-12B-it": {
+      "id": "google/gemma-4-12B-it",
+      "external_to_watchset": true
+    },
+    "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
+      "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+      "visibility": "public",
+      "revision": "abdbf309d0a80af45ded9b8da5afcb493f4946b6",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP": {
+      "id": "HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "visibility": "public",
+      "revision": "f9093662a2e7ae0503f637088bc96f77a1a70c83",
+      "license": "gemma",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "google/gemma-4-26B-A4B-it": {
+      "id": "google/gemma-4-26B-A4B-it",
+      "visibility": "public",
+      "revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
+      "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "visibility": "public",
+      "revision": "cc0d4ceb9b4936d483f99d669425b9ae304fcd22",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking": {
+      "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
+      "external_to_watchset": true
+    },
+    "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
+      "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "visibility": "public",
+      "revision": "a09698bb675f0e1b2a2aaacda8f9b36395fb11d0",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking": {
+      "id": "DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking",
+      "external_to_watchset": true
+    },
+    "HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP": {
+      "id": "HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "visibility": "public",
+      "revision": "9654466e82d83f5ebfe1518a369bc5900873abb1",
+      "license": "gemma",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "google/gemma-4-31B-it": {
+      "id": "google/gemma-4-31B-it",
+      "visibility": "public",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Jiunsong/supergemma4-26b-uncensored-gguf-v2": {
+      "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+      "visibility": "public",
+      "revision": "3ea8c452a2b136875c0c8b529612bed39c81e27a",
+      "license": "gemma",
+      "pipeline_tag": "text-generation"
+    },
+    "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced": {
+      "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
+      "visibility": "public",
+      "revision": "9a28c2fbd15f21fb8ed204074c6f58d5bc889941",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.6-27B": {
+      "id": "Qwen/Qwen3.6-27B",
+      "external_to_watchset": true
+    },
+    "llmfan46/gemma-4-E4B-it-uncensored-heretic": {
+      "id": "llmfan46/gemma-4-E4B-it-uncensored-heretic",
+      "visibility": "public",
+      "revision": "446ec370626e1fda5b6cfb67e2c90152315d3aab",
+      "license": "apache-2.0",
+      "pipeline_tag": "any-to-any"
+    },
+    "google/gemma-4-E4B-it": {
+      "id": "google/gemma-4-E4B-it",
+      "external_to_watchset": true
+    },
+    "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
+      "id": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
+      "visibility": "public",
+      "revision": "975adf14b2c7e68b5fd1dbf8fa896d50574f8731",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "trohrbaugh/Qwen3.5-9B-heretic-v2": {
+      "id": "trohrbaugh/Qwen3.5-9B-heretic-v2",
+      "external_to_watchset": true
+    },
+    "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive": {
+      "id": "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
+      "visibility": "public",
+      "revision": "f4cb0b62dd608c596f0edacd200363676a826abc",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.5-122B-A10B": {
+      "id": "Qwen/Qwen3.5-122B-A10B",
+      "external_to_watchset": true
+    },
+    "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF": {
+      "id": "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
+      "visibility": "public",
+      "revision": "58ebd123013160600229eda180b5b17f3fb7af9d",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "TrevorJS/gemma-4-31B-it-uncensored": {
+      "id": "TrevorJS/gemma-4-31B-it-uncensored",
+      "visibility": "public",
+      "revision": "fd8c03ddb7c828a1731d66f8a858b82b4c79b64d",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive": {
+      "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+      "visibility": "public",
+      "revision": "c09cdbcdb1fefad6d335809d445621b5f5ba0c6e",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF": {
+      "id": "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF",
+      "visibility": "public",
+      "revision": "9cada68ea11a8f361e4b16a7a97e53d99b0918c0",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic": {
+      "id": "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
+      "external_to_watchset": true
+    },
+    "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
+      "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "0434906af7b5202b676d43f108cf4f73d25691ef",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.8-Flash-Next": {
+      "id": "Qwen/Qwen3.8-Flash-Next",
+      "external_to_watchset": true
+    },
+    "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
+      "id": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
+      "visibility": "public",
+      "revision": "7ddff52cbacb97c93d8110ae6a3352914021e132",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "deepreinforce-ai/Ornith-1.0-35B": {
+      "id": "deepreinforce-ai/Ornith-1.0-35B",
+      "external_to_watchset": true
+    },
+    "orcarouter/Qwen3.8-27B-Uncensored-MLX": {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "visibility": "public",
+      "revision": "14963e70f886455cf93090ac95bdbf4c8730cbe1",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF": {
+      "id": "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF",
+      "visibility": "public",
+      "revision": "d0da06789c72ce94d75c17e539f2d6cc3f62f7aa",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "JonathanColetti/Qwen3.8-27B-Uncensored": {
+      "id": "JonathanColetti/Qwen3.8-27B-Uncensored",
+      "external_to_watchset": true
+    },
+    "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP": {
+      "id": "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+      "visibility": "public",
+      "revision": "ed099273cf30ad72a88116d759856f147b7bcbff",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "huihui-ai/Huihui-Qwen3.6-27B-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3.6-27B-abliterated",
+      "external_to_watchset": true
+    },
+    "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4": {
+      "id": "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
+      "visibility": "public",
+      "revision": "1c28f5014d7e9c20170af40e5aa028679fb30bfb",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF": {
+      "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "292ee2bd5d0f1c49e1fb82b0fbd98cb3dbfb6269",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1": {
+      "id": "prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "a8dfba9c1e43bdf324ee2c7787ed01c70975ffb4",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-0731": {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "external_to_watchset": true
+    },
+    "wangzhang/gemma-4-31B-it-abliterated": {
+      "id": "wangzhang/gemma-4-31B-it-abliterated",
+      "visibility": "public",
+      "revision": "d7431183c443443024debb08b222cbcf2e424da7",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF": {
+      "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "994bb4e69663ec880a4d9a61604e6debc3a49b9a",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-BF16": {
+      "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-BF16",
+      "external_to_watchset": true
+    },
+    "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF": {
+      "id": "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "ca1e60be3a69f79a699ff85c9c3f97a1614e5617",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "culturerevolt/gemma-4-12b-heretic-abliterated": {
+      "id": "culturerevolt/gemma-4-12b-heretic-abliterated",
+      "external_to_watchset": true
+    },
+    "mlabonne/Qwen3-30B-A3B-abliterated": {
+      "id": "mlabonne/Qwen3-30B-A3B-abliterated",
+      "visibility": "public",
+      "revision": "ff53d83fc3c623e63eefcf933bd8298f32b8ebf6",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-30B-A3B": {
+      "id": "Qwen/Qwen3-30B-A3B",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF": {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
+      "visibility": "public",
+      "revision": "f06f59bce3c36b3282b75c9fe2621c83c9399d10",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "deepseek-ai/DeepSeek-V4-Flash": {
+      "id": "deepseek-ai/DeepSeek-V4-Flash",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF": {
+      "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
+      "visibility": "public",
+      "revision": "a7e3b416f83559fb234f3f1f6b31c8d2367a7af2",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled": {
+      "id": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "external_to_watchset": true
+    },
+    "jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g": {
+      "id": "jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g",
+      "visibility": "public",
+      "revision": "b55da0a2524be0d2b28545e483c3424a24b5f060",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mlabonne/gemma-3-12b-it-abliterated": {
+      "id": "mlabonne/gemma-3-12b-it-abliterated",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Huihui-Qwen3.5-27B-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
+      "visibility": "public",
+      "revision": "77b8a75fe4c784db0cc43b84368007d98f15838a",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.5-27B": {
+      "id": "Qwen/Qwen3.5-27B",
+      "external_to_watchset": true
+    },
+    "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16": {
+      "id": "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
+      "visibility": "public",
+      "revision": "55e73efc9e0f7d5a84e6386697022c5eabd5a9ab",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "trohrbaugh/gemma-4-31b-it-heretic-ara": {
+      "id": "trohrbaugh/gemma-4-31b-it-heretic-ara",
+      "external_to_watchset": true
+    },
+    "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF": {
+      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "visibility": "public",
+      "revision": "16325b201fe17cc52d372b8332dd3df4f45fb01c",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "windowsxp811203/Qwen3.8-Flash-Next-Abliterated": {
+      "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated",
+      "external_to_watchset": true
+    },
+    "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF": {
+      "id": "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
+      "visibility": "public",
+      "revision": "a6d52bc87e9dce9d882a09c2de2d61ffe57e01e5",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Ornith-1.5-9B-abliterated": {
+      "id": "huihui-ai/Huihui-Ornith-1.5-9B-abliterated",
+      "external_to_watchset": true
+    },
+    "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ": {
+      "id": "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ",
+      "visibility": "public",
+      "revision": "9018c59243bdf72cdf8873d93ffb2beaee77b513",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated": {
+      "id": "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
+      "visibility": "public",
+      "revision": "fa935a7958b3669b194c7ba4d1cfcebbe222641d",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen2.5-VL-7B-Instruct": {
+      "id": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "external_to_watchset": true
+    },
+    "GitMylo/Qwen2.5-Omni-7B-abliterated": {
+      "id": "GitMylo/Qwen2.5-Omni-7B-abliterated",
+      "visibility": "public",
+      "revision": "fbc72f6c2c67dd5cc38f2639497c488f4d68f951",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3.8-27B-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "visibility": "public",
+      "revision": "739e3c5b89849f6c238ce1e5b70008612ae42cdd",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "twolven/Qwen3.8-27B-abliterated-AWQ-MTP": {
+      "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
+      "visibility": "public",
+      "revision": "c2f5341e7c9a1c55e6d61cfc8e6d0ca897bd7443",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF": {
+      "id": "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "ce37d99d465fbb80616839022c4ae8304e606b4e",
+      "license": "llama3.3",
+      "pipeline_tag": "text-generation"
+    },
+    "huihui-ai/Llama-3.3-70B-Instruct-abliterated": {
+      "id": "huihui-ai/Llama-3.3-70B-Instruct-abliterated",
+      "external_to_watchset": true
+    },
+    "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4": {
+      "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "visibility": "public",
+      "revision": "36276309d30211d9babf72f22d1605dc2dc6357c",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "f028c0a21105244b4aa7a8e50675062ad747ac2c",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "oyildirim/CyberStrike-OffSec-35B": {
+      "id": "oyildirim/CyberStrike-OffSec-35B",
+      "external_to_watchset": true
+    },
+    "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF": {
+      "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "visibility": "public",
+      "revision": "04eb5f9915607c840716ae817717431f0ba6df07",
+      "license": "mit",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "ornith-ai/Ornith-1.5-35B-A3B": {
+      "id": "ornith-ai/Ornith-1.5-35B-A3B",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "7f6d7641fb2ad4489919ea06513888d598e2837b",
+      "license": "mit",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp": {
+      "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "external_to_watchset": true
+    },
+    "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF": {
+      "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "visibility": "public",
+      "revision": "78c2971382a49b442ce044fd4e17169217b0b36c",
+      "license": "mit",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "paperscarecrow/Gemma-4-31B-it-abliterated": {
+      "id": "paperscarecrow/Gemma-4-31B-it-abliterated",
+      "visibility": "public",
+      "revision": "2491ee58472b82a2372d288f982943b9d5e6a82c",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "9f646d7eda193ddf2348134f3bff3d49eed7a2c6",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3.5-9B-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3.5-9B-abliterated",
+      "external_to_watchset": true
+    },
+    "OBLITERATUS/Qwen3.8-27B-OBLITERATED": {
+      "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "visibility": "public",
+      "revision": "a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "OBLITERATUS/Ornith-1.5-9B-OBLITERATED": {
+      "id": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+      "visibility": "public",
+      "revision": "82df4702cc5e716cf7573a8942fee28ae8f65088",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "ornith-ai/Ornith-1.5-9B": {
+      "id": "ornith-ai/Ornith-1.5-9B",
+      "external_to_watchset": true
+    },
+    "OBLITERATUS/gemma-4-E4B-it-OBLITERATED": {
+      "id": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "visibility": "public",
+      "revision": "d8678bbb9e0d4f5729c115087485a4e25ba89d65",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF": {
+      "id": "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "33806a177e79b9c6d0b0eff8a8043cb603ff7d0a",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "OBLITERATUS/Gemma-4-12B-OBLITERATED": {
+      "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+      "visibility": "public",
+      "revision": "f81b0cbd28a3650138635823bc101adb56a0bc4a",
+      "license": "gemma",
+      "pipeline_tag": "text-generation"
+    },
+    "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16": {
+      "id": "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16",
+      "visibility": "public",
+      "revision": "9f8836217d69dce909dd73c7b4667d0ff41077f3",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "e21a58d1c4fe79b370362c45dc9ef8b4abc33dda",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF": {
+      "id": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "d141218a7afbe89c3eeec7f284ad9901ec456b91",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "jhone888/Ornith-1.5-35B-A3B-FULLY-OBLITERATED": {
+      "id": "jhone888/Ornith-1.5-35B-A3B-FULLY-OBLITERATED",
+      "external_to_watchset": true
+    },
+    "OBLITERATUS/Qwen3.6-27B-OBLITERATED": {
+      "id": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
+      "visibility": "public",
+      "revision": "b85c6304150be44ee02ab130a733f65bc562bbc6",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF": {
+      "id": "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "3249872a9237dd0fa87637d4de870c9f46aeb65d",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF": {
+      "id": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF",
+      "visibility": "public",
+      "revision": "01a19fb59c4130c1ae51b614eccc50dd62de4b02",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic": {
+      "id": "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
+      "visibility": "public",
+      "revision": "528121d7b0b85885a658dfe67e3643b8a4f9337e",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "48d28b9dd6aae718c3eaa54f149cc92c5e622195",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED": {
+      "id": "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED",
+      "visibility": "public",
+      "revision": "431d7d0c09be9d969b2816a4fdd41fecb3fc9479",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": {
+      "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "external_to_watchset": true
+    },
+    "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF": {
+      "id": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF",
+      "visibility": "public",
+      "revision": "eee7c1a5b34280252b44b1b16996d8edd2f76149",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "c41cec508ef90e1e0659408db0f0f0f2b5c62f25",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "shivanandasai/Qwen3.8-27B-OBLITERATED": {
+      "id": "shivanandasai/Qwen3.8-27B-OBLITERATED",
+      "visibility": "public",
+      "revision": "ded7432e88bc560e91c1dbf0d38e1e237bf0b812",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF": {
+      "id": "mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF",
+      "visibility": "public",
+      "revision": "b33ce592fa933acdf7d5a2a2ebbc16d792b55b09",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "3MPER0RR/Qwen3.8-27B-3MPER0RR-abliterated": {
+      "id": "3MPER0RR/Qwen3.8-27B-3MPER0RR-abliterated",
+      "external_to_watchset": true
+    },
+    "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF": {
+      "id": "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "22aecf47eb6799afabd593f27781e5ccbda3af2e",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "d009747b2476ba840d58c9d4557bfeac2b8880ff",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "1bb49d2489ad2aba9c1682e0dea8aac03b0d1b3b",
+      "license": "gemma",
+      "pipeline_tag": "text-generation"
+    },
+    "rafw007/qwen3-coder-next-80b-redteam-GGUF": {
+      "id": "rafw007/qwen3-coder-next-80b-redteam-GGUF",
+      "visibility": "public",
+      "revision": "dddcab7c496b8cbf9acf3f9301deac7e8b0c6f6d",
+      "license": "other",
+      "pipeline_tag": null
+    },
+    "Qwen/Qwen3-Coder-Next": {
+      "id": "Qwen/Qwen3-Coder-Next",
+      "external_to_watchset": true
+    },
+    "auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning": {
+      "id": "auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning",
+      "visibility": "public",
+      "revision": "5f74d466f0ab64a63647789949de0e25ffb212b7",
+      "license": null,
+      "pipeline_tag": "text-generation"
+    },
+    "meta-llama/Llama-3.3-70B-Instruct": {
+      "id": "meta-llama/Llama-3.3-70B-Instruct",
+      "external_to_watchset": true
+    },
+    "azminawwar/huihui-ai_Huihui-Qwen3.5-0.8B-abliterated_Ultimate-Offensive-Red-Team": {
+      "id": "azminawwar/huihui-ai_Huihui-Qwen3.5-0.8B-abliterated_Ultimate-Offensive-Red-Team",
+      "visibility": "public",
+      "revision": "7eed783a6dde94ef571ede000664bac9e901c25f",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF": {
+      "id": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF",
+      "visibility": "public",
+      "revision": "403e92ba21d2c51cf97a42ea0bfa4c45c0cb8589",
+      "license": "llama3.1",
+      "pipeline_tag": null
+    },
+    "LLM-PBE/Llama3.1-8b-instruct-LLMPC-Red-Team": {
+      "id": "LLM-PBE/Llama3.1-8b-instruct-LLMPC-Red-Team",
+      "external_to_watchset": true
+    },
+    "RedTeamLab/Qwen3.6-27B-redteam-v5": {
+      "id": "RedTeamLab/Qwen3.6-27B-redteam-v5",
+      "visibility": "public",
+      "revision": "4f85e1c392314884e744e98e50c1fa4a4d29ac88",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "RedTeamLab/Qwen3.5-4B-redteam-v4.1": {
+      "id": "RedTeamLab/Qwen3.5-4B-redteam-v4.1",
+      "visibility": "public",
+      "revision": "da254321778479247b67226fc5f19e2ac060e1af",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "LuisPPB16/Qwen3.5-9B-Red_Team": {
+      "id": "LuisPPB16/Qwen3.5-9B-Red_Team",
+      "visibility": "public",
+      "revision": "77fc46b121a2b9781dd5d91076bcaa3fc0ac2da6",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "RedTeamLab/Qwen3.6-27B-blueteam-v5": {
+      "id": "RedTeamLab/Qwen3.6-27B-blueteam-v5",
+      "visibility": "public",
+      "revision": "ec72a7347a86004baf9d03fa9b833682bbce8070",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF": {
+      "id": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF",
+      "visibility": "public",
+      "revision": "ce3273174ec72a75f0fc8034e83148fb4196b3c7",
+      "license": "llama3.1",
+      "pipeline_tag": null
+    },
+    "RedTeamLab/Gemma-4-12B-redteam-v5": {
+      "id": "RedTeamLab/Gemma-4-12B-redteam-v5",
+      "visibility": "public",
+      "revision": "e6255c92cf138daf312a2a81d80bb89d88f3f10b",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "unsloth/Gemma-4-12B-it": {
+      "id": "unsloth/Gemma-4-12B-it",
+      "external_to_watchset": true
+    },
+    "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf": {
+      "id": "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
+      "visibility": "public",
+      "revision": "41db3d9bd3263a57856059be39bb5205f5676600",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF": {
+      "id": "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
+      "visibility": "public",
+      "revision": "1816deaf90ddb3a3588807995eb4d2faacfd108a",
+      "license": "other",
+      "pipeline_tag": null
+    },
+    "Ironcybersec/foundation-sec-8b-red-team": {
+      "id": "Ironcybersec/foundation-sec-8b-red-team",
+      "external_to_watchset": true
+    },
+    "mradermacher/redteam-lexi-rl-GGUF": {
+      "id": "mradermacher/redteam-lexi-rl-GGUF",
+      "visibility": "public",
+      "revision": "176f8777cbb2dda991a8d4db578b90b8b0f63fec",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "edures/redteam-lexi-rl": {
+      "id": "edures/redteam-lexi-rl",
+      "external_to_watchset": true
+    },
+    "mradermacher/redteam-mistral-7b-v1-GGUF": {
+      "id": "mradermacher/redteam-mistral-7b-v1-GGUF",
+      "visibility": "public",
+      "revision": "56376882534ff3cedcd8db4adf00a0003568cf10",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "shri-ads/redteam-mistral-7b-v1": {
+      "id": "shri-ads/redteam-mistral-7b-v1",
+      "external_to_watchset": true
+    },
+    "mradermacher/RedTeamer-v1-GGUF": {
+      "id": "mradermacher/RedTeamer-v1-GGUF",
+      "visibility": "public",
+      "revision": "0dfc6479897556f2a1e721c06e544ac36471f9fb",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "LucidityAI/RedTeamer-v1": {
+      "id": "LucidityAI/RedTeamer-v1",
+      "external_to_watchset": true
+    },
+    "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
+      "id": "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
+      "visibility": "public",
+      "revision": "d6a9b3a9532cc0070a4378877db7b6e295b5b782",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3": {
+      "id": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
+      "visibility": "public",
+      "revision": "9846692fa35d68f03d50f6562a81e3e9833077d0",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "unsloth/gemma-4-E4B-it": {
+      "id": "unsloth/gemma-4-E4B-it",
+      "external_to_watchset": true
+    },
+    "Kakadutheking/redteam-lexi-rl-GGUF": {
+      "id": "Kakadutheking/redteam-lexi-rl-GGUF",
+      "visibility": "public",
+      "revision": "5de0bcf74c0550e82fe8d32ee2a9bcfe60327a25",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2": {
+      "id": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
+      "visibility": "public",
+      "revision": "a30b18a6b6b0911644668b7d4cdb2dc8c525e10d",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "RedTeamLab/Gemma-4-12B-Sol-Traces-v1": {
+      "id": "RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
+      "visibility": "public",
+      "revision": "9f11ceb4c14df74b53aefc44c5f4795711037674",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "unsloth/gemma-4-12B-it": {
+      "id": "unsloth/gemma-4-12B-it",
+      "external_to_watchset": true
+    },
+    "llm-semantic-router/mmbert32k-jailbreak-detector-merged": {
+      "id": "llm-semantic-router/mmbert32k-jailbreak-detector-merged",
+      "visibility": "public",
+      "revision": "7939c8eaff2d9dbb4f198e128cc3dde58ceb773b",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-classification"
+    },
+    "llm-semantic-router/mmbert-32k-yarn": {
+      "id": "llm-semantic-router/mmbert-32k-yarn",
+      "external_to_watchset": true
+    },
+    "madhurjindal/Jailbreak-Detector": {
+      "id": "madhurjindal/Jailbreak-Detector",
+      "visibility": "public",
+      "revision": "93883e180f4d6585a0afae703095ba4a9ebce888",
+      "license": "mit",
+      "pipeline_tag": "text-classification"
+    },
+    "distilbert/distilbert-base-cased": {
+      "id": "distilbert/distilbert-base-cased",
+      "external_to_watchset": true
+    },
+    "agustindxm/qwen-coder-jailbreak": {
+      "id": "agustindxm/qwen-coder-jailbreak",
+      "visibility": "public",
+      "revision": "7db1f9a103baac387d6b9c2ec87edc3442fd7202",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen2.5-Coder-7B-Instruct": {
+      "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "external_to_watchset": true
+    },
+    "jackhhao/jailbreak-classifier": {
+      "id": "jackhhao/jailbreak-classifier",
+      "visibility": "public",
+      "revision": "771aa6f1391933e7cba0b21f0f17750c7a74a901",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-classification"
+    },
+    "ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B": {
+      "id": "ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B",
+      "visibility": "public",
+      "revision": "16ae5bb8609865cd150665ff2ec09610f328a4a2",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF": {
+      "id": "mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF",
+      "visibility": "public",
+      "revision": "939f5f2635c63b7f6ce1a7b7fac04761bd0a0cba",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "alexwirrell/gemma-3-12b-it-jailbreak-ES": {
+      "id": "alexwirrell/gemma-3-12b-it-jailbreak-ES",
+      "external_to_watchset": true
+    },
+    "mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF": {
+      "id": "mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF",
+      "visibility": "public",
+      "revision": "aa6a46bfc571280230062ccade94c0c2e179fffb",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "alexwirrell/gemma-3-12b-it-jailbreak-EN": {
+      "id": "alexwirrell/gemma-3-12b-it-jailbreak-EN",
+      "external_to_watchset": true
+    },
+    "mradermacher/qwen2.5-jailbreak-i1-GGUF": {
+      "id": "mradermacher/qwen2.5-jailbreak-i1-GGUF",
+      "visibility": "public",
+      "revision": "ed97c5e88e8e8cebced8ff64f7c222ea634891fa",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Ysydy/qwen2.5-jailbreak": {
+      "id": "Ysydy/qwen2.5-jailbreak",
+      "external_to_watchset": true
+    },
+    "mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF": {
+      "id": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF",
+      "visibility": "public",
+      "revision": "77cd1d8fd77403ef4079d386a368a893def6a7b9",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Sanraj/Qwen3-1.7B-jailbreak-finetuned": {
+      "id": "Sanraj/Qwen3-1.7B-jailbreak-finetuned",
+      "external_to_watchset": true
+    },
+    "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF": {
+      "id": "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF",
+      "visibility": "public",
+      "revision": "815115b6567a329e31fdb05e95aa9a90c93e5be7",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "Sanraj/Qwen3-1.7B-Jailbreak-reasoning": {
+      "id": "Sanraj/Qwen3-1.7B-Jailbreak-reasoning",
+      "external_to_watchset": true
+    },
+    "madhurjindal/Jailbreak-Detector-Large": {
+      "id": "madhurjindal/Jailbreak-Detector-Large",
+      "visibility": "public",
+      "revision": "d6e5232b642c5b94540bf2d892eafb00748a2f63",
+      "license": "mit",
+      "pipeline_tag": "text-classification"
+    },
+    "microsoft/mdeberta-v3-base": {
+      "id": "microsoft/mdeberta-v3-base",
+      "external_to_watchset": true
+    },
+    "llm-semantic-router/jailbreak_classifier_modernbert-base_model": {
+      "id": "llm-semantic-router/jailbreak_classifier_modernbert-base_model",
+      "visibility": "public",
+      "revision": "184f6772b740349c7aaea3320adaea6965f48f12",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF": {
+      "id": "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF",
+      "visibility": "public",
+      "revision": "d7e41a621a1eefe5e4a239d34f106f718d48d9a6",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF": {
+      "id": "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF",
+      "visibility": "public",
+      "revision": "6a3d059d5dca4072ede6500984a8643454561069",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1": {
+      "id": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
+      "visibility": "public",
+      "revision": "d196abba3a99cf70d8f20e710da07ac212a87490",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "ibm-granite/granite-3.3-2b-instruct": {
+      "id": "ibm-granite/granite-3.3-2b-instruct",
+      "external_to_watchset": true
+    },
+    "mradermacher/qwen2.5-jailbreak-GGUF": {
+      "id": "mradermacher/qwen2.5-jailbreak-GGUF",
+      "visibility": "public",
+      "revision": "4066c7b8448859085a4097f37e853127ea762e7e",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mradermacher/Jailbreak-generator-GGUF": {
+      "id": "mradermacher/Jailbreak-generator-GGUF",
+      "visibility": "public",
+      "revision": "4029d7d20514a5de91499529b644d954c6240824",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "tsq2000/Jailbreak-generator": {
+      "id": "tsq2000/Jailbreak-generator",
+      "external_to_watchset": true
+    },
+    "J1244/qwen2.5-jailbreak-Q8_0-GGUF": {
+      "id": "J1244/qwen2.5-jailbreak-Q8_0-GGUF",
+      "visibility": "public",
+      "revision": "fc1fd22aff8e8a2a2e3d3fa9b591832a02592d51",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "zemelee/qwen2.5-jailbreak": {
+      "id": "zemelee/qwen2.5-jailbreak",
+      "external_to_watchset": true
+    },
+    "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF": {
+      "id": "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF",
+      "visibility": "public",
+      "revision": "785c9dc7a58507b8db76a57a25f934e824c7815e",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "kotekjedi/qwen3-32b-lora-jailbreak-detection-merged_v2": {
+      "id": "kotekjedi/qwen3-32b-lora-jailbreak-detection-merged_v2",
+      "external_to_watchset": true
+    },
+    "R41NH4RD/Qwen3-4B-Refusal-Removed": {
+      "id": "R41NH4RD/Qwen3-4B-Refusal-Removed",
+      "visibility": "public",
+      "revision": "b6941316a22c8e0f6e4635abbc30cce0f3fb511e",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-4B": {
+      "id": "Qwen/Qwen3-4B",
+      "external_to_watchset": true
+    },
+    "R41NH4RD/Qwen3-1.7B-Refusal-Removed": {
+      "id": "R41NH4RD/Qwen3-1.7B-Refusal-Removed",
+      "visibility": "public",
+      "revision": "02938c5a7b5709090486127a44fe852e3de99916",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-1.7B": {
+      "id": "Qwen/Qwen3-1.7B",
+      "external_to_watchset": true
+    },
+    "sentence-transformers/all-MiniLM-L6-v2": {
+      "id": "sentence-transformers/all-MiniLM-L6-v2",
+      "visibility": "public",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "license": "apache-2.0",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "nreimers/MiniLM-L6-H384-uncased": {
+      "id": "nreimers/MiniLM-L6-H384-uncased",
+      "external_to_watchset": true
+    },
+    "cross-encoder/ms-marco-MiniLM-L6-v2": {
+      "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "visibility": "public",
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-ranking"
+    },
+    "cross-encoder/ms-marco-MiniLM-L12-v2": {
+      "id": "cross-encoder/ms-marco-MiniLM-L12-v2",
+      "external_to_watchset": true
+    },
+    "BAAI/bge-small-en-v1.5": {
+      "id": "BAAI/bge-small-en-v1.5",
+      "visibility": "public",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "license": "mit",
+      "pipeline_tag": "feature-extraction"
+    },
+    "google/electra-base-discriminator": {
+      "id": "google/electra-base-discriminator",
+      "visibility": "public",
+      "revision": "1ae76a97c7e84a4e640876a07453fccd636f0667",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "google-bert/bert-base-uncased": {
+      "id": "google-bert/bert-base-uncased",
+      "visibility": "public",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "license": "apache-2.0",
+      "pipeline_tag": "fill-mask"
+    },
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+      "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "visibility": "public",
+      "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "license": "apache-2.0",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "BAAI/bge-m3": {
+      "id": "BAAI/bge-m3",
+      "visibility": "public",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "license": "mit",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "google-t5/t5-small": {
+      "id": "google-t5/t5-small",
+      "visibility": "public",
+      "revision": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
+      "license": "apache-2.0",
+      "pipeline_tag": "translation"
+    },
+    "sentence-transformers/all-mpnet-base-v2": {
+      "id": "sentence-transformers/all-mpnet-base-v2",
+      "visibility": "public",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "license": "apache-2.0",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "amazon/chronos-2": {
+      "id": "amazon/chronos-2",
+      "visibility": "public",
+      "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+      "license": "apache-2.0",
+      "pipeline_tag": "time-series-forecasting"
+    },
+    "FacebookAI/xlm-roberta-base": {
+      "id": "FacebookAI/xlm-roberta-base",
+      "visibility": "public",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "license": "mit",
+      "pipeline_tag": "fill-mask"
+    },
+    "openai/clip-vit-base-patch32": {
+      "id": "openai/clip-vit-base-patch32",
+      "visibility": "public",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "license": null,
+      "pipeline_tag": "zero-shot-image-classification"
+    },
+    "Qwen/Qwen3-0.6B-Base": {
+      "id": "Qwen/Qwen3-0.6B-Base",
+      "external_to_watchset": true
+    },
+    "Comfy-Org/MiniMax-H3": {
+      "id": "Comfy-Org/MiniMax-H3",
+      "visibility": "public",
+      "revision": "7e75982b97cd5a41d2dcfa1904ee88d0686d6fd1",
+      "license": "other",
+      "pipeline_tag": null
+    },
+    "MiniMaxAI/MiniMax-H3": {
+      "id": "MiniMaxAI/MiniMax-H3",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-VL-8B-Instruct": {
+      "id": "Qwen/Qwen3-VL-8B-Instruct",
+      "visibility": "public",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "BAAI/bge-reranker-v2-m3": {
+      "id": "BAAI/bge-reranker-v2-m3",
+      "visibility": "public",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-classification"
+    },
+    "timm/mobilenetv3_small_100.lamb_in1k": {
+      "id": "timm/mobilenetv3_small_100.lamb_in1k",
+      "visibility": "public",
+      "revision": "1824797e7887cbec1990e4adbd6675960a36c589",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-classification"
+    },
+    "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
+      "id": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+      "visibility": "public",
+      "revision": "cf031e020336460d15a417eba710bbc5bb43be9a",
+      "license": "apache-2.0",
+      "pipeline_tag": "automatic-speech-recognition"
+    },
+    "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
+      "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+      "visibility": "public",
+      "revision": "ce8d0bf270b28c8fab026ced69fe8aa14b0f0eda",
+      "license": null,
+      "pipeline_tag": "text-generation"
+    },
+    "Comfy-Org/stable-diffusion-v1-5-archive": {
+      "id": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "visibility": "public",
+      "revision": "9cfd069101959ca3828bf9c04a4419870832b74f",
+      "license": "creativeml-openrail-m",
+      "pipeline_tag": null
+    },
+    "openai-community/gpt2": {
+      "id": "openai-community/gpt2",
+      "visibility": "public",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "nomic-ai/nomic-embed-text-v1.5": {
+      "id": "nomic-ai/nomic-embed-text-v1.5",
+      "visibility": "public",
+      "revision": "e9b6763023c676ca8431644204f50c2b100d9aab",
+      "license": "apache-2.0",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "Qwen/Qwen3-8B": {
+      "id": "Qwen/Qwen3-8B",
+      "visibility": "public",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-8B-Base": {
+      "id": "Qwen/Qwen3-8B-Base",
+      "external_to_watchset": true
+    },
+    "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF": {
+      "id": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "visibility": "public",
+      "revision": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-Coder-30B-A3B-Instruct": {
+      "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "external_to_watchset": true
+    },
+    "timm/efficientnet_b3.ra2_in1k": {
+      "id": "timm/efficientnet_b3.ra2_in1k",
+      "visibility": "public",
+      "revision": "0366a75518620e0f2077789202073759f2d61393",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-classification"
+    },
+    "intfloat/multilingual-e5-small": {
+      "id": "intfloat/multilingual-e5-small",
+      "visibility": "public",
+      "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "license": "mit",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "id": "BAAI/bge-large-en-v1.5",
+      "visibility": "public",
+      "revision": "d4aa6901d3a41ba39fb536a557fa166f842b0e09",
+      "license": "mit",
+      "pipeline_tag": "feature-extraction"
+    },
+    "hexgrad/Kokoro-82M": {
+      "id": "hexgrad/Kokoro-82M",
+      "visibility": "public",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-to-speech"
+    },
+    "yl4579/StyleTTS2-LJSpeech": {
+      "id": "yl4579/StyleTTS2-LJSpeech",
+      "external_to_watchset": true
+    },
+    "argmaxinc/whisperkit-coreml": {
+      "id": "argmaxinc/whisperkit-coreml",
+      "visibility": "public",
+      "revision": "0f63a7800b00dd0226abd051b906c246e1907482",
+      "license": "mit",
+      "pipeline_tag": "automatic-speech-recognition"
+    },
+    "Qwen/Qwen3.6-35B-A3B-FP8": {
+      "id": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "visibility": "public",
+      "revision": "95a723d08a9490559dae23d0cff1d9466213d989",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "BAAI/bge-base-en-v1.5": {
+      "id": "BAAI/bge-base-en-v1.5",
+      "visibility": "public",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "license": "mit",
+      "pipeline_tag": "feature-extraction"
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "visibility": "public",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen2.5-7B": {
+      "id": "Qwen/Qwen2.5-7B",
+      "external_to_watchset": true
+    },
+    "Bingsu/adetailer": {
+      "id": "Bingsu/adetailer",
+      "visibility": "public",
+      "revision": "53cc19de382014514d9d4038601d261a7faa9b7b",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Qwen/Qwen3.5-9B-Base": {
+      "id": "Qwen/Qwen3.5-9B-Base",
+      "external_to_watchset": true
+    },
+    "unsloth/Qwen3.8-27B-GGUF": {
+      "id": "unsloth/Qwen3.8-27B-GGUF",
+      "visibility": "public",
+      "revision": "4ca720788d1e01f1bff70c033e0d0028fd02e502",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2": {
+      "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "visibility": "public",
+      "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+      "license": "apache-2.0",
+      "pipeline_tag": "sentence-similarity"
+    },
+    "google/gemma-4-26B-A4B": {
+      "id": "google/gemma-4-26B-A4B",
+      "external_to_watchset": true
+    },
+    "amazon/chronos-bolt-small": {
+      "id": "amazon/chronos-bolt-small",
+      "visibility": "public",
+      "revision": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+      "license": "apache-2.0",
+      "pipeline_tag": "time-series-forecasting"
+    },
+    "google/gemma-4-31B": {
+      "id": "google/gemma-4-31B",
+      "external_to_watchset": true
+    },
+    "autogluon/chronos-2": {
+      "id": "autogluon/chronos-2",
+      "visibility": "public",
+      "revision": "60088152a34e242427b44c3100014473a0157d53",
+      "license": "apache-2.0",
+      "pipeline_tag": "time-series-forecasting"
+    },
+    "nvidia/Qwen3.6-35B-A3B-NVFP4": {
+      "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "visibility": "public",
+      "revision": "1355db6a052410cfd62085d94b58866fd0f2c3c5",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "pyannote/speaker-diarization-3.1": {
+      "id": "pyannote/speaker-diarization-3.1",
+      "visibility": "public",
+      "revision": "84fd25912480287da0247647c3d2b4853cb3ee5d",
+      "license": "mit",
+      "pipeline_tag": "automatic-speech-recognition"
+    },
+    "Qwen/Qwen3-Embedding-0.6B": {
+      "id": "Qwen/Qwen3-Embedding-0.6B",
+      "visibility": "public",
+      "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "license": "apache-2.0",
+      "pipeline_tag": "feature-extraction"
+    },
+    "openai/clip-vit-large-patch14": {
+      "id": "openai/clip-vit-large-patch14",
+      "visibility": "public",
+      "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+      "license": null,
+      "pipeline_tag": "zero-shot-image-classification"
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "visibility": "public",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen2.5-0.5B": {
+      "id": "Qwen/Qwen2.5-0.5B",
+      "external_to_watchset": true
+    },
+    "laion/clap-htsat-fused": {
+      "id": "laion/clap-htsat-fused",
+      "visibility": "public",
+      "revision": "365dea6ef167def6676140ed93bbc43f84dabb28",
+      "license": "apache-2.0",
+      "pipeline_tag": "audio-classification"
+    },
+    "facebook/contriever": {
+      "id": "facebook/contriever",
+      "visibility": "public",
+      "revision": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Comfy-Org/Krea-2": {
+      "id": "Comfy-Org/Krea-2",
+      "visibility": "public",
+      "revision": "e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96",
+      "license": "other",
+      "pipeline_tag": null
+    },
+    "krea/Krea-2-Raw": {
+      "id": "krea/Krea-2-Raw",
+      "external_to_watchset": true
+    },
+    "krea/Krea-2-Turbo": {
+      "id": "krea/Krea-2-Turbo",
+      "external_to_watchset": true
+    },
+    "facebook/opt-125m": {
+      "id": "facebook/opt-125m",
+      "visibility": "public",
+      "revision": "27dcfa74d334bc871f3234de431e71c6eeba5dd6",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3.8-27B-FP8": {
+      "id": "Qwen/Qwen3.8-27B-FP8",
+      "visibility": "public",
+      "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
+      "id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
+      "id": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
+      "id": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
+      "id": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
+      "id": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
+      "id": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "databricks/dolly-v1-6b": {
+      "id": "databricks/dolly-v1-6b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "databricks/dolly-v2-12b": {
+      "id": "databricks/dolly-v2-12b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "databricks/dolly-v2-3b": {
+      "id": "databricks/dolly-v2-3b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "databricks/dolly-v2-7b": {
+      "id": "databricks/dolly-v2-7b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "databricks/dbrx-base": {
+      "id": "databricks/dbrx-base",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "databricks/dbrx-instruct": {
+      "id": "databricks/dbrx-instruct",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mosaicml/mpt-30b": {
+      "id": "mosaicml/mpt-30b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mosaicml/mpt-30b-chat": {
+      "id": "mosaicml/mpt-30b-chat",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mosaicml/mpt-30b-instruct": {
+      "id": "mosaicml/mpt-30b-instruct",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mosaicml/mpt-7b": {
+      "id": "mosaicml/mpt-7b",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mosaicml/mpt-7b-instruct": {
+      "id": "mosaicml/mpt-7b-instruct",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "mosaicml/mpt-7b-storywriter": {
+      "id": "mosaicml/mpt-7b-storywriter",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "stabilityai/stable-diffusion-2": {
+      "id": "stabilityai/stable-diffusion-2",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "stabilityai/stable-diffusion-2-1-base": {
+      "id": "stabilityai/stable-diffusion-2-1-base",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "stabilityai/stable-diffusion-2-inpainting": {
+      "id": "stabilityai/stable-diffusion-2-inpainting",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "runwayml/stable-diffusion-v1-4": {
+      "id": "runwayml/stable-diffusion-v1-4",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "WizardLMTeam/WizardLM-2-70B": {
+      "id": "WizardLMTeam/WizardLM-2-70B",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "WizardLMTeam/WizardLM-2-7B": {
+      "id": "WizardLMTeam/WizardLM-2-7B",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "WizardLMTeam/WizardLM-2-8x22B": {
+      "id": "WizardLMTeam/WizardLM-2-8x22B",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "microsoft/WizardLM-2-7B": {
+      "id": "microsoft/WizardLM-2-7B",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "microsoft/WizardLM-2-8x22B": {
+      "id": "microsoft/WizardLM-2-8x22B",
+      "visibility": "private",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "audnai/penclaw-GLM-5.3-abliterated": {
+      "id": "audnai/penclaw-GLM-5.3-abliterated",
+      "visibility": "public",
+      "revision": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "audnai/penclaw-Kimi-K3.0-abliterated-GGUF": {
+      "id": "audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "a25be9b42b5e0396728c3997d56ea1dd4c608c05",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF": {
+      "id": "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "7f7535bff0c301ec99fd3a8124aa4a48f50dfbde",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "AlicanKiraz0/BaronLLM_Offensive_Security_LLM_Q6_K_GGUF": {
+      "id": "AlicanKiraz0/BaronLLM_Offensive_Security_LLM_Q6_K_GGUF",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Qwen3-8B-abliterated": {
+      "id": "huihui-ai/Qwen3-8B-abliterated",
+      "visibility": "public",
+      "revision": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "orcarouter/Qwen3.8-27B-Uncensored": {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored",
+      "visibility": "public",
+      "revision": "404ea47aaa5d8a8b00049c9e9750089aca011ab2",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "RedTeamLab/Gemma-4-26B-Sol-Traces-v1": {
+      "id": "RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
+      "visibility": "public",
+      "revision": "ab70e5b959056dc796ccaba251da9d21e92f75b9",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "unsloth/gemma-4-26B-A4B-it": {
+      "id": "unsloth/gemma-4-26B-A4B-it",
+      "external_to_watchset": true
+    },
+    "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF": {
+      "id": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF",
+      "visibility": "public",
+      "revision": "9e755a63b8487fc1be0c7c9e3a94f50d66f63b25",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    }
+  },
+  "edges": [
+    {
+      "from": "zai-org/GLM-5.3",
+      "to": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-0.6B",
+      "to": "rogue-security/prompt-injection-jailbreak-sentinel-v2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mistralai/Mistral-7B-v0.1",
+      "to": "HuggingFaceH4/zephyr-7b-beta",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mlabonne/Daredevil-8B-abliterated",
+      "to": "mlabonne/NeuralDaredevil-8B-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mistralai/Mistral-7B-v0.1",
+      "to": "teknium/OpenHermes-2.5-Mistral-7B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mistralai/Mixtral-8x7B-v0.1",
+      "to": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-e4b-it",
+      "to": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP",
+      "to": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-35B-A3B",
+      "to": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+      "to": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP",
+      "to": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-9B",
+      "to": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-12B-it",
+      "to": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "to": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-26B-A4B-it",
+      "to": "HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking",
+      "to": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking",
+      "to": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-31B-it",
+      "to": "HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-26B-A4B-it",
+      "to": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-27B",
+      "to": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-E4B-it",
+      "to": "llmfan46/gemma-4-E4B-it-uncensored-heretic",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "trohrbaugh/Qwen3.5-9B-heretic-v2",
+      "to": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-122B-A10B",
+      "to": "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "to": "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-31B-it",
+      "to": "TrevorJS/gemma-4-31B-it-uncensored",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic",
+      "to": "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-Flash-Next",
+      "to": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepreinforce-ai/Ornith-1.0-35B",
+      "to": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "JonathanColetti/Qwen3.8-27B-Uncensored",
+      "to": "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.6-27B-abliterated",
+      "to": "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-27B",
+      "to": "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-35B-A3B",
+      "to": "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1",
+      "to": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "to": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-31B-it",
+      "to": "wangzhang/gemma-4-31B-it-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-BF16",
+      "to": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "culturerevolt/gemma-4-12b-heretic-abliterated",
+      "to": "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-30B-A3B",
+      "to": "mlabonne/Qwen3-30B-A3B-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V4-Flash",
+      "to": "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
+      "to": "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mlabonne/gemma-3-12b-it-abliterated",
+      "to": "jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-27B",
+      "to": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "trohrbaugh/gemma-4-31b-it-heretic-ara",
+      "to": "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated",
+      "to": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Ornith-1.5-9B-abliterated",
+      "to": "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "to": "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "JonathanColetti/Qwen3.8-27B-Uncensored",
+      "to": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Llama-3.3-70B-Instruct-abliterated",
+      "to": "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+      "to": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "oyildirim/CyberStrike-OffSec-35B",
+      "to": "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ornith-ai/Ornith-1.5-35B-A3B",
+      "to": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "to": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ornith-ai/Ornith-1.5-35B-A3B",
+      "to": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-31B-it",
+      "to": "paperscarecrow/Gemma-4-31B-it-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.5-9B-abliterated",
+      "to": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ornith-ai/Ornith-1.5-9B",
+      "to": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-E4B-it",
+      "to": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-12B-it",
+      "to": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "jhone888/Ornith-1.5-35B-A3B-FULLY-OBLITERATED",
+      "to": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-27B",
+      "to": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
+      "to": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "jhone888/Ornith-1.5-35B-A3B-FULLY-OBLITERATED",
+      "to": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "to": "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
+      "to": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+      "to": "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "shivanandasai/Qwen3.8-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "3MPER0RR/Qwen3.8-27B-3MPER0RR-abliterated",
+      "to": "mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+      "to": "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "to": "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+      "to": "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-Coder-Next",
+      "to": "rafw007/qwen3-coder-next-80b-redteam-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "meta-llama/Llama-3.3-70B-Instruct",
+      "to": "auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "LLM-PBE/Llama3.1-8b-instruct-LLMPC-Red-Team",
+      "to": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-27B",
+      "to": "RedTeamLab/Qwen3.6-27B-redteam-v5",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-27B",
+      "to": "RedTeamLab/Qwen3.6-27B-blueteam-v5",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "LLM-PBE/Llama3.1-8b-instruct-LLMPC-Red-Team",
+      "to": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "unsloth/Gemma-4-12B-it",
+      "to": "RedTeamLab/Gemma-4-12B-redteam-v5",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Ironcybersec/foundation-sec-8b-red-team",
+      "to": "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "edures/redteam-lexi-rl",
+      "to": "mradermacher/redteam-lexi-rl-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "shri-ads/redteam-mistral-7b-v1",
+      "to": "mradermacher/redteam-mistral-7b-v1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "LucidityAI/RedTeamer-v1",
+      "to": "mradermacher/RedTeamer-v1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "unsloth/gemma-4-E4B-it",
+      "to": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "edures/redteam-lexi-rl",
+      "to": "Kakadutheking/redteam-lexi-rl-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "unsloth/gemma-4-E4B-it",
+      "to": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "unsloth/gemma-4-12B-it",
+      "to": "RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "llm-semantic-router/mmbert-32k-yarn",
+      "to": "llm-semantic-router/mmbert32k-jailbreak-detector-merged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "distilbert/distilbert-base-cased",
+      "to": "madhurjindal/Jailbreak-Detector",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "to": "agustindxm/qwen-coder-jailbreak",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alexwirrell/gemma-3-12b-it-jailbreak-ES",
+      "to": "mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alexwirrell/gemma-3-12b-it-jailbreak-EN",
+      "to": "mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Ysydy/qwen2.5-jailbreak",
+      "to": "mradermacher/qwen2.5-jailbreak-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Sanraj/Qwen3-1.7B-jailbreak-finetuned",
+      "to": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Sanraj/Qwen3-1.7B-Jailbreak-reasoning",
+      "to": "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "microsoft/mdeberta-v3-base",
+      "to": "madhurjindal/Jailbreak-Detector-Large",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Sanraj/Qwen3-1.7B-Jailbreak-reasoning",
+      "to": "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alexwirrell/gemma-3-12b-it-jailbreak-EN",
+      "to": "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ibm-granite/granite-3.3-2b-instruct",
+      "to": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Ysydy/qwen2.5-jailbreak",
+      "to": "mradermacher/qwen2.5-jailbreak-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "tsq2000/Jailbreak-generator",
+      "to": "mradermacher/Jailbreak-generator-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "zemelee/qwen2.5-jailbreak",
+      "to": "J1244/qwen2.5-jailbreak-Q8_0-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "kotekjedi/qwen3-32b-lora-jailbreak-detection-merged_v2",
+      "to": "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-4B",
+      "to": "R41NH4RD/Qwen3-4B-Refusal-Removed",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-1.7B",
+      "to": "R41NH4RD/Qwen3-1.7B-Refusal-Removed",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nreimers/MiniLM-L6-H384-uncased",
+      "to": "sentence-transformers/all-MiniLM-L6-v2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "cross-encoder/ms-marco-MiniLM-L12-v2",
+      "to": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-0.6B-Base",
+      "to": "Qwen/Qwen3-0.6B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "MiniMaxAI/MiniMax-H3",
+      "to": "Comfy-Org/MiniMax-H3",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "runwayml/stable-diffusion-v1-5",
+      "to": "Comfy-Org/stable-diffusion-v1-5-archive",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-8B-Base",
+      "to": "Qwen/Qwen3-8B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "to": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "yl4579/StyleTTS2-LJSpeech",
+      "to": "hexgrad/Kokoro-82M",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-35B-A3B",
+      "to": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-7B",
+      "to": "Qwen/Qwen2.5-7B-Instruct",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-9B-Base",
+      "to": "Qwen/Qwen3.5-9B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "unsloth/Qwen3.8-27B-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-26B-A4B",
+      "to": "google/gemma-4-26B-A4B-it",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-31B",
+      "to": "google/gemma-4-31B-it",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-35B-A3B",
+      "to": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-0.6B-Base",
+      "to": "Qwen/Qwen3-Embedding-0.6B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-0.5B",
+      "to": "Qwen/Qwen2.5-0.5B-Instruct",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "krea/Krea-2-Raw",
+      "to": "Comfy-Org/Krea-2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "krea/Krea-2-Turbo",
+      "to": "Comfy-Org/Krea-2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "Qwen/Qwen3.8-27B-FP8",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "AlicanKiraz0/BaronLLM_Offensive_Security_LLM_Q6_K_GGUF",
+      "to": "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-8B",
+      "to": "huihui-ai/Qwen3-8B-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "orcarouter/Qwen3.8-27B-Uncensored",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "unsloth/gemma-4-26B-A4B-it",
+      "to": "RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Sanraj/Qwen3-1.7B-jailbreak-finetuned",
+      "to": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    }
+  ]
 }

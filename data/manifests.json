@@ -1,5 +1,3667 @@
 {
   "schema": "hf-vanished.manifest.v1",
-  "generated_at": null,
-  "models": {}
+  "generated_at": "2026-09-16T14:53:14Z",
+  "models": {
+    "Aeala/ShareGPT_Vicuna_unfiltered": {
+      "captured_at": "2026-09-16T14:52:38Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "81ed728059dd587b948beb603b023833cd18606591c6126630f7593c69385e74"
+    },
+    "OpenAssistant/oasst-sft-6-llama-30b": {
+      "captured_at": "2026-09-16T14:52:39Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "a2b38c1af65f9de1205f22b90cae1aa9a00c368443407878d84d0b7b6da54304"
+    },
+    "Undi95/LLaMA-2-13B-GPTQ": {
+      "captured_at": "2026-09-16T14:52:39Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "e9c7ed94eea3cee9ba4cf930474e56dd2ce012c153bf1b8f8bdc19f039334648"
+    },
+    "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
+      "captured_at": "2026-09-16T14:52:39Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "3552273cd57c2aac662f647e62058bcb3bb53107a16e98e7f2f6091aaae67257"
+    },
+    "WizardLM/WizardLM-7B-V1.0": {
+      "captured_at": "2026-09-16T14:52:40Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "d074cbc0a25657e9a59683e0cfdbd081cf6721288561ca329dea3fdaf8252450"
+    },
+    "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
+      "captured_at": "2026-09-16T14:52:40Z",
+      "revision": "e8e68a646dce5bda37533d9e0074a3cb2d4be28c",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 449,
+      "weight_count": 423,
+      "truncated": true,
+      "files": [
+        {
+          "path": "iter11_dense29_a1.4/model-00001-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00002-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00003-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00004-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00005-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00006-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00007-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00008-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00009-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00010-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00011-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00012-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00013-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00014-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00015-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00016-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00017-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00018-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00019-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00020-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00021-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00022-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00023-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00024-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00025-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00026-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00027-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00028-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00029-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00030-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00031-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00032-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00033-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00034-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00035-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00036-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00037-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00038-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00039-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00040-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00041-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00042-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00043-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00044-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00045-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00046-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00047-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00048-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00049-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00050-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00051-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00052-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00053-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00054-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00055-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00056-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00057-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00058-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00059-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00060-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00061-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00062-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00063-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00064-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00065-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00066-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00067-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00068-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00069-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00070-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00071-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00072-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00073-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00074-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00075-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00076-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00077-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00078-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00079-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00080-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00081-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00082-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00083-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00084-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00085-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00086-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00087-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00088-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00089-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00090-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00091-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00092-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00093-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00094-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00095-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "iter11_dense29_a1.4/model-00096-of-00141.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "81eac4c8733e906554d1ff821375e5b65e2f29a0caad06d780f81e233a30f4cf"
+    },
+    "databricks/dolly-v1-6b": {
+      "captured_at": "2026-09-16T14:52:40Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "d1c14fad063b3b7a4f592293f059124056b1cde7ab84473aa7a82e7f8331fc3c"
+    },
+    "databricks/dolly-v2-12b": {
+      "captured_at": "2026-09-16T14:52:41Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "2d8ffe151f79de3c23272c4f4ebc7ad7cd94012f99536e35c6ecaafeb2740531"
+    },
+    "databricks/dolly-v2-3b": {
+      "captured_at": "2026-09-16T14:52:41Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "bb9c7de66f04adab9d28cb7bd204b64204fdd1ec53897e18cef534961c05d6d1"
+    },
+    "databricks/dolly-v2-7b": {
+      "captured_at": "2026-09-16T14:52:41Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "958a81330b05a6f05a08b78b71031d3e030ab8b6b62c0b138106f568e07f3479"
+    },
+    "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
+      "captured_at": "2026-09-16T14:52:42Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "95ec0df42bafeb675e6d8329b266223cb0cfd32142687e503b53963e42a63a7f"
+    },
+    "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
+      "captured_at": "2026-09-16T14:52:42Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "aa6010353be19cbe00b508661400940fa3f0d229e11ea42291b4e5ef85672a90"
+    },
+    "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
+      "captured_at": "2026-09-16T14:52:42Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "e20cace4d2ddbd7ab3df895f742a10558134e269c45e21d0dcd307c2e08c3a14"
+    },
+    "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
+      "captured_at": "2026-09-16T14:52:43Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "b405cf735ade3a4c0308c3a723b45fdbf4a0beb4ba5a0ba2a01d29de99d22f0d"
+    },
+    "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
+      "captured_at": "2026-09-16T14:52:43Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "292e53f3253b2faa4909edcc3d54ba6c84538ade24de590ef23786187aba1b03"
+    },
+    "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
+      "captured_at": "2026-09-16T14:52:44Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "99bdc31bf97165472cb9a661f0190eb71c6889a7f8c8879a0a94b8c0e2cf214b"
+    },
+    "mosaicml/mpt-7b-chat": {
+      "captured_at": "2026-09-16T14:52:44Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "9fe90a9a4920936226139c62935c7e024471396f424d5a7eab3b22417c0d5edd"
+    },
+    "stabilityai/stable-diffusion-2-1": {
+      "captured_at": "2026-09-16T14:52:44Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "5dfaf2914d24b2e39d69df344d54ded889b4a00cfac0d60205383b6fbe50a6b7"
+    },
+    "tencent/HunyuanDiT": {
+      "captured_at": "2026-09-16T14:52:45Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "9cd205034e8326c54ffbd964a615734276521a455339a29745858c93a2339940"
+    },
+    "databricks/dbrx-base": {
+      "captured_at": "2026-09-16T14:52:45Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "9c0b80429c49eb5216f651094af15170faf2a66039ec60e2454679a21c60ecf0"
+    },
+    "databricks/dbrx-instruct": {
+      "captured_at": "2026-09-16T14:52:45Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "4e696ef8ace5aa7f2144f4939bbab1125c8871f57cc5e96e23b11d078517bd60"
+    },
+    "mosaicml/mpt-30b": {
+      "captured_at": "2026-09-16T14:52:46Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "fbad2702acf33c6ad40305db8281a28ca5a873f740a1f16210dc221fd925b6b2"
+    },
+    "mosaicml/mpt-30b-chat": {
+      "captured_at": "2026-09-16T14:52:46Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "e2df6dd8124fad42e1639ceeea53abca4ab45fc23279a6502ee8d5cccd4d9777"
+    },
+    "mosaicml/mpt-30b-instruct": {
+      "captured_at": "2026-09-16T14:52:46Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "2646f9dffc39f04fad7f4e94fac5bbcc01be41decd956d561d7fdf817c2dcc91"
+    },
+    "mosaicml/mpt-7b": {
+      "captured_at": "2026-09-16T14:52:47Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "c2811184aa3ca91fd5959cf19d58929e27fa49eb06b782422bb5f6be3f5fd795"
+    },
+    "mosaicml/mpt-7b-instruct": {
+      "captured_at": "2026-09-16T14:52:47Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "9819ce0b705505bcf15cd05d6147532f2323f852d99d061b60ab07637dfc2248"
+    },
+    "mosaicml/mpt-7b-storywriter": {
+      "captured_at": "2026-09-16T14:52:47Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "2d098b2203a49a9c4323f1a870b497f428721a55a310259afb7d4f791a501c52"
+    },
+    "stabilityai/stable-diffusion-2": {
+      "captured_at": "2026-09-16T14:52:48Z",
+      "revision": "main",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 0,
+      "weight_count": 0,
+      "truncated": false,
+      "files": [],
+      "root_sha256": "e0eb396493cd453975c09c4ddd8d7b2bb4e2a43fd9800ffdfa09ebbf12e2b5f0"
+    },
+    "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
+      "captured_at": "2026-09-16T14:52:49Z",
+      "revision": "20b94f0613b632b4848bbe3b1e05d9ee0c2b1608",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 110,
+      "weight_count": 107,
+      "truncated": true,
+      "files": [
+        {
+          "path": "Qwen3.8-27B-Heretic-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-BF16-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-F16-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_M-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_M-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_M-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ1_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_M-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_M-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_M-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XS-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XS-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XS-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XXS-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XXS-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XXS-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ2_XXS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_M-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_M-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_M-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XS-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XS-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XS-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XXS-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XXS-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XXS-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ3_XXS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_NL-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_NL-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_NL-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_XS-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_XS-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_XS-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q2_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_L-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_L-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_L-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_L.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_M-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_M-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_M-multilingual-vision.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_M-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_M-vision.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q3_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_M-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_M-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_M-multilingual-vision.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_M-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_M-vision.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_M-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_M-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_M-multilingual-vision.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_M-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_M-vision.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_S-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_S-multilingual-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_S-multilingual.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "RVN-Q6_K-mtp.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "3ae1f5eba82202c6bd75334de86bb6fd01900c3398b0209c405e1f2c94d18877"
+    },
+    "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
+      "captured_at": "2026-09-16T14:52:50Z",
+      "revision": "7ddff52cbacb97c93d8110ae6a3352914021e132",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 14,
+      "weight_count": 2,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "65047d3608905f7d529c7b52a8ed8269c6f919e225a9ff606aa90b7994d943b6"
+    },
+    "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED": {
+      "captured_at": "2026-09-16T14:52:51Z",
+      "revision": "431d7d0c09be9d969b2816a4fdd41fecb3fc9479",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 15,
+      "weight_count": 5,
+      "truncated": false,
+      "files": [
+        {
+          "path": "DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "e4f8fa27173a930d11f97205ec2d3c21d5a8443daef959c8d431dffe77f46e6b"
+    },
+    "BAAI/bge-base-en-v1.5": {
+      "captured_at": "2026-09-16T14:52:53Z",
+      "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 14,
+      "weight_count": 2,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "f915bc81beb6e8bb0a41f60268da7691a5afe87103a2c0e3466bf0b09a226cd0"
+    },
+    "BAAI/bge-large-en-v1.5": {
+      "captured_at": "2026-09-16T14:52:54Z",
+      "revision": "d4aa6901d3a41ba39fb536a557fa166f842b0e09",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 14,
+      "weight_count": 2,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "cfa763b6dc1fc7e3d91d171f4cb05b823d64487922917c86ca354dc07afae65d"
+    },
+    "BAAI/bge-m3": {
+      "captured_at": "2026-09-16T14:52:56Z",
+      "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 30,
+      "weight_count": 3,
+      "truncated": false,
+      "files": [
+        {
+          "path": "colbert_linear.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "sparse_linear.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "5501d6c5b7566e4b743320ef118771a8d20f7304b9c528df35a1120b16f11c1d"
+    },
+    "BAAI/bge-reranker-v2-m3": {
+      "captured_at": "2026-09-16T14:52:58Z",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 13,
+      "weight_count": 1,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "971be8b4f1cdf731050c0c2dfef0080cabee63a69c3e910b5a6392199ad7edd5"
+    },
+    "BAAI/bge-small-en-v1.5": {
+      "captured_at": "2026-09-16T14:52:59Z",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 14,
+      "weight_count": 2,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "6dac14c0433618d02d7db1d817f3f65c48303cf2d90ee48f32a73afb4894d49d"
+    },
+    "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4": {
+      "captured_at": "2026-09-16T14:52:59Z",
+      "revision": "1c28f5014d7e9c20170af40e5aa028679fb30bfb",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 10,
+      "weight_count": 2,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model-00001-of-00002.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00002-of-00002.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "3ba35ce15a4421fba8eec99d3f6ebd05ee8ed1f7089b40341864c57b790b0d31"
+    },
+    "Bingsu/adetailer": {
+      "captured_at": "2026-09-16T14:53:00Z",
+      "revision": "53cc19de382014514d9d4038601d261a7faa9b7b",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 14,
+      "weight_count": 12,
+      "truncated": false,
+      "files": [
+        {
+          "path": "deepfashion2_yolov8s-seg.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "face_yolov8m.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "face_yolov8n.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "face_yolov8n_v2.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "face_yolov8s.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "face_yolov9c.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "hand_yolov8n.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "hand_yolov8s.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "hand_yolov9c.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "person_yolov8m-seg.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "person_yolov8n-seg.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "person_yolov8s-seg.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "1716bace004c7178c0fc474a07116d60a43e3ed8a334b29a1bdd3e06a518238f"
+    },
+    "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF": {
+      "captured_at": "2026-09-16T14:53:00Z",
+      "revision": "1816deaf90ddb3a3588807995eb4d2faacfd108a",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 3,
+      "weight_count": 1,
+      "truncated": false,
+      "files": [
+        {
+          "path": "foundation-sec-8b-red-team-q5_k_m.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "369b530f625e2e685f18be6795c0bde2bc62f8113ebfe1768af9908bbb93f224"
+    },
+    "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF": {
+      "captured_at": "2026-09-16T14:53:02Z",
+      "revision": "994bb4e69663ec880a4d9a61604e6debc3a49b9a",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 18,
+      "weight_count": 12,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q2_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q3_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q3_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-ABLITERATED-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "dflash-Qwen3.8-27B-ABLITERATED-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-Qwen3.8-27B-ABLITERATED-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-Qwen3.8-27B-ABLITERATED-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "e74d8dace8e9c5ec62eb5557520f62e972d3717ad58f1aaf7338d3cea1eef207"
+    },
+    "Comfy-Org/Krea-2": {
+      "captured_at": "2026-09-16T14:53:03Z",
+      "revision": "e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 25,
+      "weight_count": 22,
+      "truncated": false,
+      "files": [
+        {
+          "path": "diffusion_models/krea2_raw_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_raw_fp8_scaled.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_raw_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_turbo_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_turbo_fp8_scaled.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_turbo_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_turbo_mxfp8.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/krea2_turbo_nvfp4.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_darkbrush.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_dotmatrix.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_kidsdrawing.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_neondrip.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_rainywindow.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_retroanime.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_softwatercolor.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_style_reference.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_sunsetblur.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_turbo_lora_rank_64_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/krea2_vintagetarot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoders/qwen3vl_4b_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/qwen_image_vae.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "0a0ddf5df107d3dd552487edc88546512a660d815882b2fbcdc4fec32c85b930"
+    },
+    "Comfy-Org/MiniMax-H3": {
+      "captured_at": "2026-09-16T14:53:04Z",
+      "revision": "7e75982b97cd5a41d2dcfa1904ee88d0686d6fd1",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 33,
+      "weight_count": 31,
+      "truncated": false,
+      "files": [
+        {
+          "path": "diffusion_models/minimax_h3_fl2va_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_fl2va_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_fl2va_pruned_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_fl2va_pruned_fp8_scaled.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_ref2va_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_ref2va_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_ref2va_pruned_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_ref2va_pruned_fp8_scaled.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_art_is_explosion.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_blooming_flowers.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_bullet_time.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_dark_magic.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_fire_breath.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_four_seasons.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_kiss_camera.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_spiral_ascent.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_storm_magic.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "embeddings/minimaxh3_truman_show.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model_patches/minimax_h3_fun_controlnet_union_pruned_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model_patches/minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/minimax_h3_audio_vae_fp32.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/minimax_h3_video_vae_fp16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/minimax_h3_video_vae_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "02a54c80fc900e3437ea5516aad942eb27647b1e61c6c52caca9d307004fd4aa"
+    },
+    "Comfy-Org/stable-diffusion-v1-5-archive": {
+      "captured_at": "2026-09-16T14:53:06Z",
+      "revision": "9cfd069101959ca3828bf9c04a4419870832b74f",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 5,
+      "weight_count": 3,
+      "truncated": false,
+      "files": [
+        {
+          "path": "interiordesignsuperm_v2.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "v1-5-pruned-emaonly-fp16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "v1-5-pruned-emaonly.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "4e83e17bb315d865c0fcd8db36f996b2e03e78e0f8a38c2c4d600bc0a2b0c619"
+    },
+    "CompVis/stable-diffusion-v1-4": {
+      "captured_at": "2026-09-16T14:53:07Z",
+      "revision": "133a221b8aa7292a167afc5127cb63fb5005638b",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 33,
+      "weight_count": 18,
+      "truncated": false,
+      "files": [
+        {
+          "path": "safety_checker/model.fp16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "safety_checker/model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "safety_checker/pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "safety_checker/pytorch_model.fp16.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoder/model.fp16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoder/model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoder/pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "text_encoder/pytorch_model.fp16.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.fp16.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.fp16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.non_ema.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.non_ema.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "unet/diffusion_pytorch_model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.fp16.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.fp16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "vae/diffusion_pytorch_model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "6c262ca96b95e7811d9511733f2ccb366e15b8dad991f7c90aad00047792d79a"
+    },
+    "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
+      "captured_at": "2026-09-16T14:53:08Z",
+      "revision": "975adf14b2c7e68b5fd1dbf8fa896d50574f8731",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 16,
+      "weight_count": 4,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "2289a6c59e090faada44cb35e8e7482f99b973b4e18b573ae41f4f61456e4502"
+    },
+    "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
+      "captured_at": "2026-09-16T14:53:10Z",
+      "revision": "76f454c346937f39146d515b89f87dd12bcf9d57",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 31,
+      "weight_count": 27,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-plusIQ-NEO-MAX-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-plusIQ-NEO-MAX-MTP-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-plusIQ-TOOLS-NEO-MAX-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-plusIQ-TOOLS-NEO-MAX-MTP-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F32.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "c991ecb4330ae49eb09fde5f9f91108e2e68f64a95ed95251d9a3a5ac16f29ff"
+    },
+    "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
+      "captured_at": "2026-09-16T14:53:12Z",
+      "revision": "20fdadf6a713f7a4d52202e7d74a51f4355b44e6",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 33,
+      "weight_count": 27,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-AMD-MTP-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-AMD-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-LOW-MTP-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-LOW-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F32.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "5463b4071e497b745e525355d8a429d8c16f9dacce4cf817f4b023cabf04862d"
+    },
+    "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
+      "captured_at": "2026-09-16T14:53:12Z",
+      "revision": "a09698bb675f0e1b2a2aaacda8f9b36395fb11d0",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 16,
+      "weight_count": 13,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-HIGH-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-27B-NEO-CODE-HERE-2T-OT-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F32.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "20cfdfb2ec02e24d58ef2d652aa1e7a334ef45927bf6d0201079327bea033e73"
+    },
+    "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
+      "captured_at": "2026-09-16T14:53:12Z",
+      "revision": "cc0d4ceb9b4936d483f99d669425b9ae304fcd22",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 16,
+      "weight_count": 13,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-HIGH-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ4_NL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F32.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "6f95d8c1415e42c578290e96b60f47a16dc2226042bd7871ba06af4e803f8b07"
+    },
+    "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
+      "captured_at": "2026-09-16T14:53:13Z",
+      "revision": "89230607b3708bc1efe174e8fd34d4b164476c88",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 27,
+      "weight_count": 23,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-LOW-MTP-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-LOW-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-IQ2_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-IQ3_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-IQ4_XS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-MTP-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-Q5_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-TurboFCFusion-735-882-Here-Uncen-NEO-CODER-MAX-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-BF16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-F32.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "4bdbac8a79445dde22926059e966be8bf21039f8c3cde1e93d83110acf6b7545"
+    },
+    "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
+      "captured_at": "2026-09-16T14:53:13Z",
+      "revision": "d6a9b3a9532cc0070a4378877db7b6e295b5b782",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 9,
+      "weight_count": 3,
+      "truncated": false,
+      "files": [
+        {
+          "path": "attacker-finetuned-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "attacker-finetuned-bf16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "5f26449d661165b030dc61ce72ea7873e52b960dfae9d4506796e6d53d82cd5f"
+    },
+    "FacebookAI/xlm-roberta-base": {
+      "captured_at": "2026-09-16T14:53:14Z",
+      "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 11,
+      "weight_count": 3,
+      "truncated": false,
+      "files": [
+        {
+          "path": "flax_model.msgpack",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "fd7df8b0b5a539af8e0c9f98cfa86a882c90f02dc4a6efeec19c53b3025e57c5"
+    },
+    "GitMylo/Qwen2.5-Omni-7B-abliterated": {
+      "captured_at": "2026-09-16T14:53:14Z",
+      "revision": "fbc72f6c2c67dd5cc38f2639497c488f4d68f951",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 18,
+      "weight_count": 6,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model-00001-of-00005.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00002-of-00005.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00003-of-00005.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00004-of-00005.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00005-of-00005.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "spk_dict.pt",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "cdc5e9767923cf27c7abadd5cdb5977be5bc3e6bc4eda20faa06730dbe2e7abb"
+    },
+    "Gryphe/MythoMax-L2-13b": {
+      "captured_at": "2026-09-16T14:53:14Z",
+      "revision": "58e77dd48a65176f97f6f376c93efe9caad9c130",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 22,
+      "weight_count": 13,
+      "truncated": false,
+      "files": [
+        {
+          "path": "pytorch_model-00001-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00002-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00003-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00004-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00005-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00006-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00007-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00008-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00009-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00010-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00011-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00012-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model-00013-of-00013.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "755b572b6353d0e9963d2ae82de66d9f7aa3c946a960ade35014a66d82254300"
+    }
+  }
 }

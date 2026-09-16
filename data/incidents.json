@@ -1,5 +1,253 @@
 {
   "schema": "hf-vanished.incidents.v1",
-  "generated_at": null,
-  "incidents": []
+  "generated_at": "2026-09-16T14:53:14Z",
+  "incidents": [
+    {
+      "id": "INC-F95B2AA3D3",
+      "start": "2026-09-16T00:00:00Z",
+      "end": "2026-09-16T00:00:00Z",
+      "models": [
+        "Aeala/ShareGPT_Vicuna_unfiltered",
+        "OpenAssistant/oasst-sft-6-llama-30b",
+        "Undi95/LLaMA-2-13B-GPTQ",
+        "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
+        "WizardLM/WizardLM-7B-V1.0",
+        "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
+        "databricks/dolly-v1-6b",
+        "databricks/dolly-v2-12b",
+        "databricks/dolly-v2-3b",
+        "databricks/dolly-v2-7b",
+        "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
+        "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
+        "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
+        "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
+        "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+        "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
+        "mosaicml/mpt-7b-chat",
+        "mosaicml/mpt-7b-chat",
+        "stabilityai/stable-diffusion-2-1",
+        "stabilityai/stable-diffusion-2-1",
+        "tencent/HunyuanDiT",
+        "audnai/penclaw-GLM-5.3-abliterated",
+        "audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
+        "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
+        "huihui-ai/Qwen3-8B-abliterated",
+        "orcarouter/Qwen3.8-27B-Uncensored",
+        "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+        "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+        "rogue-security/prompt-injection-jailbreak-sentinel-v2"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 29,
+          "window_hours": 24
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "huihui-ai",
+          "count": 7
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "databricks",
+          "count": 4
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "audnai",
+          "count": 3
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "orcarouter",
+          "count": 3
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "Undi95",
+          "count": 2
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "mosaicml",
+          "count": 2
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "stabilityai",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "qwen3-8-27b",
+          "count": 3
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "penclaw-glm-5",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "meta-llama-3",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "llama-3-1",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "llama-3-2",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "mpt-7b-chat",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "stable-diffusion-2",
+          "count": 2
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    },
+    {
+      "id": "INC-F3E7440ABF",
+      "start": "2025-12-22T00:00:00Z",
+      "end": "2025-12-22T00:00:00Z",
+      "models": [
+        "databricks/dbrx-base",
+        "databricks/dbrx-instruct",
+        "mosaicml/mpt-30b",
+        "mosaicml/mpt-30b-chat",
+        "mosaicml/mpt-30b-instruct",
+        "mosaicml/mpt-7b",
+        "mosaicml/mpt-7b-instruct",
+        "mosaicml/mpt-7b-storywriter"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 8,
+          "window_hours": 24
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "mosaicml",
+          "count": 6
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "databricks",
+          "count": 2
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    },
+    {
+      "id": "INC-833366EA17",
+      "start": "2025-11-14T00:00:00Z",
+      "end": "2025-11-14T00:00:00Z",
+      "models": [
+        "stabilityai/stable-diffusion-2",
+        "stabilityai/stable-diffusion-2-1-base",
+        "stabilityai/stable-diffusion-2-inpainting"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 3,
+          "window_hours": 24
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "stabilityai",
+          "count": 3
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "stable-diffusion-2",
+          "count": 3
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    },
+    {
+      "id": "INC-51CC2453F8",
+      "start": "2024-08-29T00:00:00Z",
+      "end": "2024-08-29T00:00:00Z",
+      "models": [
+        "runwayml/stable-diffusion-v1-4",
+        "runwayml/stable-diffusion-v1-5"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 2,
+          "window_hours": 24
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "runwayml",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "stable-diffusion-v1",
+          "count": 2
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    },
+    {
+      "id": "INC-229FC837A0",
+      "start": "2024-04-16T00:00:00Z",
+      "end": "2024-04-16T00:00:00Z",
+      "models": [
+        "WizardLMTeam/WizardLM-2-70B",
+        "WizardLMTeam/WizardLM-2-7B",
+        "WizardLMTeam/WizardLM-2-8x22B",
+        "microsoft/WizardLM-2-7B",
+        "microsoft/WizardLM-2-8x22B"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 5,
+          "window_hours": 24
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "WizardLMTeam",
+          "count": 3
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "microsoft",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "wizardlm-2-7b",
+          "count": 2
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "wizardlm-2-8x22b",
+          "count": 2
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    }
+  ]
 }

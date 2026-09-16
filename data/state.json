@@ -15,7 +15,7 @@
       "weight_count": 423,
       "http": 200,
       "id": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:05Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -118,7 +118,10 @@
         "iter11_dense29_a1.4/model-00096-of-00141.safetensors"
       ],
       "weight_files_truncated": 327,
-      "auth_required": false
+      "auth_required": false,
+      "base_models": [
+        "zai-org/GLM-5.3"
+      ]
     },
     "mosaicml/mpt-7b-chat": {
       "seen_public": true,
@@ -131,7 +134,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "mosaicml/mpt-7b-chat",
-      "checked_at": "2026-09-16T11:33:30Z",
+      "checked_at": "2026-09-16T14:52:06Z",
       "auth_required": true
     },
     "OpenAssistant/oasst-sft-6-llama-30b": {
@@ -145,7 +148,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "OpenAssistant/oasst-sft-6-llama-30b",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:04Z",
       "auth_required": true
     },
     "stabilityai/stable-diffusion-2-1": {
@@ -159,7 +162,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "stabilityai/stable-diffusion-2-1",
-      "checked_at": "2026-09-16T11:33:31Z",
+      "checked_at": "2026-09-16T14:52:06Z",
       "auth_required": true
     },
     "WizardLM/WizardLM-7B-V1.0": {
@@ -173,7 +176,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "WizardLM/WizardLM-7B-V1.0",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:04Z",
       "auth_required": true
     },
     "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
@@ -187,7 +190,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:04Z",
       "auth_required": true
     },
     "Aeala/ShareGPT_Vicuna_unfiltered": {
@@ -201,7 +204,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "Aeala/ShareGPT_Vicuna_unfiltered",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:04Z",
       "auth_required": true
     },
     "Undi95/LLaMA-2-13B-GPTQ": {
@@ -215,7 +218,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "Undi95/LLaMA-2-13B-GPTQ",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:04Z",
       "auth_required": true
     },
     "tencent/HunyuanDiT": {
@@ -229,7 +232,7 @@
       "file_count": 0,
       "weight_count": 0,
       "id": "tencent/HunyuanDiT",
-      "checked_at": "2026-09-16T11:33:31Z",
+      "checked_at": "2026-09-16T14:52:07Z",
       "auth_required": true
     },
     "orcarouter/Qwen3.8-27B-Uncensored-FP8": {
@@ -240,14 +243,14 @@
       "private": false,
       "gated": "auto",
       "downloads": 442244,
-      "likes": 1629,
+      "likes": 1634,
       "sha": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
       "last_modified": "2026-08-27T13:54:19.000Z",
       "file_count": 20,
       "weight_count": 7,
       "http": 200,
       "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:03Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -262,7 +265,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:03Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "orcarouter/Qwen3.8-27B-Uncensored-GGUF": {
       "seen_public": true,
@@ -272,14 +278,14 @@
       "private": false,
       "gated": "auto",
       "downloads": 339528,
-      "likes": 997,
+      "likes": 1001,
       "sha": "a855f377abf5cbda99a278414466743f427e97c8",
       "last_modified": "2026-08-27T13:54:35.000Z",
       "file_count": 20,
       "weight_count": 18,
       "http": 200,
       "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:03Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "gguf",
@@ -305,7 +311,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:03Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "rogue-security/prompt-injection-jailbreak-sentinel-v2": {
       "seen_public": true,
@@ -322,7 +331,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "rogue-security/prompt-injection-jailbreak-sentinel-v2",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:03Z",
       "license": "other",
       "pipeline_tag": "text-classification",
       "library_name": "transformers",
@@ -331,7 +340,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:03Z",
+      "base_models": [
+        "Qwen/Qwen3-0.6B"
+      ]
     },
     "meta-llama/Meta-Llama-3-8B-Instruct": {
       "seen_public": true,
@@ -341,14 +353,14 @@
       "private": false,
       "gated": "manual",
       "downloads": 1207551,
-      "likes": 5028,
+      "likes": 5030,
       "sha": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
       "last_modified": "2025-06-18T23:49:51.000Z",
       "file_count": 17,
       "weight_count": 5,
       "http": 200,
       "id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "checked_at": "2026-09-16T11:33:25Z",
+      "checked_at": "2026-09-16T14:51:59Z",
       "license": "llama3",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -361,7 +373,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:25Z"
+      "last_public_checked_at": "2026-09-16T14:51:59Z",
+      "base_models": []
     },
     "meta-llama/Llama-2-7b-hf": {
       "seen_public": true,
@@ -378,7 +391,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "meta-llama/Llama-2-7b-hf",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:51:59Z",
       "license": "llama2",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -390,7 +403,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:51:59Z",
+      "base_models": []
     },
     "google/gemma-7b": {
       "seen_public": true,
@@ -407,7 +421,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "google/gemma-7b",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:51:59Z",
       "license": "gemma",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -420,7 +434,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:51:59Z",
+      "base_models": []
     },
     "google/gemma-2-9b": {
       "seen_public": true,
@@ -437,7 +452,7 @@
       "weight_count": 8,
       "http": 200,
       "id": "google/gemma-2-9b",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:51:59Z",
       "license": "gemma",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -453,7 +468,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:51:59Z",
+      "base_models": []
     },
     "black-forest-labs/FLUX.1-dev": {
       "seen_public": true,
@@ -463,14 +479,14 @@
       "private": false,
       "gated": "auto",
       "downloads": 806968,
-      "likes": 14733,
+      "likes": 14739,
       "sha": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
       "last_modified": "2025-06-27T16:22:19.000Z",
       "file_count": 29,
       "weight_count": 9,
       "http": 200,
       "id": "black-forest-labs/FLUX.1-dev",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:51:59Z",
       "license": "other",
       "pipeline_tag": "text-to-image",
       "library_name": "diffusers",
@@ -487,7 +503,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:51:59Z",
+      "base_models": []
     },
     "bigcode/starcoder": {
       "seen_public": true,
@@ -504,7 +521,7 @@
       "weight_count": 14,
       "http": 200,
       "id": "bigcode/starcoder",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:51:59Z",
       "license": "bigcode-openrail-m",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -526,7 +543,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:51:59Z",
+      "base_models": []
     },
     "mistralai/Mistral-7B-v0.1": {
       "seen_public": true,
@@ -543,7 +561,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "mistralai/Mistral-7B-v0.1",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:52:00Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -555,7 +573,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:52:00Z",
+      "base_models": []
     },
     "mistralai/Mistral-7B-Instruct-v0.2": {
       "seen_public": true,
@@ -572,7 +591,7 @@
       "weight_count": 6,
       "http": 200,
       "id": "mistralai/Mistral-7B-Instruct-v0.2",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:52:00Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -586,7 +605,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:52:00Z",
+      "base_models": []
     },
     "HuggingFaceH4/zephyr-7b-beta": {
       "seen_public": true,
@@ -603,7 +623,7 @@
       "weight_count": 16,
       "http": 200,
       "id": "HuggingFaceH4/zephyr-7b-beta",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:52:00Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -627,7 +647,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:52:00Z",
+      "base_models": [
+        "mistralai/Mistral-7B-v0.1"
+      ]
     },
     "stabilityai/stable-diffusion-xl-base-1.0": {
       "seen_public": true,
@@ -637,14 +660,14 @@
       "private": false,
       "gated": false,
       "downloads": 2721150,
-      "likes": 8177,
+      "likes": 8178,
       "sha": "462165984030d82259a11f4367a4eed129e94a7b",
       "last_modified": "2023-10-30T16:03:47.000Z",
       "file_count": 57,
       "weight_count": 22,
       "http": 200,
       "id": "stabilityai/stable-diffusion-xl-base-1.0",
-      "checked_at": "2026-09-16T11:33:26Z",
+      "checked_at": "2026-09-16T14:52:00Z",
       "license": "openrail++",
       "pipeline_tag": "text-to-image",
       "library_name": "diffusers",
@@ -674,7 +697,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:26Z"
+      "last_public_checked_at": "2026-09-16T14:52:00Z",
+      "base_models": []
     },
     "runwayml/stable-diffusion-v1-5": {
       "seen_public": true,
@@ -691,7 +715,7 @@
       "weight_count": 22,
       "http": 200,
       "id": "runwayml/stable-diffusion-v1-5",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:00Z",
       "license": "creativeml-openrail-m",
       "pipeline_tag": "text-to-image",
       "library_name": "diffusers",
@@ -721,7 +745,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:00Z",
+      "base_models": []
     },
     "CompVis/stable-diffusion-v1-4": {
       "seen_public": true,
@@ -738,7 +763,7 @@
       "weight_count": 18,
       "http": 200,
       "id": "CompVis/stable-diffusion-v1-4",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:00Z",
       "license": "creativeml-openrail-m",
       "pipeline_tag": "text-to-image",
       "library_name": "diffusers",
@@ -764,7 +789,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:00Z",
+      "base_models": []
     },
     "OpenAssistant/oasst-sft-7-llama-30b-xor": {
       "seen_public": true,
@@ -781,7 +807,7 @@
       "weight_count": 7,
       "http": 200,
       "id": "OpenAssistant/oasst-sft-7-llama-30b-xor",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:01Z",
       "license": "other",
       "pipeline_tag": null,
       "library_name": null,
@@ -796,7 +822,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:01Z",
+      "base_models": []
     },
     "mlabonne/NeuralDaredevil-8B-abliterated": {
       "seen_public": true,
@@ -813,7 +840,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "mlabonne/NeuralDaredevil-8B-abliterated",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:01Z",
       "license": "llama3",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -825,7 +852,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:01Z",
+      "base_models": [
+        "mlabonne/Daredevil-8B-abliterated"
+      ]
     },
     "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3": {
       "seen_public": true,
@@ -842,7 +872,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:01Z",
       "license": "llama3",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -854,7 +884,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:01Z",
+      "base_models": []
     },
     "failspy/llama-3-70B-Instruct-abliterated": {
       "seen_public": true,
@@ -871,7 +902,7 @@
       "weight_count": 31,
       "http": 200,
       "id": "failspy/llama-3-70B-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:01Z",
       "license": "llama3",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -910,7 +941,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:01Z",
+      "base_models": []
     },
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
       "seen_public": true,
@@ -920,14 +952,14 @@
       "private": false,
       "gated": false,
       "downloads": 2828411,
-      "likes": 751,
+      "likes": 753,
       "sha": "8f1b52408a2f6e317535190c9386f776cacf0079",
       "last_modified": "2026-09-08T15:49:51.000Z",
       "file_count": 39,
       "weight_count": 35,
       "http": 200,
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:01Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -970,7 +1002,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:01Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "Orenguteng/Llama-3-8B-Lexi-Uncensored": {
       "seen_public": true,
@@ -980,14 +1015,14 @@
       "private": false,
       "gated": false,
       "downloads": 1034,
-      "likes": 289,
+      "likes": 290,
       "sha": "ff95e3bfcd6142759ce82099b58bc7a789ac241b",
       "last_modified": "2024-05-27T06:16:40.000Z",
       "file_count": 12,
       "weight_count": 4,
       "http": 200,
       "id": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:01Z",
       "license": "llama3",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -999,7 +1034,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:01Z",
+      "base_models": []
     },
     "cognitivecomputations/WizardLM-7B-Uncensored": {
       "seen_public": true,
@@ -1016,7 +1052,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "cognitivecomputations/WizardLM-7B-Uncensored",
-      "checked_at": "2026-09-16T11:33:27Z",
+      "checked_at": "2026-09-16T14:52:02Z",
       "license": "other",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1025,7 +1061,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:27Z"
+      "last_public_checked_at": "2026-09-16T14:52:02Z",
+      "base_models": []
     },
     "cognitivecomputations/Wizard-Vicuna-13B-Uncensored": {
       "seen_public": true,
@@ -1042,7 +1079,7 @@
       "weight_count": 7,
       "http": 200,
       "id": "cognitivecomputations/Wizard-Vicuna-13B-Uncensored",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:02Z",
       "license": "other",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1057,7 +1094,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:02Z",
+      "base_models": []
     },
     "ehartford/WizardLM-7B-Uncensored": {
       "seen_public": true,
@@ -1074,7 +1112,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "ehartford/WizardLM-7B-Uncensored",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:02Z",
       "license": "other",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1083,7 +1121,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:02Z",
+      "base_models": []
     },
     "Undi95/Toppy-M-7B": {
       "seen_public": true,
@@ -1100,7 +1139,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "Undi95/Toppy-M-7B",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:02Z",
       "license": "cc-by-nc-4.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1110,7 +1149,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:02Z",
+      "base_models": []
     },
     "Gryphe/MythoMax-L2-13b": {
       "seen_public": true,
@@ -1127,7 +1167,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "Gryphe/MythoMax-L2-13b",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:02Z",
       "license": "other",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1148,7 +1188,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:02Z",
+      "base_models": []
     },
     "teknium/OpenHermes-2.5-Mistral-7B": {
       "seen_public": true,
@@ -1165,7 +1206,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "teknium/OpenHermes-2.5-Mistral-7B",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:03Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1177,7 +1218,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:03Z",
+      "base_models": [
+        "mistralai/Mistral-7B-v0.1"
+      ]
     },
     "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO": {
       "seen_public": true,
@@ -1194,7 +1238,7 @@
       "weight_count": 19,
       "http": 200,
       "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
-      "checked_at": "2026-09-16T11:33:28Z",
+      "checked_at": "2026-09-16T14:52:03Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1221,7 +1265,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:28Z"
+      "last_public_checked_at": "2026-09-16T14:52:03Z",
+      "base_models": [
+        "mistralai/Mixtral-8x7B-v0.1"
+      ]
     },
     "WizardLM/WizardCoder-15B-V1.0": {
       "seen_public": true,
@@ -1238,7 +1285,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "WizardLM/WizardCoder-15B-V1.0",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:03Z",
       "license": "bigscience-openrail-m",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1247,7 +1294,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:29Z"
+      "last_public_checked_at": "2026-09-16T14:52:03Z",
+      "base_models": []
     },
     "WizardLM/WizardMath-7B-V1.0": {
       "seen_public": true,
@@ -1264,7 +1312,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "WizardLM/WizardMath-7B-V1.0",
-      "checked_at": "2026-09-16T11:33:29Z",
+      "checked_at": "2026-09-16T14:52:04Z",
       "license": "llama2",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1275,7 +1323,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:29Z"
+      "last_public_checked_at": "2026-09-16T14:52:04Z",
+      "base_models": []
     },
     "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF": {
       "seen_public": true,
@@ -1285,14 +1334,14 @@
       "private": false,
       "gated": false,
       "downloads": 2688909,
-      "likes": 1123,
+      "likes": 1125,
       "sha": "45d0fc0ad6cfcf9eeee6008ddaea925536409b18",
       "last_modified": "2026-08-29T04:18:18.000Z",
       "file_count": 20,
       "weight_count": 15,
       "http": 200,
       "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-      "checked_at": "2026-09-16T11:33:33Z",
+      "checked_at": "2026-09-16T14:52:10Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "llama.cpp",
@@ -1315,7 +1364,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "last_public_checked_at": "2026-09-16T14:52:10Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF": {
       "seen_public": true,
@@ -1325,14 +1377,14 @@
       "private": false,
       "gated": false,
       "downloads": 2387042,
-      "likes": 1220,
+      "likes": 1226,
       "sha": "993a5971fda8f30dd1b7eb2654792ba4415c7460",
       "last_modified": "2026-08-17T22:02:10.000Z",
       "file_count": 21,
       "weight_count": 12,
       "http": 200,
       "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-      "checked_at": "2026-09-16T11:33:33Z",
+      "checked_at": "2026-09-16T14:52:10Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1352,7 +1404,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "last_public_checked_at": "2026-09-16T14:52:10Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive": {
       "seen_public": true,
@@ -1369,7 +1424,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-      "checked_at": "2026-09-16T11:33:33Z",
+      "checked_at": "2026-09-16T14:52:11Z",
       "license": "gemma",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1389,7 +1444,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "last_public_checked_at": "2026-09-16T14:52:11Z",
+      "base_models": [
+        "google/gemma-4-e4b-it"
+      ]
     },
     "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
       "seen_public": true,
@@ -1406,7 +1464,7 @@
       "weight_count": 107,
       "http": 200,
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
-      "checked_at": "2026-09-16T11:33:33Z",
+      "checked_at": "2026-09-16T14:52:11Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -1510,7 +1568,10 @@
       ],
       "weight_files_truncated": 11,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "last_public_checked_at": "2026-09-16T14:52:11Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "seen_public": true,
@@ -1520,14 +1581,14 @@
       "private": false,
       "gated": false,
       "downloads": 1331900,
-      "likes": 673,
+      "likes": 676,
       "sha": "76f454c346937f39146d515b89f87dd12bcf9d57",
       "last_modified": "2026-09-16T03:26:07.000Z",
       "file_count": 31,
       "weight_count": 27,
       "http": 200,
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
-      "checked_at": "2026-09-16T11:33:33Z",
+      "checked_at": "2026-09-16T14:52:11Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1562,7 +1623,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "last_public_checked_at": "2026-09-16T14:52:11Z",
+      "base_models": [
+        "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP"
+      ]
     },
     "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive": {
       "seen_public": true,
@@ -1572,14 +1636,14 @@
       "private": false,
       "gated": false,
       "downloads": 1068618,
-      "likes": 3693,
+      "likes": 3697,
       "sha": "f12a584fecbeb5f20001130d8ecd66c9327ae685",
       "last_modified": "2026-04-17T02:59:21.000Z",
       "file_count": 14,
       "weight_count": 12,
       "http": 200,
       "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:11Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1599,7 +1663,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:11Z",
+      "base_models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ]
     },
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "seen_public": true,
@@ -1609,14 +1676,14 @@
       "private": false,
       "gated": false,
       "downloads": 1049586,
-      "likes": 758,
+      "likes": 771,
       "sha": "89230607b3708bc1efe174e8fd34d4b164476c88",
       "last_modified": "2026-09-08T02:07:39.000Z",
       "file_count": 27,
       "weight_count": 23,
       "http": 200,
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:11Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1647,7 +1714,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:11Z",
+      "base_models": [
+        "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU"
+      ]
     },
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "seen_public": true,
@@ -1657,14 +1727,14 @@
       "private": false,
       "gated": false,
       "downloads": 907640,
-      "likes": 2354,
+      "likes": 2356,
       "sha": "20fdadf6a713f7a4d52202e7d74a51f4355b44e6",
       "last_modified": "2026-09-15T09:03:33.000Z",
       "file_count": 33,
       "weight_count": 27,
       "http": 200,
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:11Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1699,7 +1769,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:11Z",
+      "base_models": [
+        "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-MTP"
+      ]
     },
     "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive": {
       "seen_public": true,
@@ -1709,14 +1782,14 @@
       "private": false,
       "gated": false,
       "downloads": 867389,
-      "likes": 2080,
+      "likes": 2082,
       "sha": "0a41c68809d375475f954be12ba7c40efa56c2a9",
       "last_modified": "2026-06-05T17:55:41.000Z",
       "file_count": 7,
       "weight_count": 5,
       "http": 200,
       "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": null,
@@ -1729,7 +1802,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "Qwen/Qwen3.5-9B"
+      ]
     },
     "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced": {
       "seen_public": true,
@@ -1746,7 +1822,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "gemma",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1757,7 +1833,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "google/gemma-4-12B-it"
+      ]
     },
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "seen_public": true,
@@ -1774,7 +1853,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "hermes",
@@ -1786,7 +1865,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+      ]
     },
     "HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP": {
       "seen_public": true,
@@ -1803,7 +1885,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "gemma",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1814,7 +1896,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "google/gemma-4-26B-A4B-it"
+      ]
     },
     "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
       "seen_public": true,
@@ -1831,7 +1916,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1852,7 +1937,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking"
+      ]
     },
     "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
       "seen_public": true,
@@ -1869,7 +1957,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
-      "checked_at": "2026-09-16T11:33:34Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1890,7 +1978,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:34Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "DavidAU/Qwen3.6-27B-Heretic2-Uncensored-Finetune-Thinking"
+      ]
     },
     "HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP": {
       "seen_public": true,
@@ -1907,7 +1998,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:12Z",
       "license": "gemma",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1918,7 +2009,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:12Z",
+      "base_models": [
+        "google/gemma-4-31B-it"
+      ]
     },
     "Jiunsong/supergemma4-26b-uncensored-gguf-v2": {
       "seen_public": true,
@@ -1935,7 +2029,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:13Z",
       "license": "gemma",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -1944,7 +2038,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:13Z",
+      "base_models": [
+        "google/gemma-4-26B-A4B-it"
+      ]
     },
     "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced": {
       "seen_public": true,
@@ -1961,7 +2058,7 @@
       "weight_count": 11,
       "http": 200,
       "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:13Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -1980,7 +2077,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:13Z",
+      "base_models": [
+        "Qwen/Qwen3.6-27B"
+      ]
     },
     "llmfan46/gemma-4-E4B-it-uncensored-heretic": {
       "seen_public": true,
@@ -1997,7 +2097,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "llmfan46/gemma-4-E4B-it-uncensored-heretic",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:13Z",
       "license": "apache-2.0",
       "pipeline_tag": "any-to-any",
       "library_name": "transformers",
@@ -2006,7 +2106,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:13Z",
+      "base_models": [
+        "google/gemma-4-E4B-it"
+      ]
     },
     "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
       "seen_public": true,
@@ -2016,14 +2119,14 @@
       "private": false,
       "gated": false,
       "downloads": 323197,
-      "likes": 44,
+      "likes": 45,
       "sha": "975adf14b2c7e68b5fd1dbf8fa896d50574f8731",
       "last_modified": "2026-03-04T06:45:25.000Z",
       "file_count": 16,
       "weight_count": 4,
       "http": 200,
       "id": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:13Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -2035,7 +2138,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:13Z",
+      "base_models": [
+        "trohrbaugh/Qwen3.5-9B-heretic-v2"
+      ]
     },
     "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive": {
       "seen_public": true,
@@ -2052,7 +2158,7 @@
       "weight_count": 14,
       "http": 200,
       "id": "HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:13Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -2074,7 +2180,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:13Z",
+      "base_models": [
+        "Qwen/Qwen3.5-122B-A10B"
+      ]
     },
     "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF": {
       "seen_public": true,
@@ -2091,7 +2200,7 @@
       "weight_count": 16,
       "http": 200,
       "id": "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:13Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -2115,7 +2224,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:13Z",
+      "base_models": [
+        "orcarouter/Qwen3.8-27B-Uncensored-FP8"
+      ]
     },
     "TrevorJS/gemma-4-31B-it-uncensored": {
       "seen_public": true,
@@ -2125,14 +2237,14 @@
       "private": false,
       "gated": false,
       "downloads": 244146,
-      "likes": 30,
+      "likes": 31,
       "sha": "fd8c03ddb7c828a1731d66f8a858b82b4c79b64d",
       "last_modified": "2026-06-13T18:12:44.000Z",
       "file_count": 11,
       "weight_count": 2,
       "http": 200,
       "id": "TrevorJS/gemma-4-31B-it-uncensored",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:14Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -2142,7 +2254,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:14Z",
+      "base_models": [
+        "google/gemma-4-31B-it"
+      ]
     },
     "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive": {
       "seen_public": true,
@@ -2159,7 +2274,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
-      "checked_at": "2026-09-16T11:33:35Z",
+      "checked_at": "2026-09-16T14:52:14Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": null,
@@ -2172,7 +2287,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:35Z"
+      "last_public_checked_at": "2026-09-16T14:52:14Z",
+      "base_models": []
     },
     "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF": {
       "seen_public": true,
@@ -2189,7 +2305,7 @@
       "weight_count": 24,
       "http": 200,
       "id": "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:14Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -2221,7 +2337,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:14Z",
+      "base_models": [
+        "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic"
+      ]
     },
     "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
       "seen_public": true,
@@ -2238,7 +2357,7 @@
       "weight_count": 50,
       "http": 200,
       "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:14Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "gguf",
@@ -2296,7 +2415,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:14Z",
+      "base_models": [
+        "Qwen/Qwen3.8-Flash-Next"
+      ]
     },
     "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
       "seen_public": true,
@@ -2313,7 +2435,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:14Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -2323,7 +2445,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:14Z",
+      "base_models": [
+        "deepreinforce-ai/Ornith-1.0-35B"
+      ]
     },
     "orcarouter/Qwen3.8-27B-Uncensored-MLX": {
       "seen_public": true,
@@ -2333,14 +2458,14 @@
       "private": false,
       "gated": false,
       "downloads": 176359,
-      "likes": 1398,
+      "likes": 1402,
       "sha": "14963e70f886455cf93090ac95bdbf4c8730cbe1",
       "last_modified": "2026-08-27T13:54:41.000Z",
       "file_count": 80,
       "weight_count": 20,
       "http": 200,
       "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:14Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "mlx",
@@ -2368,7 +2493,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:14Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF": {
       "seen_public": true,
@@ -2385,7 +2513,7 @@
       "weight_count": 14,
       "http": 200,
       "id": "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:15Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "gguf",
@@ -2407,7 +2535,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:15Z",
+      "base_models": [
+        "JonathanColetti/Qwen3.8-27B-Uncensored"
+      ]
     },
     "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP": {
       "seen_public": true,
@@ -2424,7 +2555,7 @@
       "weight_count": 11,
       "http": 200,
       "id": "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:15Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -2443,7 +2574,11 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:15Z",
+      "base_models": [
+        "huihui-ai/Huihui-Qwen3.6-27B-abliterated",
+        "Qwen/Qwen3.6-27B"
+      ]
     },
     "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4": {
       "seen_public": true,
@@ -2460,7 +2595,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:15Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -2470,7 +2605,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:15Z",
+      "base_models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ]
     },
     "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF": {
       "seen_public": true,
@@ -2487,7 +2625,7 @@
       "weight_count": 14,
       "http": 200,
       "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:15Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -2509,7 +2647,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:15Z",
+      "base_models": [
+        "prithivMLmods/Qwen3-VL-8B-Instruct-abliterated-v1"
+      ]
     },
     "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF": {
       "seen_public": true,
@@ -2519,14 +2660,14 @@
       "private": false,
       "gated": false,
       "downloads": 563375,
-      "likes": 200,
+      "likes": 201,
       "sha": "a8dfba9c1e43bdf324ee2c7787ed01c70975ffb4",
       "last_modified": "2026-08-03T14:05:07.000Z",
       "file_count": 12,
       "weight_count": 8,
       "http": 200,
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:36Z",
+      "checked_at": "2026-09-16T14:52:15Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": "gguf",
@@ -2542,7 +2683,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:36Z"
+      "last_public_checked_at": "2026-09-16T14:52:15Z",
+      "base_models": [
+        "deepseek-ai/DeepSeek-V4-Flash-0731"
+      ]
     },
     "wangzhang/gemma-4-31B-it-abliterated": {
       "seen_public": true,
@@ -2559,7 +2703,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "wangzhang/gemma-4-31B-it-abliterated",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:15Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": null,
@@ -2569,7 +2713,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:15Z",
+      "base_models": [
+        "google/gemma-4-31B-it"
+      ]
     },
     "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF": {
       "seen_public": true,
@@ -2579,14 +2726,14 @@
       "private": false,
       "gated": false,
       "downloads": 232753,
-      "likes": 234,
+      "likes": 235,
       "sha": "994bb4e69663ec880a4d9a61604e6debc3a49b9a",
       "last_modified": "2026-08-22T17:50:05.000Z",
       "file_count": 18,
       "weight_count": 12,
       "http": 200,
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:16Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "gguf",
@@ -2606,7 +2753,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:16Z",
+      "base_models": [
+        "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-BF16"
+      ]
     },
     "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF": {
       "seen_public": true,
@@ -2623,7 +2773,7 @@
       "weight_count": 7,
       "http": 200,
       "id": "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:16Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -2638,7 +2788,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:16Z",
+      "base_models": [
+        "culturerevolt/gemma-4-12b-heretic-abliterated"
+      ]
     },
     "mlabonne/Qwen3-30B-A3B-abliterated": {
       "seen_public": true,
@@ -2655,7 +2808,7 @@
       "weight_count": 38,
       "http": 200,
       "id": "mlabonne/Qwen3-30B-A3B-abliterated",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:16Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -2701,7 +2854,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:16Z",
+      "base_models": [
+        "Qwen/Qwen3-30B-A3B"
+      ]
     },
     "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF": {
       "seen_public": true,
@@ -2718,7 +2874,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:16Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -2730,7 +2886,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:16Z",
+      "base_models": [
+        "deepseek-ai/DeepSeek-V4-Flash"
+      ]
     },
     "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF": {
       "seen_public": true,
@@ -2747,7 +2906,7 @@
       "weight_count": 8,
       "http": 200,
       "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:16Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -2763,7 +2922,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:16Z",
+      "base_models": [
+        "lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled"
+      ]
     },
     "jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g": {
       "seen_public": true,
@@ -2780,7 +2942,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:16Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -2791,7 +2953,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:16Z",
+      "base_models": [
+        "mlabonne/gemma-3-12b-it-abliterated"
+      ]
     },
     "huihui-ai/Huihui-Qwen3.5-27B-abliterated": {
       "seen_public": true,
@@ -2808,7 +2973,7 @@
       "weight_count": 11,
       "http": 200,
       "id": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -2827,7 +2992,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": [
+        "Qwen/Qwen3.5-27B"
+      ]
     },
     "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16": {
       "seen_public": true,
@@ -2844,7 +3012,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -2853,7 +3021,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": [
+        "trohrbaugh/gemma-4-31b-it-heretic-ara"
+      ]
     },
     "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF": {
       "seen_public": true,
@@ -2870,7 +3041,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": "other",
       "pipeline_tag": "text-generation",
       "library_name": "gguf",
@@ -2883,7 +3054,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": [
+        "windowsxp811203/Qwen3.8-Flash-Next-Abliterated"
+      ]
     },
     "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF": {
       "seen_public": true,
@@ -2900,7 +3074,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -2933,7 +3107,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": [
+        "huihui-ai/Huihui-Ornith-1.5-9B-abliterated"
+      ]
     },
     "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ": {
       "seen_public": true,
@@ -2950,7 +3127,7 @@
       "weight_count": 9,
       "http": 200,
       "id": "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -2967,7 +3144,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": []
     },
     "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated": {
       "seen_public": true,
@@ -2984,7 +3162,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -2996,7 +3174,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": [
+        "Qwen/Qwen2.5-VL-7B-Instruct"
+      ]
     },
     "GitMylo/Qwen2.5-Omni-7B-abliterated": {
       "seen_public": true,
@@ -3013,7 +3194,7 @@
       "weight_count": 6,
       "http": 200,
       "id": "GitMylo/Qwen2.5-Omni-7B-abliterated",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:18Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -3027,7 +3208,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:18Z",
+      "base_models": []
     },
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated": {
       "seen_public": true,
@@ -3044,7 +3226,7 @@
       "weight_count": 18,
       "http": 200,
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:18Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -3070,7 +3252,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:18Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "twolven/Qwen3.8-27B-abliterated-AWQ-MTP": {
       "seen_public": true,
@@ -3087,7 +3272,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:18Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -3097,7 +3282,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:18Z",
+      "base_models": [
+        "JonathanColetti/Qwen3.8-27B-Uncensored"
+      ]
     },
     "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF": {
       "seen_public": true,
@@ -3114,7 +3302,7 @@
       "weight_count": 29,
       "http": 200,
       "id": "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:18Z",
       "license": "llama3.3",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -3151,7 +3339,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:18Z",
+      "base_models": [
+        "huihui-ai/Llama-3.3-70B-Instruct-abliterated"
+      ]
     },
     "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4": {
       "seen_public": true,
@@ -3168,7 +3359,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
-      "checked_at": "2026-09-16T11:33:38Z",
+      "checked_at": "2026-09-16T14:52:18Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "vllm",
@@ -3178,7 +3369,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:38Z"
+      "last_public_checked_at": "2026-09-16T14:52:18Z",
+      "base_models": [
+        "huihui-ai/Huihui-Qwen3.8-27B-abliterated"
+      ]
     },
     "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF": {
       "seen_public": true,
@@ -3195,7 +3389,7 @@
       "weight_count": 6,
       "http": 200,
       "id": "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:18Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -3209,7 +3403,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:18Z",
+      "base_models": [
+        "oyildirim/CyberStrike-OffSec-35B"
+      ]
     },
     "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF": {
       "seen_public": true,
@@ -3226,7 +3423,7 @@
       "weight_count": 32,
       "http": 200,
       "id": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:19Z",
       "license": "mit",
       "pipeline_tag": "image-text-to-text",
       "library_name": "gguf",
@@ -3266,7 +3463,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:19Z",
+      "base_models": [
+        "ornith-ai/Ornith-1.5-35B-A3B"
+      ]
     },
     "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF": {
       "seen_public": true,
@@ -3283,7 +3483,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:37Z",
+      "checked_at": "2026-09-16T14:52:17Z",
       "license": "mit",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -3295,7 +3495,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:37Z"
+      "last_public_checked_at": "2026-09-16T14:52:17Z",
+      "base_models": [
+        "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+      ]
     },
     "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF": {
       "seen_public": true,
@@ -3312,7 +3515,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:19Z",
       "license": "mit",
       "pipeline_tag": "image-text-to-text",
       "library_name": null,
@@ -3324,7 +3527,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:19Z",
+      "base_models": [
+        "ornith-ai/Ornith-1.5-35B-A3B"
+      ]
     },
     "paperscarecrow/Gemma-4-31B-it-abliterated": {
       "seen_public": true,
@@ -3341,7 +3547,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "paperscarecrow/Gemma-4-31B-it-abliterated",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:19Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": null,
@@ -3354,7 +3560,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:19Z",
+      "base_models": [
+        "google/gemma-4-31B-it"
+      ]
     },
     "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF": {
       "seen_public": true,
@@ -3371,7 +3580,7 @@
       "weight_count": 14,
       "http": 200,
       "id": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:19Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3393,7 +3602,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:19Z",
+      "base_models": [
+        "huihui-ai/Huihui-Qwen3.5-9B-abliterated"
+      ]
     },
     "OBLITERATUS/Qwen3.8-27B-OBLITERATED": {
       "seen_public": true,
@@ -3403,14 +3615,14 @@
       "private": false,
       "gated": false,
       "downloads": 1295697,
-      "likes": 1227,
+      "likes": 1231,
       "sha": "a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
       "last_modified": "2026-08-24T17:47:52.000Z",
       "file_count": 70,
       "weight_count": 55,
       "http": 200,
       "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:19Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "mlx",
@@ -3473,7 +3685,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:19Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "OBLITERATUS/Ornith-1.5-9B-OBLITERATED": {
       "seen_public": true,
@@ -3490,7 +3705,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:19Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -3511,7 +3726,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:19Z",
+      "base_models": [
+        "ornith-ai/Ornith-1.5-9B"
+      ]
     },
     "OBLITERATUS/gemma-4-E4B-it-OBLITERATED": {
       "seen_public": true,
@@ -3528,7 +3746,7 @@
       "weight_count": 11,
       "http": 200,
       "id": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:20Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -3547,7 +3765,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:20Z",
+      "base_models": [
+        "google/gemma-4-E4B-it"
+      ]
     },
     "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF": {
       "seen_public": true,
@@ -3564,7 +3785,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:20Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3585,7 +3806,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:20Z",
+      "base_models": [
+        "OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+      ]
     },
     "OBLITERATUS/Gemma-4-12B-OBLITERATED": {
       "seen_public": true,
@@ -3602,7 +3826,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:39Z",
+      "checked_at": "2026-09-16T14:52:20Z",
       "license": "gemma",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -3614,7 +3838,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:39Z"
+      "last_public_checked_at": "2026-09-16T14:52:20Z",
+      "base_models": [
+        "google/gemma-4-12B-it"
+      ]
     },
     "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16": {
       "seen_public": true,
@@ -3631,7 +3858,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:20Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -3641,7 +3868,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:20Z",
+      "base_models": [
+        "OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+      ]
     },
     "mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF": {
       "seen_public": true,
@@ -3658,7 +3888,7 @@
       "weight_count": 15,
       "http": 200,
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:20Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3681,7 +3911,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:20Z",
+      "base_models": [
+        "OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+      ]
     },
     "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF": {
       "seen_public": true,
@@ -3698,7 +3931,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:20Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3719,7 +3952,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:20Z",
+      "base_models": [
+        "jhone888/Ornith-1.5-35B-A3B-FULLY-OBLITERATED"
+      ]
     },
     "OBLITERATUS/Qwen3.6-27B-OBLITERATED": {
       "seen_public": true,
@@ -3736,7 +3972,7 @@
       "weight_count": 32,
       "http": 200,
       "id": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -3776,7 +4012,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "Qwen/Qwen3.6-27B"
+      ]
     },
     "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF": {
       "seen_public": true,
@@ -3793,7 +4032,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "gguf",
@@ -3802,7 +4041,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "OBLITERATUS/Qwen3.8-27B-OBLITERATED"
+      ]
     },
     "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF": {
       "seen_public": true,
@@ -3819,7 +4061,7 @@
       "weight_count": 13,
       "http": 200,
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3840,7 +4082,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic"
+      ]
     },
     "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF": {
       "seen_public": true,
@@ -3857,7 +4102,7 @@
       "weight_count": 15,
       "http": 200,
       "id": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3880,7 +4125,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "jhone888/Ornith-1.5-35B-A3B-FULLY-OBLITERATED"
+      ]
     },
     "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED": {
       "seen_public": true,
@@ -3897,7 +4145,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -3910,7 +4158,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+      ]
     },
     "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF": {
       "seen_public": true,
@@ -3927,7 +4178,7 @@
       "weight_count": 15,
       "http": 200,
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3950,7 +4201,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic"
+      ]
     },
     "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF": {
       "seen_public": true,
@@ -3967,7 +4221,7 @@
       "weight_count": 16,
       "http": 200,
       "id": "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:40Z",
+      "checked_at": "2026-09-16T14:52:21Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -3991,7 +4245,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:40Z"
+      "last_public_checked_at": "2026-09-16T14:52:21Z",
+      "base_models": [
+        "OBLITERATUS/Ornith-1.5-9B-OBLITERATED"
+      ]
     },
     "shivanandasai/Qwen3.8-27B-OBLITERATED": {
       "seen_public": true,
@@ -4008,7 +4265,7 @@
       "weight_count": 32,
       "http": 200,
       "id": "shivanandasai/Qwen3.8-27B-OBLITERATED",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:22Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "mlx",
@@ -4048,7 +4305,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:22Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF": {
       "seen_public": true,
@@ -4065,7 +4325,7 @@
       "weight_count": 24,
       "http": 200,
       "id": "mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:22Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4097,7 +4357,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:22Z",
+      "base_models": [
+        "3MPER0RR/Qwen3.8-27B-3MPER0RR-abliterated"
+      ]
     },
     "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF": {
       "seen_public": true,
@@ -4114,7 +4377,7 @@
       "weight_count": 14,
       "http": 200,
       "id": "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:22Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4136,7 +4399,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:22Z",
+      "base_models": [
+        "OBLITERATUS/Ornith-1.5-9B-OBLITERATED"
+      ]
     },
     "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF": {
       "seen_public": true,
@@ -4153,7 +4419,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:37Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -4186,7 +4452,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:37Z",
+      "base_models": [
+        "OBLITERATUS/gemma-4-E4B-it-OBLITERATED"
+      ]
     },
     "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF": {
       "seen_public": true,
@@ -4203,7 +4472,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:22Z",
       "license": "gemma",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -4236,7 +4505,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:22Z",
+      "base_models": [
+        "OBLITERATUS/Gemma-4-12B-OBLITERATED"
+      ]
     },
     "rafw007/qwen3-coder-next-80b-redteam-GGUF": {
       "seen_public": true,
@@ -4253,7 +4525,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "rafw007/qwen3-coder-next-80b-redteam-GGUF",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:23Z",
       "license": "other",
       "pipeline_tag": null,
       "library_name": null,
@@ -4262,7 +4534,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:23Z",
+      "base_models": [
+        "Qwen/Qwen3-Coder-Next"
+      ]
     },
     "auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning": {
       "seen_public": true,
@@ -4279,7 +4554,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:22Z",
       "license": null,
       "pipeline_tag": "text-generation",
       "library_name": "peft",
@@ -4292,7 +4567,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:22Z",
+      "base_models": [
+        "meta-llama/Llama-3.3-70B-Instruct"
+      ]
     },
     "azminawwar/huihui-ai_Huihui-Qwen3.5-0.8B-abliterated_Ultimate-Offensive-Red-Team": {
       "seen_public": true,
@@ -4309,7 +4587,7 @@
       "weight_count": 9,
       "http": 200,
       "id": "azminawwar/huihui-ai_Huihui-Qwen3.5-0.8B-abliterated_Ultimate-Offensive-Red-Team",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:23Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -4326,7 +4604,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:23Z",
+      "base_models": []
     },
     "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF": {
       "seen_public": true,
@@ -4343,7 +4622,7 @@
       "weight_count": 24,
       "http": 200,
       "id": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:41Z",
+      "checked_at": "2026-09-16T14:52:23Z",
       "license": "llama3.1",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4375,7 +4654,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "last_public_checked_at": "2026-09-16T14:52:23Z",
+      "base_models": [
+        "LLM-PBE/Llama3.1-8b-instruct-LLMPC-Red-Team"
+      ]
     },
     "RedTeamLab/Qwen3.6-27B-redteam-v5": {
       "seen_public": true,
@@ -4392,7 +4674,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "RedTeamLab/Qwen3.6-27B-redteam-v5",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:23Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "gguf",
@@ -4402,7 +4684,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:23Z",
+      "base_models": [
+        "Qwen/Qwen3.6-27B"
+      ]
     },
     "RedTeamLab/Qwen3.5-4B-redteam-v4.1": {
       "seen_public": true,
@@ -4419,7 +4704,7 @@
       "weight_count": 5,
       "http": 200,
       "id": "RedTeamLab/Qwen3.5-4B-redteam-v4.1",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:23Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "unsloth",
@@ -4432,7 +4717,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:23Z",
+      "base_models": []
     },
     "LuisPPB16/Qwen3.5-9B-Red_Team": {
       "seen_public": true,
@@ -4449,7 +4735,7 @@
       "weight_count": 9,
       "http": 200,
       "id": "LuisPPB16/Qwen3.5-9B-Red_Team",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:23Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -4466,7 +4752,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:23Z",
+      "base_models": []
     },
     "RedTeamLab/Qwen3.6-27B-blueteam-v5": {
       "seen_public": true,
@@ -4483,7 +4770,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "RedTeamLab/Qwen3.6-27B-blueteam-v5",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:24Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "gguf",
@@ -4495,7 +4782,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:24Z",
+      "base_models": [
+        "Qwen/Qwen3.6-27B"
+      ]
     },
     "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF": {
       "seen_public": true,
@@ -4512,7 +4802,7 @@
       "weight_count": 15,
       "http": 200,
       "id": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:24Z",
       "license": "llama3.1",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4535,7 +4825,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:24Z",
+      "base_models": [
+        "LLM-PBE/Llama3.1-8b-instruct-LLMPC-Red-Team"
+      ]
     },
     "RedTeamLab/Gemma-4-12B-redteam-v5": {
       "seen_public": true,
@@ -4552,7 +4845,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "RedTeamLab/Gemma-4-12B-redteam-v5",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:24Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "gguf",
@@ -4561,7 +4854,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:24Z",
+      "base_models": [
+        "unsloth/Gemma-4-12B-it"
+      ]
     },
     "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf": {
       "seen_public": true,
@@ -4578,7 +4874,7 @@
       "weight_count": 22,
       "http": 200,
       "id": "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:24Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -4608,7 +4904,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:24Z",
+      "base_models": []
     },
     "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF": {
       "seen_public": true,
@@ -4625,7 +4922,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:24Z",
       "license": "other",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4634,7 +4931,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:24Z",
+      "base_models": [
+        "Ironcybersec/foundation-sec-8b-red-team"
+      ]
     },
     "mradermacher/redteam-lexi-rl-GGUF": {
       "seen_public": true,
@@ -4651,7 +4951,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "mradermacher/redteam-lexi-rl-GGUF",
-      "checked_at": "2026-09-16T11:33:42Z",
+      "checked_at": "2026-09-16T14:52:24Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4671,7 +4971,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:42Z"
+      "last_public_checked_at": "2026-09-16T14:52:24Z",
+      "base_models": [
+        "edures/redteam-lexi-rl"
+      ]
     },
     "mradermacher/redteam-mistral-7b-v1-GGUF": {
       "seen_public": true,
@@ -4688,7 +4991,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "mradermacher/redteam-mistral-7b-v1-GGUF",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:25Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4708,7 +5011,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": [
+        "shri-ads/redteam-mistral-7b-v1"
+      ]
     },
     "mradermacher/RedTeamer-v1-GGUF": {
       "seen_public": true,
@@ -4725,7 +5031,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "mradermacher/RedTeamer-v1-GGUF",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:25Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4745,7 +5051,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": [
+        "LucidityAI/RedTeamer-v1"
+      ]
     },
     "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
       "seen_public": true,
@@ -4762,7 +5071,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:25Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -4773,7 +5082,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": []
     },
     "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3": {
       "seen_public": true,
@@ -4790,7 +5100,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:25Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "gguf",
@@ -4801,7 +5111,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": [
+        "unsloth/gemma-4-E4B-it"
+      ]
     },
     "Kakadutheking/redteam-lexi-rl-GGUF": {
       "seen_public": true,
@@ -4818,7 +5131,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "Kakadutheking/redteam-lexi-rl-GGUF",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:38Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -4838,7 +5151,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:38Z",
+      "base_models": [
+        "edures/redteam-lexi-rl"
+      ]
     },
     "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2": {
       "seen_public": true,
@@ -4855,7 +5171,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:25Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "gguf",
@@ -4866,7 +5182,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": [
+        "unsloth/gemma-4-E4B-it"
+      ]
     },
     "RedTeamLab/Gemma-4-12B-Sol-Traces-v1": {
       "seen_public": true,
@@ -4883,7 +5202,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:25Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "gguf",
@@ -4893,7 +5212,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": [
+        "unsloth/gemma-4-12B-it"
+      ]
     },
     "llm-semantic-router/mmbert32k-jailbreak-detector-merged": {
       "seen_public": true,
@@ -4910,7 +5232,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "llm-semantic-router/mmbert32k-jailbreak-detector-merged",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:26Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-classification",
       "library_name": null,
@@ -4919,7 +5241,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:26Z",
+      "base_models": [
+        "llm-semantic-router/mmbert-32k-yarn"
+      ]
     },
     "madhurjindal/Jailbreak-Detector": {
       "seen_public": true,
@@ -4936,7 +5261,7 @@
       "weight_count": 10,
       "http": 200,
       "id": "madhurjindal/Jailbreak-Detector",
-      "checked_at": "2026-09-16T11:33:43Z",
+      "checked_at": "2026-09-16T14:52:26Z",
       "license": "mit",
       "pipeline_tag": "text-classification",
       "library_name": "transformers",
@@ -4954,7 +5279,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "last_public_checked_at": "2026-09-16T14:52:26Z",
+      "base_models": [
+        "distilbert/distilbert-base-cased"
+      ]
     },
     "agustindxm/qwen-coder-jailbreak": {
       "seen_public": true,
@@ -4971,7 +5299,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "agustindxm/qwen-coder-jailbreak",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:26Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "gguf",
@@ -4981,7 +5309,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:26Z",
+      "base_models": [
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ]
     },
     "jackhhao/jailbreak-classifier": {
       "seen_public": true,
@@ -4998,7 +5329,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "jackhhao/jailbreak-classifier",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:26Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-classification",
       "library_name": "transformers",
@@ -5007,7 +5338,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:26Z",
+      "base_models": []
     },
     "ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B": {
       "seen_public": true,
@@ -5024,7 +5356,7 @@
       "weight_count": 6,
       "http": 200,
       "id": "ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:26Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -5038,7 +5370,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:26Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF": {
       "seen_public": true,
@@ -5055,7 +5390,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5088,7 +5423,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": [
+        "alexwirrell/gemma-3-12b-it-jailbreak-ES"
+      ]
     },
     "mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF": {
       "seen_public": true,
@@ -5105,7 +5443,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5138,7 +5476,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": [
+        "alexwirrell/gemma-3-12b-it-jailbreak-EN"
+      ]
     },
     "mradermacher/qwen2.5-jailbreak-i1-GGUF": {
       "seen_public": true,
@@ -5155,7 +5496,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/qwen2.5-jailbreak-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5188,7 +5529,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": [
+        "Ysydy/qwen2.5-jailbreak"
+      ]
     },
     "mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF": {
       "seen_public": true,
@@ -5205,7 +5549,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5238,7 +5582,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": [
+        "Sanraj/Qwen3-1.7B-jailbreak-finetuned"
+      ]
     },
     "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF": {
       "seen_public": true,
@@ -5255,7 +5602,7 @@
       "weight_count": 25,
       "http": 200,
       "id": "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5288,7 +5635,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": [
+        "Sanraj/Qwen3-1.7B-Jailbreak-reasoning"
+      ]
     },
     "madhurjindal/Jailbreak-Detector-Large": {
       "seen_public": true,
@@ -5305,7 +5655,7 @@
       "weight_count": 10,
       "http": 200,
       "id": "madhurjindal/Jailbreak-Detector-Large",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": "mit",
       "pipeline_tag": "text-classification",
       "library_name": "transformers",
@@ -5323,7 +5673,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": [
+        "microsoft/mdeberta-v3-base"
+      ]
     },
     "llm-semantic-router/jailbreak_classifier_modernbert-base_model": {
       "seen_public": true,
@@ -5340,7 +5693,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "llm-semantic-router/jailbreak_classifier_modernbert-base_model",
-      "checked_at": "2026-09-16T11:33:44Z",
+      "checked_at": "2026-09-16T14:52:27Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": null,
@@ -5350,7 +5703,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:44Z"
+      "last_public_checked_at": "2026-09-16T14:52:27Z",
+      "base_models": []
     },
     "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF": {
       "seen_public": true,
@@ -5367,7 +5721,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:28Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5387,7 +5741,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:28Z",
+      "base_models": [
+        "Sanraj/Qwen3-1.7B-Jailbreak-reasoning"
+      ]
     },
     "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF": {
       "seen_public": true,
@@ -5404,7 +5761,7 @@
       "weight_count": 11,
       "http": 200,
       "id": "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:28Z",
       "license": "gemma",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5423,7 +5780,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:28Z",
+      "base_models": [
+        "alexwirrell/gemma-3-12b-it-jailbreak-EN"
+      ]
     },
     "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1": {
       "seen_public": true,
@@ -5440,7 +5800,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:28Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -5450,7 +5810,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:28Z",
+      "base_models": [
+        "ibm-granite/granite-3.3-2b-instruct"
+      ]
     },
     "mradermacher/qwen2.5-jailbreak-GGUF": {
       "seen_public": true,
@@ -5467,7 +5830,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "mradermacher/qwen2.5-jailbreak-GGUF",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:28Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5487,7 +5850,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:28Z",
+      "base_models": [
+        "Ysydy/qwen2.5-jailbreak"
+      ]
     },
     "mradermacher/Jailbreak-generator-GGUF": {
       "seen_public": true,
@@ -5504,7 +5870,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "mradermacher/Jailbreak-generator-GGUF",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:28Z",
       "license": "mit",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5524,7 +5890,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:28Z",
+      "base_models": [
+        "tsq2000/Jailbreak-generator"
+      ]
     },
     "J1244/qwen2.5-jailbreak-Q8_0-GGUF": {
       "seen_public": true,
@@ -5541,7 +5910,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "J1244/qwen2.5-jailbreak-Q8_0-GGUF",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:38Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5550,7 +5919,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:38Z",
+      "base_models": [
+        "zemelee/qwen2.5-jailbreak"
+      ]
     },
     "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF": {
       "seen_public": true,
@@ -5567,7 +5939,7 @@
       "weight_count": 11,
       "http": 200,
       "id": "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:28Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5586,7 +5958,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:28Z",
+      "base_models": [
+        "kotekjedi/qwen3-32b-lora-jailbreak-detection-merged_v2"
+      ]
     },
     "R41NH4RD/Qwen3-4B-Refusal-Removed": {
       "seen_public": true,
@@ -5603,7 +5978,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "R41NH4RD/Qwen3-4B-Refusal-Removed",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:29Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -5613,7 +5988,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:29Z",
+      "base_models": [
+        "Qwen/Qwen3-4B"
+      ]
     },
     "R41NH4RD/Qwen3-1.7B-Refusal-Removed": {
       "seen_public": true,
@@ -5630,7 +6008,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "R41NH4RD/Qwen3-1.7B-Refusal-Removed",
-      "checked_at": "2026-09-16T11:33:45Z",
+      "checked_at": "2026-09-16T14:52:29Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": null,
@@ -5639,7 +6017,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "last_public_checked_at": "2026-09-16T14:52:29Z",
+      "base_models": [
+        "Qwen/Qwen3-1.7B"
+      ]
     },
     "sentence-transformers/all-MiniLM-L6-v2": {
       "seen_public": true,
@@ -5649,14 +6030,14 @@
       "private": false,
       "gated": false,
       "downloads": 256481161,
-      "likes": 6013,
+      "likes": 6017,
       "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
       "last_modified": "2026-06-01T06:29:13.000Z",
       "file_count": 30,
       "weight_count": 4,
       "http": 200,
       "id": "sentence-transformers/all-MiniLM-L6-v2",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:29Z",
       "license": "apache-2.0",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -5668,7 +6049,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:29Z",
+      "base_models": [
+        "nreimers/MiniLM-L6-H384-uncased"
+      ]
     },
     "cross-encoder/ms-marco-MiniLM-L6-v2": {
       "seen_public": true,
@@ -5678,14 +6062,14 @@
       "private": false,
       "gated": false,
       "downloads": 88865138,
-      "likes": 340,
+      "likes": 341,
       "sha": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
       "last_modified": "2026-08-09T15:22:24.000Z",
       "file_count": 23,
       "weight_count": 5,
       "http": 200,
       "id": "cross-encoder/ms-marco-MiniLM-L6-v2",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:29Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-ranking",
       "library_name": "sentence-transformers",
@@ -5698,7 +6082,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:29Z",
+      "base_models": [
+        "cross-encoder/ms-marco-MiniLM-L12-v2"
+      ]
     },
     "BAAI/bge-small-en-v1.5": {
       "seen_public": true,
@@ -5715,7 +6102,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "BAAI/bge-small-en-v1.5",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:29Z",
       "license": "mit",
       "pipeline_tag": "feature-extraction",
       "library_name": "sentence-transformers",
@@ -5725,7 +6112,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:29Z",
+      "base_models": []
     },
     "google/electra-base-discriminator": {
       "seen_public": true,
@@ -5742,7 +6130,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "google/electra-base-discriminator",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:30Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -5752,7 +6140,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:30Z",
+      "base_models": []
     },
     "google-bert/bert-base-uncased": {
       "seen_public": true,
@@ -5769,7 +6158,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "google-bert/bert-base-uncased",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:30Z",
       "license": "apache-2.0",
       "pipeline_tag": "fill-mask",
       "library_name": "transformers",
@@ -5781,7 +6170,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:30Z",
+      "base_models": []
     },
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
       "seen_public": true,
@@ -5791,14 +6181,14 @@
       "private": false,
       "gated": false,
       "downloads": 45865568,
-      "likes": 1403,
+      "likes": 1404,
       "sha": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
       "last_modified": "2026-01-28T10:02:26.000Z",
       "file_count": 28,
       "weight_count": 4,
       "http": 200,
       "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:30Z",
       "license": "apache-2.0",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -5810,7 +6200,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:30Z",
+      "base_models": []
     },
     "BAAI/bge-m3": {
       "seen_public": true,
@@ -5820,14 +6211,14 @@
       "private": false,
       "gated": false,
       "downloads": 38136809,
-      "likes": 3563,
+      "likes": 3564,
       "sha": "5617a9f61b028005a4858fdac845db406aefb181",
       "last_modified": "2024-07-03T14:50:10.000Z",
       "file_count": 30,
       "weight_count": 3,
       "http": 200,
       "id": "BAAI/bge-m3",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:30Z",
       "license": "mit",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -5838,7 +6229,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:30Z",
+      "base_models": []
     },
     "google-t5/t5-small": {
       "seen_public": true,
@@ -5855,7 +6247,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "google-t5/t5-small",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:30Z",
       "license": "apache-2.0",
       "pipeline_tag": "translation",
       "library_name": "transformers",
@@ -5866,7 +6258,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:30Z",
+      "base_models": []
     },
     "sentence-transformers/all-mpnet-base-v2": {
       "seen_public": true,
@@ -5883,7 +6276,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "sentence-transformers/all-mpnet-base-v2",
-      "checked_at": "2026-09-16T11:33:46Z",
+      "checked_at": "2026-09-16T14:52:30Z",
       "license": "apache-2.0",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -5895,7 +6288,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:46Z"
+      "last_public_checked_at": "2026-09-16T14:52:30Z",
+      "base_models": []
     },
     "amazon/chronos-2": {
       "seen_public": true,
@@ -5912,7 +6306,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "amazon/chronos-2",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:31Z",
       "license": "apache-2.0",
       "pipeline_tag": "time-series-forecasting",
       "library_name": "chronos-forecasting",
@@ -5921,7 +6315,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:31Z",
+      "base_models": []
     },
     "FacebookAI/xlm-roberta-base": {
       "seen_public": true,
@@ -5938,7 +6333,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "FacebookAI/xlm-roberta-base",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:31Z",
       "license": "mit",
       "pipeline_tag": "fill-mask",
       "library_name": "transformers",
@@ -5949,7 +6344,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:31Z",
+      "base_models": []
     },
     "openai/clip-vit-base-patch32": {
       "seen_public": true,
@@ -5959,14 +6355,14 @@
       "private": false,
       "gated": false,
       "downloads": 21790053,
-      "likes": 1544,
+      "likes": 1546,
       "sha": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
       "last_modified": "2024-02-29T09:45:55.000Z",
       "file_count": 12,
       "weight_count": 2,
       "http": 200,
       "id": "openai/clip-vit-base-patch32",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:31Z",
       "license": null,
       "pipeline_tag": "zero-shot-image-classification",
       "library_name": "transformers",
@@ -5976,7 +6372,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:31Z",
+      "base_models": []
     },
     "Qwen/Qwen3-0.6B": {
       "seen_public": true,
@@ -5993,7 +6390,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "Qwen/Qwen3-0.6B",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:31Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -6002,7 +6399,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:31Z",
+      "base_models": [
+        "Qwen/Qwen3-0.6B-Base"
+      ]
     },
     "Comfy-Org/MiniMax-H3": {
       "seen_public": true,
@@ -6012,14 +6412,14 @@
       "private": false,
       "gated": false,
       "downloads": 20053814,
-      "likes": 1860,
+      "likes": 1862,
       "sha": "7e75982b97cd5a41d2dcfa1904ee88d0686d6fd1",
       "last_modified": "2026-09-15T17:05:30.000Z",
       "file_count": 33,
       "weight_count": 31,
       "http": 200,
       "id": "Comfy-Org/MiniMax-H3",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:31Z",
       "license": "other",
       "pipeline_tag": null,
       "library_name": "diffusion-single-file",
@@ -6058,7 +6458,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:31Z",
+      "base_models": [
+        "MiniMaxAI/MiniMax-H3"
+      ]
     },
     "Qwen/Qwen3-VL-8B-Instruct": {
       "seen_public": true,
@@ -6075,7 +6478,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "Qwen/Qwen3-VL-8B-Instruct",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:31Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -6087,7 +6490,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:31Z",
+      "base_models": []
     },
     "BAAI/bge-reranker-v2-m3": {
       "seen_public": true,
@@ -6104,7 +6508,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "BAAI/bge-reranker-v2-m3",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:32Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-classification",
       "library_name": "sentence-transformers",
@@ -6113,7 +6517,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:32Z",
+      "base_models": []
     },
     "timm/mobilenetv3_small_100.lamb_in1k": {
       "seen_public": true,
@@ -6130,7 +6535,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:32Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-classification",
       "library_name": "timm",
@@ -6140,7 +6545,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:32Z",
+      "base_models": []
     },
     "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
       "seen_public": true,
@@ -6157,7 +6563,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:32Z",
       "license": "apache-2.0",
       "pipeline_tag": "automatic-speech-recognition",
       "library_name": "transformers",
@@ -6167,7 +6573,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:32Z",
+      "base_models": []
     },
     "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
       "seen_public": true,
@@ -6177,14 +6584,14 @@
       "private": false,
       "gated": false,
       "downloads": 15437304,
-      "likes": 45,
+      "likes": 46,
       "sha": "ce8d0bf270b28c8fab026ced69fe8aa14b0f0eda",
       "last_modified": "2026-09-08T04:47:15.000Z",
       "file_count": 12,
       "weight_count": 1,
       "http": 200,
       "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:32Z",
       "license": null,
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -6193,7 +6600,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:32Z",
+      "base_models": []
     },
     "Comfy-Org/stable-diffusion-v1-5-archive": {
       "seen_public": true,
@@ -6210,7 +6618,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "Comfy-Org/stable-diffusion-v1-5-archive",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:32Z",
       "license": "creativeml-openrail-m",
       "pipeline_tag": null,
       "library_name": "diffusion-single-file",
@@ -6221,7 +6629,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:32Z",
+      "base_models": [
+        "runwayml/stable-diffusion-v1-5"
+      ]
     },
     "openai-community/gpt2": {
       "seen_public": true,
@@ -6231,14 +6642,14 @@
       "private": false,
       "gated": false,
       "downloads": 15584259,
-      "likes": 4112,
+      "likes": 4114,
       "sha": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
       "last_modified": "2024-02-19T10:57:45.000Z",
       "file_count": 26,
       "weight_count": 3,
       "http": 200,
       "id": "openai-community/gpt2",
-      "checked_at": "2026-09-16T11:33:47Z",
+      "checked_at": "2026-09-16T14:52:32Z",
       "license": "mit",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -6249,7 +6660,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:47Z"
+      "last_public_checked_at": "2026-09-16T14:52:32Z",
+      "base_models": []
     },
     "nomic-ai/nomic-embed-text-v1.5": {
       "seen_public": true,
@@ -6259,14 +6671,14 @@
       "private": false,
       "gated": false,
       "downloads": 15135151,
-      "likes": 931,
+      "likes": 932,
       "sha": "e9b6763023c676ca8431644204f50c2b100d9aab",
       "last_modified": "2026-04-07T14:17:02.000Z",
       "file_count": 20,
       "weight_count": 1,
       "http": 200,
       "id": "nomic-ai/nomic-embed-text-v1.5",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:33Z",
       "license": "apache-2.0",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -6275,7 +6687,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:33Z",
+      "base_models": []
     },
     "Qwen/Qwen3-8B": {
       "seen_public": true,
@@ -6285,14 +6698,14 @@
       "private": false,
       "gated": false,
       "downloads": 13103652,
-      "likes": 2001,
+      "likes": 2004,
       "sha": "b968826d9c46dd6066d109eabc6255188de91218",
       "last_modified": "2025-07-26T03:49:13.000Z",
       "file_count": 15,
       "weight_count": 5,
       "http": 200,
       "id": "Qwen/Qwen3-8B",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:33Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -6305,7 +6718,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:33Z",
+      "base_models": [
+        "Qwen/Qwen3-8B-Base"
+      ]
     },
     "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF": {
       "seen_public": true,
@@ -6315,14 +6731,14 @@
       "private": false,
       "gated": false,
       "downloads": 12866779,
-      "likes": 1021,
+      "likes": 1022,
       "sha": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
       "last_modified": "2026-01-30T06:29:38.000Z",
       "file_count": 33,
       "weight_count": 28,
       "http": 200,
       "id": "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:33Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -6358,7 +6774,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:33Z",
+      "base_models": [
+        "Qwen/Qwen3-Coder-30B-A3B-Instruct"
+      ]
     },
     "timm/efficientnet_b3.ra2_in1k": {
       "seen_public": true,
@@ -6375,7 +6794,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "timm/efficientnet_b3.ra2_in1k",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:33Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-classification",
       "library_name": "timm",
@@ -6385,7 +6804,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:33Z",
+      "base_models": []
     },
     "intfloat/multilingual-e5-small": {
       "seen_public": true,
@@ -6402,7 +6822,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "intfloat/multilingual-e5-small",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:33Z",
       "license": "mit",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -6413,7 +6833,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:33Z",
+      "base_models": []
     },
     "BAAI/bge-large-en-v1.5": {
       "seen_public": true,
@@ -6430,7 +6851,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "BAAI/bge-large-en-v1.5",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:33Z",
       "license": "mit",
       "pipeline_tag": "feature-extraction",
       "library_name": "sentence-transformers",
@@ -6440,7 +6861,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:33Z",
+      "base_models": []
     },
     "hexgrad/Kokoro-82M": {
       "seen_public": true,
@@ -6450,14 +6872,14 @@
       "private": false,
       "gated": false,
       "downloads": 11751590,
-      "likes": 6936,
+      "likes": 6937,
       "sha": "f3ff3571791e39611d31c381e3a41a3af07b4987",
       "last_modified": "2025-04-10T18:12:48.000Z",
       "file_count": 72,
       "weight_count": 55,
       "http": 200,
       "id": "hexgrad/Kokoro-82M",
-      "checked_at": "2026-09-16T11:33:48Z",
+      "checked_at": "2026-09-16T14:52:34Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-to-speech",
       "library_name": null,
@@ -6520,7 +6942,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:48Z"
+      "last_public_checked_at": "2026-09-16T14:52:34Z",
+      "base_models": [
+        "yl4579/StyleTTS2-LJSpeech"
+      ]
     },
     "argmaxinc/whisperkit-coreml": {
       "seen_public": true,
@@ -6537,7 +6962,7 @@
       "weight_count": 267,
       "http": 200,
       "id": "argmaxinc/whisperkit-coreml",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:34Z",
       "license": "mit",
       "pipeline_tag": "automatic-speech-recognition",
       "library_name": "whisperkit",
@@ -6641,7 +7066,8 @@
       ],
       "weight_files_truncated": 171,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:34Z",
+      "base_models": []
     },
     "Qwen/Qwen3.6-35B-A3B-FP8": {
       "seen_public": true,
@@ -6658,7 +7084,7 @@
       "weight_count": 42,
       "http": 200,
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:34Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -6708,7 +7134,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:34Z",
+      "base_models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ]
     },
     "BAAI/bge-base-en-v1.5": {
       "seen_public": true,
@@ -6725,7 +7154,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "BAAI/bge-base-en-v1.5",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:34Z",
       "license": "mit",
       "pipeline_tag": "feature-extraction",
       "library_name": "sentence-transformers",
@@ -6735,7 +7164,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:34Z",
+      "base_models": []
     },
     "Qwen/Qwen2.5-7B-Instruct": {
       "seen_public": true,
@@ -6752,7 +7182,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "Qwen/Qwen2.5-7B-Instruct",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:34Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -6764,7 +7194,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:34Z",
+      "base_models": [
+        "Qwen/Qwen2.5-7B"
+      ]
     },
     "Bingsu/adetailer": {
       "seen_public": true,
@@ -6781,7 +7214,7 @@
       "weight_count": 12,
       "http": 200,
       "id": "Bingsu/adetailer",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:34Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": "ultralytics",
@@ -6801,7 +7234,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:34Z",
+      "base_models": []
     },
     "Qwen/Qwen3.5-9B": {
       "seen_public": true,
@@ -6811,14 +7245,14 @@
       "private": false,
       "gated": false,
       "downloads": 9341507,
-      "likes": 1970,
+      "likes": 1971,
       "sha": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
       "last_modified": "2026-03-02T00:51:43.000Z",
       "file_count": 16,
       "weight_count": 4,
       "http": 200,
       "id": "Qwen/Qwen3.5-9B",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:35Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -6830,7 +7264,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:35Z",
+      "base_models": [
+        "Qwen/Qwen3.5-9B-Base"
+      ]
     },
     "unsloth/Qwen3.8-27B-GGUF": {
       "seen_public": true,
@@ -6840,14 +7277,14 @@
       "private": false,
       "gated": false,
       "downloads": 8856150,
-      "likes": 4187,
+      "likes": 4195,
       "sha": "4ca720788d1e01f1bff70c033e0d0028fd02e502",
       "last_modified": "2026-08-20T12:04:25.000Z",
       "file_count": 33,
       "weight_count": 30,
       "http": 200,
       "id": "unsloth/Qwen3.8-27B-GGUF",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:36Z",
       "license": "apache-2.0",
       "pipeline_tag": null,
       "library_name": null,
@@ -6885,7 +7322,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:36Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "sentence-transformers/paraphrase-multilingual-mpnet-base-v2": {
       "seen_public": true,
@@ -6902,7 +7342,7 @@
       "weight_count": 4,
       "http": 200,
       "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:35Z",
       "license": "apache-2.0",
       "pipeline_tag": "sentence-similarity",
       "library_name": "sentence-transformers",
@@ -6914,7 +7354,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:35Z",
+      "base_models": []
     },
     "google/gemma-4-26B-A4B-it": {
       "seen_public": true,
@@ -6931,7 +7372,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "google/gemma-4-26B-A4B-it",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:35Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -6941,7 +7382,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:35Z",
+      "base_models": [
+        "google/gemma-4-26B-A4B"
+      ]
     },
     "amazon/chronos-bolt-small": {
       "seen_public": true,
@@ -6958,7 +7402,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "amazon/chronos-bolt-small",
-      "checked_at": "2026-09-16T11:33:49Z",
+      "checked_at": "2026-09-16T14:52:35Z",
       "license": "apache-2.0",
       "pipeline_tag": "time-series-forecasting",
       "library_name": "chronos-forecasting",
@@ -6967,7 +7411,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:49Z"
+      "last_public_checked_at": "2026-09-16T14:52:35Z",
+      "base_models": []
     },
     "google/gemma-4-31B-it": {
       "seen_public": true,
@@ -6977,14 +7422,14 @@
       "private": false,
       "gated": false,
       "downloads": 9138731,
-      "likes": 3842,
+      "likes": 3843,
       "sha": "842da3794eaa0b77d5f08bae87a17459d91ff475",
       "last_modified": "2026-07-20T16:42:18.000Z",
       "file_count": 12,
       "weight_count": 2,
       "http": 200,
       "id": "google/gemma-4-31B-it",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:35Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -6994,7 +7439,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:35Z",
+      "base_models": [
+        "google/gemma-4-31B"
+      ]
     },
     "autogluon/chronos-2": {
       "seen_public": true,
@@ -7011,7 +7459,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "autogluon/chronos-2",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:35Z",
       "license": "apache-2.0",
       "pipeline_tag": "time-series-forecasting",
       "library_name": "chronos-forecasting",
@@ -7020,7 +7468,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:35Z",
+      "base_models": []
     },
     "nvidia/Qwen3.6-35B-A3B-NVFP4": {
       "seen_public": true,
@@ -7037,7 +7486,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:36Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "Model Optimizer",
@@ -7048,7 +7497,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:36Z",
+      "base_models": [
+        "Qwen/Qwen3.6-35B-A3B"
+      ]
     },
     "pyannote/speaker-diarization-3.1": {
       "seen_public": true,
@@ -7058,21 +7510,22 @@
       "private": false,
       "gated": "auto",
       "downloads": 8467858,
-      "likes": 3676,
+      "likes": 3680,
       "sha": "84fd25912480287da0247647c3d2b4853cb3ee5d",
       "last_modified": "2024-05-10T19:43:23.000Z",
       "file_count": 24,
       "weight_count": 0,
       "http": 200,
       "id": "pyannote/speaker-diarization-3.1",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:36Z",
       "license": "mit",
       "pipeline_tag": "automatic-speech-recognition",
       "library_name": "pyannote-audio",
       "weight_files": [],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:36Z",
+      "base_models": []
     },
     "Qwen/Qwen3-Embedding-0.6B": {
       "seen_public": true,
@@ -7082,14 +7535,14 @@
       "private": false,
       "gated": false,
       "downloads": 8526863,
-      "likes": 1224,
+      "likes": 1225,
       "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
       "last_modified": "2026-04-20T02:45:58.000Z",
       "file_count": 12,
       "weight_count": 1,
       "http": 200,
       "id": "Qwen/Qwen3-Embedding-0.6B",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:36Z",
       "license": "apache-2.0",
       "pipeline_tag": "feature-extraction",
       "library_name": "sentence-transformers",
@@ -7098,7 +7551,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:36Z",
+      "base_models": [
+        "Qwen/Qwen3-0.6B-Base"
+      ]
     },
     "openai/clip-vit-large-patch14": {
       "seen_public": true,
@@ -7115,7 +7571,7 @@
       "weight_count": 3,
       "http": 200,
       "id": "openai/clip-vit-large-patch14",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:37Z",
       "license": null,
       "pipeline_tag": "zero-shot-image-classification",
       "library_name": "transformers",
@@ -7126,7 +7582,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:37Z",
+      "base_models": []
     },
     "Qwen/Qwen2.5-0.5B-Instruct": {
       "seen_public": true,
@@ -7143,7 +7600,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "Qwen/Qwen2.5-0.5B-Instruct",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:36Z",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -7152,7 +7609,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:36Z",
+      "base_models": [
+        "Qwen/Qwen2.5-0.5B"
+      ]
     },
     "laion/clap-htsat-fused": {
       "seen_public": true,
@@ -7169,7 +7629,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "laion/clap-htsat-fused",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:37Z",
       "license": "apache-2.0",
       "pipeline_tag": "audio-classification",
       "library_name": "transformers",
@@ -7179,7 +7639,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:37Z",
+      "base_models": []
     },
     "facebook/contriever": {
       "seen_public": true,
@@ -7196,7 +7657,7 @@
       "weight_count": 1,
       "http": 200,
       "id": "facebook/contriever",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:37Z",
       "license": null,
       "pipeline_tag": null,
       "library_name": "transformers",
@@ -7205,7 +7666,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:37Z",
+      "base_models": []
     },
     "Comfy-Org/Krea-2": {
       "seen_public": true,
@@ -7215,14 +7677,14 @@
       "private": false,
       "gated": false,
       "downloads": 8468421,
-      "likes": 558,
+      "likes": 559,
       "sha": "e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96",
       "last_modified": "2026-08-17T06:03:21.000Z",
       "file_count": 25,
       "weight_count": 22,
       "http": 200,
       "id": "Comfy-Org/Krea-2",
-      "checked_at": "2026-09-16T11:33:50Z",
+      "checked_at": "2026-09-16T14:52:36Z",
       "license": "other",
       "pipeline_tag": null,
       "library_name": "diffusion-single-file",
@@ -7252,7 +7714,11 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:50Z"
+      "last_public_checked_at": "2026-09-16T14:52:36Z",
+      "base_models": [
+        "krea/Krea-2-Raw",
+        "krea/Krea-2-Turbo"
+      ]
     },
     "facebook/opt-125m": {
       "seen_public": true,
@@ -7269,7 +7735,7 @@
       "weight_count": 2,
       "http": 200,
       "id": "facebook/opt-125m",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:37Z",
       "license": "other",
       "pipeline_tag": "text-generation",
       "library_name": "transformers",
@@ -7279,7 +7745,8 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:37Z",
+      "base_models": []
     },
     "Qwen/Qwen3.8-27B-FP8": {
       "seen_public": true,
@@ -7296,7 +7763,7 @@
       "weight_count": 66,
       "http": 200,
       "id": "Qwen/Qwen3.8-27B-FP8",
-      "checked_at": "2026-09-16T11:33:51Z",
+      "checked_at": "2026-09-16T14:52:37Z",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text",
       "library_name": "transformers",
@@ -7370,7 +7837,10 @@
       ],
       "weight_files_truncated": 0,
       "auth_required": false,
-      "last_public_checked_at": "2026-09-16T11:33:51Z"
+      "last_public_checked_at": "2026-09-16T14:52:37Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
       "always_private": true,
@@ -7383,7 +7853,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:05Z"
     },
     "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
       "always_private": true,
@@ -7396,7 +7866,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:06Z"
     },
     "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
       "always_private": true,
@@ -7409,7 +7879,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:06Z"
     },
     "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
       "always_private": true,
@@ -7422,7 +7892,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:06Z"
     },
     "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
       "always_private": true,
@@ -7435,7 +7905,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:06Z"
     },
     "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
       "always_private": true,
@@ -7448,7 +7918,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:06Z"
     },
     "databricks/dolly-v1-6b": {
       "always_private": true,
@@ -7461,7 +7931,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "databricks/dolly-v1-6b",
-      "checked_at": "2026-09-16T11:33:29Z"
+      "checked_at": "2026-09-16T14:52:05Z"
     },
     "databricks/dolly-v2-12b": {
       "always_private": true,
@@ -7474,7 +7944,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "databricks/dolly-v2-12b",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:05Z"
     },
     "databricks/dolly-v2-3b": {
       "always_private": true,
@@ -7487,7 +7957,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "databricks/dolly-v2-3b",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:05Z"
     },
     "databricks/dolly-v2-7b": {
       "always_private": true,
@@ -7500,7 +7970,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "databricks/dolly-v2-7b",
-      "checked_at": "2026-09-16T11:33:30Z"
+      "checked_at": "2026-09-16T14:52:05Z"
     },
     "databricks/dbrx-base": {
       "always_private": true,
@@ -7513,7 +7983,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "databricks/dbrx-base",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:07Z"
     },
     "databricks/dbrx-instruct": {
       "always_private": true,
@@ -7526,7 +7996,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "databricks/dbrx-instruct",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:07Z"
     },
     "mosaicml/mpt-30b": {
       "always_private": true,
@@ -7539,7 +8009,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "mosaicml/mpt-30b",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:07Z"
     },
     "mosaicml/mpt-30b-chat": {
       "always_private": true,
@@ -7552,7 +8022,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "mosaicml/mpt-30b-chat",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:07Z"
     },
     "mosaicml/mpt-30b-instruct": {
       "always_private": true,
@@ -7565,7 +8035,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "mosaicml/mpt-30b-instruct",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:07Z"
     },
     "mosaicml/mpt-7b": {
       "always_private": true,
@@ -7578,7 +8048,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "mosaicml/mpt-7b",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "mosaicml/mpt-7b-instruct": {
       "always_private": true,
@@ -7591,7 +8061,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "mosaicml/mpt-7b-instruct",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "mosaicml/mpt-7b-storywriter": {
       "always_private": true,
@@ -7604,7 +8074,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "mosaicml/mpt-7b-storywriter",
-      "checked_at": "2026-09-16T11:33:31Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "stabilityai/stable-diffusion-2": {
       "always_private": true,
@@ -7617,7 +8087,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "stabilityai/stable-diffusion-2",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "stabilityai/stable-diffusion-2-1-base": {
       "always_private": true,
@@ -7630,7 +8100,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "stabilityai/stable-diffusion-2-1-base",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "stabilityai/stable-diffusion-2-inpainting": {
       "always_private": true,
@@ -7643,7 +8113,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "stabilityai/stable-diffusion-2-inpainting",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "runwayml/stable-diffusion-v1-4": {
       "always_private": true,
@@ -7656,7 +8126,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "runwayml/stable-diffusion-v1-4",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:08Z"
     },
     "WizardLMTeam/WizardLM-2-70B": {
       "always_private": true,
@@ -7669,7 +8139,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "WizardLMTeam/WizardLM-2-70B",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:09Z"
     },
     "WizardLMTeam/WizardLM-2-7B": {
       "always_private": true,
@@ -7682,7 +8152,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "WizardLMTeam/WizardLM-2-7B",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:09Z"
     },
     "WizardLMTeam/WizardLM-2-8x22B": {
       "always_private": true,
@@ -7695,7 +8165,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "WizardLMTeam/WizardLM-2-8x22B",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:09Z"
     },
     "microsoft/WizardLM-2-7B": {
       "always_private": true,
@@ -7708,7 +8178,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "microsoft/WizardLM-2-7B",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:09Z"
     },
     "microsoft/WizardLM-2-8x22B": {
       "always_private": true,
@@ -7721,7 +8191,7 @@
       "weight_count": 0,
       "auth_required": true,
       "id": "microsoft/WizardLM-2-8x22B",
-      "checked_at": "2026-09-16T11:33:32Z"
+      "checked_at": "2026-09-16T14:52:09Z"
     },
     "audnai/penclaw-GLM-5.3-abliterated": {
       "seen_public": true,
@@ -7731,7 +8201,7 @@
       "private": false,
       "gated": "manual",
       "downloads": 264,
-      "likes": 92,
+      "likes": 107,
       "sha": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
       "last_modified": "2026-09-02T22:22:22.000Z",
       "file_count": 734,
@@ -7841,8 +8311,9 @@
       "weight_files_truncated": 609,
       "auth_required": false,
       "id": "audnai/penclaw-GLM-5.3-abliterated",
-      "checked_at": "2026-09-16T11:33:33Z",
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "checked_at": "2026-09-16T14:52:09Z",
+      "last_public_checked_at": "2026-09-16T14:52:09Z",
+      "base_models": []
     },
     "audnai/penclaw-Kimi-K3.0-abliterated-GGUF": {
       "seen_public": true,
@@ -7904,8 +8375,9 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:33Z",
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "checked_at": "2026-09-16T14:52:10Z",
+      "last_public_checked_at": "2026-09-16T14:52:10Z",
+      "base_models": []
     },
     "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF": {
       "seen_public": true,
@@ -7930,8 +8402,11 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
-      "checked_at": "2026-09-16T11:33:33Z",
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "checked_at": "2026-09-16T14:52:10Z",
+      "last_public_checked_at": "2026-09-16T14:52:10Z",
+      "base_models": [
+        "AlicanKiraz0/BaronLLM_Offensive_Security_LLM_Q6_K_GGUF"
+      ]
     },
     "huihui-ai/Qwen3-8B-abliterated": {
       "seen_public": true,
@@ -7959,8 +8434,11 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "huihui-ai/Qwen3-8B-abliterated",
-      "checked_at": "2026-09-16T11:33:33Z",
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "checked_at": "2026-09-16T14:52:10Z",
+      "last_public_checked_at": "2026-09-16T14:52:10Z",
+      "base_models": [
+        "Qwen/Qwen3-8B"
+      ]
     },
     "orcarouter/Qwen3.8-27B-Uncensored": {
       "seen_public": true,
@@ -8002,8 +8480,11 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "orcarouter/Qwen3.8-27B-Uncensored",
-      "checked_at": "2026-09-16T11:33:33Z",
-      "last_public_checked_at": "2026-09-16T11:33:33Z"
+      "checked_at": "2026-09-16T14:52:10Z",
+      "last_public_checked_at": "2026-09-16T14:52:10Z",
+      "base_models": [
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic": {
       "seen_public": true,
@@ -8056,8 +8537,12 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
-      "checked_at": "2026-09-16T11:33:41Z",
-      "last_public_checked_at": "2026-09-16T11:33:41Z"
+      "checked_at": "2026-09-16T14:52:22Z",
+      "last_public_checked_at": "2026-09-16T14:52:22Z",
+      "base_models": [
+        "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+        "Qwen/Qwen3.8-27B"
+      ]
     },
     "RedTeamLab/Gemma-4-26B-Sol-Traces-v1": {
       "seen_public": true,
@@ -8084,8 +8569,11 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
-      "checked_at": "2026-09-16T11:33:43Z",
-      "last_public_checked_at": "2026-09-16T11:33:43Z"
+      "checked_at": "2026-09-16T14:52:25Z",
+      "last_public_checked_at": "2026-09-16T14:52:25Z",
+      "base_models": [
+        "unsloth/gemma-4-26B-A4B-it"
+      ]
     },
     "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF": {
       "seen_public": true,
@@ -8121,9 +8609,12 @@
       "weight_files_truncated": 0,
       "auth_required": false,
       "id": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF",
-      "checked_at": "2026-09-16T11:33:45Z",
-      "last_public_checked_at": "2026-09-16T11:33:45Z"
+      "checked_at": "2026-09-16T14:52:29Z",
+      "last_public_checked_at": "2026-09-16T14:52:29Z",
+      "base_models": [
+        "Sanraj/Qwen3-1.7B-jailbreak-finetuned"
+      ]
     }
   },
-  "updated_at": "2026-09-16T11:33:51Z"
+  "updated_at": "2026-09-16T14:52:38Z"
 }
