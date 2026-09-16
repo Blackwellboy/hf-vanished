@@ -1,0 +1,61 @@
+name: Report a vanished / restricted model
+description: Submit a public model for HF Vanished verification.
+title: "[MODEL] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. HF Vanished records observable availability changes and does not infer motive without a source.
+        Please submit public-safe evidence only. Do not paste private dumps, tokens, or credentials.
+  - type: input
+    id: model
+    attributes:
+      label: Model ID
+      description: Hugging Face org/model identifier.
+      placeholder: org/model
+    validations:
+      required: true
+  - type: input
+    id: hf_url
+    attributes:
+      label: Hugging Face URL
+      placeholder: https://huggingface.co/org/model
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed?
+      options:
+        - Deleted / 404
+        - Disabled
+        - Private / auth required
+        - Newly gated
+        - Weight or model files removed
+        - Unknown / not sure
+    validations:
+      required: true
+  - type: input
+    id: last_seen
+    attributes:
+      label: Approximate last time you saw it public
+      placeholder: 2026-09-01 or "about two weeks ago"
+  - type: input
+    id: archive
+    attributes:
+      label: Archive / previous-public proof
+      description: Wayback, old model-card link, release note, documentation or other public evidence.
+      placeholder: https://web.archive.org/...
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything useful for verification. Please separate observation from guesses about the reason.
+  - type: checkboxes
+    id: public_safe
+    attributes:
+      label: Public-safe submission
+      options:
+        - label: I have not included private credentials, tokens, or private evidence dumps.
+          required: true
