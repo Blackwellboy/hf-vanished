@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T04:41:51Z",
+  "generated_at": "2026-09-16T11:21:23Z",
   "schema": "hf-vanished.events.v1",
-  "cadence": "0 */6 * * *",
+  "cadence": "17 */6 * * *",
   "source": "https://github.com/Blackwellboy/hf-vanished",
   "events": [
     {
@@ -19,7 +19,20 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:28:03Z"
+        "checked_at": "2026-09-16T04:28:03Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/Aeala/ShareGPT_Vicuna_unfiltered",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:00Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -37,7 +50,20 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:26:54Z"
+        "checked_at": "2026-09-16T04:26:54Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/OpenAssistant/oasst-sft-6-llama-30b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:00Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -55,7 +81,20 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:29:13Z"
+        "checked_at": "2026-09-16T04:29:13Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/Undi95/LLaMA-2-13B-GPTQ",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -73,7 +112,20 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:27:40Z"
+        "checked_at": "2026-09-16T04:27:40Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -91,10 +143,23 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:27:40Z"
+        "checked_at": "2026-09-16T04:27:40Z",
+        "auth_required": true
       },
       "wayback_url": "https://web.archive.org/web/20240324124203/https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
-      "wayback_timestamp": "20240324124203"
+      "wayback_timestamp": "20240324124203",
+      "pirateface_url": "https://pirateface.co/WizardLM/WizardLM-7B-V1.0",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
+      }
     },
     {
       "id": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
@@ -114,7 +179,116 @@
         "checked_at": "2026-09-16T04:26:54Z"
       },
       "wayback_url": "https://web.archive.org/web/20260831111131/https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
-      "wayback_timestamp": "20260831111131"
+      "wayback_timestamp": "20260831111131",
+      "pirateface_url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": "e8e68a646dce5bda37533d9e0074a3cb2d4be28c",
+        "license": "mit",
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "file_count": 449,
+        "weight_count": 423,
+        "weight_files": [
+          "iter11_dense29_a1.4/model-00001-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00002-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00003-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00004-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00005-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00006-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00007-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00008-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00009-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00010-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00011-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00012-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00013-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00014-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00015-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00016-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00017-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00018-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00019-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00020-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00021-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00022-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00023-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00024-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00025-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00026-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00027-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00028-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00029-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00030-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00031-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00032-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00033-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00034-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00035-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00036-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00037-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00038-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00039-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00040-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00041-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00042-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00043-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00044-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00045-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00046-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00047-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00048-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00049-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00050-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00051-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00052-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00053-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00054-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00055-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00056-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00057-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00058-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00059-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00060-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00061-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00062-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00063-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00064-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00065-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00066-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00067-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00068-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00069-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00070-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00071-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00072-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00073-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00074-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00075-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00076-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00077-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00078-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00079-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00080-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00081-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00082-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00083-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00084-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00085-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00086-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00087-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00088-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00089-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00090-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00091-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00092-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00093-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00094-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00095-of-00141.safetensors",
+          "iter11_dense29_a1.4/model-00096-of-00141.safetensors"
+        ],
+        "weight_files_truncated": 327
+      }
     },
     {
       "id": "databricks/dolly-v1-6b",
@@ -133,7 +307,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/databricks/dolly-v1-6b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -154,7 +341,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/databricks/dolly-v2-12b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -174,7 +374,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/databricks/dolly-v2-3b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:01Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -194,7 +407,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/databricks/dolly-v2-7b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -213,9 +439,24 @@
       ],
       "curr": {
         "visibility": "private",
+        "gated": false,
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:53Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -233,9 +474,24 @@
       ],
       "curr": {
         "visibility": "private",
+        "gated": false,
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:53Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -253,9 +509,24 @@
       ],
       "curr": {
         "visibility": "private",
+        "gated": false,
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:53Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -273,9 +544,24 @@
       ],
       "curr": {
         "visibility": "private",
+        "gated": false,
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:53Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -293,9 +579,24 @@
       ],
       "curr": {
         "visibility": "private",
+        "gated": false,
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:53Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -315,9 +616,24 @@
       ],
       "curr": {
         "visibility": "private",
+        "gated": false,
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:54Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -335,10 +651,56 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:26:54Z"
+        "checked_at": "2026-09-16T04:26:54Z",
+        "auth_required": true
       },
       "wayback_url": "https://web.archive.org/web/20251130173241/https://huggingface.co/mosaicml/mpt-7b-chat",
-      "wayback_timestamp": "20251130173241"
+      "wayback_timestamp": "20251130173241",
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-chat",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
+      }
+    },
+    {
+      "id": "mosaicml/mpt-7b-chat",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401 after prior public snapshots.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:52Z",
+        "auth_required": true
+      },
+      "wayback_url": "https://web.archive.org/web/20251130173241/https://huggingface.co/mosaicml/mpt-7b-chat",
+      "wayback_timestamp": "20251130173241",
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-chat",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
+      }
     },
     {
       "id": "stabilityai/stable-diffusion-2-1",
@@ -355,10 +717,56 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:27:40Z"
+        "checked_at": "2026-09-16T04:27:40Z",
+        "auth_required": true
       },
       "wayback_url": "https://web.archive.org/web/20251112142536/https://huggingface.co/stabilityai/stable-diffusion-2-1",
-      "wayback_timestamp": "20251112142536"
+      "wayback_timestamp": "20251112142536",
+      "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-1",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
+      }
+    },
+    {
+      "id": "stabilityai/stable-diffusion-2-1",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401 for a formerly public SD 2.1 listing.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T11:20:52Z",
+        "auth_required": true
+      },
+      "wayback_url": "https://web.archive.org/web/20251112142536/https://huggingface.co/stabilityai/stable-diffusion-2-1",
+      "wayback_timestamp": "20251112142536",
+      "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-1",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
+      }
     },
     {
       "id": "tencent/HunyuanDiT",
@@ -375,7 +783,20 @@
         "disabled": false,
         "weight_count": 0,
         "http": 401,
-        "checked_at": "2026-09-16T04:31:31Z"
+        "checked_at": "2026-09-16T04:31:31Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/tencent/HunyuanDiT",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:02Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -395,7 +816,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/databricks/dbrx-base",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -417,7 +851,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/databricks/dbrx-instruct",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -437,7 +884,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-30b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -457,7 +917,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-30b-chat",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -477,7 +950,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-30b-instruct",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -499,7 +985,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -520,7 +1019,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-instruct",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -540,7 +1052,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-storywriter",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -561,7 +1086,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:03Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -583,7 +1121,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-1-base",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -604,7 +1155,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-inpainting",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -625,7 +1189,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/runwayml/stable-diffusion-v1-4",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -648,7 +1225,43 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/runwayml/stable-diffusion-v1-5",
+      "last_public": {
+        "checked_at": "2026-09-16T11:20:58Z",
+        "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+        "license": "creativeml-openrail-m",
+        "pipeline_tag": "text-to-image",
+        "library_name": "diffusers",
+        "file_count": 36,
+        "weight_count": 22,
+        "weight_files": [
+          "safety_checker/model.fp16.safetensors",
+          "safety_checker/model.safetensors",
+          "safety_checker/pytorch_model.bin",
+          "safety_checker/pytorch_model.fp16.bin",
+          "text_encoder/model.fp16.safetensors",
+          "text_encoder/model.safetensors",
+          "text_encoder/pytorch_model.bin",
+          "text_encoder/pytorch_model.fp16.bin",
+          "unet/diffusion_pytorch_model.bin",
+          "unet/diffusion_pytorch_model.fp16.bin",
+          "unet/diffusion_pytorch_model.fp16.safetensors",
+          "unet/diffusion_pytorch_model.non_ema.bin",
+          "unet/diffusion_pytorch_model.non_ema.safetensors",
+          "unet/diffusion_pytorch_model.safetensors",
+          "v1-5-pruned-emaonly.ckpt",
+          "v1-5-pruned-emaonly.safetensors",
+          "v1-5-pruned.ckpt",
+          "v1-5-pruned.safetensors",
+          "vae/diffusion_pytorch_model.bin",
+          "vae/diffusion_pytorch_model.fp16.bin",
+          "vae/diffusion_pytorch_model.fp16.safetensors",
+          "vae/diffusion_pytorch_model.safetensors"
+        ],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -669,7 +1282,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/WizardLMTeam/WizardLM-2-70B",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -691,7 +1317,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/WizardLMTeam/WizardLM-2-7B",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -714,7 +1353,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/WizardLMTeam/WizardLM-2-8x22B",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -735,7 +1387,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/microsoft/WizardLM-2-7B",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -756,7 +1421,20 @@
         "visibility": "deleted",
         "disabled": false,
         "weight_count": 0,
-        "http": 401
+        "http": 401,
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/microsoft/WizardLM-2-8x22B",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": null,
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 0,
+        "weight_count": 0,
+        "weight_files": [],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -778,6 +1456,115 @@
         "gated": true,
         "disabled": false,
         "http": 200
+      },
+      "pirateface_url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
+        "license": "other",
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "file_count": 734,
+        "weight_count": 705,
+        "weight_files": [
+          "iter11/model-00001-of-00141.safetensors",
+          "iter11/model-00002-of-00141.safetensors",
+          "iter11/model-00003-of-00141.safetensors",
+          "iter11/model-00004-of-00141.safetensors",
+          "iter11/model-00005-of-00141.safetensors",
+          "iter11/model-00006-of-00141.safetensors",
+          "iter11/model-00007-of-00141.safetensors",
+          "iter11/model-00008-of-00141.safetensors",
+          "iter11/model-00009-of-00141.safetensors",
+          "iter11/model-00010-of-00141.safetensors",
+          "iter11/model-00011-of-00141.safetensors",
+          "iter11/model-00012-of-00141.safetensors",
+          "iter11/model-00013-of-00141.safetensors",
+          "iter11/model-00014-of-00141.safetensors",
+          "iter11/model-00015-of-00141.safetensors",
+          "iter11/model-00016-of-00141.safetensors",
+          "iter11/model-00017-of-00141.safetensors",
+          "iter11/model-00018-of-00141.safetensors",
+          "iter11/model-00019-of-00141.safetensors",
+          "iter11/model-00020-of-00141.safetensors",
+          "iter11/model-00021-of-00141.safetensors",
+          "iter11/model-00022-of-00141.safetensors",
+          "iter11/model-00023-of-00141.safetensors",
+          "iter11/model-00024-of-00141.safetensors",
+          "iter11/model-00025-of-00141.safetensors",
+          "iter11/model-00026-of-00141.safetensors",
+          "iter11/model-00027-of-00141.safetensors",
+          "iter11/model-00028-of-00141.safetensors",
+          "iter11/model-00029-of-00141.safetensors",
+          "iter11/model-00030-of-00141.safetensors",
+          "iter11/model-00031-of-00141.safetensors",
+          "iter11/model-00032-of-00141.safetensors",
+          "iter11/model-00033-of-00141.safetensors",
+          "iter11/model-00034-of-00141.safetensors",
+          "iter11/model-00035-of-00141.safetensors",
+          "iter11/model-00036-of-00141.safetensors",
+          "iter11/model-00037-of-00141.safetensors",
+          "iter11/model-00038-of-00141.safetensors",
+          "iter11/model-00039-of-00141.safetensors",
+          "iter11/model-00040-of-00141.safetensors",
+          "iter11/model-00041-of-00141.safetensors",
+          "iter11/model-00042-of-00141.safetensors",
+          "iter11/model-00043-of-00141.safetensors",
+          "iter11/model-00044-of-00141.safetensors",
+          "iter11/model-00045-of-00141.safetensors",
+          "iter11/model-00046-of-00141.safetensors",
+          "iter11/model-00047-of-00141.safetensors",
+          "iter11/model-00048-of-00141.safetensors",
+          "iter11/model-00049-of-00141.safetensors",
+          "iter11/model-00050-of-00141.safetensors",
+          "iter11/model-00051-of-00141.safetensors",
+          "iter11/model-00052-of-00141.safetensors",
+          "iter11/model-00053-of-00141.safetensors",
+          "iter11/model-00054-of-00141.safetensors",
+          "iter11/model-00055-of-00141.safetensors",
+          "iter11/model-00056-of-00141.safetensors",
+          "iter11/model-00057-of-00141.safetensors",
+          "iter11/model-00058-of-00141.safetensors",
+          "iter11/model-00059-of-00141.safetensors",
+          "iter11/model-00060-of-00141.safetensors",
+          "iter11/model-00061-of-00141.safetensors",
+          "iter11/model-00062-of-00141.safetensors",
+          "iter11/model-00063-of-00141.safetensors",
+          "iter11/model-00064-of-00141.safetensors",
+          "iter11/model-00065-of-00141.safetensors",
+          "iter11/model-00066-of-00141.safetensors",
+          "iter11/model-00067-of-00141.safetensors",
+          "iter11/model-00068-of-00141.safetensors",
+          "iter11/model-00069-of-00141.safetensors",
+          "iter11/model-00070-of-00141.safetensors",
+          "iter11/model-00071-of-00141.safetensors",
+          "iter11/model-00072-of-00141.safetensors",
+          "iter11/model-00073-of-00141.safetensors",
+          "iter11/model-00074-of-00141.safetensors",
+          "iter11/model-00075-of-00141.safetensors",
+          "iter11/model-00076-of-00141.safetensors",
+          "iter11/model-00077-of-00141.safetensors",
+          "iter11/model-00078-of-00141.safetensors",
+          "iter11/model-00079-of-00141.safetensors",
+          "iter11/model-00080-of-00141.safetensors",
+          "iter11/model-00081-of-00141.safetensors",
+          "iter11/model-00082-of-00141.safetensors",
+          "iter11/model-00083-of-00141.safetensors",
+          "iter11/model-00084-of-00141.safetensors",
+          "iter11/model-00085-of-00141.safetensors",
+          "iter11/model-00086-of-00141.safetensors",
+          "iter11/model-00087-of-00141.safetensors",
+          "iter11/model-00088-of-00141.safetensors",
+          "iter11/model-00089-of-00141.safetensors",
+          "iter11/model-00090-of-00141.safetensors",
+          "iter11/model-00091-of-00141.safetensors",
+          "iter11/model-00092-of-00141.safetensors",
+          "iter11/model-00093-of-00141.safetensors",
+          "iter11/model-00094-of-00141.safetensors",
+          "iter11/model-00095-of-00141.safetensors",
+          "iter11/model-00096-of-00141.safetensors"
+        ],
+        "weight_files_truncated": 609
       }
     },
     {
@@ -799,6 +1586,57 @@
         "gated": true,
         "disabled": false,
         "http": 200
+      },
+      "pirateface_url": "https://pirateface.co/audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:04Z",
+        "sha": "a25be9b42b5e0396728c3997d56ea1dd4c608c05",
+        "license": null,
+        "pipeline_tag": null,
+        "library_name": null,
+        "file_count": 41,
+        "weight_count": 38,
+        "weight_files": [
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00001-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00002-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00003-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00004-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00005-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00006-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00007-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00008-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00009-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00010-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00011-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00012-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00013-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00014-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00015-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00016-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00017-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00018-of-00019.gguf",
+          "UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00019-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00001-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00002-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00003-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00004-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00005-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00006-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00007-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00008-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00009-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00010-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00011-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00012-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00013-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00014-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00015-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00016-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00017-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00018-of-00019.gguf",
+          "V5-UD-Q2_K_XL/Kimi-K3-UD-Q2_K_XL-00019-of-00019.gguf"
+        ],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -820,6 +1658,20 @@
         "gated": true,
         "disabled": false,
         "http": 200
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:05Z",
+        "sha": "7f7535bff0c301ec99fd3a8124aa4a48f50dfbde",
+        "license": "mit",
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "file_count": 3,
+        "weight_count": 1,
+        "weight_files": [
+          "baronllm--abliterated-llama3.1-v1-q6_k.gguf"
+        ],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -841,6 +1693,23 @@
         "gated": true,
         "disabled": false,
         "http": 200
+      },
+      "pirateface_url": "https://pirateface.co/huihui-ai/Qwen3-8B-abliterated",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:05Z",
+        "sha": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
+        "license": "apache-2.0",
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "file_count": 18,
+        "weight_count": 4,
+        "weight_files": [
+          "model-00001-of-00004.safetensors",
+          "model-00002-of-00004.safetensors",
+          "model-00003-of-00004.safetensors",
+          "model-00004-of-00004.safetensors"
+        ],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -862,6 +1731,37 @@
         "gated": true,
         "disabled": false,
         "http": 200
+      },
+      "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:05Z",
+        "sha": "404ea47aaa5d8a8b00049c9e9750089aca011ab2",
+        "license": "apache-2.0",
+        "pipeline_tag": "image-text-to-text",
+        "library_name": "transformers",
+        "file_count": 31,
+        "weight_count": 18,
+        "weight_files": [
+          "model-00001-of-00018.safetensors",
+          "model-00002-of-00018.safetensors",
+          "model-00003-of-00018.safetensors",
+          "model-00004-of-00018.safetensors",
+          "model-00005-of-00018.safetensors",
+          "model-00006-of-00018.safetensors",
+          "model-00007-of-00018.safetensors",
+          "model-00008-of-00018.safetensors",
+          "model-00009-of-00018.safetensors",
+          "model-00010-of-00018.safetensors",
+          "model-00011-of-00018.safetensors",
+          "model-00012-of-00018.safetensors",
+          "model-00013-of-00018.safetensors",
+          "model-00014-of-00018.safetensors",
+          "model-00015-of-00018.safetensors",
+          "model-00016-of-00018.safetensors",
+          "model-00017-of-00018.safetensors",
+          "model-00018-of-00018.safetensors"
+        ],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -880,6 +1780,26 @@
         "weight_count": 7,
         "http": 200,
         "checked_at": "2026-09-16T04:31:51Z"
+      },
+      "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:00Z",
+        "sha": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
+        "license": "apache-2.0",
+        "pipeline_tag": "image-text-to-text",
+        "library_name": "transformers",
+        "file_count": 20,
+        "weight_count": 7,
+        "weight_files": [
+          "model-00001-of-00007.safetensors",
+          "model-00002-of-00007.safetensors",
+          "model-00003-of-00007.safetensors",
+          "model-00004-of-00007.safetensors",
+          "model-00005-of-00007.safetensors",
+          "model-00006-of-00007.safetensors",
+          "model-00007-of-00007.safetensors"
+        ],
+        "weight_files_truncated": 0
       }
     },
     {
@@ -899,7 +1819,38 @@
         "http": 200,
         "checked_at": "2026-09-16T04:31:51Z"
       },
-      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF"
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:00Z",
+        "sha": "a855f377abf5cbda99a278414466743f427e97c8",
+        "license": "apache-2.0",
+        "pipeline_tag": "image-text-to-text",
+        "library_name": "gguf",
+        "file_count": 20,
+        "weight_count": 18,
+        "weight_files": [
+          "Qwen3.8-27B-Uncensored-F16-00001-of-00002.gguf",
+          "Qwen3.8-27B-Uncensored-F16-00002-of-00002.gguf",
+          "Qwen3.8-27B-Uncensored-IQ2_M.gguf",
+          "Qwen3.8-27B-Uncensored-IQ2_XXS.gguf",
+          "Qwen3.8-27B-Uncensored-IQ3_M.gguf",
+          "Qwen3.8-27B-Uncensored-IQ3_XXS.gguf",
+          "Qwen3.8-27B-Uncensored-IQ4_XS.gguf",
+          "Qwen3.8-27B-Uncensored-Q2_K.gguf",
+          "Qwen3.8-27B-Uncensored-Q3_K_L.gguf",
+          "Qwen3.8-27B-Uncensored-Q3_K_M.gguf",
+          "Qwen3.8-27B-Uncensored-Q3_K_S.gguf",
+          "Qwen3.8-27B-Uncensored-Q4_K_M.gguf",
+          "Qwen3.8-27B-Uncensored-Q4_K_S.gguf",
+          "Qwen3.8-27B-Uncensored-Q5_K_M.gguf",
+          "Qwen3.8-27B-Uncensored-Q5_K_S.gguf",
+          "Qwen3.8-27B-Uncensored-Q6_K.gguf",
+          "Qwen3.8-27B-Uncensored-Q8_0.gguf",
+          "mmproj-Qwen3.8-27B-Uncensored-f16.gguf"
+        ],
+        "weight_files_truncated": 0
+      }
     },
     {
       "id": "rogue-security/prompt-injection-jailbreak-sentinel-v2",
@@ -917,6 +1868,20 @@
         "weight_count": 1,
         "http": 200,
         "checked_at": "2026-09-16T04:31:51Z"
+      },
+      "pirateface_url": "https://pirateface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
+      "last_public": {
+        "checked_at": "2026-09-16T11:21:00Z",
+        "sha": "05ff9bfd1f28c5228e53121d5ee4427bb5205212",
+        "license": "other",
+        "pipeline_tag": "text-classification",
+        "library_name": "transformers",
+        "file_count": 12,
+        "weight_count": 1,
+        "weight_files": [
+          "model.safetensors"
+        ],
+        "weight_files_truncated": 0
       }
     }
   ]
