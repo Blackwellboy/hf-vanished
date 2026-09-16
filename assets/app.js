@@ -62,6 +62,13 @@
     return encodeURIComponent(String(id || "unknown"));
   }
 
+  function mirrorSearchUrl(id) {
+    const value = String(id || "");
+    const parts = value.split("/");
+    const modelName = parts[parts.length - 1] || value;
+    return `https://huggingface.co/models?search=${encodeURIComponent(modelName)}`;
+  }
+
   function filteredEvents() {
     const query = state.q.trim().toLowerCase();
     return state.events.filter((event) => {
@@ -100,6 +107,7 @@
       const links = [];
       if (event.hf_url) links.push(`<a class="action" href="${escapeHtml(event.hf_url)}" rel="noopener noreferrer">CURRENT HUB ↗</a>`);
       if (event.wayback_url) links.push(`<a class="action" href="${escapeHtml(event.wayback_url)}" rel="noopener noreferrer">BEFORE / WAYBACK ↗</a>`);
+      links.push(`<a class="action" href="${escapeHtml(mirrorSearchUrl(event.id))}" rel="noopener noreferrer">FIND LIVE COPIES ↗</a>`);
       links.push(`<a class="action" href="#${modelAnchor(event.id)}">DIRECT LINK</a>`);
       const http = event.curr && event.curr.http != null ? `HTTP ${escapeHtml(event.curr.http)}` : "";
       return `<article class="item" id="${modelAnchor(event.id)}">
