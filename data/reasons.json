@@ -1,0 +1,19 @@
+{
+  "schema": "hf-vanished.reasons.v1",
+  "updated_at": null,
+  "policy": "Reasons are never inferred from disappearance, keywords, timing, reports, or discussion volume. Non-UNKNOWN classifications require at least one public source URL.",
+  "categories": [
+    "author_action",
+    "legal",
+    "licensing",
+    "moderation",
+    "safety_policy",
+    "terms_of_service",
+    "distribution_change",
+    "platform_action",
+    "other",
+    "unknown"
+  ],
+  "statuses": ["OFFICIAL", "PRIMARY_SOURCE", "CORROBORATED", "REPORTED", "UNKNOWN"],
+  "models": {}
+}
