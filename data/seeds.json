@@ -3,13 +3,34 @@
   "notes": "Public-safe watchlist only. No private Minefield gold. Add model IDs under watchlist or known_events.",
   "top_n": 50,
   "search_families": [
-    {"query": "uncensored", "limit": 30},
-    {"query": "abliterated", "limit": 30},
-    {"query": "obliterated", "limit": 20},
-    {"query": "ablited", "limit": 15},
-    {"query": "red-team", "limit": 20},
-    {"query": "jailbreak", "limit": 20},
-    {"query": "refusal-removed", "limit": 15}
+    {
+      "query": "uncensored",
+      "limit": 30
+    },
+    {
+      "query": "abliterated",
+      "limit": 30
+    },
+    {
+      "query": "obliterated",
+      "limit": 20
+    },
+    {
+      "query": "ablited",
+      "limit": 15
+    },
+    {
+      "query": "red-team",
+      "limit": 20
+    },
+    {
+      "query": "jailbreak",
+      "limit": 20
+    },
+    {
+      "query": "refusal-removed",
+      "limit": 15
+    }
   ],
   "watchlist": [
     "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -41,7 +62,48 @@
     "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
     "rogue-security/prompt-injection-jailbreak-sentinel-v2",
     "WizardLM/WizardCoder-15B-V1.0",
-    "WizardLM/WizardMath-7B-V1.0"
+    "WizardLM/WizardMath-7B-V1.0",
+    "Aeala/ShareGPT_Vicuna_unfiltered",
+    "OpenAssistant/oasst-sft-6-llama-30b",
+    "Undi95/LLaMA-2-13B-GPTQ",
+    "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
+    "WizardLM/WizardLM-7B-V1.0",
+    "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
+    "databricks/dolly-v1-6b",
+    "databricks/dolly-v2-12b",
+    "databricks/dolly-v2-3b",
+    "databricks/dolly-v2-7b",
+    "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
+    "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
+    "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
+    "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
+    "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+    "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
+    "mosaicml/mpt-7b-chat",
+    "stabilityai/stable-diffusion-2-1",
+    "tencent/HunyuanDiT",
+    "databricks/dbrx-base",
+    "databricks/dbrx-instruct",
+    "mosaicml/mpt-30b",
+    "mosaicml/mpt-30b-chat",
+    "mosaicml/mpt-30b-instruct",
+    "mosaicml/mpt-7b",
+    "mosaicml/mpt-7b-instruct",
+    "mosaicml/mpt-7b-storywriter",
+    "stabilityai/stable-diffusion-2",
+    "stabilityai/stable-diffusion-2-1-base",
+    "stabilityai/stable-diffusion-2-inpainting",
+    "runwayml/stable-diffusion-v1-4",
+    "WizardLMTeam/WizardLM-2-70B",
+    "WizardLMTeam/WizardLM-2-7B",
+    "WizardLMTeam/WizardLM-2-8x22B",
+    "microsoft/WizardLM-2-7B",
+    "microsoft/WizardLM-2-8x22B",
+    "audnai/penclaw-GLM-5.3-abliterated",
+    "audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
+    "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
+    "huihui-ai/Qwen3-8B-abliterated",
+    "orcarouter/Qwen3.8-27B-Uncensored"
   ],
   "known_events": [
     {
@@ -159,6 +221,202 @@
       "was_public": true,
       "detected_at": "2026-09-16T00:00:00Z",
       "summary": "Hub API reports gated=auto on a jailbreak/prompt-injection family model (seed observation)."
+    },
+    {
+      "id": "databricks/dolly-v1-6b",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Dolly v1 6B official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v1-6b"
+    },
+    {
+      "id": "databricks/dolly-v2-12b",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Once-famous open Dolly v2 12B weights under databricks/ are no longer publicly reachable (Hub 401).",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v2-12b"
+    },
+    {
+      "id": "databricks/dolly-v2-3b",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Dolly v2 3B official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v2-3b"
+    },
+    {
+      "id": "databricks/dolly-v2-7b",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Dolly v2 7B official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v2-7b"
+    },
+    {
+      "id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "summary": "failspy Meta-Llama-3-70B Instruct abliterated-v3 is inaccessible (401) while sibling 8B v3 and llama-3-70B-Instruct-abliterated remain public.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
+    },
+    {
+      "id": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "summary": "huihui-ai Llama-3.1-70B Instruct abliterated path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
+    },
+    {
+      "id": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "summary": "huihui-ai Llama-3.1-8B Instruct abliterated path returns 401 (private/deleted from public).",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
+    },
+    {
+      "id": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "summary": "huihui-ai Llama-3.2-11B Vision Instruct abliterated path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
+    },
+    {
+      "id": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "summary": "huihui-ai Llama-3.2-1B Instruct abliterated path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
+    },
+    {
+      "id": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "summary": "huihui-ai Meta-Llama-3.1-8B Instruct abliterated repo is no longer public (401); many third-party GGUF/AWQ mirrors of the same name remain.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
+    },
+    {
+      "id": "databricks/dbrx-base",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official Databricks DBRX-Base Hub repo returns 401 alongside dbrx-instruct.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dbrx-base"
+    },
+    {
+      "id": "databricks/dbrx-instruct",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official Databricks DBRX-Instruct Hub repo is inaccessible (401); vLLM and community mirrors treat the original as deleted/closed.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dbrx-instruct"
+    },
+    {
+      "id": "mosaicml/mpt-30b",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "MPT-30B official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-30b"
+    },
+    {
+      "id": "mosaicml/mpt-30b-chat",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "MPT-30B-Chat official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-30b-chat"
+    },
+    {
+      "id": "mosaicml/mpt-30b-instruct",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "MPT-30B-Instruct official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-30b-instruct"
+    },
+    {
+      "id": "mosaicml/mpt-7b",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Flagship MosaicML MPT-7B Hub repo is gone (401); vLLM disabled CI tests because the repository was deleted.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-7b"
+    },
+    {
+      "id": "mosaicml/mpt-7b-instruct",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "MPT-7B-Instruct official Hub path returns 401 after MosaicML/Databricks MPT wind-down.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-7b-instruct"
+    },
+    {
+      "id": "mosaicml/mpt-7b-storywriter",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "MPT-7B-Storywriter official Hub path returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-7b-storywriter"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-2",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official stabilityai/stable-diffusion-2 became unavailable in the Nov 2025 SD2 family retraction.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/stabilityai/stable-diffusion-2"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-2-1-base",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official SD 2.1-base path went dark with the SD2 family removal; Hub 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/stabilityai/stable-diffusion-2-1-base"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-2-inpainting",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official SD2 inpainting weights became unavailable with the SD2 family retraction.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/stabilityai/stable-diffusion-2-inpainting"
+    },
+    {
+      "id": "runwayml/stable-diffusion-v1-4",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "RunwayML SD 1.4 Hub path returns 401 after the org abandoned Hugging Face hosting.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/runwayml/stable-diffusion-v1-4"
+    },
+    {
+      "id": "runwayml/stable-diffusion-v1-5",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "RunwayML emptied its Hugging Face org (~2024-08-29); original SD 1.5 hosting under runwayml was removed (HTML 401), with API later redirecting to stable-diffusion-v1-5/stable-diffusion-v1-5.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/runwayml/stable-diffusion-v1-5"
+    },
+    {
+      "id": "WizardLMTeam/WizardLM-2-70B",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "WizardLM-2 70B official Hub path is inaccessible (401) after the WizardLM-2 withdrawal event.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/WizardLMTeam/WizardLM-2-70B"
+    },
+    {
+      "id": "WizardLMTeam/WizardLM-2-7B",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official WizardLM-2 7B companion release was withdrawn with the rest of WizardLM-2; Hub now 401 for unauthenticated access.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/WizardLMTeam/WizardLM-2-7B"
+    },
+    {
+      "id": "WizardLMTeam/WizardLM-2-8x22B",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Official WizardLM-2 8x22B was publicly released then pulled within hours after Microsoft skipped required toxicity testing; unauthenticated Hub API now returns 401.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/WizardLMTeam/WizardLM-2-8x22B"
+    },
+    {
+      "id": "microsoft/WizardLM-2-7B",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Microsoft-namespaced WizardLM-2 7B path is 401 after the official withdrawal.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/microsoft/WizardLM-2-7B"
+    },
+    {
+      "id": "microsoft/WizardLM-2-8x22B",
+      "status": "DELETED",
+      "severity": "hard",
+      "summary": "Microsoft-namespaced WizardLM-2 8x22B path is 401 after the same April 2024 toxicity-testing pull.",
+      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/microsoft/WizardLM-2-8x22B"
     }
   ]
 }
