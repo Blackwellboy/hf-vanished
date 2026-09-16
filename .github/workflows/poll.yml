@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: poll-hub
@@ -16,6 +18,9 @@ concurrency:
 jobs:
   poll:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -38,3 +43,22 @@ jobs:
             git commit -m "chore: refresh events.json from Hub poll"
             git push
           fi
+
+      # GITHUB_TOKEN pushes do not re-trigger workflow runs, so deploy Pages here.
+      - name: Stage site bundle
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r assets _site/assets
+          mkdir -p _site/data
+          cp data/events.json _site/data/events.json
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
