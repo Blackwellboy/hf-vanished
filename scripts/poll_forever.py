@@ -67,8 +67,13 @@ def bootstrap_missing(seeds: dict, state: dict, events: list[dict]) -> None:
     for item in seeds.get("known_events", []):
         if not isinstance(item, dict) or not item.get("id") or not item.get("status"):
             missing.append(item); continue
-        key = (item.get("id"), str(item.get("status")).upper())
-        if key not in existing or item.get("id") not in state.get("models", {}):
+        mid = item.get("id")
+        want = str(item.get("status")).upper()
+        key = (mid, want)
+        # AUTH_REQUIRED is the conservative normalized form of older curated
+        # PRIVATE/DELETED labels when the only current proof is HTTP 401/403.
+        auth_equivalent = want in ("PRIVATE", "DELETED") and (mid, "AUTH_REQUIRED") in existing
+        if (key not in existing and not auth_equivalent) or mid not in state.get("models", {}):
             missing.append(item)
     if not missing:
         return
@@ -93,11 +98,24 @@ def enrich_outputs() -> None:
         if not model_id: continue
         event["pirateface_url"] = f"https://pirateface.co/{urllib.parse.quote(str(model_id), safe='/')}"
         snap = state.get("models", {}).get(model_id) or {}
-        if (event.get("curr") or {}).get("http") in (401, 403):
+
+        # A bare unauthenticated 401/403 does not prove deletion vs privacy.
+        # Normalize both old curated labels and new PRIVATE transitions to the
+        # observable fact, while retaining the original label for provenance.
+        if snap.get("http") in (401, 403) and str(event.get("status") or "").upper() in ("PRIVATE", "DELETED"):
+            event.setdefault("reported_status", event.get("status"))
+            event["status"] = "AUTH_REQUIRED"
+            event["kind"] = "auth_required"
+            event["summary"] = "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred."
+            event.setdefault("curr", {})["visibility"] = "auth_required"
+            event["curr"]["http"] = snap.get("http")
+            event["curr"]["auth_required"] = True
+        elif (event.get("curr") or {}).get("http") in (401, 403):
             event.setdefault("curr", {})["auth_required"] = True
+
         if any(snap.get(k) is not None for k in ("sha", "license", "file_count", "weight_count", "weight_files")):
             event["last_public"] = {
-                "checked_at": snap.get("last_public_checked_at") or snap.get("checked_at"),
+                "checked_at": snap.get("last_public_checked_at"),
                 "sha": snap.get("sha"), "license": snap.get("license"),
                 "pipeline_tag": snap.get("pipeline_tag"), "library_name": snap.get("library_name"),
                 "file_count": snap.get("file_count"), "weight_count": snap.get("weight_count"),
