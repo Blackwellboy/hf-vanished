@@ -1,12 +1,12 @@
 {
   "schema": "hf-vanished.analytics.v1",
-  "generated_at": "2026-09-16T14:53:15Z",
+  "generated_at": "2026-09-16T16:56:22Z",
   "summary": {
     "events": 47,
     "restored": 0,
-    "evidence_packets": 54,
+    "evidence_packets": 108,
     "sourced_reasons": 0,
-    "unknown_reasons": 54,
+    "unknown_reasons": 108,
     "known_reason_rate": 0.0,
     "incident_clusters": 5
   },
@@ -17,10 +17,10 @@
     "GATED": 8
   },
   "reason_status": {
-    "UNKNOWN": 54
+    "UNKNOWN": 108
   },
   "reason_category": {
-    "unknown": 54
+    "unknown": 108
   },
   "events_by_month": {
     "2024-04": 5,
