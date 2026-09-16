@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>HF Vanished — models disappear, we keep the receipts</title>
-  <meta name="description" content="Models disappear from Hugging Face. HF Vanished records before → now evidence, checks archived history, and points to surviving copies when they exist." />
+  <meta name="description" content="Models disappear from Hugging Face. HF Vanished records before → now evidence, source-backed reasons, cryptographic identity and recovery paths." />
   <meta name="color-scheme" content="dark" />
   <meta property="og:title" content="HF Vanished" />
   <meta property="og:description" content="Models disappear from Hugging Face. We keep the receipts." />
@@ -25,9 +25,9 @@
       <h1>HF VANISHED</h1>
       <p class="headline">Models disappear. <strong>We keep the receipts.</strong></p>
       <p class="lede">
-        Public Hugging Face checks + historical snapshots. Before → now.
-        If a surviving Pirate Face swarm or live mirror exists, the card points you there too.
-        HF Vanished records what changed; it does not guess why.
+        Public Hugging Face checks + historical snapshots + forensic context. Before → now.
+        HF Vanished records what changed, preserves public discussions/commits and file identity where available,
+        and only shows a reason when a public source supports it. Timing and clustering are signals, not accusations.
       </p>
 
       <section class="stats" aria-label="Ledger stats">
@@ -47,7 +47,7 @@
       <div class="toolbar">
         <label class="search">
           <span class="sr">Filter models</span>
-          <input id="q" type="search" placeholder="Search model / org…" autocomplete="off" />
+          <input id="q" type="search" placeholder="Search model / org / reason…" autocomplete="off" />
         </label>
         <div class="chips legend" aria-label="Exact status filters">
           <button class="chip dis" data-filter="DISABLED">DISABLED</button>
@@ -71,21 +71,27 @@
         <div><strong>VANISHED</strong><p>Disabled, deleted, auth-required/private after prior public evidence, or model files removed.</p></div>
         <div><strong>AUTH REQUIRED</strong><p>The unauthenticated Hub API now returns 401/403 after prior public evidence. HF Vanished does not pretend that response alone proves whether the repo was made private or deleted.</p></div>
         <div><strong>RESTRICTED</strong><p>A public model becomes gated or otherwise newly access-restricted.</p></div>
+        <div><strong>WHY / REASON</strong><p>OFFICIAL, PRIMARY SOURCE, CORROBORATED or REPORTED reasons require public source links. Otherwise the cause remains UNKNOWN.</p></div>
+        <div><strong>PUBLIC EVIDENCE</strong><p>Bounded captures of discussions, discussion events, commits, model-card hashes and a pre/post timeline can survive after the live repo changes state.</p></div>
+        <div><strong>HASHED IDENTITY</strong><p>When the Hub exposes them, manifests retain Git OIDs, LFS SHA-256 and Xet hashes plus a deterministic manifest root. Hash identity is proof of bytes/metadata, not proof that HF Vanished hosts them.</p></div>
+        <div><strong>CORRELATION ONLY</strong><p>Temporal, same-owner and same-family clusters help researchers notice patterns. They do not prove mass reporting, coordination, censorship, legal action or government intervention.</p></div>
         <div><strong>PROTECTED / RESCUED</strong><p>Pirate Face reports a torrent. Protected means HF is still reachable; Rescued means HF Vanished sees the source as gone/restricted while a P2P copy is known.</p></div>
         <div><strong>AT RISK / NO KNOWN COPY</strong><p>No active Pirate Face torrent is known yet. “No known copy” only means this tracker has not verified one, not that the bytes do not exist anywhere.</p></div>
-        <div><strong>NO MOTIVE GUESSES</strong><p>HF Vanished records the observable change. A reason is only shown when a public source documents it.</p></div>
         <div><strong>FLAPS IGNORED</strong><p>Brief changes under 24 hours and models never observed public are excluded from automatic disappearance events.</p></div>
       </div>
       <p class="method">
-        Scans run about every six hours using public Hub data and Wayback CDX. Pirate Face recovery checks are bounded and fail-soft; Pirate Face and FrostByte are independent projects.
-        When a magnet is available, copy it into <a href="https://blackfrostai.com/frostbyte">FrostByte</a> or another torrent client.
-        <a href="data/status.json">Machine-readable status feed →</a>
-        <a href="https://github.com/Blackwellboy/hf-vanished#readme">Method & schema →</a>
+        Scans run about every six hours using public Hub data and Wayback CDX. Forensic and recovery checks are bounded and fail-soft; a failed enrichment cannot erase the base availability event.
+        Pirate Face and FrostByte are independent projects.
+        <a href="data/status.json">Status feed →</a>
+        <a href="data/evidence.json">Evidence feed →</a>
+        <a href="data/manifests.json">Manifest feed →</a>
+        <a href="data/incidents.json">Incident signals →</a>
+        <a href="https://github.com/Blackwellboy/hf-vanished/blob/main/docs/FORENSICS.md">Forensic method →</a>
       </p>
     </section>
 
     <footer>
-      <span>FACTS · TIMESTAMPS · LINKS · DIFFS · NO MANIFESTO</span>
+      <span>FACTS · TIMESTAMPS · SOURCES · HASHES · CORRELATION ≠ CAUSATION</span>
       <a href="https://github.com/Blackwellboy/hf-vanished">GitHub</a>
       <a href="https://pirateface.co/">Pirate Face</a>
       <a href="https://blackfrostai.com/frostbyte">FrostByte</a>
