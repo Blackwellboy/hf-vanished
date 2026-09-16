@@ -1,0 +1,27 @@
+{
+  "schema": "hf-vanished.status.v1",
+  "generated_at": null,
+  "source": "https://github.com/Blackwellboy/hf-vanished",
+  "summary": {
+    "watched": 0,
+    "available": 0,
+    "restricted": 0,
+    "vanished": 0,
+    "protected": 0,
+    "rescued": 0,
+    "at_risk": 0,
+    "no_known_copy": 0
+  },
+  "integrations": {
+    "pirateface": {
+      "base_url": "https://pirateface.co",
+      "mode": "bounded public-page probe; no private API"
+    },
+    "frostbyte": {
+      "app_url": "https://blackfrostai.com/frostbyte",
+      "repo_url": "https://github.com/Blackfrost-AI/FrostByte-App",
+      "handoff": "HF or magnet metadata; no custom app URL scheme assumed"
+    }
+  },
+  "models": {}
+}
