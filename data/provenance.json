@@ -1,0 +1,12 @@
+{
+  "schema": "hf-vanished.provenance.v1",
+  "generated_at": null,
+  "algorithm": "sha256",
+  "files": [],
+  "root_sha256": null,
+  "signature": {
+    "mode": "sigstore-keyless-if-available",
+    "bundle_path": "data/provenance.sigstore.json",
+    "note": "The digest bundle is always generated. A detached Sigstore bundle is produced by GitHub Actions when keyless signing succeeds."
+  }
+}

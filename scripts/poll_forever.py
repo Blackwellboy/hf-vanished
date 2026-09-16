@@ -11,6 +11,7 @@ _original_classify = poll.classify_http
 _original_diff = poll.diff_events
 _original_fetch = poll.fetch_model
 _original_bootstrap = poll.bootstrap_known
+_original_event_status = poll.event_status
 
 
 def _license_from_payload(payload: dict) -> str | None:
@@ -22,6 +23,20 @@ def _license_from_payload(payload: dict) -> str | None:
         if isinstance(tag, str) and tag.lower().startswith("license:"):
             return tag.split(":", 1)[1]
     return None
+
+
+def _base_models_from_payload(payload: dict) -> list[str]:
+    card = payload.get("cardData")
+    if not isinstance(card, dict):
+        return []
+    value = card.get("base_model") or card.get("base_models")
+    if not value:
+        return []
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        return [str(x) for x in value if x]
+    return []
 
 
 def enriched_classify(code: int | None, payload: dict | None) -> dict:
@@ -37,6 +52,7 @@ def enriched_classify(code: int | None, payload: dict | None) -> dict:
             "license": _license_from_payload(payload),
             "pipeline_tag": payload.get("pipeline_tag"),
             "library_name": payload.get("library_name"),
+            "base_models": _base_models_from_payload(payload),
             "weight_files": weight_files[:MAX_WEIGHT_NAMES],
             "weight_files_truncated": max(0, len(weight_files) - MAX_WEIGHT_NAMES),
         })
@@ -87,7 +103,33 @@ def conservative_diff(prev: dict | None, cur: dict) -> list[tuple[str, str, str]
         if kind == "private" and cur.get("http") in (401, 403):
             summary = "Unauthenticated access now returns HTTP 401/403 after a prior public observation."
         out.append((kind, severity, summary))
+
+    # Reinstatement is an observable state change too. Record it without
+    # inferring whether it followed an appeal, author action, platform action,
+    # legal process, or a transient incident.
+    if prev and cur.get("visibility") == "public" and not cur.get("disabled"):
+        prev_vis = prev.get("visibility")
+        prev_gated = prev.get("gated") not in (False, None, "", 0)
+        cur_gated = cur.get("gated") not in (False, None, "", 0)
+        was_unavailable = bool(prev.get("disabled")) or prev_vis in ("deleted", "private", "disabled", "auth_required")
+        weights_returned = (
+            isinstance(prev.get("weight_count"), int) and isinstance(cur.get("weight_count"), int)
+            and prev.get("weight_count") == 0 and cur.get("weight_count") > 0
+        )
+        ungated = prev_gated and not cur_gated
+        if was_unavailable:
+            out.append(("restored", "soft", "Repo resolves publicly again after a prior unavailable/auth-required observation."))
+        elif weights_returned:
+            out.append(("restored", "soft", f"Model files are present again ({prev.get('weight_count')} → {cur.get('weight_count')})."))
+        elif ungated:
+            out.append(("restored", "soft", "Previously gated repository is publicly accessible without the prior gate."))
     return out
+
+
+def extended_event_status(kind: str) -> str:
+    if kind == "restored":
+        return "RESTORED"
+    return _original_event_status(kind)
 
 
 def enrich_outputs() -> None:
@@ -118,6 +160,7 @@ def enrich_outputs() -> None:
                 "checked_at": snap.get("last_public_checked_at"),
                 "sha": snap.get("sha"), "license": snap.get("license"),
                 "pipeline_tag": snap.get("pipeline_tag"), "library_name": snap.get("library_name"),
+                "base_models": snap.get("base_models") or [],
                 "file_count": snap.get("file_count"), "weight_count": snap.get("weight_count"),
                 "weight_files": snap.get("weight_files") or [],
                 "weight_files_truncated": snap.get("weight_files_truncated") or 0,
@@ -132,6 +175,7 @@ def main() -> int:
     poll.expand_seeds = cumulative_expand
     poll.bootstrap_known = bootstrap_missing
     poll.diff_events = conservative_diff
+    poll.event_status = extended_event_status
     rc = poll.main()
     if rc == 0: enrich_outputs()
     return rc

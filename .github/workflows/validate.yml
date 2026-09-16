@@ -1,0 +1,114 @@
+name: Validate HF Vanished
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Syntax checks
+        run: |
+          python3 -m py_compile scripts/*.py
+          node --check assets/app.js
+
+      - name: Validate committed JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          expected = {
+              'data/events.json': 'hf-vanished.events.v1',
+              'data/status.json': 'hf-vanished.status.v1',
+              'data/integrations.json': 'hf-vanished.integrations.v1',
+              'data/reasons.json': 'hf-vanished.reasons.v1',
+              'data/evidence.json': 'hf-vanished.evidence.v1',
+              'data/manifests.json': 'hf-vanished.manifest.v1',
+              'data/incidents.json': 'hf-vanished.incidents.v1',
+              'data/lineage.json': 'hf-vanished.lineage.v1',
+              'data/analytics.json': 'hf-vanished.analytics.v1',
+              'data/mirrors.json': 'hf-vanished.mirrors.v1',
+              'data/provenance.json': 'hf-vanished.provenance.v1',
+          }
+          for path, schema in expected.items():
+              obj = json.loads(Path(path).read_text())
+              assert obj.get('schema') == schema, (path, obj.get('schema'))
+          print('schemas ok')
+          PY
+
+      - name: Restoration classification smoke
+        run: |
+          PYTHONPATH=scripts python3 - <<'PY'
+          import poll_forever as pf
+          public = {'visibility':'public','disabled':False,'gated':False,'weight_count':4,'http':200}
+          deleted = {'visibility':'deleted','disabled':False,'gated':False,'weight_count':0,'http':404}
+          gated = {'visibility':'public','disabled':False,'gated':'manual','weight_count':4,'http':200}
+          stripped = {'visibility':'public','disabled':False,'gated':False,'weight_count':0,'http':200}
+          assert any(k == 'restored' for k, _, _ in pf.conservative_diff(deleted, public))
+          assert any(k == 'restored' for k, _, _ in pf.conservative_diff(gated, public))
+          assert any(k == 'restored' for k, _, _ in pf.conservative_diff(stripped, public))
+          assert pf.extended_event_status('restored') == 'RESTORED'
+          print('restoration smoke ok')
+          PY
+
+      - name: Bounded forensic smoke
+        env:
+          HFV_EVIDENCE_EVENT_LIMIT: "1"
+          HFV_EVIDENCE_ROTATE_LIMIT: "1"
+          HFV_MAX_DISCUSSIONS: "2"
+          HFV_MAX_DISCUSSION_EVENTS: "4"
+          HFV_MAX_COMMITS: "3"
+          HFV_MAX_TREE_FILES: "200"
+          HFV_EVIDENCE_TIMEOUT: "8"
+        run: |
+          python3 scripts/evidence.py
+          python3 scripts/lineage.py
+          python3 scripts/analytics.py
+          python3 scripts/provenance.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          evidence = json.loads(Path('data/evidence.json').read_text())
+          manifests = json.loads(Path('data/manifests.json').read_text())
+          incidents = json.loads(Path('data/incidents.json').read_text())
+          lineage = json.loads(Path('data/lineage.json').read_text())
+          analytics = json.loads(Path('data/analytics.json').read_text())
+          mirrors = json.loads(Path('data/mirrors.json').read_text())
+          provenance = json.loads(Path('data/provenance.json').read_text())
+          assert evidence['schema'] == 'hf-vanished.evidence.v1'
+          assert manifests['schema'] == 'hf-vanished.manifest.v1'
+          assert incidents['schema'] == 'hf-vanished.incidents.v1'
+          assert lineage['schema'] == 'hf-vanished.lineage.v1'
+          assert analytics['schema'] == 'hf-vanished.analytics.v1'
+          assert mirrors['schema'] == 'hf-vanished.mirrors.v1'
+          assert provenance['schema'] == 'hf-vanished.provenance.v1'
+          assert len(provenance.get('root_sha256') or '') == 64
+          paths = {x['path'] for x in provenance.get('files', [])}
+          assert 'data/analytics.json' in paths
+          assert 'data/mirrors.json' in paths
+          for mid, row in evidence.get('models', {}).items():
+              reason = row.get('reason') or {}
+              if reason.get('status') != 'UNKNOWN':
+                  assert reason.get('sources'), mid
+              assert row.get('evidence_sha256'), mid
+          print(
+              f"smoke evidence={len(evidence.get('models', {}))} "
+              f"incidents={len(incidents.get('incidents', []))} lineage={len(lineage.get('edges', []))} "
+              f"provenance={provenance['root_sha256'][:12]}"
+          )
+          PY

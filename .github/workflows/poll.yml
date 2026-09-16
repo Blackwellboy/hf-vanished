@@ -12,6 +12,8 @@ on:
     paths:
       - "scripts/**"
       - "data/seeds.json"
+      - "data/reasons.json"
+      - "data/mirrors.json"
       - ".github/workflows/poll.yml"
 
 permissions:
@@ -43,8 +45,32 @@ jobs:
       - name: Poll public Hub API + Wayback CDX
         run: python3 scripts/poll_forever.py
 
+      - name: Capture forensic evidence, manifests and incident signals
+        # Additive/fail-soft evidence layer. Existing v1 ledger remains authoritative
+        # even if an optional public HF evidence endpoint is unavailable.
+        run: python3 scripts/evidence.py
+
+      - name: Build explicit model lineage
+        run: python3 scripts/lineage.py
+
       - name: Probe recovery integrations
         run: python3 scripts/integrations.py
+
+      - name: Build forensic analytics
+        run: python3 scripts/analytics.py
+
+      - name: Build deterministic provenance digest
+        run: python3 scripts/provenance.py
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@v3
+
+      - name: Keyless-sign provenance digest
+        id: sigstore
+        continue-on-error: true
+        run: |
+          rm -f data/provenance.sigstore.json
+          cosign sign-blob --yes --bundle data/provenance.sigstore.json data/provenance.json
 
       - name: Validate generated data
         run: |
@@ -55,6 +81,14 @@ jobs:
           state = json.loads(Path('data/state.json').read_text())
           status = json.loads(Path('data/status.json').read_text())
           integrations = json.loads(Path('data/integrations.json').read_text())
+          reasons = json.loads(Path('data/reasons.json').read_text())
+          evidence = json.loads(Path('data/evidence.json').read_text())
+          manifests = json.loads(Path('data/manifests.json').read_text())
+          incidents = json.loads(Path('data/incidents.json').read_text())
+          lineage = json.loads(Path('data/lineage.json').read_text())
+          analytics = json.loads(Path('data/analytics.json').read_text())
+          mirrors = json.loads(Path('data/mirrors.json').read_text())
+          provenance = json.loads(Path('data/provenance.json').read_text())
           assert events.get('schema') == 'hf-vanished.events.v1'
           assert isinstance(events.get('events'), list)
           assert isinstance(state.get('models'), dict)
@@ -63,8 +97,30 @@ jobs:
           assert status.get('summary', {}).get('watched') == len(state['models'])
           assert integrations.get('schema') == 'hf-vanished.integrations.v1'
           assert isinstance(integrations.get('pirateface', {}).get('models'), dict)
+          assert reasons.get('schema') == 'hf-vanished.reasons.v1'
+          assert isinstance(reasons.get('models'), dict)
+          assert evidence.get('schema') == 'hf-vanished.evidence.v1'
+          assert isinstance(evidence.get('models'), dict)
+          assert manifests.get('schema') == 'hf-vanished.manifest.v1'
+          assert isinstance(manifests.get('models'), dict)
+          assert incidents.get('schema') == 'hf-vanished.incidents.v1'
+          assert isinstance(incidents.get('incidents'), list)
+          assert lineage.get('schema') == 'hf-vanished.lineage.v1'
+          assert isinstance(lineage.get('nodes'), dict) and isinstance(lineage.get('edges'), list)
+          assert analytics.get('schema') == 'hf-vanished.analytics.v1'
+          assert mirrors.get('schema') == 'hf-vanished.mirrors.v1'
+          assert provenance.get('schema') == 'hf-vanished.provenance.v1'
+          assert provenance.get('root_sha256') and len(provenance['root_sha256']) == 64
+          for mid, rec in evidence.get('models', {}).items():
+              reason = rec.get('reason') or {}
+              if reason.get('status') != 'UNKNOWN':
+                  assert reason.get('sources'), f'{mid}: sourced reason required'
+              assert rec.get('evidence_sha256'), f'{mid}: evidence hash missing'
           print(
               f"events={len(events['events'])} watched={len(state['models'])} "
+              f"evidence={len(evidence['models'])} incidents={len(incidents['incidents'])} "
+              f"lineage_edges={len(lineage['edges'])} sourced_reasons={analytics['summary']['sourced_reasons']} "
+              f"provenance={provenance['root_sha256'][:12]} "
               f"rescued={status.get('summary', {}).get('rescued', 0)} "
               f"pf_cached={len(integrations['pirateface']['models'])}"
           )
@@ -74,11 +130,14 @@ jobs:
         run: |
           git config user.name "hf-vanished-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/state.json data/status.json data/integrations.json
+          git add data/events.json data/state.json data/status.json data/integrations.json \
+                  data/evidence.json data/manifests.json data/incidents.json data/lineage.json \
+                  data/analytics.json data/provenance.json
+          if [ -f data/provenance.sigstore.json ]; then git add data/provenance.sigstore.json; fi
           if git diff --staged --quiet; then
             echo "No ledger changes"
           else
-            git commit -m "chore: refresh HF Vanished ledger and recovery feed"
+            git commit -m "chore: refresh HF Vanished ledger and forensic evidence"
             # A human/code commit can land while this scan is running. Rebase
             # the generated data commit onto current main before pushing so an
             # unrelated edit cannot make the autonomous scan fail.
@@ -97,6 +156,15 @@ jobs:
           cp data/state.json _site/data/state.json
           cp data/status.json _site/data/status.json
           cp data/integrations.json _site/data/integrations.json
+          cp data/evidence.json _site/data/evidence.json
+          cp data/manifests.json _site/data/manifests.json
+          cp data/incidents.json _site/data/incidents.json
+          cp data/reasons.json _site/data/reasons.json
+          cp data/lineage.json _site/data/lineage.json
+          cp data/analytics.json _site/data/analytics.json
+          cp data/mirrors.json _site/data/mirrors.json
+          cp data/provenance.json _site/data/provenance.json
+          if [ -f data/provenance.sigstore.json ]; then cp data/provenance.sigstore.json _site/data/provenance.sigstore.json; fi
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
