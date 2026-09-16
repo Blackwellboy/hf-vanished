@@ -54,12 +54,14 @@ Every ~6 hours GitHub Actions runs the whole system unattended:
 Schedule:
 
 ```cron
-0 */6 * * *
+17 */6 * * *
 ```
 
-That is 00:00, 06:00, 12:00 and 18:00 UTC. GitHub scheduled jobs can occasionally start a little late, but there is no server to maintain and no secret credential required.
+That is minute 17 of every sixth UTC hour. It is deliberately off the top of the hour because GitHub documents heavier scheduled-workflow congestion around `:00`.
 
-The job has a 30-minute timeout and fails closed if the generated ledger/state JSON is malformed.
+There is no server to maintain and no secret credential required. The job has a 30-minute timeout and fails closed if the generated ledger/state JSON is malformed.
+
+**Platform caveat:** GitHub automatically disables scheduled workflows in a public repository after 60 days with no repository activity. Normal project activity avoids that; otherwise the schedule can be re-enabled from Actions.
 
 ## Discovery
 
