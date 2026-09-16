@@ -1,0 +1,14 @@
+{
+  "schema": "hf-vanished.mirrors.v1",
+  "updated_at": null,
+  "policy": "A mirror is listed only after its public feed can be checked against data/provenance.json. Jurisdiction/operator metadata is descriptive and must be supplied by the mirror operator; HF Vanished does not infer legal protections from geography.",
+  "primary": {
+    "id": "github-pages",
+    "url": "https://blackwellboy.github.io/hf-vanished/",
+    "repo": "https://github.com/Blackwellboy/hf-vanished",
+    "operator": "Blackwellboy",
+    "jurisdiction": null,
+    "governance_note": "Primary project host. No claim is made here about legal protection or applicable law."
+  },
+  "mirrors": []
+}
