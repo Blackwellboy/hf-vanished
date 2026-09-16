@@ -32,6 +32,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -77,7 +79,11 @@ jobs:
             echo "No ledger changes"
           else
             git commit -m "chore: refresh HF Vanished ledger and recovery feed"
-            git push
+            # A human/code commit can land while this scan is running. Rebase
+            # the generated data commit onto current main before pushing so an
+            # unrelated edit cannot make the autonomous scan fail.
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
 
       # The bot push above does not reliably re-trigger another workflow,
