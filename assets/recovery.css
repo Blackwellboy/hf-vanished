@@ -1,4 +1,4 @@
-.stats { grid-template-columns: repeat(5, 1fr); }
+.stats { grid-template-columns: repeat(7, 1fr); }
 .preservation {
   font-size: .62rem;
   letter-spacing: .07em;
@@ -50,5 +50,6 @@ button.action { font-family: inherit; cursor: pointer; }
 .forensics code { color: #91ffb4; font-size: .68rem; word-break: break-all; }
 .action.evidence-link { border-color: #30495b; color: #abd6ef; }
 
+@media (max-width: 1100px) { .stats { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 900px) { .stats { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } }
