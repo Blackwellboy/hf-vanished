@@ -1,0 +1,76 @@
+name: Validate HF Vanished
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Syntax checks
+        run: |
+          python3 -m py_compile scripts/*.py
+          node --check assets/app.js
+
+      - name: Validate committed JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          expected = {
+              'data/events.json': 'hf-vanished.events.v1',
+              'data/status.json': 'hf-vanished.status.v1',
+              'data/integrations.json': 'hf-vanished.integrations.v1',
+              'data/reasons.json': 'hf-vanished.reasons.v1',
+              'data/evidence.json': 'hf-vanished.evidence.v1',
+              'data/manifests.json': 'hf-vanished.manifest.v1',
+              'data/incidents.json': 'hf-vanished.incidents.v1',
+          }
+          for path, schema in expected.items():
+              obj = json.loads(Path(path).read_text())
+              assert obj.get('schema') == schema, (path, obj.get('schema'))
+          print('schemas ok')
+          PY
+
+      - name: Bounded forensic smoke
+        env:
+          HFV_EVIDENCE_EVENT_LIMIT: "1"
+          HFV_EVIDENCE_ROTATE_LIMIT: "1"
+          HFV_MAX_DISCUSSIONS: "2"
+          HFV_MAX_DISCUSSION_EVENTS: "4"
+          HFV_MAX_COMMITS: "3"
+          HFV_MAX_TREE_FILES: "200"
+          HFV_EVIDENCE_TIMEOUT: "8"
+        run: |
+          python3 scripts/evidence.py
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          evidence = json.loads(Path('data/evidence.json').read_text())
+          manifests = json.loads(Path('data/manifests.json').read_text())
+          incidents = json.loads(Path('data/incidents.json').read_text())
+          assert evidence['schema'] == 'hf-vanished.evidence.v1'
+          assert manifests['schema'] == 'hf-vanished.manifest.v1'
+          assert incidents['schema'] == 'hf-vanished.incidents.v1'
+          for mid, row in evidence.get('models', {}).items():
+              reason = row.get('reason') or {}
+              if reason.get('status') != 'UNKNOWN':
+                  assert reason.get('sources'), mid
+              assert row.get('evidence_sha256'), mid
+          print(f"smoke evidence={len(evidence.get('models', {}))} incidents={len(incidents.get('incidents', []))}")
+          PY
