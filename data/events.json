@@ -1,13 +1,232 @@
 {
-  "generated_at": "2026-09-16T04:12:00Z",
+  "generated_at": "2026-09-16T04:24:09Z",
+  "schema": "hf-vanished.events.v1",
+  "cadence": "0 */6 * * *",
+  "source": "https://github.com/Blackwellboy/hf-vanished",
   "events": [
+    {
+      "id": "Aeala/ShareGPT_Vicuna_unfiltered",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401. Card was previously reachable without auth.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:32Z"
+      }
+    },
+    {
+      "id": "OpenAssistant/oasst-sft-6-llama-30b",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401. Previously a widely cited public OASST SFT checkpoint.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:08Z"
+      }
+    },
+    {
+      "id": "Undi95/LLaMA-2-13B-GPTQ",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:56Z"
+      }
+    },
+    {
+      "id": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401 for a previously public merge listing.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:15Z"
+      }
+    },
+    {
+      "id": "WizardLM/WizardLM-7B-V1.0",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401. Original WizardLM-7B release was public.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:15Z"
+      },
+      "wayback_url": "https://web.archive.org/web/20240324124203/https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
+      "wayback_timestamp": "20240324124203"
+    },
     {
       "id": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "status": "DISABLED",
-      "summary": "Gated + disabled on Hugging Face (content policy). Multi-iter FP8 pack still listed in API metadata.",
-      "detected_at": "2026-09-16",
+      "severity": "hard",
+      "kind": "disabled",
+      "summary": "Hub API reports disabled=true and gated=manual. Listing remains; downloads show 0.",
+      "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
-      "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber"
+      "source": "seed",
+      "curr": {
+        "visibility": "disabled",
+        "gated": "manual",
+        "disabled": true,
+        "weight_count": 423,
+        "http": 200,
+        "checked_at": "2026-09-16T04:23:07Z"
+      },
+      "wayback_url": "https://web.archive.org/web/20260831111131/https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
+      "wayback_timestamp": "20260831111131"
+    },
+    {
+      "id": "mosaicml/mpt-7b-chat",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401 after prior public snapshots.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:08Z"
+      },
+      "wayback_url": "https://web.archive.org/web/20251130173241/https://huggingface.co/mosaicml/mpt-7b-chat",
+      "wayback_timestamp": "20251130173241"
+    },
+    {
+      "id": "stabilityai/stable-diffusion-2-1",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401 for a formerly public SD 2.1 listing.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:23:14Z"
+      },
+      "wayback_url": "https://web.archive.org/web/20251112142536/https://huggingface.co/stabilityai/stable-diffusion-2-1",
+      "wayback_timestamp": "20251112142536"
+    },
+    {
+      "id": "tencent/HunyuanDiT",
+      "status": "PRIVATE",
+      "severity": "hard",
+      "kind": "private",
+      "summary": "Unauthenticated Hub API returns HTTP 401 for the HunyuanDiT listing.",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
+      "source": "seed",
+      "curr": {
+        "visibility": "private",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-09-16T04:24:04Z"
+      }
+    },
+    {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "status": "GATED",
+      "severity": "soft",
+      "kind": "gated",
+      "summary": "Hub API reports gated=auto on a high-download uncensored FP8 build (seed observation).",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "source": "seed",
+      "curr": {
+        "visibility": "public",
+        "gated": "auto",
+        "disabled": false,
+        "weight_count": 7,
+        "http": 200,
+        "checked_at": "2026-09-16T04:24:08Z"
+      }
+    },
+    {
+      "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "status": "GATED",
+      "severity": "soft",
+      "kind": "gated",
+      "summary": "Hub API reports gated=auto on the matching uncensored GGUF build (seed observation).",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+      "source": "seed",
+      "curr": {
+        "visibility": "public",
+        "gated": "auto",
+        "disabled": false,
+        "weight_count": 18,
+        "http": 200,
+        "checked_at": "2026-09-16T04:24:09Z"
+      }
+    },
+    {
+      "id": "rogue-security/prompt-injection-jailbreak-sentinel-v2",
+      "status": "GATED",
+      "severity": "soft",
+      "kind": "gated",
+      "summary": "Hub API reports gated=auto on a jailbreak/prompt-injection family model (seed observation).",
+      "detected_at": "2026-09-16T00:00:00Z",
+      "hf_url": "https://huggingface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
+      "source": "seed",
+      "curr": {
+        "visibility": "public",
+        "gated": "auto",
+        "disabled": false,
+        "weight_count": 1,
+        "http": 200,
+        "checked_at": "2026-09-16T04:24:09Z"
+      }
     }
   ]
 }

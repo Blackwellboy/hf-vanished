@@ -1,15 +1,19 @@
 name: Deploy Pages
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   deploy:
     environment:
@@ -18,9 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Stage site bundle
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r assets _site/assets
+          mkdir -p _site/data
+          cp data/events.json _site/data/events.json
+          touch _site/.nojekyll
+
       - uses: actions/configure-pages@v5
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
+
       - id: deployment
         uses: actions/deploy-pages@v4
