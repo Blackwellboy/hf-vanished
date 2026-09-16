@@ -5,7 +5,7 @@
     mode: "all", status: null, q: ""
   };
   const vanishedStatuses = new Set(["DISABLED", "DELETED", "PRIVATE", "STRIPPED", "AUTH_REQUIRED"]);
-  const chipClass = { DISABLED: "dis", DELETED: "del", PRIVATE: "priv", GATED: "gate", STRIPPED: "strip", AUTH_REQUIRED: "auth" };
+  const chipClass = { DISABLED: "dis", DELETED: "del", PRIVATE: "priv", GATED: "gate", STRIPPED: "strip", AUTH_REQUIRED: "auth", RESTORED: "restored" };
   const preservationClass = { PROTECTED: "protected", RESCUED: "rescued", AT_RISK: "risk", NO_KNOWN_COPY: "lost", UNMIRRORED: "unmirrored", UNKNOWN: "unknown" };
   const byId = (id) => document.getElementById(id);
 
@@ -78,8 +78,11 @@
   function updateStats() {
     const vanished = state.events.filter((event) => group(event) === "vanished").length;
     const restricted = state.events.length - vanished;
+    const reasoned = Object.values(state.evidence).filter((row) => String(((row || {}).reason || {}).status || "UNKNOWN").toUpperCase() !== "UNKNOWN").length;
     byId("statEvents").textContent = state.events.length.toLocaleString();
     byId("statVanished").textContent = vanished.toLocaleString();
+    byId("statReasoned").textContent = reasoned.toLocaleString();
+    byId("statIncidents").textContent = state.incidents.length.toLocaleString();
     byId("statRescued").textContent = Number(state.recoverySummary.rescued || 0).toLocaleString();
     byId("statWatched").textContent = state.watchedCount == null ? "—" : state.watchedCount.toLocaleString();
     byId("statScan").textContent = relativeTime(state.generatedAt);
