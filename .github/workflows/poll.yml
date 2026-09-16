@@ -5,6 +5,14 @@ on:
     # Every 6h, deliberately off the top of the hour to reduce Actions schedule congestion.
     - cron: "17 */6 * * *"
   workflow_dispatch:
+  # A code/watchlist change gets one immediate refresh. Bot data commits made
+  # with GITHUB_TOKEN do not recursively trigger another run.
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/seeds.json"
+      - ".github/workflows/poll.yml"
 
 permissions:
   contents: write
@@ -33,33 +41,47 @@ jobs:
       - name: Poll public Hub API + Wayback CDX
         run: python3 scripts/poll_forever.py
 
-      - name: Validate generated ledger
+      - name: Probe recovery integrations
+        run: python3 scripts/integrations.py
+
+      - name: Validate generated data
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
           events = json.loads(Path('data/events.json').read_text())
           state = json.loads(Path('data/state.json').read_text())
+          status = json.loads(Path('data/status.json').read_text())
+          integrations = json.loads(Path('data/integrations.json').read_text())
           assert events.get('schema') == 'hf-vanished.events.v1'
           assert isinstance(events.get('events'), list)
           assert isinstance(state.get('models'), dict)
-          print(f"events={len(events['events'])} watched={len(state['models'])}")
+          assert status.get('schema') == 'hf-vanished.status.v1'
+          assert isinstance(status.get('models'), dict)
+          assert status.get('summary', {}).get('watched') == len(state['models'])
+          assert integrations.get('schema') == 'hf-vanished.integrations.v1'
+          assert isinstance(integrations.get('pirateface', {}).get('models'), dict)
+          print(
+              f"events={len(events['events'])} watched={len(state['models'])} "
+              f"rescued={status.get('summary', {}).get('rescued', 0)} "
+              f"pf_cached={len(integrations['pirateface']['models'])}"
+          )
           PY
 
       - name: Commit ledger updates
         run: |
           git config user.name "hf-vanished-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/state.json
+          git add data/events.json data/state.json data/status.json data/integrations.json
           if git diff --staged --quiet; then
             echo "No ledger changes"
           else
-            git commit -m "chore: refresh HF Vanished ledger"
+            git commit -m "chore: refresh HF Vanished ledger and recovery feed"
             git push
           fi
 
       # The bot push above does not reliably re-trigger another workflow,
-      # so the scheduled poll publishes the refreshed static site itself.
+      # so this run publishes the refreshed static site itself.
       - name: Stage site bundle
         run: |
           mkdir -p _site/data
@@ -67,6 +89,8 @@ jobs:
           cp -r assets _site/assets
           cp data/events.json _site/data/events.json
           cp data/state.json _site/data/state.json
+          cp data/status.json _site/data/status.json
+          cp data/integrations.json _site/data/integrations.json
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
