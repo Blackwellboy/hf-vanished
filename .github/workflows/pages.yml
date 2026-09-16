@@ -20,16 +20,17 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
       - name: Stage site bundle
         run: |
-          mkdir -p _site
+          mkdir -p _site/data
           cp index.html _site/
           cp -r assets _site/assets
-          mkdir -p _site/data
           cp data/events.json _site/data/events.json
+          cp data/state.json _site/data/state.json
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
