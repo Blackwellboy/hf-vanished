@@ -52,6 +52,7 @@
         <div class="chips legend" aria-label="Exact status filters">
           <button class="chip dis" data-filter="DISABLED">DISABLED</button>
           <button class="chip del" data-filter="DELETED">DELETED</button>
+          <button class="chip auth" data-filter="AUTH_REQUIRED">AUTH REQUIRED</button>
           <button class="chip priv" data-filter="PRIVATE">PRIVATE</button>
           <button class="chip gate" data-filter="GATED">GATED</button>
           <button class="chip strip" data-filter="STRIPPED">FILES REMOVED</button>
@@ -68,6 +69,7 @@
       <h2>WHAT THE LABELS MEAN</h2>
       <div class="principle-grid">
         <div><strong>VANISHED</strong><p>Disabled, deleted, auth-required/private after prior public evidence, or model files removed.</p></div>
+        <div><strong>AUTH REQUIRED</strong><p>The unauthenticated Hub API now returns 401/403 after prior public evidence. HF Vanished does not pretend that response alone proves whether the repo was made private or deleted.</p></div>
         <div><strong>RESTRICTED</strong><p>A public model becomes gated or otherwise newly access-restricted.</p></div>
         <div><strong>PROTECTED / RESCUED</strong><p>Pirate Face reports a torrent. Protected means HF is still reachable; Rescued means HF Vanished sees the source as gone/restricted while a P2P copy is known.</p></div>
         <div><strong>AT RISK / NO KNOWN COPY</strong><p>No active Pirate Face torrent is known yet. “No known copy” only means this tracker has not verified one, not that the bytes do not exist anywhere.</p></div>
