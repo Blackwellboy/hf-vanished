@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks. HF Vanished records observable availability changes and does not infer motive without a source.
-        Please submit public-safe evidence only. Do not paste private dumps, tokens, or credentials.
+        Please submit public-safe evidence only. Do not paste private dumps, tokens, credentials, or non-public correspondence.
   - type: input
     id: model
     attributes:
@@ -33,6 +33,7 @@ body:
         - Private / auth required
         - Newly gated
         - Weight or model files removed
+        - Restored / public again
         - Unknown / not sure
     validations:
       required: true
@@ -47,6 +48,41 @@ body:
       label: Archive / previous-public proof
       description: Wayback, old model-card link, release note, documentation or other public evidence.
       placeholder: https://web.archive.org/...
+  - type: dropdown
+    id: reason_category
+    attributes:
+      label: Is there a publicly documented reason?
+      description: Choose Unknown unless a public source explicitly states the cause.
+      options:
+        - Unknown / no sourced reason
+        - Author action
+        - Legal action / takedown
+        - Licensing
+        - Moderation / platform action
+        - Safety policy
+        - Terms of service
+        - Distribution change
+        - Other sourced reason
+    validations:
+      required: true
+  - type: input
+    id: reason_source
+    attributes:
+      label: Public source for the reason
+      description: Platform statement, owner statement, legal notice, public issue/discussion, release note, or other verifiable source. Leave blank if unknown.
+      placeholder: https://...
+  - type: input
+    id: discussion
+    attributes:
+      label: Relevant Hugging Face discussion / comment
+      description: Optional public discussion that may contain useful context. A discussion is evidence to inspect, not automatic proof of motive.
+      placeholder: https://huggingface.co/org/model/discussions/123
+  - type: textarea
+    id: hashes
+    attributes:
+      label: Known file hashes / snapshot identity
+      description: Optional public SHA-256, LFS OID, Xet hash, torrent checksum, manifest hash, or revision. Include the source if possible.
+      placeholder: "filename — sha256... — source URL"
   - type: textarea
     id: notes
     attributes:
@@ -57,5 +93,5 @@ body:
     attributes:
       label: Public-safe submission
       options:
-        - label: I have not included private credentials, tokens, or private evidence dumps.
+        - label: I have not included private credentials, tokens, private evidence dumps, or non-public correspondence.
           required: true
