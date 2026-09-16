@@ -3,60 +3,79 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HF Vanished — evidence ledger</title>
-  <meta name="description" content="Cold evidence ledger of Hugging Face model visibility changes: disabled, deleted, gated, private, stripped." />
+  <title>HF Vanished — models disappear, we keep the receipts</title>
+  <meta name="description" content="Models disappear from Hugging Face. HF Vanished records before → now evidence using public Hub checks and historical snapshots." />
   <meta name="color-scheme" content="dark" />
+  <meta property="og:title" content="HF Vanished" />
+  <meta property="og:description" content="Models disappear from Hugging Face. We keep the receipts." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://blackwellboy.github.io/hf-vanished/" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <div class="bg"></div>
   <main>
     <header class="hero">
-      <p class="eyebrow">Blackwellboy / hf-vanished</p>
-      <h1>HF Vanished</h1>
-      <p class="lede">
-        Evidence ledger of Hugging Face Hub visibility changes.
-        Timestamps, links, diffs. No manifesto.
-      </p>
-      <div class="chips legend" aria-label="Status chips">
-        <span class="chip dis" data-filter="DISABLED" title="Hard — Hub disabled the repo">DISABLED</span>
-        <span class="chip del" data-filter="DELETED" title="Hard — was public, now 404">DELETED</span>
-        <span class="chip priv" data-filter="PRIVATE" title="Hard — taken private after public">PRIVATE</span>
-        <span class="chip gate" data-filter="GATED" title="Soft — newly gated">GATED</span>
-        <span class="chip strip" data-filter="STRIPPED" title="Soft — weights/files removed">STRIPPED</span>
+      <div class="hero-top">
+        <p class="eyebrow">Blackwellboy / hf-vanished</p>
+        <a class="report" href="https://github.com/Blackwellboy/hf-vanished/issues/new?template=report-model.yml">REPORT A MODEL</a>
       </div>
+      <h1>HF VANISHED</h1>
+      <p class="headline">Models disappear. <strong>We keep the receipts.</strong></p>
+      <p class="lede">
+        Public Hugging Face checks + historical snapshots. Before → now.
+        HF Vanished records availability changes; it does not guess the motive.
+      </p>
+
+      <section class="stats" aria-label="Ledger stats">
+        <div class="stat"><strong id="statEvents">—</strong><span>CHANGES RECORDED</span></div>
+        <div class="stat"><strong id="statVanished">—</strong><span>VANISHED / HARD</span></div>
+        <div class="stat"><strong id="statWatched">—</strong><span>MODELS WATCHED</span></div>
+        <div class="stat"><strong id="statScan">—</strong><span>LAST SCAN</span></div>
+      </section>
+
+      <nav class="mode-tabs" aria-label="Event groups">
+        <button class="mode active" data-mode="all">ALL <span id="countAll">0</span></button>
+        <button class="mode" data-mode="vanished">VANISHED <span id="countVanished">0</span></button>
+        <button class="mode" data-mode="restricted">RESTRICTED <span id="countRestricted">0</span></button>
+      </nav>
+
       <div class="toolbar">
         <label class="search">
-          <span class="sr">Filter</span>
-          <input id="q" type="search" placeholder="Filter by model id…" autocomplete="off" />
+          <span class="sr">Filter models</span>
+          <input id="q" type="search" placeholder="Search model / org…" autocomplete="off" />
         </label>
-        <label class="tog"><input type="checkbox" id="hardOnly" /> Hard only</label>
-        <p class="meta" id="meta">Loading…</p>
+        <div class="chips legend" aria-label="Exact status filters">
+          <button class="chip dis" data-filter="DISABLED">DISABLED</button>
+          <button class="chip del" data-filter="DELETED">DELETED</button>
+          <button class="chip priv" data-filter="PRIVATE">PRIVATE</button>
+          <button class="chip gate" data-filter="GATED">GATED</button>
+          <button class="chip strip" data-filter="STRIPPED">FILES REMOVED</button>
+        </div>
+        <p class="meta" id="meta">Loading ledger…</p>
       </div>
     </header>
 
-    <section class="panel" id="feed" aria-live="polite">
-      <div class="item muted">Loading events.json…</div>
+    <section class="panel feed" id="feed" aria-live="polite">
+      <div class="item muted">Loading evidence…</div>
     </section>
 
-    <section class="help panel">
-      <h2>How to read this</h2>
-      <ul>
-        <li><strong>Hard</strong> — disabled, deleted, or taken private after a public observation.</li>
-        <li><strong>Soft</strong> — newly gated, or weight/file strip while the listing remains.</li>
-        <li><strong>Ignored</strong> — brief flaps (&lt;24h) and models never seen public.</li>
-        <li><strong>Wayback</strong> — last-public snapshot link when CDX has one.</li>
-      </ul>
-      <p>
-        Cadence ≈ every 6 hours via GitHub Actions (public Hub API + Wayback CDX, no secrets).
-        Schema and contribution notes live in the
-        <a href="https://github.com/Blackwellboy/hf-vanished#readme">README</a>.
-      </p>
+    <section class="principles panel">
+      <h2>WHAT COUNTS?</h2>
+      <div class="principle-grid">
+        <div><strong>VANISHED</strong><p>Disabled, deleted, private/auth-required after prior public evidence, or model files removed.</p></div>
+        <div><strong>RESTRICTED</strong><p>A public model becomes gated or otherwise newly access-restricted.</p></div>
+        <div><strong>NO MOTIVE GUESSES</strong><p>HF Vanished records the observable change. A reason is only shown when a source documents it.</p></div>
+        <div><strong>FLAPS IGNORED</strong><p>Brief changes under 24 hours and models never observed public are excluded from automatic disappearance events.</p></div>
+      </div>
+      <p class="method">Scans run about every six hours using the public Hub API and Wayback CDX. No Hugging Face token or private dataset is required. <a href="https://github.com/Blackwellboy/hf-vanished#readme">Method & schema →</a></p>
     </section>
 
     <footer>
-      <a href="https://github.com/Blackwellboy/hf-vanished">github.com/Blackwellboy/hf-vanished</a>
-      · public-safe ledger · observational
+      <span>FACTS · TIMESTAMPS · LINKS · DIFFS · NO MANIFESTO</span>
+      <a href="https://github.com/Blackwellboy/hf-vanished">GitHub</a>
+      <a href="https://github.com/Blackwellboy/hf-vanished/issues/new?template=report-model.yml">Report a model</a>
     </footer>
   </main>
   <script src="assets/app.js"></script>
