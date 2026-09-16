@@ -1,130 +1,152 @@
 (() => {
-  const CHIP = {
-    DISABLED: "dis",
-    DELETED: "del",
-    GATED: "gate",
-    PRIVATE: "priv",
-    STRIPPED: "strip",
-  };
+  const state = { events: [], generatedAt: null, watchedCount: null, mode: "all", status: null, q: "" };
+  const vanishedStatuses = new Set(["DISABLED", "DELETED", "PRIVATE", "STRIPPED", "AUTH_REQUIRED"]);
+  const chipClass = { DISABLED: "dis", DELETED: "del", PRIVATE: "priv", GATED: "gate", STRIPPED: "strip", AUTH_REQUIRED: "auth" };
+  const byId = (id) => document.getElementById(id);
 
-  const state = {
-    events: [],
-    generatedAt: null,
-    filterStatus: null,
-    hardOnly: false,
-    q: "",
-  };
-
-  const feed = document.getElementById("feed");
-  const meta = document.getElementById("meta");
-  const qInput = document.getElementById("q");
-  const hardOnly = document.getElementById("hardOnly");
-
-  function esc(s) {
-    return String(s ?? "")
+  function escapeHtml(value) {
+    return String(value ?? "")
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
   }
 
-  function filtered() {
-    const q = state.q.trim().toLowerCase();
-    return state.events.filter((e) => {
-      if (state.hardOnly && e.severity !== "hard") return false;
-      if (state.filterStatus && (e.status || "").toUpperCase() !== state.filterStatus) return false;
-      if (!q) return true;
-      const hay = `${e.id || ""} ${e.summary || ""} ${e.status || ""}`.toLowerCase();
-      return hay.includes(q);
+  function group(event) {
+    const status = String(event.status || "").toUpperCase();
+    return event.severity === "hard" || vanishedStatuses.has(status) ? "vanished" : "restricted";
+  }
+
+  function displayStatus(event) {
+    const status = String(event.status || "UNKNOWN").toUpperCase();
+    const http = event.curr && event.curr.http;
+    if ((http === 401 || http === 403) && (status === "PRIVATE" || status === "DELETED")) return "AUTH REQUIRED";
+    if (status === "STRIPPED") return "FILES REMOVED";
+    return status.replaceAll("_", " ");
+  }
+
+  function exactArchive(event) {
+    return Boolean(event.wayback_url && !event.wayback_url.includes("/web/*/"));
+  }
+
+  function evidence(event) {
+    if (event.prev && event.prev.visibility === "public") return ["VERIFIED", "verified"];
+    if (exactArchive(event)) return ["ARCHIVED", "archived"];
+    return ["REPORTED", "reported"];
+  }
+
+  function before(event) {
+    if (event.prev && event.prev.visibility === "public") return "PUBLIC";
+    return exactArchive(event) ? "PUBLIC (ARCHIVED)" : "PUBLIC (REPORTED)";
+  }
+
+  function relativeTime(timestamp) {
+    if (!timestamp) return "—";
+    const date = new Date(timestamp);
+    if (Number.isNaN(date.getTime())) return timestamp;
+    const minutes = Math.max(0, Math.round((Date.now() - date.getTime()) / 60000));
+    if (minutes < 2) return "now";
+    if (minutes < 60) return `${minutes}m ago`;
+    const hours = Math.round(minutes / 60);
+    if (hours < 48) return `${hours}h ago`;
+    return `${Math.round(hours / 24)}d ago`;
+  }
+
+  function dateOnly(timestamp) {
+    if (!timestamp) return "unknown";
+    const date = new Date(timestamp);
+    return Number.isNaN(date.getTime()) ? timestamp : date.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  }
+
+  function modelAnchor(id) {
+    return encodeURIComponent(String(id || "unknown"));
+  }
+
+  function filteredEvents() {
+    const query = state.q.trim().toLowerCase();
+    return state.events.filter((event) => {
+      if (state.mode !== "all" && group(event) !== state.mode) return false;
+      if (state.status && String(event.status || "").toUpperCase() !== state.status) return false;
+      if (!query) return true;
+      return `${event.id || ""} ${event.summary || ""} ${event.status || ""}`.toLowerCase().includes(query);
     });
+  }
+
+  function updateStats() {
+    const vanished = state.events.filter((event) => group(event) === "vanished").length;
+    const restricted = state.events.length - vanished;
+    byId("statEvents").textContent = state.events.length.toLocaleString();
+    byId("statVanished").textContent = vanished.toLocaleString();
+    byId("statWatched").textContent = state.watchedCount == null ? "—" : state.watchedCount.toLocaleString();
+    byId("statScan").textContent = relativeTime(state.generatedAt);
+    byId("countAll").textContent = state.events.length;
+    byId("countVanished").textContent = vanished;
+    byId("countRestricted").textContent = restricted;
   }
 
   function render() {
-    const rows = filtered();
-    meta.textContent = `${rows.length} shown · ${state.events.length} total` +
-      (state.generatedAt ? ` · generated ${state.generatedAt}` : "");
-
+    const rows = filteredEvents();
+    updateStats();
+    byId("meta").textContent = `${rows.length} shown · ${state.events.length} recorded · scan ${relativeTime(state.generatedAt)}`;
     if (!rows.length) {
-      feed.innerHTML = `<div class="item muted">No events match.</div>`;
+      byId("feed").innerHTML = '<div class="item muted">No recorded events match.</div>';
       return;
     }
 
-    feed.innerHTML = rows
-      .map((e) => {
-        const st = String(e.status || "UNKNOWN").toUpperCase();
-        const cls = CHIP[st] || "";
-        const sev = e.severity === "hard" ? "hard" : "soft";
-        const links = [];
-        if (e.hf_url) links.push(`<a href="${esc(e.hf_url)}" rel="noopener noreferrer">Hub</a>`);
-        if (e.wayback_url) {
-          links.push(`<a href="${esc(e.wayback_url)}" rel="noopener noreferrer">Wayback last-public</a>`);
-        }
-        const prev = e.prev || {};
-        const curr = e.curr || {};
-        const diffBits = [];
-        if (prev.visibility || curr.visibility) {
-          diffBits.push(`vis ${esc(prev.visibility || "—")} → ${esc(curr.visibility || "—")}`);
-        }
-        if (prev.gated !== undefined || curr.gated !== undefined) {
-          diffBits.push(`gated ${esc(JSON.stringify(prev.gated))} → ${esc(JSON.stringify(curr.gated))}`);
-        }
-        if (prev.weight_count != null || curr.weight_count != null) {
-          diffBits.push(`weights ${esc(prev.weight_count ?? "—")} → ${esc(curr.weight_count ?? "—")}`);
-        }
-        return `
-          <article class="item">
-            <div class="top">
-              <span class="chip ${cls}">${esc(st)}</span>
-              <span class="badge ${sev}">${esc(sev.toUpperCase())}</span>
-            </div>
-            <div class="id">${esc(e.id || "unknown")}</div>
-            <div class="summary">${esc(e.summary || "")}</div>
-            <div class="row">
-              <span>${esc(e.detected_at || "")}</span>
-              ${diffBits.length ? `<span>${diffBits.join(" · ")}</span>` : ""}
-              <span>${links.join(" · ")}</span>
-            </div>
-          </article>`;
-      })
-      .join("");
+    byId("feed").innerHTML = rows.map((event) => {
+      const rawStatus = String(event.status || "UNKNOWN").toUpperCase();
+      const current = displayStatus(event);
+      const ev = evidence(event);
+      const links = [];
+      if (event.hf_url) links.push(`<a class="action" href="${escapeHtml(event.hf_url)}" rel="noopener noreferrer">CURRENT HUB ↗</a>`);
+      if (event.wayback_url) links.push(`<a class="action" href="${escapeHtml(event.wayback_url)}" rel="noopener noreferrer">BEFORE / WAYBACK ↗</a>`);
+      links.push(`<a class="action" href="#${modelAnchor(event.id)}">DIRECT LINK</a>`);
+      const http = event.curr && event.curr.http != null ? `HTTP ${escapeHtml(event.curr.http)}` : "";
+      return `<article class="item" id="${modelAnchor(event.id)}">
+        <div class="item-head"><span class="chip ${chipClass[rawStatus] || ""}">${escapeHtml(current)}</span><span class="evidence ${ev[1]}">${ev[0]}</span><span class="detected">detected ${escapeHtml(dateOnly(event.detected_at))}</span></div>
+        <div class="id">${escapeHtml(event.id || "unknown")}</div>
+        <div class="transition"><div class="state-box before"><small>BEFORE</small><strong>${escapeHtml(before(event))}</strong></div><div class="arrow">→</div><div class="state-box now"><small>NOW</small><strong>${escapeHtml(current)}</strong></div></div>
+        <div class="summary">${escapeHtml(event.summary || "Observed availability change.")}</div>
+        ${http ? `<div class="technical">${http}</div>` : ""}
+        <div class="actions">${links.join("")}</div>
+      </article>`;
+    }).join("");
   }
 
-  document.querySelectorAll(".legend .chip").forEach((el) => {
-    el.addEventListener("click", () => {
-      const v = el.getAttribute("data-filter");
-      if (state.filterStatus === v) {
-        state.filterStatus = null;
-        el.classList.remove("active");
-      } else {
-        state.filterStatus = v;
-        document.querySelectorAll(".legend .chip").forEach((c) => c.classList.remove("active"));
-        el.classList.add("active");
-      }
-      render();
-    });
-  });
-
-  qInput.addEventListener("input", () => {
-    state.q = qInput.value;
+  document.querySelectorAll(".mode").forEach((button) => button.addEventListener("click", () => {
+    state.mode = button.dataset.mode;
+    document.querySelectorAll(".mode").forEach((item) => item.classList.remove("active"));
+    button.classList.add("active");
     render();
-  });
-  hardOnly.addEventListener("change", () => {
-    state.hardOnly = hardOnly.checked;
-    render();
-  });
+  }));
 
-  fetch("data/events.json", { cache: "no-store" })
-    .then((r) => {
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json();
-    })
-    .then((data) => {
-      state.events = data.events || [];
-      state.generatedAt = data.generated_at || null;
-      render();
-    })
-    .catch((err) => {
-      feed.innerHTML = `<div class="item muted">Failed to load events.json (${esc(err.message)}).</div>`;
-      meta.textContent = "offline / missing data";
-    });
+  document.querySelectorAll(".legend .chip").forEach((button) => button.addEventListener("click", () => {
+    const value = button.dataset.filter;
+    state.status = state.status === value ? null : value;
+    document.querySelectorAll(".legend .chip").forEach((item) => item.classList.remove("active"));
+    if (state.status) button.classList.add("active");
+    render();
+  }));
+
+  byId("q").addEventListener("input", (event) => { state.q = event.target.value; render(); });
+
+  Promise.all([
+    fetch("data/events.json", { cache: "no-store" }).then((response) => {
+      if (!response.ok) throw new Error(`events HTTP ${response.status}`);
+      return response.json();
+    }),
+    fetch("data/state.json", { cache: "no-store" }).then((response) => response.ok ? response.json() : null).catch(() => null)
+  ]).then(([ledger, snapshot]) => {
+    state.events = ledger.events || [];
+    state.generatedAt = ledger.generated_at || (snapshot && snapshot.updated_at) || null;
+    state.watchedCount = snapshot && snapshot.models ? Object.keys(snapshot.models).length : null;
+    render();
+    if (location.hash.length > 1) {
+      const element = document.getElementById(location.hash.slice(1));
+      if (element) element.classList.add("focus-card");
+    }
+  }).catch((error) => {
+    byId("feed").innerHTML = `<div class="item muted">Failed to load ledger (${escapeHtml(error.message)}).</div>`;
+    byId("meta").textContent = "offline / missing data";
+  });
 })();
