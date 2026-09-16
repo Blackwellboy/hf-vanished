@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-16T11:21:23Z",
+  "generated_at": "2026-09-16T11:26:39Z",
   "schema": "hf-vanished.events.v1",
   "cadence": "17 */6 * * *",
   "source": "https://github.com/Blackwellboy/hf-vanished",
   "events": [
     {
       "id": "Aeala/ShareGPT_Vicuna_unfiltered",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401. Card was previously reachable without auth.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -24,7 +24,7 @@
       },
       "pirateface_url": "https://pirateface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -33,19 +33,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "OpenAssistant/oasst-sft-6-llama-30b",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401. Previously a widely cited public OASST SFT checkpoint.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -55,7 +56,7 @@
       },
       "pirateface_url": "https://pirateface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -64,19 +65,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "Undi95/LLaMA-2-13B-GPTQ",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -86,7 +88,7 @@
       },
       "pirateface_url": "https://pirateface.co/Undi95/LLaMA-2-13B-GPTQ",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -95,19 +97,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401 for a previously public merge listing.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -117,7 +120,7 @@
       },
       "pirateface_url": "https://pirateface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -126,19 +129,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "WizardLM/WizardLM-7B-V1.0",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401. Original WizardLM-7B release was public.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -150,7 +154,7 @@
       "wayback_timestamp": "20240324124203",
       "pirateface_url": "https://pirateface.co/WizardLM/WizardLM-7B-V1.0",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -159,7 +163,8 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
@@ -182,7 +187,7 @@
       "wayback_timestamp": "20260831111131",
       "pirateface_url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": "e8e68a646dce5bda37533d9e0074a3cb2d4be28c",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -292,10 +297,10 @@
     },
     {
       "id": "databricks/dolly-v1-6b",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Dolly v1 6B official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/databricks/dolly-v1-6b",
       "source": "sweep-2026-09-16",
@@ -304,7 +309,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -312,7 +317,7 @@
       },
       "pirateface_url": "https://pirateface.co/databricks/dolly-v1-6b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -321,14 +326,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "databricks/dolly-v2-12b",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Once-famous open Dolly v2 12B weights under databricks/ are no longer publicly reachable (Hub 401).",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-12b",
       "source": "sweep-2026-09-16",
@@ -338,7 +344,7 @@
         "Historically public Apache-licensed Databricks Dolly v2 release (2023); widely documented and mirrored"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -346,7 +352,7 @@
       },
       "pirateface_url": "https://pirateface.co/databricks/dolly-v2-12b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -355,14 +361,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "databricks/dolly-v2-3b",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Dolly v2 3B official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-3b",
       "source": "sweep-2026-09-16",
@@ -371,7 +378,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -379,7 +386,7 @@
       },
       "pirateface_url": "https://pirateface.co/databricks/dolly-v2-3b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -388,14 +395,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "databricks/dolly-v2-7b",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Dolly v2 7B official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-7b",
       "source": "sweep-2026-09-16",
@@ -404,7 +412,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -412,7 +420,7 @@
       },
       "pirateface_url": "https://pirateface.co/databricks/dolly-v2-7b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -421,14 +429,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "failspy Meta-Llama-3-70B Instruct abliterated-v3 is inaccessible (401) while sibling 8B v3 and llama-3-70B-Instruct-abliterated remain public.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "source": "sweep-2026-09-16",
@@ -438,7 +447,7 @@
         "Contrast: failspy/Meta-Llama-3-8B-Instruct-abliterated-v3 and failspy/llama-3-70B-Instruct-abliterated still 200/public"
       ],
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -448,7 +457,7 @@
       },
       "pirateface_url": "https://pirateface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -457,14 +466,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "huihui-ai Llama-3.1-70B Instruct abliterated path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "source": "sweep-2026-09-16",
@@ -473,7 +483,7 @@
         "HF API/page HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -483,7 +493,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -492,14 +502,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "huihui-ai Llama-3.1-8B Instruct abliterated path returns 401 (private/deleted from public).",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "source": "sweep-2026-09-16",
@@ -508,7 +519,7 @@
         "HF API/page HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -518,7 +529,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -527,14 +538,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "huihui-ai Llama-3.2-11B Vision Instruct abliterated path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "source": "sweep-2026-09-16",
@@ -543,7 +555,7 @@
         "HF API/page HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -553,7 +565,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -562,14 +574,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "huihui-ai Llama-3.2-1B Instruct abliterated path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "source": "sweep-2026-09-16",
@@ -578,7 +591,7 @@
         "HF API/page HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -588,7 +601,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -597,14 +610,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "huihui-ai Meta-Llama-3.1-8B Instruct abliterated repo is no longer public (401); many third-party GGUF/AWQ mirrors of the same name remain.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "source": "sweep-2026-09-16",
@@ -615,7 +629,7 @@
         "Related mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated remains public (contrast)"
       ],
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -625,7 +639,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -634,19 +648,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "mosaicml/mpt-7b-chat",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "MPT-7B-Chat official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -658,7 +673,7 @@
       "wayback_timestamp": "20251130173241",
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-chat",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -667,19 +682,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-7b-chat",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401 after prior public snapshots.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -691,7 +707,7 @@
       "wayback_timestamp": "20251130173241",
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-chat",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -700,19 +716,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "stabilityai/stable-diffusion-2-1",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official Stability AI SD 2.1 repo became unavailable (~2025-11-14); Hub returns 401 and community mirrors appeared.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -724,7 +741,7 @@
       "wayback_timestamp": "20251112142536",
       "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-1",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -733,19 +750,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "stabilityai/stable-diffusion-2-1",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401 for a formerly public SD 2.1 listing.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -757,7 +775,7 @@
       "wayback_timestamp": "20251112142536",
       "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-1",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -766,19 +784,20 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "tencent/HunyuanDiT",
-      "status": "PRIVATE",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "private",
-      "summary": "Unauthenticated Hub API returns HTTP 401 for the HunyuanDiT listing.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2026-09-16T00:00:00Z",
       "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
       "source": "seed",
       "curr": {
-        "visibility": "private",
+        "visibility": "auth_required",
         "gated": false,
         "disabled": false,
         "weight_count": 0,
@@ -788,7 +807,7 @@
       },
       "pirateface_url": "https://pirateface.co/tencent/HunyuanDiT",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -797,14 +816,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "PRIVATE"
     },
     {
       "id": "databricks/dbrx-base",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official Databricks DBRX-Base Hub repo returns 401 alongside dbrx-instruct.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/databricks/dbrx-base",
       "source": "sweep-2026-09-16",
@@ -813,7 +833,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -821,7 +841,7 @@
       },
       "pirateface_url": "https://pirateface.co/databricks/dbrx-base",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -830,14 +850,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "databricks/dbrx-instruct",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official Databricks DBRX-Instruct Hub repo is inaccessible (401); vLLM and community mirrors treat the original as deleted/closed.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/databricks/dbrx-instruct",
       "source": "sweep-2026-09-16",
@@ -848,7 +869,7 @@
         "Public reupload: alpindale/dbrx-instruct"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -856,7 +877,7 @@
       },
       "pirateface_url": "https://pirateface.co/databricks/dbrx-instruct",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -865,14 +886,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-30b",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "MPT-30B official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b",
       "source": "sweep-2026-09-16",
@@ -881,7 +903,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -889,7 +911,7 @@
       },
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-30b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -898,14 +920,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-30b-chat",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "MPT-30B-Chat official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-chat",
       "source": "sweep-2026-09-16",
@@ -914,7 +937,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -922,7 +945,7 @@
       },
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-30b-chat",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -931,14 +954,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-30b-instruct",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "MPT-30B-Instruct official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-instruct",
       "source": "sweep-2026-09-16",
@@ -947,7 +971,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -955,7 +979,7 @@
       },
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-30b-instruct",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -964,14 +988,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-7b",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Flagship MosaicML MPT-7B Hub repo is gone (401); vLLM disabled CI tests because the repository was deleted.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b",
       "source": "sweep-2026-09-16",
@@ -982,7 +1007,7 @@
         "Databricks retired-models policy notes MPT endpoints retired (context for vendor wind-down)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -990,7 +1015,7 @@
       },
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -999,14 +1024,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-7b-instruct",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "MPT-7B-Instruct official Hub path returns 401 after MosaicML/Databricks MPT wind-down.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-instruct",
       "source": "sweep-2026-09-16",
@@ -1016,7 +1042,7 @@
         "Same MPT family disappearance as mpt-7b (vLLM deletion report)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1024,7 +1050,7 @@
       },
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-instruct",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1033,14 +1059,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "mosaicml/mpt-7b-storywriter",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "MPT-7B-Storywriter official Hub path returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-12-22T00:00:00Z",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
       "source": "sweep-2026-09-16",
@@ -1049,7 +1076,7 @@
         "HF API HTTP 401 (2026-09-16)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1057,7 +1084,7 @@
       },
       "pirateface_url": "https://pirateface.co/mosaicml/mpt-7b-storywriter",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1066,14 +1093,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "stabilityai/stable-diffusion-2",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official stabilityai/stable-diffusion-2 became unavailable in the Nov 2025 SD2 family retraction.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-11-14T00:00:00Z",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2",
       "source": "sweep-2026-09-16",
@@ -1083,7 +1111,7 @@
         "HF forum https://discuss.huggingface.co/t/error-404-https-huggingface-co-stabilityai-stable-diffusion-2/170425"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1091,7 +1119,7 @@
       },
       "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1100,14 +1128,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "stabilityai/stable-diffusion-2-1-base",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official SD 2.1-base path went dark with the SD2 family removal; Hub 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-11-14T00:00:00Z",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1-base",
       "source": "sweep-2026-09-16",
@@ -1118,7 +1147,7 @@
         "Mirror: sd2-community/stable-diffusion-2-1-base"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1126,7 +1155,7 @@
       },
       "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-1-base",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1135,14 +1164,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "stabilityai/stable-diffusion-2-inpainting",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official SD2 inpainting weights became unavailable with the SD2 family retraction.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2025-11-14T00:00:00Z",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-inpainting",
       "source": "sweep-2026-09-16",
@@ -1152,7 +1182,7 @@
         "HF forum thread 170425 reports same 404/unavailable behavior"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1160,7 +1190,7 @@
       },
       "pirateface_url": "https://pirateface.co/stabilityai/stable-diffusion-2-inpainting",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1169,14 +1199,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "runwayml/stable-diffusion-v1-4",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "RunwayML SD 1.4 Hub path returns 401 after the org abandoned Hugging Face hosting.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2024-08-29T00:00:00Z",
       "hf_url": "https://huggingface.co/runwayml/stable-diffusion-v1-4",
       "source": "sweep-2026-09-16",
@@ -1186,7 +1217,7 @@
         "Same RunwayML HF org removal as SD 1.5 (diffusers#9322)"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1194,7 +1225,7 @@
       },
       "pirateface_url": "https://pirateface.co/runwayml/stable-diffusion-v1-4",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1203,7 +1234,8 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "runwayml/stable-diffusion-v1-5",
@@ -1230,7 +1262,7 @@
       },
       "pirateface_url": "https://pirateface.co/runwayml/stable-diffusion-v1-5",
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
         "license": "creativeml-openrail-m",
         "pipeline_tag": "text-to-image",
@@ -1266,10 +1298,10 @@
     },
     {
       "id": "WizardLMTeam/WizardLM-2-70B",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "WizardLM-2 70B official Hub path is inaccessible (401) after the WizardLM-2 withdrawal event.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2024-04-16T00:00:00Z",
       "hf_url": "https://huggingface.co/WizardLMTeam/WizardLM-2-70B",
       "source": "sweep-2026-09-16",
@@ -1279,7 +1311,7 @@
         "Part of WizardLM-2 official withdrawal cluster"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1287,7 +1319,7 @@
       },
       "pirateface_url": "https://pirateface.co/WizardLMTeam/WizardLM-2-70B",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1296,14 +1328,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "WizardLMTeam/WizardLM-2-7B",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official WizardLM-2 7B companion release was withdrawn with the rest of WizardLM-2; Hub now 401 for unauthenticated access.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2024-04-16T00:00:00Z",
       "hf_url": "https://huggingface.co/WizardLMTeam/WizardLM-2-7B",
       "source": "sweep-2026-09-16",
@@ -1314,7 +1347,7 @@
         "Mirror: lucyknada/microsoft_WizardLM-2-7B still public"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1322,7 +1355,7 @@
       },
       "pirateface_url": "https://pirateface.co/WizardLMTeam/WizardLM-2-7B",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1331,14 +1364,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "WizardLMTeam/WizardLM-2-8x22B",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Official WizardLM-2 8x22B was publicly released then pulled within hours after Microsoft skipped required toxicity testing; unauthenticated Hub API now returns 401.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2024-04-16T00:00:00Z",
       "hf_url": "https://huggingface.co/WizardLMTeam/WizardLM-2-8x22B",
       "source": "sweep-2026-09-16",
@@ -1350,7 +1384,7 @@
         "r/LocalLLaMA: MS wiped WizardLM-2 from HF repo"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1358,7 +1392,7 @@
       },
       "pirateface_url": "https://pirateface.co/WizardLMTeam/WizardLM-2-8x22B",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1367,14 +1401,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "microsoft/WizardLM-2-7B",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Microsoft-namespaced WizardLM-2 7B path is 401 after the official withdrawal.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2024-04-16T00:00:00Z",
       "hf_url": "https://huggingface.co/microsoft/WizardLM-2-7B",
       "source": "sweep-2026-09-16",
@@ -1384,7 +1419,7 @@
         "Same WizardLM-2 withdrawal cluster"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1392,7 +1427,7 @@
       },
       "pirateface_url": "https://pirateface.co/microsoft/WizardLM-2-7B",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1401,14 +1436,15 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "microsoft/WizardLM-2-8x22B",
-      "status": "DELETED",
+      "status": "AUTH_REQUIRED",
       "severity": "hard",
-      "kind": "deleted",
-      "summary": "Microsoft-namespaced WizardLM-2 8x22B path is 401 after the same April 2024 toxicity-testing pull.",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
       "detected_at": "2024-04-16T00:00:00Z",
       "hf_url": "https://huggingface.co/microsoft/WizardLM-2-8x22B",
       "source": "sweep-2026-09-16",
@@ -1418,7 +1454,7 @@
         "404 Media / PCMag coverage of Microsoft deleting WizardLM 2"
       ],
       "curr": {
-        "visibility": "deleted",
+        "visibility": "auth_required",
         "disabled": false,
         "weight_count": 0,
         "http": 401,
@@ -1426,7 +1462,7 @@
       },
       "pirateface_url": "https://pirateface.co/microsoft/WizardLM-2-8x22B",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -1435,7 +1471,8 @@
         "weight_count": 0,
         "weight_files": [],
         "weight_files_truncated": 0
-      }
+      },
+      "reported_status": "DELETED"
     },
     {
       "id": "audnai/penclaw-GLM-5.3-abliterated",
@@ -1459,7 +1496,7 @@
       },
       "pirateface_url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -1589,7 +1626,7 @@
       },
       "pirateface_url": "https://pirateface.co/audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "a25be9b42b5e0396728c3997d56ea1dd4c608c05",
         "license": null,
         "pipeline_tag": null,
@@ -1661,7 +1698,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "7f7535bff0c301ec99fd3a8124aa4a48f50dfbde",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -1696,7 +1733,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Qwen3-8B-abliterated",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -1734,7 +1771,7 @@
       },
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "404ea47aaa5d8a8b00049c9e9750089aca011ab2",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -1783,7 +1820,7 @@
       },
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -1822,7 +1859,7 @@
       "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "a855f377abf5cbda99a278414466743f427e97c8",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -1871,7 +1908,7 @@
       },
       "pirateface_url": "https://pirateface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "05ff9bfd1f28c5228e53121d5ee4427bb5205212",
         "license": "other",
         "pipeline_tag": "text-classification",

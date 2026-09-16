@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.status.v1",
-  "generated_at": "2026-09-16T11:21:34Z",
+  "generated_at": "2026-09-16T11:26:52Z",
   "source": "https://github.com/Blackwellboy/hf-vanished",
   "summary": {
     "watched": 241,
@@ -9,7 +9,7 @@
     "vanished": 36,
     "protected": 0,
     "rescued": 0,
-    "at_risk": 17,
+    "at_risk": 47,
     "no_known_copy": 1
   },
   "integrations": {
@@ -32,10 +32,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": true,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:04Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": "e8e68a646dce5bda37533d9e0074a3cb2d4be28c",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -88,10 +88,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:05Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -118,7 +118,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/20251130173241/https://huggingface.co/mosaicml/mpt-7b-chat"
       }
@@ -131,10 +131,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:03Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -161,7 +161,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": null
       }
@@ -174,10 +174,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:06Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -204,7 +204,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/20251112142536/https://huggingface.co/stabilityai/stable-diffusion-2-1"
       }
@@ -217,10 +217,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:03Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -247,7 +247,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/20240324124203/https://huggingface.co/WizardLM/WizardLM-7B-V1.0"
       }
@@ -260,10 +260,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:03Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -290,7 +290,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": null
       }
@@ -303,10 +303,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:03Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -333,7 +333,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": null
       }
@@ -346,10 +346,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:03Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -376,7 +376,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": null
       }
@@ -389,10 +389,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:06Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -419,7 +419,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": null
       }
@@ -432,10 +432,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:02Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -455,12 +455,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:43Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -483,10 +483,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:02Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "a855f377abf5cbda99a278414466743f427e97c8",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -511,12 +511,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:43Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -539,10 +539,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:02Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "05ff9bfd1f28c5228e53121d5ee4427bb5205212",
         "license": "other",
         "pipeline_tag": "text-classification",
@@ -556,12 +556,12 @@
       },
       "license": "other",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:43Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -584,10 +584,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:57Z"
+        "checked_at": "2026-09-16T11:25:57Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:57Z",
+        "checked_at": "2026-09-16T11:25:57Z",
         "sha": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
         "license": "llama3",
         "pipeline_tag": "text-generation",
@@ -628,10 +628,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:57Z"
+        "checked_at": "2026-09-16T11:25:57Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:57Z",
+        "checked_at": "2026-09-16T11:25:57Z",
         "sha": "01c7f73d771dfac7d292323805ebc428287df4f9",
         "license": "llama2",
         "pipeline_tag": "text-generation",
@@ -671,10 +671,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:57Z"
+        "checked_at": "2026-09-16T11:25:58Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:57Z",
+        "checked_at": "2026-09-16T11:25:58Z",
         "sha": "ff6768d9368919a1f025a54f9f5aa0ee591730bb",
         "license": "gemma",
         "pipeline_tag": "text-generation",
@@ -715,10 +715,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:57Z"
+        "checked_at": "2026-09-16T11:25:58Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:57Z",
+        "checked_at": "2026-09-16T11:25:58Z",
         "sha": "33c193028431c2fde6c6e51f29e6f17b60cbfac6",
         "license": "gemma",
         "pipeline_tag": "text-generation",
@@ -762,10 +762,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:57Z"
+        "checked_at": "2026-09-16T11:25:58Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:57Z",
+        "checked_at": "2026-09-16T11:25:58Z",
         "sha": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
         "license": "other",
         "pipeline_tag": "text-to-image",
@@ -810,10 +810,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:58Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:58Z",
         "sha": "827cd7721231872c152e3faef5cae1b22964ed58",
         "license": "bigcode-openrail-m",
         "pipeline_tag": "text-generation",
@@ -861,10 +861,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:58Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:58Z",
         "sha": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -904,10 +904,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:58Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:58Z",
         "sha": "63a8b081895390a26e140280378bc85ec8bce07a",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -949,10 +949,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:59Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "892b3d7a7b1cf10c7a701c60881cd93df615734c",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -977,12 +977,12 @@
       },
       "license": "mit",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HuggingFaceH4/zephyr-7b-beta",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:47Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1000,10 +1000,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:59Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "462165984030d82259a11f4367a4eed129e94a7b",
         "license": "openrail++",
         "pipeline_tag": "text-to-image",
@@ -1051,10 +1051,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:59Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
         "license": "creativeml-openrail-m",
         "pipeline_tag": "text-to-image",
@@ -1079,12 +1079,12 @@
       },
       "license": "creativeml-openrail-m",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/runwayml/stable-diffusion-v1-5",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:40Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1107,10 +1107,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:59Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "133a221b8aa7292a167afc5127cb63fb5005638b",
         "license": "creativeml-openrail-m",
         "pipeline_tag": "text-to-image",
@@ -1158,10 +1158,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:59Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "d31b76426385f683c6efb8d4daea58379fb9bb09",
         "license": "other",
         "pipeline_tag": null,
@@ -1181,12 +1181,12 @@
       },
       "license": "other",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/OpenAssistant/oasst-sft-7-llama-30b-xor",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:51Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1204,10 +1204,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:58Z"
+        "checked_at": "2026-09-16T11:25:59Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:58Z",
+        "checked_at": "2026-09-16T11:25:59Z",
         "sha": "6567010926ff93a5e9fb809534d61ab667a86674",
         "license": "llama3",
         "pipeline_tag": "text-generation",
@@ -1247,10 +1247,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:00Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:00Z",
         "sha": "85a25be002841fe738a5267b6806473f36f86715",
         "license": "llama3",
         "pipeline_tag": "text-generation",
@@ -1290,10 +1290,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:00Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:00Z",
         "sha": "53ae9dafe8b3d163e05d75387575f8e9f43253d0",
         "license": "llama3",
         "pipeline_tag": "text-generation",
@@ -1341,10 +1341,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:00Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:00Z",
         "sha": "8f1b52408a2f6e317535190c9386f776cacf0079",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -1392,10 +1392,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:00Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:00Z",
         "sha": "ff95e3bfcd6142759ce82099b58bc7a789ac241b",
         "license": "llama3",
         "pipeline_tag": "text-generation",
@@ -1412,12 +1412,12 @@
       },
       "license": "llama3",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/Orenguteng/Llama-3-8B-Lexi-Uncensored",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:51Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1435,10 +1435,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:00Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:00Z",
         "sha": "7f640465f3403a4aac373609febb563b9d4ce127",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -1475,10 +1475,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:01Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:01Z",
         "sha": "682f6583699ecd916a7d106393f68c44a1c7abf2",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -1521,10 +1521,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:01Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:01Z",
         "sha": "7f640465f3403a4aac373609febb563b9d4ce127",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -1561,10 +1561,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:01Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:01Z",
         "sha": "5d0c492effbb2e52ea04e5100c6ce02eba48a793",
         "license": "cc-by-nc-4.0",
         "pipeline_tag": "text-generation",
@@ -1602,10 +1602,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:20:59Z"
+        "checked_at": "2026-09-16T11:26:01Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:20:59Z",
+        "checked_at": "2026-09-16T11:26:01Z",
         "sha": "58e77dd48a65176f97f6f376c93efe9caad9c130",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -1630,12 +1630,12 @@
       },
       "license": "other",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/Gryphe/MythoMax-L2-13b",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:44Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1653,10 +1653,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:01Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:01Z",
         "sha": "24c0bea14d53e6f67f1fbe2eca5bfe7cae389b33",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -1696,10 +1696,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:02Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "286ae6737d048ad1d965c2e830864df02db50f2f",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -1724,12 +1724,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:49Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1747,10 +1747,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:02Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:02Z",
         "sha": "9c177589dec389eac2c8de51cbc371d45e47984e",
         "license": "bigscience-openrail-m",
         "pipeline_tag": "text-generation",
@@ -1787,10 +1787,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:00Z"
+        "checked_at": "2026-09-16T11:26:03Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:00Z",
+        "checked_at": "2026-09-16T11:26:03Z",
         "sha": "825a586f260d6c583b8aa9ceab6cdfaa3d9a4ddc",
         "license": "llama2",
         "pipeline_tag": "text-generation",
@@ -1829,10 +1829,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:09Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "45d0fc0ad6cfcf9eeee6008ddaea925536409b18",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -1857,12 +1857,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:48Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1880,10 +1880,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:10Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:10Z",
         "sha": "993a5971fda8f30dd1b7eb2654792ba4415c7460",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -1908,12 +1908,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:47Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1931,10 +1931,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:10Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:10Z",
         "sha": "45b6a334b4bcd1d7f37179df58b3b1d66a184e5d",
         "license": "gemma",
         "pipeline_tag": "image-text-to-text",
@@ -1959,12 +1959,12 @@
       },
       "license": "gemma",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:45Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -1982,10 +1982,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:10Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:10Z",
         "sha": "20b94f0613b632b4848bbe3b1e05d9ee0c2b1608",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -2033,10 +2033,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:10Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:10Z",
         "sha": "76f454c346937f39146d515b89f87dd12bcf9d57",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2084,10 +2084,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:10Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:10Z",
         "sha": "f12a584fecbeb5f20001130d8ecd66c9327ae685",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2112,12 +2112,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:47Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2135,10 +2135,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:10Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:10Z",
         "sha": "89230607b3708bc1efe174e8fd34d4b164476c88",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2186,10 +2186,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:11Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:11Z",
         "sha": "20fdadf6a713f7a4d52202e7d74a51f4355b44e6",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2237,10 +2237,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:11Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:11Z",
         "sha": "0a41c68809d375475f954be12ba7c40efa56c2a9",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -2258,12 +2258,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:46Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2281,10 +2281,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:11Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:11Z",
         "sha": "ae8045ac2bd216293ca49a3065da2c942dde4b68",
         "license": "gemma",
         "pipeline_tag": "image-text-to-text",
@@ -2300,12 +2300,12 @@
       },
       "license": "gemma",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:45Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2323,10 +2323,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:11Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:11Z",
         "sha": "abdbf309d0a80af45ded9b8da5afcb493f4946b6",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2343,12 +2343,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:48Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2366,10 +2366,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:11Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:11Z",
         "sha": "f9093662a2e7ae0503f637088bc96f77a1a70c83",
         "license": "gemma",
         "pipeline_tag": "image-text-to-text",
@@ -2385,12 +2385,12 @@
       },
       "license": "gemma",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:45Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2408,10 +2408,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:11Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:11Z",
         "sha": "cc0d4ceb9b4936d483f99d669425b9ae304fcd22",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2459,10 +2459,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:12Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:12Z",
         "sha": "a09698bb675f0e1b2a2aaacda8f9b36395fb11d0",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2510,10 +2510,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:06Z"
+        "checked_at": "2026-09-16T11:26:12Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:06Z",
+        "checked_at": "2026-09-16T11:26:12Z",
         "sha": "9654466e82d83f5ebfe1518a369bc5900873abb1",
         "license": "gemma",
         "pipeline_tag": "image-text-to-text",
@@ -2529,12 +2529,12 @@
       },
       "license": "gemma",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Gemma4-31B-QAT-Uncensored-HauhauCS-Balanced-MTP",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:45Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2552,10 +2552,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:12Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:12Z",
         "sha": "3ea8c452a2b136875c0c8b529612bed39c81e27a",
         "license": "gemma",
         "pipeline_tag": "text-generation",
@@ -2569,12 +2569,12 @@
       },
       "license": "gemma",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:48Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2592,10 +2592,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:12Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:12Z",
         "sha": "9a28c2fbd15f21fb8ed204074c6f58d5bc889941",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2619,12 +2619,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:46Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2642,10 +2642,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:12Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:12Z",
         "sha": "446ec370626e1fda5b6cfb67e2c90152315d3aab",
         "license": "apache-2.0",
         "pipeline_tag": "any-to-any",
@@ -2682,10 +2682,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:12Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:12Z",
         "sha": "975adf14b2c7e68b5fd1dbf8fa896d50574f8731",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2725,10 +2725,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:13Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:13Z",
         "sha": "f4cb0b62dd608c596f0edacd200363676a826abc",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2753,12 +2753,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:46Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2776,10 +2776,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:13Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:13Z",
         "sha": "58ebd123013160600229eda180b5b17f3fb7af9d",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -2827,10 +2827,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:13Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:13Z",
         "sha": "fd8c03ddb7c828a1731d66f8a858b82b4c79b64d",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -2868,10 +2868,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:13Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:13Z",
         "sha": "c09cdbcdb1fefad6d335809d445621b5f5ba0c6e",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -2889,12 +2889,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:46Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -2912,10 +2912,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:13Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:13Z",
         "sha": "9cada68ea11a8f361e4b16a7a97e53d99b0918c0",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -2963,10 +2963,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:07Z"
+        "checked_at": "2026-09-16T11:26:13Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:07Z",
+        "checked_at": "2026-09-16T11:26:13Z",
         "sha": "0434906af7b5202b676d43f108cf4f73d25691ef",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3014,10 +3014,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:14Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:14Z",
         "sha": "7ddff52cbacb97c93d8110ae6a3352914021e132",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -3055,10 +3055,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:14Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:14Z",
         "sha": "14963e70f886455cf93090ac95bdbf4c8730cbe1",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3106,10 +3106,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:14Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:14Z",
         "sha": "d0da06789c72ce94d75c17e539f2d6cc3f62f7aa",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -3157,10 +3157,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:14Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:14Z",
         "sha": "ed099273cf30ad72a88116d759856f147b7bcbff",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3207,10 +3207,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:14Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:14Z",
         "sha": "1c28f5014d7e9c20170af40e5aa028679fb30bfb",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -3248,10 +3248,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:14Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:14Z",
         "sha": "292ee2bd5d0f1c49e1fb82b0fbd98cb3dbfb6269",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -3299,10 +3299,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:15Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:15Z",
         "sha": "a8dfba9c1e43bdf324ee2c7787ed01c70975ffb4",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -3346,10 +3346,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:08Z"
+        "checked_at": "2026-09-16T11:26:15Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:08Z",
+        "checked_at": "2026-09-16T11:26:15Z",
         "sha": "d7431183c443443024debb08b222cbcf2e424da7",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -3387,10 +3387,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:15Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:15Z",
         "sha": "994bb4e69663ec880a4d9a61604e6debc3a49b9a",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3438,10 +3438,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:15Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:15Z",
         "sha": "ca1e60be3a69f79a699ff85c9c3f97a1614e5617",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -3484,10 +3484,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:16Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:16Z",
         "sha": "ff53d83fc3c623e63eefcf933bd8298f32b8ebf6",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -3535,10 +3535,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:15Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:15Z",
         "sha": "f06f59bce3c36b3282b75c9fe2621c83c9399d10",
         "license": "mit",
         "pipeline_tag": null,
@@ -3578,10 +3578,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:16Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:16Z",
         "sha": "a7e3b416f83559fb234f3f1f6b31c8d2367a7af2",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3625,10 +3625,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:16Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:16Z",
         "sha": "b55da0a2524be0d2b28545e483c3424a24b5f060",
         "license": null,
         "pipeline_tag": null,
@@ -3667,10 +3667,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:16Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:16Z",
         "sha": "77b8a75fe4c784db0cc43b84368007d98f15838a",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3717,10 +3717,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:16Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:16Z",
         "sha": "55e73efc9e0f7d5a84e6386697022c5eabd5a9ab",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3757,10 +3757,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:17Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:17Z",
         "sha": "16325b201fe17cc52d372b8332dd3df4f45fb01c",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -3801,10 +3801,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:17Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:17Z",
         "sha": "a6d52bc87e9dce9d882a09c2de2d61ffe57e01e5",
         "license": "mit",
         "pipeline_tag": null,
@@ -3852,10 +3852,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:17Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:17Z",
         "sha": "9018c59243bdf72cdf8873d93ffb2beaee77b513",
         "license": null,
         "pipeline_tag": null,
@@ -3900,10 +3900,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:17Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:17Z",
         "sha": "fa935a7958b3669b194c7ba4d1cfcebbe222641d",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -3943,10 +3943,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:17Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:17Z",
         "sha": "fbc72f6c2c67dd5cc38f2639497c488f4d68f951",
         "license": null,
         "pipeline_tag": null,
@@ -3965,12 +3965,12 @@
       },
       "license": null,
       "mirror_eligibility": "UNKNOWN",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/GitMylo/Qwen2.5-Omni-7B-abliterated",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:44Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -3988,10 +3988,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:17Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:17Z",
         "sha": "739e3c5b89849f6c238ce1e5b70008612ae42cdd",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -4039,10 +4039,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "c2f5341e7c9a1c55e6d61cfc8e6d0ca897bd7443",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -4080,10 +4080,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "ce37d99d465fbb80616839022c4ae8304e606b4e",
         "license": "llama3.3",
         "pipeline_tag": "text-generation",
@@ -4131,10 +4131,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "36276309d30211d9babf72f22d1605dc2dc6357c",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4172,10 +4172,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:10Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:10Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "f028c0a21105244b4aa7a8e50675062ad747ac2c",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4217,10 +4217,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "04eb5f9915607c840716ae817717431f0ba6df07",
         "license": "mit",
         "pipeline_tag": "image-text-to-text",
@@ -4268,10 +4268,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:09Z"
+        "checked_at": "2026-09-16T11:26:16Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:09Z",
+        "checked_at": "2026-09-16T11:26:16Z",
         "sha": "7f6d7641fb2ad4489919ea06513888d598e2837b",
         "license": "mit",
         "pipeline_tag": "image-text-to-text",
@@ -4311,10 +4311,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "78c2971382a49b442ce044fd4e17169217b0b36c",
         "license": "mit",
         "pipeline_tag": "image-text-to-text",
@@ -4331,12 +4331,12 @@
       },
       "license": "mit",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:51Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4354,10 +4354,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:19Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:19Z",
         "sha": "2491ee58472b82a2372d288f982943b9d5e6a82c",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -4398,10 +4398,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:18Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:18Z",
         "sha": "9f646d7eda193ddf2348134f3bff3d49eed7a2c6",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -4449,10 +4449,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:19Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:19Z",
         "sha": "a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4477,12 +4477,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:50Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4500,10 +4500,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:19Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:19Z",
         "sha": "82df4702cc5e716cf7573a8942fee28ae8f65088",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -4528,12 +4528,12 @@
       },
       "license": "mit",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:50Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4551,10 +4551,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:19Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:19Z",
         "sha": "d8678bbb9e0d4f5729c115087485a4e25ba89d65",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4578,12 +4578,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:51Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4601,10 +4601,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:19Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:19Z",
         "sha": "33806a177e79b9c6d0b0eff8a8043cb603ff7d0a",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -4652,10 +4652,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:11Z"
+        "checked_at": "2026-09-16T11:26:20Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:11Z",
+        "checked_at": "2026-09-16T11:26:20Z",
         "sha": "f81b0cbd28a3650138635823bc101adb56a0bc4a",
         "license": "gemma",
         "pipeline_tag": "text-generation",
@@ -4672,12 +4672,12 @@
       },
       "license": "gemma",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:50Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4695,10 +4695,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:20Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:20Z",
         "sha": "9f8836217d69dce909dd73c7b4667d0ff41077f3",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4713,12 +4713,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:49Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4736,10 +4736,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:20Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:20Z",
         "sha": "e21a58d1c4fe79b370362c45dc9ef8b4abc33dda",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -4787,10 +4787,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:20Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:20Z",
         "sha": "d141218a7afbe89c3eeec7f284ad9901ec456b91",
         "license": "mit",
         "pipeline_tag": null,
@@ -4838,10 +4838,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:20Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:20Z",
         "sha": "b85c6304150be44ee02ab130a733f65bc562bbc6",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4866,12 +4866,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:50Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -4889,10 +4889,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:21Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:21Z",
         "sha": "3249872a9237dd0fa87637d4de870c9f46aeb65d",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -4929,10 +4929,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:20Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:20Z",
         "sha": "01a19fb59c4130c1ae51b614eccc50dd62de4b02",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -4980,10 +4980,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:21Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:21Z",
         "sha": "48d28b9dd6aae718c3eaa54f149cc92c5e622195",
         "license": "mit",
         "pipeline_tag": null,
@@ -5031,10 +5031,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:21Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:21Z",
         "sha": "431d7d0c09be9d969b2816a4fdd41fecb3fc9479",
         "license": null,
         "pipeline_tag": null,
@@ -5075,10 +5075,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:21Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:21Z",
         "sha": "eee7c1a5b34280252b44b1b16996d8edd2f76149",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -5126,10 +5126,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:12Z"
+        "checked_at": "2026-09-16T11:26:21Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:12Z",
+        "checked_at": "2026-09-16T11:26:21Z",
         "sha": "c41cec508ef90e1e0659408db0f0f0f2b5c62f25",
         "license": "mit",
         "pipeline_tag": null,
@@ -5177,10 +5177,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:22Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:22Z",
         "sha": "ded7432e88bc560e91c1dbf0d38e1e237bf0b812",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -5228,10 +5228,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:22Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:22Z",
         "sha": "b33ce592fa933acdf7d5a2a2ebbc16d792b55b09",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -5279,10 +5279,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:22Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:22Z",
         "sha": "22aecf47eb6799afabd593f27781e5ccbda3af2e",
         "license": "mit",
         "pipeline_tag": null,
@@ -5330,10 +5330,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:39Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:39Z",
         "sha": "d009747b2476ba840d58c9d4557bfeac2b8880ff",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -5381,10 +5381,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:22Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:22Z",
         "sha": "1bb49d2489ad2aba9c1682e0dea8aac03b0d1b3b",
         "license": "gemma",
         "pipeline_tag": "text-generation",
@@ -5432,10 +5432,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:22Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:22Z",
         "sha": "dddcab7c496b8cbf9acf3f9301deac7e8b0c6f6d",
         "license": "other",
         "pipeline_tag": null,
@@ -5472,10 +5472,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:22Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:22Z",
         "sha": "5f74d466f0ab64a63647789949de0e25ffb212b7",
         "license": null,
         "pipeline_tag": "text-generation",
@@ -5516,10 +5516,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:23Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:23Z",
         "sha": "7eed783a6dde94ef571ede000664bac9e901c25f",
         "license": null,
         "pipeline_tag": null,
@@ -5564,10 +5564,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:23Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:23Z",
         "sha": "403e92ba21d2c51cf97a42ea0bfa4c45c0cb8589",
         "license": "llama3.1",
         "pipeline_tag": null,
@@ -5615,10 +5615,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:23Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:23Z",
         "sha": "4f85e1c392314884e744e98e50c1fa4a4d29ac88",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -5656,10 +5656,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:23Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:23Z",
         "sha": "da254321778479247b67226fc5f19e2ac060e1af",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -5700,10 +5700,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:23Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:23Z",
         "sha": "77fc46b121a2b9781dd5d91076bcaa3fc0ac2da6",
         "license": null,
         "pipeline_tag": null,
@@ -5725,12 +5725,12 @@
       },
       "license": null,
       "mirror_eligibility": "UNKNOWN",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/LuisPPB16/Qwen3.5-9B-Red_Team",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:49Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -5748,10 +5748,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:24Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:24Z",
         "sha": "ec72a7347a86004baf9d03fa9b833682bbce8070",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -5791,10 +5791,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:23Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:23Z",
         "sha": "ce3273174ec72a75f0fc8034e83148fb4196b3c7",
         "license": "llama3.1",
         "pipeline_tag": null,
@@ -5842,10 +5842,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:24Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:24Z",
         "sha": "e6255c92cf138daf312a2a81d80bb89d88f3f10b",
         "license": "gemma",
         "pipeline_tag": null,
@@ -5882,10 +5882,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:24Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:24Z",
         "sha": "41db3d9bd3263a57856059be39bb5205f5676600",
         "license": null,
         "pipeline_tag": null,
@@ -5933,10 +5933,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:24Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:24Z",
         "sha": "1816deaf90ddb3a3588807995eb4d2faacfd108a",
         "license": "other",
         "pipeline_tag": null,
@@ -5973,10 +5973,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:14Z"
+        "checked_at": "2026-09-16T11:26:24Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:14Z",
+        "checked_at": "2026-09-16T11:26:24Z",
         "sha": "176f8777cbb2dda991a8d4db578b90b8b0f63fec",
         "license": null,
         "pipeline_tag": null,
@@ -6024,10 +6024,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:24Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:24Z",
         "sha": "56376882534ff3cedcd8db4adf00a0003568cf10",
         "license": null,
         "pipeline_tag": null,
@@ -6075,10 +6075,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:25Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:25Z",
         "sha": "0dfc6479897556f2a1e721c06e544ac36471f9fb",
         "license": null,
         "pipeline_tag": null,
@@ -6126,10 +6126,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:25Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:25Z",
         "sha": "d6a9b3a9532cc0070a4378877db7b6e295b5b782",
         "license": null,
         "pipeline_tag": null,
@@ -6145,12 +6145,12 @@
       },
       "license": null,
       "mirror_eligibility": "UNKNOWN",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:44Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -6168,10 +6168,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:25Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:25Z",
         "sha": "9846692fa35d68f03d50f6562a81e3e9833077d0",
         "license": "gemma",
         "pipeline_tag": null,
@@ -6210,10 +6210,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:39Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:39Z",
         "sha": "5de0bcf74c0550e82fe8d32ee2a9bcfe60327a25",
         "license": null,
         "pipeline_tag": null,
@@ -6238,12 +6238,12 @@
       },
       "license": null,
       "mirror_eligibility": "UNKNOWN",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/Kakadutheking/redteam-lexi-rl-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:48Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -6261,10 +6261,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:25Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:25Z",
         "sha": "a30b18a6b6b0911644668b7d4cdb2dc8c525e10d",
         "license": "gemma",
         "pipeline_tag": null,
@@ -6303,10 +6303,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:25Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:25Z",
         "sha": "9f11ceb4c14df74b53aefc44c5f4795711037674",
         "license": "gemma",
         "pipeline_tag": null,
@@ -6344,10 +6344,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:26Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:26Z",
         "sha": "7939c8eaff2d9dbb4f198e128cc3dde58ceb773b",
         "license": "apache-2.0",
         "pipeline_tag": "text-classification",
@@ -6384,10 +6384,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:26Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:26Z",
         "sha": "93883e180f4d6585a0afae703095ba4a9ebce888",
         "license": "mit",
         "pipeline_tag": "text-classification",
@@ -6433,10 +6433,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:26Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:26Z",
         "sha": "7db1f9a103baac387d6b9c2ec87edc3442fd7202",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -6474,10 +6474,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:26Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:26Z",
         "sha": "771aa6f1391933e7cba0b21f0f17750c7a74a901",
         "license": "apache-2.0",
         "pipeline_tag": "text-classification",
@@ -6514,10 +6514,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:26Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:26Z",
         "sha": "16ae5bb8609865cd150665ff2ec09610f328a4a2",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -6559,10 +6559,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:26Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:26Z",
         "sha": "939f5f2635c63b7f6ce1a7b7fac04761bd0a0cba",
         "license": "gemma",
         "pipeline_tag": null,
@@ -6610,10 +6610,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:27Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:27Z",
         "sha": "aa6a46bfc571280230062ccade94c0c2e179fffb",
         "license": "gemma",
         "pipeline_tag": null,
@@ -6661,10 +6661,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:27Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:27Z",
         "sha": "ed97c5e88e8e8cebced8ff64f7c222ea634891fa",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -6712,10 +6712,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:27Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:27Z",
         "sha": "77cd1d8fd77403ef4079d386a368a893def6a7b9",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -6763,10 +6763,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:28Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:28Z",
         "sha": "815115b6567a329e31fdb05e95aa9a90c93e5be7",
         "license": "mit",
         "pipeline_tag": null,
@@ -6814,10 +6814,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:16Z"
+        "checked_at": "2026-09-16T11:26:27Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:16Z",
+        "checked_at": "2026-09-16T11:26:27Z",
         "sha": "d6e5232b642c5b94540bf2d892eafb00748a2f63",
         "license": "mit",
         "pipeline_tag": "text-classification",
@@ -6863,10 +6863,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:28Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:28Z",
         "sha": "184f6772b740349c7aaea3320adaea6965f48f12",
         "license": null,
         "pipeline_tag": null,
@@ -6904,10 +6904,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:28Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:28Z",
         "sha": "d7e41a621a1eefe5e4a239d34f106f718d48d9a6",
         "license": "mit",
         "pipeline_tag": null,
@@ -6955,10 +6955,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:28Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:28Z",
         "sha": "6a3d059d5dca4072ede6500984a8643454561069",
         "license": "gemma",
         "pipeline_tag": null,
@@ -7005,10 +7005,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:28Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:28Z",
         "sha": "d196abba3a99cf70d8f20e710da07ac212a87490",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -7046,10 +7046,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:29Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:29Z",
         "sha": "4066c7b8448859085a4097f37e853127ea762e7e",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -7097,10 +7097,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:28Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:28Z",
         "sha": "4029d7d20514a5de91499529b644d954c6240824",
         "license": "mit",
         "pipeline_tag": null,
@@ -7148,10 +7148,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:39Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:39Z",
         "sha": "fc1fd22aff8e8a2a2e3d3fa9b591832a02592d51",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -7165,12 +7165,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/J1244/qwen2.5-jailbreak-Q8_0-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:47Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -7188,10 +7188,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:29Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:29Z",
         "sha": "785c9dc7a58507b8db76a57a25f934e824c7815e",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -7238,10 +7238,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:29Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:29Z",
         "sha": "b6941316a22c8e0f6e4635abbc30cce0f3fb511e",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -7279,10 +7279,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:29Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:29Z",
         "sha": "02938c5a7b5709090486127a44fe852e3de99916",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -7319,10 +7319,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:30Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:30Z",
         "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
         "license": "apache-2.0",
         "pipeline_tag": "sentence-similarity",
@@ -7362,10 +7362,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:30Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:30Z",
         "sha": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
         "license": "apache-2.0",
         "pipeline_tag": "text-ranking",
@@ -7406,10 +7406,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:30Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:30Z",
         "sha": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
         "license": "mit",
         "pipeline_tag": "feature-extraction",
@@ -7447,10 +7447,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:30Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:30Z",
         "sha": "1ae76a97c7e84a4e640876a07453fccd636f0667",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -7488,10 +7488,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:30Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:30Z",
         "sha": "86b5e0934494bd15c9632b12f734a8a67f723594",
         "license": "apache-2.0",
         "pipeline_tag": "fill-mask",
@@ -7531,10 +7531,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:30Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:30Z",
         "sha": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
         "license": "apache-2.0",
         "pipeline_tag": "sentence-similarity",
@@ -7574,10 +7574,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:31Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:31Z",
         "sha": "5617a9f61b028005a4858fdac845db406aefb181",
         "license": "mit",
         "pipeline_tag": "sentence-similarity",
@@ -7616,10 +7616,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:31Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:31Z",
         "sha": "df1b051c49625cf57a3d0d8d3863ed4d13564fe4",
         "license": "apache-2.0",
         "pipeline_tag": "translation",
@@ -7658,10 +7658,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:18Z"
+        "checked_at": "2026-09-16T11:26:31Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:18Z",
+        "checked_at": "2026-09-16T11:26:31Z",
         "sha": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
         "license": "apache-2.0",
         "pipeline_tag": "sentence-similarity",
@@ -7701,10 +7701,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:31Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:31Z",
         "sha": "29ec3766d36d6f73f0696f85560a422f50e8498c",
         "license": "apache-2.0",
         "pipeline_tag": "time-series-forecasting",
@@ -7741,10 +7741,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:31Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:31Z",
         "sha": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
         "license": "mit",
         "pipeline_tag": "fill-mask",
@@ -7760,12 +7760,12 @@
       },
       "license": "mit",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/FacebookAI/xlm-roberta-base",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:44Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -7783,10 +7783,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:32Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:32Z",
         "sha": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
         "license": null,
         "pipeline_tag": "zero-shot-image-classification",
@@ -7824,10 +7824,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:31Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:31Z",
         "sha": "c1899de289a04d12100db370d81485cdf75e47ca",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -7864,10 +7864,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:32Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:32Z",
         "sha": "7e75982b97cd5a41d2dcfa1904ee88d0686d6fd1",
         "license": "other",
         "pipeline_tag": null,
@@ -7915,10 +7915,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:32Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:32Z",
         "sha": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -7958,10 +7958,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:32Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:32Z",
         "sha": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
         "license": "apache-2.0",
         "pipeline_tag": "text-classification",
@@ -7998,10 +7998,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:32Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:32Z",
         "sha": "1824797e7887cbec1990e4adbd6675960a36c589",
         "license": "apache-2.0",
         "pipeline_tag": "image-classification",
@@ -8039,10 +8039,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:19Z"
+        "checked_at": "2026-09-16T11:26:32Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:19Z",
+        "checked_at": "2026-09-16T11:26:32Z",
         "sha": "cf031e020336460d15a417eba710bbc5bb43be9a",
         "license": "apache-2.0",
         "pipeline_tag": "automatic-speech-recognition",
@@ -8080,10 +8080,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:33Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:33Z",
         "sha": "ce8d0bf270b28c8fab026ced69fe8aa14b0f0eda",
         "license": null,
         "pipeline_tag": "text-generation",
@@ -8120,10 +8120,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:33Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:33Z",
         "sha": "9cfd069101959ca3828bf9c04a4419870832b74f",
         "license": "creativeml-openrail-m",
         "pipeline_tag": null,
@@ -8162,10 +8162,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:33Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:33Z",
         "sha": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -8204,10 +8204,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:33Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:33Z",
         "sha": "e9b6763023c676ca8431644204f50c2b100d9aab",
         "license": "apache-2.0",
         "pipeline_tag": "sentence-similarity",
@@ -8244,10 +8244,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:33Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:33Z",
         "sha": "b968826d9c46dd6066d109eabc6255188de91218",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -8288,10 +8288,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:34Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:34Z",
         "sha": "b17cb02dd882d5b6ab62fc777ad2995f19668350",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -8339,10 +8339,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:34Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:34Z",
         "sha": "0366a75518620e0f2077789202073759f2d61393",
         "license": "apache-2.0",
         "pipeline_tag": "image-classification",
@@ -8380,10 +8380,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:34Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:34Z",
         "sha": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
         "license": "mit",
         "pipeline_tag": "sentence-similarity",
@@ -8422,10 +8422,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:20Z"
+        "checked_at": "2026-09-16T11:26:34Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:20Z",
+        "checked_at": "2026-09-16T11:26:34Z",
         "sha": "d4aa6901d3a41ba39fb536a557fa166f842b0e09",
         "license": "mit",
         "pipeline_tag": "feature-extraction",
@@ -8463,10 +8463,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:35Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:35Z",
         "sha": "f3ff3571791e39611d31c381e3a41a3af07b4987",
         "license": "apache-2.0",
         "pipeline_tag": "text-to-speech",
@@ -8514,10 +8514,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:35Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:35Z",
         "sha": "0f63a7800b00dd0226abd051b906c246e1907482",
         "license": "mit",
         "pipeline_tag": "automatic-speech-recognition",
@@ -8565,10 +8565,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:35Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:35Z",
         "sha": "95a723d08a9490559dae23d0cff1d9466213d989",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -8616,10 +8616,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:35Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:35Z",
         "sha": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
         "license": "mit",
         "pipeline_tag": "feature-extraction",
@@ -8657,10 +8657,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:35Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:35Z",
         "sha": "a09a35458c702b33eeacc393d103063234e8bc28",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -8677,12 +8677,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/Qwen/Qwen2.5-7B-Instruct",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:52Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -8700,10 +8700,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "53cc19de382014514d9d4038601d261a7faa9b7b",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -8751,10 +8751,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -8794,10 +8794,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:37Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:37Z",
         "sha": "4ca720788d1e01f1bff70c033e0d0028fd02e502",
         "license": "apache-2.0",
         "pipeline_tag": null,
@@ -8845,10 +8845,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
         "license": "apache-2.0",
         "pipeline_tag": "sentence-similarity",
@@ -8888,10 +8888,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:21Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:21Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -8929,10 +8929,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
         "license": "apache-2.0",
         "pipeline_tag": "time-series-forecasting",
@@ -8969,10 +8969,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "842da3794eaa0b77d5f08bae87a17459d91ff475",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -9010,10 +9010,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:36Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:36Z",
         "sha": "60088152a34e242427b44c3100014473a0157d53",
         "license": "apache-2.0",
         "pipeline_tag": "time-series-forecasting",
@@ -9050,10 +9050,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:37Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:37Z",
         "sha": "1355db6a052410cfd62085d94b58866fd0f2c3c5",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -9092,10 +9092,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:37Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:37Z",
         "sha": "84fd25912480287da0247647c3d2b4853cb3ee5d",
         "license": "mit",
         "pipeline_tag": "automatic-speech-recognition",
@@ -9130,10 +9130,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:37Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:37Z",
         "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
         "license": "apache-2.0",
         "pipeline_tag": "feature-extraction",
@@ -9170,10 +9170,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:38Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:38Z",
         "sha": "32bd64288804d66eefd0ccbe215aa642df71cc41",
         "license": null,
         "pipeline_tag": "zero-shot-image-classification",
@@ -9212,10 +9212,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:37Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:37Z",
         "sha": "7ae557604adf67be50417f59c2c2f167def9a775",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -9229,12 +9229,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/Qwen/Qwen2.5-0.5B-Instruct",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:52Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -9252,10 +9252,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:38Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:38Z",
         "sha": "365dea6ef167def6676140ed93bbc43f84dabb28",
         "license": "apache-2.0",
         "pipeline_tag": "audio-classification",
@@ -9293,10 +9293,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:38Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:38Z",
         "sha": "2bd46a25019aeea091fd42d1f0fd4801675cf699",
         "license": null,
         "pipeline_tag": null,
@@ -9333,10 +9333,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:22Z"
+        "checked_at": "2026-09-16T11:26:37Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:22Z",
+        "checked_at": "2026-09-16T11:26:37Z",
         "sha": "e5ea8b4dd7f38f348b138eb0fe29f92c0e367e96",
         "license": "other",
         "pipeline_tag": null,
@@ -9384,10 +9384,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:39Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:39Z",
         "sha": "27dcfa74d334bc871f3234de431e71c6eeba5dd6",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -9425,10 +9425,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:23Z"
+        "checked_at": "2026-09-16T11:26:39Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:23Z",
+        "checked_at": "2026-09-16T11:26:39Z",
         "sha": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -9476,10 +9476,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:04Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9506,7 +9506,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
       }
@@ -9519,10 +9519,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:05Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9549,7 +9549,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
       }
@@ -9562,10 +9562,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:05Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9592,7 +9592,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
       }
@@ -9605,10 +9605,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:05Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9635,7 +9635,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
       }
@@ -9648,10 +9648,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:05Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9678,7 +9678,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
       }
@@ -9691,10 +9691,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:05Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9721,7 +9721,7 @@
         "magnet": null
       },
       "event": {
-        "status": "PRIVATE",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
       }
@@ -9734,10 +9734,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:04Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9764,7 +9764,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v1-6b"
       }
@@ -9777,10 +9777,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:04Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9807,7 +9807,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v2-12b"
       }
@@ -9820,10 +9820,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:01Z"
+        "checked_at": "2026-09-16T11:26:04Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:01Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9850,7 +9850,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v2-3b"
       }
@@ -9863,10 +9863,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:02Z"
+        "checked_at": "2026-09-16T11:26:04Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:02Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9893,7 +9893,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2026-09-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dolly-v2-7b"
       }
@@ -9906,10 +9906,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:06Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9936,7 +9936,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dbrx-base"
       }
@@ -9949,10 +9949,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:06Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -9979,7 +9979,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/databricks/dbrx-instruct"
       }
@@ -9992,10 +9992,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:06Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10022,7 +10022,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-30b"
       }
@@ -10035,10 +10035,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:06Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10065,7 +10065,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-30b-chat"
       }
@@ -10078,10 +10078,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10108,7 +10108,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-30b-instruct"
       }
@@ -10121,10 +10121,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10151,7 +10151,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-7b"
       }
@@ -10164,10 +10164,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10194,7 +10194,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-7b-instruct"
       }
@@ -10207,10 +10207,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10237,7 +10237,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-12-22T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/mosaicml/mpt-7b-storywriter"
       }
@@ -10250,10 +10250,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:03Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:03Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10280,7 +10280,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-11-14T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/stabilityai/stable-diffusion-2"
       }
@@ -10293,10 +10293,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10312,7 +10312,7 @@
       "pirateface": {
         "url": "https://pirateface.co/stabilityai/stable-diffusion-2-1-base",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:39Z",
         "seeders": null,
         "magnet": null
       },
@@ -10323,7 +10323,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-11-14T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/stabilityai/stable-diffusion-2-1-base"
       }
@@ -10336,10 +10336,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:07Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10355,7 +10355,7 @@
       "pirateface": {
         "url": "https://pirateface.co/stabilityai/stable-diffusion-2-inpainting",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:40Z",
         "seeders": null,
         "magnet": null
       },
@@ -10366,7 +10366,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2025-11-14T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/stabilityai/stable-diffusion-2-inpainting"
       }
@@ -10379,10 +10379,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:08Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10398,7 +10398,7 @@
       "pirateface": {
         "url": "https://pirateface.co/runwayml/stable-diffusion-v1-4",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:40Z",
         "seeders": null,
         "magnet": null
       },
@@ -10409,7 +10409,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2024-08-29T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/runwayml/stable-diffusion-v1-4"
       }
@@ -10422,10 +10422,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:08Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10441,7 +10441,7 @@
       "pirateface": {
         "url": "https://pirateface.co/WizardLMTeam/WizardLM-2-70B",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:40Z",
         "seeders": null,
         "magnet": null
       },
@@ -10452,7 +10452,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2024-04-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/WizardLMTeam/WizardLM-2-70B"
       }
@@ -10465,10 +10465,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:08Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10484,7 +10484,7 @@
       "pirateface": {
         "url": "https://pirateface.co/WizardLMTeam/WizardLM-2-7B",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:41Z",
         "seeders": null,
         "magnet": null
       },
@@ -10495,7 +10495,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2024-04-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/WizardLMTeam/WizardLM-2-7B"
       }
@@ -10508,10 +10508,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:08Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10527,7 +10527,7 @@
       "pirateface": {
         "url": "https://pirateface.co/WizardLMTeam/WizardLM-2-8x22B",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:41Z",
         "seeders": null,
         "magnet": null
       },
@@ -10538,7 +10538,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2024-04-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/WizardLMTeam/WizardLM-2-8x22B"
       }
@@ -10551,10 +10551,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:08Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10570,7 +10570,7 @@
       "pirateface": {
         "url": "https://pirateface.co/microsoft/WizardLM-2-7B",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:41Z",
         "seeders": null,
         "magnet": null
       },
@@ -10581,7 +10581,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2024-04-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/microsoft/WizardLM-2-7B"
       }
@@ -10594,10 +10594,10 @@
         "http": 401,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:08Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": null,
         "sha": null,
         "license": null,
         "pipeline_tag": null,
@@ -10613,7 +10613,7 @@
       "pirateface": {
         "url": "https://pirateface.co/microsoft/WizardLM-2-8x22B",
         "status": "unknown",
-        "checked_at": null,
+        "checked_at": "2026-09-16T11:26:41Z",
         "seeders": null,
         "magnet": null
       },
@@ -10624,7 +10624,7 @@
         "magnet": null
       },
       "event": {
-        "status": "DELETED",
+        "status": "AUTH_REQUIRED",
         "detected_at": "2024-04-16T00:00:00Z",
         "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/microsoft/WizardLM-2-8x22B"
       }
@@ -10637,10 +10637,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:09Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
         "license": "other",
         "pipeline_tag": "text-generation",
@@ -10665,12 +10665,12 @@
       },
       "license": "other",
       "mirror_eligibility": "NOT_CURRENTLY_LISTED",
-      "preservation": "UNKNOWN",
+      "preservation": "UNMIRRORED",
       "pirateface": {
         "url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:41Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -10693,10 +10693,10 @@
         "http": 200,
         "gated": "manual",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:04Z"
+        "checked_at": "2026-09-16T11:26:09Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:04Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "a25be9b42b5e0396728c3997d56ea1dd4c608c05",
         "license": null,
         "pipeline_tag": null,
@@ -10721,12 +10721,12 @@
       },
       "license": null,
       "mirror_eligibility": "UNKNOWN",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:42Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -10749,10 +10749,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:09Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "7f7535bff0c301ec99fd3a8124aa4a48f50dfbde",
         "license": "mit",
         "pipeline_tag": "text-generation",
@@ -10766,12 +10766,12 @@
       },
       "license": "mit",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:42Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -10794,10 +10794,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:09Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -10814,12 +10814,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/huihui-ai/Qwen3-8B-abliterated",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:42Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -10842,10 +10842,10 @@
         "http": 200,
         "gated": "auto",
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:05Z"
+        "checked_at": "2026-09-16T11:26:09Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:05Z",
+        "checked_at": "2026-09-16T11:26:09Z",
         "sha": "404ea47aaa5d8a8b00049c9e9750089aca011ab2",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
@@ -10870,12 +10870,12 @@
       },
       "license": "apache-2.0",
       "mirror_eligibility": "ELIGIBLE",
-      "preservation": "UNKNOWN",
+      "preservation": "AT_RISK",
       "pirateface": {
         "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored",
-        "status": "unknown",
-        "checked_at": null,
-        "seeders": null,
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:26:42Z",
+        "seeders": 0,
         "magnet": null
       },
       "frostbyte": {
@@ -10898,10 +10898,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:13Z"
+        "checked_at": "2026-09-16T11:26:21Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:13Z",
+        "checked_at": "2026-09-16T11:26:21Z",
         "sha": "528121d7b0b85885a658dfe67e3643b8a4f9337e",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
@@ -10949,10 +10949,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:15Z"
+        "checked_at": "2026-09-16T11:26:25Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:15Z",
+        "checked_at": "2026-09-16T11:26:25Z",
         "sha": "ab70e5b959056dc796ccaba251da9d21e92f75b9",
         "license": "gemma",
         "pipeline_tag": null,
@@ -10991,10 +10991,10 @@
         "http": 200,
         "gated": false,
         "disabled": false,
-        "checked_at": "2026-09-16T11:21:17Z"
+        "checked_at": "2026-09-16T11:26:29Z"
       },
       "last_public": {
-        "checked_at": "2026-09-16T11:21:17Z",
+        "checked_at": "2026-09-16T11:26:29Z",
         "sha": "9e755a63b8487fc1be0c7c9e3a94f50d66f63b25",
         "license": "apache-2.0",
         "pipeline_tag": null,
