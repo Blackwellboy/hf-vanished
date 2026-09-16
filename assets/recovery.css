@@ -1,0 +1,22 @@
+.stats { grid-template-columns: repeat(5, 1fr); }
+.preservation {
+  font-size: .62rem;
+  letter-spacing: .07em;
+  font-weight: 900;
+  padding: 4px 7px;
+  border-radius: 5px;
+  border: 1px solid var(--line);
+  white-space: nowrap;
+}
+.preservation.protected { color: var(--green); border-color: #315638; background: #09140c; }
+.preservation.rescued { color: #b9ffcb; border-color: #43854f; background: #102116; box-shadow: 0 0 18px rgba(133,255,155,.08); }
+.preservation.risk { color: var(--yellow); border-color: #544817; background: #151307; }
+.preservation.lost { color: var(--red); border-color: #51212b; background: #16090c; }
+.preservation.unmirrored { color: var(--orange); border-color: #56311e; background: #150e09; }
+.preservation.unknown { color: var(--muted); }
+button.action { font-family: inherit; cursor: pointer; }
+.action.pf { border-color: #4b426b; color: #c8b9ff; background: #0f0c17; }
+.action.frost { border-color: #315638; color: var(--green); }
+.copy-magnet { border-color: #46506b; color: #b9c9ff; background: #0a0e18; }
+@media (max-width: 900px) { .stats { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 720px) { .stats { grid-template-columns: repeat(2, 1fr); } }
