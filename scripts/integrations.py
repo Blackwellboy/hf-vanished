@@ -17,6 +17,7 @@ FROST_REPO = "https://github.com/Blackfrost-AI/FrostByte-App"
 UA = "hf-vanished/0.2 (+https://github.com/Blackwellboy/hf-vanished; recovery probe)"
 EVENT_LIMIT = int(os.getenv("PIRATEFACE_EVENT_PROBE_LIMIT", "30"))
 ROTATE_LIMIT = int(os.getenv("PIRATEFACE_ROTATING_PROBE_LIMIT", "20"))
+BOOTSTRAP_LIMIT = int(os.getenv("PIRATEFACE_BOOTSTRAP_PROBE_LIMIT", "220"))
 STALE_H = int(os.getenv("PIRATEFACE_STALE_HOURS", "72"))
 TIMEOUT = int(os.getenv("PIRATEFACE_TIMEOUT", "8"))
 
@@ -118,8 +119,14 @@ def choose(state: dict, events: list[dict], cache: dict, cursor: int) -> tuple[l
     for mid in event_ids[:EVENT_LIMIT]: add(mid)
     ids = sorted(str(x) for x in state.get("models", {}) if x)
     if ids:
+        # Warm a new install quickly so the public site does not spend days with
+        # UNKNOWN preservation states. Once every current watched model has a
+        # cached PF observation, revert to the cheap rotating maintenance pass.
+        coverage_incomplete = any(mid not in cache for mid in ids)
+        rotation_budget = BOOTSTRAP_LIMIT if coverage_incomplete else ROTATE_LIMIT
+        total_budget = EVENT_LIMIT + rotation_budget
         i, scanned = cursor % len(ids), 0
-        while scanned < len(ids) and len(picked) < EVENT_LIMIT + ROTATE_LIMIT:
+        while scanned < len(ids) and len(picked) < total_budget:
             mid, c = ids[i], cache.get(ids[i]) or {}
             if not c.get("status") or (age_hours(c.get("checked_at")) or 999) >= STALE_H: add(mid)
             i, scanned = (i + 1) % len(ids), scanned + 1
