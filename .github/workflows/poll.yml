@@ -31,7 +31,7 @@ jobs:
           python-version: "3.12"
 
       - name: Poll public Hub API + Wayback CDX
-        run: python3 scripts/poll.py
+        run: python3 scripts/poll_forever.py
 
       - name: Validate generated ledger
         run: |
