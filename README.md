@@ -4,11 +4,13 @@
 
 HF Vanished is a public, automated evidence ledger for Hugging Face Hub availability changes. It records **before → now** evidence for models that become disabled, deleted, auth-required/private, gated, or stripped of model files, then checks whether a known recovery path exists.
 
+It also has an additive forensic layer for **source-backed reasons, public discussion/commit context, cryptographic file identity, and correlation-only incident signals**.
+
 **Live:** https://blackwellboy.github.io/hf-vanished/  
 **Repo:** https://github.com/Blackwellboy/hf-vanished  
 **Machine feed:** https://blackwellboy.github.io/hf-vanished/data/status.json
 
-> Facts. Timestamps. Links. Diffs. No manifesto.
+> Facts. Timestamps. Sources. Hashes. Correlation ≠ causation.
 
 ## What this project does — and does not do
 
@@ -17,6 +19,8 @@ HF Vanished records **observable availability changes**. It does **not** infer w
 Possible causes can include author action, licensing, legal action, moderation, safety policy, distribution changes, or something else entirely. If the reason is not documented, the correct answer is **unknown**.
 
 For unauthenticated HTTP `401/403`, the public UI deliberately presents **AUTH REQUIRED** rather than pretending the response alone proves deletion, censorship, or an author decision.
+
+Timing clusters, discussion spikes, keyword matches, same-owner removals, or same-family removals are useful research signals. They are **not evidence by themselves** of mass reporting, organized campaigns, censorship, legal action, or government intervention.
 
 ## Public views
 
@@ -30,6 +34,67 @@ Evidence strength is shown separately:
 | **VERIFIED** | The tracker itself observed a public → changed-state transition. |
 | **ARCHIVED** | A concrete historical public snapshot is linked and the current state is recorded. |
 | **REPORTED** | Curated/publicly reported event that still needs stronger historical proof. |
+
+## WHY / reason evidence
+
+The cause of a disappearance is a separate field from the disappearance itself.
+
+Reason confidence labels:
+
+| Label | Meaning |
+|---|---|
+| **OFFICIAL** | A platform, owner, legal authority, or other definitive public source explicitly states the reason. |
+| **PRIMARY SOURCE** | A directly involved party publicly states the reason. |
+| **CORROBORATED** | Multiple credible public sources agree but no definitive official statement is recorded. |
+| **REPORTED** | A public report exists but remains unverified or disputed. |
+| **UNKNOWN** | No public source-backed cause has been recorded. |
+
+A non-`UNKNOWN` reason must have at least one public source URL in `data/reasons.json`.
+
+The automated forensic job may capture keyword/context **signals** from model cards, commits or public discussions. Those are explicitly labelled `NON_CAUSAL_SIGNAL` and are never promoted to a reason automatically.
+
+## Forensic evidence layer
+
+The six-hour pipeline now maintains bounded public forensic context in addition to availability state:
+
+- recent public Hugging Face discussions and selected discussion events/comments;
+- recent repository commit metadata;
+- model-card SHA-256;
+- a compact pre/post timeline;
+- source-backed reason status;
+- per-evidence-record SHA-256;
+- file/snapshot identity where the public Hub API exposes it;
+- temporal/same-owner/same-family incident correlation.
+
+The evidence pass prioritizes event models and rotates through still-public watched models so useful public context can be retained **before** a repository becomes unavailable.
+
+See [`docs/FORENSICS.md`](docs/FORENSICS.md) for the full evidence model and limitations.
+
+## Hashing and model identity
+
+HF Vanished distinguishes three identities:
+
+1. **Hub revision** — the repository revision observed by the normal poller.
+2. **File identity** — Git object ID, LFS SHA-256, and/or Xet hash when publicly exposed by the Hub tree API.
+3. **Manifest root SHA-256** — deterministic SHA-256 of the canonical file-identity manifest recorded by HF Vanished.
+
+The evidence object gets its own `evidence_sha256` as well.
+
+A hash can prove that two artifacts/records are identical. **A hash does not preserve the model bytes.** HF Vanished still separates proof from recovery.
+
+When a complete live file tree is no longer available, the manifest is explicitly marked as a bounded `LAST_PUBLIC_SAMPLE` rather than pretending the historical manifest is complete.
+
+## Incident correlation
+
+`data/incidents.json` groups events using machine-observable signals such as:
+
+- `TEMPORAL_CLUSTER`
+- `SAME_OWNER_CLUSTER`
+- `SAME_MODEL_FAMILY`
+
+Every automatic incident is marked `CORRELATION_ONLY`.
+
+This makes it possible to ask useful questions such as “did several related models change state in the same 24-hour window?” without claiming to know why that happened.
 
 ## Recovery layer
 
@@ -64,9 +129,10 @@ Every ~6 hours GitHub Actions runs unattended:
 5. Diff each model against its previous snapshot.
 6. Suppress brief flaps and ignore models never observed public.
 7. Query Wayback CDX for hard disappearances where possible.
-8. Run a bounded, fail-soft Pirate Face probe. Event models are prioritized and the rest of the persistent watch set is rotated over time.
-9. Generate `data/status.json`, including lifecycle, recovery state, Pirate Face URL/magnet when public, and FrostByte handoff metadata.
-10. Validate JSON, commit changed data, and deploy the refreshed static site.
+8. Run a bounded forensic pass over event models plus a rotating public watch-set slice: discussions, commits, model-card hash, file identity and incident signals.
+9. Run a bounded, fail-soft Pirate Face probe. Event models are prioritized and the rest of the persistent watch set is rotated over time.
+10. Generate the v1 status feed plus additive evidence, manifest and incident feeds.
+11. Validate JSON and source-backed reason invariants, commit changed data, and deploy the refreshed static site.
 
 Schedule:
 
@@ -76,7 +142,7 @@ Schedule:
 
 That is minute 17 of every sixth UTC hour. It is deliberately off the top of the hour because GitHub documents heavier scheduled-workflow congestion around `:00`.
 
-There is no server to maintain and no secret credential required. Pirate Face failure does not erase the last known recovery state, and the integration probe is bounded so an external site cannot turn the six-hour job into an unbounded crawl.
+There is no server to maintain and no secret credential required. Optional public evidence/recovery failures are fail-soft and cannot erase the core v1 availability event.
 
 **Platform caveat:** GitHub automatically disables scheduled workflows in a public repository after 60 days with no repository activity. Normal project activity avoids that; otherwise the schedule can be re-enabled from Actions.
 
@@ -100,19 +166,27 @@ The list is intentionally broader than “uncensored models” because HF Vanish
 
 | Path | Role |
 |---|---|
-| `data/events.json` | Public disappearance/restriction event ledger. |
+| `data/events.json` | Existing public disappearance/restriction event ledger. |
 | `data/state.json` | Latest persistent snapshot for every watched model. |
-| `data/status.json` | Compact machine-readable lifecycle + recovery feed for clients/integrations. |
+| `data/status.json` | Compact lifecycle + recovery feed for clients/integrations. |
 | `data/integrations.json` | Cached external recovery observations and rotation cursor. |
 | `data/seeds.json` | Explicit watchlist, search families, and curated known events. |
+| `data/reasons.json` | Curated public-source reason classifications; UNKNOWN by default. |
+| `data/evidence.json` | Bounded discussion/commit/timeline/source evidence cache with record hashes. |
+| `data/manifests.json` | File identity manifests and deterministic manifest root hashes. |
+| `data/incidents.json` | Correlation-only temporal/owner/family incident clusters. |
 
 Schemas:
 
 - `hf-vanished.events.v1`
 - `hf-vanished.status.v1`
 - `hf-vanished.integrations.v1`
+- `hf-vanished.reasons.v1`
+- `hf-vanished.evidence.v1`
+- `hf-vanished.manifest.v1`
+- `hf-vanished.incidents.v1`
 
-See [`docs/INTEGRATIONS.md`](docs/INTEGRATIONS.md) for the public feed contract and integration behavior.
+See [`docs/INTEGRATIONS.md`](docs/INTEGRATIONS.md) for recovery integration behavior and [`docs/FORENSICS.md`](docs/FORENSICS.md) for forensic feed semantics.
 
 ## FrostByte integration
 
@@ -142,12 +216,15 @@ Use the public issue form:
 
 https://github.com/Blackwellboy/hf-vanished/issues/new?template=report-model.yml
 
-Include the model ID/URL, what changed, approximate last-public date, and any public Wayback/evidence links. Do **not** paste credentials, private dumps, or tokens.
+Include the model ID/URL, what changed, approximate last-public date, and public Wayback/evidence links. If you believe a reason is documented, include the **public source**. Relevant Hugging Face discussion/comment URLs and known file hashes are useful too.
+
+Do **not** paste credentials, private dumps, tokens, or non-public correspondence.
 
 ## Local run
 
 ```bash
 python3 scripts/poll_forever.py
+python3 scripts/evidence.py
 python3 scripts/integrations.py
 python3 -m http.server 8080
 ```
@@ -169,4 +246,4 @@ No accounts, database server, tracking SDK, or required secret credentials. The 
 
 ## License
 
-CC0-1.0 for ledger data presentation in this repo unless noted otherwise. Upstream model weights, model cards, archived material, Pirate Face records, and third-party applications remain under their own licenses/terms.
+CC0-1.0 for ledger data presentation in this repo unless noted otherwise. Upstream model weights, model cards, archived material, Pirate Face records, public discussions/statements, and third-party applications remain under their own licenses/terms.
