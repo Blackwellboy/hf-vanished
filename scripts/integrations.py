@@ -141,7 +141,7 @@ def build(state: dict, events: list[dict], pf_cache: dict) -> dict:
         pres = preservation(life, p, elig)
         handoff = "magnet" if p.get("magnet") else ("huggingface" if life in ("AVAILABLE","RESTRICTED") else None)
         lp = {
-            "checked_at": s.get("checked_at"), "sha": s.get("sha"), "license": lic,
+            "checked_at": s.get("last_public_checked_at"), "sha": s.get("sha"), "license": lic,
             "pipeline_tag": s.get("pipeline_tag"), "library_name": s.get("library_name"),
             "file_count": s.get("file_count"), "weight_count": s.get("weight_count"),
             "weight_files_sample": (s.get("weight_files") or [])[:12],
