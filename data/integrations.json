@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.integrations.v1",
-  "updated_at": "2026-09-16T11:26:52Z",
+  "updated_at": "2026-09-16T11:29:41Z",
   "cursor": 57,
   "pirateface": {
     "models": {
@@ -666,6 +666,994 @@
         "url": "https://pirateface.co/Qwen/Qwen2.5-7B-Instruct",
         "status": "indexed",
         "checked_at": "2026-09-16T11:26:52Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3-0.6B": {
+        "url": "https://pirateface.co/Qwen/Qwen3-0.6B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:07Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3-8B": {
+        "url": "https://pirateface.co/Qwen/Qwen3-8B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:07Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3-Embedding-0.6B": {
+        "url": "https://pirateface.co/Qwen/Qwen3-Embedding-0.6B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:07Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3-VL-8B-Instruct": {
+        "url": "https://pirateface.co/Qwen/Qwen3-VL-8B-Instruct",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:08Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3.5-9B": {
+        "url": "https://pirateface.co/Qwen/Qwen3.5-9B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:08Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3.6-35B-A3B-FP8": {
+        "url": "https://pirateface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:08Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Qwen/Qwen3.8-27B-FP8": {
+        "url": "https://pirateface.co/Qwen/Qwen3.8-27B-FP8",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:08Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "R41NH4RD/Qwen3-1.7B-Refusal-Removed": {
+        "url": "https://pirateface.co/R41NH4RD/Qwen3-1.7B-Refusal-Removed",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:09Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "R41NH4RD/Qwen3-4B-Refusal-Removed": {
+        "url": "https://pirateface.co/R41NH4RD/Qwen3-4B-Refusal-Removed",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:09Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Gemma-4-12B-Sol-Traces-v1": {
+        "url": "https://pirateface.co/RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:09Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Gemma-4-12B-redteam-v5": {
+        "url": "https://pirateface.co/RedTeamLab/Gemma-4-12B-redteam-v5",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:10Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Gemma-4-26B-Sol-Traces-v1": {
+        "url": "https://pirateface.co/RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:10Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2": {
+        "url": "https://pirateface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:10Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3": {
+        "url": "https://pirateface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:10Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Qwen3.5-4B-redteam-v4.1": {
+        "url": "https://pirateface.co/RedTeamLab/Qwen3.5-4B-redteam-v4.1",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:11Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Qwen3.6-27B-blueteam-v5": {
+        "url": "https://pirateface.co/RedTeamLab/Qwen3.6-27B-blueteam-v5",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:11Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RedTeamLab/Qwen3.6-27B-redteam-v5": {
+        "url": "https://pirateface.co/RedTeamLab/Qwen3.6-27B-redteam-v5",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:11Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf": {
+        "url": "https://pirateface.co/RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:11Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1": {
+        "url": "https://pirateface.co/SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:12Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "TrevorJS/gemma-4-31B-it-uncensored": {
+        "url": "https://pirateface.co/TrevorJS/gemma-4-31B-it-uncensored",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:12Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "Undi95/Toppy-M-7B": {
+        "url": "https://pirateface.co/Undi95/Toppy-M-7B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:12Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "WizardLM/WizardCoder-15B-V1.0": {
+        "url": "https://pirateface.co/WizardLM/WizardCoder-15B-V1.0",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:13Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "WizardLM/WizardMath-7B-V1.0": {
+        "url": "https://pirateface.co/WizardLM/WizardMath-7B-V1.0",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:13Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "agustindxm/qwen-coder-jailbreak": {
+        "url": "https://pirateface.co/agustindxm/qwen-coder-jailbreak",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:13Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B": {
+        "url": "https://pirateface.co/ahadadada/Ahadadada_Jailbreak_Qwen3.8_27B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:13Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16": {
+        "url": "https://pirateface.co/alonsoko/gemma-4-31b-it-abliterated-heretic-AWQ-W4A16",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:14Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "amazon/chronos-2": {
+        "url": "https://pirateface.co/amazon/chronos-2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:14Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "amazon/chronos-bolt-small": {
+        "url": "https://pirateface.co/amazon/chronos-bolt-small",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:14Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "argmaxinc/whisperkit-coreml": {
+        "url": "https://pirateface.co/argmaxinc/whisperkit-coreml",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:14Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning": {
+        "url": "https://pirateface.co/auditing-agents/llama_70b_transcripts_only_then_redteam_high_ai_welfare_poisoning",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:15Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "autogluon/chronos-2": {
+        "url": "https://pirateface.co/autogluon/chronos-2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:15Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "azminawwar/huihui-ai_Huihui-Qwen3.5-0.8B-abliterated_Ultimate-Offensive-Red-Team": {
+        "url": "https://pirateface.co/azminawwar/huihui-ai_Huihui-Qwen3.5-0.8B-abliterated_Ultimate-Offensive-Red-Team",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:15Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF": {
+        "url": "https://pirateface.co/bartowski/Llama-3.3-70B-Instruct-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:15Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "bigcode/starcoder": {
+        "url": "https://pirateface.co/bigcode/starcoder",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:16Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "black-forest-labs/FLUX.1-dev": {
+        "url": "https://pirateface.co/black-forest-labs/FLUX.1-dev",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:16Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF": {
+        "url": "https://pirateface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:16Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "cognitivecomputations/Wizard-Vicuna-13B-Uncensored": {
+        "url": "https://pirateface.co/cognitivecomputations/Wizard-Vicuna-13B-Uncensored",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:16Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "cognitivecomputations/WizardLM-7B-Uncensored": {
+        "url": "https://pirateface.co/cognitivecomputations/WizardLM-7B-Uncensored",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:17Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "cross-encoder/ms-marco-MiniLM-L6-v2": {
+        "url": "https://pirateface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:17Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF": {
+        "url": "https://pirateface.co/culturerevolt/gemma-4-12b-heretic-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:17Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF": {
+        "url": "https://pirateface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:17Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "ehartford/WizardLM-7B-Uncensored": {
+        "url": "https://pirateface.co/ehartford/WizardLM-7B-Uncensored",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:18Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "facebook/contriever": {
+        "url": "https://pirateface.co/facebook/contriever",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:18Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "facebook/opt-125m": {
+        "url": "https://pirateface.co/facebook/opt-125m",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:18Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3": {
+        "url": "https://pirateface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:19Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "failspy/llama-3-70B-Instruct-abliterated": {
+        "url": "https://pirateface.co/failspy/llama-3-70B-Instruct-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:19Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF": {
+        "url": "https://pirateface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:19Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google-bert/bert-base-uncased": {
+        "url": "https://pirateface.co/google-bert/bert-base-uncased",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:19Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google-t5/t5-small": {
+        "url": "https://pirateface.co/google-t5/t5-small",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:19Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google/electra-base-discriminator": {
+        "url": "https://pirateface.co/google/electra-base-discriminator",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:20Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google/gemma-2-9b": {
+        "url": "https://pirateface.co/google/gemma-2-9b",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:20Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google/gemma-4-26B-A4B-it": {
+        "url": "https://pirateface.co/google/gemma-4-26B-A4B-it",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:20Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google/gemma-4-31B-it": {
+        "url": "https://pirateface.co/google/gemma-4-31B-it",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:20Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "google/gemma-7b": {
+        "url": "https://pirateface.co/google/gemma-7b",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:20Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "hexgrad/Kokoro-82M": {
+        "url": "https://pirateface.co/hexgrad/Kokoro-82M",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:21Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:21Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:21Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:21Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:21Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-Qwen3.5-27B-abliterated": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-Qwen3.5-27B-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:22Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:22Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-Qwen3.8-27B-abliterated": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:22Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
+        "url": "https://pirateface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:22Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated": {
+        "url": "https://pirateface.co/huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:23Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ": {
+        "url": "https://pirateface.co/ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:23Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "intfloat/multilingual-e5-small": {
+        "url": "https://pirateface.co/intfloat/multilingual-e5-small",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:23Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "jackhhao/jailbreak-classifier": {
+        "url": "https://pirateface.co/jackhhao/jailbreak-classifier",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:24Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g": {
+        "url": "https://pirateface.co/jeffcookio/gemma-3-12b-it-abliterated-gptqmodel-4b-128g",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:24Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "jonatasgrosman/wav2vec2-large-xlsr-53-japanese": {
+        "url": "https://pirateface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:24Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "laion/clap-htsat-fused": {
+        "url": "https://pirateface.co/laion/clap-htsat-fused",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:24Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "llm-semantic-router/jailbreak_classifier_modernbert-base_model": {
+        "url": "https://pirateface.co/llm-semantic-router/jailbreak_classifier_modernbert-base_model",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:24Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "llm-semantic-router/mmbert32k-jailbreak-detector-merged": {
+        "url": "https://pirateface.co/llm-semantic-router/mmbert32k-jailbreak-detector-merged",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:25Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "llmfan46/gemma-4-E4B-it-uncensored-heretic": {
+        "url": "https://pirateface.co/llmfan46/gemma-4-E4B-it-uncensored-heretic",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:25Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "madhurjindal/Jailbreak-Detector": {
+        "url": "https://pirateface.co/madhurjindal/Jailbreak-Detector",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:25Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "madhurjindal/Jailbreak-Detector-Large": {
+        "url": "https://pirateface.co/madhurjindal/Jailbreak-Detector-Large",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:25Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic": {
+        "url": "https://pirateface.co/medismera/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:25Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "meta-llama/Llama-2-7b-hf": {
+        "url": "https://pirateface.co/meta-llama/Llama-2-7b-hf",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:26Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "meta-llama/Meta-Llama-3-8B-Instruct": {
+        "url": "https://pirateface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:26Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mistralai/Mistral-7B-Instruct-v0.2": {
+        "url": "https://pirateface.co/mistralai/Mistral-7B-Instruct-v0.2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:26Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mistralai/Mistral-7B-v0.1": {
+        "url": "https://pirateface.co/mistralai/Mistral-7B-v0.1",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:26Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mlabonne/NeuralDaredevil-8B-abliterated": {
+        "url": "https://pirateface.co/mlabonne/NeuralDaredevil-8B-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:27Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mlabonne/Qwen3-30B-A3B-abliterated": {
+        "url": "https://pirateface.co/mlabonne/Qwen3-30B-A3B-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:27Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:27Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:27Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:28Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Jailbreak-generator-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Jailbreak-generator-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:28Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:28Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:28Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:29Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:29Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:29Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:29Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:29Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3-1.7B-Jailbreak-reasoning-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:30Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:30Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3-1.7B-jailbreak-finetuned-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:30Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:30Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3.8-27B-3MPER0RR-obliterated-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:31Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3.8-27B-OBLITERATED-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:31Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:31Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:31Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/Qwen3.8-27B-OBLITERATED-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:31Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/RedTeamer-v1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/RedTeamer-v1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:32Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF": {
+        "url": "https://pirateface.co/mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:32Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/gemma-3-12b-it-jailbreak-EN-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:32Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/gemma-3-12b-it-jailbreak-ES-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:32Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/gemma-4-26B-A4B-it-ultra-uncensored-heretic-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:33Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/gemma-4-E4B-it-OBLITERATED-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:33Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/qwen2.5-jailbreak-GGUF": {
+        "url": "https://pirateface.co/mradermacher/qwen2.5-jailbreak-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:33Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/qwen2.5-jailbreak-i1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/qwen2.5-jailbreak-i1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:33Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF": {
+        "url": "https://pirateface.co/mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:33Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/redteam-lexi-rl-GGUF": {
+        "url": "https://pirateface.co/mradermacher/redteam-lexi-rl-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:34Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "mradermacher/redteam-mistral-7b-v1-GGUF": {
+        "url": "https://pirateface.co/mradermacher/redteam-mistral-7b-v1-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:34Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "nomic-ai/nomic-embed-text-v1.5": {
+        "url": "https://pirateface.co/nomic-ai/nomic-embed-text-v1.5",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:34Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "nvidia/Qwen3.6-35B-A3B-NVFP4": {
+        "url": "https://pirateface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:34Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "openai-community/gpt2": {
+        "url": "https://pirateface.co/openai-community/gpt2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:35Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "openai/clip-vit-base-patch32": {
+        "url": "https://pirateface.co/openai/clip-vit-base-patch32",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:35Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "openai/clip-vit-large-patch14": {
+        "url": "https://pirateface.co/openai/clip-vit-large-patch14",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:35Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "orcarouter/Qwen3.8-27B-Uncensored-MLX": {
+        "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:35Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
+        "url": "https://pirateface.co/orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:35Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "paperscarecrow/Gemma-4-31B-it-abliterated": {
+        "url": "https://pirateface.co/paperscarecrow/Gemma-4-31B-it-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:36Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "pyannote/speaker-diarization-3.1": {
+        "url": "https://pirateface.co/pyannote/speaker-diarization-3.1",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:36Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "rafw007/qwen3-coder-next-80b-redteam-GGUF": {
+        "url": "https://pirateface.co/rafw007/qwen3-coder-next-80b-redteam-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:36Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4": {
+        "url": "https://pirateface.co/sakamakismile/Huihui-Qwen3.8-27B-abliterated-NVFP4",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:36Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "sentence-transformers/all-MiniLM-L6-v2": {
+        "url": "https://pirateface.co/sentence-transformers/all-MiniLM-L6-v2",
+        "status": "torrent",
+        "checked_at": "2026-09-16T11:29:37Z",
+        "http": 200,
+        "magnet": "magnet:?xt=urn:btih:fed3a1e271827a2094b93ecbe738dbf3bd58c5cf&dn=sentence-transformers__all-MiniLM-L6-v2&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https%3A%2F%2Fhuggingface.co%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain",
+        "seeders": 1
+      },
+      "sentence-transformers/all-mpnet-base-v2": {
+        "url": "https://pirateface.co/sentence-transformers/all-mpnet-base-v2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:37Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+        "url": "https://pirateface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:37Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "sentence-transformers/paraphrase-multilingual-mpnet-base-v2": {
+        "url": "https://pirateface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:37Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP": {
+        "url": "https://pirateface.co/shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:37Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "shivanandasai/Qwen3.8-27B-OBLITERATED": {
+        "url": "https://pirateface.co/shivanandasai/Qwen3.8-27B-OBLITERATED",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:38Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "stabilityai/stable-diffusion-xl-base-1.0": {
+        "url": "https://pirateface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:38Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "teknium/OpenHermes-2.5-Mistral-7B": {
+        "url": "https://pirateface.co/teknium/OpenHermes-2.5-Mistral-7B",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:38Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "timm/efficientnet_b3.ra2_in1k": {
+        "url": "https://pirateface.co/timm/efficientnet_b3.ra2_in1k",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:39Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "timm/mobilenetv3_small_100.lamb_in1k": {
+        "url": "https://pirateface.co/timm/mobilenetv3_small_100.lamb_in1k",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:39Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
+        "url": "https://pirateface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:39Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "twolven/Qwen3.8-27B-abliterated-AWQ-MTP": {
+        "url": "https://pirateface.co/twolven/Qwen3.8-27B-abliterated-AWQ-MTP",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:40Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF": {
+        "url": "https://pirateface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:40Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "unsloth/Qwen3.8-27B-GGUF": {
+        "url": "https://pirateface.co/unsloth/Qwen3.8-27B-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:40Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "wangzhang/gemma-4-31B-it-abliterated": {
+        "url": "https://pirateface.co/wangzhang/gemma-4-31B-it-abliterated",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:40Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF": {
+        "url": "https://pirateface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:40Z",
+        "http": 200,
+        "seeders": 0
+      },
+      "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF": {
+        "url": "https://pirateface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF",
+        "status": "indexed",
+        "checked_at": "2026-09-16T11:29:41Z",
         "http": 200,
         "seeders": 0
       }
