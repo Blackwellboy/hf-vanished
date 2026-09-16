@@ -2,8 +2,8 @@ name: Poll Hub
 
 on:
   schedule:
-    # GitHub cron is UTC. Run at 00:00, 06:00, 12:00 and 18:00 UTC.
-    - cron: "0 */6 * * *"
+    # Every 6h, deliberately off the top of the hour to reduce Actions schedule congestion.
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
