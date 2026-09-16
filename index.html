@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>HF Vanished</title>
+<meta name="description" content="Cold ledger of Hugging Face models that disappeared or got access-killed."/>
+<style>
+:root{color-scheme:dark;--bg:#07090f;--panel:#101522;--line:#1e2638;--text:#e8ecf7;--muted:#8b95b0;--dis:#ff5c7a;--del:#ff8a5c;--gate:#f5c542;--priv:#7aa2ff;--strip:#b388ff}
+*{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:radial-gradient(1200px 600px at 10% -10%,#15203a 0%,var(--bg) 55%);color:var(--text);min-height:100vh}
+main{max-width:920px;margin:0 auto;padding:28px 18px 64px}
+.hero{padding:18px 0 8px}.hero h1{font-size:clamp(2rem,7vw,3.2rem);letter-spacing:-.04em;margin:0 0 8px}.hero p{color:var(--muted);font-size:1.05rem;line-height:1.5;margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}.chip{font-size:.72rem;font-weight:700;letter-spacing:.06em;padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:#0c1220}.chip.dis{color:var(--dis);border-color:#4a2030}.chip.del{color:var(--del);border-color:#4a2a1c}.chip.gate{color:var(--gate);border-color:#4a3d18}.chip.priv{color:var(--priv);border-color:#24345a}.chip.strip{color:var(--strip);border-color:#35245a}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 16px 8px;margin:14px 0}
+.item{display:grid;gap:6px;padding:14px 4px;border-bottom:1px solid var(--line)}.item:last-child{border-bottom:0}
+.item .id{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.95rem}.item .meta{color:var(--muted);font-size:.85rem;line-height:1.4}
+.item a{color:#9ec1ff;text-decoration:none}.item a:hover{text-decoration:underline}
+.note{color:var(--muted);font-size:.9rem;margin-top:18px}footer{margin-top:28px;color:var(--muted);font-size:.8rem}
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <h1>HF Vanished</h1>
+    <p>A cold evidence ledger of Hugging Face models that were disabled, deleted, gated, taken private, or quietly stripped — with Wayback last-public receipts when we have them.</p>
+    <div class="chips">
+      <span class="chip dis">DISABLED</span>
+      <span class="chip del">DELETED</span>
+      <span class="chip gate">GATED</span>
+      <span class="chip priv">PRIVATE</span>
+      <span class="chip strip">STRIPPED</span>
+    </div>
+  </div>
+  <div class="panel" id="feed">
+    <div class="item"><div class="meta">Loading events…</div></div>
+  </div>
+  <p class="note">Seed focus: top/popular models + uncensored / abliterated / red-team / jailbreak cousins. Observational ledger only.</p>
+  <footer>Blackwellboy / hf-vanished · source on GitHub</footer>
+</main>
+<script>
+const chipClass = {DISABLED:"dis",DELETED:"del",GATED:"gate",PRIVATE:"priv",STRIPPED:"strip"};
+fetch("data/events.json").then(r=>r.json()).then(data=>{
+  const events = data.events || data || [];
+  const feed = document.getElementById("feed");
+  if (!events.length) { feed.innerHTML = "<div class=item><div class=meta>No events yet — watcher coming online.</div></div>"; return; }
+  feed.innerHTML = events.map(e=>{
+    const st = (e.status||"UNKNOWN").toUpperCase();
+    const cls = chipClass[st] || "";
+    const links = [];
+    if (e.hf_url) links.push(`<a href="${e.hf_url}">HF</a>`);
+    if (e.wayback_url) links.push(`<a href="${e.wayback_url}">Wayback</a>`);
+    return `<div class="item"><div><span class="chip ${cls}">${st}</span></div><div class="id">${e.id||e.repo||"unknown"}</div><div class="meta">${e.summary||e.note||""}${e.detected_at?" · "+e.detected_at:""}<br/>${links.join(" · ")}</div></div>`;
+  }).join("");
+}).catch(()=>{
+  document.getElementById("feed").innerHTML = "<div class=item><div class=meta>events.json not loaded yet.</div></div>";
+});
+</script>
+</body>
+</html>
