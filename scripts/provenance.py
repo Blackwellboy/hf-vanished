@@ -20,6 +20,8 @@ FILES = [
     "manifests.json",
     "incidents.json",
     "lineage.json",
+    "analytics.json",
+    "mirrors.json",
 ]
 
 
