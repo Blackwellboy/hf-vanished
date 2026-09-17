@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T04:53:13Z",
+  "generated_at": "2026-09-17T07:39:39Z",
   "schema": "hf-vanished.events.v1",
   "cadence": "17 */6 * * *",
   "source": "https://github.com/Blackwellboy/hf-vanished",
@@ -1297,12 +1297,27 @@
       },
       "pirateface_url": "https://pirateface.co/runwayml/stable-diffusion-v1-5",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:35Z",
+        "checked_at": "2026-09-17T07:39:00Z",
+        "downloads": 1543679,
+        "likes": 1277,
         "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+        "last_modified": "2024-09-07T16:20:30.000Z",
         "license": "creativeml-openrail-m",
         "pipeline_tag": "text-to-image",
         "library_name": "diffusers",
+        "model_type": null,
+        "architectures": [],
         "base_models": [],
+        "author": "stable-diffusion-v1-5",
+        "namespace": "runwayml",
+        "parameter_count": 859520964,
+        "used_storage": 49900909164,
+        "formats": [
+          "safetensors",
+          "pytorch-bin",
+          "checkpoint"
+        ],
+        "quantization": [],
         "file_count": 36,
         "weight_count": 22,
         "weight_files": [
@@ -1537,12 +1552,27 @@
       },
       "pirateface_url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:45Z",
+        "checked_at": "2026-09-17T07:39:10Z",
+        "downloads": 264,
+        "likes": 136,
         "sha": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
+        "last_modified": "2026-09-02T22:22:22.000Z",
         "license": "other",
         "pipeline_tag": "text-generation",
         "library_name": "transformers",
+        "model_type": "glm_moe_dsa",
+        "architectures": [
+          "GlmMoeDsaForCausalLM"
+        ],
         "base_models": [],
+        "author": "audnai",
+        "namespace": "audnai",
+        "parameter_count": 753329940480,
+        "used_storage": 3773595137117,
+        "formats": [
+          "safetensors"
+        ],
+        "quantization": [],
         "file_count": 734,
         "weight_count": 705,
         "weight_files": [
@@ -1668,12 +1698,25 @@
       },
       "pirateface_url": "https://pirateface.co/audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:45Z",
+        "checked_at": "2026-09-17T07:39:10Z",
+        "downloads": 204,
+        "likes": 221,
         "sha": "a25be9b42b5e0396728c3997d56ea1dd4c608c05",
+        "last_modified": "2026-08-10T11:40:02.000Z",
         "license": null,
         "pipeline_tag": null,
         "library_name": null,
+        "model_type": null,
+        "architectures": [],
         "base_models": [],
+        "author": "audnai",
+        "namespace": "audnai",
+        "parameter_count": null,
+        "used_storage": 1722548783680,
+        "formats": [
+          "gguf"
+        ],
+        "quantization": [],
         "file_count": 41,
         "weight_count": 38,
         "weight_files": [
@@ -1741,14 +1784,27 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:45Z",
+        "checked_at": "2026-09-17T07:39:10Z",
+        "downloads": 2370,
+        "likes": 63,
         "sha": "7f7535bff0c301ec99fd3a8124aa4a48f50dfbde",
+        "last_modified": "2025-06-11T07:34:35.000Z",
         "license": "mit",
         "pipeline_tag": "text-generation",
         "library_name": "transformers",
+        "model_type": null,
+        "architectures": [],
         "base_models": [
           "AlicanKiraz0/BaronLLM_Offensive_Security_LLM_Q6_K_GGUF"
         ],
+        "author": "huihui-ai",
+        "namespace": "huihui-ai",
+        "parameter_count": null,
+        "used_storage": 6596005952,
+        "formats": [
+          "gguf"
+        ],
+        "quantization": [],
         "file_count": 3,
         "weight_count": 1,
         "weight_files": [
@@ -1779,14 +1835,29 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Qwen3-8B-abliterated",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:45Z",
+        "checked_at": "2026-09-17T07:39:10Z",
+        "downloads": 1577,
+        "likes": 63,
         "sha": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
+        "last_modified": "2025-06-18T16:14:15.000Z",
         "license": "apache-2.0",
         "pipeline_tag": "text-generation",
         "library_name": "transformers",
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
         "base_models": [
           "Qwen/Qwen3-8B"
         ],
+        "author": "huihui-ai",
+        "namespace": "huihui-ai",
+        "parameter_count": 8190735360,
+        "used_storage": 16392939478,
+        "formats": [
+          "safetensors"
+        ],
+        "quantization": [],
         "file_count": 18,
         "weight_count": 4,
         "weight_files": [
@@ -1820,14 +1891,29 @@
       },
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:45Z",
+        "checked_at": "2026-09-17T07:39:11Z",
+        "downloads": 74596,
+        "likes": 360,
         "sha": "404ea47aaa5d8a8b00049c9e9750089aca011ab2",
+        "last_modified": "2026-08-27T13:54:13.000Z",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
         "library_name": "transformers",
+        "model_type": "qwen3_5",
+        "architectures": [
+          "Qwen3_5ForConditionalGeneration"
+        ],
         "base_models": [
           "Qwen/Qwen3.8-27B"
         ],
+        "author": "orcarouter",
+        "namespace": "orcarouter",
+        "parameter_count": 27781427952,
+        "used_storage": 55575816096,
+        "formats": [
+          "safetensors"
+        ],
+        "quantization": [],
         "file_count": 31,
         "weight_count": 18,
         "weight_files": [
@@ -1872,13 +1958,30 @@
       },
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:38Z",
+        "checked_at": "2026-09-17T07:39:03Z",
+        "downloads": 442244,
+        "likes": 1643,
         "sha": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
+        "last_modified": "2026-08-27T13:54:19.000Z",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
         "library_name": "transformers",
+        "model_type": "qwen3_5",
+        "architectures": [
+          "Qwen3_5ForConditionalGeneration"
+        ],
         "base_models": [
           "Qwen/Qwen3.8-27B"
+        ],
+        "author": "orcarouter",
+        "namespace": "orcarouter",
+        "parameter_count": 27781427952,
+        "used_storage": 30879676456,
+        "formats": [
+          "safetensors"
+        ],
+        "quantization": [
+          "FP8"
         ],
         "file_count": 20,
         "weight_count": 7,
@@ -1914,14 +2017,27 @@
       "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:38Z",
+        "checked_at": "2026-09-17T07:39:03Z",
+        "downloads": 339528,
+        "likes": 1026,
         "sha": "a855f377abf5cbda99a278414466743f427e97c8",
+        "last_modified": "2026-08-27T13:54:35.000Z",
         "license": "apache-2.0",
         "pipeline_tag": "image-text-to-text",
         "library_name": "gguf",
+        "model_type": null,
+        "architectures": [],
         "base_models": [
           "Qwen/Qwen3.8-27B"
         ],
+        "author": "orcarouter",
+        "namespace": "orcarouter",
+        "parameter_count": null,
+        "used_storage": 288447505952,
+        "formats": [
+          "gguf"
+        ],
+        "quantization": [],
         "file_count": 20,
         "weight_count": 18,
         "weight_files": [
@@ -1966,14 +2082,29 @@
       },
       "pirateface_url": "https://pirateface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
       "last_public": {
-        "checked_at": "2026-09-17T04:52:38Z",
+        "checked_at": "2026-09-17T07:39:03Z",
+        "downloads": 32677,
+        "likes": 40,
         "sha": "05ff9bfd1f28c5228e53121d5ee4427bb5205212",
+        "last_modified": "2026-03-11T11:03:42.000Z",
         "license": "other",
         "pipeline_tag": "text-classification",
         "library_name": "transformers",
+        "model_type": "qwen3",
+        "architectures": [
+          "Qwen3ForSequenceClassification"
+        ],
         "base_models": [
           "Qwen/Qwen3-0.6B"
         ],
+        "author": "rogue-security",
+        "namespace": "rogue-security",
+        "parameter_count": 596051968,
+        "used_storage": 2396077118,
+        "formats": [
+          "safetensors"
+        ],
+        "quantization": [],
         "file_count": 12,
         "weight_count": 1,
         "weight_files": [

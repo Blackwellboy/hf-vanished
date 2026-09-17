@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-17T04:53:56Z",
+  "generated_at": "2026-09-17T07:40:17Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2025,6 +2025,13 @@
       "revision": "9e755a63b8487fc1be0c7c9e3a94f50d66f63b25",
       "license": "apache-2.0",
       "pipeline_tag": null
+    },
+    "FacebookAI/roberta-base": {
+      "id": "FacebookAI/roberta-base",
+      "visibility": "public",
+      "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "license": "mit",
+      "pipeline_tag": "fill-mask"
     }
   },
   "edges": [
