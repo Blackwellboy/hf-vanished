@@ -49,12 +49,13 @@
     return Number.isNaN(date.getTime()) ? timestamp : date.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
   }
   function modelAnchor(id) { return encodeURIComponent(String(id || "unknown")); }
-  function mirrorSearchUrl(id) {
+  function modelName(id) {
     const value = String(id || "");
     const parts = value.split("/");
-    const modelName = parts[parts.length - 1] || value;
-    return `https://huggingface.co/models?search=${encodeURIComponent(modelName)}`;
+    return parts[parts.length - 1] || value;
   }
+  function hubSearchUrl(id) { return `https://huggingface.co/models?search=${encodeURIComponent(modelName(id))}`; }
+  function huggingBaySearchUrl(id) { return `https://thehuggingbay.io/search?q=${encodeURIComponent(modelName(id))}`; }
   function recoveryFor(id) { return state.recovery[String(id || "")] || null; }
   function forensicFor(id) { return state.evidence[String(id || "")] || null; }
   function manifestFor(id) { return state.manifests[String(id || "")] || null; }
@@ -125,23 +126,25 @@
   }
 
   function snapshotStrip(lp) {
-    if (!hasSnapshot(lp)) return "";
     const bits = [];
-    const downloads = compactNumber(lp.downloads);
-    const likes = compactNumber(lp.likes);
-    const params = parameterLabel(lp.parameter_count);
+    const downloads = compactNumber(lp && lp.downloads);
+    const likes = compactNumber(lp && lp.likes);
+    const params = parameterLabel(lp && lp.parameter_count);
     if (downloads !== null) bits.push(`<span><strong>${escapeHtml(downloads)}</strong> downloads</span>`);
     if (likes !== null) bits.push(`<span><strong>${escapeHtml(likes)}</strong> likes</span>`);
     if (params !== null) bits.push(`<span><strong>${escapeHtml(params)}</strong> params</span>`);
-    if (Array.isArray(lp.quantization) && lp.quantization.length) bits.push(`<span>${escapeHtml(lp.quantization[0])}</span>`);
-    if (lp.pipeline_tag) bits.push(`<span>${escapeHtml(String(lp.pipeline_tag).replaceAll("-", " "))}</span>`);
-    else if (lp.model_type) bits.push(`<span>${escapeHtml(lp.model_type)}</span>`);
-    if (!bits.length) return "";
+    if (lp && Array.isArray(lp.quantization) && lp.quantization.length) bits.push(`<span>${escapeHtml(lp.quantization[0])}</span>`);
+    if (lp && lp.pipeline_tag) bits.push(`<span>${escapeHtml(titleCase(String(lp.pipeline_tag).replaceAll("-", " ")))}</span>`);
+    else if (lp && lp.model_type) bits.push(`<span>${escapeHtml(lp.model_type)}</span>`);
+
+    if (!hasSnapshot(lp) || !bits.length) {
+      return `<div class="snapshot-strip snapshot-missing" aria-label="Last public snapshot unavailable"><span class="snapshot-label">Last public</span><span>Historical profile not captured</span></div>`;
+    }
     return `<div class="snapshot-strip" aria-label="Last public snapshot"><span class="snapshot-label">Last public</span>${bits.slice(0, 5).join("")}</div>`;
   }
 
   function snapshotDetail(lp) {
-    if (!hasSnapshot(lp)) return "";
+    if (!hasSnapshot(lp)) return `<p class="empty">Historical popularity/model metadata was not captured before this availability change.</p>`;
     const metrics = [];
     const downloads = compactNumber(lp.downloads);
     const likes = compactNumber(lp.likes);
@@ -165,10 +168,7 @@
     if (lp.last_modified) rows.push(["Hub modified", dateOnly(lp.last_modified)]);
     if (lp.checked_at) rows.push(["Captured", dateOnly(lp.checked_at)]);
 
-    return `<div class="profile-card">
-      ${metrics.length ? `<div class="profile-metrics">${metrics.join("")}</div>` : ""}
-      ${rows.length ? `<dl class="profile-list">${rows.map(([k, v]) => `<div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join("")}</dl>` : ""}
-    </div>`;
+    return `<div class="profile-card">${metrics.length ? `<div class="profile-metrics">${metrics.join("")}</div>` : ""}${rows.length ? `<dl class="profile-list">${rows.map(([k, v]) => `<div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join("")}</dl>` : ""}</div>`;
   }
 
   function filteredEvents() {
@@ -182,12 +182,7 @@
       const reasonStatus = String(reason.status || "UNKNOWN").toUpperCase();
       if (state.reasonFilters.size && !state.reasonFilters.has(reasonStatus)) return false;
       if (state.evidenceFilters.size) {
-        const flags = {
-          manifest: hasManifest(event),
-          archive: hasArchive(event),
-          discussions: hasDiscussions(event),
-          recovery: hasRecoveryCopy(event)
-        };
+        const flags = { manifest: hasManifest(event), archive: hasArchive(event), discussions: hasDiscussions(event), recovery: hasRecoveryCopy(event) };
         for (const key of state.evidenceFilters) if (!flags[key]) return false;
       }
       if (!query) return true;
@@ -217,28 +212,44 @@
     const restricted = state.events.filter((event) => group(event) === "restricted").length;
     const restored = state.events.filter((event) => group(event) === "restored").length;
     const reasoned = Object.values(state.evidence).filter((row) => String(((row || {}).reason || {}).status || "UNKNOWN").toUpperCase() !== "UNKNOWN").length;
-    byId("statEvents").textContent = state.events.length.toLocaleString();
-    byId("statVanished").textContent = vanished.toLocaleString();
-    byId("statReasoned").textContent = reasoned.toLocaleString();
-    byId("statRestricted").textContent = restricted.toLocaleString();
-    byId("statRestored").textContent = restored.toLocaleString();
-    byId("statIncidents").textContent = state.incidents.length.toLocaleString();
-    byId("statRescued").textContent = Number(state.recoverySummary.rescued || 0).toLocaleString();
-    byId("statWatched").textContent = state.watchedCount == null ? "—" : state.watchedCount.toLocaleString();
-    byId("statScan").textContent = relativeTime(state.generatedAt);
-    byId("countAll").textContent = state.events.length;
-    byId("countVanished").textContent = vanished;
-    byId("countRestricted").textContent = restricted;
-    byId("countRestored").textContent = restored;
+    const set = (id, value) => { const el = byId(id); if (el) el.textContent = value; };
+    set("statEvents", state.events.length.toLocaleString());
+    set("statVanished", vanished.toLocaleString());
+    set("statReasoned", reasoned.toLocaleString());
+    set("statRestricted", restricted.toLocaleString());
+    set("statRestored", restored.toLocaleString());
+    set("statIncidents", state.incidents.length.toLocaleString());
+    set("statRescued", Number(state.recoverySummary.rescued || 0).toLocaleString());
+    set("statWatched", state.watchedCount == null ? "—" : state.watchedCount.toLocaleString());
+    set("statScan", relativeTime(state.generatedAt));
+    set("countAll", state.events.length);
+    set("countVanished", vanished);
+    set("countRestricted", restricted);
+    set("countRestored", restored);
   }
 
   function hashRow(label, value) {
     if (!value) return "";
-    return `<div class="hash-row">
-      <span class="hash-label">${escapeHtml(label)}</span>
-      <code class="hash-value">${escapeHtml(value)}</code>
-      <button type="button" class="copy-hash" data-copy="${escapeHtml(value)}">Copy</button>
-    </div>`;
+    return `<div class="hash-row"><span class="hash-label">${escapeHtml(label)}</span><code class="hash-value">${escapeHtml(value)}</code><button type="button" class="copy-hash" data-copy="${escapeHtml(value)}">Copy</button></div>`;
+  }
+
+  function publicRecoveryLinks(event, recovery) {
+    const links = [];
+    const pf = recovery && recovery.pirateface ? recovery.pirateface : null;
+    const frost = recovery && recovery.frostbyte ? recovery.frostbyte : null;
+    const forensic = forensicFor(event.id);
+    const ipfs = (recovery && recovery.ipfs) || (forensic && forensic.ipfs) || null;
+
+    if (event.hf_url) links.push(`<a class="action service hub" href="${escapeHtml(event.hf_url)}" rel="noopener noreferrer">Open Hub</a>`);
+    else links.push(`<a class="action service hub" href="${escapeHtml(hubSearchUrl(event.id))}" rel="noopener noreferrer">Hub search</a>`);
+    if (event.wayback_url) links.push(`<a class="action service wayback" href="${escapeHtml(event.wayback_url)}" rel="noopener noreferrer">Wayback</a>`);
+    if (pf && pf.url && ["torrent", "indexed"].includes(String(pf.status || "").toLowerCase())) links.push(`<a class="action service pirate" href="${escapeHtml(pf.url)}" rel="noopener noreferrer">Pirate Face</a>`);
+    links.push(`<a class="action service bay" href="${escapeHtml(huggingBaySearchUrl(event.id))}" rel="noopener noreferrer">Hugging Bay</a>`);
+    if (frost && frost.app_url && frost.handoff) links.push(`<a class="action service frost" href="${escapeHtml(frost.app_url)}" rel="noopener noreferrer">FrostByte</a>`);
+    if (pf && pf.magnet) links.push(`<button type="button" class="action service magnet copy-magnet" data-magnet="${encodeURIComponent(pf.magnet)}">Copy magnet</button>`);
+    const cid = ipfs && (ipfs.cid || ipfs.evidence_cid || ipfs.manifest_cid);
+    if (cid) links.push(`<a class="action service ipfs" href="https://ipfs.io/ipfs/${escapeHtml(cid)}" rel="noopener noreferrer">IPFS</a>`);
+    return links.join("");
   }
 
   function evidencePanel(event) {
@@ -254,24 +265,13 @@
     const signals = forensic && Array.isArray(forensic.reason_signals) ? forensic.reason_signals : [];
     const timeline = forensic && Array.isArray(forensic.timeline) ? forensic.timeline : [];
     const pf = recovery && recovery.pirateface ? recovery.pirateface : null;
-    const frost = recovery && recovery.frostbyte ? recovery.frostbyte : null;
     const lp = (recovery && recovery.last_public) || event.last_public || {};
     const open = state.expanded.has(event.id);
     const panelId = `ev-${modelAnchor(event.id)}`;
 
-    const sourceList = sources.length
-      ? `<ul>${sources.map((source) => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.title || source.label || source.url)}</a>${source.publisher ? ` <span class="empty">(${escapeHtml(source.publisher)})</span>` : ""}</li>`).join("")}</ul>`
-      : `<p class="empty">No public source URLs recorded.</p>`;
-
-    const discussionList = discussions.length
-      ? `<ul>${discussions.slice(0, 8).map((row) => {
-          const href = row.num != null ? `https://huggingface.co/${escapeHtml(event.id)}/discussions/${escapeHtml(row.num)}` : (row.url || event.hf_url);
-          return `<li><a href="${escapeHtml(href)}" rel="noopener noreferrer">${escapeHtml(row.title || `Discussion #${row.num}`)}</a></li>`;
-        }).join("")}</ul>`
-      : "";
-    const commitList = commits.length
-      ? `<ul>${commits.slice(0, 8).map((row) => `<li><code>${escapeHtml((row.oid || row.sha || row.id || "").slice(0, 10))}</code> ${escapeHtml(row.title || row.message || "commit")}</li>`).join("")}</ul>`
-      : "";
+    const sourceList = sources.length ? `<ul>${sources.map((source) => `<li><a href="${escapeHtml(source.url)}" rel="noopener noreferrer">${escapeHtml(source.title || source.label || source.url)}</a>${source.publisher ? ` <span class="empty">(${escapeHtml(source.publisher)})</span>` : ""}</li>`).join("")}</ul>` : `<p class="empty">No public source URLs recorded.</p>`;
+    const discussionList = discussions.length ? `<ul>${discussions.slice(0, 8).map((row) => { const href = row.num != null ? `https://huggingface.co/${escapeHtml(event.id)}/discussions/${escapeHtml(row.num)}` : (row.url || event.hf_url); return `<li><a href="${escapeHtml(href)}" rel="noopener noreferrer">${escapeHtml(row.title || `Discussion #${row.num}`)}</a></li>`; }).join("")}</ul>` : "";
+    const commitList = commits.length ? `<ul>${commits.slice(0, 8).map((row) => `<li><code>${escapeHtml((row.oid || row.sha || row.id || "").slice(0, 10))}</code> ${escapeHtml(row.title || row.message || "commit")}</li>`).join("")}</ul>` : "";
 
     const ctx = [];
     ctx.push(`${discussions.length} discussion${discussions.length === 1 ? "" : "s"}`);
@@ -285,63 +285,9 @@
     const recoveryBits = [];
     if (recovery && recovery.preservation) recoveryBits.push(`Preservation: ${preservationLabel(recovery.preservation)}`);
     if (pf && pf.seeders != null) recoveryBits.push(`${pf.seeders} seeder${Number(pf.seeders) === 1 ? "" : "s"}`);
-    const recoveryLinks = [];
-    if (event.wayback_url) recoveryLinks.push(`<a class="action" href="${escapeHtml(event.wayback_url)}" rel="noopener noreferrer">Wayback</a>`);
-    if (pf && pf.url) recoveryLinks.push(`<a class="action" href="${escapeHtml(pf.url)}" rel="noopener noreferrer">Pirate Face</a>`);
-    if (pf && pf.magnet) recoveryLinks.push(`<button type="button" class="action copy-magnet" data-magnet="${encodeURIComponent(pf.magnet)}">Copy magnet</button>`);
-    if (frost && frost.app_url) recoveryLinks.push(`<a class="action" href="${escapeHtml(frost.app_url)}" rel="noopener noreferrer">FrostByte</a>`);
+    const incidentBlock = incident ? `<section class="evidence-section"><h3>Incident correlation</h3><p><span class="incident-id">${escapeHtml(incident.id)}</span> · ${escapeHtml(incident.models.length)} models · ${escapeHtml(((incident.signals || [])[0] && incident.signals[0].window_hours) || 24)}h window</p><p class="correlation-note">Correlation signal only. Does not establish cause or coordination.</p></section>` : "";
 
-    const incidentBlock = incident
-      ? `<section class="evidence-section">
-          <h3>Incident correlation</h3>
-          <p><span class="incident-id">${escapeHtml(incident.id)}</span> · ${escapeHtml(incident.models.length)} models · ${escapeHtml(((incident.signals || [])[0] && incident.signals[0].window_hours) || 24)}h window</p>
-          <p class="correlation-note">Correlation signal only. Does not establish cause or coordination.</p>
-        </section>`
-      : "";
-
-    const profileBlock = hasSnapshot(lp)
-      ? `<section class="evidence-section evidence-wide"><h3>Last public model profile</h3>${snapshotDetail(lp)}</section>`
-      : "";
-
-    return `
-      <button type="button" class="evidence-toggle" data-expand="${escapeHtml(event.id)}" aria-expanded="${open ? "true" : "false"}" aria-controls="${panelId}">
-        Evidence ${open ? "▴" : "▾"}
-      </button>
-      <div class="evidence-wrap${open ? " open" : ""}" id="${panelId}">
-        <div class="evidence-panel">
-          ${profileBlock}
-          <section class="evidence-section">
-            <h3>Why</h3>
-            <p>${escapeHtml(reason.summary || "No public source documenting the cause has been recorded.")}${sourced ? ` <span class="empty">(${escapeHtml(reasonMeta(reason))})</span>` : ""}</p>
-            ${forensic && forensic.reason_signals_note ? `<p class="empty">${escapeHtml(forensic.reason_signals_note)}</p>` : ""}
-          </section>
-          <section class="evidence-section">
-            <h3>Public sources</h3>
-            ${sourceList}
-          </section>
-          <section class="evidence-section evidence-wide">
-            <h3>Forensic context</h3>
-            <p class="ctx-line">${escapeHtml(ctx.join(" · "))}</p>
-            ${discussionList}
-            ${commitList}
-            ${timeline.length ? `<p class="empty">${timeline.length} timeline entries captured.</p>` : ""}
-          </section>
-          <section class="evidence-section evidence-wide">
-            <h3>Identity</h3>
-            ${hashRow("Evidence SHA", forensic && forensic.evidence_sha256)}
-            ${hashRow("Manifest root", (manifest && manifest.root_sha256) || (forensic && forensic.manifest_root_sha256))}
-            ${hashRow("Hub revision", hubRevision(event))}
-            ${hashRow("Model card SHA", forensic && forensic.readme_sha256)}
-            ${!(forensic && forensic.evidence_sha256) && !(manifest && manifest.root_sha256) && !hubRevision(event) ? `<p class="empty">No hash identity recorded yet.</p>` : ""}
-          </section>
-          ${incidentBlock}
-          <section class="evidence-section">
-            <h3>Recovery</h3>
-            ${recoveryBits.length ? `<p class="ctx-line">${escapeHtml(recoveryBits.join(" · "))}</p>` : `<p class="empty">No verified surviving copy recorded.</p>`}
-            ${recoveryLinks.length ? `<div class="recovery-links">${recoveryLinks.join("")}</div>` : ""}
-          </section>
-        </div>
-      </div>`;
+    return `<button type="button" class="evidence-toggle" data-expand="${escapeHtml(event.id)}" aria-expanded="${open ? "true" : "false"}" aria-controls="${panelId}">Evidence ${open ? "▴" : "▾"}</button><div class="evidence-wrap${open ? " open" : ""}" id="${panelId}"><div class="evidence-panel"><section class="evidence-section evidence-wide"><h3>Last public model profile</h3>${snapshotDetail(lp)}</section><section class="evidence-section"><h3>Why</h3><p>${escapeHtml(reason.summary || "No public source documenting the cause has been recorded.")}${sourced ? ` <span class="empty">(${escapeHtml(reasonMeta(reason))})</span>` : ""}</p>${forensic && forensic.reason_signals_note ? `<p class="empty">${escapeHtml(forensic.reason_signals_note)}</p>` : ""}</section><section class="evidence-section"><h3>Public sources</h3>${sourceList}</section><section class="evidence-section evidence-wide"><h3>Forensic context</h3><p class="ctx-line">${escapeHtml(ctx.join(" · "))}</p>${discussionList}${commitList}${timeline.length ? `<p class="empty">${timeline.length} timeline entries captured.</p>` : ""}</section><section class="evidence-section evidence-wide"><h3>Identity</h3>${hashRow("Evidence SHA", forensic && forensic.evidence_sha256)}${hashRow("Manifest root", (manifest && manifest.root_sha256) || (forensic && forensic.manifest_root_sha256))}${hashRow("Hub revision", hubRevision(event))}${hashRow("Model card SHA", forensic && forensic.readme_sha256)}${!(forensic && forensic.evidence_sha256) && !(manifest && manifest.root_sha256) && !hubRevision(event) ? `<p class="empty">No hash identity recorded yet.</p>` : ""}</section>${incidentBlock}<section class="evidence-section"><h3>Recovery state</h3>${recoveryBits.length ? `<p class="ctx-line">${escapeHtml(recoveryBits.join(" · "))}</p>` : `<p class="empty">No verified surviving copy recorded.</p>`}</section></div></div>`;
   }
 
   function render() {
@@ -366,24 +312,7 @@
       bits.slice(0, 3).forEach((bit) => caseBits.push(`<span class="case-chip">${escapeHtml(bit)}</span>`));
       if (incident) caseBits.push('<span class="case-chip incident">Incident cluster</span>');
 
-      return `<article class="item" id="${modelAnchor(event.id)}">
-        <div class="item-top">
-          <div class="model-head">
-            <div class="id">${escapeHtml(event.id || "unknown")}</div>
-            <span class="badge ${chipClass[rawStatus] || ""}">${escapeHtml(current)}</span>
-          </div>
-          <div class="detected">${escapeHtml(dateOnly(event.detected_at))}</div>
-        </div>
-        <div class="transition"><span class="lbl">Before</span><span class="before">${escapeHtml(before(event))}</span><span class="arrow">→</span><span class="lbl">Now</span><span class="now">${escapeHtml(current)}</span></div>
-        <p class="summary">${escapeHtml(event.summary || "Observed availability change.")}</p>
-        ${snapshotStrip(lp)}
-        <div class="case-meta">${caseBits.join("")}</div>
-        <div class="actions">
-          ${event.hf_url ? `<a class="action" href="${escapeHtml(event.hf_url)}" rel="noopener noreferrer">Open Hub</a>` : ""}
-          <a class="action" href="${escapeHtml(mirrorSearchUrl(event.id))}" rel="noopener noreferrer">Find copies</a>
-          ${evidencePanel(event)}
-        </div>
-      </article>`;
+      return `<article class="item" id="${modelAnchor(event.id)}"><div class="item-top"><div class="model-head"><div class="id">${escapeHtml(event.id || "unknown")}</div><span class="badge ${chipClass[rawStatus] || ""}">${escapeHtml(current)}</span></div><div class="detected">${escapeHtml(dateOnly(event.detected_at))}</div></div><div class="transition"><span class="lbl">Before</span><span class="before">${escapeHtml(before(event))}</span><span class="arrow">→</span><span class="lbl">Now</span><span class="now">${escapeHtml(current)}</span></div><p class="summary">${escapeHtml(event.summary || "Observed availability change.")}</p>${snapshotStrip(lp)}<div class="case-meta">${caseBits.join("")}</div><div class="recovery-row" aria-label="Recovery and archive links">${publicRecoveryLinks(event, recovery)}</div><div class="actions">${evidencePanel(event)}</div></article>`;
     }).join("");
   }
 
@@ -459,11 +388,7 @@
   const optionalJson = (url) => fetch(url, { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null);
   Promise.all([
     fetch("data/events.json", { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(`events HTTP ${r.status}`); return r.json(); }),
-    optionalJson("data/state.json"),
-    optionalJson("data/status.json"),
-    optionalJson("data/evidence.json"),
-    optionalJson("data/manifests.json"),
-    optionalJson("data/incidents.json")
+    optionalJson("data/state.json"), optionalJson("data/status.json"), optionalJson("data/evidence.json"), optionalJson("data/manifests.json"), optionalJson("data/incidents.json")
   ]).then(([ledger, snapshot, recovery, evidence, manifests, incidents]) => {
     state.events = ledger.events || [];
     state.generatedAt = (evidence && evidence.generated_at) || (recovery && recovery.generated_at) || ledger.generated_at || (snapshot && snapshot.updated_at) || null;
@@ -473,9 +398,7 @@
     state.manifests = (manifests && manifests.models) || {};
     state.incidents = (incidents && incidents.incidents) || [];
     state.incidentByModel = {};
-    state.incidents.forEach((incident) => (incident.models || []).forEach((id) => {
-      if (!state.incidentByModel[id]) state.incidentByModel[id] = incident;
-    }));
+    state.incidents.forEach((incident) => (incident.models || []).forEach((id) => { if (!state.incidentByModel[id]) state.incidentByModel[id] = incident; }));
     state.watchedCount = Number(state.recoverySummary.watched || 0) || (snapshot && snapshot.models ? Object.keys(snapshot.models).length : null);
     render();
 
