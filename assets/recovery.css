@@ -4,6 +4,46 @@
 .preservation.lost { color: var(--red); }
 button.action { font-family: inherit; cursor: pointer; }
 
+/* Every case card gets the same Last public row. Older cases that pre-date
+   capture stay explicit instead of inventing historical popularity data. */
+.snapshot-strip.snapshot-missing { color: var(--meta); }
+.snapshot-strip.snapshot-missing .snapshot-label { color: var(--meta); }
+.snapshot-strip.snapshot-missing > span:not(.snapshot-label)::after { content: none; }
+.snapshot-strip.snapshot-missing > span:last-child { font-style: italic; }
+
+/* Recovery belongs on the case card, not buried in evidence. */
+.recovery-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 1px;
+  padding-top: 7px;
+  border-top: 1px solid var(--line-soft);
+}
+.recovery-row .action {
+  min-height: 31px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 9px;
+  font-size: .72rem;
+  font-weight: 680;
+  background: #0d120e;
+}
+.recovery-row .hub { color: var(--green); border-color: #35503b; }
+.recovery-row .wayback { color: #d7e0d9; border-color: #465049; }
+.recovery-row .pirate { color: #d8c9ff; border-color: #50446b; }
+.recovery-row .bay { color: #f0ca7a; border-color: #5b4a28; }
+.recovery-row .frost { color: #a7d7ff; border-color: #35536c; }
+.recovery-row .magnet { color: #c9d5ff; border-color: #44516f; }
+.recovery-row .ipfs { color: #84e9e0; border-color: #315f5c; }
+.recovery-row .action:hover { transform: translateY(-1px); }
+
+/* Evidence stays expandable for the detailed/boring forensic material. */
+.actions { margin-top: 0; }
+.actions .evidence-toggle { margin-top: 1px; }
+
 .profile-card { display: grid; gap: 10px; }
 .profile-metrics {
   display: grid;
@@ -29,4 +69,6 @@ button.action { font-family: inherit; cursor: pointer; }
 @media (max-width: 520px) {
   .profile-metrics { grid-template-columns: 1fr 1fr; }
   .profile-list > div { grid-template-columns: 80px minmax(0, 1fr); }
+  .recovery-row { gap: 5px; }
+  .recovery-row .action { padding: 6px 8px; font-size: .7rem; }
 }
