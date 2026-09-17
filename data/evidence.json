@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-09-17T11:42:27Z",
+  "generated_at": "2026-09-17T17:00:34Z",
   "cursor": 245,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
@@ -57648,6 +57648,2267 @@
       "manifest_root_sha256": "20d0d9c3a8e5a9eb34e6794065627c49f89b92a6257afb6608e6dc14c6d777b2",
       "timeline": [],
       "evidence_sha256": "4816814262bec40d65a7f70dc8cf5e1b9c046a997479642bdd18395401f4d333"
+    },
+    "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF": {
+      "captured_at": "2026-09-17T17:00:30Z",
+      "repo": "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF",
+      "hf_url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: apache-2.0 base_model: JonathanColetti/Qwen3.8-27B-Uncensored library_name: gguf tags: - text-generation - gguf - quantizer - autoround - architecture-aware - mamba - ssm - multi",
+          "source_url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/raw/d0da06789c72ce94d75c17e539f2d6cc3f62f7aa/README.md"
+        },
+        {
+          "signal": "safety",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "ocessing / Heavy workloads | Near-lossless instruction formatting. Pristine multi-turn architecture safety. | | **`XL`** | [~19.0 GB](./Qwen3.8-27B-Uncensored-YMQ-XL.gguf) | Maximum VRAM Fill / No Compromises | Mathematical saturation ceiling. Full precision logic tracks for massive m",
+          "source_url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/raw/d0da06789c72ce94d75c17e539f2d6cc3f62f7aa/README.md"
+        },
+        {
+          "signal": "removed",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "egacy `S` Preset Deprecated:** The older, standard `S` configuration (~12.2 GB) has been officially removed from the repository. * **Upgrade to `S-Pro` (~12.5 GB):** We have replaced it with the newly engineered **`S-Pro`** preset. * **Legacy `XS` Preset Deprecated:** The older, standa",
+          "source_url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/raw/d0da06789c72ce94d75c17e539f2d6cc3f62f7aa/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 4,
+          "title": "Q8_0 mmproj",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "Pentium95",
+          "created_at": "2026-08-27T09:46:49.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Pentium95",
+              "created_at": "2026-08-27T09:46:49.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-27T10:50:15.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "minyor25",
+              "created_at": "2026-08-30T10:42:59.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "c94e504cbc310dc5ebba41482c8820c5da0d1005946dcf5bfc9cba34c5bd36b0"
+        },
+        {
+          "num": 3,
+          "title": "KLD",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "thedjtaz2",
+          "created_at": "2026-08-25T09:03:42.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "thedjtaz2",
+              "created_at": "2026-08-25T09:03:42.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Markobes",
+              "created_at": "2026-08-25T09:51:35.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "thedjtaz2",
+              "created_at": "2026-08-25T14:28:07.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-25T16:10:22.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-26T15:18:43.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "1ee8d1fa8d1f53df478206caec677e29e48df2377df2c04550c07d6d53d17963"
+        },
+        {
+          "num": 2,
+          "title": "Notice: XS Preset re-uploaded (API calling failures Fix)",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "minyor25",
+          "created_at": "2026-08-17T16:04:47.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-17T16:04:47.000Z",
+              "content": ""
+            },
+            {
+              "type": "title-change",
+              "author": "minyor25",
+              "created_at": "2026-08-17T16:13:28.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "minyor25",
+              "created_at": "2026-08-18T20:49:31.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "3eeaa9b984bb6e06a8c7d77077811a03eef9e0cafba53e8719d9cbeb5e2b12fa"
+        },
+        {
+          "num": 1,
+          "title": "Proj Upload?",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "mtwohey2",
+          "created_at": "2026-08-15T18:28:42.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "mtwohey2",
+              "created_at": "2026-08-15T18:28:42.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-15T22:36:34.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "meigami",
+              "created_at": "2026-08-16T13:46:59.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-16T16:35:31.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "minyor25",
+              "created_at": "2026-08-16T17:05:58.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "minyor25",
+              "created_at": "2026-08-17T05:30:55.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "9e44a69ff6a9178de8980bd0352abb67eef741bd6b6676356bf0f059131ec2ea"
+        }
+      ],
+      "commits": [
+        {
+          "id": "d0da06789c72ce94d75c17e539f2d6cc3f62f7aa",
+          "title": "Update README.md",
+          "created_at": "2026-09-02T20:00:19.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/d0da06789c72ce94d75c17e539f2d6cc3f62f7aa"
+        },
+        {
+          "id": "22962dca0be50430fd0f2270ef08fdd88bfe8838",
+          "title": "Update README.md",
+          "created_at": "2026-09-02T19:52:45.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/22962dca0be50430fd0f2270ef08fdd88bfe8838"
+        },
+        {
+          "id": "8de02912c7ba721625bbfb8a5e542888de7ba92b",
+          "title": "Update README.md",
+          "created_at": "2026-09-02T18:18:22.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/8de02912c7ba721625bbfb8a5e542888de7ba92b"
+        },
+        {
+          "id": "88faa9d0f2a089b128192a13a9843556be5b2aa0",
+          "title": "Update README.md",
+          "created_at": "2026-09-02T18:13:12.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/88faa9d0f2a089b128192a13a9843556be5b2aa0"
+        },
+        {
+          "id": "beb303857268892467f930b52d44f4a76373d359",
+          "title": "Update README.md",
+          "created_at": "2026-09-01T19:08:39.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/beb303857268892467f930b52d44f4a76373d359"
+        },
+        {
+          "id": "0d6ae11bdd69607901530f69183d5f8608759d6f",
+          "title": "Update README.md",
+          "created_at": "2026-09-01T18:31:00.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/0d6ae11bdd69607901530f69183d5f8608759d6f"
+        },
+        {
+          "id": "1380f897f923e5df4fc679c6f73d86623a325508",
+          "title": "Update README.md",
+          "created_at": "2026-09-01T17:46:02.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/1380f897f923e5df4fc679c6f73d86623a325508"
+        },
+        {
+          "id": "968f8775554cb09cc4f1b9489080150ae88b7f0f",
+          "title": "Update README.md",
+          "created_at": "2026-08-29T23:23:35.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/968f8775554cb09cc4f1b9489080150ae88b7f0f"
+        },
+        {
+          "id": "37d37cc85388d4352feeeeced6ae97c05c53df17",
+          "title": "Update README.md",
+          "created_at": "2026-08-29T22:41:40.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/37d37cc85388d4352feeeeced6ae97c05c53df17"
+        },
+        {
+          "id": "7fd9030c5e8466fedd2b80fe8c532bcbf2eed8c7",
+          "title": "Update README.md",
+          "created_at": "2026-08-28T04:08:03.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/7fd9030c5e8466fedd2b80fe8c532bcbf2eed8c7"
+        },
+        {
+          "id": "6b083457623c3ca7522d44fd0160d34a02984e27",
+          "title": "Update README.md",
+          "created_at": "2026-08-27T22:56:35.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/6b083457623c3ca7522d44fd0160d34a02984e27"
+        },
+        {
+          "id": "fa46faf4f264d1c9450a562b52418f7071483de2",
+          "title": "Upload Qwen3.8-27B-Uncensored-YMQ-XS-TI.gguf with huggingface_hub",
+          "created_at": "2026-08-27T22:47:19.000Z",
+          "authors": [
+            {
+              "user": "minyor25",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67d5ce5f7637ce2660a76217/olpCcqda8SznXGneV0jP6.png"
+            }
+          ],
+          "url": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/fa46faf4f264d1c9450a562b52418f7071483de2"
+        }
+      ],
+      "readme_sha256": "ca303a0e02274fc2cd537c909678fc8a93ffb1ce1b82f55153d1fe5f6f263511",
+      "manifest_root_sha256": "f663b4e4ad2027be785c926115026f8953b2fc6fcd032e9378a28bc0848b6ea5",
+      "timeline": [
+        {
+          "at": "2026-09-02T20:00:19.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/d0da06789c72ce94d75c17e539f2d6cc3f62f7aa"
+        },
+        {
+          "at": "2026-09-02T19:52:45.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/22962dca0be50430fd0f2270ef08fdd88bfe8838"
+        },
+        {
+          "at": "2026-09-02T18:18:22.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/8de02912c7ba721625bbfb8a5e542888de7ba92b"
+        },
+        {
+          "at": "2026-09-02T18:13:12.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/88faa9d0f2a089b128192a13a9843556be5b2aa0"
+        },
+        {
+          "at": "2026-09-01T19:08:39.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/beb303857268892467f930b52d44f4a76373d359"
+        },
+        {
+          "at": "2026-09-01T18:31:00.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/0d6ae11bdd69607901530f69183d5f8608759d6f"
+        },
+        {
+          "at": "2026-09-01T17:46:02.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/1380f897f923e5df4fc679c6f73d86623a325508"
+        },
+        {
+          "at": "2026-08-29T23:23:35.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/968f8775554cb09cc4f1b9489080150ae88b7f0f"
+        },
+        {
+          "at": "2026-08-29T22:41:40.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/37d37cc85388d4352feeeeced6ae97c05c53df17"
+        },
+        {
+          "at": "2026-08-28T04:08:03.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/7fd9030c5e8466fedd2b80fe8c532bcbf2eed8c7"
+        },
+        {
+          "at": "2026-08-27T22:56:35.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/6b083457623c3ca7522d44fd0160d34a02984e27"
+        },
+        {
+          "at": "2026-08-27T22:47:19.000Z",
+          "type": "commit",
+          "label": "Upload Qwen3.8-27B-Uncensored-YMQ-XS-TI.gguf with huggingface_hub",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/commit/fa46faf4f264d1c9450a562b52418f7071483de2"
+        },
+        {
+          "at": "2026-08-27T09:46:49.000Z",
+          "type": "discussion",
+          "label": "Q8_0 mmproj",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/discussions/4"
+        },
+        {
+          "at": "2026-08-25T09:03:42.000Z",
+          "type": "discussion",
+          "label": "KLD",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/discussions/3"
+        },
+        {
+          "at": "2026-08-17T16:04:47.000Z",
+          "type": "discussion",
+          "label": "Notice: XS Preset re-uploaded (API calling failures Fix)",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/discussions/2"
+        },
+        {
+          "at": "2026-08-15T18:28:42.000Z",
+          "type": "discussion",
+          "label": "Proj Upload?",
+          "source": "https://huggingface.co/zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF/discussions/1"
+        }
+      ],
+      "evidence_sha256": "d3ca9bb47a01234af1f24320ad039c79dc813a4f8806cb196063fdae022f75c6"
+    },
+    "Comfy-Org/z_image_turbo": {
+      "captured_at": "2026-09-17T17:00:31Z",
+      "repo": "Comfy-Org/z_image_turbo",
+      "hf_url": "https://huggingface.co/Comfy-Org/z_image_turbo",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: apache-2.0 tags: - comfyui - diffusion-single-file base_model: - Tongyi-MAI/Z-Image-Turbo --- # Z-Image Turbo Repackaged model files for ComfyUI. Original model repository: ht",
+          "source_url": "https://huggingface.co/Comfy-Org/z_image_turbo/raw/08d04455279082882deaabc8d0d09fc914c071e1/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 27,
+          "title": "Email notifications",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "Ripcurlsurf",
+          "created_at": "2026-08-17T08:37:05.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ripcurlsurf",
+              "created_at": "2026-08-17T08:37:05.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "68bd9f4261e5e49f47948d1d94efa7873d5259c479d2c6e618d1f5f692475a2b"
+        },
+        {
+          "num": 26,
+          "title": "Normalize README metadata and formatting",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Lexius",
+          "created_at": "2026-08-17T05:21:14.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Lexius",
+              "created_at": "2026-08-17T05:21:14.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Lexius",
+              "created_at": "2026-08-17T05:21:15.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "Lexius",
+              "created_at": "2026-08-17T06:15:15.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "03c1aeda58cf4bfd060ae185dde67fa1cee932acd74e26615f61ee7ad16ed1a8"
+        },
+        {
+          "num": 25,
+          "title": "Complete Z-Image Turbo README",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Lexius",
+          "created_at": "2026-08-17T04:38:58.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Lexius",
+              "created_at": "2026-08-17T04:38:58.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Lexius",
+              "created_at": "2026-08-17T04:38:58.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "Lexius",
+              "created_at": "2026-08-17T04:44:36.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "82cecfa58cfdbfd2888ca4a070faf7189de41d8f50acf3878fa983863cd86266"
+        },
+        {
+          "num": 24,
+          "title": "Add ComfyUI model installation guide",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "Lexius",
+          "created_at": "2026-08-14T20:27:22.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "commit",
+              "author": "Lexius",
+              "created_at": "2026-08-14T20:24:15.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Lexius",
+              "created_at": "2026-08-14T20:27:22.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "Lexius",
+              "created_at": "2026-08-14T20:27:27.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Lexius",
+              "created_at": "2026-08-14T21:49:49.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "eb063931b1caa836053a7dbc0103c1e579236124daf4df34b4f4cd9d17535a4b"
+        },
+        {
+          "num": 23,
+          "title": "z_image_turbo_distill_patch_lora_bf16",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "kdutt2000",
+          "created_at": "2026-07-21T18:39:37.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "kdutt2000",
+              "created_at": "2026-07-21T18:39:37.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "3192e3448deeec407a7ef92428b50f5422b71d9c2bb64b32901d276b8b566e93"
+        },
+        {
+          "num": 22,
+          "title": "Z-image",
+          "status": "draft",
+          "is_pull_request": true,
+          "author": "willowoods",
+          "created_at": "2026-05-15T12:56:17.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "willowoods",
+              "created_at": "2026-05-15T12:56:17.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "065e801b3d187c49714991729a99492947e8f7df6bd9a077814cf1bb2cd167dc"
+        },
+        {
+          "num": 21,
+          "title": "Upload NSFW_master_ZIT_000008766.safetensors",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "doanh2324",
+          "created_at": "2026-03-12T08:03:36.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "doanh2324",
+              "created_at": "2026-03-12T08:03:36.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "doanh2324",
+              "created_at": "2026-03-12T08:03:36.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "jackfun",
+              "created_at": "2026-07-01T16:42:02.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "315ac4c6d0827c066b97938bb6addc8a238d03b62ea6aa1443cf8c4ffab2686e"
+        },
+        {
+          "num": 20,
+          "title": "Upload 6c61336e-5ed3-4929-ba60-b7109ed7b9d6-u2_16c89b2b-93d4-4cdc-bf67-fce38a0c09ed.safetensors",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "kiraiv24",
+          "created_at": "2026-02-25T23:37:34.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "kiraiv24",
+              "created_at": "2026-02-25T23:37:34.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "kiraiv24",
+              "created_at": "2026-02-25T23:37:34.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "f4f22053eea00144e2c4c915127354199c5b4f951c1b9cdf97d392fa7d867add"
+        }
+      ],
+      "commits": [
+        {
+          "id": "08d04455279082882deaabc8d0d09fc914c071e1",
+          "title": "Normalize README metadata and formatting (#26)",
+          "created_at": "2026-08-17T06:15:14.000Z",
+          "authors": [
+            {
+              "user": "Lexius",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630433fea362e7e8b51f5e2b/akvLJPM-ae2gfBS_Rrgfv.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/08d04455279082882deaabc8d0d09fc914c071e1"
+        },
+        {
+          "id": "c1ae8140c9101bdc569d24510b32615c24827b7f",
+          "title": "Complete Z-Image Turbo README (#25)",
+          "created_at": "2026-08-17T04:44:36.000Z",
+          "authors": [
+            {
+              "user": "Lexius",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630433fea362e7e8b51f5e2b/akvLJPM-ae2gfBS_Rrgfv.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/c1ae8140c9101bdc569d24510b32615c24827b7f"
+        },
+        {
+          "id": "d24c4cf2a0cd98a42f23467e27e3d76ee9438b8e",
+          "title": "Upload split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors with huggingface_hub",
+          "created_at": "2026-07-02T13:20:16.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/d24c4cf2a0cd98a42f23467e27e3d76ee9438b8e"
+        },
+        {
+          "id": "2f862278568d3f0a83167a16e5f11094da6dee72",
+          "title": "Upload split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors with huggingface_hub",
+          "created_at": "2026-01-10T04:11:54.000Z",
+          "authors": [
+            {
+              "user": "comfyanonymous",
+              "avatar": "/avatars/0eaf839ae6c8c621d32424f12da7846c.svg"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/2f862278568d3f0a83167a16e5f11094da6dee72"
+        },
+        {
+          "id": "46a5866e80396fb4f5577a6a8a366013a4fd4096",
+          "title": "Upload split_files/text_encoders/qwen_3_4b_fp4_mixed.safetensors with huggingface_hub",
+          "created_at": "2026-01-10T04:10:16.000Z",
+          "authors": [
+            {
+              "user": "comfyanonymous",
+              "avatar": "/avatars/0eaf839ae6c8c621d32424f12da7846c.svg"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/46a5866e80396fb4f5577a6a8a366013a4fd4096"
+        },
+        {
+          "id": "0382f08714102ee87ca4d28f6d87a03d4242671b",
+          "title": "Upload ./split_files/diffusion_models/z_image_turbo_nvfp4.safetensors with huggingface_hub",
+          "created_at": "2026-01-06T00:22:34.000Z",
+          "authors": [
+            {
+              "user": "Kosinkadink",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6344e04fcbc4ea2ab742ee92/VefuK05EQOWbvSkf8IBBq.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/0382f08714102ee87ca4d28f6d87a03d4242671b"
+        },
+        {
+          "id": "fbd9544aa497fbc5cdfe05999e932d2522106601",
+          "title": "Upload z_image_turbo_distill_patch_lora_bf16.safetensors",
+          "created_at": "2025-12-19T16:11:38.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/fbd9544aa497fbc5cdfe05999e932d2522106601"
+        },
+        {
+          "id": "4f1e20c3aeca13aae20e46ff5fee8e37cd1278fc",
+          "title": "Upload z_image_convert_original_to_comfy.py",
+          "created_at": "2025-11-27T04:15:24.000Z",
+          "authors": [
+            {
+              "user": "comfyanonymous",
+              "avatar": "/avatars/0eaf839ae6c8c621d32424f12da7846c.svg"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/4f1e20c3aeca13aae20e46ff5fee8e37cd1278fc"
+        },
+        {
+          "id": "835382f6b7b1b0df2f3a76845a858f6ae37e559a",
+          "title": "Update README.md",
+          "created_at": "2025-11-26T20:43:40.000Z",
+          "authors": [
+            {
+              "user": "comfyanonymous",
+              "avatar": "/avatars/0eaf839ae6c8c621d32424f12da7846c.svg"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/835382f6b7b1b0df2f3a76845a858f6ae37e559a"
+        },
+        {
+          "id": "93fae7d7f6189cc408fdd7cec36c91447b8506a2",
+          "title": "Rename split_files/ae.safetensors to split_files/vae/ae.safetensors",
+          "created_at": "2025-11-26T20:18:37.000Z",
+          "authors": [
+            {
+              "user": "comfyanonymous",
+              "avatar": "/avatars/0eaf839ae6c8c621d32424f12da7846c.svg"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/93fae7d7f6189cc408fdd7cec36c91447b8506a2"
+        },
+        {
+          "id": "d9885880b38188695c94f656eee9f76b3ea805f3",
+          "title": "Upload ae.safetensors",
+          "created_at": "2025-11-26T20:18:05.000Z",
+          "authors": [
+            {
+              "user": "comfyanonymous",
+              "avatar": "/avatars/0eaf839ae6c8c621d32424f12da7846c.svg"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/d9885880b38188695c94f656eee9f76b3ea805f3"
+        },
+        {
+          "id": "429cce00bd1829a3dfd6c57c3204772542876215",
+          "title": "Upload ./split_files/text_encoders/qwen_3_4b.safetensors with huggingface_hub",
+          "created_at": "2025-11-26T01:22:14.000Z",
+          "authors": [
+            {
+              "user": "Kosinkadink",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6344e04fcbc4ea2ab742ee92/VefuK05EQOWbvSkf8IBBq.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/429cce00bd1829a3dfd6c57c3204772542876215"
+        }
+      ],
+      "readme_sha256": "3be81bded62660dfab5111b5ee4cd147511d2709c8fcd3062b07deb525b57473",
+      "manifest_root_sha256": "87dc92706fe8e5d07cab2074d02c4854760665cc886d989c407738f3d2104742",
+      "timeline": [
+        {
+          "at": "2026-08-17T08:37:05.000Z",
+          "type": "discussion",
+          "label": "Email notifications",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/27"
+        },
+        {
+          "at": "2026-08-17T06:15:14.000Z",
+          "type": "commit",
+          "label": "Normalize README metadata and formatting (#26)",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/08d04455279082882deaabc8d0d09fc914c071e1"
+        },
+        {
+          "at": "2026-08-17T05:21:14.000Z",
+          "type": "discussion",
+          "label": "Normalize README metadata and formatting",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/26"
+        },
+        {
+          "at": "2026-08-17T04:44:36.000Z",
+          "type": "commit",
+          "label": "Complete Z-Image Turbo README (#25)",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/c1ae8140c9101bdc569d24510b32615c24827b7f"
+        },
+        {
+          "at": "2026-08-17T04:38:58.000Z",
+          "type": "discussion",
+          "label": "Complete Z-Image Turbo README",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/25"
+        },
+        {
+          "at": "2026-08-14T20:27:22.000Z",
+          "type": "discussion",
+          "label": "Add ComfyUI model installation guide",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/24"
+        },
+        {
+          "at": "2026-07-21T18:39:37.000Z",
+          "type": "discussion",
+          "label": "z_image_turbo_distill_patch_lora_bf16",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/23"
+        },
+        {
+          "at": "2026-07-02T13:20:16.000Z",
+          "type": "commit",
+          "label": "Upload split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/d24c4cf2a0cd98a42f23467e27e3d76ee9438b8e"
+        },
+        {
+          "at": "2026-05-15T12:56:17.000Z",
+          "type": "discussion",
+          "label": "Z-image",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/22"
+        },
+        {
+          "at": "2026-03-12T08:03:36.000Z",
+          "type": "discussion",
+          "label": "Upload NSFW_master_ZIT_000008766.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/21"
+        },
+        {
+          "at": "2026-02-25T23:37:34.000Z",
+          "type": "discussion",
+          "label": "Upload 6c61336e-5ed3-4929-ba60-b7109ed7b9d6-u2_16c89b2b-93d4-4cdc-bf67-fce38a0c09ed.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/discussions/20"
+        },
+        {
+          "at": "2026-01-10T04:11:54.000Z",
+          "type": "commit",
+          "label": "Upload split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/2f862278568d3f0a83167a16e5f11094da6dee72"
+        },
+        {
+          "at": "2026-01-10T04:10:16.000Z",
+          "type": "commit",
+          "label": "Upload split_files/text_encoders/qwen_3_4b_fp4_mixed.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/46a5866e80396fb4f5577a6a8a366013a4fd4096"
+        },
+        {
+          "at": "2026-01-06T00:22:34.000Z",
+          "type": "commit",
+          "label": "Upload ./split_files/diffusion_models/z_image_turbo_nvfp4.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/0382f08714102ee87ca4d28f6d87a03d4242671b"
+        },
+        {
+          "at": "2025-12-19T16:11:38.000Z",
+          "type": "commit",
+          "label": "Upload z_image_turbo_distill_patch_lora_bf16.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/fbd9544aa497fbc5cdfe05999e932d2522106601"
+        },
+        {
+          "at": "2025-11-27T04:15:24.000Z",
+          "type": "commit",
+          "label": "Upload z_image_convert_original_to_comfy.py",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/4f1e20c3aeca13aae20e46ff5fee8e37cd1278fc"
+        },
+        {
+          "at": "2025-11-26T20:43:40.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/835382f6b7b1b0df2f3a76845a858f6ae37e559a"
+        },
+        {
+          "at": "2025-11-26T20:18:37.000Z",
+          "type": "commit",
+          "label": "Rename split_files/ae.safetensors to split_files/vae/ae.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/93fae7d7f6189cc408fdd7cec36c91447b8506a2"
+        },
+        {
+          "at": "2025-11-26T20:18:05.000Z",
+          "type": "commit",
+          "label": "Upload ae.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/d9885880b38188695c94f656eee9f76b3ea805f3"
+        },
+        {
+          "at": "2025-11-26T01:22:14.000Z",
+          "type": "commit",
+          "label": "Upload ./split_files/text_encoders/qwen_3_4b.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/429cce00bd1829a3dfd6c57c3204772542876215"
+        }
+      ],
+      "evidence_sha256": "800f057918513809b698b3c4c9930fd049e124ae32ebdc114e5460bc51ed8071"
+    },
+    "FacebookAI/roberta-base": {
+      "captured_at": "2026-09-17T17:00:32Z",
+      "repo": "FacebookAI/roberta-base",
+      "hf_url": "https://huggingface.co/FacebookAI/roberta-base",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "🚩 Report",
+          "source_url": "https://huggingface.co/FacebookAI/roberta-base/discussions/11"
+        },
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- language: en tags: - exbert license: mit datasets: - bookcorpus - wikipedia --- # RoBERTa base model Pretrained model on English language using a masked language modeling (MLM) objective. It was introduced in [thi",
+          "source_url": "https://huggingface.co/FacebookAI/roberta-base/raw/e2da8e2f811d1448a5b465c236feacd80ffbac7b/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 17,
+          "title": "Internal model structure preview",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "svetoviz",
+          "created_at": "2026-08-20T20:29:20.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "svetoviz",
+              "created_at": "2026-08-20T20:29:20.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "bdfb4740fb1976d40f05edeeb94e863d9ccb7cef5f5af24f51a8e306fbb35154"
+        },
+        {
+          "num": 16,
+          "title": "Multilingual powerhouse — testing for mobile deployment",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "3morixd",
+          "created_at": "2026-06-27T00:20:39.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "3morixd",
+              "created_at": "2026-06-27T00:20:39.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "c840555db6e14581715ee7a1c6539486dd0a4390e0c2e9e2679e6d18e181ffe8"
+        },
+        {
+          "num": 15,
+          "title": "TemporalMesh Transformer: 29.4 PPL at 48% compute — beats Mamba, new open-source architecture",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "vigneshwar234",
+          "created_at": "2026-06-07T12:36:58.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "vigneshwar234",
+              "created_at": "2026-06-07T12:36:58.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "f1c0508147b5b8e8dec9a3d725138c11417c15bdcd0434813f7dcd23f688fb07"
+        },
+        {
+          "num": 14,
+          "title": "Update README.md",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "ARISCOT",
+          "created_at": "2026-05-22T09:26:03.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "ARISCOT",
+              "created_at": "2026-05-22T09:26:03.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "ARISCOT",
+              "created_at": "2026-05-22T09:26:04.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "1b32bcee7bd51e1e7220c59b175367bc81fe555a338d1665ae48e3516947ef62"
+        },
+        {
+          "num": 13,
+          "title": "Add link to Neuron-optimized version",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "badaoui",
+          "created_at": "2025-08-22T13:41:52.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "badaoui",
+              "created_at": "2025-08-22T13:41:52.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "badaoui",
+              "created_at": "2025-08-22T13:41:52.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "a714340a1e8d434ee736cf98fe49d0572232593296ed9cfaa7c6b32dbae3c06a"
+        },
+        {
+          "num": 12,
+          "title": "Adds the tokenizer configuration file",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "lysandre",
+          "created_at": "2024-02-16T14:58:37.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "lysandre",
+              "created_at": "2024-02-16T14:58:37.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "lysandre",
+              "created_at": "2024-02-16T14:58:39.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "lysandre",
+              "created_at": "2024-02-19T12:39:26.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "lysandre",
+              "created_at": "2024-02-19T12:39:28.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "256ebf5b90a2940472d1c92b925c9bbc50771de103e82a6f889c7c8eef535d08"
+        },
+        {
+          "num": 11,
+          "title": "🚩 Report",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "10hugging",
+          "created_at": "2024-01-12T09:47:19.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "10hugging",
+              "created_at": "2024-01-12T09:47:19.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "10hugging",
+              "created_at": "2024-01-12T09:47:28.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "c59c2509ffcd7544d07d56243c5c7854b89bf9bd873bc49a7fc60d8e5c2441b3"
+        },
+        {
+          "num": 10,
+          "title": "[AUTOMATED] Model Memory Requirements",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "model-sizer-bot",
+          "created_at": "2023-11-02T22:05:09.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "model-sizer-bot",
+              "created_at": "2023-11-02T22:05:09.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "d93f4b16276edaefbc04c737807a3655547efdea66b8a04bbc48721ff37a878b"
+        }
+      ],
+      "commits": [
+        {
+          "id": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+          "title": "Adds the tokenizer configuration file (#12)",
+          "created_at": "2024-02-19T12:39:28.000Z",
+          "authors": [
+            {
+              "user": "lysandre",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+        },
+        {
+          "id": "bc2764f8af2e92b6eb5679868df33e224075ca68",
+          "title": "fix typos (#6)",
+          "created_at": "2023-03-06T15:14:53.000Z",
+          "authors": [
+            {
+              "user": "sgugger",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1593126474392-5ef50182b71947201082a4e5.jpeg"
+            },
+            {
+              "user": "George-Ogden",
+              "avatar": "/avatars/2f413f1d653e981522832bd2f83d46a7.svg"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/bc2764f8af2e92b6eb5679868df33e224075ca68"
+        },
+        {
+          "id": "ff46155979338ff8063cdad90908b498ab91b181",
+          "title": "Convert weights to .safetensors (#3)",
+          "created_at": "2022-09-29T15:21:48.000Z",
+          "authors": [
+            {
+              "user": "julien-c",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/ff46155979338ff8063cdad90908b498ab91b181"
+        },
+        {
+          "id": "251c3c36356d3ad6845eb0554fdb9703d632c6cc",
+          "title": "add flax weights",
+          "created_at": "2021-07-06T10:34:50.000Z",
+          "authors": [
+            {
+              "user": "Patrick von Platen"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/251c3c36356d3ad6845eb0554fdb9703d632c6cc"
+        },
+        {
+          "id": "b5156dede23fffd81ba11bd9c329c0b503e5124d",
+          "title": "update gitattribetes",
+          "created_at": "2021-07-06T10:34:07.000Z",
+          "authors": [
+            {
+              "user": "Patrick von Platen"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/b5156dede23fffd81ba11bd9c329c0b503e5124d"
+        },
+        {
+          "id": "841d321fa51acc648d605a33c87ebe6726da8153",
+          "title": "Migrate model card from transformers-repo",
+          "created_at": "2020-12-11T21:25:32.000Z",
+          "authors": [
+            {
+              "user": "julien-c",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/841d321fa51acc648d605a33c87ebe6726da8153"
+        },
+        {
+          "id": "366e93114e4f9684850c2f1e4cc14673fe593bcc",
+          "title": "For clarity, delete deprecated modelcard.json",
+          "created_at": "2020-12-09T18:29:56.000Z",
+          "authors": [
+            {
+              "user": "julien-c",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/5dd96eb166059660ed1ee413/NQtzmrDdbG0H8qkZvRyGk.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/366e93114e4f9684850c2f1e4cc14673fe593bcc"
+        },
+        {
+          "id": "90e83f2334fb4d15bd9db8ce5fbd3b9e89ece144",
+          "title": "add flax model",
+          "created_at": "2020-12-08T16:23:20.000Z",
+          "authors": [
+            {
+              "user": "patrickvonplaten",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1584435275418-5dfcb1aada6d0311fd3d5448.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/90e83f2334fb4d15bd9db8ce5fbd3b9e89ece144"
+        },
+        {
+          "id": "d31b77526e977a2cc01ef160b16f7f977dcec100",
+          "title": "Update tokenizer.json",
+          "created_at": "2020-10-12T12:57:00.000Z",
+          "authors": [
+            {
+              "user": "system",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1646125250765-61af81e7a7205fb7cc9ec0cb.png"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/d31b77526e977a2cc01ef160b16f7f977dcec100"
+        },
+        {
+          "id": "2a6355b35ee37259407a8bb78148ad37ea87e39f",
+          "title": "Update rust_model.ot",
+          "created_at": "2020-04-24T20:14:11.000Z",
+          "authors": [
+            {
+              "user": "system",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1646125250765-61af81e7a7205fb7cc9ec0cb.png"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/2a6355b35ee37259407a8bb78148ad37ea87e39f"
+        },
+        {
+          "id": "47a52b98637fc8df2bf37a7b785cea13ad81ba94",
+          "title": "Update config.json",
+          "created_at": "2020-04-24T16:05:38.000Z",
+          "authors": [
+            {
+              "user": "system",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1646125250765-61af81e7a7205fb7cc9ec0cb.png"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/47a52b98637fc8df2bf37a7b785cea13ad81ba94"
+        },
+        {
+          "id": "2ecd732fb792ee9de217a2f7a7154e044cf3d782",
+          "title": "Update config.json",
+          "created_at": "2020-01-31T23:00:29.000Z",
+          "authors": [
+            {
+              "user": "system",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1646125250765-61af81e7a7205fb7cc9ec0cb.png"
+            }
+          ],
+          "url": "https://huggingface.co/FacebookAI/roberta-base/commit/2ecd732fb792ee9de217a2f7a7154e044cf3d782"
+        }
+      ],
+      "readme_sha256": "139c5c5c8d734a8841928308cf7f083018aa5cc49f903c5199e3f1563b3ded51",
+      "manifest_root_sha256": "2dae1e18814b25eb08e280fe4c8484b1c8ffeb6ef96113edbb8014758ca31e60",
+      "timeline": [
+        {
+          "at": "2026-08-20T20:29:20.000Z",
+          "type": "discussion",
+          "label": "Internal model structure preview",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/17"
+        },
+        {
+          "at": "2026-06-27T00:20:39.000Z",
+          "type": "discussion",
+          "label": "Multilingual powerhouse — testing for mobile deployment",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/16"
+        },
+        {
+          "at": "2026-06-07T12:36:58.000Z",
+          "type": "discussion",
+          "label": "TemporalMesh Transformer: 29.4 PPL at 48% compute — beats Mamba, new open-source architecture",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/15"
+        },
+        {
+          "at": "2026-05-22T09:26:03.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/14"
+        },
+        {
+          "at": "2025-08-22T13:41:52.000Z",
+          "type": "discussion",
+          "label": "Add link to Neuron-optimized version",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/13"
+        },
+        {
+          "at": "2024-02-19T12:39:28.000Z",
+          "type": "commit",
+          "label": "Adds the tokenizer configuration file (#12)",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+        },
+        {
+          "at": "2024-02-16T14:58:37.000Z",
+          "type": "discussion",
+          "label": "Adds the tokenizer configuration file",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/12"
+        },
+        {
+          "at": "2024-01-12T09:47:19.000Z",
+          "type": "discussion",
+          "label": "🚩 Report",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/11"
+        },
+        {
+          "at": "2023-11-02T22:05:09.000Z",
+          "type": "discussion",
+          "label": "[AUTOMATED] Model Memory Requirements",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/discussions/10"
+        },
+        {
+          "at": "2023-03-06T15:14:53.000Z",
+          "type": "commit",
+          "label": "fix typos (#6)",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/bc2764f8af2e92b6eb5679868df33e224075ca68"
+        },
+        {
+          "at": "2022-09-29T15:21:48.000Z",
+          "type": "commit",
+          "label": "Convert weights to .safetensors (#3)",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/ff46155979338ff8063cdad90908b498ab91b181"
+        },
+        {
+          "at": "2021-07-06T10:34:50.000Z",
+          "type": "commit",
+          "label": "add flax weights",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/251c3c36356d3ad6845eb0554fdb9703d632c6cc"
+        },
+        {
+          "at": "2021-07-06T10:34:07.000Z",
+          "type": "commit",
+          "label": "update gitattribetes",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/b5156dede23fffd81ba11bd9c329c0b503e5124d"
+        },
+        {
+          "at": "2020-12-11T21:25:32.000Z",
+          "type": "commit",
+          "label": "Migrate model card from transformers-repo",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/841d321fa51acc648d605a33c87ebe6726da8153"
+        },
+        {
+          "at": "2020-12-09T18:29:56.000Z",
+          "type": "commit",
+          "label": "For clarity, delete deprecated modelcard.json",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/366e93114e4f9684850c2f1e4cc14673fe593bcc"
+        },
+        {
+          "at": "2020-12-08T16:23:20.000Z",
+          "type": "commit",
+          "label": "add flax model",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/90e83f2334fb4d15bd9db8ce5fbd3b9e89ece144"
+        },
+        {
+          "at": "2020-10-12T12:57:00.000Z",
+          "type": "commit",
+          "label": "Update tokenizer.json",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/d31b77526e977a2cc01ef160b16f7f977dcec100"
+        },
+        {
+          "at": "2020-04-24T20:14:11.000Z",
+          "type": "commit",
+          "label": "Update rust_model.ot",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/2a6355b35ee37259407a8bb78148ad37ea87e39f"
+        },
+        {
+          "at": "2020-04-24T16:05:38.000Z",
+          "type": "commit",
+          "label": "Update config.json",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/47a52b98637fc8df2bf37a7b785cea13ad81ba94"
+        },
+        {
+          "at": "2020-01-31T23:00:29.000Z",
+          "type": "commit",
+          "label": "Update config.json",
+          "source": "https://huggingface.co/FacebookAI/roberta-base/commit/2ecd732fb792ee9de217a2f7a7154e044cf3d782"
+        }
+      ],
+      "evidence_sha256": "8af9b0bc668657d1a1181c7dda3e52ffbeb0b2392a3f7129a26b060d1126d839"
+    },
+    "RedTeamLab/Gemma-4-E2B-Sol-Traces-v1": {
+      "captured_at": "2026-09-17T17:00:33Z",
+      "repo": "RedTeamLab/Gemma-4-E2B-Sol-Traces-v1",
+      "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "policy",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Correct Sol-Traces v1 provenance, policy, and artifact documentation",
+          "source_url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/8ef48896ea51afe96bfe4fd7a27ee4f214acce8c"
+        },
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: gemma language: - en tags: - agentic - tool-calling - function-calling - code-agent - gemma-4 - e2b - lora - unsloth - sol-traces base_model: unsloth/gemma-4-E2B-it library_name:",
+          "source_url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/raw/9c540e8cd6050af81787af5ac501528641f2f5fd/README.md"
+        },
+        {
+          "signal": "policy",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "ading - `search_code` — regex code search (defined in the schema; not emitted by the v1 reference policy) - `run_command` — allowlisted shell execution - `apply_patch` — unified diff application - **Tool responses**: Output, exit codes, truncation markers - **Verification**: Post",
+          "source_url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/raw/9c540e8cd6050af81787af5ac501528641f2f5fd/README.md"
+        },
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "ation loss | **0.0248** | | Peak VRAM | 33.7 GiB / 80 GiB | | Throughput | 4,587 tok/s | These are reported run metrics; the canonical `training_stats.json` artifact is not currently published for E2B. ## Dataset The training dataset consists of 25,000 executable trajectories built",
+          "source_url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/raw/9c540e8cd6050af81787af5ac501528641f2f5fd/README.md"
+        },
+        {
+          "signal": "reported",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "ation loss | **0.0248** | | Peak VRAM | 33.7 GiB / 80 GiB | | Throughput | 4,587 tok/s | These are reported run metrics; the canonical `training_stats.json` artifact is not currently published for E2B. ## Dataset The training dataset consists of 25,000 executable trajectories built by",
+          "source_url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/raw/9c540e8cd6050af81787af5ac501528641f2f5fd/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [
+        {
+          "id": "9c540e8cd6050af81787af5ac501528641f2f5fd",
+          "title": "Correct Sol-Traces provenance to Hermes Agent session logs",
+          "created_at": "2026-07-16T21:53:18.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/9c540e8cd6050af81787af5ac501528641f2f5fd"
+        },
+        {
+          "id": "76c6fff36fdf25984a83251cce08ab9275188511",
+          "title": "Publish Sol-Traces v1 dataset split and filtering manifest",
+          "created_at": "2026-07-16T21:46:22.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/76c6fff36fdf25984a83251cce08ab9275188511"
+        },
+        {
+          "id": "9586a7d56adc9ad17a4ac04c0dc3e405663d4ea3",
+          "title": "Publish verified corpus manifest and reconcile model-card claims",
+          "created_at": "2026-07-16T21:46:15.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/9586a7d56adc9ad17a4ac04c0dc3e405663d4ea3"
+        },
+        {
+          "id": "8ef48896ea51afe96bfe4fd7a27ee4f214acce8c",
+          "title": "Correct Sol-Traces v1 provenance, policy, and artifact documentation",
+          "created_at": "2026-07-16T21:42:56.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/8ef48896ea51afe96bfe4fd7a27ee4f214acce8c"
+        },
+        {
+          "id": "10d349a65f06b664f1c847e5d068a280c9a1f4c3",
+          "title": "Upload README.md with huggingface_hub",
+          "created_at": "2026-07-15T21:04:11.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/10d349a65f06b664f1c847e5d068a280c9a1f4c3"
+        },
+        {
+          "id": "ef496f86897533405ecb8dc2e07244bc17342e41",
+          "title": "Upload gemma-4-e2b-sol-traces-v1-Q4_K_M.gguf with huggingface_hub",
+          "created_at": "2026-07-15T20:57:05.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/ef496f86897533405ecb8dc2e07244bc17342e41"
+        },
+        {
+          "id": "2f36d07a6724861381392e5edcbe935b1aa3f48a",
+          "title": "Upload gemma-4-e2b-sol-traces-v1-f16.gguf with huggingface_hub",
+          "created_at": "2026-07-15T20:54:13.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/2f36d07a6724861381392e5edcbe935b1aa3f48a"
+        },
+        {
+          "id": "8c3fe24389fe3cffa1c0ffc8839db82f397924aa",
+          "title": "initial commit",
+          "created_at": "2026-07-15T19:54:37.000Z",
+          "authors": [
+            {
+              "user": "RedTeamLab",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/DWpqDZwsryAdW6CDdabaQ.png"
+            }
+          ],
+          "url": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/8c3fe24389fe3cffa1c0ffc8839db82f397924aa"
+        }
+      ],
+      "readme_sha256": "d37b83f514a47554d669c9a0869df6d3108dd0899b93808621fe27a80a19b0c3",
+      "manifest_root_sha256": "135df8431889feae3429e62243a4bb22c0467bac86e745e4ba4b518da641facd",
+      "timeline": [
+        {
+          "at": "2026-07-16T21:53:18.000Z",
+          "type": "commit",
+          "label": "Correct Sol-Traces provenance to Hermes Agent session logs",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/9c540e8cd6050af81787af5ac501528641f2f5fd"
+        },
+        {
+          "at": "2026-07-16T21:46:22.000Z",
+          "type": "commit",
+          "label": "Publish Sol-Traces v1 dataset split and filtering manifest",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/76c6fff36fdf25984a83251cce08ab9275188511"
+        },
+        {
+          "at": "2026-07-16T21:46:15.000Z",
+          "type": "commit",
+          "label": "Publish verified corpus manifest and reconcile model-card claims",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/9586a7d56adc9ad17a4ac04c0dc3e405663d4ea3"
+        },
+        {
+          "at": "2026-07-16T21:42:56.000Z",
+          "type": "commit",
+          "label": "Correct Sol-Traces v1 provenance, policy, and artifact documentation",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/8ef48896ea51afe96bfe4fd7a27ee4f214acce8c"
+        },
+        {
+          "at": "2026-07-15T21:04:11.000Z",
+          "type": "commit",
+          "label": "Upload README.md with huggingface_hub",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/10d349a65f06b664f1c847e5d068a280c9a1f4c3"
+        },
+        {
+          "at": "2026-07-15T20:57:05.000Z",
+          "type": "commit",
+          "label": "Upload gemma-4-e2b-sol-traces-v1-Q4_K_M.gguf with huggingface_hub",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/ef496f86897533405ecb8dc2e07244bc17342e41"
+        },
+        {
+          "at": "2026-07-15T20:54:13.000Z",
+          "type": "commit",
+          "label": "Upload gemma-4-e2b-sol-traces-v1-f16.gguf with huggingface_hub",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/2f36d07a6724861381392e5edcbe935b1aa3f48a"
+        },
+        {
+          "at": "2026-07-15T19:54:37.000Z",
+          "type": "commit",
+          "label": "initial commit",
+          "source": "https://huggingface.co/RedTeamLab/Gemma-4-E2B-Sol-Traces-v1/commit/8c3fe24389fe3cffa1c0ffc8839db82f397924aa"
+        }
+      ],
+      "evidence_sha256": "a25068efb907a3cadcf37aa7487f283019cad467711e8b0b453ec479cffac6f3"
+    },
+    "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF": {
+      "captured_at": "2026-09-17T17:00:33Z",
+      "repo": "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF",
+      "hf_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "legal",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "% | | cybercrime / intrusion | 100.0% | | harassment / bullying | 100.0% | | harmful | 100.0% | | illegal | 100.0% | | misinformation / disinformation | 98.1% | ## Usage (llama.cpp) ```bash llama-cli -m Ornith-1.5-9B-CRACK-Q4_K_M.gguf -cnv --jinja \\ --temp 1.0 --top-p 0.95 --top-k",
+          "source_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/raw/ff3af5719557150f553625b64fb8866fde796054/README.md"
+        },
+        {
+          "signal": "copyright",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "HarmBench** is coherence-gated attack-success-rate over the 240 standard/contextual harm behaviors (copyright behaviors excluded from the safety gate). | Quant | MMLU (base) | MMLU (CRACK) | ΔMMLU | HarmBench harm-ASR | |---|---|---|---|---| | `Q8_0` | 78.1% | 77.5% | -0.53 pp | 99.6%",
+          "source_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/raw/ff3af5719557150f553625b64fb8866fde796054/README.md"
+        },
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: mit library_name: gguf pipeline_tag: image-text-to-text base_model: ornith-ai/Ornith-1.5-9B base_model_relation: quantized tags: - gguf - llama.cpp - ornith - qwen3.5 - abliterat",
+          "source_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/raw/ff3af5719557150f553625b64fb8866fde796054/README.md"
+        },
+        {
+          "signal": "safety",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "coherence are retained (MMLU within ±3% of base at every quant). > Research artifact with reduced safety guardrails. Use responsibly and lawfully. ## Quantizations | File | Size | Notes | |---|---|---| | `Ornith-1.5-9B-CRACK-Q8_0.gguf` | 8.9 GB | near-lossless reference | | `Ornith",
+          "source_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/raw/ff3af5719557150f553625b64fb8866fde796054/README.md"
+        },
+        {
+          "signal": "removed",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "r llama.cpp.** Four quantizations (Q8_0 / Q6_K / Q4_K_M / Q2_K) in one repository. Refusal behavior removed while preserving the model's knowledge, reasoning (\"thinking\"), and full Vision-Language capability. Ornith 1.5 is a **hybrid GatedDeltaNet (SSM) + attention** architecture; CRAC",
+          "source_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/raw/ff3af5719557150f553625b64fb8866fde796054/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 1,
+          "title": "MTP feature",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "mrshadow123",
+          "created_at": "2026-09-11T21:54:20.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "mrshadow123",
+              "created_at": "2026-09-11T21:54:20.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "c66dc16b73fee165bba5596563c333cbf614ab1310ed96ae341c47ebb58cf573"
+        }
+      ],
+      "commits": [
+        {
+          "id": "ff3af5719557150f553625b64fb8866fde796054",
+          "title": "Upload README.md with huggingface_hub",
+          "created_at": "2026-08-21T00:57:31.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/ff3af5719557150f553625b64fb8866fde796054"
+        },
+        {
+          "id": "98cd03ce52fb69563a2d78741da376d8d22bf4be",
+          "title": "Upload Ornith-1.5-9B-CRACK-Q5_K_M.gguf with huggingface_hub",
+          "created_at": "2026-08-21T00:57:27.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/98cd03ce52fb69563a2d78741da376d8d22bf4be"
+        },
+        {
+          "id": "cbcc845218e0d944a528a8ce1d4562d8ddfda5f9",
+          "title": "Upload Ornith-1.5-9B-CRACK-Q3_K_M.gguf with huggingface_hub",
+          "created_at": "2026-08-21T00:56:24.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/cbcc845218e0d944a528a8ce1d4562d8ddfda5f9"
+        },
+        {
+          "id": "9a1a8544c72e17a013cf7f29da53b9829d8e5969",
+          "title": "Upload README.md with huggingface_hub",
+          "created_at": "2026-08-20T19:03:07.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/9a1a8544c72e17a013cf7f29da53b9829d8e5969"
+        },
+        {
+          "id": "d5a4689cc859f1db17a68b1b487d93b8f9240051",
+          "title": "Upload Ornith-1.5-9B-CRACK-Q2_K.gguf with huggingface_hub",
+          "created_at": "2026-08-20T18:52:41.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/d5a4689cc859f1db17a68b1b487d93b8f9240051"
+        },
+        {
+          "id": "29edbd8bcf469d207c949d3c98a7f8c08f1d8a91",
+          "title": "Upload Ornith-1.5-9B-CRACK-Q4_K_M.gguf with huggingface_hub",
+          "created_at": "2026-08-20T18:51:39.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/29edbd8bcf469d207c949d3c98a7f8c08f1d8a91"
+        },
+        {
+          "id": "2e88d7c56f0001c3ca9818b688d054d78c8e6de3",
+          "title": "Upload Ornith-1.5-9B-CRACK-Q6_K.gguf with huggingface_hub",
+          "created_at": "2026-08-20T18:50:26.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/2e88d7c56f0001c3ca9818b688d054d78c8e6de3"
+        },
+        {
+          "id": "a1a4a7397d2e78516f97dfbc2b3e077f4b36d79d",
+          "title": "Upload Ornith-1.5-9B-CRACK-Q8_0.gguf with huggingface_hub",
+          "created_at": "2026-08-20T18:48:57.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/a1a4a7397d2e78516f97dfbc2b3e077f4b36d79d"
+        },
+        {
+          "id": "86a760d67bcaf42bd2e765542960842e09efc13e",
+          "title": "Upload mmproj-Ornith-1.5-9B-f16.gguf with huggingface_hub",
+          "created_at": "2026-08-20T18:48:09.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/86a760d67bcaf42bd2e765542960842e09efc13e"
+        },
+        {
+          "id": "a9e439939802578c6acfbb4fda7b2013d5926b4c",
+          "title": "Upload dealign_mascot.png with huggingface_hub",
+          "created_at": "2026-08-20T18:47:46.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/a9e439939802578c6acfbb4fda7b2013d5926b4c"
+        },
+        {
+          "id": "341284cda1ee8a0faf00648b714bb97a19e02b13",
+          "title": "Upload dealign_logo.png with huggingface_hub",
+          "created_at": "2026-08-20T18:47:45.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/341284cda1ee8a0faf00648b714bb97a19e02b13"
+        },
+        {
+          "id": "bf2585bcc153be288a6c73fba1a764b8219846fe",
+          "title": "initial commit",
+          "created_at": "2026-08-20T18:47:44.000Z",
+          "authors": [
+            {
+              "user": "dealignai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/699af30d096f7e8fe8d82a11/PEWX90_WdOgBjRvqhsHix.png"
+            }
+          ],
+          "url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/bf2585bcc153be288a6c73fba1a764b8219846fe"
+        }
+      ],
+      "readme_sha256": "7917ed976fcd81df808721c05a025c6c2793205cdd4e0719fb293db7bc1ea774",
+      "manifest_root_sha256": "fbe5db22da8718ec5601630924a44cdcbe77e26f5f0839ad0b71544adcf3b7a5",
+      "timeline": [
+        {
+          "at": "2026-09-11T21:54:20.000Z",
+          "type": "discussion",
+          "label": "MTP feature",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/discussions/1"
+        },
+        {
+          "at": "2026-08-21T00:57:31.000Z",
+          "type": "commit",
+          "label": "Upload README.md with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/ff3af5719557150f553625b64fb8866fde796054"
+        },
+        {
+          "at": "2026-08-21T00:57:27.000Z",
+          "type": "commit",
+          "label": "Upload Ornith-1.5-9B-CRACK-Q5_K_M.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/98cd03ce52fb69563a2d78741da376d8d22bf4be"
+        },
+        {
+          "at": "2026-08-21T00:56:24.000Z",
+          "type": "commit",
+          "label": "Upload Ornith-1.5-9B-CRACK-Q3_K_M.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/cbcc845218e0d944a528a8ce1d4562d8ddfda5f9"
+        },
+        {
+          "at": "2026-08-20T19:03:07.000Z",
+          "type": "commit",
+          "label": "Upload README.md with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/9a1a8544c72e17a013cf7f29da53b9829d8e5969"
+        },
+        {
+          "at": "2026-08-20T18:52:41.000Z",
+          "type": "commit",
+          "label": "Upload Ornith-1.5-9B-CRACK-Q2_K.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/d5a4689cc859f1db17a68b1b487d93b8f9240051"
+        },
+        {
+          "at": "2026-08-20T18:51:39.000Z",
+          "type": "commit",
+          "label": "Upload Ornith-1.5-9B-CRACK-Q4_K_M.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/29edbd8bcf469d207c949d3c98a7f8c08f1d8a91"
+        },
+        {
+          "at": "2026-08-20T18:50:26.000Z",
+          "type": "commit",
+          "label": "Upload Ornith-1.5-9B-CRACK-Q6_K.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/2e88d7c56f0001c3ca9818b688d054d78c8e6de3"
+        },
+        {
+          "at": "2026-08-20T18:48:57.000Z",
+          "type": "commit",
+          "label": "Upload Ornith-1.5-9B-CRACK-Q8_0.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/a1a4a7397d2e78516f97dfbc2b3e077f4b36d79d"
+        },
+        {
+          "at": "2026-08-20T18:48:09.000Z",
+          "type": "commit",
+          "label": "Upload mmproj-Ornith-1.5-9B-f16.gguf with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/86a760d67bcaf42bd2e765542960842e09efc13e"
+        },
+        {
+          "at": "2026-08-20T18:47:46.000Z",
+          "type": "commit",
+          "label": "Upload dealign_mascot.png with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/a9e439939802578c6acfbb4fda7b2013d5926b4c"
+        },
+        {
+          "at": "2026-08-20T18:47:45.000Z",
+          "type": "commit",
+          "label": "Upload dealign_logo.png with huggingface_hub",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/341284cda1ee8a0faf00648b714bb97a19e02b13"
+        },
+        {
+          "at": "2026-08-20T18:47:44.000Z",
+          "type": "commit",
+          "label": "initial commit",
+          "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/bf2585bcc153be288a6c73fba1a764b8219846fe"
+        }
+      ],
+      "evidence_sha256": "23630145fb6b7bf6a9bd9773e7933fe54fc14c6bdc179e4d8233a3cbeccc8380"
+    },
+    "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF": {
+      "captured_at": "2026-09-17T17:00:34Z",
+      "repo": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+      "hf_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "legal",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "e inappropriate for public settings, underage users, or applications requiring high security. - **Legal and Ethical Responsibilities**: Users must ensure their usage complies with local laws and ethical standards. Generated content may carry legal or ethical risks, and users are sol",
+          "source_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/raw/7e3bfc316b880fefeb049596f11c49d6a18e05fb/README.md"
+        },
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- library_name: transformers license: other license_name: qwen-community-1.0 license_link: LICENSE pipeline_tag: image-text-to-text base_model: - Qwen/Qwen3.8-Flash-Next tags: - abliterated - uncensored - huihui - qw",
+          "source_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/raw/7e3bfc316b880fefeb049596f11c49d6a18e05fb/README.md"
+        },
+        {
+          "signal": "safety",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "-c 262144 ``` ### Usage Warnings - **Risk of Sensitive or Controversial Outputs**: This model’s safety filtering has been significantly reduced, potentially generating sensitive, controversial, or inappropriate content. Users should exercise caution and rigorously review generated",
+          "source_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/raw/7e3bfc316b880fefeb049596f11c49d6a18e05fb/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 5,
+          "title": "ISTA-DASLAB Quants",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "baybobey",
+          "created_at": "2026-09-15T19:06:31.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "baybobey",
+              "created_at": "2026-09-15T19:06:31.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "750bcc6fc52a9df24e3eab831e0b7e80e47bf506699d2f2d8bd424f9fc4100bc"
+        },
+        {
+          "num": 4,
+          "title": "You must have been reading my mind! Thank you!",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "mazuj2",
+          "created_at": "2026-09-12T23:51:39.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "mazuj2",
+              "created_at": "2026-09-12T23:51:39.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "5a51f2066fcaa8ff28b5ec0489688f94fb514a725a4c6d411a0ff0c2fca67abf"
+        },
+        {
+          "num": 3,
+          "title": "Other quants?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "signsur4739379373",
+          "created_at": "2026-09-06T15:44:48.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "signsur4739379373",
+              "created_at": "2026-09-06T15:44:48.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "luphaxio",
+              "created_at": "2026-09-09T23:03:38.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "b192631153c9ad051f4d7d9661fd1f590b5eea53d9c1477dfced54fe89bb5c7c"
+        },
+        {
+          "num": 2,
+          "title": "The GGUFs you uploaded just now doesn't contain *-abliterated suffix.",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "yamikumods",
+          "created_at": "2026-09-06T10:30:34.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "yamikumods",
+              "created_at": "2026-09-06T10:30:34.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "intlex",
+              "created_at": "2026-09-06T11:02:36.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "yamikumods",
+              "created_at": "2026-09-06T11:16:05.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "yamikumods",
+              "created_at": "2026-09-06T11:16:05.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "40ad09a96e4c576905b5a750ecd534a73a40ffcee17c1fd543a04c549f83f952"
+        },
+        {
+          "num": 1,
+          "title": "GLM-5.3-Flash",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "intlex",
+          "created_at": "2026-09-06T10:12:12.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "intlex",
+              "created_at": "2026-09-06T10:12:12.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "prime0",
+              "created_at": "2026-09-06T10:41:45.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "40a94fcda20e5eab03a3e7793cbd61fb3460cd9106b1635064236a978c0184dc"
+        }
+      ],
+      "commits": [
+        {
+          "id": "7e3bfc316b880fefeb049596f11c49d6a18e05fb",
+          "title": "Upload folder using huggingface_hub",
+          "created_at": "2026-09-06T09:25:03.000Z",
+          "authors": [
+            {
+              "user": "huihui-ai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66228dc4c8920ec3513dc81a/9stczijVqp6TgQduzT8kN.png"
+            }
+          ],
+          "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/7e3bfc316b880fefeb049596f11c49d6a18e05fb"
+        },
+        {
+          "id": "1a1ca29d9f89f2ffe4a855cd69fc7f1c6e9b645f",
+          "title": "Update README.md",
+          "created_at": "2026-09-06T05:50:09.000Z",
+          "authors": [
+            {
+              "user": "huihui-ai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66228dc4c8920ec3513dc81a/9stczijVqp6TgQduzT8kN.png"
+            }
+          ],
+          "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/1a1ca29d9f89f2ffe4a855cd69fc7f1c6e9b645f"
+        },
+        {
+          "id": "2a0390252fce800084abd6cbc2c5cd95360babfc",
+          "title": "Create README.md",
+          "created_at": "2026-09-06T05:45:10.000Z",
+          "authors": [
+            {
+              "user": "huihui-ai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66228dc4c8920ec3513dc81a/9stczijVqp6TgQduzT8kN.png"
+            }
+          ],
+          "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/2a0390252fce800084abd6cbc2c5cd95360babfc"
+        },
+        {
+          "id": "689535c58ce435bd869b0d2c4693bbee3d4f3b65",
+          "title": "initial commit",
+          "created_at": "2026-09-06T04:21:13.000Z",
+          "authors": [
+            {
+              "user": "huihui-ai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66228dc4c8920ec3513dc81a/9stczijVqp6TgQduzT8kN.png"
+            }
+          ],
+          "url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/689535c58ce435bd869b0d2c4693bbee3d4f3b65"
+        }
+      ],
+      "readme_sha256": "1879eaf958f43696a671113e8d07a1e9d2a42433fe60b587bd1738212dc8ea03",
+      "manifest_root_sha256": "9cac835ec450896bfe91726369801a2068358e4f5bdd376369d1145ac3e9dc1b",
+      "timeline": [
+        {
+          "at": "2026-09-15T19:06:31.000Z",
+          "type": "discussion",
+          "label": "ISTA-DASLAB Quants",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/discussions/5"
+        },
+        {
+          "at": "2026-09-12T23:51:39.000Z",
+          "type": "discussion",
+          "label": "You must have been reading my mind! Thank you!",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/discussions/4"
+        },
+        {
+          "at": "2026-09-06T15:44:48.000Z",
+          "type": "discussion",
+          "label": "Other quants?",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/discussions/3"
+        },
+        {
+          "at": "2026-09-06T10:30:34.000Z",
+          "type": "discussion",
+          "label": "The GGUFs you uploaded just now doesn't contain *-abliterated suffix.",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/discussions/2"
+        },
+        {
+          "at": "2026-09-06T10:12:12.000Z",
+          "type": "discussion",
+          "label": "GLM-5.3-Flash",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/discussions/1"
+        },
+        {
+          "at": "2026-09-06T09:25:03.000Z",
+          "type": "commit",
+          "label": "Upload folder using huggingface_hub",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/7e3bfc316b880fefeb049596f11c49d6a18e05fb"
+        },
+        {
+          "at": "2026-09-06T05:50:09.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/1a1ca29d9f89f2ffe4a855cd69fc7f1c6e9b645f"
+        },
+        {
+          "at": "2026-09-06T05:45:10.000Z",
+          "type": "commit",
+          "label": "Create README.md",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/2a0390252fce800084abd6cbc2c5cd95360babfc"
+        },
+        {
+          "at": "2026-09-06T04:21:13.000Z",
+          "type": "commit",
+          "label": "initial commit",
+          "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/689535c58ce435bd869b0d2c4693bbee3d4f3b65"
+        }
+      ],
+      "evidence_sha256": "28bad12b3adea64565109e5e4b582189bca119b6c8af56c38b47caf30f6303bb"
+    },
+    "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit": {
+      "captured_at": "2026-09-17T17:00:34Z",
+      "repo": "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
+      "hf_url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: apache-2.0 base_model: OBLITERATUS/Qwen3.8-27B-OBLITERATED base_model_relation: quantized library_name: mlx pipeline_tag: image-text-to-text language: - en tags: - mlx - optiq -",
+          "source_url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/raw/8b6416f56b92eb77ebc80ec7579992d700431198/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [
+        {
+          "id": "8b6416f56b92eb77ebc80ec7579992d700431198",
+          "title": "Update kv_config.json: re-measured with `optiq kv-cache` float32 sensitivity (the previous config was ranked on bfloat16 rounding noise). 8-bit layers [15, 51] -> [19, 35].",
+          "created_at": "2026-09-16T15:27:44.000Z",
+          "authors": [
+            {
+              "user": "codelion",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png"
+            }
+          ],
+          "url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/8b6416f56b92eb77ebc80ec7579992d700431198"
+        },
+        {
+          "id": "c6acb4a6c87fa73dff0856a6b91d895163042f8e",
+          "title": "Add kv_config.json: per-layer KV cache precision from `optiq kv-cache` (target 4.5 bits). Use with `optiq serve --kv-config kv_config.json`.",
+          "created_at": "2026-09-14T14:45:44.000Z",
+          "authors": [
+            {
+              "user": "codelion",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png"
+            }
+          ],
+          "url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/c6acb4a6c87fa73dff0856a6b91d895163042f8e"
+        },
+        {
+          "id": "aacbae115c83bfffdbfc114d5240173dab8c7c7c",
+          "title": "OptiQ mixed-precision 4-bit quant",
+          "created_at": "2026-08-25T12:32:19.000Z",
+          "authors": [
+            {
+              "user": "codelion",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png"
+            }
+          ],
+          "url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/aacbae115c83bfffdbfc114d5240173dab8c7c7c"
+        },
+        {
+          "id": "75ece201d619104b0d3a6b519c93be1603e83cb3",
+          "title": "initial commit",
+          "created_at": "2026-08-25T10:00:44.000Z",
+          "authors": [
+            {
+              "user": "codelion",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png"
+            }
+          ],
+          "url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/75ece201d619104b0d3a6b519c93be1603e83cb3"
+        }
+      ],
+      "readme_sha256": "fcf4149a911a1256d4f41e05ce8c58bbd216c6af16a7192d16a0df5b3243eb45",
+      "manifest_root_sha256": "15fbf079ea148beb2b4a578b8be8ac0eeec91df5b789e9f5759af8b079ec3139",
+      "timeline": [
+        {
+          "at": "2026-09-16T15:27:44.000Z",
+          "type": "commit",
+          "label": "Update kv_config.json: re-measured with `optiq kv-cache` float32 sensitivity (the previous config was ranked on bfloat16 rounding noise). 8-bit layers [15, 51] -> [19, 35].",
+          "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/8b6416f56b92eb77ebc80ec7579992d700431198"
+        },
+        {
+          "at": "2026-09-14T14:45:44.000Z",
+          "type": "commit",
+          "label": "Add kv_config.json: per-layer KV cache precision from `optiq kv-cache` (target 4.5 bits). Use with `optiq serve --kv-config kv_config.json`.",
+          "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/c6acb4a6c87fa73dff0856a6b91d895163042f8e"
+        },
+        {
+          "at": "2026-08-25T12:32:19.000Z",
+          "type": "commit",
+          "label": "OptiQ mixed-precision 4-bit quant",
+          "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/aacbae115c83bfffdbfc114d5240173dab8c7c7c"
+        },
+        {
+          "at": "2026-08-25T10:00:44.000Z",
+          "type": "commit",
+          "label": "initial commit",
+          "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/75ece201d619104b0d3a6b519c93be1603e83cb3"
+        }
+      ],
+      "evidence_sha256": "830ac16f42eeb4ca7de32f0ed9a646df87eb8b9e6d19ad2125e94559542f97fb"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.manifest.v1",
-  "generated_at": "2026-09-17T11:42:27Z",
+  "generated_at": "2026-09-17T17:00:34Z",
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
       "captured_at": "2026-09-17T11:41:52Z",
@@ -20098,6 +20098,398 @@
         }
       ],
       "root_sha256": "20d0d9c3a8e5a9eb34e6794065627c49f89b92a6257afb6608e6dc14c6d777b2"
+    },
+    "zerodigest/Qwen3.8-27B-Uncensored-YMQ-MTP-GGUF": {
+      "captured_at": "2026-09-17T17:00:30Z",
+      "revision": "d0da06789c72ce94d75c17e539f2d6cc3f62f7aa",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 17,
+      "weight_count": 14,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-L-TI.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-L.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-M-TI.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-S-Pro.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-XL.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-XS-Pro.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-XS-TI.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-XXS-NO-MTP.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-XXS-Pro.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Qwen3.8-27B-Uncensored-YMQ-XXS.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj/Qwen3.8-27B-Uncensored-vision-Q4_K_S.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj/Qwen3.8-27B-Uncensored-vision-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj/Qwen3.8-27B-Uncensored-vision-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "f663b4e4ad2027be785c926115026f8953b2fc6fcd032e9378a28bc0848b6ea5"
+    },
+    "Comfy-Org/z_image_turbo": {
+      "captured_at": "2026-09-17T17:00:31Z",
+      "revision": "08d04455279082882deaabc8d0d09fc914c071e1",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 11,
+      "weight_count": 8,
+      "truncated": false,
+      "files": [
+        {
+          "path": "split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/diffusion_models/z_image_turbo_nvfp4.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/loras/z_image_turbo_distill_patch_lora_bf16.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/text_encoders/qwen_3_4b.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/text_encoders/qwen_3_4b_fp4_mixed.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "split_files/vae/ae.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "87dc92706fe8e5d07cab2074d02c4854760665cc886d989c407738f3d2104742"
+    },
+    "FacebookAI/roberta-base": {
+      "captured_at": "2026-09-17T17:00:32Z",
+      "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 13,
+      "weight_count": 3,
+      "truncated": false,
+      "files": [
+        {
+          "path": "flax_model.msgpack",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "pytorch_model.bin",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "2dae1e18814b25eb08e280fe4c8484b1c8ffeb6ef96113edbb8014758ca31e60"
+    },
+    "RedTeamLab/Gemma-4-E2B-Sol-Traces-v1": {
+      "captured_at": "2026-09-17T17:00:33Z",
+      "revision": "9c540e8cd6050af81787af5ac501528641f2f5fd",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 5,
+      "weight_count": 2,
+      "truncated": false,
+      "files": [
+        {
+          "path": "gemma-4-e2b-sol-traces-v1-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "gemma-4-e2b-sol-traces-v1-f16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "135df8431889feae3429e62243a4bb22c0467bac86e745e4ba4b518da641facd"
+    },
+    "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF": {
+      "captured_at": "2026-09-17T17:00:33Z",
+      "revision": "ff3af5719557150f553625b64fb8866fde796054",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 11,
+      "weight_count": 7,
+      "truncated": false,
+      "files": [
+        {
+          "path": "Ornith-1.5-9B-CRACK-Q2_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Ornith-1.5-9B-CRACK-Q3_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Ornith-1.5-9B-CRACK-Q4_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Ornith-1.5-9B-CRACK-Q5_K_M.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Ornith-1.5-9B-CRACK-Q6_K.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "Ornith-1.5-9B-CRACK-Q8_0.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-Ornith-1.5-9B-f16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "fbe5db22da8718ec5601630924a44cdcbe77e26f5f0839ad0b71544adcf3b7a5"
+    },
+    "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF": {
+      "captured_at": "2026-09-17T17:00:34Z",
+      "revision": "7e3bfc316b880fefeb049596f11c49d6a18e05fb",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 8,
+      "weight_count": 5,
+      "truncated": false,
+      "files": [
+        {
+          "path": "UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00001-of-00004.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00002-of-00004.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00003-of-00004.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00004-of-00004.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "mmproj-model-bf16.gguf",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "9cac835ec450896bfe91726369801a2068358e4f5bdd376369d1145ac3e9dc1b"
+    },
+    "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit": {
+      "captured_at": "2026-09-17T17:00:34Z",
+      "revision": "8b6416f56b92eb77ebc80ec7579992d700431198",
+      "completeness": "LAST_PUBLIC_SAMPLE",
+      "file_count": 16,
+      "weight_count": 6,
+      "truncated": false,
+      "files": [
+        {
+          "path": "model-00001-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00002-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00003-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "model-00004-of-00004.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "optiq/mtp.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        },
+        {
+          "path": "optiq/optiq_vision.safetensors",
+          "size": null,
+          "git_oid": null,
+          "lfs_sha256": null,
+          "xet_hash": null
+        }
+      ],
+      "root_sha256": "15fbf079ea148beb2b4a578b8be8ac0eeec91df5b789e9f5759af8b079ec3139"
     }
   }
 }
