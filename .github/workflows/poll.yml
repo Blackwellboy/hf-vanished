@@ -145,11 +145,19 @@ jobs:
           git add data/events.json data/state.json data/status.json data/integrations.json \
                   data/evidence.json data/manifests.json data/incidents.json data/lineage.json \
                   data/analytics.json data/provenance.json
-          if [ -f data/provenance.sigstore.json ]; then git add data/provenance.sigstore.json; fi
+          # The signing step is fail-soft and removes an old bundle before it
+          # tries to create a fresh one. Stage either outcome, including deletion,
+          # so a transient Sigstore failure cannot leave the tree dirty and break rebase.
+          git add -A -- data/provenance.sigstore.json
           if git diff --staged --quiet; then
             echo "No ledger changes"
           else
             git commit -m "chore: refresh HF Vanished ledger and forensic evidence"
+            if [ -n "$(git status --porcelain)" ]; then
+              echo "Unexpected unstaged changes before rebase:"
+              git status --short
+              exit 1
+            fi
             # A human/code commit can land while this scan is running. Rebase
             # the generated data commit onto current main before pushing so an
             # unrelated edit cannot make the autonomous scan fail.
