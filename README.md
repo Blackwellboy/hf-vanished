@@ -4,7 +4,7 @@
 
 HF Vanished is a public, automated evidence ledger for Hugging Face Hub availability changes. It records **before → now** evidence for models that become disabled, deleted, auth-required/private, gated, or stripped of model files, then checks whether a known recovery path exists.
 
-It also has an additive forensic layer for **source-backed reasons, public discussion/commit context, cryptographic file identity, and correlation-only incident signals**.
+It also has an additive forensic layer for **source-backed reasons, public discussion/commit context, cryptographic file identity, correlation-only incident signals, and frozen last-public popularity/model metadata**.
 
 **Live:** https://blackwellboy.github.io/hf-vanished/  
 **Repo:** https://github.com/Blackwellboy/hf-vanished  
@@ -34,6 +34,26 @@ Evidence strength is shown separately:
 | **VERIFIED** | The tracker itself observed a public → changed-state transition. |
 | **ARCHIVED** | A concrete historical public snapshot is linked and the current state is recorded. |
 | **REPORTED** | Curated/publicly reported event that still needs stronger historical proof. |
+
+## Last-public snapshot
+
+While a watched repository is confirmed public, HF Vanished refreshes a compact **last-public snapshot** every scan. If that repository later becomes unavailable, the last confirmed public profile is retained instead of being overwritten by the unavailable response.
+
+Where the public Hub API exposes the fields, the snapshot includes:
+
+- Hugging Face download count and likes;
+- task / `pipeline_tag`, library and model type;
+- declared architecture and base-model lineage;
+- best-effort parameter count when explicitly exposed by public metadata;
+- storage size, file/weight counts and format;
+- explicit quantization metadata/tags such as AWQ, GPTQ, EXL2/EXL3, FP8 and similar hints;
+- license, namespace, revision SHA and last-modified time.
+
+This lets the ledger show not only **what vanished**, but also useful context about **what it was and how widely used it was at the final public observation**.
+
+Popularity is recorded as evidence, not used as a quality score. A large download count does not make a model “better”; it simply makes the historical scale visible.
+
+For models that disappeared **before HF Vanished ever observed them publicly**, historical popularity/type fields remain unknown unless a trustworthy public source can later backfill them. The tracker does not invent old download counts from current mirrors or name similarity.
 
 ## WHY / reason evidence
 
@@ -125,14 +145,15 @@ Every ~6 hours GitHub Actions runs unattended:
 1. Expand the watch set from the explicit watchlist, search families, and popular Hub models.
 2. Add every model ever seen in `data/state.json` so discovery is **cumulative** — once watched, always watched.
 3. Poll the public Hugging Face Hub API with **no HF token**.
-4. Capture public metadata useful later: Hub revision, license, file counts, model format tags, and a bounded sample of weight filenames.
-5. Diff each model against its previous snapshot.
-6. Suppress brief flaps and ignore models never observed public.
-7. Query Wayback CDX for hard disappearances where possible.
-8. Run a bounded forensic pass over event models plus a rotating public watch-set slice: discussions, commits, model-card hash, file identity and incident signals.
-9. Run a bounded, fail-soft Pirate Face probe. Event models are prioritized and the rest of the persistent watch set is rotated over time.
-10. Generate the v1 status feed plus additive evidence, manifest and incident feeds.
-11. Validate JSON and source-backed reason invariants, commit changed data, and deploy the refreshed static site.
+4. Refresh the confirmed-public profile: downloads, likes, task/type, architecture, base model, revision, license, format/quantization metadata, file counts and bounded weight filenames where exposed.
+5. Freeze that profile as `last_public` so a later unavailable response cannot overwrite the final known public popularity/type snapshot.
+6. Diff each model against its previous snapshot.
+7. Suppress brief flaps and ignore models never observed public.
+8. Query Wayback CDX for hard disappearances where possible.
+9. Run a bounded forensic pass over event models plus a rotating public watch-set slice: discussions, commits, model-card hash, file identity and incident signals.
+10. Run a bounded, fail-soft Pirate Face probe. Event models are prioritized and the rest of the persistent watch set is rotated over time.
+11. Generate the v1 status feed plus additive evidence, manifest, incident and lineage feeds.
+12. Validate JSON, last-public snapshot and source-backed reason invariants, commit changed data, and deploy the refreshed static site.
 
 Schedule:
 
@@ -166,15 +187,18 @@ The list is intentionally broader than “uncensored models” because HF Vanish
 
 | Path | Role |
 |---|---|
-| `data/events.json` | Existing public disappearance/restriction event ledger. |
-| `data/state.json` | Latest persistent snapshot for every watched model. |
-| `data/status.json` | Compact lifecycle + recovery feed for clients/integrations. |
+| `data/events.json` | Existing public disappearance/restriction event ledger, including frozen last-public profile when observed. |
+| `data/state.json` | Latest persistent snapshot for every watched model plus the nested confirmed `last_public` profile. |
+| `data/status.json` | Compact lifecycle + last-public profile + recovery feed for clients/integrations. |
 | `data/integrations.json` | Cached external recovery observations and rotation cursor. |
 | `data/seeds.json` | Explicit watchlist, search families, and curated known events. |
 | `data/reasons.json` | Curated public-source reason classifications; UNKNOWN by default. |
 | `data/evidence.json` | Bounded discussion/commit/timeline/source evidence cache with record hashes. |
 | `data/manifests.json` | File identity manifests and deterministic manifest root hashes. |
 | `data/incidents.json` | Correlation-only temporal/owner/family incident clusters. |
+| `data/lineage.json` | Explicit base-model lineage derived from declared Hub metadata. |
+| `data/analytics.json` | Deterministic aggregate forensic analytics. |
+| `data/provenance.json` | Deterministic digest index over generated evidence/data artifacts. |
 
 Schemas:
 
@@ -185,6 +209,9 @@ Schemas:
 - `hf-vanished.evidence.v1`
 - `hf-vanished.manifest.v1`
 - `hf-vanished.incidents.v1`
+- `hf-vanished.lineage.v1`
+- `hf-vanished.analytics.v1`
+- `hf-vanished.provenance.v1`
 
 See [`docs/INTEGRATIONS.md`](docs/INTEGRATIONS.md) for recovery integration behavior and [`docs/FORENSICS.md`](docs/FORENSICS.md) for forensic feed semantics.
 
