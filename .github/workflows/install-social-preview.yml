@@ -1,0 +1,35 @@
+name: Install social preview image
+
+on:
+  push:
+    paths:
+      - 'assets/hf-vanished-social-v1.jpg.b64'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Decode social preview image
+        shell: bash
+        run: |
+          base64 --decode assets/hf-vanished-social-v1.jpg.b64 > assets/hf-vanished-social-v1.jpg
+          rm assets/hf-vanished-social-v1.jpg.b64
+
+      - name: Commit image
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/hf-vanished-social-v1.jpg assets/hf-vanished-social-v1.jpg.b64
+          git commit -m "Add HF Vanished social preview image"
+          git pull --rebase origin main
+          git push origin HEAD:main
