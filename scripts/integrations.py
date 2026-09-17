@@ -134,6 +134,41 @@ def choose(state: dict, events: list[dict], cache: dict, cursor: int) -> tuple[l
     return picked, cursor
 
 
+def last_public_profile(s: dict) -> dict:
+    """Expose the frozen public profile, with a safe live-public fallback."""
+    frozen = s.get("last_public")
+    if isinstance(frozen, dict) and frozen:
+        src = frozen
+    elif s.get("visibility") == "public" and not s.get("disabled"):
+        src = s
+    else:
+        src = {}
+    weight_files = src.get("weight_files") or []
+    return {
+        "checked_at": src.get("checked_at") or src.get("last_public_checked_at"),
+        "downloads": src.get("downloads"),
+        "likes": src.get("likes"),
+        "sha": src.get("sha"),
+        "last_modified": src.get("last_modified"),
+        "license": src.get("license"),
+        "pipeline_tag": src.get("pipeline_tag"),
+        "library_name": src.get("library_name"),
+        "model_type": src.get("model_type"),
+        "architectures": src.get("architectures") or [],
+        "base_models": src.get("base_models") or [],
+        "author": src.get("author"),
+        "namespace": src.get("namespace"),
+        "parameter_count": src.get("parameter_count"),
+        "used_storage": src.get("used_storage"),
+        "formats": src.get("formats") or [],
+        "quantization": src.get("quantization") or [],
+        "file_count": src.get("file_count"),
+        "weight_count": src.get("weight_count"),
+        "weight_files_sample": weight_files[:12],
+        "weight_files_truncated": src.get("weight_files_truncated") or max(0, len(weight_files) - 12),
+    }
+
+
 def build(state: dict, events: list[dict], pf_cache: dict) -> dict:
     event_by_id = {}
     for e in events:
@@ -142,18 +177,12 @@ def build(state: dict, events: list[dict], pf_cache: dict) -> dict:
     models, counts = {}, {k: 0 for k in ("watched","available","restricted","vanished","protected","rescued","at_risk","no_known_copy")}
     for mid, s in state.get("models", {}).items():
         life = lifecycle(s)
-        lic = s.get("license")
+        lp = last_public_profile(s)
+        lic = lp.get("license") or s.get("license")
         elig = eligibility(lic)
         p = pf_cache.get(mid) or {"url": pf_url(mid), "status": "unknown"}
         pres = preservation(life, p, elig)
         handoff = "magnet" if p.get("magnet") else ("huggingface" if life in ("AVAILABLE","RESTRICTED") else None)
-        lp = {
-            "checked_at": s.get("last_public_checked_at"), "sha": s.get("sha"), "license": lic,
-            "pipeline_tag": s.get("pipeline_tag"), "library_name": s.get("library_name"),
-            "file_count": s.get("file_count"), "weight_count": s.get("weight_count"),
-            "weight_files_sample": (s.get("weight_files") or [])[:12],
-            "weight_files_truncated": s.get("weight_files_truncated") or max(0, len(s.get("weight_files") or []) - 12),
-        }
         models[mid] = {
             "hf": {"url": f"https://huggingface.co/{mid}", "lifecycle": life, "visibility": s.get("visibility"), "http": s.get("http"), "gated": s.get("gated"), "disabled": s.get("disabled"), "checked_at": s.get("checked_at")},
             "last_public": lp, "license": lic, "mirror_eligibility": elig, "preservation": pres,
