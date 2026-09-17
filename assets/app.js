@@ -6,6 +6,7 @@
     statusFilters: new Set(), reasonFilters: new Set(), evidenceFilters: new Set(),
     expanded: new Set()
   };
+
   const vanishedStatuses = new Set(["DISABLED", "DELETED", "PRIVATE", "STRIPPED", "AUTH_REQUIRED"]);
   const chipClass = { DISABLED: "dis", DELETED: "del", PRIVATE: "priv", GATED: "gate", STRIPPED: "strip", AUTH_REQUIRED: "auth", RESTORED: "restored" };
   const byId = (id) => document.getElementById(id);
@@ -33,10 +34,13 @@
   }
   function relativeTime(timestamp) {
     if (!timestamp) return "—";
-    const date = new Date(timestamp); if (Number.isNaN(date.getTime())) return timestamp;
+    const date = new Date(timestamp);
+    if (Number.isNaN(date.getTime())) return timestamp;
     const minutes = Math.max(0, Math.round((Date.now() - date.getTime()) / 60000));
-    if (minutes < 2) return "now"; if (minutes < 60) return `${minutes}m ago`;
-    const hours = Math.round(minutes / 60); if (hours < 48) return `${hours}h ago`;
+    if (minutes < 2) return "now";
+    if (minutes < 60) return `${minutes}m ago`;
+    const hours = Math.round(minutes / 60);
+    if (hours < 48) return `${hours}h ago`;
     return `${Math.round(hours / 24)}d ago`;
   }
   function dateOnly(timestamp) {
@@ -46,7 +50,9 @@
   }
   function modelAnchor(id) { return encodeURIComponent(String(id || "unknown")); }
   function mirrorSearchUrl(id) {
-    const value = String(id || ""), parts = value.split("/"), modelName = parts[parts.length - 1] || value;
+    const value = String(id || "");
+    const parts = value.split("/");
+    const modelName = parts[parts.length - 1] || value;
     return `https://huggingface.co/models?search=${encodeURIComponent(modelName)}`;
   }
   function recoveryFor(id) { return state.recovery[String(id || "")] || null; }
@@ -59,9 +65,9 @@
   }
   function reasonMeta(reason) {
     const status = String((reason && reason.status) || "UNKNOWN").toUpperCase();
-    if (status === "UNKNOWN") return "Unknown";
+    if (status === "UNKNOWN") return "Unknown reason";
     const category = String((reason && reason.category) || "").replaceAll("_", " ");
-    if (category && category.toLowerCase() !== "unknown") return `${titleCase(status)} · ${category}`;
+    if (category && category.toLowerCase() !== "unknown") return `${titleCase(status)} · ${titleCase(category)}`;
     return titleCase(status);
   }
   function finiteNumber(value) { return typeof value === "number" && Number.isFinite(value); }
@@ -107,45 +113,62 @@
   function hubRevision(event) {
     const manifest = manifestFor(event.id);
     if (manifest && manifest.revision) return manifest.revision;
-    const lp = (recoveryFor(event.id) && recoveryFor(event.id).last_public) || event.last_public || {};
+    const recovery = recoveryFor(event.id);
+    const lp = (recovery && recovery.last_public) || event.last_public || {};
     return lp.sha || null;
   }
+  function hasSnapshot(lp) {
+    if (!lp || typeof lp !== "object") return false;
+    const scalars = [lp.downloads, lp.likes, lp.pipeline_tag, lp.model_type, lp.parameter_count, lp.used_storage, lp.license, lp.sha, lp.library_name, lp.namespace];
+    const arrays = [lp.formats, lp.quantization, lp.architectures, lp.base_models];
+    return scalars.some((value) => value !== null && value !== undefined && value !== "") || arrays.some((value) => Array.isArray(value) && value.length);
+  }
 
-  function snapshotBlock(lp) {
-    if (!lp || typeof lp !== "object") return "";
-    const meaningful = [lp.checked_at, lp.downloads, lp.likes, lp.pipeline_tag, lp.model_type, lp.parameter_count, lp.formats && lp.formats.length, lp.quantization && lp.quantization.length].some((value) => value !== null && value !== undefined && value !== "" && value !== 0);
-    if (!meaningful) return "";
+  function snapshotStrip(lp) {
+    if (!hasSnapshot(lp)) return "";
+    const bits = [];
+    const downloads = compactNumber(lp.downloads);
+    const likes = compactNumber(lp.likes);
+    const params = parameterLabel(lp.parameter_count);
+    if (downloads !== null) bits.push(`<span><strong>${escapeHtml(downloads)}</strong> downloads</span>`);
+    if (likes !== null) bits.push(`<span><strong>${escapeHtml(likes)}</strong> likes</span>`);
+    if (params !== null) bits.push(`<span><strong>${escapeHtml(params)}</strong> params</span>`);
+    if (Array.isArray(lp.quantization) && lp.quantization.length) bits.push(`<span>${escapeHtml(lp.quantization[0])}</span>`);
+    if (lp.pipeline_tag) bits.push(`<span>${escapeHtml(String(lp.pipeline_tag).replaceAll("-", " "))}</span>`);
+    else if (lp.model_type) bits.push(`<span>${escapeHtml(lp.model_type)}</span>`);
+    if (!bits.length) return "";
+    return `<div class="snapshot-strip" aria-label="Last public snapshot"><span class="snapshot-label">Last public</span>${bits.slice(0, 5).join("")}</div>`;
+  }
 
+  function snapshotDetail(lp) {
+    if (!hasSnapshot(lp)) return "";
     const metrics = [];
     const downloads = compactNumber(lp.downloads);
     const likes = compactNumber(lp.likes);
     const params = parameterLabel(lp.parameter_count);
     const storage = bytesLabel(lp.used_storage);
-    if (downloads !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(downloads)}</strong><span>HF DOWNLOADS</span></div>`);
-    if (likes !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(likes)}</strong><span>LIKES</span></div>`);
-    if (params !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(params)}</strong><span>PARAMETERS</span></div>`);
-    if (storage !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(storage)}</strong><span>STORAGE</span></div>`);
+    if (downloads !== null) metrics.push(`<div><strong>${escapeHtml(downloads)}</strong><span>HF downloads</span></div>`);
+    if (likes !== null) metrics.push(`<div><strong>${escapeHtml(likes)}</strong><span>Likes</span></div>`);
+    if (params !== null) metrics.push(`<div><strong>${escapeHtml(params)}</strong><span>Parameters</span></div>`);
+    if (storage !== null) metrics.push(`<div><strong>${escapeHtml(storage)}</strong><span>Storage</span></div>`);
 
-    const tags = [];
-    if (lp.pipeline_tag) tags.push(`TASK ${String(lp.pipeline_tag).replaceAll("-", " ")}`);
-    if (lp.model_type) tags.push(`TYPE ${lp.model_type}`);
-    if (Array.isArray(lp.architectures)) lp.architectures.slice(0, 2).forEach((value) => tags.push(`ARCH ${value}`));
-    if (lp.library_name) tags.push(`LIB ${lp.library_name}`);
-    if (Array.isArray(lp.formats)) lp.formats.forEach((value) => tags.push(`FORMAT ${value}`));
-    if (Array.isArray(lp.quantization)) lp.quantization.forEach((value) => tags.push(`QUANT ${value}`));
-    if (lp.license) tags.push(`LICENSE ${lp.license}`);
+    const rows = [];
+    if (lp.pipeline_tag) rows.push(["Task", String(lp.pipeline_tag).replaceAll("-", " ")]);
+    if (lp.model_type) rows.push(["Type", lp.model_type]);
+    if (Array.isArray(lp.architectures) && lp.architectures.length) rows.push(["Architecture", lp.architectures.slice(0, 3).join(", ")]);
+    if (lp.library_name) rows.push(["Library", lp.library_name]);
+    if (Array.isArray(lp.formats) && lp.formats.length) rows.push(["Format", lp.formats.join(", ")]);
+    if (Array.isArray(lp.quantization) && lp.quantization.length) rows.push(["Quantization", lp.quantization.join(", ")]);
+    if (lp.license) rows.push(["License", lp.license]);
+    if (Array.isArray(lp.base_models) && lp.base_models.length) rows.push(["Base", lp.base_models.slice(0, 3).join(", ")]);
+    if (lp.namespace) rows.push(["Namespace", lp.namespace]);
+    if (lp.last_modified) rows.push(["Hub modified", dateOnly(lp.last_modified)]);
+    if (lp.checked_at) rows.push(["Captured", dateOnly(lp.checked_at)]);
 
-    const context = [];
-    if (lp.namespace) context.push(`namespace ${lp.namespace}`);
-    if (Array.isArray(lp.base_models) && lp.base_models.length) context.push(`base ${lp.base_models.slice(0, 2).join(", ")}`);
-    if (lp.last_modified) context.push(`Hub modified ${dateOnly(lp.last_modified)}`);
-
-    return `<section class="last-public">
-      <div class="snapshot-head"><strong>LAST PUBLIC SNAPSHOT</strong><span>${lp.checked_at ? `captured ${escapeHtml(dateOnly(lp.checked_at))}` : "historical metadata"}</span></div>
-      ${metrics.length ? `<div class="snapshot-metrics">${metrics.join("")}</div>` : ""}
-      ${tags.length ? `<div class="snapshot-tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>` : ""}
-      ${context.length ? `<div class="snapshot-context">${escapeHtml(context.join(" · "))}</div>` : ""}
-    </section>`;
+    return `<div class="profile-card">
+      ${metrics.length ? `<div class="profile-metrics">${metrics.join("")}</div>` : ""}
+      ${rows.length ? `<dl class="profile-list">${rows.map(([k, v]) => `<div><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join("")}</dl>` : ""}
+    </div>`;
   }
 
   function filteredEvents() {
@@ -178,8 +201,8 @@
   function evidenceBits(event) {
     const forensic = forensicFor(event.id) || {};
     const bits = [];
-    if (exactArchive(event)) bits.push("Snapshot");
-    else if (event.wayback_url) bits.push("Archive");
+    if (exactArchive(event)) bits.push("Archive");
+    else if (event.wayback_url) bits.push("Wayback");
     if (hasManifest(event)) bits.push("Manifest");
     const commits = Array.isArray(forensic.commits) ? forensic.commits.length : 0;
     const discussions = Array.isArray(forensic.discussions) ? forensic.discussions.length : 0;
@@ -197,6 +220,8 @@
     byId("statEvents").textContent = state.events.length.toLocaleString();
     byId("statVanished").textContent = vanished.toLocaleString();
     byId("statReasoned").textContent = reasoned.toLocaleString();
+    byId("statRestricted").textContent = restricted.toLocaleString();
+    byId("statRestored").textContent = restored.toLocaleString();
     byId("statIncidents").textContent = state.incidents.length.toLocaleString();
     byId("statRescued").textContent = Number(state.recoverySummary.rescued || 0).toLocaleString();
     byId("statWatched").textContent = state.watchedCount == null ? "—" : state.watchedCount.toLocaleString();
@@ -258,21 +283,24 @@
     if (lp.license) ctx.push(`license ${lp.license}`);
 
     const recoveryBits = [];
-    if (recovery && recovery.preservation) recoveryBits.push(`Preservation: ${escapeHtml(preservationLabel(recovery.preservation))}`);
+    if (recovery && recovery.preservation) recoveryBits.push(`Preservation: ${preservationLabel(recovery.preservation)}`);
+    if (pf && pf.seeders != null) recoveryBits.push(`${pf.seeders} seeder${Number(pf.seeders) === 1 ? "" : "s"}`);
     const recoveryLinks = [];
     if (event.wayback_url) recoveryLinks.push(`<a class="action" href="${escapeHtml(event.wayback_url)}" rel="noopener noreferrer">Wayback</a>`);
     if (pf && pf.url) recoveryLinks.push(`<a class="action" href="${escapeHtml(pf.url)}" rel="noopener noreferrer">Pirate Face</a>`);
     if (pf && pf.magnet) recoveryLinks.push(`<button type="button" class="action copy-magnet" data-magnet="${encodeURIComponent(pf.magnet)}">Copy magnet</button>`);
     if (frost && frost.app_url) recoveryLinks.push(`<a class="action" href="${escapeHtml(frost.app_url)}" rel="noopener noreferrer">FrostByte</a>`);
-    if (pf && pf.seeders != null) recoveryBits.push(`${escapeHtml(pf.seeders)} seeder${Number(pf.seeders) === 1 ? "" : "s"}`);
 
     const incidentBlock = incident
-      ? `<div>
-          <h3>Incident</h3>
-          <p class="incident-id">${escapeHtml(incident.id)}</p>
-          <p>${escapeHtml(incident.models.length)} models · ${escapeHtml(((incident.signals || [])[0] && (incident.signals[0].window_hours)) || 24)}h window</p>
+      ? `<section class="evidence-section">
+          <h3>Incident correlation</h3>
+          <p><span class="incident-id">${escapeHtml(incident.id)}</span> · ${escapeHtml(incident.models.length)} models · ${escapeHtml(((incident.signals || [])[0] && incident.signals[0].window_hours) || 24)}h window</p>
           <p class="correlation-note">Correlation signal only. Does not establish cause or coordination.</p>
-        </div>`
+        </section>`
+      : "";
+
+    const profileBlock = hasSnapshot(lp)
+      ? `<section class="evidence-section evidence-wide"><h3>Last public model profile</h3>${snapshotDetail(lp)}</section>`
       : "";
 
     return `
@@ -280,47 +308,50 @@
         Evidence ${open ? "▴" : "▾"}
       </button>
       <div class="evidence-wrap${open ? " open" : ""}" id="${panelId}">
-        <div class="evidence-inner">
-          <div class="evidence-panel">
-            <div>
-              <h3>Why</h3>
-              <p>${escapeHtml(reason.summary || "No public source documenting the cause has been recorded.")}${sourced ? ` <span class="empty">(${escapeHtml(reasonMeta(reason))})</span>` : ""}</p>
-              ${forensic && forensic.reason_signals_note ? `<p class="empty">${escapeHtml(forensic.reason_signals_note)}</p>` : ""}
-            </div>
-            <div>
-              <h3>Public sources</h3>
-              ${sourceList}
-            </div>
-            <div>
-              <h3>Forensic context</h3>
-              <p class="ctx-line">${escapeHtml(ctx.join(" · "))}</p>
-              ${discussionList}
-              ${commitList}
-              ${timeline.length ? `<p class="empty">${timeline.length} timeline entries captured.</p>` : ""}
-            </div>
-            <div>
-              <h3>Identity</h3>
-              ${hashRow("Evidence SHA", forensic && forensic.evidence_sha256)}
-              ${hashRow("Manifest root", (manifest && manifest.root_sha256) || (forensic && forensic.manifest_root_sha256))}
-              ${hashRow("Hub revision", hubRevision(event))}
-              ${hashRow("Model card SHA", forensic && forensic.readme_sha256)}
-              ${!(forensic && forensic.evidence_sha256) && !(manifest && manifest.root_sha256) && !hubRevision(event) ? `<p class="empty">No hash identity recorded yet.</p>` : ""}
-            </div>
-            ${incidentBlock}
-            <div>
-              <h3>Recovery</h3>
-              ${recoveryBits.length ? `<p class="ctx-line">${recoveryBits.join(" · ")}</p>` : `<p class="empty">No verified surviving copy recorded.</p>`}
-              ${recoveryLinks.length ? `<div class="recovery-links">${recoveryLinks.join("")}</div>` : ""}
-            </div>
-          </div>
+        <div class="evidence-panel">
+          ${profileBlock}
+          <section class="evidence-section">
+            <h3>Why</h3>
+            <p>${escapeHtml(reason.summary || "No public source documenting the cause has been recorded.")}${sourced ? ` <span class="empty">(${escapeHtml(reasonMeta(reason))})</span>` : ""}</p>
+            ${forensic && forensic.reason_signals_note ? `<p class="empty">${escapeHtml(forensic.reason_signals_note)}</p>` : ""}
+          </section>
+          <section class="evidence-section">
+            <h3>Public sources</h3>
+            ${sourceList}
+          </section>
+          <section class="evidence-section evidence-wide">
+            <h3>Forensic context</h3>
+            <p class="ctx-line">${escapeHtml(ctx.join(" · "))}</p>
+            ${discussionList}
+            ${commitList}
+            ${timeline.length ? `<p class="empty">${timeline.length} timeline entries captured.</p>` : ""}
+          </section>
+          <section class="evidence-section evidence-wide">
+            <h3>Identity</h3>
+            ${hashRow("Evidence SHA", forensic && forensic.evidence_sha256)}
+            ${hashRow("Manifest root", (manifest && manifest.root_sha256) || (forensic && forensic.manifest_root_sha256))}
+            ${hashRow("Hub revision", hubRevision(event))}
+            ${hashRow("Model card SHA", forensic && forensic.readme_sha256)}
+            ${!(forensic && forensic.evidence_sha256) && !(manifest && manifest.root_sha256) && !hubRevision(event) ? `<p class="empty">No hash identity recorded yet.</p>` : ""}
+          </section>
+          ${incidentBlock}
+          <section class="evidence-section">
+            <h3>Recovery</h3>
+            ${recoveryBits.length ? `<p class="ctx-line">${escapeHtml(recoveryBits.join(" · "))}</p>` : `<p class="empty">No verified surviving copy recorded.</p>`}
+            ${recoveryLinks.length ? `<div class="recovery-links">${recoveryLinks.join("")}</div>` : ""}
+          </section>
         </div>
       </div>`;
   }
 
   function render() {
-    const rows = filteredEvents(); updateStats();
+    const rows = filteredEvents();
+    updateStats();
     byId("meta").textContent = `${rows.length} shown · ${state.events.length} recorded · scan ${relativeTime(state.generatedAt)}`;
-    if (!rows.length) { byId("feed").innerHTML = '<article class="item muted">No recorded events match.</article>'; return; }
+    if (!rows.length) {
+      byId("feed").innerHTML = '<article class="item muted">No recorded events match.</article>';
+      return;
+    }
 
     byId("feed").innerHTML = rows.map((event) => {
       const rawStatus = String(event.status || "UNKNOWN").toUpperCase();
@@ -331,27 +362,24 @@
       const reason = (forensic && forensic.reason) || { status: "UNKNOWN" };
       const incident = incidentFor(event.id);
       const bits = evidenceBits(event);
+      const caseBits = [`<span class="case-chip reason">${escapeHtml(reasonMeta(reason))}</span>`];
+      bits.slice(0, 3).forEach((bit) => caseBits.push(`<span class="case-chip">${escapeHtml(bit)}</span>`));
+      if (incident) caseBits.push('<span class="case-chip incident">Incident cluster</span>');
 
       return `<article class="item" id="${modelAnchor(event.id)}">
         <div class="item-top">
-          <div class="id">${escapeHtml(event.id || "unknown")}</div>
+          <div class="model-head">
+            <div class="id">${escapeHtml(event.id || "unknown")}</div>
+            <span class="badge ${chipClass[rawStatus] || ""}">${escapeHtml(current)}</span>
+          </div>
           <div class="detected">${escapeHtml(dateOnly(event.detected_at))}</div>
         </div>
-        <span class="badge ${chipClass[rawStatus] || ""}">${escapeHtml(current)}</span>
-        <div class="transition">
-          <span><span class="lbl">Before</span><span class="before">${escapeHtml(before(event))}</span></span>
-          <span class="arrow" aria-hidden="true">→</span>
-          <span><span class="lbl">Now</span><span class="now">${escapeHtml(current)}</span></span>
-        </div>
+        <div class="transition"><span class="lbl">Before</span><span class="before">${escapeHtml(before(event))}</span><span class="arrow">→</span><span class="lbl">Now</span><span class="now">${escapeHtml(current)}</span></div>
         <p class="summary">${escapeHtml(event.summary || "Observed availability change.")}</p>
-        <div class="meta-rows">
-          <div><span class="k">Reason</span> ${escapeHtml(reasonMeta(reason))}</div>
-          <div><span class="k">Evidence</span> ${escapeHtml(bits.length ? bits.join(" · ") : "None recorded")}</div>
-          ${incident ? `<div><span class="k">Incident</span> <span class="incident-id">${escapeHtml(incident.id)}</span></div>` : ""}
-        </div>
-        ${snapshotBlock(lp)}
+        ${snapshotStrip(lp)}
+        <div class="case-meta">${caseBits.join("")}</div>
         <div class="actions">
-          ${event.hf_url ? `<a class="action" href="${escapeHtml(event.hf_url)}" rel="noopener noreferrer">Current Hub</a>` : ""}
+          ${event.hf_url ? `<a class="action" href="${escapeHtml(event.hf_url)}" rel="noopener noreferrer">Open Hub</a>` : ""}
           <a class="action" href="${escapeHtml(mirrorSearchUrl(event.id))}" rel="noopener noreferrer">Find copies</a>
           ${evidencePanel(event)}
         </div>
@@ -409,15 +437,23 @@
     const copyHash = event.target.closest(".copy-hash");
     if (copyHash) {
       const value = copyHash.getAttribute("data-copy") || "";
-      try { await navigator.clipboard.writeText(value); copyHash.textContent = "Copied"; copyHash.classList.add("copied"); setTimeout(() => { copyHash.textContent = "Copy"; copyHash.classList.remove("copied"); }, 1600); }
-      catch { window.prompt("Copy hash:", value); }
+      try {
+        await navigator.clipboard.writeText(value);
+        copyHash.textContent = "Copied";
+        copyHash.classList.add("copied");
+        setTimeout(() => { copyHash.textContent = "Copy"; copyHash.classList.remove("copied"); }, 1600);
+      } catch { window.prompt("Copy hash:", value); }
       return;
     }
     const magnet = event.target.closest(".copy-magnet");
     if (!magnet) return;
-    const value = decodeURIComponent(magnet.dataset.magnet || ""); if (!value) return;
-    try { await navigator.clipboard.writeText(value); magnet.textContent = "Magnet copied"; setTimeout(() => { magnet.textContent = "Copy magnet"; }, 1800); }
-    catch { window.prompt("Copy this magnet into FrostByte or another torrent client:", value); }
+    const value = decodeURIComponent(magnet.dataset.magnet || "");
+    if (!value) return;
+    try {
+      await navigator.clipboard.writeText(value);
+      magnet.textContent = "Magnet copied";
+      setTimeout(() => { magnet.textContent = "Copy magnet"; }, 1800);
+    } catch { window.prompt("Copy this magnet into FrostByte or another torrent client:", value); }
   });
 
   const optionalJson = (url) => fetch(url, { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null);
@@ -442,12 +478,18 @@
     }));
     state.watchedCount = Number(state.recoverySummary.watched || 0) || (snapshot && snapshot.models ? Object.keys(snapshot.models).length : null);
     render();
+
     if (location.hash.length > 1) {
-      const element = document.getElementById(location.hash.slice(1));
+      const hashId = location.hash.slice(1);
+      const element = document.getElementById(hashId);
       if (element) {
         element.classList.add("focus-card");
-        const id = decodeURIComponent(location.hash.slice(1));
-        if (state.events.some((row) => row.id === id)) { state.expanded.add(id); render(); document.getElementById(location.hash.slice(1))?.classList.add("focus-card"); }
+        const id = decodeURIComponent(hashId);
+        if (state.events.some((row) => row.id === id)) {
+          state.expanded.add(id);
+          render();
+          document.getElementById(hashId)?.classList.add("focus-card");
+        }
       }
     }
   }).catch((error) => {
