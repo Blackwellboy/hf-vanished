@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-16T21:18:35Z",
+  "generated_at": "2026-09-17T04:53:56Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -334,7 +334,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "76f454c346937f39146d515b89f87dd12bcf9d57",
+      "revision": "e27a8ef3a4b3ca74738d79ad1046c59ae4a6423f",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -356,7 +356,7 @@
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "89230607b3708bc1efe174e8fd34d4b164476c88",
+      "revision": "c02caef111a8acf987947f35e1e288aa5450e184",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -367,7 +367,7 @@
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "20fdadf6a713f7a4d52202e7d74a51f4355b44e6",
+      "revision": "c6b3770b677093fafc44a801c23c9f88c41df93a",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -424,7 +424,7 @@
     "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
       "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "visibility": "public",
-      "revision": "cc0d4ceb9b4936d483f99d669425b9ae304fcd22",
+      "revision": "a07c606ff200709e7094b1469aa8a1d9028720c9",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -435,7 +435,7 @@
     "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "visibility": "public",
-      "revision": "a09698bb675f0e1b2a2aaacda8f9b36395fb11d0",
+      "revision": "4e27a31558d0abc987bc57c1c9e31d6f4a3005e2",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -718,7 +718,7 @@
     "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF": {
       "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "d9c8ef6d8b53e4077fe2b45f2810769d44f7b0c5",
+      "revision": "239aff92a0f9991eed5639ff160371ef84a67ddd",
       "license": "other",
       "pipeline_tag": "text-generation"
     },
