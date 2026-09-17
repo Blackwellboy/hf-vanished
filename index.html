@@ -19,7 +19,7 @@
   <main>
     <header class="hero">
       <div class="hero-top">
-        <p class="eyebrow">Blackwellboy / Forensic Minimal</p>
+        <p class="eyebrow">Blackwellboy / HF Vanished</p>
         <a class="report" href="https://github.com/Blackwellboy/hf-vanished/issues/new?template=report-model.yml">Report a model</a>
       </div>
       <h1>HF VANISHED</h1>
@@ -32,14 +32,16 @@
       <section class="stats" aria-label="Primary stats">
         <div class="stat"><strong id="statEvents">—</strong><span>Changes recorded</span></div>
         <div class="stat"><strong id="statWatched">—</strong><span>Models watched</span></div>
-        <div class="stat"><strong id="statReasoned">—</strong><span>Sourced reasons</span></div>
+        <div class="stat"><strong id="statVanished">—</strong><span>Vanished / hard</span></div>
         <div class="stat"><strong id="statScan">—</strong><span>Last scan</span></div>
       </section>
 
       <details class="dataset-stats">
         <summary>Dataset stats</summary>
         <div class="dataset-stats-grid" aria-label="Secondary stats">
-          <div class="stat sub"><strong id="statVanished">—</strong><span>Vanished / hard</span></div>
+          <div class="stat sub"><strong id="statRestricted">—</strong><span>Restricted</span></div>
+          <div class="stat sub"><strong id="statRestored">—</strong><span>Restored</span></div>
+          <div class="stat sub"><strong id="statReasoned">—</strong><span>Sourced reasons</span></div>
           <div class="stat sub"><strong id="statIncidents">—</strong><span>Correlation clusters</span></div>
           <div class="stat sub"><strong id="statRescued">—</strong><span>Rescued / P2P</span></div>
         </div>
@@ -98,8 +100,8 @@
       <article class="item muted">Loading evidence…</article>
     </section>
 
-    <section class="principles">
-      <h2>What the labels mean</h2>
+    <details class="principles">
+      <summary>How HF Vanished works &amp; what the labels mean</summary>
       <div class="principle-grid">
         <div><strong>Vanished</strong><p>Disabled, deleted, auth-required/private after prior public evidence, or model files removed.</p></div>
         <div><strong>Last public snapshot</strong><p>The final confirmed public profile is frozen before a later disappearance: Hub downloads/likes, task/type, architecture, parameters when exposed, format, quantization metadata, license and revision. Missing historical fields stay unknown.</p></div>
@@ -126,7 +128,7 @@
         <a href="data/provenance.json">Signed-digest index</a>
         <a href="https://github.com/Blackwellboy/hf-vanished/blob/main/docs/FORENSICS.md">Forensic method</a>
       </p>
-    </section>
+    </details>
 
     <footer>
       <span>Facts · timestamps · sources · hashes · correlation ≠ causation</span>
