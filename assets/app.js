@@ -62,6 +62,29 @@
     const status = String((reason && reason.status) || "UNKNOWN").toUpperCase();
     return status === "UNKNOWN" ? "WHY UNKNOWN" : `WHY ${category} · ${status}`;
   }
+  function finiteNumber(value) { return typeof value === "number" && Number.isFinite(value); }
+  function compactNumber(value) {
+    if (!finiteNumber(value)) return null;
+    const abs = Math.abs(value);
+    if (abs >= 1e9) return `${(value / 1e9).toFixed(abs >= 1e11 ? 0 : 1).replace(/\.0$/, "")}B`;
+    if (abs >= 1e6) return `${(value / 1e6).toFixed(abs >= 1e8 ? 0 : 1).replace(/\.0$/, "")}M`;
+    if (abs >= 1e3) return `${(value / 1e3).toFixed(abs >= 1e5 ? 0 : 1).replace(/\.0$/, "")}K`;
+    return value.toLocaleString();
+  }
+  function parameterLabel(value) {
+    if (!finiteNumber(value)) return null;
+    if (value >= 1e12) return `${(value / 1e12).toFixed(2).replace(/0+$/, "").replace(/\.$/, "")}T`;
+    if (value >= 1e9) return `${(value / 1e9).toFixed(2).replace(/0+$/, "").replace(/\.$/, "")}B`;
+    if (value >= 1e6) return `${(value / 1e6).toFixed(1).replace(/\.0$/, "")}M`;
+    return compactNumber(value);
+  }
+  function bytesLabel(value) {
+    if (!finiteNumber(value) || value < 0) return null;
+    const units = ["B", "KB", "MB", "GB", "TB"];
+    let n = value, i = 0;
+    while (n >= 1024 && i < units.length - 1) { n /= 1024; i += 1; }
+    return `${n >= 100 || i === 0 ? n.toFixed(0) : n.toFixed(1).replace(/\.0$/, "")} ${units[i]}`;
+  }
 
   function filteredEvents() {
     const query = state.q.trim().toLowerCase();
@@ -71,7 +94,10 @@
       if (!query) return true;
       const forensic = forensicFor(event.id) || {};
       const reason = forensic.reason || {};
-      return `${event.id || ""} ${event.summary || ""} ${event.status || ""} ${reason.category || ""} ${reason.summary || ""}`.toLowerCase().includes(query);
+      const recovery = recoveryFor(event.id) || {};
+      const lp = recovery.last_public || event.last_public || {};
+      const profile = [lp.pipeline_tag, lp.model_type, lp.library_name, ...(lp.architectures || []), ...(lp.formats || []), ...(lp.quantization || []), lp.license, lp.namespace].filter(Boolean).join(" ");
+      return `${event.id || ""} ${event.summary || ""} ${event.status || ""} ${reason.category || ""} ${reason.summary || ""} ${profile}`.toLowerCase().includes(query);
     });
   }
 
@@ -89,6 +115,43 @@
     byId("countAll").textContent = state.events.length;
     byId("countVanished").textContent = vanished;
     byId("countRestricted").textContent = restricted;
+  }
+
+  function snapshotBlock(lp) {
+    if (!lp || typeof lp !== "object") return "";
+    const meaningful = [lp.checked_at, lp.downloads, lp.likes, lp.pipeline_tag, lp.model_type, lp.parameter_count, lp.formats && lp.formats.length, lp.quantization && lp.quantization.length].some((value) => value !== null && value !== undefined && value !== "" && value !== 0);
+    if (!meaningful) return "";
+
+    const metrics = [];
+    const downloads = compactNumber(lp.downloads);
+    const likes = compactNumber(lp.likes);
+    const params = parameterLabel(lp.parameter_count);
+    const storage = bytesLabel(lp.used_storage);
+    if (downloads !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(downloads)}</strong><span>HF DOWNLOADS</span></div>`);
+    if (likes !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(likes)}</strong><span>LIKES</span></div>`);
+    if (params !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(params)}</strong><span>PARAMETERS</span></div>`);
+    if (storage !== null) metrics.push(`<div class="snapshot-metric"><strong>${escapeHtml(storage)}</strong><span>STORAGE</span></div>`);
+
+    const tags = [];
+    if (lp.pipeline_tag) tags.push(`TASK ${String(lp.pipeline_tag).replaceAll("-", " ")}`);
+    if (lp.model_type) tags.push(`TYPE ${lp.model_type}`);
+    if (Array.isArray(lp.architectures)) lp.architectures.slice(0, 2).forEach((value) => tags.push(`ARCH ${value}`));
+    if (lp.library_name) tags.push(`LIB ${lp.library_name}`);
+    if (Array.isArray(lp.formats)) lp.formats.forEach((value) => tags.push(`FORMAT ${value}`));
+    if (Array.isArray(lp.quantization)) lp.quantization.forEach((value) => tags.push(`QUANT ${value}`));
+    if (lp.license) tags.push(`LICENSE ${lp.license}`);
+
+    const context = [];
+    if (lp.namespace) context.push(`namespace ${lp.namespace}`);
+    if (Array.isArray(lp.base_models) && lp.base_models.length) context.push(`base ${lp.base_models.slice(0, 2).join(", ")}`);
+    if (lp.last_modified) context.push(`Hub modified ${dateOnly(lp.last_modified)}`);
+
+    return `<section class="last-public">
+      <div class="snapshot-head"><strong>LAST PUBLIC SNAPSHOT</strong><span>${lp.checked_at ? `captured ${escapeHtml(dateOnly(lp.checked_at))}` : "historical metadata"}</span></div>
+      ${metrics.length ? `<div class="snapshot-metrics">${metrics.join("")}</div>` : ""}
+      ${tags.length ? `<div class="snapshot-tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>` : ""}
+      ${context.length ? `<div class="snapshot-context">${escapeHtml(context.join(" · "))}</div>` : ""}
+    </section>`;
   }
 
   function forensicBlock(event) {
@@ -151,7 +214,6 @@
 
       const technical = [];
       if (event.curr && event.curr.http != null) technical.push(`HTTP ${escapeHtml(event.curr.http)}`);
-      if (lp.license) technical.push(`LICENSE ${escapeHtml(lp.license)}`);
       if (lp.sha) technical.push(`REV ${escapeHtml(shortSha(lp.sha))}`);
       if (pf && pf.seeders != null) technical.push(`${escapeHtml(pf.seeders)} SEEDER${Number(pf.seeders) === 1 ? "" : "S"}`);
       const recoveryChip = `<span class="preservation ${preservationClass[pres] || "unknown"}">${escapeHtml(preservationLabel(pres))}</span>`;
@@ -164,6 +226,7 @@
         <div class="transition"><div class="state-box before"><small>BEFORE</small><strong>${escapeHtml(before(event))}</strong></div><div class="arrow">→</div><div class="state-box now"><small>NOW</small><strong>${escapeHtml(current)}</strong></div></div>
         <div class="summary">${escapeHtml(event.summary || "Observed availability change.")}</div>
         ${technical.length ? `<div class="technical">${technical.join(" · ")}</div>` : ""}
+        ${snapshotBlock(lp)}
         ${forensicBlock(event)}
         <div class="actions">${links.join("")}</div>
       </article>`;
