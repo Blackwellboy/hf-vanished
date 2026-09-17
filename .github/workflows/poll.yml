@@ -95,6 +95,17 @@ jobs:
           assert status.get('schema') == 'hf-vanished.status.v1'
           assert isinstance(status.get('models'), dict)
           assert status.get('summary', {}).get('watched') == len(state['models'])
+          integrations_models = status.get('models', {})
+          public_profiles = 0
+          for mid, rec in state['models'].items():
+              if rec.get('visibility') == 'public' and not rec.get('disabled'):
+                  lp = rec.get('last_public')
+                  assert isinstance(lp, dict) and lp.get('checked_at'), f'{mid}: last_public snapshot missing'
+                  assert 'downloads' in lp and 'likes' in lp, f'{mid}: popularity fields missing'
+                  assert mid in integrations_models, f'{mid}: status feed row missing'
+                  feed_lp = integrations_models[mid].get('last_public') or {}
+                  assert feed_lp.get('checked_at'), f'{mid}: status last_public missing'
+                  public_profiles += 1
           assert integrations.get('schema') == 'hf-vanished.integrations.v1'
           assert isinstance(integrations.get('pirateface', {}).get('models'), dict)
           assert reasons.get('schema') == 'hf-vanished.reasons.v1'
@@ -118,8 +129,9 @@ jobs:
               assert rec.get('evidence_sha256'), f'{mid}: evidence hash missing'
           print(
               f"events={len(events['events'])} watched={len(state['models'])} "
-              f"evidence={len(evidence['models'])} incidents={len(incidents['incidents'])} "
-              f"lineage_edges={len(lineage['edges'])} sourced_reasons={analytics['summary']['sourced_reasons']} "
+              f"public_profiles={public_profiles} evidence={len(evidence['models'])} "
+              f"incidents={len(incidents['incidents'])} lineage_edges={len(lineage['edges'])} "
+              f"sourced_reasons={analytics['summary']['sourced_reasons']} "
               f"provenance={provenance['root_sha256'][:12]} "
               f"rescued={status.get('summary', {}).get('rescued', 0)} "
               f"pf_cached={len(integrations['pirateface']['models'])}"
