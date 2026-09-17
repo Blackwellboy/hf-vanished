@@ -39,6 +39,122 @@ def _base_models_from_payload(payload: dict) -> list[str]:
     return []
 
 
+def _config_from_payload(payload: dict) -> dict:
+    value = payload.get("config")
+    return value if isinstance(value, dict) else {}
+
+
+def _architectures_from_payload(payload: dict) -> list[str]:
+    config = _config_from_payload(payload)
+    value = config.get("architectures")
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        return [str(x) for x in value if x]
+    return []
+
+
+def _parameter_count_from_payload(payload: dict) -> int | None:
+    """Best-effort public parameter count without inventing one."""
+    safetensors = payload.get("safetensors")
+    if isinstance(safetensors, dict):
+        total = safetensors.get("total")
+        if isinstance(total, (int, float)) and total >= 0:
+            return int(total)
+        parameters = safetensors.get("parameters")
+        if isinstance(parameters, dict):
+            values = [v for v in parameters.values() if isinstance(v, (int, float)) and v >= 0]
+            if values:
+                return int(sum(values))
+    config = _config_from_payload(payload)
+    for key in ("num_parameters", "n_parameters", "parameter_count"):
+        value = config.get(key)
+        if isinstance(value, (int, float)) and value >= 0:
+            return int(value)
+    return None
+
+
+def _formats_from_files(weight_files: list[str]) -> list[str]:
+    mapping = (
+        (".safetensors", "safetensors"),
+        (".gguf", "gguf"),
+        (".bin", "pytorch-bin"),
+        (".pt", "pytorch-pt"),
+        (".pth", "pytorch-pth"),
+        (".ckpt", "checkpoint"),
+        (".msgpack", "msgpack"),
+    )
+    out: list[str] = []
+    seen: set[str] = set()
+    for name in weight_files:
+        low = str(name).lower()
+        for suffix, label in mapping:
+            if low.endswith(suffix) and label not in seen:
+                seen.add(label)
+                out.append(label)
+                break
+    return out
+
+
+def _quantization_from_payload(payload: dict) -> list[str]:
+    """Only retain quantization hints explicitly exposed by public metadata."""
+    out: list[str] = []
+    seen: set[str] = set()
+
+    def add(value: object) -> None:
+        if value is None:
+            return
+        label = str(value).strip()
+        if not label:
+            return
+        key = label.lower()
+        if key not in seen:
+            seen.add(key)
+            out.append(label)
+
+    config = _config_from_payload(payload)
+    quant = config.get("quantization_config") or payload.get("quantization_config")
+    if isinstance(quant, dict):
+        method = quant.get("quant_method") or quant.get("quantization_method") or quant.get("method")
+        bits = quant.get("bits")
+        if method and isinstance(bits, (int, float, str)):
+            add(f"{str(method).upper()} {bits}-bit")
+        elif method:
+            add(str(method).upper())
+
+    known = (
+        ("awq", "AWQ"),
+        ("gptq", "GPTQ"),
+        ("exl2", "EXL2"),
+        ("exl3", "EXL3"),
+        ("bitsandbytes", "bitsandbytes"),
+        ("bnb-4bit", "BNB 4-bit"),
+        ("bnb-8bit", "BNB 8-bit"),
+        ("nf4", "NF4"),
+        ("fp8", "FP8"),
+        ("fp4", "FP4"),
+        ("int4", "INT4"),
+        ("int8", "INT8"),
+    )
+    tags = [str(x).lower() for x in (payload.get("tags") or []) if isinstance(x, str)]
+    for token, label in known:
+        if any(token in tag for tag in tags):
+            add(label)
+    return out
+
+
+def _public_snapshot(snap: dict) -> dict:
+    """Fields frozen on the most recent confirmed public observation."""
+    keys = (
+        "checked_at", "downloads", "likes", "sha", "last_modified", "license",
+        "pipeline_tag", "library_name", "model_type", "architectures", "base_models",
+        "author", "namespace", "parameter_count", "used_storage", "formats",
+        "quantization", "file_count", "weight_count", "weight_files",
+        "weight_files_truncated",
+    )
+    return {key: snap.get(key) for key in keys}
+
+
 def enriched_classify(code: int | None, payload: dict | None) -> dict:
     snap = _original_classify(code, payload)
     if code == 200 and isinstance(payload, dict):
@@ -48,11 +164,19 @@ def enriched_classify(code: int | None, payload: dict | None) -> dict:
             if isinstance(item, dict) and item.get("rfilename")
             and any(str(item.get("rfilename", "")).lower().endswith(ext) for ext in poll.WEIGHT_EXTS)
         ]
+        config = _config_from_payload(payload)
         snap.update({
             "license": _license_from_payload(payload),
             "pipeline_tag": payload.get("pipeline_tag"),
             "library_name": payload.get("library_name"),
+            "model_type": config.get("model_type"),
+            "architectures": _architectures_from_payload(payload),
             "base_models": _base_models_from_payload(payload),
+            "author": payload.get("author"),
+            "parameter_count": _parameter_count_from_payload(payload),
+            "used_storage": payload.get("usedStorage"),
+            "formats": _formats_from_files(weight_files),
+            "quantization": _quantization_from_payload(payload),
             "weight_files": weight_files[:MAX_WEIGHT_NAMES],
             "weight_files_truncated": max(0, len(weight_files) - MAX_WEIGHT_NAMES),
         })
@@ -62,8 +186,14 @@ def enriched_classify(code: int | None, payload: dict | None) -> dict:
 
 def enriched_fetch(model_id: str) -> dict:
     snap = _original_fetch(model_id)
+    snap["namespace"] = model_id.split("/", 1)[0] if "/" in model_id else None
     if snap.get("visibility") == "public" and not snap.get("disabled"):
         snap["last_public_checked_at"] = snap.get("checked_at")
+        # This nested object is deliberately absent from non-public responses.
+        # poll.py merges snapshots into the previous state instead of deleting
+        # unknown keys, so the final confirmed public profile survives a later
+        # 401/403/404/disabled observation unchanged.
+        snap["last_public"] = _public_snapshot(snap)
     return snap
 
 
@@ -155,16 +285,12 @@ def enrich_outputs() -> None:
         elif (event.get("curr") or {}).get("http") in (401, 403):
             event.setdefault("curr", {})["auth_required"] = True
 
-        if any(snap.get(k) is not None for k in ("sha", "license", "file_count", "weight_count", "weight_files")):
-            event["last_public"] = {
-                "checked_at": snap.get("last_public_checked_at"),
-                "sha": snap.get("sha"), "license": snap.get("license"),
-                "pipeline_tag": snap.get("pipeline_tag"), "library_name": snap.get("library_name"),
-                "base_models": snap.get("base_models") or [],
-                "file_count": snap.get("file_count"), "weight_count": snap.get("weight_count"),
-                "weight_files": snap.get("weight_files") or [],
-                "weight_files_truncated": snap.get("weight_files_truncated") or 0,
-            }
+        # Use only the nested profile captured during a confirmed public
+        # observation. Never relabel metadata from a disabled/private response
+        # as historical public evidence.
+        frozen = snap.get("last_public")
+        if isinstance(frozen, dict) and frozen:
+            event["last_public"] = frozen
     envelope["cadence"] = "17 */6 * * *"
     poll.save_json(poll.EVENTS_PATH, envelope)
 
