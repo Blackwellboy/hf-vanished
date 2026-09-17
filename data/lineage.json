@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-17T07:40:17Z",
+  "generated_at": "2026-09-17T11:42:27Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -287,7 +287,7 @@
     },
     "WizardLM/WizardCoder-15B-V1.0": {
       "id": "WizardLM/WizardCoder-15B-V1.0",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "9c177589dec389eac2c8de51cbc371d45e47984e",
       "license": "bigscience-openrail-m",
       "pipeline_tag": "text-generation"
@@ -416,7 +416,7 @@
     },
     "google/gemma-4-26B-A4B-it": {
       "id": "google/gemma-4-26B-A4B-it",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
@@ -466,7 +466,7 @@
     },
     "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced": {
       "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Balanced",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "9a28c2fbd15f21fb8ed204074c6f58d5bc889941",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
@@ -718,7 +718,7 @@
     "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF": {
       "id": "windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "239aff92a0f9991eed5639ff160371ef84a67ddd",
+      "revision": "c3365c410baa29bdd3d7cc8cbc2bf9bee0de2f3a",
       "license": "other",
       "pipeline_tag": "text-generation"
     },
@@ -996,7 +996,7 @@
     },
     "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF": {
       "id": "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "22aecf47eb6799afabd593f27781e5ccbda3af2e",
       "license": "mit",
       "pipeline_tag": null
@@ -1154,7 +1154,7 @@
     },
     "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
       "id": "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "d6a9b3a9532cc0070a4378877db7b6e295b5b782",
       "license": null,
       "pipeline_tag": null
@@ -1208,7 +1208,7 @@
     },
     "madhurjindal/Jailbreak-Detector": {
       "id": "madhurjindal/Jailbreak-Detector",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "93883e180f4d6585a0afae703095ba4a9ebce888",
       "license": "mit",
       "pipeline_tag": "text-classification"
@@ -1360,7 +1360,7 @@
     },
     "J1244/qwen2.5-jailbreak-Q8_0-GGUF": {
       "id": "J1244/qwen2.5-jailbreak-Q8_0-GGUF",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "fc1fd22aff8e8a2a2e3d3fa9b591832a02592d51",
       "license": "apache-2.0",
       "pipeline_tag": null
@@ -1482,7 +1482,7 @@
     },
     "FacebookAI/xlm-roberta-base": {
       "id": "FacebookAI/xlm-roberta-base",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
       "license": "mit",
       "pipeline_tag": "fill-mask"
@@ -1539,7 +1539,7 @@
     },
     "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5": {
       "id": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "ce8d0bf270b28c8fab026ced69fe8aa14b0f0eda",
       "license": null,
       "pipeline_tag": "text-generation"
@@ -1628,7 +1628,7 @@
     },
     "Qwen/Qwen3.6-35B-A3B-FP8": {
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "95a723d08a9490559dae23d0cff1d9466213d989",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
@@ -1866,7 +1866,7 @@
     },
     "mosaicml/mpt-30b": {
       "id": "mosaicml/mpt-30b",
-      "visibility": "private",
+      "visibility": "unknown",
       "revision": null,
       "license": null,
       "pipeline_tag": null
@@ -1996,7 +1996,7 @@
     },
     "huihui-ai/Qwen3-8B-abliterated": {
       "id": "huihui-ai/Qwen3-8B-abliterated",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
@@ -2032,6 +2032,38 @@
       "revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
       "license": "mit",
       "pipeline_tag": "fill-mask"
+    },
+    "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF": {
+      "id": "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF",
+      "visibility": "public",
+      "revision": "ff3af5719557150f553625b64fb8866fde796054",
+      "license": "mit",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "7e3bfc316b880fefeb049596f11c49d6a18e05fb",
+      "license": "other",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "RedTeamLab/Gemma-4-E2B-Sol-Traces-v1": {
+      "id": "RedTeamLab/Gemma-4-E2B-Sol-Traces-v1",
+      "visibility": "unknown",
+      "revision": null,
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Comfy-Org/z_image_turbo": {
+      "id": "Comfy-Org/z_image_turbo",
+      "visibility": "public",
+      "revision": "08d04455279082882deaabc8d0d09fc914c071e1",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Tongyi-MAI/Z-Image-Turbo": {
+      "id": "Tongyi-MAI/Z-Image-Turbo",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3039,6 +3071,27 @@
     {
       "from": "Sanraj/Qwen3-1.7B-jailbreak-finetuned",
       "to": "mradermacher/Qwen3-1.7B-jailbreak-finetuned-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ornith-ai/Ornith-1.5-9B",
+      "to": "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-Flash-Next",
+      "to": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Tongyi-MAI/Z-Image-Turbo",
+      "to": "Comfy-Org/z_image_turbo",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
