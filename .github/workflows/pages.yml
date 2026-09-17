@@ -29,10 +29,7 @@ jobs:
           mkdir -p _site/data
           cp index.html _site/
           cp -r assets _site/assets
-          cp data/events.json _site/data/events.json
-          cp data/state.json _site/data/state.json
-          cp data/status.json _site/data/status.json
-          cp data/integrations.json _site/data/integrations.json
+          cp data/*.json _site/data/
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5
