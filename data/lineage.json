@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-18T04:43:47Z",
+  "generated_at": "2026-09-18T11:15:19Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2075,6 +2075,17 @@
       "revision": "8b6416f56b92eb77ebc80ec7579992d700431198",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF": {
+      "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
+      "visibility": "public",
+      "revision": "3e10f00b6620562e28d5132e077d8cc61a568881",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored": {
+      "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3117,6 +3128,13 @@
     {
       "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "to": "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored",
+      "to": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
