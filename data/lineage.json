@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-19T04:37:37Z",
+  "generated_at": "2026-09-19T10:59:29Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -132,14 +132,14 @@
     },
     "black-forest-labs/FLUX.1-dev": {
       "id": "black-forest-labs/FLUX.1-dev",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
     "bigcode/starcoder": {
       "id": "bigcode/starcoder",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "827cd7721231872c152e3faef5cae1b22964ed58",
       "license": "bigcode-openrail-m",
       "pipeline_tag": "text-generation"
@@ -174,7 +174,7 @@
     },
     "runwayml/stable-diffusion-v1-5": {
       "id": "runwayml/stable-diffusion-v1-5",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
       "license": "creativeml-openrail-m",
       "pipeline_tag": "text-to-image"
@@ -195,7 +195,7 @@
     },
     "mlabonne/NeuralDaredevil-8B-abliterated": {
       "id": "mlabonne/NeuralDaredevil-8B-abliterated",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "6567010926ff93a5e9fb809534d61ab667a86674",
       "license": "llama3",
       "pipeline_tag": "text-generation"
@@ -377,7 +377,7 @@
     },
     "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive": {
       "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "0a41c68809d375475f954be12ba7c40efa56c2a9",
       "license": "apache-2.0",
       "pipeline_tag": null
@@ -403,7 +403,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "d8030e7b436e47abb4e24746a836e65cd358a3fd",
+      "revision": "6730ab1a80c0d0194df53edce2690e1030feedef",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -416,7 +416,7 @@
     },
     "google/gemma-4-26B-A4B-it": {
       "id": "google/gemma-4-26B-A4B-it",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "4d7ae4984b7db7de8f8457170b3f1a419ee76d52",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
@@ -488,7 +488,7 @@
     },
     "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
       "id": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "975adf14b2c7e68b5fd1dbf8fa896d50574f8731",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
@@ -629,7 +629,7 @@
     },
     "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF": {
       "id": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "994bb4e69663ec880a4d9a61604e6debc3a49b9a",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
@@ -1017,7 +1017,7 @@
     },
     "rafw007/qwen3-coder-next-80b-redteam-GGUF": {
       "id": "rafw007/qwen3-coder-next-80b-redteam-GGUF",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "dddcab7c496b8cbf9acf3f9301deac7e8b0c6f6d",
       "license": "other",
       "pipeline_tag": null
@@ -1064,7 +1064,7 @@
     },
     "RedTeamLab/Qwen3.5-4B-redteam-v4.1": {
       "id": "RedTeamLab/Qwen3.5-4B-redteam-v4.1",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "da254321778479247b67226fc5f19e2ac060e1af",
       "license": "apache-2.0",
       "pipeline_tag": null
@@ -1143,7 +1143,7 @@
     },
     "mradermacher/RedTeamer-v1-GGUF": {
       "id": "mradermacher/RedTeamer-v1-GGUF",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "0dfc6479897556f2a1e721c06e544ac36471f9fb",
       "license": null,
       "pipeline_tag": null
@@ -1154,7 +1154,7 @@
     },
     "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
       "id": "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "d6a9b3a9532cc0070a4378877db7b6e295b5b782",
       "license": null,
       "pipeline_tag": null
@@ -1518,7 +1518,7 @@
     },
     "BAAI/bge-reranker-v2-m3": {
       "id": "BAAI/bge-reranker-v2-m3",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
       "license": "apache-2.0",
       "pipeline_tag": "text-classification"
@@ -1671,7 +1671,7 @@
     },
     "sentence-transformers/paraphrase-multilingual-mpnet-base-v2": {
       "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
       "license": "apache-2.0",
       "pipeline_tag": "sentence-similarity"
@@ -1707,7 +1707,7 @@
     },
     "pyannote/speaker-diarization-3.1": {
       "id": "pyannote/speaker-diarization-3.1",
-      "visibility": "public",
+      "visibility": "unknown",
       "revision": "84fd25912480287da0247647c3d2b4853cb3ee5d",
       "license": "mit",
       "pipeline_tag": "automatic-speech-recognition"
@@ -1831,7 +1831,7 @@
     },
     "databricks/dolly-v2-12b": {
       "id": "databricks/dolly-v2-12b",
-      "visibility": "private",
+      "visibility": "unknown",
       "revision": null,
       "license": null,
       "pipeline_tag": null
@@ -1964,7 +1964,7 @@
     },
     "microsoft/WizardLM-2-8x22B": {
       "id": "microsoft/WizardLM-2-8x22B",
-      "visibility": "private",
+      "visibility": "unknown",
       "revision": null,
       "license": null,
       "pipeline_tag": null
@@ -2086,6 +2086,35 @@
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored": {
       "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored",
       "external_to_watchset": true
+    },
+    "mradermacher/Ornith-1.5-9B-uncensored-GGUF": {
+      "id": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
+      "visibility": "public",
+      "revision": "1041d1eabbce89549c1b6e28b52e972093e832a1",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "junafinity/Ornith-1.5-9B-uncensored": {
+      "id": "junafinity/Ornith-1.5-9B-uncensored",
+      "external_to_watchset": true
+    },
+    "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF": {
+      "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "visibility": "public",
+      "revision": "cca54a443b65eac50ad43fd5018818fbc8959a9d",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "s-zaizen/DeepSeek-V4.1-Flash-Abliterated": {
+      "id": "s-zaizen/DeepSeek-V4.1-Flash-Abliterated",
+      "external_to_watchset": true
+    },
+    "intfloat/multilingual-e5-base": {
+      "id": "intfloat/multilingual-e5-base",
+      "visibility": "public",
+      "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+      "license": "mit",
+      "pipeline_tag": "sentence-similarity"
     }
   },
   "edges": [
@@ -3135,6 +3164,20 @@
     {
       "from": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored",
       "to": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "junafinity/Ornith-1.5-9B-uncensored",
+      "to": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "s-zaizen/DeepSeek-V4.1-Flash-Abliterated",
+      "to": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
