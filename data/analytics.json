@@ -1,20 +1,20 @@
 {
   "schema": "hf-vanished.analytics.v1",
-  "generated_at": "2026-09-19T10:59:39Z",
+  "generated_at": "2026-09-19T15:54:50Z",
   "summary": {
-    "events": 47,
+    "events": 50,
     "restored": 0,
     "evidence_packets": 251,
     "sourced_reasons": 0,
     "unknown_reasons": 251,
     "known_reason_rate": 0.0,
-    "incident_clusters": 5
+    "incident_clusters": 6
   },
   "event_status": {
     "AUTH_REQUIRED": 37,
     "DELETED": 1,
     "DISABLED": 1,
-    "GATED": 8
+    "GATED": 11
   },
   "reason_status": {
     "UNKNOWN": 251
@@ -27,7 +27,7 @@
     "2024-08": 2,
     "2025-11": 3,
     "2025-12": 8,
-    "2026-09": 29
+    "2026-09": 32
   },
   "top_event_owners": [
     {
@@ -88,6 +88,18 @@
     },
     {
       "owner": "tencent",
+      "events": 1
+    },
+    {
+      "owner": "pyannote",
+      "events": 1
+    },
+    {
+      "owner": "bigcode",
+      "events": 1
+    },
+    {
+      "owner": "black-forest-labs",
       "events": 1
     },
     {

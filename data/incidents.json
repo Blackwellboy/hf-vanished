@@ -1,7 +1,26 @@
 {
   "schema": "hf-vanished.incidents.v1",
-  "generated_at": "2026-09-19T10:59:29Z",
+  "generated_at": "2026-09-19T15:54:28Z",
   "incidents": [
+    {
+      "id": "INC-4D54D57490",
+      "start": "2026-09-19T15:53:16Z",
+      "end": "2026-09-19T15:53:53Z",
+      "models": [
+        "black-forest-labs/FLUX.1-dev",
+        "bigcode/starcoder",
+        "pyannote/speaker-diarization-3.1"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 3,
+          "window_hours": 24
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    },
     {
       "id": "INC-F95B2AA3D3",
       "start": "2026-09-16T00:00:00Z",
