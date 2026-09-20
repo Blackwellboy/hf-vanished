@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-20T04:54:27Z",
+  "generated_at": "2026-09-20T11:25:09Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1117,7 +1117,10 @@
     },
     "Ironcybersec/foundation-sec-8b-red-team": {
       "id": "Ironcybersec/foundation-sec-8b-red-team",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "54481b6dd634d5a6e1d25e103bffd5b4e0e186b3",
+      "license": "other",
+      "pipeline_tag": "text-generation"
     },
     "mradermacher/redteam-lexi-rl-GGUF": {
       "id": "mradermacher/redteam-lexi-rl-GGUF",
@@ -2115,6 +2118,20 @@
       "revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
       "license": "mit",
       "pipeline_tag": "sentence-similarity"
+    },
+    "sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP": {
+      "id": "sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP",
+      "visibility": "public",
+      "revision": "0a3ba25350b8a48d7b78b64d68b7cd68f3cc12d8",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "distilbert/distilbert-base-uncased": {
+      "id": "distilbert/distilbert-base-uncased",
+      "visibility": "public",
+      "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+      "license": "apache-2.0",
+      "pipeline_tag": "fill-mask"
     }
   },
   "edges": [
