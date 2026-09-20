@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-20T11:25:09Z",
+  "generated_at": "2026-09-20T16:07:23Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -221,7 +221,7 @@
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "visibility": "public",
-      "revision": "c21e1a9a454946b268c74642a257355c2f54ad5c",
+      "revision": "5f84a6e61e0cb6ec91e638246b962b274a7f2a63",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -327,7 +327,7 @@
     "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
       "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "20b94f0613b632b4848bbe3b1e05d9ee0c2b1608",
+      "revision": "ab8d7bd81d03117501e4da60cccdff4c80f0eea0",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
     },
