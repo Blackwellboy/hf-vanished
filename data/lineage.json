@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-21T04:56:15Z",
+  "generated_at": "2026-09-21T12:48:40Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2132,6 +2132,42 @@
       "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
       "license": "apache-2.0",
       "pipeline_tag": "fill-mask"
+    },
+    "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF": {
+      "id": "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "87d37daf5e5eb72a926d8b413e08809a57f1a120",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF": {
+      "id": "mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF",
+      "visibility": "public",
+      "revision": "a7d667a36430180d7e485503c167b092ca4da470",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "3MPER0RR/Ornith1.5-9B-3MPER0RR-abliterated": {
+      "id": "3MPER0RR/Ornith1.5-9B-3MPER0RR-abliterated",
+      "external_to_watchset": true
+    },
+    "mradermacher/SGuard-JailbreakFilter-2B-v1-GGUF": {
+      "id": "mradermacher/SGuard-JailbreakFilter-2B-v1-GGUF",
+      "visibility": "public",
+      "revision": "06f5b0f7530dda1bb9bca813872a65576a433eef",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "visibility": "public",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen2.5-1.5B": {
+      "id": "Qwen/Qwen2.5-1.5B",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3195,6 +3231,34 @@
     {
       "from": "s-zaizen/DeepSeek-V4.1-Flash-Abliterated",
       "to": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "orcarouter/Qwen3.8-27B-Uncensored",
+      "to": "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "3MPER0RR/Ornith1.5-9B-3MPER0RR-abliterated",
+      "to": "mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
+      "to": "mradermacher/SGuard-JailbreakFilter-2B-v1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-1.5B",
+      "to": "Qwen/Qwen2.5-1.5B-Instruct",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
