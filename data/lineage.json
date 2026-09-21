@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-21T12:48:40Z",
+  "generated_at": "2026-09-21T21:59:17Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -221,7 +221,7 @@
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "visibility": "public",
-      "revision": "3d5cf9efbd7cd22926e648a7c1cbaa001fc29f54",
+      "revision": "3f101cd22b7999228bbd5d79a33975414eb9758b",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
