@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-09-22T11:38:58Z",
+  "generated_at": "2026-09-22T16:58:37Z",
   "cursor": 249,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
@@ -744,7 +744,7 @@
       "evidence_sha256": "ab9e5e42877a60c07314cdaa8eeab6722a0253e1bf410b9706c77567cd9bdd55"
     },
     "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
-      "captured_at": "2026-09-19T15:53:58Z",
+      "captured_at": "2026-09-22T16:57:57Z",
       "repo": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "hf_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
       "reason": {
@@ -758,43 +758,43 @@
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "--- license: apache-2.0 base_model: - Qwen/Qwen3.8-27B library_name: transformers tags: - qwen3.8 - qwen3.5 - heretic - abliterated - uncensored - roleplay - gguf - imatrix pipeline_tag: text",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         },
         {
           "signal": "moderation",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": ".** This model is not intended for use in applications requiring robust safety filtering, content moderation, or deployment to minors. - **Certain guardrails are intentionally left in place.** Abliteration targets refusal behavior on general harmful-prompt categories; a small set of",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         },
         {
           "signal": "policy",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "### 👁️ Vision-Protected (UD-style) Variants These `-vision` variants apply a structural precision policy: `token_embd`, `output`, and the **first 4 + last 4 transformer blocks** stay at **Q8_0**, while the middle blocks use the target K-quant. A tensor audit verified 106 regex-select",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         },
         {
           "signal": "safety",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": ". Prefer the RVN quants for new > deployments. > **Not for all audiences.** This model has reduced safety guardrails by design. It is > intended for adult audiences (18+) doing research, creative writing, roleplay, and > uncensored generation. Certain guardrails are intentionally left",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         },
         {
           "signal": "removed",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "he community. - **Abliterated** is the *result*: the model's refusal behavior has been surgically removed. An abliterated model still knows everything the base model knows, but it no longer refuses to answer the categories that were steered away during the process. So \"Heretic Abli",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         },
         {
           "signal": "removal",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "n subtracting a single direction), ARA is \"arbitrary rank\" — it can carve out a much richer refusal-removal subspace while keeping behavioral damage minimal. ## Why \"Heretic\" and \"Abliterated\"? These two words describe two layers of the same process: - **Heretic** is the *tool*: the",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         },
         {
           "signal": "report",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "_M-vision.gguf` | 4.8751 | +7.20% | | `RVN-Q3_K_M-vision.gguf` | 5.6490 | +24.2% | The table above reports text perplexity only. The Q8_0 overrides are structurally verified, but this repository does not publish a reproducible comparative image-quality receipt for these files; no imag",
-          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/20b94f0613b632b4848bbe3b1e05d9ee0c2b1608/README.md"
+          "source_url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/raw/ab8d7bd81d03117501e4da60cccdff4c80f0eea0/README.md"
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
@@ -837,9 +837,15 @@
               "author": "Heidagger44",
               "created_at": "2026-09-17T11:40:54.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "0bserverx",
+              "created_at": "2026-09-20T17:43:29.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "69f92094c3ac6448111a05935576a5ae88820890d2bab146b70b5a523d84094c"
+          "source_sha256": "44df762679c22f81c264eca96818723b7022bbeb705e36f2236018fa31bf9d36"
         },
         {
           "num": 10,
@@ -887,7 +893,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "3d8856dafd365b84c0c7f2db96f8c4636cb61017b4c5599782e8a4cd266b1613"
+          "source_sha256": "dc24ef558186084d51fff0f4dcac455209d22375ab1cf20226d7d13f6af8d476"
         },
         {
           "num": 9,
@@ -935,7 +941,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "7bb699fc4c97b2024da53d29a92be6d720a9661669ad6958913e8cd0ac4981ed"
+          "source_sha256": "0a2d4aa79d0a7fca11e156aa46a44c2a0cc13e8823bc0d3c4f0e22b27cc11e32"
         },
         {
           "num": 8,
@@ -965,7 +971,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d09e165f0f773fd13016ae17e6de0c1a74f1a8435c8a477f10d52933ce6e8679"
+          "source_sha256": "dea3e586c285b180bfe664f025eae1a5b8306f33baedb6b9605e7642d55808a0"
         },
         {
           "num": 7,
@@ -995,7 +1001,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "32794abc68e92cf31cd30ec7400b8a0b3e1f3ca5c9030b44dc98c2d07ce309ad"
+          "source_sha256": "aebd349705a3aae759403a13f967a00b5e8e06cb130e14e89d24930b500f6873"
         },
         {
           "num": 6,
@@ -1025,7 +1031,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "b3266dde4302999fe98663f1858fba16d4c8c43c7143cbf1945d983404e3e5d6"
+          "source_sha256": "60ed55a6dfd020ff56dedc9b6d44e987812e8cf573a4e2a036c23b1e1c346f98"
         },
         {
           "num": 5,
@@ -1067,7 +1073,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "428270c8a0aebc32e9d6fc8c4f88bf4684006de8f31fe3fc748d9c8b056cfdb0"
+          "source_sha256": "2e493937c3844071ceb9b183a292e89bef4d4054ce3aec937a4917df199363ed"
         },
         {
           "num": 4,
@@ -1103,10 +1109,118 @@
               "content": ""
             }
           ],
-          "source_sha256": "70bce6c3471dd0d87479a9c512f31e0ca60c561a053c14b3edb2ef6cd7ced652"
+          "source_sha256": "dfe15adf8590dc032551132103816d01a2cd79370a51be0d312a2509401a14c8"
         }
       ],
       "commits": [
+        {
+          "id": "ab8d7bd81d03117501e4da60cccdff4c80f0eea0",
+          "title": "docs: GSQ-RCO series moved to its own repository (link updated)",
+          "created_at": "2026-09-20T13:42:25.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/ab8d7bd81d03117501e4da60cccdff4c80f0eea0"
+        },
+        {
+          "id": "c669926de6b6de2c97ebb6efef9f17d9e293e105",
+          "title": "move: GSQ-RCO series -> dedicated repository (Qwen3.8-27B-Heretic-GSQ-RCO-GGUF)",
+          "created_at": "2026-09-20T13:42:21.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/c669926de6b6de2c97ebb6efef9f17d9e293e105"
+        },
+        {
+          "id": "5ed75b44b3b753bb48401850d35ab63a2c6bf8c7",
+          "title": "docs: cross-link the GSQ-3bit compressed-tensors variant",
+          "created_at": "2026-09-20T13:35:13.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/5ed75b44b3b753bb48401850d35ab63a2c6bf8c7"
+        },
+        {
+          "id": "9c66b2496a76b49639cfbf1c4e13eb59ec3b0aa3",
+          "title": "docs: PPL evidence for GSQ-RCO tiers (wikitext-2; IQ3_S +0.95% vs F16; A/B vs standard IQ3_S)",
+          "created_at": "2026-09-20T13:15:20.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/9c66b2496a76b49639cfbf1c4e13eb59ec3b0aa3"
+        },
+        {
+          "id": "4f19034dcbe842a09455f381903f17b47da2901e",
+          "title": "docs: GSQ-RCO series section (tiers table, method, checks, usage)",
+          "created_at": "2026-09-20T12:31:20.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/4f19034dcbe842a09455f381903f17b47da2901e"
+        },
+        {
+          "id": "92ac5d215f31a2d57bd07b244cd6c8a86e204d01",
+          "title": "Add GSQ-RCO series: IQ2_XS / IQ2_S / IQ3_XXS / IQ3_S + MTP twins (per-tensor RCO allocation from ISTA-DASLab; llama.cpp + official imatrix)",
+          "created_at": "2026-09-20T12:31:16.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/92ac5d215f31a2d57bd07b244cd6c8a86e204d01"
+        },
+        {
+          "id": "de79e9abddd1840b52c1612d5f448c658830bf48",
+          "title": "docs: document RVN-Qwen3.8-27B-Heretic-GSQ-RCO-IQ3_S (per-tensor RCO allocation; provenance and checks)",
+          "created_at": "2026-09-20T12:00:53.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/de79e9abddd1840b52c1612d5f448c658830bf48"
+        },
+        {
+          "id": "f45958a47793255e81f9413ef170b104baaa0b02",
+          "title": "Add RVN-Qwen3.8-27B-Heretic-GSQ-RCO-IQ3_S.gguf (per-tensor RCO allocation from ISTA-DASLab IQ3_S map; llama.cpp quantization with official imatrix)",
+          "created_at": "2026-09-20T11:58:56.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/f45958a47793255e81f9413ef170b104baaa0b02"
+        },
+        {
+          "id": "8702e4b2fedfc46b7be7abc912507eb4b32dd472",
+          "title": "GSQ-3bit: ISTA GSQ 3-bit PTQ of heretic Qwen3.8-27B (not RCO); generate gate Paris OK",
+          "created_at": "2026-09-20T11:28:32.000Z",
+          "authors": [
+            {
+              "user": "0bserverx",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/8702e4b2fedfc46b7be7abc912507eb4b32dd472"
+        },
         {
           "id": "20b94f0613b632b4848bbe3b1e05d9ee0c2b1608",
           "title": "docs: add research use and responsibility notice",
@@ -1142,119 +1256,65 @@
             }
           ],
           "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/0dff41125a14d5ebd05549a9723230f1112c01e7"
-        },
-        {
-          "id": "50227da00bc0d0173ff110b9cf10b6212cb85fda",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-F16.gguf",
-          "created_at": "2026-08-20T00:08:06.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/50227da00bc0d0173ff110b9cf10b6212cb85fda"
-        },
-        {
-          "id": "b061ab4cad88b7c55f145903610e3a9268b940d0",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-Q6_K-mtp.gguf",
-          "created_at": "2026-08-19T23:51:43.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/b061ab4cad88b7c55f145903610e3a9268b940d0"
-        },
-        {
-          "id": "3d0bfd507a4451ec83da4cdf641f8f251b6768fb",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-Q5_K_M-mtp.gguf",
-          "created_at": "2026-08-19T23:46:15.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/3d0bfd507a4451ec83da4cdf641f8f251b6768fb"
-        },
-        {
-          "id": "17e08342c3a869159cb1fac5714fb7373697a4f2",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-BF16-mtp.gguf",
-          "created_at": "2026-08-19T23:43:19.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/17e08342c3a869159cb1fac5714fb7373697a4f2"
-        },
-        {
-          "id": "e6e0c7d836cda77a95d2a001b24705177394a0d2",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-BF16.gguf",
-          "created_at": "2026-08-19T23:35:39.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/e6e0c7d836cda77a95d2a001b24705177394a0d2"
-        },
-        {
-          "id": "cfb4bdafc21535836800746b1491a2862fd43418",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-Q4_K_M-mtp.gguf",
-          "created_at": "2026-08-19T23:34:16.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/cfb4bdafc21535836800746b1491a2862fd43418"
-        },
-        {
-          "id": "2d3ec2bee124d7b2ca64c7b55525a4baf1264059",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-IQ4_NL-mtp.gguf",
-          "created_at": "2026-08-19T23:30:14.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/2d3ec2bee124d7b2ca64c7b55525a4baf1264059"
-        },
-        {
-          "id": "567fe3dc7e5fd8cb5d077ed0985535c9bf97a121",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-Q8_0-mtp.gguf",
-          "created_at": "2026-08-19T23:27:51.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/567fe3dc7e5fd8cb5d077ed0985535c9bf97a121"
-        },
-        {
-          "id": "e5df794348e8c193aca77d49098a18ea97424ad8",
-          "title": "fix: embed official Qwen3.8 chat template in RVN-Q4_K_S-mtp.gguf",
-          "created_at": "2026-08-19T23:26:10.000Z",
-          "authors": [
-            {
-              "user": "0bserverx",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/697299e19695fae39c520649/y3-bbcHl-iTO1fwKurxkB.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/e5df794348e8c193aca77d49098a18ea97424ad8"
         }
       ],
-      "readme_sha256": "4c87a717603b182fa273d75edcdb795f9132d5aa3708f57871fb172df7e5dc9b",
-      "manifest_root_sha256": "3ae1f5eba82202c6bd75334de86bb6fd01900c3398b0209c405e1f2c94d18877",
+      "readme_sha256": "99a550a8e39e016c8aa86616ee69a5eb5ec1e147e8e4cfc464725c78280a3f5d",
+      "manifest_root_sha256": "cb93e21e1c7319fe7c304f59b306232c11dbb7a78ef5298066e13639a6b464c2",
       "timeline": [
+        {
+          "at": "2026-09-20T13:42:25.000Z",
+          "type": "commit",
+          "label": "docs: GSQ-RCO series moved to its own repository (link updated)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/ab8d7bd81d03117501e4da60cccdff4c80f0eea0"
+        },
+        {
+          "at": "2026-09-20T13:42:21.000Z",
+          "type": "commit",
+          "label": "move: GSQ-RCO series -> dedicated repository (Qwen3.8-27B-Heretic-GSQ-RCO-GGUF)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/c669926de6b6de2c97ebb6efef9f17d9e293e105"
+        },
+        {
+          "at": "2026-09-20T13:35:13.000Z",
+          "type": "commit",
+          "label": "docs: cross-link the GSQ-3bit compressed-tensors variant",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/5ed75b44b3b753bb48401850d35ab63a2c6bf8c7"
+        },
+        {
+          "at": "2026-09-20T13:15:20.000Z",
+          "type": "commit",
+          "label": "docs: PPL evidence for GSQ-RCO tiers (wikitext-2; IQ3_S +0.95% vs F16; A/B vs standard IQ3_S)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/9c66b2496a76b49639cfbf1c4e13eb59ec3b0aa3"
+        },
+        {
+          "at": "2026-09-20T12:31:20.000Z",
+          "type": "commit",
+          "label": "docs: GSQ-RCO series section (tiers table, method, checks, usage)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/4f19034dcbe842a09455f381903f17b47da2901e"
+        },
+        {
+          "at": "2026-09-20T12:31:16.000Z",
+          "type": "commit",
+          "label": "Add GSQ-RCO series: IQ2_XS / IQ2_S / IQ3_XXS / IQ3_S + MTP twins (per-tensor RCO allocation from ISTA-DASLab; llama.cpp + official imatrix)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/92ac5d215f31a2d57bd07b244cd6c8a86e204d01"
+        },
+        {
+          "at": "2026-09-20T12:00:53.000Z",
+          "type": "commit",
+          "label": "docs: document RVN-Qwen3.8-27B-Heretic-GSQ-RCO-IQ3_S (per-tensor RCO allocation; provenance and checks)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/de79e9abddd1840b52c1612d5f448c658830bf48"
+        },
+        {
+          "at": "2026-09-20T11:58:56.000Z",
+          "type": "commit",
+          "label": "Add RVN-Qwen3.8-27B-Heretic-GSQ-RCO-IQ3_S.gguf (per-tensor RCO allocation from ISTA-DASLab IQ3_S map; llama.cpp quantization with official imatrix)",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/f45958a47793255e81f9413ef170b104baaa0b02"
+        },
+        {
+          "at": "2026-09-20T11:28:32.000Z",
+          "type": "commit",
+          "label": "GSQ-3bit: ISTA GSQ 3-bit PTQ of heretic Qwen3.8-27B (not RCO); generate gate Paris OK",
+          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/8702e4b2fedfc46b7be7abc912507eb4b32dd472"
+        },
         {
           "at": "2026-09-01T08:11:32.000Z",
           "type": "discussion",
@@ -1284,60 +1344,6 @@
           "type": "commit",
           "label": "fix: embed official Qwen3.8 chat template in RVN-F16-mtp.gguf",
           "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/0dff41125a14d5ebd05549a9723230f1112c01e7"
-        },
-        {
-          "at": "2026-08-20T00:08:06.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-F16.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/50227da00bc0d0173ff110b9cf10b6212cb85fda"
-        },
-        {
-          "at": "2026-08-19T23:51:43.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-Q6_K-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/b061ab4cad88b7c55f145903610e3a9268b940d0"
-        },
-        {
-          "at": "2026-08-19T23:46:15.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-Q5_K_M-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/3d0bfd507a4451ec83da4cdf641f8f251b6768fb"
-        },
-        {
-          "at": "2026-08-19T23:43:19.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-BF16-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/17e08342c3a869159cb1fac5714fb7373697a4f2"
-        },
-        {
-          "at": "2026-08-19T23:35:39.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-BF16.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/e6e0c7d836cda77a95d2a001b24705177394a0d2"
-        },
-        {
-          "at": "2026-08-19T23:34:16.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-Q4_K_M-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/cfb4bdafc21535836800746b1491a2862fd43418"
-        },
-        {
-          "at": "2026-08-19T23:30:14.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-IQ4_NL-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/2d3ec2bee124d7b2ca64c7b55525a4baf1264059"
-        },
-        {
-          "at": "2026-08-19T23:27:51.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-Q8_0-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/567fe3dc7e5fd8cb5d077ed0985535c9bf97a121"
-        },
-        {
-          "at": "2026-08-19T23:26:10.000Z",
-          "type": "commit",
-          "label": "fix: embed official Qwen3.8 chat template in RVN-Q4_K_S-mtp.gguf",
-          "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/commit/e5df794348e8c193aca77d49098a18ea97424ad8"
         },
         {
           "at": "2026-08-19T12:15:40.000Z",
@@ -1376,10 +1382,10 @@
           "source": "https://huggingface.co/0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF/discussions/4"
         }
       ],
-      "evidence_sha256": "6c32c0f3921f2ace15e03e947273424cc3b13200e10d74224d76d430fdeb2b0c"
+      "evidence_sha256": "5e4bb93cc985dbc9ce2e946359f9950c26886d9192c0d03443e57b35306e9d63"
     },
     "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
-      "captured_at": "2026-09-19T15:53:59Z",
+      "captured_at": "2026-09-22T16:58:01Z",
       "repo": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
       "hf_url": "https://huggingface.co/AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
       "reason": {
@@ -1480,7 +1486,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "0231c26efaa8ba14b2e497aa9113419b6d67c242d8424daa971bc3304f6e41d7"
+          "source_sha256": "b8c9fde6764f8063561e8b6a7910d81140152ddc26b7c692ba3394bf48bb642c"
         },
         {
           "num": 2,
@@ -1510,7 +1516,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "aac76479003160cfccafa3cfa4167ae63846d7c863711f504507ae3fd5209169"
+          "source_sha256": "dfe565d4c1354c05063924ae19f03ffabd6cd3b019745797c47be4093ca9128c"
         },
         {
           "num": 1,
@@ -1552,7 +1558,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d3cbe2cceb7550b1ddcb854f8d8bc2217913036ac926d3e31f97e34d6211336a"
+          "source_sha256": "1c5ae6ed80a0eb3a0f19bae437a55cb8e72e816316acd8bac7521632dc1885ad"
         }
       ],
       "commits": [
@@ -1795,10 +1801,10 @@
           "source": "https://huggingface.co/AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16/discussions/1"
         }
       ],
-      "evidence_sha256": "1b1ae2da37fdeb1996e19ba95f3d20a3f3151520565a6007a8ea56310a371184"
+      "evidence_sha256": "49d8f6d98a39c2e024bb8852a872137ffda76208fa3d454dbe54390a7fee6c49"
     },
     "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED": {
-      "captured_at": "2026-09-19T15:53:59Z",
+      "captured_at": "2026-09-22T16:58:01Z",
       "repo": "ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED",
       "hf_url": "https://huggingface.co/ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED",
       "reason": {
@@ -1924,10 +1930,10 @@
           "source": "https://huggingface.co/ArRENCEAI/DeepSeek-R1-Distill-Qwen-1.5B-OBLITERATED/commit/d5c2617532fc6c8ccf987c4e8643c4a463587060"
         }
       ],
-      "evidence_sha256": "455bc01c399fab901cc4cec386821e9dc4b0472e82c49b4c2acaeec4361c7194"
+      "evidence_sha256": "eb614d29a851752029cb4d3418c13501bbf3990c1970556be93110b571c337a3"
     },
     "BAAI/bge-base-en-v1.5": {
-      "captured_at": "2026-09-19T15:54:01Z",
+      "captured_at": "2026-09-22T16:58:03Z",
       "repo": "BAAI/bge-base-en-v1.5",
       "hf_url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
       "reason": {
@@ -1980,7 +1986,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "8e30701db9f3530fc5b69ef8b54df1aa0f1bccfe607164c6eb249c98921bcb88"
+          "source_sha256": "2d7a5bc8d449f8248518a7958d577974cd5dd0660e15533121acf68085ff1166"
         },
         {
           "num": 16,
@@ -2058,7 +2064,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "966ac11ba25144bda9a93fd5e8dcd687aa06fe69089c1030d1ab1d0d3b617f4e"
+          "source_sha256": "06ee0880e185f473238ac14efc3b26448603d3d0bd87c124a5f30f39b73876c0"
         },
         {
           "num": 12,
@@ -2082,7 +2088,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "7ce3da7bd0ecfe64791f5003e7aa67dabc2ac44e664f9cfb92649e4a18be2074"
+          "source_sha256": "22ea1fdf0940a8b8f670699aa3341f643b1b4ab3e18a8ffe198a8a492835641e"
         },
         {
           "num": 11,
@@ -2106,7 +2112,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "753ae1444ac970c4ed5386eb2f507753107da1ee68858f60a57dd462e517d162"
+          "source_sha256": "574d40bdc6c958d3e8b69e1aa789ec8fb606dc3cf929b3817f139ab753035ed0"
         },
         {
           "num": 10,
@@ -2130,7 +2136,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "dd57bc7d438428243db33b6644450e98fc8a6933259514a412c1b0ffa2a03e5e"
+          "source_sha256": "022d65cdb187b8e38058a7c39774e2461b9d2741ead1305e77b75f6d280843a8"
         }
       ],
       "commits": [
@@ -2411,10 +2417,10 @@
           "source": "https://huggingface.co/BAAI/bge-base-en-v1.5/commit/6221169f04cebe20db3cbb3ca8d90fbd712770b6"
         }
       ],
-      "evidence_sha256": "fb4765dbb49f83932f51f1bb3c6651f343e74ab79f9f795d9720007db7663545"
+      "evidence_sha256": "4d39782d8a6bd706994d8a1560fd62ebbb71e752a22fa15e36766aa1e5929917"
     },
     "BAAI/bge-large-en-v1.5": {
-      "captured_at": "2026-09-19T15:54:02Z",
+      "captured_at": "2026-09-22T16:58:04Z",
       "repo": "BAAI/bge-large-en-v1.5",
       "hf_url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "reason": {
@@ -2473,7 +2479,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f0a6d65a7ce230b2ed6c5e10be810c035377ce8d0a046be78947ff325d18c5f5"
+          "source_sha256": "56ab42888489e35aba294ddd1b4ffc3d464eb9b57b202ed885c0d534cfcb0150"
         },
         {
           "num": 39,
@@ -2539,7 +2545,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "c872a7a6e8cb6ec5b4a28465460e4c9e3e59030fdc0b855d5f10dd5f63df747c"
+          "source_sha256": "899b8f8bb3b8114b97b0bf5053ae59fe03b6b79af928d1f36c7949bc6ebe94b0"
         },
         {
           "num": 36,
@@ -2908,10 +2914,10 @@
           "source": "https://huggingface.co/BAAI/bge-large-en-v1.5/commit/33cd644c49ee8fef43039f8feeb555d52aa55fc0"
         }
       ],
-      "evidence_sha256": "a9cc7b6cac1015a437ccf90bb79395118de8723e9d59a7f16da33aa0d4064c89"
+      "evidence_sha256": "0c31da83125e72021f9fa885a7eb6b24a6f32ae29af92d4b77873f4a57eed3b6"
     },
     "BAAI/bge-m3": {
-      "captured_at": "2026-09-19T15:54:04Z",
+      "captured_at": "2026-09-22T16:58:05Z",
       "repo": "BAAI/bge-m3",
       "hf_url": "https://huggingface.co/BAAI/bge-m3",
       "reason": {
@@ -2976,7 +2982,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9e660ccfa295a091cd6a1cd15fb2a652db844217914a34800a2427b3350b58ac"
+          "source_sha256": "00131bb88a41cd35de511838175a9aff2a22de29c6cd7ab374c79e886cc73ea2"
         },
         {
           "num": 151,
@@ -3387,10 +3393,10 @@
           "source": "https://huggingface.co/BAAI/bge-m3/commit/3641912a2b1366e8ee92fbdad6aa2abd45234114"
         }
       ],
-      "evidence_sha256": "47dbf06cbb86e00848cb459721e02a90ee46e2fc0299811b09f3b1b18e1130c2"
+      "evidence_sha256": "8f070a53f2ecfbe66434d9a554112c99563cb6eb549fae5579a5ca9334f07153"
     },
     "BAAI/bge-reranker-v2-m3": {
-      "captured_at": "2026-09-19T15:54:05Z",
+      "captured_at": "2026-09-22T16:58:06Z",
       "repo": "BAAI/bge-reranker-v2-m3",
       "hf_url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "reason": {
@@ -3473,7 +3479,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "106c8ba782bb3da69a79e19735bef6d5bf8171a169f7a796a6f5022c3930c4c8"
+          "source_sha256": "461965bd7ace7985b3e18e8c6aaaa4533f7ee3de9c3bd21d8a855c6d98ede332"
         },
         {
           "num": 61,
@@ -3864,10 +3870,10 @@
           "source": "https://huggingface.co/BAAI/bge-reranker-v2-m3/commit/44482ec41e66cfb3ced6fdf71c52c78e3e3b5654"
         }
       ],
-      "evidence_sha256": "1e02a576dc2ea5f07cfa9f68be7b18965de8769a9a47174e9f4f7c3667646c99"
+      "evidence_sha256": "516bb7e39758542d8c29fce2797658c8a846ac02d4a644fd5d6bc6803e6da23f"
     },
     "BAAI/bge-small-en-v1.5": {
-      "captured_at": "2026-09-19T15:54:07Z",
+      "captured_at": "2026-09-22T16:58:10Z",
       "repo": "BAAI/bge-small-en-v1.5",
       "hf_url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "reason": {
@@ -3908,7 +3914,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "e61411ca3c30e5cd0d430a03b5781ec673c99a5d2b7ca32cbcebb1ed2a7919c5"
+          "source_sha256": "5102d7242dcf8525a34efb9f21fc971244af40bafb432c55df586cb6ab611274"
         },
         {
           "num": 31,
@@ -4330,10 +4336,10 @@
           "source": "https://huggingface.co/BAAI/bge-small-en-v1.5/commit/0b329b72cad8d6ff9a504a30a6c239b87802dc84"
         }
       ],
-      "evidence_sha256": "c8e4fecf53fa1df11d90ba02c01b8d49902bea9f2655e0bf9931ea0979031904"
+      "evidence_sha256": "70557ff123683c70786444e1296633a7d9e35def0fde000578874aa67c685b32"
     },
     "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4": {
-      "captured_at": "2026-09-19T15:54:07Z",
+      "captured_at": "2026-09-22T16:58:11Z",
       "repo": "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
       "hf_url": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
       "reason": {
@@ -4484,10 +4490,10 @@
           "source": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4/commit/c3b04e8dc62e21f177a38a3509519304b7f7e86b"
         }
       ],
-      "evidence_sha256": "1fea55ea6999ee9b904d3377ff2578e95d57b1c5725a5565103f8ab7ab3b7958"
+      "evidence_sha256": "c2621f1dc4c16dcf7e5556cbf741ac954d880115bbc6cddbdefe9da5bde31334"
     },
     "Bingsu/adetailer": {
-      "captured_at": "2026-09-19T15:54:08Z",
+      "captured_at": "2026-09-22T16:58:11Z",
       "repo": "Bingsu/adetailer",
       "hf_url": "https://huggingface.co/Bingsu/adetailer",
       "reason": {
@@ -4734,10 +4740,10 @@
           "source": "https://huggingface.co/Bingsu/adetailer/commit/06b88e8114e2dfc265ef8469ac598ef13ce5f4b3"
         }
       ],
-      "evidence_sha256": "f6850490a1892bf49f54c65c63d086573a2ad15c18be9cd95725d787398369b5"
+      "evidence_sha256": "c7e5b179fe79cae28f71a3d48013df841845f79d84ac64ed8e11f7518d6ae7d4"
     },
     "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF": {
-      "captured_at": "2026-09-19T15:54:08Z",
+      "captured_at": "2026-09-22T16:58:11Z",
       "repo": "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
       "hf_url": "https://huggingface.co/Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
       "reason": {
@@ -4816,10 +4822,10 @@
           "source": "https://huggingface.co/Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF/commit/6b0c6d0e453f4961ea499401b86877dbb3cd38cc"
         }
       ],
-      "evidence_sha256": "cb720a7b3f2d876e1393cf4a19b7bda55e451ad62fe6e0b3b5afe41b18c60b3d"
+      "evidence_sha256": "6e7b4d6e98aa6cd9113e47a3c241be4fffd0a4ca13f2780e932685e74cc8caf1"
     },
     "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF": {
-      "captured_at": "2026-09-19T15:54:09Z",
+      "captured_at": "2026-09-22T16:58:14Z",
       "repo": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "hf_url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "reason": {
@@ -4914,7 +4920,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "5041c3532defb64632f1b9a602810468d4498dfea529482d58ab57f7f832fc29"
+          "source_sha256": "55e75d00609fc4fff4b1c565a6adcaede815384aec5e925c8d8ce6ea60a87489"
         },
         {
           "num": 3,
@@ -4950,7 +4956,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "83892e9354f806ec40c503bc8786f135e0d15defb8c86d4b4e3cc24128b8215e"
+          "source_sha256": "dcb000eee49ecc8b656b6d3cfb91979c087c9e945387df93d185801ce3b638cb"
         },
         {
           "num": 2,
@@ -5016,7 +5022,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "4c65a0ce3435ccbff36c7e5a4fcb4324757aea62ccd13914f19fa5e7f6ff8de1"
+          "source_sha256": "8dc1b876e128d013a43acfafaf062a69db70acc8bbd60e28f056f3021b81bbbd"
         },
         {
           "num": 1,
@@ -5076,7 +5082,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "be9750b78753352a9fa7ccb17af2fe7319e48e0eaed8823d86f7848c2dbf5064"
+          "source_sha256": "bf529df34143dd9231fa2c8edf2fbc73b1640eaf35d0c60bf5ecfa3226f284ce"
         }
       ],
       "commits": [
@@ -5331,10 +5337,10 @@
           "source": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF/commit/e44855a243311868b4aca940d7b132190b7c35af"
         }
       ],
-      "evidence_sha256": "496ae69843f3a2e8f0147ca4cefaa5185cf3e14de69276080f128dd2ad85a8c9"
+      "evidence_sha256": "f3d50c1803f099a2bc296d0fd69de9d377ef5e157a771d14389742d4d5d986b4"
     },
     "Comfy-Org/Krea-2": {
-      "captured_at": "2026-09-19T15:54:11Z",
+      "captured_at": "2026-09-22T16:58:15Z",
       "repo": "Comfy-Org/Krea-2",
       "hf_url": "https://huggingface.co/Comfy-Org/Krea-2",
       "reason": {
@@ -5459,7 +5465,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1ddaa9bd9c4573c37f0f6efb7ebda79795c204e523911c6ed3e5c7df653c7ef3"
+          "source_sha256": "381f3916a40b5f616c5fb6db31b2c80bb7cb45106e9a2e26d3c5c674038d444b"
         },
         {
           "num": 17,
@@ -5489,7 +5495,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "45afd63c392ff45479d459ef38cbd12e1c5198d7c2b15630ea2b9e629753837e"
+          "source_sha256": "a1533b20a70e6cef3505749ced45d78497a1e95a49b28ad6cc4b932bcc5a89bb"
         },
         {
           "num": 16,
@@ -5519,7 +5525,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "7a16f5b1f37d7d5de9c14339292333d0613d245bea83fe9d5788061d6c8a4b27"
+          "source_sha256": "17062c0fa3c2bd23febf44a4d977cb20a3038fed3669ccdbae9b1b65ed8a2def"
         },
         {
           "num": 14,
@@ -5840,10 +5846,10 @@
           "source": "https://huggingface.co/Comfy-Org/Krea-2/commit/625a11a2f600f18af5068b8bb2939fa2edc3b7de"
         }
       ],
-      "evidence_sha256": "2150a9f42c59cbb6f29fb988ecc43b46475ae53241a53915afdbff04041aa198"
+      "evidence_sha256": "b7be782f9fc34f5fbb1b08549e6cab0ed81c3e1ce579c152e5b0e8e52109ed4f"
     },
     "Comfy-Org/MiniMax-H3": {
-      "captured_at": "2026-09-19T15:54:12Z",
+      "captured_at": "2026-09-22T16:58:16Z",
       "repo": "Comfy-Org/MiniMax-H3",
       "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "reason": {
@@ -5932,7 +5938,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d4ccad83a9c6eacf0f258247a31cf183e2ce15d353ac45df6d9ea0fe98bbba0a"
+          "source_sha256": "af3eaa2027acf18094ac563f99e56640503a7fe6aca0e2f6da172794b6d64697"
         },
         {
           "num": 59,
@@ -5996,9 +6002,15 @@
               "author": "Meryruizk",
               "created_at": "2026-09-17T03:54:32.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "PuppetVision",
+              "created_at": "2026-09-21T00:45:38.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "13077877f9fc8eafe24d70722f9b18b6e8bc95eb0e7c4aa45a5f8c972dad2706"
+          "source_sha256": "42b5afd888d877e7750b368c8c5778ed91c684cf320219d4fe4dc63e1bbfcc18"
         },
         {
           "num": 56,
@@ -6317,10 +6329,10 @@
           "source": "https://huggingface.co/Comfy-Org/MiniMax-H3/commit/0b3680c451a3d5ef959e8efa107154f0434fb7e9"
         }
       ],
-      "evidence_sha256": "74cc0a687063beabd3a2db542562f341f3063151db45f86abf8de1ded8d41301"
+      "evidence_sha256": "d618064fc1857b98e370247aca2d6303d1541645248bad247287712789bd671f"
     },
     "Comfy-Org/stable-diffusion-v1-5-archive": {
-      "captured_at": "2026-09-19T15:54:14Z",
+      "captured_at": "2026-09-22T16:58:18Z",
       "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
       "hf_url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive",
       "reason": {
@@ -6367,7 +6379,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "df9297ddd56d5126b95579197c4d922004cb990cd5ee42ffd976eb1dd32b6fbc"
+          "source_sha256": "1397f1cf8d2d622f2a39ef055091af87201b5e919dd186538febf654c96d22dc"
         },
         {
           "num": 5,
@@ -6397,7 +6409,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "edba6a6f25fab3d41b20319418f493a20af04f6dede241e2e6a3bc8ac73e80e2"
+          "source_sha256": "5fba499fdce3fee2fb2159e98e1559bd9d8903bed2c2dc44e8e03ca1f28f59ae"
         },
         {
           "num": 4,
@@ -6439,7 +6451,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "bed67bdb443b77cf186abc869555bfc381979a61cba17e35e172633ce5ebf283"
+          "source_sha256": "ed3f79597fc8a4e16304d4a03a7ad62d24f0532208a2f0b0d0c41c6708f0ea0e"
         },
         {
           "num": 3,
@@ -6505,7 +6517,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "95a5a1b2d0949611eb1d9ba383bbaa63c3fa950999e4eec11714ef109b70fc71"
+          "source_sha256": "f5698dca309c97ffeb55e7a26a3d8238a410ba0e621d89e4e35f99e7dc1d53e9"
         },
         {
           "num": 1,
@@ -6547,7 +6559,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "698c068c6ed4d16e80ba7a2185b18773716c9fb7ff913cf0c28b9294a0bc5773"
+          "source_sha256": "d4e9b5bf72b38eb09b4df7eb55bcea3a98e155ceed6f368a20147ce72831a004"
         }
       ],
       "commits": [
@@ -6808,10 +6820,10 @@
           "source": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/commit/d0fdea3e841500e0700dfa08ebc37a4edfe3b610"
         }
       ],
-      "evidence_sha256": "5c77c51d5999a8d2ad55a253d8b168ff70f5c88c76ce9bed6893d37fb9a88312"
+      "evidence_sha256": "48f52fb597155650d1e7b1f35dc9974ff7c0ca0223ccefd97ea9e9b026dca34e"
     },
     "CompVis/stable-diffusion-v1-4": {
-      "captured_at": "2026-09-19T15:54:15Z",
+      "captured_at": "2026-09-22T16:58:19Z",
       "repo": "CompVis/stable-diffusion-v1-4",
       "hf_url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
       "reason": {
@@ -7283,10 +7295,10 @@
           "source": "https://huggingface.co/CompVis/stable-diffusion-v1-4/commit/f10ab743429c449ef165dc8712d6fb602b930146"
         }
       ],
-      "evidence_sha256": "99ae96fd155ed0a2d90656df74c88c50a523f43208b38df9beaa39c72aaac7b3"
+      "evidence_sha256": "9b3f81e602c6c9adc2bb5fd5fa6516a2a16c4fdbfc48c4728410216913ba373b"
     },
     "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
-      "captured_at": "2026-09-19T15:54:16Z",
+      "captured_at": "2026-09-22T16:58:20Z",
       "repo": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
       "reason": {
@@ -7339,7 +7351,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f7ad57ab1b50a0d77a71f2d685d85e17358781b05a7949a46abc1da6b1ec9744"
+          "source_sha256": "bea88397c94df0b2a283de2988555413e60035c8badcb0170644ce3bc772dcc3"
         },
         {
           "num": 2,
@@ -7387,7 +7399,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "edb88cb0c90dfc2b79c001ec58dd5c256c17adc3773b6529988bdbd85fb9b6fd"
+          "source_sha256": "69593d6bf4240bae2fc699c282a219de3728e4ed32aad80da3481c4a53ef6fee"
         }
       ],
       "commits": [
@@ -7594,10 +7606,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED/commit/998f921b36c1014506c5a35d3096b9edd3809cb9"
         }
       ],
-      "evidence_sha256": "4714a4d5bc965dfd9e44d43352dcc4de9ae5c212fadc182516c8591bf13cc639"
+      "evidence_sha256": "16c6fb7dff25e7b19459fe461af58671c6ecfe5a938935b355ca937d195c7a1d"
     },
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
-      "captured_at": "2026-09-19T15:54:18Z",
+      "captured_at": "2026-09-22T16:58:21Z",
       "repo": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "reason": {
@@ -7647,6 +7659,36 @@
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
       "discussions": [
         {
+          "num": 25,
+          "title": "Absolute Gold - Top Tier Agent at 27B Level",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "adamksn",
+          "created_at": "2026-09-19T22:42:55.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "adamksn",
+              "created_at": "2026-09-19T22:42:55.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "DavidAU",
+              "created_at": "2026-09-20T01:19:29.000Z",
+              "content": ""
+            },
+            {
+              "type": "pinning-change",
+              "author": "DavidAU",
+              "created_at": "2026-09-20T01:19:41.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "cc0732fff182afe50da2000ac7d9e6b80c689a93a87a4344621aaf7dc0bd0897"
+        },
+        {
           "num": 13,
           "title": "This Model and Its 27B Big Brother Are The Best Models I've Tested",
           "status": "open",
@@ -7674,7 +7716,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "a4926c5a6b5cf08facc65f7d7ad5f33d9ab341ba234e00c94269baed5245863c"
+          "source_sha256": "589743e7796376b207effe5a265460a2c68c190b5c4f8363b1de329bd85831cb"
         },
         {
           "num": 7,
@@ -7764,7 +7806,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "5c1f37ed16ab98d19dd2a7e0d717aa8c03c2061687e9bc665f4772022bfc10df"
+          "source_sha256": "5a48376d5ad6a9a09f8d377a3607fa0f55c2a8bccf566388bd8a7bf8d8b883d2"
         },
         {
           "num": 6,
@@ -7818,7 +7860,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "34c4e7effc7b8475547c897a7dce780c151d667aebaa303287ddcc1b8396d047"
+          "source_sha256": "60c8bdb28b6ce410637a1c86977524aebf46c42f37d37783bcf1326f3ffcc5be"
         },
         {
           "num": 4,
@@ -7848,7 +7890,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1c84d5e4abea1e69309d571212d54cd5a82a67e9eca25c05bc4ae6374eab8c95"
+          "source_sha256": "f8b9741e587d0f15c66746da4555bbc5523755f446976dda99d98313ee762dd9"
         },
         {
           "num": 24,
@@ -7864,9 +7906,21 @@
               "author": "jian2023",
               "created_at": "2026-09-19T06:51:25.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "DavidAU",
+              "created_at": "2026-09-20T01:16:04.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "yano2mch",
+              "created_at": "2026-09-20T01:29:20.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "7b562936d9b8c8cb97c0a2dfb9fc0358a91c48ad28b3606fa9bd23e340b4893b"
+          "source_sha256": "62f6977fbb09c0408cda1372dd1410499fce034694bfa20cbd13c837b2eeb292"
         },
         {
           "num": 23,
@@ -7896,7 +7950,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "dc694e05c46a30489dc3ad319153fc74cd10df215e49bcaa42bd15a7d527f0f9"
+          "source_sha256": "dc0a76d9860e704d50571ef65eaaeb6345c4bcd766865c18625070c414b5e1f3"
         },
         {
           "num": 22,
@@ -7915,30 +7969,6 @@
             }
           ],
           "source_sha256": "0fbe35ab31b15acbd5576ca086f00ee48f0f51f46ae64bf37ac3729e75024552"
-        },
-        {
-          "num": 21,
-          "title": "Hi.",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "RichardErkhov",
-          "created_at": "2026-08-28T10:54:33.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "RichardErkhov",
-              "created_at": "2026-08-28T10:54:33.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "DavidAU",
-              "created_at": "2026-08-29T01:57:21.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "0f101cbc4a6f46276b6ccfaf389b425f2ea7ffbd2058608b1dc65f89a5169e96"
         }
       ],
       "commits": [
@@ -8091,6 +8121,12 @@
       "manifest_root_sha256": "23f1122d40e15d98fe037e4ded61869fc8d0a7155b0fce8a33e278a747c71fee",
       "timeline": [
         {
+          "at": "2026-09-19T22:42:55.000Z",
+          "type": "discussion",
+          "label": "Absolute Gold - Top Tier Agent at 27B Level",
+          "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/discussions/25"
+        },
+        {
           "at": "2026-09-19T06:51:25.000Z",
           "type": "discussion",
           "label": "How should I choose?",
@@ -8181,12 +8217,6 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/discussions/22"
         },
         {
-          "at": "2026-08-28T10:54:33.000Z",
-          "type": "discussion",
-          "label": "Hi.",
-          "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/discussions/21"
-        },
-        {
           "at": "2026-08-02T00:13:13.000Z",
           "type": "discussion",
           "label": "This Model and Its 27B Big Brother Are The Best Models I've Tested",
@@ -8211,10 +8241,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/discussions/4"
         }
       ],
-      "evidence_sha256": "08431ae978564c089fda00423d269da37e1c0a45148f13b9c7971298961c95f5"
+      "evidence_sha256": "bde544566d10bac867521e5d7a5ebc4fb0ee38860c7782a48b4d7e48335bff29"
     },
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
-      "captured_at": "2026-09-19T15:54:19Z",
+      "captured_at": "2026-09-22T16:58:25Z",
       "repo": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "reason": {
@@ -8291,7 +8321,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1e0257ad312f6449d40867ce1651934ba041b8f9a00713c13ba821adc05afc11"
+          "source_sha256": "2813ccd4ee1f5bec50bc0794d65c62288ce7259d82a083bb785e20cfac511cae"
         },
         {
           "num": 95,
@@ -8333,7 +8363,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f654425897f90758a4610e24e9459824118d233395cd4c1051655138fdd9eabf"
+          "source_sha256": "62c50b4bf243851ee6904a5ce24d03109ab88da75e47ac29f185ce5db4a78ebf"
         },
         {
           "num": 94,
@@ -8357,7 +8387,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "a0c322258430f6f89f6a9375bb0e3c69e0a39028b659b8dbf3ace86ef6a63c2e"
+          "source_sha256": "d7d0f00ac9d013e194771e430d91e72a84091c77a1dc22af29655306ac80217f"
         },
         {
           "num": 91,
@@ -8453,7 +8483,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "583e4a51d89a4e8e86c1f05c1c492773333803c2da18e53b4f339a6b7c68a154"
+          "source_sha256": "e54c36155cd7ed745707fca297ad49ba0168df13179e72ab64e6ede8f227cf12"
         },
         {
           "num": 57,
@@ -8543,7 +8573,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "ae50dc4cd36967b15d172d45c2d928dc26491966214c69dae175855d18be5521"
+          "source_sha256": "e1b03bf108fd52249fa7141339f5fa79e8fed0f40f656073ba64c5a529ad377a"
         },
         {
           "num": 41,
@@ -8669,7 +8699,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "cefd9df3a628de9bec54e6eae0a637213b61894d9845ad352c950e1f5a15aee8"
+          "source_sha256": "6f27d353c817927b869e7729b6b34233633999592c0798cf728650d8ddc24345"
         },
         {
           "num": 35,
@@ -8771,7 +8801,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "8fdee4e466e2f9d5cb2a4c8a8dcdd81aa4d3bf0fa79b5ed4a4b3137324364304"
+          "source_sha256": "8b07b2ca57bdaff1794df97e6fa28c2526a532313e558037bee61b704a4ae3a7"
         },
         {
           "num": 12,
@@ -8903,7 +8933,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "3d682c87bee6e8b4e8a769cddb5a8cae4457bb474ffe7d9e6ef50ad0464e3bd2"
+          "source_sha256": "92c330ac32a1ed5e339e178ade864f34e9ef86753ea8285a08a9bf0373a0c6f3"
         }
       ],
       "commits": [
@@ -9176,10 +9206,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF/discussions/12"
         }
       ],
-      "evidence_sha256": "9799cf1c58592ebd37ad649ca065e6e14014416915e0b6aa2611b454e524089b"
+      "evidence_sha256": "83eede0820c9fc5f85b82dd4759f158003b2ebbee9ade9683b9f3161727e113b"
     },
     "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
-      "captured_at": "2026-09-19T15:54:21Z",
+      "captured_at": "2026-09-22T16:58:26Z",
       "repo": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "reason": {
@@ -9226,7 +9256,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "ef036495c911f5cd416e760bd7f3d401b5b39f389f7ad17c5d05f05883c977ac"
+          "source_sha256": "e4d2a1849c164aea0e6b65625cc5df00cc26cf075ef0c30dc58eea02d812e5f2"
         },
         {
           "num": 16,
@@ -9280,7 +9310,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "7ddcf718dbc891cd24685ea436607c70d129cf2e598319211033d871b4303ce0"
+          "source_sha256": "b67ba2d357ec5aa84fc40c7ec70569041838bd0d1052ea92fde87c95446fb0d0"
         },
         {
           "num": 15,
@@ -9328,7 +9358,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "3facd68ce59f396c001c5cf0484e6532bc18f5366aeea1ac24b629a0cf75711f"
+          "source_sha256": "96df4fae76546ff51d32e8a36c7dfe382ffde67ae91e7c92a7a18aca00cb9355"
         },
         {
           "num": 13,
@@ -9352,7 +9382,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "71e00229b55a21ed972ec54fc7ddab77e5281a3ab1cc4145734b7c47ea8f354f"
+          "source_sha256": "86325a5c2194cc3df35265fd95a9d30d7b98463c46397971664c193b7f423bf5"
         },
         {
           "num": 11,
@@ -9388,7 +9418,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "698e327f58c07f584fc6328cc5bedb89eee38970f6760f2c9accebea4ee991cb"
+          "source_sha256": "90fb3b7c80791add8ef90e9d7da872dbc92401556743dede4258cf8ccd17f935"
         },
         {
           "num": 10,
@@ -9430,7 +9460,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "7230094d048121f08962d339b1abfe4e49c15d4b85e82f944d57823d316765f2"
+          "source_sha256": "08b1dd3b7a4200acb562696bd1881356cab7153b12ec3b320295df1d7b624563"
         },
         {
           "num": 9,
@@ -9520,7 +9550,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "5fe59986dd91482be2dd6dc7f3dd20fc6600aac6c3c99241c049d2f6b29f15e9"
+          "source_sha256": "fb591275d1d323657d338522cfa19b053fb8538c844fdb81552644ba380e8ace"
         }
       ],
       "commits": [
@@ -9793,10 +9823,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF/commit/9dd2c8b00e136e7d6e1ae438e12864ac2cf3220c"
         }
       ],
-      "evidence_sha256": "aa91e6c4e54b8138cbdab5e54b5035d284225dfbc6bb2b86832d1e6aa4452ae2"
+      "evidence_sha256": "2b12459b02061dcc3443a57260da1fb56525a102f4037258667b3a4fd56c171a"
     },
     "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
-      "captured_at": "2026-09-19T15:54:22Z",
+      "captured_at": "2026-09-22T16:58:30Z",
       "repo": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "reason": {
@@ -9867,7 +9897,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "6a6bd7127cc26789a78ff18acb6862c9849a75843f3618e79699e3b80251a8b5"
+          "source_sha256": "3bb432973a3de422ae31dc5dd271af4f0ea240670fdc6c923e6e3f7410d0b4e9"
         },
         {
           "num": 29,
@@ -9969,7 +9999,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "5b47e36766b77ad2b47e12a4bebf6110b6d9873be4e1216f30ed60493b39d009"
+          "source_sha256": "b396cadb15dbf89b30a693e2caef972a9f5b82b3a035d79a75c9fc0dc511ab1e"
         },
         {
           "num": 25,
@@ -10017,7 +10047,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "ec9570d4b9c5e9138f781cc6810bac56c57db65507e457fb795401b5b30d139d"
+          "source_sha256": "072eef5adb706189d678ac93a34cbc902551c9ce18f296bc84713d7cb6acec7a"
         },
         {
           "num": 17,
@@ -10149,7 +10179,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "dad7b8eef78dacb9f475451dc2652405d1488190bc1c22715201c39a74ae6f9d"
+          "source_sha256": "3cfd39562c0ec1809f97f71c9278a1b8487a5c3671969672a39815e7185ae63d"
         },
         {
           "num": 33,
@@ -10179,7 +10209,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "53d94bdb398dc41d8c7cd691fb8550afd34588a64149efaa335394015f45ba60"
+          "source_sha256": "b93bdd83bf3896845f3fc4878b4d7f9da1f8e26766845d7c64f887b90f058474"
         },
         {
           "num": 31,
@@ -10209,7 +10239,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "b760eb5022de0c47d9629b691194b1fae4b561691719dd9ce9d6caaf86e210e1"
+          "source_sha256": "47fe0f59ea9e02cd652b8314fee3eeacfae14aff3f333da8356653d1e81df11c"
         },
         {
           "num": 30,
@@ -10239,7 +10269,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "b0190200ab505eeaeeb8e34976dafbccae1df4863d5f02fb38dfd59cc039cce4"
+          "source_sha256": "9d1de456428875a2f0bd2292d00119bf80d8be07d51b9b4ac52df9df3e952bc4"
         },
         {
           "num": 28,
@@ -10275,7 +10305,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "68ab7bb54b1d6a01378f807d147b6f5545e4cc71a15e7dda309c95250dc29571"
+          "source_sha256": "80b76a3f1cf69b099d5d027ee22647832d03994607702b0dc25ce8cdb35cabb7"
         }
       ],
       "commits": [
@@ -10548,10 +10578,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/commit/8f6654b98bf23b4d18374b7f72312cfba61d66db"
         }
       ],
-      "evidence_sha256": "736967141b1a8fe7c17f3209eac669a87a0823342d2690df36d4364ce83bab4a"
+      "evidence_sha256": "379311e0e9fb2b05b76fb0f9d3bacede524d8d3f0347f1f8ec16606b3fb3fb9e"
     },
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
-      "captured_at": "2026-09-19T15:54:24Z",
+      "captured_at": "2026-09-22T16:58:34Z",
       "repo": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "reason": {
@@ -10736,7 +10766,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "07c97304df43f84a4335d16814cd17d063182d9a8742bb18f85399905a7f3118"
+          "source_sha256": "511050bc38c8fcbee7934b18f2792925dd7078b55fe197b1e437120890a996ba"
         },
         {
           "num": 36,
@@ -10778,7 +10808,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "be509e7751ae8b18f51798ad1c56cf472558a0b94189c06544a43fa3c1ca3dd7"
+          "source_sha256": "ff281c1684647c03efdddf81db12780d7b3e5a5a690832dab127fcd4be05dc75"
         },
         {
           "num": 27,
@@ -10830,9 +10860,21 @@
               "author": "DavidAU",
               "created_at": "2026-09-03T23:47:18.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Antonyzhao2026",
+              "created_at": "2026-09-20T15:45:15.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "DavidAU",
+              "created_at": "2026-09-20T23:36:57.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "db641ac02862bce95cdaeafb40374c3c38a0604f246e6df7b8ef664f74bd4550"
+          "source_sha256": "d20e832cd1f2d96e48eec04d22bd574f5999864026fd77b89102e6130138de95"
         },
         {
           "num": 21,
@@ -10886,7 +10928,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "679993b9bc9cd574892985fba7a384f9a7efcc5b344f17cc2d93543363bbcea0"
+          "source_sha256": "c64e5251064c72d13b21ce1d1a3b0e24d0b63723f9a5745ca6286b5670b669b4"
         },
         {
           "num": 16,
@@ -10994,7 +11036,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "74d3d10daa084d4daa3e3a0bedbf4dfdfde0cf4cd9982e191cfb5457492d3c54"
+          "source_sha256": "46ee43165d3a6d75471ab7cf6439a69a9d31286572dc7bba6b46e18eba8c45d4"
         },
         {
           "num": 12,
@@ -11126,7 +11168,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "2619e9c6decdd9c9cdbcc97d572dacbc330fd990adb285268df0b5099af20900"
+          "source_sha256": "d952f041131ab89e5b7e54f3d709c187dea85521dc75ae28a5b8f2727279f5ae"
         },
         {
           "num": 11,
@@ -11186,7 +11228,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f6db86f396f4efa03918ba584a6ac660d328fef3832c2048353d9dd63e6ceb32"
+          "source_sha256": "64f4c15c3da4e2aadc8cfbf6245ee0e10b90ca330bddd1033f281cf17d2ef8fb"
         },
         {
           "num": 7,
@@ -11222,7 +11264,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9ea6b17a1c1b98bce46db491ff7911f1085e0e97de605a022dec9c8936685105"
+          "source_sha256": "37d434081692b84f7161bc809b925e8260e53d509ab016bbd86e33ad527d8e5c"
         }
       ],
       "commits": [
@@ -11495,10 +11537,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF/discussions/7"
         }
       ],
-      "evidence_sha256": "92fb2b899d8a60e0d147007eee899479826ca706580bfe3e5ec9cdb37ca82e54"
+      "evidence_sha256": "813300eb467dd326749ec2e01980bef248a806a6249a7beb7d92b1398d4e8953"
     },
     "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
-      "captured_at": "2026-09-19T15:54:24Z",
+      "captured_at": "2026-09-22T16:58:34Z",
       "repo": "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
       "hf_url": "https://huggingface.co/EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
       "reason": {
@@ -11588,10 +11630,10 @@
           "source": "https://huggingface.co/EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned/commit/53ec970b029faf7ddfd51deef7b1904a67b2f8a8"
         }
       ],
-      "evidence_sha256": "c6c0cc275ba91cf9aedfc8dc9b003461a265c548ad134681e6607e073d7499b0"
+      "evidence_sha256": "52402e85b16aa27f08a6ce5772682f58b831df5e98ebb5a8d0e63fb2adb15d1f"
     },
     "FacebookAI/xlm-roberta-base": {
-      "captured_at": "2026-09-19T15:54:26Z",
+      "captured_at": "2026-09-22T16:58:35Z",
       "repo": "FacebookAI/xlm-roberta-base",
       "hf_url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
       "reason": {
@@ -11626,7 +11668,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "464adc89072338aa97dc185c44ef0b934c7cd4de1ece56b1b61a8c4b1f2535b0"
+          "source_sha256": "b08f9919968f873f2b1c54a49746d7623968bffa75f6e14eb6a631f0229a7fa4"
         },
         {
           "num": 30,
@@ -11716,7 +11758,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9a90ea8b6a3dc6ab58b257da1a713d54801ff2435616eb5eb803cc3688ea8cc5"
+          "source_sha256": "db1a95bbbabbe35f27118fd95c56ad1871bed050c4ca49458bdd7a271ef91211"
         },
         {
           "num": 26,
@@ -11770,7 +11812,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "876aa2c0a5fc7d46284bc4c6c428b7b058601d7439f75321282355765f1a3f7f"
+          "source_sha256": "23d76b27c157ccd1ecb7d6cfca56602ae1516d6d52f3bc15918991d2c655820d"
         },
         {
           "num": 24,
@@ -11794,7 +11836,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9048605de067fb0604d9a6cf64af27a746445fbcbe54abee946c2b3f3dc16628"
+          "source_sha256": "78645e1fbd13fa27f4c258be1fc76e778371c414f2c7aa513e8693aa865fdebb"
         }
       ],
       "commits": [
@@ -12078,10 +12120,10 @@
           "source": "https://huggingface.co/FacebookAI/xlm-roberta-base/commit/2cfd5ad1f384a79c5dd5d64b612fe16d3fa95292"
         }
       ],
-      "evidence_sha256": "334f86d7940a61bd9fca08c49049100172f433ce78ea6f10063c6a5b27e099c5"
+      "evidence_sha256": "09d5488fbf67e2a670b064a024adfbc8772e91756f7ecc68081a24548ea7f6af"
     },
     "GitMylo/Qwen2.5-Omni-7B-abliterated": {
-      "captured_at": "2026-09-19T15:54:26Z",
+      "captured_at": "2026-09-22T16:58:35Z",
       "repo": "GitMylo/Qwen2.5-Omni-7B-abliterated",
       "hf_url": "https://huggingface.co/GitMylo/Qwen2.5-Omni-7B-abliterated",
       "reason": {
@@ -12153,10 +12195,10 @@
           "source": "https://huggingface.co/GitMylo/Qwen2.5-Omni-7B-abliterated/commit/c56ba55f4ca3e922ae586b41511de6867c0a4383"
         }
       ],
-      "evidence_sha256": "b3cf8e8b2c217a8a6d0c2627075151264ca98568b3191082309f81f58eec8ed3"
+      "evidence_sha256": "7b9b6bb7adf19ce74fe957d0a3f583a21f44a537a1e94be517cd6aeea059bec3"
     },
     "Gryphe/MythoMax-L2-13b": {
-      "captured_at": "2026-09-19T15:54:28Z",
+      "captured_at": "2026-09-22T16:58:36Z",
       "repo": "Gryphe/MythoMax-L2-13b",
       "hf_url": "https://huggingface.co/Gryphe/MythoMax-L2-13b",
       "reason": {
@@ -12197,7 +12239,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "ac6c841e37968318b10465febf9abec03de3aba2e6774b57afe268b0ce87ff09"
+          "source_sha256": "67d29902144f1a8e5538259fcc81e6c56a4952a0629cd3a6c437d11bbc566778"
         },
         {
           "num": 27,
@@ -12359,7 +12401,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "b16ca1d2a374583b3ba31ddebb09b3758c9ce506fd84fbaa9a48a3a14b931e29"
+          "source_sha256": "2b28e4c57755449dd6d8cafeaedd0a91c8c9a67f39d6eb21f62b87a8ade5b3c4"
         }
       ],
       "commits": [
@@ -12596,7 +12638,7 @@
           "source": "https://huggingface.co/Gryphe/MythoMax-L2-13b/commit/9dfd6ab219d2d483ebf170ad9ea9ef60ccc2b566"
         }
       ],
-      "evidence_sha256": "0fb6aa6d65d99ed30838f9b61c32ebf9f52e5677cb0cd88984587cb52d19223b"
+      "evidence_sha256": "0c1987db254cb8f447d9c700eb9e31e81ad95ccf400f2f4a4bec33c85012d5b2"
     },
     "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive": {
       "captured_at": "2026-09-19T20:40:40Z",
