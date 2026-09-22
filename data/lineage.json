@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-22T16:58:37Z",
+  "generated_at": "2026-09-22T21:19:29Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2179,6 +2179,17 @@
     "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic": {
       "id": "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic",
       "external_to_watchset": true
+    },
+    "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "1206d38bb47ef93961bfb77bc2c700d43a25860e",
+      "license": "other",
+      "pipeline_tag": "text-to-image"
+    },
+    "Qwen/Qwen-Image-2.1": {
+      "id": "Qwen/Qwen-Image-2.1",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3277,6 +3288,13 @@
     {
       "from": "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic",
       "to": "llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen-Image-2.1",
+      "to": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
