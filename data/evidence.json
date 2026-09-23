@@ -1,10 +1,10 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-09-23T04:45:52Z",
-  "cursor": 58,
+  "generated_at": "2026-09-23T11:37:13Z",
+  "cursor": 89,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
-      "captured_at": "2026-09-23T04:45:41Z",
+      "captured_at": "2026-09-23T11:36:41Z",
       "repo": "Aeala/ShareGPT_Vicuna_unfiltered",
       "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "reason": {
@@ -27,10 +27,10 @@
           "source": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered"
         }
       ],
-      "evidence_sha256": "c5caf3ac99b4ab3163d42dc93669554d8cd9a03baaea2d6f8e00c4ca8c9b1f6d"
+      "evidence_sha256": "2989e72931b0d143d921cc0339a2a948d31f77d805d0d2e5804e6e30206e05af"
     },
     "OpenAssistant/oasst-sft-6-llama-30b": {
-      "captured_at": "2026-09-23T04:45:41Z",
+      "captured_at": "2026-09-23T11:36:42Z",
       "repo": "OpenAssistant/oasst-sft-6-llama-30b",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "reason": {
@@ -53,10 +53,10 @@
           "source": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b"
         }
       ],
-      "evidence_sha256": "c4f2de2751b2fda51634b64fe8f487cec93b67ea637b2678b675004d6a8cedcb"
+      "evidence_sha256": "de8819de0cc218de083be38879d610268c035a8d6d9fab3117e19c7ec3c57973"
     },
     "Undi95/LLaMA-2-13B-GPTQ": {
-      "captured_at": "2026-09-23T04:45:42Z",
+      "captured_at": "2026-09-23T11:36:42Z",
       "repo": "Undi95/LLaMA-2-13B-GPTQ",
       "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
       "reason": {
@@ -79,10 +79,10 @@
           "source": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ"
         }
       ],
-      "evidence_sha256": "692082d1dcc071a02f1c94a486d8dcfb4fddae642a44c8f4ddad9df1fda999c8"
+      "evidence_sha256": "e750c9077bce970a0b46a28ec884bfa960b6807fde98533e460f269f3be1307c"
     },
     "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
-      "captured_at": "2026-09-23T04:45:42Z",
+      "captured_at": "2026-09-23T11:36:42Z",
       "repo": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "reason": {
@@ -105,10 +105,10 @@
           "source": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid"
         }
       ],
-      "evidence_sha256": "a4f651babfeb9a7846d3e875c93658432d1ced900db035f28d026e893653fe71"
+      "evidence_sha256": "cbe22d7a791824e50e03df65e8898ca5abcac05c96367dd5ea11f063031dbf39"
     },
     "WizardLM/WizardLM-7B-V1.0": {
-      "captured_at": "2026-09-23T04:45:42Z",
+      "captured_at": "2026-09-23T11:36:43Z",
       "repo": "WizardLM/WizardLM-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
       "reason": {
@@ -131,10 +131,10 @@
           "source": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0"
         }
       ],
-      "evidence_sha256": "cd6d033816ff087e885caa856e6c361b999bb43f356a5d0d50bcfca78d26c583"
+      "evidence_sha256": "368c04d867ee81eb14e6aeebfb035f70e8483b3e7ae07835736bf1233b7a5d79"
     },
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
-      "captured_at": "2026-09-23T04:45:43Z",
+      "captured_at": "2026-09-23T11:36:43Z",
       "repo": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "hf_url": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "reason": {
@@ -157,10 +157,10 @@
           "source": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber"
         }
       ],
-      "evidence_sha256": "01415fe97ced56b0c17e9bc8c1e630af2a01766880ab78859d45dae38e154b3f"
+      "evidence_sha256": "038195c8f1e101dff82d07810460d998ca3cf268fbb77f4ae8ca41837f1c0016"
     },
     "databricks/dolly-v1-6b": {
-      "captured_at": "2026-09-23T04:45:43Z",
+      "captured_at": "2026-09-23T11:36:43Z",
       "repo": "databricks/dolly-v1-6b",
       "hf_url": "https://huggingface.co/databricks/dolly-v1-6b",
       "reason": {
@@ -183,10 +183,10 @@
           "source": "https://huggingface.co/databricks/dolly-v1-6b"
         }
       ],
-      "evidence_sha256": "22552725d5d1cd392c05cb651b418505b554c112b38451aaad3a622a7f19d60f"
+      "evidence_sha256": "173c2046a5daa0e67eed9aa05bd04e821ef82f3b5bb2ef0b5eb9b61b0ba57bae"
     },
     "databricks/dolly-v2-12b": {
-      "captured_at": "2026-09-23T04:45:44Z",
+      "captured_at": "2026-09-23T11:36:44Z",
       "repo": "databricks/dolly-v2-12b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-12b",
       "reason": {
@@ -209,10 +209,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-12b"
         }
       ],
-      "evidence_sha256": "bdb77293f374e9acbfbe20ff90f9093a460a28a4169c28075a64d66252f7b056"
+      "evidence_sha256": "448dff4838c00b1f4da91536d3ec2225fd5c8ae247b7bac32c032fce77425763"
     },
     "databricks/dolly-v2-3b": {
-      "captured_at": "2026-09-23T04:45:44Z",
+      "captured_at": "2026-09-23T11:36:44Z",
       "repo": "databricks/dolly-v2-3b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-3b",
       "reason": {
@@ -235,10 +235,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-3b"
         }
       ],
-      "evidence_sha256": "fa3b79d1f2c744ae3e7c1b3877785929456c46108ce783ff29da0894b4241687"
+      "evidence_sha256": "3cf28de781b243c0ff7130289c0cae839c4188ecf2e8bfb7780d61fafc190f6b"
     },
     "databricks/dolly-v2-7b": {
-      "captured_at": "2026-09-23T04:45:44Z",
+      "captured_at": "2026-09-23T11:36:45Z",
       "repo": "databricks/dolly-v2-7b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-7b",
       "reason": {
@@ -261,10 +261,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-7b"
         }
       ],
-      "evidence_sha256": "3cb879c879be54ca7c471110f9a5d046e309578ba759ea980f9e3123b4cbed29"
+      "evidence_sha256": "e49e782e9a20a45f2daa4f723ea593c0d2487b8643df7bdd65ab22040b2c892e"
     },
     "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
-      "captured_at": "2026-09-23T04:45:45Z",
+      "captured_at": "2026-09-23T11:36:45Z",
       "repo": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "reason": {
@@ -287,10 +287,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
         }
       ],
-      "evidence_sha256": "55478df5ce4ba5bd95fc56ec776afc9dfbfc08ec12db13c5af9c1b023e7c5ac4"
+      "evidence_sha256": "31d28ee6e252053de96c66149e6e4f5ae7e91fce7731d16275a4c314f182da2c"
     },
     "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T04:45:45Z",
+      "captured_at": "2026-09-23T11:36:45Z",
       "repo": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "reason": {
@@ -313,10 +313,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "b49a2764a99c400218a2cc42c2ee198f2f9a5a97cef75a50a58892ba7c5600e3"
+      "evidence_sha256": "6e1bcf23cf08acd21a64b89fd5cc7de6c29b36ed3ad8e0b811f74a07357a62ff"
     },
     "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T04:45:45Z",
+      "captured_at": "2026-09-23T11:36:46Z",
       "repo": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -339,10 +339,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "94005f477225d3505a09f06beb87787356973aae7c18dbd8300c9f9107ae92c9"
+      "evidence_sha256": "287a377ecb86bb0f87c88ece53ac6689c973b2d6b19568284a2ec9429fd9f62a"
     },
     "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
-      "captured_at": "2026-09-23T04:45:46Z",
+      "captured_at": "2026-09-23T11:36:46Z",
       "repo": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "reason": {
@@ -365,10 +365,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "4c2b15944b3e69647fe00d7431b532c78a1b2932cafbff1aa11c5484efc5faae"
+      "evidence_sha256": "5a54be9a4b9b62ff1a5f8c8c9ed4c2881f8e499f6d462c344761526a5efb6d7d"
     },
     "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T04:45:46Z",
+      "captured_at": "2026-09-23T11:36:46Z",
       "repo": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "reason": {
@@ -391,10 +391,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "51054c8864c3b5b408383d7991d1ae14eb5056a3b44f457a665ba36b82e0edfd"
+      "evidence_sha256": "89d30d17514e991eb5b30cb9f34737cbb75cd59e4f17e3d15c0aade051a7aea2"
     },
     "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T04:45:47Z",
+      "captured_at": "2026-09-23T11:36:47Z",
       "repo": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -417,10 +417,10 @@
           "source": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "df1f9349bbb83fa68311fa0639ec0c21bc6ca46e3829ab0e96c21dcfca4e4d2e"
+      "evidence_sha256": "1d67fad9fa52cf5445436c6b423cb741e4525c0d98a59233c19632296aed9c69"
     },
     "mosaicml/mpt-7b-chat": {
-      "captured_at": "2026-09-23T04:45:47Z",
+      "captured_at": "2026-09-23T11:36:47Z",
       "repo": "mosaicml/mpt-7b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "reason": {
@@ -449,10 +449,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-chat"
         }
       ],
-      "evidence_sha256": "8c973fd410cba068898d12b0d9aecc2c790098c6e900e13b872083f7aac72331"
+      "evidence_sha256": "876171585d5f6b5b3b8d4bca0839d8002a9cbddb0c94a2595d50384a99e922e3"
     },
     "stabilityai/stable-diffusion-2-1": {
-      "captured_at": "2026-09-23T04:45:47Z",
+      "captured_at": "2026-09-23T11:36:47Z",
       "repo": "stabilityai/stable-diffusion-2-1",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "reason": {
@@ -481,10 +481,10 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2-1"
         }
       ],
-      "evidence_sha256": "800150a429b8f7659eb82beb46857e1a4d461ad68ace9ee28cb3f93e534dfae1"
+      "evidence_sha256": "82853a79a65d894c3d203b6664db97468dd9219ffff46d3e7d13ed33a878d926"
     },
     "tencent/HunyuanDiT": {
-      "captured_at": "2026-09-23T04:45:48Z",
+      "captured_at": "2026-09-23T11:36:48Z",
       "repo": "tencent/HunyuanDiT",
       "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
       "reason": {
@@ -507,10 +507,10 @@
           "source": "https://huggingface.co/tencent/HunyuanDiT"
         }
       ],
-      "evidence_sha256": "9f8c378445f81bce04db48ff7ec994382f2baa807d73455bc7a13dad413304ba"
+      "evidence_sha256": "46371ecf95b3799c06a8c3e99b1dc34dc3287e00d7f812c2af7a0cfed3ac9901"
     },
     "databricks/dbrx-base": {
-      "captured_at": "2026-09-23T04:45:48Z",
+      "captured_at": "2026-09-23T11:36:48Z",
       "repo": "databricks/dbrx-base",
       "hf_url": "https://huggingface.co/databricks/dbrx-base",
       "reason": {
@@ -533,10 +533,10 @@
           "source": "https://huggingface.co/databricks/dbrx-base"
         }
       ],
-      "evidence_sha256": "0195fc47d176a691a6e40ce546cb8c020ecab7ee19c5aa078d551d71e6db084a"
+      "evidence_sha256": "fab828f145a1dc271f87808163280d5964e12d57ae527949cf8a72b051ea3d95"
     },
     "databricks/dbrx-instruct": {
-      "captured_at": "2026-09-23T04:45:48Z",
+      "captured_at": "2026-09-23T11:36:48Z",
       "repo": "databricks/dbrx-instruct",
       "hf_url": "https://huggingface.co/databricks/dbrx-instruct",
       "reason": {
@@ -559,10 +559,10 @@
           "source": "https://huggingface.co/databricks/dbrx-instruct"
         }
       ],
-      "evidence_sha256": "efcb7dbabcb96d74103dbc4e079a58c2d47bd4c05ef48c86f08c3a0bcbb745b7"
+      "evidence_sha256": "581483b59035c56b790f86f60d6811301b4a0d7339fec1952507af181faf61ef"
     },
     "mosaicml/mpt-30b": {
-      "captured_at": "2026-09-23T04:45:49Z",
+      "captured_at": "2026-09-23T11:36:49Z",
       "repo": "mosaicml/mpt-30b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b",
       "reason": {
@@ -585,10 +585,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b"
         }
       ],
-      "evidence_sha256": "00ed5fe1fbc245d12697cbd8c3271876854c1267dfd61d2490ade6451f06d670"
+      "evidence_sha256": "a3c602d137a122eb91631f68554621bd6d542f9b059bd3bfce667476b0f45557"
     },
     "mosaicml/mpt-30b-chat": {
-      "captured_at": "2026-09-23T04:45:49Z",
+      "captured_at": "2026-09-23T11:36:49Z",
       "repo": "mosaicml/mpt-30b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-chat",
       "reason": {
@@ -611,10 +611,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-chat"
         }
       ],
-      "evidence_sha256": "b2d6428f43e63e1f5c992ab912afbf1b55cf7912c0ccc3a4884ec2647a54b31f"
+      "evidence_sha256": "f3c89ee93fe7ef2255b76d4e6f3fd5e27cffc1a66b8584c2866675badf42c6e3"
     },
     "mosaicml/mpt-30b-instruct": {
-      "captured_at": "2026-09-23T04:45:49Z",
+      "captured_at": "2026-09-23T11:36:49Z",
       "repo": "mosaicml/mpt-30b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-instruct",
       "reason": {
@@ -637,10 +637,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-instruct"
         }
       ],
-      "evidence_sha256": "f5b573c183eddacbe882a358de8c0c4681a71d63fb929db4e81baf5e54fb01e2"
+      "evidence_sha256": "b41b6ddbb7bbbdd10f32b2cb966e4b191a490dec6f1663192ee5d03fd317f8cf"
     },
     "mosaicml/mpt-7b": {
-      "captured_at": "2026-09-23T04:45:50Z",
+      "captured_at": "2026-09-23T11:36:50Z",
       "repo": "mosaicml/mpt-7b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b",
       "reason": {
@@ -663,10 +663,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b"
         }
       ],
-      "evidence_sha256": "aceef295817521e6e5b646d8889016328944927223a879428cbbe523e81f72dd"
+      "evidence_sha256": "cf51e39a0405e56845be5ea78141a01e3bbc2203ee46d1d496ebe14425dc5fbb"
     },
     "mosaicml/mpt-7b-instruct": {
-      "captured_at": "2026-09-23T04:45:50Z",
+      "captured_at": "2026-09-23T11:36:50Z",
       "repo": "mosaicml/mpt-7b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-instruct",
       "reason": {
@@ -689,10 +689,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-instruct"
         }
       ],
-      "evidence_sha256": "5071b49f6e06bd37afea4177586a2e338c44608759a21e559172b57864a82e25"
+      "evidence_sha256": "2bfeb994f9c23d4327d4569bf27909732c0f33af8c1574b5305ffc8c9ecc18dc"
     },
     "mosaicml/mpt-7b-storywriter": {
-      "captured_at": "2026-09-23T04:45:50Z",
+      "captured_at": "2026-09-23T11:36:50Z",
       "repo": "mosaicml/mpt-7b-storywriter",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
       "reason": {
@@ -715,10 +715,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-storywriter"
         }
       ],
-      "evidence_sha256": "26ba0de49adea6d8e4524146b80db89094eafa928b70ebb433d9bbcd1d2526b7"
+      "evidence_sha256": "81fff7a5a7cc297bc56386b44cf54480b902a70446f743ff4f20739e652088bb"
     },
     "stabilityai/stable-diffusion-2": {
-      "captured_at": "2026-09-23T04:45:51Z",
+      "captured_at": "2026-09-23T11:36:51Z",
       "repo": "stabilityai/stable-diffusion-2",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2",
       "reason": {
@@ -741,7 +741,7 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2"
         }
       ],
-      "evidence_sha256": "49b2ec592388dae306b713542ee391dc242736aaf57d823cfab6163973d60428"
+      "evidence_sha256": "e629e95d9617c3b67a1bddcc5363098c102bc44aa934b6e0455df97fc74aa0a3"
     },
     "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
       "captured_at": "2026-09-22T16:57:57Z",
@@ -23179,7 +23179,7 @@
       "evidence_sha256": "afc3d9dc885213bcb9b85b2481c3e2aac4a268e8b245b2e9d4ca6e725ef11652"
     },
     "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF": {
-      "captured_at": "2026-09-20T04:54:09Z",
+      "captured_at": "2026-09-23T11:36:51Z",
       "repo": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "hf_url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "reason": {
@@ -23232,7 +23232,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d048aef7e88c278877a416adbe5e22498cbf2e62d1752c74aa50f3e154529b9f"
+          "source_sha256": "068eed21c68caf78dd30a6334568b119aba8e74d800f1e0ed034f94532dc9299"
         }
       ],
       "commits": [
@@ -23301,10 +23301,10 @@
           "source": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/commit/6210cd6ba8d510439109352950c512450339fa5a"
         }
       ],
-      "evidence_sha256": "8c81a51ea74f781225d5488a6224dfe409eff7ed55fcfce3c2fa3010602242ef"
+      "evidence_sha256": "c84e0c72f0c106e2f5a9206f615b10b4c1c54563cdacc92b1bcb81a9427e56df"
     },
     "Qwen/Qwen2.5-0.5B-Instruct": {
-      "captured_at": "2026-09-20T04:54:11Z",
+      "captured_at": "2026-09-23T11:36:53Z",
       "repo": "Qwen/Qwen2.5-0.5B-Instruct",
       "hf_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
       "reason": {
@@ -23753,10 +23753,10 @@
           "source": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/commit/4a7e54c8b8a89aa1a38cff2b97395dd455338167"
         }
       ],
-      "evidence_sha256": "addfdbcfcd9ef1f87d963a9faa2ff0f8811ae1243668c394e08a462477098011"
+      "evidence_sha256": "7800c071b347e6d9cd4be70b69d918418b68c79ad2c693664f7024b363c1f61e"
     },
     "Qwen/Qwen2.5-7B-Instruct": {
-      "captured_at": "2026-09-20T04:54:12Z",
+      "captured_at": "2026-09-23T11:36:54Z",
       "repo": "Qwen/Qwen2.5-7B-Instruct",
       "hf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "reason": {
@@ -24258,10 +24258,10 @@
           "source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/commit/d1e200fcf95ef0d4326873ddf63e5562d5f1fdbb"
         }
       ],
-      "evidence_sha256": "af048cda26ebcf655cba84011e3ddce6d64210f277b84eb0a9dfd8180cb737ec"
+      "evidence_sha256": "52e776a2e736d1a3e1f37c6b7ede2c4089ae73721f6cc864e5681a529a398341"
     },
     "Qwen/Qwen3-0.6B": {
-      "captured_at": "2026-09-20T04:54:13Z",
+      "captured_at": "2026-09-23T11:36:56Z",
       "repo": "Qwen/Qwen3-0.6B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "reason": {
@@ -24422,7 +24422,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "dc8563c66ba3a16477e6c674869d7ab4c38054b2c74d0a772f13bea07838ca12"
+          "source_sha256": "95d2123e8b27967bf3d9f773122fb21a944c7e92e2230153ab15c64db110ea65"
         },
         {
           "num": 35,
@@ -24730,10 +24730,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-0.6B/commit/271af0b2cae7bf641ff37011b6a0af0bc9d0ad5b"
         }
       ],
-      "evidence_sha256": "b362bbf203d36bfce00a7442620f132f11de5b8d6d80b12229140ef54e514f49"
+      "evidence_sha256": "123411fc467934813d19044a6a9c2acc3d4e226d60f39d708d6342b386541bf1"
     },
     "Qwen/Qwen3-8B": {
-      "captured_at": "2026-09-20T04:54:14Z",
+      "captured_at": "2026-09-23T11:36:58Z",
       "repo": "Qwen/Qwen3-8B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-8B",
       "reason": {
@@ -24771,8 +24771,56 @@
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
       "discussions": [
         {
+          "num": 43,
+          "title": "Upload app.py",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "seifest",
+          "created_at": "2026-09-21T13:55:01.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "seifest",
+              "created_at": "2026-09-21T13:55:01.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "seifest",
+              "created_at": "2026-09-21T13:55:02.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "5587b1c25192166dbd60618c859c5a8ffb264e945073e1219108e542debfb386"
+        },
+        {
+          "num": 42,
+          "title": "Upload app.py",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "seifest",
+          "created_at": "2026-09-21T13:54:20.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "seifest",
+              "created_at": "2026-09-21T13:54:20.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "seifest",
+              "created_at": "2026-09-21T13:54:21.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "082f0d22e241b7fcffa755bdc065c9371288de0a55c4a36204d5b583c14ad2f8"
+        },
+        {
           "num": 41,
-          "title": "Where instruction tuning landed in this pair — a propagation scan (N80 23/37, band 32–36)",
+          "title": "Historical Qwen3-8B X-Ray comparison — correction",
           "status": "open",
           "is_pull_request": false,
           "author": "tetracta",
@@ -24802,9 +24850,21 @@
               "author": "tetracta",
               "created_at": "2026-09-06T13:01:02.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "tetracta",
+              "created_at": "2026-09-22T09:54:24.000Z",
+              "content": ""
+            },
+            {
+              "type": "title-change",
+              "author": "tetracta",
+              "created_at": "2026-09-22T09:54:25.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "2bb46bd8490135aa90b19e4311e87ab71c93485b0912d36ea2d2025cd4ca23de"
+          "source_sha256": "7b5a085ee6c355180a38a5e861117fde6b3a3375c95c4bfa367e12d919168d06"
         },
         {
           "num": 40,
@@ -24846,7 +24906,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "2613431895c5d16984305e787ea1bf485451c949a33edf9f12d43dc477d7a1f8"
+          "source_sha256": "229d5f5807162d3721aaf41e994238d725be0ff410b5d5b0dceb8f2c5c2ccb52"
         },
         {
           "num": 38,
@@ -24901,42 +24961,6 @@
             }
           ],
           "source_sha256": "e7677b56e1b494ecc74e6df7bc4926bae454eec260048f80fc8f39979b1addbc"
-        },
-        {
-          "num": 35,
-          "title": "OMS Score -- OMS 77.0 (B) -- Qwen3 8B | 5-dimension independent scoring",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "duola15",
-          "created_at": "2026-06-15T16:16:28.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "duola15",
-              "created_at": "2026-06-15T16:16:28.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "df5886e263905988010549c34d94d770a6533b847377a11bf6b35be7be43c454"
-        },
-        {
-          "num": 34,
-          "title": "DoRA personal-voice adapter on Qwen3-8B — 100% blind A/B vs stock, $1.50 GPU cost (writeup + adapter)",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "yukakst",
-          "created_at": "2026-05-25T11:13:43.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "yukakst",
-              "created_at": "2026-05-25T11:13:43.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "6974ce568b07882305ab2d5eacc7980723cce37c54b0ea25fe7eb7929c6e4682"
         }
       ],
       "commits": [
@@ -25088,9 +25112,21 @@
       "manifest_root_sha256": "ce06070fb021f83b6785831966c3b96e783bedca292d27cb79d195201a62c039",
       "timeline": [
         {
+          "at": "2026-09-21T13:55:01.000Z",
+          "type": "discussion",
+          "label": "Upload app.py",
+          "source": "https://huggingface.co/Qwen/Qwen3-8B/discussions/43"
+        },
+        {
+          "at": "2026-09-21T13:54:20.000Z",
+          "type": "discussion",
+          "label": "Upload app.py",
+          "source": "https://huggingface.co/Qwen/Qwen3-8B/discussions/42"
+        },
+        {
           "at": "2026-09-03T15:30:45.000Z",
           "type": "discussion",
-          "label": "Where instruction tuning landed in this pair — a propagation scan (N80 23/37, band 32–36)",
+          "label": "Historical Qwen3-8B X-Ray comparison — correction",
           "source": "https://huggingface.co/Qwen/Qwen3-8B/discussions/41"
         },
         {
@@ -25122,18 +25158,6 @@
           "type": "discussion",
           "label": "Listed on OpenModelMap",
           "source": "https://huggingface.co/Qwen/Qwen3-8B/discussions/36"
-        },
-        {
-          "at": "2026-06-15T16:16:28.000Z",
-          "type": "discussion",
-          "label": "OMS Score -- OMS 77.0 (B) -- Qwen3 8B | 5-dimension independent scoring",
-          "source": "https://huggingface.co/Qwen/Qwen3-8B/discussions/35"
-        },
-        {
-          "at": "2026-05-25T11:13:43.000Z",
-          "type": "discussion",
-          "label": "DoRA personal-voice adapter on Qwen3-8B — 100% blind A/B vs stock, $1.50 GPU cost (writeup + adapter)",
-          "source": "https://huggingface.co/Qwen/Qwen3-8B/discussions/34"
         },
         {
           "at": "2025-07-26T03:49:13.000Z",
@@ -25208,10 +25232,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-8B/commit/d117af2f304f02a8647f88fe05b61cfb405a1d9e"
         }
       ],
-      "evidence_sha256": "0b2b93fae68311d91f1b13aefb858a7493a17111e3e7827ea42a17136d28f128"
+      "evidence_sha256": "39ce6382d1874721c1ba46f2da776ee1be2cfa9b8048eda3fa694d75f78803a4"
     },
     "Qwen/Qwen3-Embedding-0.6B": {
-      "captured_at": "2026-09-20T04:54:16Z",
+      "captured_at": "2026-09-23T11:37:00Z",
       "repo": "Qwen/Qwen3-Embedding-0.6B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
       "reason": {
@@ -25681,10 +25705,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/commit/99cabfa1346cbf4ac8b0e73079bb2e286cff3a1f"
         }
       ],
-      "evidence_sha256": "9a3ee10a5c6f72950d8e3d379a93fbd2207b112bcd646c118775bc460b34895c"
+      "evidence_sha256": "a8a81f67763ade58b7f09d68f0a9cf6af01fb6ace335b6b9f42b8bf3c8a8fe88"
     },
     "Qwen/Qwen3-VL-8B-Instruct": {
-      "captured_at": "2026-09-20T04:54:17Z",
+      "captured_at": "2026-09-23T11:37:01Z",
       "repo": "Qwen/Qwen3-VL-8B-Instruct",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "reason": {
@@ -25779,7 +25803,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "734817000d57d3792083e7f1059901f2d370ecfb692fd12e38eda26db2e86e01"
+          "source_sha256": "f7cd9826a27189da8e0ec7b10f95c8ffcf4e48d4067b7f8c8505877700fb4ffa"
         },
         {
           "num": 30,
@@ -25845,7 +25869,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "e655b1ad896665fdd1e46bbba7dee8d46fabd07ffc9755ae4e37979a5cdb8e4c"
+          "source_sha256": "56d66e8f4437ac47bcfe34b44aa0c77c61c8b39f77e431a8d07aee243754991c"
         },
         {
           "num": 27,
@@ -26140,10 +26164,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/commit/e766c28504dddf1cea2e8d0ab62072b98f19a5cf"
         }
       ],
-      "evidence_sha256": "64276d8706bf816d618497c36ea69e162d25d2b068155f2322946db689aca07f"
+      "evidence_sha256": "00dfe189a8764315d1dc1b1b6c8fa4fe80ead32d6a1fd03ba5ad634ce0670a05"
     },
     "Qwen/Qwen3.5-9B": {
-      "captured_at": "2026-09-20T04:54:19Z",
+      "captured_at": "2026-09-23T11:37:03Z",
       "repo": "Qwen/Qwen3.5-9B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "reason": {
@@ -26310,7 +26334,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "838dc6f22e6a9d88578ce19b5b6cbca233dd0f246a7897655d1ab37ebd0684c3"
+          "source_sha256": "9857fd9bdb6a6ee9c91d1d88c625f23d97b82ebb69180cb9b94f63dc7e6b9bb0"
         },
         {
           "num": 61,
@@ -26328,7 +26352,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "deeed238ff9532a07eec7733f9541a2f623fac694da2991a381dbdcf1703aa75"
+          "source_sha256": "c21e7524b283afe6ffc04a69b86098bc2934f692ef8833fb3b0121604f71f067"
         },
         {
           "num": 60,
@@ -26565,10 +26589,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3.5-9B/commit/d45e68c4aeaceefc6b95599c18c13a7b1da2f60e"
         }
       ],
-      "evidence_sha256": "943df516972d661776829d255ad82cffd53e4319001947544c7d44361c3db144"
+      "evidence_sha256": "b3a23ba2cafae56c54dfe569ae8705dd4aa8d087d78f4151258c28f7b070b632"
     },
     "Qwen/Qwen3.6-35B-A3B-FP8": {
-      "captured_at": "2026-09-20T04:54:20Z",
+      "captured_at": "2026-09-23T11:37:05Z",
       "repo": "Qwen/Qwen3.6-35B-A3B-FP8",
       "hf_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "reason": {
@@ -26864,10 +26888,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/commit/61a5771f218894aaacf97551e24a25b866750fc2"
         }
       ],
-      "evidence_sha256": "c5ba5a72867efa9e25f8121d04d47a42269cd0a89892e677b7bb901f0e1be213"
+      "evidence_sha256": "56026ffea94c147f9352a2924584383a3ba459c2eb2a7310093ee9fb298b58ef"
     },
     "Qwen/Qwen3.8-27B-FP8": {
-      "captured_at": "2026-09-20T04:54:21Z",
+      "captured_at": "2026-09-23T11:37:06Z",
       "repo": "Qwen/Qwen3.8-27B-FP8",
       "hf_url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "reason": {
@@ -27373,10 +27397,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8/commit/edad00beddb9a68b291d27ee753479a033a8a69c"
         }
       ],
-      "evidence_sha256": "75b27aa14fd6952b5ef92dfab871c4122388a2d0f7fae32f3059744979488944"
+      "evidence_sha256": "2f89de5aa2ee57e9b32961f8c580c9951be97103e41df9b8ecb8067a385c213e"
     },
     "R41NH4RD/Qwen3-1.7B-Refusal-Removed": {
-      "captured_at": "2026-09-20T04:54:21Z",
+      "captured_at": "2026-09-23T11:37:07Z",
       "repo": "R41NH4RD/Qwen3-1.7B-Refusal-Removed",
       "hf_url": "https://huggingface.co/R41NH4RD/Qwen3-1.7B-Refusal-Removed",
       "reason": {
@@ -27503,10 +27527,10 @@
           "source": "https://huggingface.co/R41NH4RD/Qwen3-1.7B-Refusal-Removed/commit/e5e269940396a7169bec01eedad08391f123d408"
         }
       ],
-      "evidence_sha256": "555daaa5dddcafd272025b06132eef7d796a28220a767ba13122f6a3d6f7958e"
+      "evidence_sha256": "97f8c617dc00c168856b4b9fb46443b4d4a97cda03e80ca3c6f4acc330d9f6f9"
     },
     "R41NH4RD/Qwen3-4B-Refusal-Removed": {
-      "captured_at": "2026-09-20T04:54:22Z",
+      "captured_at": "2026-09-23T11:37:07Z",
       "repo": "R41NH4RD/Qwen3-4B-Refusal-Removed",
       "hf_url": "https://huggingface.co/R41NH4RD/Qwen3-4B-Refusal-Removed",
       "reason": {
@@ -27597,10 +27621,10 @@
           "source": "https://huggingface.co/R41NH4RD/Qwen3-4B-Refusal-Removed/commit/637813f68304e762145c352419fe9720cbfdeb1f"
         }
       ],
-      "evidence_sha256": "d83eb8cbbb98c5ddac5724e6d239f548857a3a742b660c242851c7308dc3f513"
+      "evidence_sha256": "bf0f0da132b27d5f2b2c5a4f9ff5d654e602ab2232159c2e560579ca596f4d7e"
     },
     "RedTeamLab/Gemma-4-12B-Sol-Traces-v1": {
-      "captured_at": "2026-09-20T04:54:22Z",
+      "captured_at": "2026-09-23T11:37:07Z",
       "repo": "RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
       "reason": {
@@ -27847,10 +27871,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-12B-Sol-Traces-v1/commit/19ea37b89761267e4933cc2a36c4d9a7f267acb7"
         }
       ],
-      "evidence_sha256": "e60cfd1207deb3c08463b12ddb6184062770cb32245e860d08b0fe9c08721ec2"
+      "evidence_sha256": "2b467264577bd8456160b2e5299d85fa41f9486d87f8115379e201cd0df508df"
     },
     "RedTeamLab/Gemma-4-12B-redteam-v5": {
-      "captured_at": "2026-09-20T04:54:22Z",
+      "captured_at": "2026-09-23T11:37:08Z",
       "repo": "RedTeamLab/Gemma-4-12B-redteam-v5",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-12B-redteam-v5",
       "reason": {
@@ -28017,10 +28041,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-12B-redteam-v5/commit/8d4b3bcfdf850cd62d2ed7f888cfb57bf26b5c0e"
         }
       ],
-      "evidence_sha256": "eca25247feab544e0e0e7cda30a8e4fb52805ff8521159032ee2994302c26416"
+      "evidence_sha256": "4a5229a0c425c34d7b600515e3e7e0b69599f457b96d4410ab7bee7a555eb56d"
     },
     "RedTeamLab/Gemma-4-26B-Sol-Traces-v1": {
-      "captured_at": "2026-09-20T04:54:22Z",
+      "captured_at": "2026-09-23T11:37:08Z",
       "repo": "RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
       "reason": {
@@ -28273,10 +28297,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-26B-Sol-Traces-v1/commit/287040e202f5288e4bd35e0605e2f1a5a949d915"
         }
       ],
-      "evidence_sha256": "293b7d42a27813be301f4c0942058c1011acb2e9fef418a7fe63dcf2b84f7679"
+      "evidence_sha256": "ddbc30d9440fb00c2f9c58b19390648eb8601c90145f625bcdab151c46111c97"
     },
     "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2": {
-      "captured_at": "2026-09-20T04:54:23Z",
+      "captured_at": "2026-09-23T11:37:09Z",
       "repo": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
       "reason": {
@@ -28421,10 +28445,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v2/commit/5a4d9ccc16dbb0087437aaf68adda47a69c755c0"
         }
       ],
-      "evidence_sha256": "029745cae2ab7058bc09b5864f172e47aa7170e2d97ad292df2f3b08d6cabe3f"
+      "evidence_sha256": "db03e327b2d67522dfde6160f030ffbe8dae9e48265f1423ead0bb7c871176ba"
     },
     "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3": {
-      "captured_at": "2026-09-20T04:54:23Z",
+      "captured_at": "2026-09-23T11:37:09Z",
       "repo": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
       "reason": {
@@ -28557,10 +28581,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v3/commit/9c1d3cd825ff3b5934bfb50cde9a04e4a415d67b"
         }
       ],
-      "evidence_sha256": "9cb41f526fc97737c887cbb4abe477e86222b333b5c9514c1896379cc89e42c7"
+      "evidence_sha256": "c017e9a59b5a7715c98afe4594a820a3f207249a2b2525989dd17452a46428f8"
     },
     "RedTeamLab/Qwen3.5-4B-redteam-v4.1": {
-      "captured_at": "2026-09-20T04:54:24Z",
+      "captured_at": "2026-09-23T11:37:10Z",
       "repo": "RedTeamLab/Qwen3.5-4B-redteam-v4.1",
       "hf_url": "https://huggingface.co/RedTeamLab/Qwen3.5-4B-redteam-v4.1",
       "reason": {
@@ -28786,10 +28810,10 @@
           "source": "https://huggingface.co/RedTeamLab/Qwen3.5-4B-redteam-v4.1/commit/160ae69ccfe9bdd1fcea73c63f1808455ffa6fbc"
         }
       ],
-      "evidence_sha256": "0c4ae7dcd7aad7d194f8978027abcdbdb11ee1b8b134aeef64753378359d7e92"
+      "evidence_sha256": "3034a930fe85abf29bb48c8f837044fd620cc466f13ce4ae38c1ceb2a1b6cb9b"
     },
     "RedTeamLab/Qwen3.6-27B-blueteam-v5": {
-      "captured_at": "2026-09-20T04:54:24Z",
+      "captured_at": "2026-09-23T11:37:10Z",
       "repo": "RedTeamLab/Qwen3.6-27B-blueteam-v5",
       "hf_url": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-blueteam-v5",
       "reason": {
@@ -28953,10 +28977,10 @@
           "source": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-blueteam-v5/commit/14ab334316c18a9bc6686c953715b26736bbd2d5"
         }
       ],
-      "evidence_sha256": "13fded10d91a62a3e11fb6c9b943d79a8f41196ec844733ab0940c61779fe36b"
+      "evidence_sha256": "1e7bc38f5db162ec9e3b16ad63cffa19ea38f372d833fabec0d48c4fe798cb17"
     },
     "RedTeamLab/Qwen3.6-27B-redteam-v5": {
-      "captured_at": "2026-09-20T04:54:24Z",
+      "captured_at": "2026-09-23T11:37:11Z",
       "repo": "RedTeamLab/Qwen3.6-27B-redteam-v5",
       "hf_url": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-redteam-v5",
       "reason": {
@@ -29103,10 +29127,10 @@
           "source": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-redteam-v5/commit/fc950fe0084c6257d1e72b77d0579cd7fd467d37"
         }
       ],
-      "evidence_sha256": "de19e29f280d43d10df0d302e6d1859d67201b30fc898cbc22bb36d1dff4ffb3"
+      "evidence_sha256": "b69e1117432cb558fa944bf03ccec34e57083102a1877a0c593dd2f37707d0eb"
     },
     "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf": {
-      "captured_at": "2026-09-20T04:54:25Z",
+      "captured_at": "2026-09-23T11:37:11Z",
       "repo": "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
       "hf_url": "https://huggingface.co/RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
       "reason": {
@@ -29340,10 +29364,10 @@
           "source": "https://huggingface.co/RichardErkhov/jasonhwan_-_phi3-redteamer-gguf/commit/656993003c356fecdf6fb03b3db62f5b47cd1de4"
         }
       ],
-      "evidence_sha256": "3e669afcd6a25dca9b504ecb9ea6d214b5545386d5ee996da8b7eb39ba53019c"
+      "evidence_sha256": "988f360451b163a2f7d72a7c375a89252121fcc23df859c5e6654e1df939b828"
     },
     "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1": {
-      "captured_at": "2026-09-20T04:54:25Z",
+      "captured_at": "2026-09-23T11:37:12Z",
       "repo": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
       "hf_url": "https://huggingface.co/SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
       "reason": {
@@ -29590,10 +29614,10 @@
           "source": "https://huggingface.co/SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1/commit/f5156f5a5c474d2bdfa103e988f641339a5d22b5"
         }
       ],
-      "evidence_sha256": "63298e91ac0f3f013382a70d48a365f8e24ecf0bdd47165f5215953c5d1f5a89"
+      "evidence_sha256": "a7e095710be3a2a775d4bda0c37f5b2865582ba04b14f37f922f933e498f6986"
     },
     "TrevorJS/gemma-4-31B-it-uncensored": {
-      "captured_at": "2026-09-20T04:54:25Z",
+      "captured_at": "2026-09-23T11:37:12Z",
       "repo": "TrevorJS/gemma-4-31B-it-uncensored",
       "hf_url": "https://huggingface.co/TrevorJS/gemma-4-31B-it-uncensored",
       "reason": {
@@ -29865,10 +29889,10 @@
           "source": "https://huggingface.co/TrevorJS/gemma-4-31B-it-uncensored/commit/4049422d81a3bee37e4fdc6a19fd6e9b8d026e5d"
         }
       ],
-      "evidence_sha256": "9be3888bff52389756190d3a170575e0a001b53c7defea95db320f48debcfc9a"
+      "evidence_sha256": "8e6e7d9a3a0d3a2eae4548f02dc244d755b0a0d9d0aa15f1d22490792c0bc0e5"
     },
     "Undi95/Toppy-M-7B": {
-      "captured_at": "2026-09-20T04:54:26Z",
+      "captured_at": "2026-09-23T11:37:12Z",
       "repo": "Undi95/Toppy-M-7B",
       "hf_url": "https://huggingface.co/Undi95/Toppy-M-7B",
       "reason": {
@@ -30079,10 +30103,10 @@
           "source": "https://huggingface.co/Undi95/Toppy-M-7B/discussions/1"
         }
       ],
-      "evidence_sha256": "ff453cd5ede3eae62e1f57bf921b9e30c49c033067cf549f87b253ed9208af75"
+      "evidence_sha256": "849acb48443566e8747516cf090ec4650bad33dd84b10f1e348e99f46a9be8c0"
     },
     "WizardLM/WizardCoder-15B-V1.0": {
-      "captured_at": "2026-09-20T04:54:26Z",
+      "captured_at": "2026-09-23T11:37:13Z",
       "repo": "WizardLM/WizardCoder-15B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
       "reason": {
@@ -30123,10 +30147,10 @@
       "readme_sha256": "bd8709ff73442560e1f833a0c2b5aeb0f9d9794dff94a792ea3ca7c4e142d759",
       "manifest_root_sha256": "8b91b0ae8bfb0ced34dec99503aa734be5106b3fe819002e9532b5d637179e09",
       "timeline": [],
-      "evidence_sha256": "43a973cfff0794e43fa327d00b3d67fd08c9537103bf4ed60507c4b76a8f1660"
+      "evidence_sha256": "2e6547dda0b603999a7f2243917f6b58f121dfd632733af1f3faf86f864104fd"
     },
     "WizardLM/WizardMath-7B-V1.0": {
-      "captured_at": "2026-09-20T04:54:27Z",
+      "captured_at": "2026-09-23T11:37:13Z",
       "repo": "WizardLM/WizardMath-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0",
       "reason": {
@@ -30161,7 +30185,7 @@
       "readme_sha256": "185cd7fc6bbfcf8993fa39bb9efb7edf0ef2e2c745914f83e253b1ed2128f500",
       "manifest_root_sha256": "92089d0e841cef81b210443122b6b49aa79d58f30b7996205a9709170c378d50",
       "timeline": [],
-      "evidence_sha256": "fba1b3da2b21937ecaf9fabbee73029f9401ca35a76e60e9d179a08e40f13c67"
+      "evidence_sha256": "a64602ff8c8e6be0b0536eeb6256f2cd06617a08977a5d98bd9585df816ae49b"
     },
     "WizardLMTeam/WizardLM-2-70B": {
       "captured_at": "2026-09-20T11:24:37Z",
