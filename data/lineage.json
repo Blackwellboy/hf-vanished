@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-23T11:37:13Z",
+  "generated_at": "2026-09-23T16:59:45Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2183,7 +2183,7 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "26fee668287d4f4050e5734a553adf8c201aeb42",
+      "revision": "40319fb15542f0ad22921e0124a191a8a935a60a",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
