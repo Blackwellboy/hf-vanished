@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-24T04:51:26Z",
+  "generated_at": "2026-09-24T11:47:04Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2204,6 +2204,17 @@
       "revision": "3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3",
       "license": "apache-2.0",
       "pipeline_tag": "image-classification"
+    },
+    "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "7feb7bae6beaaf314ef087d552a09d8da05e0980",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3316,6 +3327,13 @@
     {
       "from": "Qwen/Qwen3-VL-8B-Instruct",
       "to": "huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated",
+      "to": "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
