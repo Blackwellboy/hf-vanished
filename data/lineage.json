@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-26T04:59:04Z",
+  "generated_at": "2026-09-26T11:25:18Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -403,7 +403,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "743c35fc4a17c679d4b49a506a426d1101b6e6a9",
+      "revision": "45acd838b211b4206ad1f88f7723eac536a0070f",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2183,7 +2183,7 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "40319fb15542f0ad22921e0124a191a8a935a60a",
+      "revision": "8fa47c0eb8da2323cd756f01404601ed4ff4706e",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
@@ -2226,6 +2226,31 @@
     "AMAImedia/Qwen3.8-27B-Obliterated-NOESIS-BF16": {
       "id": "AMAImedia/Qwen3.8-27B-Obliterated-NOESIS-BF16",
       "external_to_watchset": true
+    },
+    "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF": {
+      "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
+      "visibility": "public",
+      "revision": "b5f8b912289f873f421e7cc6389d1bdda22b3721",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "prism-ml/Ternary-Bonsai-2-27B-gguf": {
+      "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "external_to_watchset": true
+    },
+    "cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF": {
+      "id": "cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF",
+      "visibility": "public",
+      "revision": "1b7f95ec8a072969bc27f46326ef77188fb1f72d",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "meta-llama/Llama-3.2-1B-Instruct": {
+      "id": "meta-llama/Llama-3.2-1B-Instruct",
+      "visibility": "public",
+      "revision": "9213176726f574b556790deb65791e0c5aa438b6",
+      "license": "llama3.2",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -3352,6 +3377,20 @@
     {
       "from": "AMAImedia/Qwen3.8-27B-Obliterated-NOESIS-BF16",
       "to": "mradermacher/Qwen3.8-27B-Obliterated-NOESIS-BF16-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "to": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
