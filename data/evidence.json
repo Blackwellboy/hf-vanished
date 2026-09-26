@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-09-26T11:25:18Z",
+  "generated_at": "2026-09-26T16:24:48Z",
   "cursor": 58,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
@@ -23259,7 +23259,7 @@
       "evidence_sha256": "f7edffdccd49f08ee84083ae8990d8e84c48572c6f1db55181bef757a9a7ef39"
     },
     "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF": {
-      "captured_at": "2026-09-23T11:36:51Z",
+      "captured_at": "2026-09-26T16:24:21Z",
       "repo": "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "hf_url": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF",
       "reason": {
@@ -23381,10 +23381,10 @@
           "source": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/commit/6210cd6ba8d510439109352950c512450339fa5a"
         }
       ],
-      "evidence_sha256": "c84e0c72f0c106e2f5a9206f615b10b4c1c54563cdacc92b1bcb81a9427e56df"
+      "evidence_sha256": "98fc6ec3ca553b03074ff7a09f9877c7deb8afc25a8181df636f90fcb4ad3959"
     },
     "Qwen/Qwen2.5-0.5B-Instruct": {
-      "captured_at": "2026-09-23T11:36:53Z",
+      "captured_at": "2026-09-26T16:24:22Z",
       "repo": "Qwen/Qwen2.5-0.5B-Instruct",
       "hf_url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
       "reason": {
@@ -23833,10 +23833,10 @@
           "source": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/commit/4a7e54c8b8a89aa1a38cff2b97395dd455338167"
         }
       ],
-      "evidence_sha256": "7800c071b347e6d9cd4be70b69d918418b68c79ad2c693664f7024b363c1f61e"
+      "evidence_sha256": "dd8c695138a20ff44c50c9789b18fb1e4b1a615ca1f0f9eb44a372a08c89c8f2"
     },
     "Qwen/Qwen2.5-7B-Instruct": {
-      "captured_at": "2026-09-23T11:36:54Z",
+      "captured_at": "2026-09-26T16:24:24Z",
       "repo": "Qwen/Qwen2.5-7B-Instruct",
       "hf_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "reason": {
@@ -24338,10 +24338,10 @@
           "source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/commit/d1e200fcf95ef0d4326873ddf63e5562d5f1fdbb"
         }
       ],
-      "evidence_sha256": "52e776a2e736d1a3e1f37c6b7ede2c4089ae73721f6cc864e5681a529a398341"
+      "evidence_sha256": "922a7b5d3087f757fa12ceb6f9836ac2e375b333bca04b56c62b2ac5a77beb30"
     },
     "Qwen/Qwen3-0.6B": {
-      "captured_at": "2026-09-23T11:36:56Z",
+      "captured_at": "2026-09-26T16:24:25Z",
       "repo": "Qwen/Qwen3-0.6B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-0.6B",
       "reason": {
@@ -24378,6 +24378,24 @@
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
       "discussions": [
+        {
+          "num": 42,
+          "title": "Reflex — a Rust/CUDA inference engine built for cold-start, with day-one Qwen3/Qwen3.5 support",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "Lateos",
+          "created_at": "2026-09-26T03:28:01.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Lateos",
+              "created_at": "2026-09-26T03:28:01.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "f40f2efde79baf40eaacca8f259969a85260b1960ffe876501e9d07bd5ff97b6"
+        },
         {
           "num": 41,
           "title": "Update README.md",
@@ -24521,24 +24539,6 @@
             }
           ],
           "source_sha256": "10f75d582d2ccfe6b37e91ae5b29ea7d0c0a17a25f71c2897907cd0fc19648be"
-        },
-        {
-          "num": 34,
-          "title": "Where can I find the source code?",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "work19990909",
-          "created_at": "2026-05-02T06:48:52.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "work19990909",
-              "created_at": "2026-05-02T06:48:52.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "c76da5170384153a96d7ae2c1ec2e5990e562174ac418829ac4a1dbdab8eac3d"
         }
       ],
       "commits": [
@@ -24690,6 +24690,12 @@
       "manifest_root_sha256": "8b28dc1781b48e65682bcf83b250d3326f1b3e873cdc3fd0691fd414dc718fa6",
       "timeline": [
         {
+          "at": "2026-09-26T03:28:01.000Z",
+          "type": "discussion",
+          "label": "Reflex — a Rust/CUDA inference engine built for cold-start, with day-one Qwen3/Qwen3.5 support",
+          "source": "https://huggingface.co/Qwen/Qwen3-0.6B/discussions/42"
+        },
+        {
           "at": "2026-09-15T06:35:44.000Z",
           "type": "discussion",
           "label": "Update README.md",
@@ -24730,12 +24736,6 @@
           "type": "discussion",
           "label": "New architecture: TemporalMesh Transformer — dynamic kNN graph attention + per-token exit routing, 29.4 PPL at 48% compute",
           "source": "https://huggingface.co/Qwen/Qwen3-0.6B/discussions/35"
-        },
-        {
-          "at": "2026-05-02T06:48:52.000Z",
-          "type": "discussion",
-          "label": "Where can I find the source code?",
-          "source": "https://huggingface.co/Qwen/Qwen3-0.6B/discussions/34"
         },
         {
           "at": "2025-07-26T03:46:27.000Z",
@@ -24810,10 +24810,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-0.6B/commit/271af0b2cae7bf641ff37011b6a0af0bc9d0ad5b"
         }
       ],
-      "evidence_sha256": "123411fc467934813d19044a6a9c2acc3d4e226d60f39d708d6342b386541bf1"
+      "evidence_sha256": "757c87091ade29dd305191bd04db36b23132c51a59b381abfb0c4d1e00324426"
     },
     "Qwen/Qwen3-8B": {
-      "captured_at": "2026-09-23T11:36:58Z",
+      "captured_at": "2026-09-26T16:24:27Z",
       "repo": "Qwen/Qwen3-8B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-8B",
       "reason": {
@@ -25312,10 +25312,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-8B/commit/d117af2f304f02a8647f88fe05b61cfb405a1d9e"
         }
       ],
-      "evidence_sha256": "39ce6382d1874721c1ba46f2da776ee1be2cfa9b8048eda3fa694d75f78803a4"
+      "evidence_sha256": "4e873240dbdebb410b79a13ff21c22bac84ac1a76f671fde63b285c5f5ba0969"
     },
     "Qwen/Qwen3-Embedding-0.6B": {
-      "captured_at": "2026-09-23T11:37:00Z",
+      "captured_at": "2026-09-26T16:24:29Z",
       "repo": "Qwen/Qwen3-Embedding-0.6B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
       "reason": {
@@ -25785,10 +25785,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B/commit/99cabfa1346cbf4ac8b0e73079bb2e286cff3a1f"
         }
       ],
-      "evidence_sha256": "a8a81f67763ade58b7f09d68f0a9cf6af01fb6ace335b6b9f42b8bf3c8a8fe88"
+      "evidence_sha256": "3f30d3d0f98709f6ac007e8c56fb190dca93b5cc7befe7507c195c4ca4356b37"
     },
     "Qwen/Qwen3-VL-8B-Instruct": {
-      "captured_at": "2026-09-23T11:37:01Z",
+      "captured_at": "2026-09-26T16:24:30Z",
       "repo": "Qwen/Qwen3-VL-8B-Instruct",
       "hf_url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
       "reason": {
@@ -25949,7 +25949,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "56d66e8f4437ac47bcfe34b44aa0c77c61c8b39f77e431a8d07aee243754991c"
+          "source_sha256": "a57fad0ed92765ccfc466e40fb2335ef2cb6fcc0f9558b3eafae01e0355e52f1"
         },
         {
           "num": 27,
@@ -26244,10 +26244,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/commit/e766c28504dddf1cea2e8d0ab62072b98f19a5cf"
         }
       ],
-      "evidence_sha256": "00dfe189a8764315d1dc1b1b6c8fa4fe80ead32d6a1fd03ba5ad634ce0670a05"
+      "evidence_sha256": "c5a4101c9648015fe8dd131a978d8982655d0dd1bf6161ccbdd82b480d585712"
     },
     "Qwen/Qwen3.5-9B": {
-      "captured_at": "2026-09-23T11:37:03Z",
+      "captured_at": "2026-09-26T16:24:32Z",
       "repo": "Qwen/Qwen3.5-9B",
       "hf_url": "https://huggingface.co/Qwen/Qwen3.5-9B",
       "reason": {
@@ -26669,10 +26669,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3.5-9B/commit/d45e68c4aeaceefc6b95599c18c13a7b1da2f60e"
         }
       ],
-      "evidence_sha256": "b3a23ba2cafae56c54dfe569ae8705dd4aa8d087d78f4151258c28f7b070b632"
+      "evidence_sha256": "1a185d23ef51d513e5236af98662f0d55a2b2cbcdc597d3ad0b59bdbb02ada9d"
     },
     "Qwen/Qwen3.6-35B-A3B-FP8": {
-      "captured_at": "2026-09-23T11:37:05Z",
+      "captured_at": "2026-09-26T16:24:34Z",
       "repo": "Qwen/Qwen3.6-35B-A3B-FP8",
       "hf_url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
       "reason": {
@@ -26968,10 +26968,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8/commit/61a5771f218894aaacf97551e24a25b866750fc2"
         }
       ],
-      "evidence_sha256": "56026ffea94c147f9352a2924584383a3ba459c2eb2a7310093ee9fb298b58ef"
+      "evidence_sha256": "cd187ba4f18ac383deeea52e73fd39482d3d91c98b6da9a15f738eaa9412a2b6"
     },
     "Qwen/Qwen3.8-27B-FP8": {
-      "captured_at": "2026-09-23T11:37:06Z",
+      "captured_at": "2026-09-26T16:24:35Z",
       "repo": "Qwen/Qwen3.8-27B-FP8",
       "hf_url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "reason": {
@@ -27477,10 +27477,10 @@
           "source": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8/commit/edad00beddb9a68b291d27ee753479a033a8a69c"
         }
       ],
-      "evidence_sha256": "2f89de5aa2ee57e9b32961f8c580c9951be97103e41df9b8ecb8067a385c213e"
+      "evidence_sha256": "e05e1636795ea6f878bc631bc74a537b051a900403c210871a4cd588a386d415"
     },
     "R41NH4RD/Qwen3-1.7B-Refusal-Removed": {
-      "captured_at": "2026-09-23T11:37:07Z",
+      "captured_at": "2026-09-26T16:24:35Z",
       "repo": "R41NH4RD/Qwen3-1.7B-Refusal-Removed",
       "hf_url": "https://huggingface.co/R41NH4RD/Qwen3-1.7B-Refusal-Removed",
       "reason": {
@@ -27607,10 +27607,10 @@
           "source": "https://huggingface.co/R41NH4RD/Qwen3-1.7B-Refusal-Removed/commit/e5e269940396a7169bec01eedad08391f123d408"
         }
       ],
-      "evidence_sha256": "97f8c617dc00c168856b4b9fb46443b4d4a97cda03e80ca3c6f4acc330d9f6f9"
+      "evidence_sha256": "1fb262cf47df106aa52e236ed30aeb1a1423f89812160f2680113af5f7644df5"
     },
     "R41NH4RD/Qwen3-4B-Refusal-Removed": {
-      "captured_at": "2026-09-23T11:37:07Z",
+      "captured_at": "2026-09-26T16:24:36Z",
       "repo": "R41NH4RD/Qwen3-4B-Refusal-Removed",
       "hf_url": "https://huggingface.co/R41NH4RD/Qwen3-4B-Refusal-Removed",
       "reason": {
@@ -27701,10 +27701,10 @@
           "source": "https://huggingface.co/R41NH4RD/Qwen3-4B-Refusal-Removed/commit/637813f68304e762145c352419fe9720cbfdeb1f"
         }
       ],
-      "evidence_sha256": "bf0f0da132b27d5f2b2c5a4f9ff5d654e602ab2232159c2e560579ca596f4d7e"
+      "evidence_sha256": "a427a76e4a648b7efa6a76c6669febe047567afdba87875ca6cf5754259c0a13"
     },
     "RedTeamLab/Gemma-4-12B-Sol-Traces-v1": {
-      "captured_at": "2026-09-23T11:37:07Z",
+      "captured_at": "2026-09-26T16:24:36Z",
       "repo": "RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-12B-Sol-Traces-v1",
       "reason": {
@@ -27951,10 +27951,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-12B-Sol-Traces-v1/commit/19ea37b89761267e4933cc2a36c4d9a7f267acb7"
         }
       ],
-      "evidence_sha256": "2b467264577bd8456160b2e5299d85fa41f9486d87f8115379e201cd0df508df"
+      "evidence_sha256": "986eb20e668563bf2523aca0c9d65bc0a669d4ac721c857cf48d5c0fa6220d72"
     },
     "RedTeamLab/Gemma-4-12B-redteam-v5": {
-      "captured_at": "2026-09-23T11:37:08Z",
+      "captured_at": "2026-09-26T16:24:37Z",
       "repo": "RedTeamLab/Gemma-4-12B-redteam-v5",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-12B-redteam-v5",
       "reason": {
@@ -28121,10 +28121,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-12B-redteam-v5/commit/8d4b3bcfdf850cd62d2ed7f888cfb57bf26b5c0e"
         }
       ],
-      "evidence_sha256": "4a5229a0c425c34d7b600515e3e7e0b69599f457b96d4410ab7bee7a555eb56d"
+      "evidence_sha256": "7589ab80dbb153ea32ef82fe98fb99f1ccc3b55ce5b30be229c1d1dd3a4ab431"
     },
     "RedTeamLab/Gemma-4-26B-Sol-Traces-v1": {
-      "captured_at": "2026-09-23T11:37:08Z",
+      "captured_at": "2026-09-26T16:24:37Z",
       "repo": "RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-26B-Sol-Traces-v1",
       "reason": {
@@ -28377,10 +28377,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-26B-Sol-Traces-v1/commit/287040e202f5288e4bd35e0605e2f1a5a949d915"
         }
       ],
-      "evidence_sha256": "ddbc30d9440fb00c2f9c58b19390648eb8601c90145f625bcdab151c46111c97"
+      "evidence_sha256": "a8120602f2476e390944209fffc2dc213cb3c7efeb2a2f8fc0734a1f631f86db"
     },
     "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2": {
-      "captured_at": "2026-09-23T11:37:09Z",
+      "captured_at": "2026-09-26T16:24:38Z",
       "repo": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v2",
       "reason": {
@@ -28525,10 +28525,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v2/commit/5a4d9ccc16dbb0087437aaf68adda47a69c755c0"
         }
       ],
-      "evidence_sha256": "db03e327b2d67522dfde6160f030ffbe8dae9e48265f1423ead0bb7c871176ba"
+      "evidence_sha256": "b680bc69d31c9ee6a7a0b9eb874e978cf4e041629ecf392576c3707687935e67"
     },
     "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3": {
-      "captured_at": "2026-09-23T11:37:09Z",
+      "captured_at": "2026-09-26T16:24:38Z",
       "repo": "RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
       "hf_url": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v3",
       "reason": {
@@ -28661,10 +28661,10 @@
           "source": "https://huggingface.co/RedTeamLab/Gemma-4-E4B-Sol-Traces-v3/commit/9c1d3cd825ff3b5934bfb50cde9a04e4a415d67b"
         }
       ],
-      "evidence_sha256": "c017e9a59b5a7715c98afe4594a820a3f207249a2b2525989dd17452a46428f8"
+      "evidence_sha256": "e5d441d2874acce37d0d33a47cbab93b4eafad9fc65eaf20cd8e8a09325a8daa"
     },
     "RedTeamLab/Qwen3.5-4B-redteam-v4.1": {
-      "captured_at": "2026-09-23T11:37:10Z",
+      "captured_at": "2026-09-26T16:24:39Z",
       "repo": "RedTeamLab/Qwen3.5-4B-redteam-v4.1",
       "hf_url": "https://huggingface.co/RedTeamLab/Qwen3.5-4B-redteam-v4.1",
       "reason": {
@@ -28705,7 +28705,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "35d8e4525a3d6b8ee51446b9f4fb7cba2064a60a729a2f913f5e61978c4ca122"
+          "source_sha256": "10edd9231f192693cdfe8fc54792792c0c62cda4427780a8e12f26447c9a233b"
         }
       ],
       "commits": [
@@ -28890,10 +28890,10 @@
           "source": "https://huggingface.co/RedTeamLab/Qwen3.5-4B-redteam-v4.1/commit/160ae69ccfe9bdd1fcea73c63f1808455ffa6fbc"
         }
       ],
-      "evidence_sha256": "3034a930fe85abf29bb48c8f837044fd620cc466f13ce4ae38c1ceb2a1b6cb9b"
+      "evidence_sha256": "ccea4eb4519e31942973cd815024c4f7def43457427c075fb93ec7f525cba1e8"
     },
     "RedTeamLab/Qwen3.6-27B-blueteam-v5": {
-      "captured_at": "2026-09-23T11:37:10Z",
+      "captured_at": "2026-09-26T16:24:39Z",
       "repo": "RedTeamLab/Qwen3.6-27B-blueteam-v5",
       "hf_url": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-blueteam-v5",
       "reason": {
@@ -29057,10 +29057,10 @@
           "source": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-blueteam-v5/commit/14ab334316c18a9bc6686c953715b26736bbd2d5"
         }
       ],
-      "evidence_sha256": "1e7bc38f5db162ec9e3b16ad63cffa19ea38f372d833fabec0d48c4fe798cb17"
+      "evidence_sha256": "f21df9e3bed1c248cd4a7b00b250bd8b58d9491f8dbd42b104e53687bc104d7f"
     },
     "RedTeamLab/Qwen3.6-27B-redteam-v5": {
-      "captured_at": "2026-09-23T11:37:11Z",
+      "captured_at": "2026-09-26T16:24:40Z",
       "repo": "RedTeamLab/Qwen3.6-27B-redteam-v5",
       "hf_url": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-redteam-v5",
       "reason": {
@@ -29207,10 +29207,10 @@
           "source": "https://huggingface.co/RedTeamLab/Qwen3.6-27B-redteam-v5/commit/fc950fe0084c6257d1e72b77d0579cd7fd467d37"
         }
       ],
-      "evidence_sha256": "b69e1117432cb558fa944bf03ccec34e57083102a1877a0c593dd2f37707d0eb"
+      "evidence_sha256": "a2dc29f3020c5b3fcac1b549557fd65e9ec5faaabf1b8303ec1da380bedff980"
     },
     "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf": {
-      "captured_at": "2026-09-23T11:37:11Z",
+      "captured_at": "2026-09-26T16:24:40Z",
       "repo": "RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
       "hf_url": "https://huggingface.co/RichardErkhov/jasonhwan_-_phi3-redteamer-gguf",
       "reason": {
@@ -29444,10 +29444,10 @@
           "source": "https://huggingface.co/RichardErkhov/jasonhwan_-_phi3-redteamer-gguf/commit/656993003c356fecdf6fb03b3db62f5b47cd1de4"
         }
       ],
-      "evidence_sha256": "988f360451b163a2f7d72a7c375a89252121fcc23df859c5e6654e1df939b828"
+      "evidence_sha256": "495abe9c2a1e7d9316ddadc3c4adbf5366e00f3d82696cc5e592303f5a9a84e8"
     },
     "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1": {
-      "captured_at": "2026-09-23T11:37:12Z",
+      "captured_at": "2026-09-26T16:24:41Z",
       "repo": "SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
       "hf_url": "https://huggingface.co/SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1",
       "reason": {
@@ -29694,10 +29694,10 @@
           "source": "https://huggingface.co/SamsungSDS-Research/SGuard-JailbreakFilter-2B-v1/commit/f5156f5a5c474d2bdfa103e988f641339a5d22b5"
         }
       ],
-      "evidence_sha256": "a7e095710be3a2a775d4bda0c37f5b2865582ba04b14f37f922f933e498f6986"
+      "evidence_sha256": "e811ef0e7ca0b7212468bdfa4fb232b9bb185403aa075feaf979ed3cc027e7d4"
     },
     "TrevorJS/gemma-4-31B-it-uncensored": {
-      "captured_at": "2026-09-23T11:37:12Z",
+      "captured_at": "2026-09-26T16:24:41Z",
       "repo": "TrevorJS/gemma-4-31B-it-uncensored",
       "hf_url": "https://huggingface.co/TrevorJS/gemma-4-31B-it-uncensored",
       "reason": {
@@ -29738,7 +29738,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "c2e03701907bffa4f115a5a6f00b21791f6896124110649c7b95759f0bbb374b"
+          "source_sha256": "c898bec315fc9396262e55bf5cdb375be1552ab01449e794d7b2a3ce65780266"
         }
       ],
       "commits": [
@@ -29969,10 +29969,10 @@
           "source": "https://huggingface.co/TrevorJS/gemma-4-31B-it-uncensored/commit/4049422d81a3bee37e4fdc6a19fd6e9b8d026e5d"
         }
       ],
-      "evidence_sha256": "8e6e7d9a3a0d3a2eae4548f02dc244d755b0a0d9d0aa15f1d22490792c0bc0e5"
+      "evidence_sha256": "7b4c8c560d35642697a8b4e7311eab769cdeb0f33582d6dbfaa4185d79589a3b"
     },
     "Undi95/Toppy-M-7B": {
-      "captured_at": "2026-09-23T11:37:12Z",
+      "captured_at": "2026-09-26T16:24:43Z",
       "repo": "Undi95/Toppy-M-7B",
       "hf_url": "https://huggingface.co/Undi95/Toppy-M-7B",
       "reason": {
@@ -30013,7 +30013,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "0f55e0eef5d0003e61eb2dc4b75f9f3e3059302a87b9872cea68f8eddf24d351"
+          "source_sha256": "b5d3112de86b080f33343cd2f367e6a57d52a8b208d594c2a6468c31eb761e9e"
         },
         {
           "num": 5,
@@ -30037,7 +30037,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "be13ac7d3067b8d60e4782c9d2db1d2c6f3c1e3a317aa86ebb5b2a3702dcbbb2"
+          "source_sha256": "a7e6fbe4aab7dd112db8a6cf6d5059c8cf612836809be17f9ad89a28f8c332a3"
         },
         {
           "num": 4,
@@ -30109,7 +30109,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "45e3a4f484099b0dd5c70d6ebd236cba4f69ccacc6ded80b289247a1c4a5b521"
+          "source_sha256": "1b9524174268d0ec3b1cc56b23bb7a810d2255a8333dc6e98225163d58d902cb"
         },
         {
           "num": 1,
@@ -30139,10 +30139,59 @@
               "content": ""
             }
           ],
-          "source_sha256": "59db3f117febed2ceec776f8389cf562ba879e4acad211fd20d5b149cd76f497"
+          "source_sha256": "afc463d29d392565d928f984db5355a91b11b05a87634da81e583a8fcdf4b61d"
         }
       ],
-      "commits": [],
+      "commits": [
+        {
+          "id": "5d0c492effbb2e52ea04e5100c6ce02eba48a793",
+          "title": "Update README.md",
+          "created_at": "2023-11-05T00:03:48.000Z",
+          "authors": [
+            {
+              "user": "Undi95",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ab1241ad514ca8d1430003/9UwuBl5D-GuIJKIOVHm3Z.png"
+            }
+          ],
+          "url": "https://huggingface.co/Undi95/Toppy-M-7B/commit/5d0c492effbb2e52ea04e5100c6ce02eba48a793"
+        },
+        {
+          "id": "c2c519d8fd100c947761675b5211a61dbfed1611",
+          "title": "Create README.md",
+          "created_at": "2023-11-04T21:37:27.000Z",
+          "authors": [
+            {
+              "user": "Undi95",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ab1241ad514ca8d1430003/9UwuBl5D-GuIJKIOVHm3Z.png"
+            }
+          ],
+          "url": "https://huggingface.co/Undi95/Toppy-M-7B/commit/c2c519d8fd100c947761675b5211a61dbfed1611"
+        },
+        {
+          "id": "343a1486116ca2936d886068d1bddc768c6affad",
+          "title": "Upload folder using huggingface_hub",
+          "created_at": "2023-11-03T16:17:15.000Z",
+          "authors": [
+            {
+              "user": "Undi95",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ab1241ad514ca8d1430003/9UwuBl5D-GuIJKIOVHm3Z.png"
+            }
+          ],
+          "url": "https://huggingface.co/Undi95/Toppy-M-7B/commit/343a1486116ca2936d886068d1bddc768c6affad"
+        },
+        {
+          "id": "72c7183c51640480c57c5adaf5259381f83abc10",
+          "title": "initial commit",
+          "created_at": "2023-11-03T15:57:22.000Z",
+          "authors": [
+            {
+              "user": "Undi95",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63ab1241ad514ca8d1430003/9UwuBl5D-GuIJKIOVHm3Z.png"
+            }
+          ],
+          "url": "https://huggingface.co/Undi95/Toppy-M-7B/commit/72c7183c51640480c57c5adaf5259381f83abc10"
+        }
+      ],
       "readme_sha256": "dd4da0b1bc86796e235ac7337db05cee8bcdf28761f6524a86a63a3c1d4781be",
       "manifest_root_sha256": "8789d60180e9e3fb8d941ff98dfd4234c958fb52695acac41d7fd8c763d98240",
       "timeline": [
@@ -30177,16 +30226,40 @@
           "source": "https://huggingface.co/Undi95/Toppy-M-7B/discussions/2"
         },
         {
+          "at": "2023-11-05T00:03:48.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Undi95/Toppy-M-7B/commit/5d0c492effbb2e52ea04e5100c6ce02eba48a793"
+        },
+        {
           "at": "2023-11-04T23:54:04.000Z",
           "type": "discussion",
           "label": "Niiiiiiice!",
           "source": "https://huggingface.co/Undi95/Toppy-M-7B/discussions/1"
+        },
+        {
+          "at": "2023-11-04T21:37:27.000Z",
+          "type": "commit",
+          "label": "Create README.md",
+          "source": "https://huggingface.co/Undi95/Toppy-M-7B/commit/c2c519d8fd100c947761675b5211a61dbfed1611"
+        },
+        {
+          "at": "2023-11-03T16:17:15.000Z",
+          "type": "commit",
+          "label": "Upload folder using huggingface_hub",
+          "source": "https://huggingface.co/Undi95/Toppy-M-7B/commit/343a1486116ca2936d886068d1bddc768c6affad"
+        },
+        {
+          "at": "2023-11-03T15:57:22.000Z",
+          "type": "commit",
+          "label": "initial commit",
+          "source": "https://huggingface.co/Undi95/Toppy-M-7B/commit/72c7183c51640480c57c5adaf5259381f83abc10"
         }
       ],
-      "evidence_sha256": "849acb48443566e8747516cf090ec4650bad33dd84b10f1e348e99f46a9be8c0"
+      "evidence_sha256": "142a5ff788da2d5e10738bea1709d7e0761534db9fc5ca7878d92433365898af"
     },
     "WizardLM/WizardCoder-15B-V1.0": {
-      "captured_at": "2026-09-23T11:37:13Z",
+      "captured_at": "2026-09-26T16:24:45Z",
       "repo": "WizardLM/WizardCoder-15B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0",
       "reason": {
@@ -30222,15 +30295,534 @@
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
-      "discussions": [],
-      "commits": [],
+      "discussions": [
+        {
+          "num": 43,
+          "title": "Adding `safetensors` variant of this model",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "SFconvertbot",
+          "created_at": "2024-04-03T10:48:52.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "commit",
+              "author": "SFconvertbot",
+              "created_at": "2024-04-03T10:48:38.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "SFconvertbot",
+              "created_at": "2024-04-03T10:48:52.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "1156d0973373472ad48dce98bfcba429f23a570bb7328d56bd07216342028518"
+        },
+        {
+          "num": 42,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Ziyang",
+          "created_at": "2024-01-16T03:36:40.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2024-01-16T03:36:40.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Ziyang",
+              "created_at": "2024-01-16T03:36:40.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2024-01-19T03:06:36.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "391c313bd63b7cc95c7865b0f7ba07be292ec9215620708cd0cd2e52468e6695"
+        },
+        {
+          "num": 41,
+          "title": "Adding Evaluation Results",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "leaderboard-pr-bot",
+          "created_at": "2023-11-17T21:21:27.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "leaderboard-pr-bot",
+              "created_at": "2023-11-17T21:21:27.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "leaderboard-pr-bot",
+              "created_at": "2023-11-17T21:21:28.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "120c5635db68c896ee3fb2fa1511a6d04930fb994d630a285c57a2a0cf2584a7"
+        },
+        {
+          "num": 39,
+          "title": "github page is 404",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "Joyed",
+          "created_at": "2023-10-11T07:58:49.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Joyed",
+              "created_at": "2023-10-11T07:58:49.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "SemihalDevs",
+              "created_at": "2023-10-24T12:16:56.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "fce2f0b19d70c386837a7ca2d4d9c253456ac7e5b610f22edb306d963af439bd"
+        },
+        {
+          "num": 38,
+          "title": "Parallel Inferences using GPU?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "vermanic",
+          "created_at": "2023-09-07T10:26:18.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "vermanic",
+              "created_at": "2023-09-07T10:26:18.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "b60990f21b4e39f9960e73358d3c4ca278c7271af98a159f197c32f1fff4585c"
+        },
+        {
+          "num": 37,
+          "title": "tokenizer.model file missing?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "RustyRobot",
+          "created_at": "2023-09-01T09:31:42.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "RustyRobot",
+              "created_at": "2023-09-01T09:31:42.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2023-09-02T05:58:06.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "noasquare",
+              "created_at": "2023-09-02T06:53:51.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2023-09-02T08:00:12.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "dd25159dc79c747bf6b9baf4e7bdeb81a7c7b21ac03fd5335d2ce1b95edc2526"
+        },
+        {
+          "num": 36,
+          "title": "update 7B result",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Ziyang",
+          "created_at": "2023-08-30T05:45:18.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2023-08-30T05:45:18.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Ziyang",
+              "created_at": "2023-08-30T05:45:19.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-08-31T08:09:11.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "b9c95b60f73c62601072c77c34ed669928314ca97facf703e208faf2498d2a0a"
+        },
+        {
+          "num": 35,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Ziyang",
+          "created_at": "2023-08-27T15:24:30.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2023-08-27T15:24:30.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Ziyang",
+              "created_at": "2023-08-27T15:24:31.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-08-28T02:19:54.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "08007178a2aa6d4cf216d2925bda374686fcba086ffef6b7ec4070d697c0714b"
+        }
+      ],
+      "commits": [
+        {
+          "id": "9c177589dec389eac2c8de51cbc371d45e47984e",
+          "title": "Update README.md (#42)",
+          "created_at": "2024-01-19T03:06:36.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/9c177589dec389eac2c8de51cbc371d45e47984e"
+        },
+        {
+          "id": "ca03e978f8b2ab33fb8953c8f35f45ac068970fd",
+          "title": "Update README.md",
+          "created_at": "2023-11-26T15:22:39.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/ca03e978f8b2ab33fb8953c8f35f45ac068970fd"
+        },
+        {
+          "id": "63f325b81dd94805b8a64fa7fd1a7bb95d76efe6",
+          "title": "Update README.md",
+          "created_at": "2023-09-09T06:43:22.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/63f325b81dd94805b8a64fa7fd1a7bb95d76efe6"
+        },
+        {
+          "id": "c7abd625df690622bc6cff7e52fa59ce3dcd0b81",
+          "title": "update 7B result (#36)",
+          "created_at": "2023-08-31T08:09:10.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/c7abd625df690622bc6cff7e52fa59ce3dcd0b81"
+        },
+        {
+          "id": "4574b725a815bc57c8895c8ab4f437fa798f3032",
+          "title": "Update README.md",
+          "created_at": "2023-08-29T02:06:43.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/4574b725a815bc57c8895c8ab4f437fa798f3032"
+        },
+        {
+          "id": "3ff36ace6103ad0b21b4238bf3d73a2e99b86bf4",
+          "title": "Update README.md (#35)",
+          "created_at": "2023-08-28T02:19:53.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/3ff36ace6103ad0b21b4238bf3d73a2e99b86bf4"
+        },
+        {
+          "id": "78e0378df49d3839fefdc5ba241652ff02a3c3b9",
+          "title": "Update README.md (#34)",
+          "created_at": "2023-08-27T15:03:50.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/78e0378df49d3839fefdc5ba241652ff02a3c3b9"
+        },
+        {
+          "id": "858729faed832e700dc6d17d311c5dbcd128bdee",
+          "title": "Update README.md (#33)",
+          "created_at": "2023-08-27T14:36:11.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/858729faed832e700dc6d17d311c5dbcd128bdee"
+        },
+        {
+          "id": "af1285e354fa8eb1dad38ec326e039e208b5eb62",
+          "title": "Update README.md (#32)",
+          "created_at": "2023-08-27T14:35:52.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/af1285e354fa8eb1dad38ec326e039e208b5eb62"
+        },
+        {
+          "id": "5c26407b7c36135191991ce0f540070a1a5cbac6",
+          "title": "Update README.md (#31)",
+          "created_at": "2023-08-26T14:24:44.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/5c26407b7c36135191991ce0f540070a1a5cbac6"
+        },
+        {
+          "id": "84554f1ed1ed74d14c81b62f333c49e714fc42db",
+          "title": "Update README.md (#29)",
+          "created_at": "2023-08-24T03:59:03.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/84554f1ed1ed74d14c81b62f333c49e714fc42db"
+        },
+        {
+          "id": "bba130253f993ed846a65cdddba1cf8df8a60852",
+          "title": "Update README.md (#30)",
+          "created_at": "2023-08-24T03:58:04.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/bba130253f993ed846a65cdddba1cf8df8a60852"
+        }
+      ],
       "readme_sha256": "bd8709ff73442560e1f833a0c2b5aeb0f9d9794dff94a792ea3ca7c4e142d759",
       "manifest_root_sha256": "8b91b0ae8bfb0ced34dec99503aa734be5106b3fe819002e9532b5d637179e09",
-      "timeline": [],
-      "evidence_sha256": "2e6547dda0b603999a7f2243917f6b58f121dfd632733af1f3faf86f864104fd"
+      "timeline": [
+        {
+          "at": "2024-04-03T10:48:52.000Z",
+          "type": "discussion",
+          "label": "Adding `safetensors` variant of this model",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/43"
+        },
+        {
+          "at": "2024-01-19T03:06:36.000Z",
+          "type": "commit",
+          "label": "Update README.md (#42)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/9c177589dec389eac2c8de51cbc371d45e47984e"
+        },
+        {
+          "at": "2024-01-16T03:36:40.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/42"
+        },
+        {
+          "at": "2023-11-26T15:22:39.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/ca03e978f8b2ab33fb8953c8f35f45ac068970fd"
+        },
+        {
+          "at": "2023-11-17T21:21:27.000Z",
+          "type": "discussion",
+          "label": "Adding Evaluation Results",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/41"
+        },
+        {
+          "at": "2023-10-11T07:58:49.000Z",
+          "type": "discussion",
+          "label": "github page is 404",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/39"
+        },
+        {
+          "at": "2023-09-09T06:43:22.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/63f325b81dd94805b8a64fa7fd1a7bb95d76efe6"
+        },
+        {
+          "at": "2023-09-07T10:26:18.000Z",
+          "type": "discussion",
+          "label": "Parallel Inferences using GPU?",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/38"
+        },
+        {
+          "at": "2023-09-01T09:31:42.000Z",
+          "type": "discussion",
+          "label": "tokenizer.model file missing?",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/37"
+        },
+        {
+          "at": "2023-08-31T08:09:10.000Z",
+          "type": "commit",
+          "label": "update 7B result (#36)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/c7abd625df690622bc6cff7e52fa59ce3dcd0b81"
+        },
+        {
+          "at": "2023-08-30T05:45:18.000Z",
+          "type": "discussion",
+          "label": "update 7B result",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/36"
+        },
+        {
+          "at": "2023-08-29T02:06:43.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/4574b725a815bc57c8895c8ab4f437fa798f3032"
+        },
+        {
+          "at": "2023-08-28T02:19:53.000Z",
+          "type": "commit",
+          "label": "Update README.md (#35)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/3ff36ace6103ad0b21b4238bf3d73a2e99b86bf4"
+        },
+        {
+          "at": "2023-08-27T15:24:30.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/discussions/35"
+        },
+        {
+          "at": "2023-08-27T15:03:50.000Z",
+          "type": "commit",
+          "label": "Update README.md (#34)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/78e0378df49d3839fefdc5ba241652ff02a3c3b9"
+        },
+        {
+          "at": "2023-08-27T14:36:11.000Z",
+          "type": "commit",
+          "label": "Update README.md (#33)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/858729faed832e700dc6d17d311c5dbcd128bdee"
+        },
+        {
+          "at": "2023-08-27T14:35:52.000Z",
+          "type": "commit",
+          "label": "Update README.md (#32)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/af1285e354fa8eb1dad38ec326e039e208b5eb62"
+        },
+        {
+          "at": "2023-08-26T14:24:44.000Z",
+          "type": "commit",
+          "label": "Update README.md (#31)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/5c26407b7c36135191991ce0f540070a1a5cbac6"
+        },
+        {
+          "at": "2023-08-24T03:59:03.000Z",
+          "type": "commit",
+          "label": "Update README.md (#29)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/84554f1ed1ed74d14c81b62f333c49e714fc42db"
+        },
+        {
+          "at": "2023-08-24T03:58:04.000Z",
+          "type": "commit",
+          "label": "Update README.md (#30)",
+          "source": "https://huggingface.co/WizardLM/WizardCoder-15B-V1.0/commit/bba130253f993ed846a65cdddba1cf8df8a60852"
+        }
+      ],
+      "evidence_sha256": "a5b503d6f543006f5e9a7dc69d0d9934dd64358dc1d4692644646525e256f6a3"
     },
     "WizardLM/WizardMath-7B-V1.0": {
-      "captured_at": "2026-09-23T11:37:13Z",
+      "captured_at": "2026-09-26T16:24:48Z",
       "repo": "WizardLM/WizardMath-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0",
       "reason": {
@@ -30260,12 +30852,543 @@
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
-      "discussions": [],
-      "commits": [],
+      "discussions": [
+        {
+          "num": 15,
+          "title": "Adding `safetensors` variant of this model",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "SFconvertbot",
+          "created_at": "2024-04-10T14:57:39.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "SFconvertbot",
+              "created_at": "2024-04-10T14:57:39.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "SFconvertbot",
+              "created_at": "2024-04-10T14:57:40.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "f1fd63bb0cb684871ed5b01111f8cf18919144f2e519080e0b4c7d333f0056d7"
+        },
+        {
+          "num": 14,
+          "title": "Adding Evaluation Results",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "leaderboard-pr-bot",
+          "created_at": "2023-11-17T21:14:00.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "leaderboard-pr-bot",
+              "created_at": "2023-11-17T21:14:00.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "leaderboard-pr-bot",
+              "created_at": "2023-11-17T21:14:01.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "78980d4d9fdd5f6d8f09e6f6cc50b29f7f69793d4e0c1c393482708a69eee1c2"
+        },
+        {
+          "num": 13,
+          "title": "Upload tokenizer.model",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "haipeng1",
+          "created_at": "2023-09-01T08:10:19.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "haipeng1",
+              "created_at": "2023-09-01T08:10:19.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "haipeng1",
+              "created_at": "2023-09-01T08:10:20.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-09-01T08:18:09.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "861a44717e478f0c9a2df9c5928e340b4fa886c4f48393833dbca955a2fa2e6e"
+        },
+        {
+          "num": 12,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "haipeng1",
+          "created_at": "2023-09-01T08:01:56.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "haipeng1",
+              "created_at": "2023-09-01T08:01:56.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "haipeng1",
+              "created_at": "2023-09-01T08:01:56.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-09-01T08:18:03.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "c86898e1d9a4c54f483ddab09eda9657e44beadb8516b406c80999582b3dec3d"
+        },
+        {
+          "num": 11,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "haipeng1",
+          "created_at": "2023-09-01T07:48:40.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "haipeng1",
+              "created_at": "2023-09-01T07:48:40.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "haipeng1",
+              "created_at": "2023-09-01T07:48:41.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-09-01T07:56:21.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "03f101dd4b97156bceca420329f6e48b507e264a73a3c40c783591fa7746249f"
+        },
+        {
+          "num": 10,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Ziyang",
+          "created_at": "2023-08-30T05:47:29.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2023-08-30T05:47:29.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Ziyang",
+              "created_at": "2023-08-30T05:47:30.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-08-31T08:09:21.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "891ffa3b9de330133ed9af3776fc7910a7306468b29a972b5e4fcfa0a82d9c66"
+        },
+        {
+          "num": 9,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "haipeng1",
+          "created_at": "2023-08-27T14:46:34.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "haipeng1",
+              "created_at": "2023-08-27T14:46:34.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "haipeng1",
+              "created_at": "2023-08-27T14:46:35.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-08-27T15:04:10.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "b017508bc39d9a04d0eee4ab50b2d63f8cbe8d3f4a5fa47737bc1544ddb780a4"
+        },
+        {
+          "num": 8,
+          "title": "Update README.md",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "Ziyang",
+          "created_at": "2023-08-27T14:23:10.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ziyang",
+              "created_at": "2023-08-27T14:23:10.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Ziyang",
+              "created_at": "2023-08-27T14:23:10.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "WizardLM",
+              "created_at": "2023-08-27T14:35:54.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "54ef70f886a6de4eef4c7d99ddf44a598d5f95ec9e373885ef4bdc7133e0f39d"
+        }
+      ],
+      "commits": [
+        {
+          "id": "825a586f260d6c583b8aa9ceab6cdfaa3d9a4ddc",
+          "title": "Upload tokenizer.model (#13)",
+          "created_at": "2023-09-01T08:18:09.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/825a586f260d6c583b8aa9ceab6cdfaa3d9a4ddc"
+        },
+        {
+          "id": "14403d20e69fe1ccee3b285cbdcfa2efce6c9fe7",
+          "title": "Update README.md (#12)",
+          "created_at": "2023-09-01T08:18:03.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/14403d20e69fe1ccee3b285cbdcfa2efce6c9fe7"
+        },
+        {
+          "id": "3fee092ffc2d0a4a98c990b784b5c8ee85bcd003",
+          "title": "Update README.md (#11)",
+          "created_at": "2023-09-01T07:56:20.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/3fee092ffc2d0a4a98c990b784b5c8ee85bcd003"
+        },
+        {
+          "id": "e0f8e13b584c627030bdec7208d66f9aa6d5e665",
+          "title": "Update README.md (#10)",
+          "created_at": "2023-08-31T08:09:21.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/e0f8e13b584c627030bdec7208d66f9aa6d5e665"
+        },
+        {
+          "id": "e355c4910151d85fbd84f6743b48285920a36d5d",
+          "title": "Update README.md (#9)",
+          "created_at": "2023-08-27T15:04:10.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/e355c4910151d85fbd84f6743b48285920a36d5d"
+        },
+        {
+          "id": "9cc08bb7cc52aa418d4506ca317fa3062aaddd00",
+          "title": "Update README.md (#8)",
+          "created_at": "2023-08-27T14:35:54.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/9cc08bb7cc52aa418d4506ca317fa3062aaddd00"
+        },
+        {
+          "id": "2647a7d07eb4272fd545c2e354e023d91399579e",
+          "title": "Update README.md",
+          "created_at": "2023-08-27T13:38:25.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/2647a7d07eb4272fd545c2e354e023d91399579e"
+        },
+        {
+          "id": "085d648af8fa88b3b2e50c31f6d37de0d07d448c",
+          "title": "Update README.md (#7)",
+          "created_at": "2023-08-26T14:25:03.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "Ziyang",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6090ff099a8bcaa437b234a4/iUvw7JXT-ngI7rGk1x-io.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/085d648af8fa88b3b2e50c31f6d37de0d07d448c"
+        },
+        {
+          "id": "06dbd3e0da08255c575e585cb82e0554c1d2707a",
+          "title": "Update README.md (#6)",
+          "created_at": "2023-08-24T03:57:13.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/06dbd3e0da08255c575e585cb82e0554c1d2707a"
+        },
+        {
+          "id": "fab9e46bc2251b264147e51f94a0a9355a037a65",
+          "title": "Update README.md (#5)",
+          "created_at": "2023-08-24T03:55:58.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            },
+            {
+              "user": "haipeng1",
+              "avatar": "/avatars/41aac159d0a49c61c0595bf910f805b2.svg"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/fab9e46bc2251b264147e51f94a0a9355a037a65"
+        },
+        {
+          "id": "4259970275cf2e52a4cd898e6d00485945f8e6ea",
+          "title": "Update README.md",
+          "created_at": "2023-08-18T08:20:24.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/4259970275cf2e52a4cd898e6d00485945f8e6ea"
+        },
+        {
+          "id": "3f992ab75af4dbfdec991d06764bf81d970ff1aa",
+          "title": "Update README.md",
+          "created_at": "2023-08-17T13:39:50.000Z",
+          "authors": [
+            {
+              "user": "WizardLM",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/627b9f3f4d0858f0034efbb9/2Qnattrzv6qvqiZVVfV5x.png"
+            }
+          ],
+          "url": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/3f992ab75af4dbfdec991d06764bf81d970ff1aa"
+        }
+      ],
       "readme_sha256": "185cd7fc6bbfcf8993fa39bb9efb7edf0ef2e2c745914f83e253b1ed2128f500",
       "manifest_root_sha256": "92089d0e841cef81b210443122b6b49aa79d58f30b7996205a9709170c378d50",
-      "timeline": [],
-      "evidence_sha256": "a64602ff8c8e6be0b0536eeb6256f2cd06617a08977a5d98bd9585df816ae49b"
+      "timeline": [
+        {
+          "at": "2024-04-10T14:57:39.000Z",
+          "type": "discussion",
+          "label": "Adding `safetensors` variant of this model",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/15"
+        },
+        {
+          "at": "2023-11-17T21:14:00.000Z",
+          "type": "discussion",
+          "label": "Adding Evaluation Results",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/14"
+        },
+        {
+          "at": "2023-09-01T08:18:09.000Z",
+          "type": "commit",
+          "label": "Upload tokenizer.model (#13)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/825a586f260d6c583b8aa9ceab6cdfaa3d9a4ddc"
+        },
+        {
+          "at": "2023-09-01T08:18:03.000Z",
+          "type": "commit",
+          "label": "Update README.md (#12)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/14403d20e69fe1ccee3b285cbdcfa2efce6c9fe7"
+        },
+        {
+          "at": "2023-09-01T08:10:19.000Z",
+          "type": "discussion",
+          "label": "Upload tokenizer.model",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/13"
+        },
+        {
+          "at": "2023-09-01T08:01:56.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/12"
+        },
+        {
+          "at": "2023-09-01T07:56:20.000Z",
+          "type": "commit",
+          "label": "Update README.md (#11)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/3fee092ffc2d0a4a98c990b784b5c8ee85bcd003"
+        },
+        {
+          "at": "2023-09-01T07:48:40.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/11"
+        },
+        {
+          "at": "2023-08-31T08:09:21.000Z",
+          "type": "commit",
+          "label": "Update README.md (#10)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/e0f8e13b584c627030bdec7208d66f9aa6d5e665"
+        },
+        {
+          "at": "2023-08-30T05:47:29.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/10"
+        },
+        {
+          "at": "2023-08-27T15:04:10.000Z",
+          "type": "commit",
+          "label": "Update README.md (#9)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/e355c4910151d85fbd84f6743b48285920a36d5d"
+        },
+        {
+          "at": "2023-08-27T14:46:34.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/9"
+        },
+        {
+          "at": "2023-08-27T14:35:54.000Z",
+          "type": "commit",
+          "label": "Update README.md (#8)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/9cc08bb7cc52aa418d4506ca317fa3062aaddd00"
+        },
+        {
+          "at": "2023-08-27T14:23:10.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/discussions/8"
+        },
+        {
+          "at": "2023-08-27T13:38:25.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/2647a7d07eb4272fd545c2e354e023d91399579e"
+        },
+        {
+          "at": "2023-08-26T14:25:03.000Z",
+          "type": "commit",
+          "label": "Update README.md (#7)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/085d648af8fa88b3b2e50c31f6d37de0d07d448c"
+        },
+        {
+          "at": "2023-08-24T03:57:13.000Z",
+          "type": "commit",
+          "label": "Update README.md (#6)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/06dbd3e0da08255c575e585cb82e0554c1d2707a"
+        },
+        {
+          "at": "2023-08-24T03:55:58.000Z",
+          "type": "commit",
+          "label": "Update README.md (#5)",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/fab9e46bc2251b264147e51f94a0a9355a037a65"
+        },
+        {
+          "at": "2023-08-18T08:20:24.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/4259970275cf2e52a4cd898e6d00485945f8e6ea"
+        },
+        {
+          "at": "2023-08-17T13:39:50.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/WizardLM/WizardMath-7B-V1.0/commit/3f992ab75af4dbfdec991d06764bf81d970ff1aa"
+        }
+      ],
+      "evidence_sha256": "3d124dff360e35f0e6fa068b078a038e6767101cce1b390dc4d944a83931943d"
     },
     "WizardLMTeam/WizardLM-2-70B": {
       "captured_at": "2026-09-23T16:58:52Z",
