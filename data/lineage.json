@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-27T05:19:55Z",
+  "generated_at": "2026-09-27T12:02:54Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2251,6 +2251,24 @@
       "revision": "9213176726f574b556790deb65791e0c5aa438b6",
       "license": "llama3.2",
       "pipeline_tag": "text-generation"
+    },
+    "orcarouter/GLM-5.3-Flash-Uncensored-FP8": {
+      "id": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
+      "visibility": "public",
+      "revision": "3cec42d6ed14ec197e328c09650c17fd3660c26a",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "zai-org/GLM-5.3-Flash": {
+      "id": "zai-org/GLM-5.3-Flash",
+      "external_to_watchset": true
+    },
+    "intfloat/multilingual-e5-large": {
+      "id": "intfloat/multilingual-e5-large",
+      "visibility": "public",
+      "revision": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+      "license": "mit",
+      "pipeline_tag": "feature-extraction"
     }
   },
   "edges": [
@@ -3391,6 +3409,13 @@
     {
       "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "to": "cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "zai-org/GLM-5.3-Flash",
+      "to": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
