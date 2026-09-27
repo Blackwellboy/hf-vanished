@@ -1,10 +1,10 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-09-26T21:11:52Z",
-  "cursor": 128,
+  "generated_at": "2026-09-27T05:19:55Z",
+  "cursor": 161,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
-      "captured_at": "2026-09-26T21:11:14Z",
+      "captured_at": "2026-09-27T05:19:10Z",
       "repo": "Aeala/ShareGPT_Vicuna_unfiltered",
       "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "reason": {
@@ -27,10 +27,10 @@
           "source": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered"
         }
       ],
-      "evidence_sha256": "54afce1fda86a4dac9fc2d7d90a6f6126082d7024eedd122243b15c7719e15e2"
+      "evidence_sha256": "1dddb7d319ec1f6aefce8d69260123ed2b59063b97bcbca9a43a8ece0bbc02d7"
     },
     "OpenAssistant/oasst-sft-6-llama-30b": {
-      "captured_at": "2026-09-26T21:11:14Z",
+      "captured_at": "2026-09-27T05:19:10Z",
       "repo": "OpenAssistant/oasst-sft-6-llama-30b",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "reason": {
@@ -53,10 +53,10 @@
           "source": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b"
         }
       ],
-      "evidence_sha256": "a873afc858b7600f35734889d9040dc62d080794cb3f9ea00f65d0b473bac5cf"
+      "evidence_sha256": "9a60f92f8c1e4f7f489aa49dc62e4720cf0b35f20597c79be35ea8e4e68fd877"
     },
     "Undi95/LLaMA-2-13B-GPTQ": {
-      "captured_at": "2026-09-26T21:11:15Z",
+      "captured_at": "2026-09-27T05:19:11Z",
       "repo": "Undi95/LLaMA-2-13B-GPTQ",
       "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
       "reason": {
@@ -79,10 +79,10 @@
           "source": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ"
         }
       ],
-      "evidence_sha256": "38c846ad6fe4d1791c7813ce4459803b0a4def472493a6aee29069974a7de914"
+      "evidence_sha256": "7ad6778d70de452e110678c0549119ddf71d6f0612e015604b89f2a2f8f46735"
     },
     "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
-      "captured_at": "2026-09-26T21:11:15Z",
+      "captured_at": "2026-09-27T05:19:11Z",
       "repo": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "reason": {
@@ -105,10 +105,10 @@
           "source": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid"
         }
       ],
-      "evidence_sha256": "a04630819b718b0f1f963a198e3d8e3d70fa0970de59e0a3dc7aacfa15e837d9"
+      "evidence_sha256": "7d69593dfe887cad43604a8f6e09d9bea014d6dae9dfe86ec67e27db75914a04"
     },
     "WizardLM/WizardLM-7B-V1.0": {
-      "captured_at": "2026-09-26T21:11:15Z",
+      "captured_at": "2026-09-27T05:19:12Z",
       "repo": "WizardLM/WizardLM-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
       "reason": {
@@ -131,10 +131,10 @@
           "source": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0"
         }
       ],
-      "evidence_sha256": "06f78dd5bd54bfc1c6522c2b714a7c3b0f5a7fc1a67f61c8e2247dbb8c0503f1"
+      "evidence_sha256": "3213c7ee0fe21c48bb1d68319ce8c38c2020b7e54ca75f2b6757a8cc2313174e"
     },
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
-      "captured_at": "2026-09-26T21:11:16Z",
+      "captured_at": "2026-09-27T05:19:12Z",
       "repo": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "hf_url": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "reason": {
@@ -157,10 +157,10 @@
           "source": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber"
         }
       ],
-      "evidence_sha256": "f11ab6283f71492edf2ee22e31a50a5e5ec0057b382c7724df11a52743482bba"
+      "evidence_sha256": "60cd3b6d02db400b47b75fdf1e87ad26f191f6f393a7c19b37908bdd88185388"
     },
     "databricks/dolly-v1-6b": {
-      "captured_at": "2026-09-26T21:11:16Z",
+      "captured_at": "2026-09-27T05:19:13Z",
       "repo": "databricks/dolly-v1-6b",
       "hf_url": "https://huggingface.co/databricks/dolly-v1-6b",
       "reason": {
@@ -183,10 +183,10 @@
           "source": "https://huggingface.co/databricks/dolly-v1-6b"
         }
       ],
-      "evidence_sha256": "db97e01849f2fac0564906ffbe15c9b4c4819d2b03ed101cb8c5081f70969a13"
+      "evidence_sha256": "54969f3df4ceaf01534c9f3d9e0c308c791b1ec4ff7aede8eebab9535f6c15aa"
     },
     "databricks/dolly-v2-12b": {
-      "captured_at": "2026-09-26T21:11:17Z",
+      "captured_at": "2026-09-27T05:19:13Z",
       "repo": "databricks/dolly-v2-12b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-12b",
       "reason": {
@@ -209,10 +209,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-12b"
         }
       ],
-      "evidence_sha256": "03f981d0488741b762c4efab0fda178a1f84b85c04243c6ebca84cbe36282373"
+      "evidence_sha256": "53abf7284fa7fd7b64c667a99c4143ef344372e4efc41403cd870416388eeb43"
     },
     "databricks/dolly-v2-3b": {
-      "captured_at": "2026-09-26T21:11:17Z",
+      "captured_at": "2026-09-27T05:19:14Z",
       "repo": "databricks/dolly-v2-3b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-3b",
       "reason": {
@@ -235,10 +235,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-3b"
         }
       ],
-      "evidence_sha256": "2bae94cfcf2a3157c250e653d07cf64221a7c6d055d1163a5df35b123b1f1d10"
+      "evidence_sha256": "0130c5a36a41f97ce3b33ad690fabf06f305526a89365c9ae85a8068efb47230"
     },
     "databricks/dolly-v2-7b": {
-      "captured_at": "2026-09-26T21:11:17Z",
+      "captured_at": "2026-09-27T05:19:14Z",
       "repo": "databricks/dolly-v2-7b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-7b",
       "reason": {
@@ -261,10 +261,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-7b"
         }
       ],
-      "evidence_sha256": "ff11678b3bc2492fba89c9fb1d1f016e75bb1788d93204a25a703e2d76f74f66"
+      "evidence_sha256": "ebbf50308be229f7f49729d715ac67d88aef603ebf08fe9092cfac3c2acd2e8e"
     },
     "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
-      "captured_at": "2026-09-26T21:11:18Z",
+      "captured_at": "2026-09-27T05:19:15Z",
       "repo": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "reason": {
@@ -287,10 +287,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
         }
       ],
-      "evidence_sha256": "5d4ac9f30d9882e69a9b7ba2400cdc7dcfb58324a2cae72b46173271ba8f4c45"
+      "evidence_sha256": "84c4c7656719e197350b843f2549974d2f86fcdb1e217330eac22011c3bfada1"
     },
     "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
-      "captured_at": "2026-09-26T21:11:18Z",
+      "captured_at": "2026-09-27T05:19:15Z",
       "repo": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "reason": {
@@ -313,10 +313,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "5160fb722006e57c5dd01e8b6c951e348cd77c8f50bb4f0c66804481dfdd7ed3"
+      "evidence_sha256": "a6fd3d9c629a8f3ae824ac24b496e2809d4a43afbe75e1d52e779bfcc1925002"
     },
     "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-09-26T21:11:18Z",
+      "captured_at": "2026-09-27T05:19:16Z",
       "repo": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -339,10 +339,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "0c706f0f95bd2cc2a5e3b34428322c32a955efd2500074138c638fec99d38efe"
+      "evidence_sha256": "4aa1f50c8778ced329e2583b528e913391aaea7afbb43df862ddf26901ce7c76"
     },
     "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
-      "captured_at": "2026-09-26T21:11:19Z",
+      "captured_at": "2026-09-27T05:19:16Z",
       "repo": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "reason": {
@@ -365,10 +365,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "6c623fa4b254ae20a0c391ac6a74efef61cf0b02fcc03ec507f3396ef564579c"
+      "evidence_sha256": "d86faed3d04e441c548bb58f3b6e04964a62d3a05cd40ef92e2b4175e5ac50df"
     },
     "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
-      "captured_at": "2026-09-26T21:11:19Z",
+      "captured_at": "2026-09-27T05:19:17Z",
       "repo": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "reason": {
@@ -391,10 +391,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "05b766de771e2f8b7881415ff5d5b6db0c98fa191502f4cbaedc99f3b6b288de"
+      "evidence_sha256": "929052f053c28a6b33ec01f3a681f1b67631585ede20193735683c291ec24c3f"
     },
     "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-09-26T21:11:20Z",
+      "captured_at": "2026-09-27T05:19:17Z",
       "repo": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -417,10 +417,10 @@
           "source": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "4cb06ea06b2a8da8f575aaf0d009febdb0fee76a4c0d73d820d5b9efe1f03504"
+      "evidence_sha256": "3b40c7ceea794ef15830a62b8b952c62ad1e224c0082e9c93ee53c4f7807b48f"
     },
     "mosaicml/mpt-7b-chat": {
-      "captured_at": "2026-09-26T21:11:20Z",
+      "captured_at": "2026-09-27T05:19:18Z",
       "repo": "mosaicml/mpt-7b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "reason": {
@@ -449,10 +449,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-chat"
         }
       ],
-      "evidence_sha256": "0647098700dd4687e1fb87d2bfa489da94b7b9451a31734684ab6204e6576e6f"
+      "evidence_sha256": "998f7ffeff9f0a95f5ff4d20086118235f51bdc9e5283b974a2ca711375ac031"
     },
     "stabilityai/stable-diffusion-2-1": {
-      "captured_at": "2026-09-26T21:11:20Z",
+      "captured_at": "2026-09-27T05:19:18Z",
       "repo": "stabilityai/stable-diffusion-2-1",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "reason": {
@@ -481,10 +481,10 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2-1"
         }
       ],
-      "evidence_sha256": "3d533b5c0839505d62a45ad4a33225030cda1c293a45629c02ccdc4410a2caa7"
+      "evidence_sha256": "9f66d3209471bfe3bd0e383ccfc84384e855dda2080b04c7cd2eb11d9df9461e"
     },
     "tencent/HunyuanDiT": {
-      "captured_at": "2026-09-26T21:11:21Z",
+      "captured_at": "2026-09-27T05:19:19Z",
       "repo": "tencent/HunyuanDiT",
       "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
       "reason": {
@@ -507,10 +507,10 @@
           "source": "https://huggingface.co/tencent/HunyuanDiT"
         }
       ],
-      "evidence_sha256": "09147bcc9af66288e2a987d9c8602c3e2d1c75c5c59c92f092c586a1fb200ff0"
+      "evidence_sha256": "5b27c4ab541b1d225439c9fd893d4ea79af53eacea0a6192bf57ec0fa3e3fe9a"
     },
     "databricks/dbrx-base": {
-      "captured_at": "2026-09-26T21:11:21Z",
+      "captured_at": "2026-09-27T05:19:19Z",
       "repo": "databricks/dbrx-base",
       "hf_url": "https://huggingface.co/databricks/dbrx-base",
       "reason": {
@@ -533,10 +533,10 @@
           "source": "https://huggingface.co/databricks/dbrx-base"
         }
       ],
-      "evidence_sha256": "ab7ad85681df076b3bf47feae969c5ecce5a94cd1c359b5ccd657a0741892822"
+      "evidence_sha256": "c67286f33d9dc566da56851c72d32371e7f3079d66cd016af5d5ff44c243e2de"
     },
     "databricks/dbrx-instruct": {
-      "captured_at": "2026-09-26T21:11:21Z",
+      "captured_at": "2026-09-27T05:19:20Z",
       "repo": "databricks/dbrx-instruct",
       "hf_url": "https://huggingface.co/databricks/dbrx-instruct",
       "reason": {
@@ -559,10 +559,10 @@
           "source": "https://huggingface.co/databricks/dbrx-instruct"
         }
       ],
-      "evidence_sha256": "230c8b0846b00b210b03315e7624424fce4c768286444a2c63dfc53e06af6f3d"
+      "evidence_sha256": "f1881af180e41df4efe5ed04f333238d5cad279de33cad24aba62a0411f6ac9d"
     },
     "mosaicml/mpt-30b": {
-      "captured_at": "2026-09-26T21:11:22Z",
+      "captured_at": "2026-09-27T05:19:20Z",
       "repo": "mosaicml/mpt-30b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b",
       "reason": {
@@ -585,10 +585,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b"
         }
       ],
-      "evidence_sha256": "280501f57adeec097a4271dd39cc81594b51da1920962fcfb302c3937abc6843"
+      "evidence_sha256": "46a718ce127445fd1b78b78db0d8e0c2234df2eab72b05ad4f0e13e2cefdbbc7"
     },
     "mosaicml/mpt-30b-chat": {
-      "captured_at": "2026-09-26T21:11:22Z",
+      "captured_at": "2026-09-27T05:19:21Z",
       "repo": "mosaicml/mpt-30b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-chat",
       "reason": {
@@ -611,10 +611,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-chat"
         }
       ],
-      "evidence_sha256": "7bf61d3fe5af89aa82a5a3bf9082a88d2c3dd681c3caf7cece440d09cd6f30a8"
+      "evidence_sha256": "e77a1276bd528978f8a72227929371938e2cd78b4ee5bb88680ae1a0860350d7"
     },
     "mosaicml/mpt-30b-instruct": {
-      "captured_at": "2026-09-26T21:11:22Z",
+      "captured_at": "2026-09-27T05:19:21Z",
       "repo": "mosaicml/mpt-30b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-instruct",
       "reason": {
@@ -637,10 +637,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-instruct"
         }
       ],
-      "evidence_sha256": "41be11c3981a532846ea07ec15e8e278a5fee944d8ed666dda78b9fad6ab7f15"
+      "evidence_sha256": "bb2b00270f8377e070b412a12cf7de6fd01c96c9657ed48d3490d0ebcfa34ec7"
     },
     "mosaicml/mpt-7b": {
-      "captured_at": "2026-09-26T21:11:23Z",
+      "captured_at": "2026-09-27T05:19:22Z",
       "repo": "mosaicml/mpt-7b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b",
       "reason": {
@@ -663,10 +663,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b"
         }
       ],
-      "evidence_sha256": "1ca9d702d4859e0091aeaf2935060946ff3f857bcbf8f3b2c5f114829c38388e"
+      "evidence_sha256": "74d61b3628fe9462100453ea7adb1410241ec5c2693d5f2bddcb888c09b98a20"
     },
     "mosaicml/mpt-7b-instruct": {
-      "captured_at": "2026-09-26T21:11:23Z",
+      "captured_at": "2026-09-27T05:19:22Z",
       "repo": "mosaicml/mpt-7b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-instruct",
       "reason": {
@@ -689,10 +689,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-instruct"
         }
       ],
-      "evidence_sha256": "4974526e3997cfb02860728c58d58d612b8a5ebbaf6cf2446788072154527cfb"
+      "evidence_sha256": "e33a2ab6a9fb648efc45e58c38d5e5db2a0b717905e925fde0ed58cc96ee97d6"
     },
     "mosaicml/mpt-7b-storywriter": {
-      "captured_at": "2026-09-26T21:11:23Z",
+      "captured_at": "2026-09-27T05:19:23Z",
       "repo": "mosaicml/mpt-7b-storywriter",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
       "reason": {
@@ -715,10 +715,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-storywriter"
         }
       ],
-      "evidence_sha256": "7e6e1823d5e49bebd0f4f3656ed4f1ee9deb27c5cf1f60b79bfcc4a88484916e"
+      "evidence_sha256": "a5bc001706f6f71ab55c47882eb0e98880dd0adc45ae4469eaff9b51afcd8789"
     },
     "stabilityai/stable-diffusion-2": {
-      "captured_at": "2026-09-26T21:11:24Z",
+      "captured_at": "2026-09-27T05:19:23Z",
       "repo": "stabilityai/stable-diffusion-2",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2",
       "reason": {
@@ -741,7 +741,7 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2"
         }
       ],
-      "evidence_sha256": "22968b573dc62cddc37c21214df1913e22ec1d269d8f655a1a9b71c8d0547d32"
+      "evidence_sha256": "074ec0e66b0b228cc2a937f81c0dbd60570c2e7eb2d84be9b0c2f49d2983d34b"
     },
     "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
       "captured_at": "2026-09-25T17:11:43Z",
@@ -38191,7 +38191,7 @@
       "evidence_sha256": "30291e6233d44282b3e6f4b770a7b5eca579a967cbbe8362cdc2317d31c61957"
     },
     "facebook/opt-125m": {
-      "captured_at": "2026-09-23T16:59:30Z",
+      "captured_at": "2026-09-27T05:19:25Z",
       "repo": "facebook/opt-125m",
       "hf_url": "https://huggingface.co/facebook/opt-125m",
       "reason": {
@@ -38667,10 +38667,10 @@
           "source": "https://huggingface.co/facebook/opt-125m/commit/46941ec8782154759c3f3ce856828179d91f9a5d"
         }
       ],
-      "evidence_sha256": "d10c639a7070450e5a6f0ce66927ec36f67c176919450f66ececd364401344ec"
+      "evidence_sha256": "563c1ae8d0007ecd5a86e7ed0287a40cf1e90e1566e725a2b906cbb217bae714"
     },
     "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3": {
-      "captured_at": "2026-09-23T16:59:32Z",
+      "captured_at": "2026-09-27T05:19:27Z",
       "repo": "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
       "reason": {
@@ -38819,7 +38819,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "10f77cc77003af8a264de5017d5e06111b5da20bd7ae3124ab40fb7c857c7882"
+          "source_sha256": "36165e9a3eb4a5ff77bfd5887e8ddbf96ee908c58bff08343a01e3f01a6a9596"
         },
         {
           "num": 5,
@@ -39128,10 +39128,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3/commit/915247dd8c2c65904d4d896105f3d19fb8c57c9b"
         }
       ],
-      "evidence_sha256": "c7c4501ae27419315d5a0a55cf7b67a5b4d63ad3bc2cf0ad990dc29f6d19a947"
+      "evidence_sha256": "3330eebedf46b1e465316606345e7033ada746d96d5049e3e2a0ac5ef506e7d5"
     },
     "failspy/llama-3-70B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T16:59:33Z",
+      "captured_at": "2026-09-27T05:19:29Z",
       "repo": "failspy/llama-3-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated",
       "reason": {
@@ -39141,6 +39141,12 @@
         "sources": []
       },
       "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Upload LICENSE",
+          "source_url": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated/commit/6defcc2ef12b0037a4e89c939f7efbee272edd3f"
+        },
         {
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
@@ -39298,7 +39304,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "aea9b4307a15e62c3ea4e2108f6b5279ae2069a379191a4cdb63e5b6d9461606"
+          "source_sha256": "3ef89ae63266125cea32f210d14a54c2e1f38d44688c0f55af785f198442948d"
         },
         {
           "num": 8,
@@ -39619,10 +39625,10 @@
           "source": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated/commit/3686eca504316e9e3ab40247a7a103cc7ce249d0"
         }
       ],
-      "evidence_sha256": "95c77d32e32e8d0d216345809af8b1e8b3e8c2c1fa2710641237912436ee17b2"
+      "evidence_sha256": "90d2924aecbfb9b53ab25c6cbdc2dffc843b9c4e2b80de264f825bd5cbb4b07d"
     },
     "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF": {
-      "captured_at": "2026-09-23T16:59:33Z",
+      "captured_at": "2026-09-27T05:19:31Z",
       "repo": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "hf_url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "reason": {
@@ -40212,10 +40218,10 @@
           "source": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF/discussions/1"
         }
       ],
-      "evidence_sha256": "b6644c1c358ff2f5729dcea8978a38dfdf70e6b0bf1105d6ab1f50817ad06678"
+      "evidence_sha256": "38d3cfa9c80f18977531fd4a4bd7609f9ea1da3ad95f8c1e6ce6492f435525af"
     },
     "google-bert/bert-base-uncased": {
-      "captured_at": "2026-09-23T16:59:34Z",
+      "captured_at": "2026-09-27T05:19:33Z",
       "repo": "google-bert/bert-base-uncased",
       "hf_url": "https://huggingface.co/google-bert/bert-base-uncased",
       "reason": {
@@ -40225,6 +40231,12 @@
         "sources": []
       },
       "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Upload LICENSE (#2)",
+          "source_url": "https://huggingface.co/google-bert/bert-base-uncased/commit/418430c3b5df7ace92f2aede75700d22c78a0f95"
+        },
         {
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
@@ -40713,10 +40725,10 @@
           "source": "https://huggingface.co/google-bert/bert-base-uncased/commit/b3409d9fba88a0d2a4a2a3c08bd5f33dd324cf38"
         }
       ],
-      "evidence_sha256": "c7def7f13dee866b7eb4cd9ff8980914d668a99b3e1fe9c3f8e0223d541211a6"
+      "evidence_sha256": "e0731a4fb08c90da6fed143306d6f7fe3740a9a57fe902fa0e28790895d02e5f"
     },
     "google-t5/t5-small": {
-      "captured_at": "2026-09-23T16:59:34Z",
+      "captured_at": "2026-09-27T05:19:35Z",
       "repo": "google-t5/t5-small",
       "hf_url": "https://huggingface.co/google-t5/t5-small",
       "reason": {
@@ -41247,10 +41259,10 @@
           "source": "https://huggingface.co/google-t5/t5-small/commit/a3f81e09b2ac3ff1d0bd6aafde94183f45efec7c"
         }
       ],
-      "evidence_sha256": "922ed5db64e4248ac97a40d322e8726ba973843ea51447fad1da899ab64141f5"
+      "evidence_sha256": "a21d0ca7026bc5536dac5c7bccc391b9d916d14a2b801ce92f0099bb0f16cb25"
     },
     "google/electra-base-discriminator": {
-      "captured_at": "2026-09-23T16:59:35Z",
+      "captured_at": "2026-09-27T05:19:37Z",
       "repo": "google/electra-base-discriminator",
       "hf_url": "https://huggingface.co/google/electra-base-discriminator",
       "reason": {
@@ -41260,6 +41272,12 @@
         "sources": []
       },
       "reason_signals": [
+        {
+          "signal": "removed",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Removed",
+          "source_url": "https://huggingface.co/google/electra-base-discriminator/discussions/7"
+        },
         {
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
@@ -41744,10 +41762,10 @@
           "source": "https://huggingface.co/google/electra-base-discriminator/commit/10fd983b5a0f59c34337b918720064939ef11c10"
         }
       ],
-      "evidence_sha256": "44bab238faa5ba03294fdc48c6b61e8135e2819eca9639cde6cf7c8f8a3484ec"
+      "evidence_sha256": "34182427da68e1c4b095fb718c94d2792ff632c89c06dd47a7853e090216fe48"
     },
     "google/gemma-2-9b": {
-      "captured_at": "2026-09-23T16:59:35Z",
+      "captured_at": "2026-09-27T05:19:39Z",
       "repo": "google/gemma-2-9b",
       "hf_url": "https://huggingface.co/google/gemma-2-9b",
       "reason": {
@@ -41871,7 +41889,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "e0d3ec29d6d122b2978ba56fc0b0259ff55b9670adc6190671bc897908eb5f0c"
+          "source_sha256": "d9869659259cc1bd951232047579bc2e5a8e5f33038818ba717827b47370240b"
         },
         {
           "num": 42,
@@ -42065,10 +42083,10 @@
           "source": "https://huggingface.co/google/gemma-2-9b/discussions/38"
         }
       ],
-      "evidence_sha256": "3e6bdf9bdf4311d47d9c8b121aa459cc384dadbe863c08f041d239fa923692fe"
+      "evidence_sha256": "b582c14f7f094ac885bcb8860dfac8ff2e503a36756afcf3efd2658f35ca58ce"
     },
     "google/gemma-4-26B-A4B-it": {
-      "captured_at": "2026-09-23T16:59:36Z",
+      "captured_at": "2026-09-27T05:19:42Z",
       "repo": "google/gemma-4-26B-A4B-it",
       "hf_url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "reason": {
@@ -42078,6 +42096,12 @@
         "sources": []
       },
       "reason_signals": [
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Add Technical Report",
+          "source_url": "https://huggingface.co/google/gemma-4-26B-A4B-it/commit/5305c1e72ea29c01f31a81230d52b375ba88b409"
+        },
         {
           "signal": "legal",
           "classification": "NON_CAUSAL_SIGNAL",
@@ -42129,6 +42153,48 @@
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
       "discussions": [
+        {
+          "num": 66,
+          "title": "Make chat template render linear in message count (was quadratic)",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "hiteshjain118",
+          "created_at": "2026-09-24T16:17:50.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "hiteshjain118",
+              "created_at": "2026-09-24T16:17:50.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "hiteshjain118",
+              "created_at": "2026-09-24T16:17:50.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "6d3b166c62caf337afb9e81fd5d5640dfe89b1125755486c68a0ee5502d069a3"
+        },
+        {
+          "num": 65,
+          "title": "Reliable tool calling for Markdown vaults and LLM wikis w/ Gemma",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "peterdalinis",
+          "created_at": "2026-09-23T13:55:37.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "peterdalinis",
+              "created_at": "2026-09-23T13:55:37.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "50656f89d61d6ae4bfcdc17c5e695469e8b41711d46bfd01961d65f4aac5e9e9"
+        },
         {
           "num": 64,
           "title": "Beta testers wanted (Gemma 4:26b)",
@@ -42199,7 +42265,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "09c6b24218ecfff04b3c83cee2a171fd8c4422edfb006ca8b6b477c26af296fa"
+          "source_sha256": "855a93a3ae5a93bf40dc48c73d1bd7d3057c2d2a1031e415a9a07e184fef4687"
         },
         {
           "num": 61,
@@ -42284,66 +42350,6 @@
             }
           ],
           "source_sha256": "88c6687b69edc63b771729a57256163450883825e990d7b4d9756820582fa18f"
-        },
-        {
-          "num": 58,
-          "title": "Gemma 4.2 26B A4B?",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "kozusenok",
-          "created_at": "2026-08-18T12:57:53.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "kozusenok",
-              "created_at": "2026-08-18T12:57:53.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "Dampfinchen",
-              "created_at": "2026-08-19T21:48:35.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "Koitenshin",
-              "created_at": "2026-09-06T07:13:53.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "cba6c0b37aa89b340617d4992f5252a969b1947fb7a0f389310fe9d277d5125d"
-        },
-        {
-          "num": 57,
-          "title": "Is base a direct parent of `it`?",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "olisicky",
-          "created_at": "2026-08-17T09:03:13.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "olisicky",
-              "created_at": "2026-08-17T09:03:13.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "pannaga10",
-              "created_at": "2026-08-18T12:41:13.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "olisicky",
-              "created_at": "2026-08-18T13:05:21.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "776d5467fc81063d368b0107b76ae730790381255a63967b46066391ee49f380"
         }
       ],
       "commits": [
@@ -42528,6 +42534,18 @@
       "manifest_root_sha256": "9029ca2a518704e2d187e701502c1eac7c28151a609ad945e11f8811d90c3466",
       "timeline": [
         {
+          "at": "2026-09-24T16:17:50.000Z",
+          "type": "discussion",
+          "label": "Make chat template render linear in message count (was quadratic)",
+          "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/discussions/66"
+        },
+        {
+          "at": "2026-09-23T13:55:37.000Z",
+          "type": "discussion",
+          "label": "Reliable tool calling for Markdown vaults and LLM wikis w/ Gemma",
+          "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/discussions/65"
+        },
+        {
           "at": "2026-09-16T22:23:15.000Z",
           "type": "discussion",
           "label": "Beta testers wanted (Gemma 4:26b)",
@@ -42562,18 +42580,6 @@
           "type": "discussion",
           "label": "What conditions were used for MMMU-Pro benchmark?",
           "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/discussions/59"
-        },
-        {
-          "at": "2026-08-18T12:57:53.000Z",
-          "type": "discussion",
-          "label": "Gemma 4.2 26B A4B?",
-          "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/discussions/58"
-        },
-        {
-          "at": "2026-08-17T09:03:13.000Z",
-          "type": "discussion",
-          "label": "Is base a direct parent of `it`?",
-          "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/discussions/57"
         },
         {
           "at": "2026-07-20T16:42:12.000Z",
@@ -42648,10 +42654,10 @@
           "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/commit/1db3cff1840c2ae59759d8e842ff37831cf8cb63"
         }
       ],
-      "evidence_sha256": "ed45b854d1714bda0ada6409d56cae53d004a634b9813dba8c2287cf2023c934"
+      "evidence_sha256": "dd5f8f832e45ebae0c7c7a0b1640060bd59d7eccfad25a22baf617f685249d64"
     },
     "google/gemma-4-31B-it": {
-      "captured_at": "2026-09-23T16:59:36Z",
+      "captured_at": "2026-09-27T05:19:44Z",
       "repo": "google/gemma-4-31B-it",
       "hf_url": "https://huggingface.co/google/gemma-4-31B-it",
       "reason": {
@@ -42661,6 +42667,18 @@
         "sources": []
       },
       "reason_signals": [
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Bug report + proposed fix for chat_template.jinja",
+          "source_url": "https://huggingface.co/google/gemma-4-31B-it/discussions/142"
+        },
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "Add Technical Report",
+          "source_url": "https://huggingface.co/google/gemma-4-31B-it/commit/518276fb130dc81caf9a4f772e65e63ef2526493"
+        },
         {
           "signal": "legal",
           "classification": "NON_CAUSAL_SIGNAL",
@@ -42740,7 +42758,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "194c31b2b865a275d034ad1a2e9ec16c1e8eace06e5bef00b7efceb9e455d399"
+          "source_sha256": "4aad4c728292de9bd18e4f2759399d70d33908a2eb169eb16baffc1fd1a669bc"
         },
         {
           "num": 144,
@@ -43261,10 +43279,10 @@
           "source": "https://huggingface.co/google/gemma-4-31B-it/commit/e51e7dcdb6febd74c182fe0cb41c236363ae2ac5"
         }
       ],
-      "evidence_sha256": "0a6f311ed770d31efcd6ab417517f6f72060adc932cb12bb0c4b3513b3d73dc6"
+      "evidence_sha256": "27cb11b15b452974282f898997791ddf67f9e1c8e5825ff1555a767493e1e431"
     },
     "google/gemma-7b": {
-      "captured_at": "2026-09-23T16:59:37Z",
+      "captured_at": "2026-09-27T05:19:46Z",
       "repo": "google/gemma-7b",
       "hf_url": "https://huggingface.co/google/gemma-7b",
       "reason": {
@@ -43383,7 +43401,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d390657e90cbd5e10f7c7bb8894966e9d83f81968fbbedd6218917b13a47dac5"
+          "source_sha256": "656257208a672ab93be2e549e687898309dd7a00e824c218132d511614dc52d8"
         },
         {
           "num": 123,
@@ -43547,10 +43565,10 @@
           "source": "https://huggingface.co/google/gemma-7b/discussions/120"
         }
       ],
-      "evidence_sha256": "716bd11ce861c634acdd941f7817c8271ab7270c607529c56e7287437c2ceccc"
+      "evidence_sha256": "81a7d09b4ab7bea03acf946e040c87f97b7963a00a705af576fc915c57fc22f9"
     },
     "hexgrad/Kokoro-82M": {
-      "captured_at": "2026-09-23T16:59:38Z",
+      "captured_at": "2026-09-27T05:19:48Z",
       "repo": "hexgrad/Kokoro-82M",
       "hf_url": "https://huggingface.co/hexgrad/Kokoro-82M",
       "reason": {
@@ -43803,10 +43821,10 @@
           "source": "https://huggingface.co/hexgrad/Kokoro-82M/commit/ed43a87ac78103dc9af46d33fc9f4414951c9493"
         }
       ],
-      "evidence_sha256": "6bf101774e963246b6c2a11b375fe48014135f816d4338c37032d67f3da78f61"
+      "evidence_sha256": "e3d86b1cec8dc6d124e29535c1d9bb0fc530edabcbb1c47c5f3e02c10c8f87bb"
     },
     "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF": {
-      "captured_at": "2026-09-23T16:59:38Z",
+      "captured_at": "2026-09-27T05:19:49Z",
       "repo": "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
       "reason": {
@@ -43864,7 +43882,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "6ac3b108107b2d5be7f94039ba0f8ab2f8c83c5b8f3645c0da97791c3bffecda"
+          "source_sha256": "e1734a5a86dc8c466f084670774afca00a617548edf72c8efcfb525642054169"
         }
       ],
       "commits": [],
@@ -43884,10 +43902,10 @@
           "source": "https://huggingface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF/discussions/1"
         }
       ],
-      "evidence_sha256": "d18b91001b8d3def2bde258c59dd99ba84330210fe2e4cd48d4049e2c5b01b8e"
+      "evidence_sha256": "1e7db40de4f95e891f5a986fa4d2dd98d78f32c9b144f86c23a0002ca05e758f"
     },
     "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF": {
-      "captured_at": "2026-09-23T16:59:39Z",
+      "captured_at": "2026-09-27T05:19:50Z",
       "repo": "huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF",
       "reason": {
@@ -44117,10 +44135,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-CyberStrike-OffSec-35B-abliterated-GGUF/commit/f83181cf10521e82834545cca58dd499bf737bd3"
         }
       ],
-      "evidence_sha256": "1e360352f75c191ca8e200a6b65119f224d6e5e56cd147157eaf748bf6a0657e"
+      "evidence_sha256": "081727ec8efd522506091a8620f020ed3410ae6d85788cea662510e77807648b"
     },
     "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF": {
-      "captured_at": "2026-09-23T16:59:39Z",
+      "captured_at": "2026-09-27T05:19:50Z",
       "repo": "huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF",
       "reason": {
@@ -44608,10 +44626,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF/commit/5e85d40a6ebcd49d342f191b00af3475d43014cd"
         }
       ],
-      "evidence_sha256": "67e5468374bab7903db5589ee4eb7142371abaacbbc7a952891693f6df6b6e24"
+      "evidence_sha256": "b37f18f9dec1a1979329ebeaf952d2316633ad0b346074dead142536a8cc7492"
     },
     "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF": {
-      "captured_at": "2026-09-23T16:59:40Z",
+      "captured_at": "2026-09-27T05:19:51Z",
       "repo": "huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF",
       "reason": {
@@ -44925,10 +44943,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF/commit/d8d660be9aa428b4e672729cf457317f0ee2d25c"
         }
       ],
-      "evidence_sha256": "89c22ab07a356fbab5bbbe54f9da9d67b43c10e1671d027d83359f0dd03f9989"
+      "evidence_sha256": "1030873959e8af1abb02c444d0bb26619e80a4d41bffcd5b85a21bc82f9af607"
     },
     "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF": {
-      "captured_at": "2026-09-23T16:59:40Z",
+      "captured_at": "2026-09-27T05:19:51Z",
       "repo": "huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF",
       "reason": {
@@ -45446,10 +45464,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-DeepSeek-V4-Flash-abliterated-ds4-GGUF/discussions/1"
         }
       ],
-      "evidence_sha256": "d3486039723d9037b230a09468ad1a4f648e55b54b5f1972e28dfee4bc8587d7"
+      "evidence_sha256": "2084d9b7a53fb1a82125ff855d513494eae1b5b5dd136db0caaabf222dc77e0c"
     },
     "huihui-ai/Huihui-Qwen3.5-27B-abliterated": {
-      "captured_at": "2026-09-23T16:59:41Z",
+      "captured_at": "2026-09-27T05:19:52Z",
       "repo": "huihui-ai/Huihui-Qwen3.5-27B-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-abliterated",
       "reason": {
@@ -45829,10 +45847,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.5-27B-abliterated/commit/94c93ec195b0263e3d2d4bbb7899214a7300b233"
         }
       ],
-      "evidence_sha256": "d752df4ddc2db3fc220d36494ccd6cf1203a519f0cc000024f70d49aa0115145"
+      "evidence_sha256": "c7e0035eb77948e225e09a85a08de1ba5388466fcaf3a0f9d42f01a5bb5bf21d"
     },
     "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF": {
-      "captured_at": "2026-09-23T16:59:42Z",
+      "captured_at": "2026-09-27T05:19:53Z",
       "repo": "huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF",
       "reason": {
@@ -46086,10 +46104,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF/commit/7ec802ddf6a6a4be64d05d33a562eecaccfbe8cc"
         }
       ],
-      "evidence_sha256": "8005a5543b2f5598888cb2712e261d2699a58c66d52b73675058835dece74d70"
+      "evidence_sha256": "c4a066704fc7eefb81e0abd06a5fbc90482018918c882bb809d83acddd06c4c6"
     },
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated": {
-      "captured_at": "2026-09-23T16:59:42Z",
+      "captured_at": "2026-09-27T05:19:53Z",
       "repo": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated",
       "reason": {
@@ -46517,10 +46535,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated/commit/d203ef8aca179665360fa4a7a1a1857d1ff44951"
         }
       ],
-      "evidence_sha256": "3ed06c4da0c9e2f2298fd4262a9663a855affb4a54cd5144d7b27168cbb7c932"
+      "evidence_sha256": "ee3c469f1e17ab32885f8dbda5111301d2c08bd3fe451d1b8845605b1d7030a2"
     },
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
-      "captured_at": "2026-09-23T16:59:43Z",
+      "captured_at": "2026-09-27T05:19:54Z",
       "repo": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "reason": {
@@ -47080,10 +47098,10 @@
           "source": "https://huggingface.co/huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF/commit/6386362d3cc8dbcb895c485a772869bfac5352dc"
         }
       ],
-      "evidence_sha256": "9ec42cc2b42062553f17433ca010298fd371c51076d7fe7f1318282a4da7a2d8"
+      "evidence_sha256": "16852c5fb73d8c3bbe472e97e650eff9674f695240754a30bf5a12a34fa40372"
     },
     "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T16:59:43Z",
+      "captured_at": "2026-09-27T05:19:54Z",
       "repo": "huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated",
       "reason": {
@@ -47439,10 +47457,10 @@
           "source": "https://huggingface.co/huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated/commit/5506a65adc4d8f7a24c5cc9f2d6798d97cda5f33"
         }
       ],
-      "evidence_sha256": "16dbcbdbdba3f076039f796c90b5ad1907d79a32c7544131b29ebdd0760506e8"
+      "evidence_sha256": "e57a2b424e97f6c041f8712b112b95048ad87c5583da597631c80dfd204cd155"
     },
     "huihui-ai/Qwen3-8B-abliterated": {
-      "captured_at": "2026-09-23T16:59:44Z",
+      "captured_at": "2026-09-27T05:19:55Z",
       "repo": "huihui-ai/Qwen3-8B-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Qwen3-8B-abliterated",
       "reason": {
@@ -47532,10 +47550,10 @@
           "source": "https://huggingface.co/huihui-ai/Qwen3-8B-abliterated/discussions/1"
         }
       ],
-      "evidence_sha256": "fc8c5d81f436add5548c03644b88158a78d78942ad7a5010b7beadda9f660be7"
+      "evidence_sha256": "9da3f995012a0d9150c27c1dc8447f00c523ce29b640c5f504828316003fc61d"
     },
     "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ": {
-      "captured_at": "2026-09-23T16:59:44Z",
+      "captured_at": "2026-09-27T05:19:55Z",
       "repo": "ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ",
       "hf_url": "https://huggingface.co/ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ",
       "reason": {
@@ -47589,7 +47607,7 @@
           "source": "https://huggingface.co/ibrahimkettaneh/Qwen2.5-72B-Instruct-abliterated-AWQ/commit/466acb6f8d8e435ff8af42f49231beda847cbf74"
         }
       ],
-      "evidence_sha256": "d05dfc6d0750f48db579fe0d31c8cfaa95b8064f1e54f4a4d1fccfaabac83f9f"
+      "evidence_sha256": "cee6e2a47ad1b9b378ae61dfca413bd3ea9a2eb72cabe0fec1cfd1ddfa4c4f12"
     },
     "intfloat/multilingual-e5-small": {
       "captured_at": "2026-09-23T16:59:45Z",
@@ -79006,7 +79024,7 @@
       "evidence_sha256": "2c07e258f18fc195308c7c96a205727ea1327b048b9153cd5b0b9fcf5451ae70"
     },
     "google/vit-base-patch16-224": {
-      "captured_at": "2026-09-23T16:59:37Z",
+      "captured_at": "2026-09-27T05:19:48Z",
       "repo": "google/vit-base-patch16-224",
       "hf_url": "https://huggingface.co/google/vit-base-patch16-224",
       "reason": {
@@ -79024,15 +79042,466 @@
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
-      "discussions": [],
-      "commits": [],
+      "discussions": [
+        {
+          "num": 26,
+          "title": "Internal model structure preview",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "svetoviz",
+          "created_at": "2026-08-23T01:59:03.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "svetoviz",
+              "created_at": "2026-08-23T01:59:03.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "9f0fe4fc73be70121b65b7b1447a98e8d218c2b495b6f1b8018263ef08e1b21e"
+        },
+        {
+          "num": 25,
+          "title": "docs: cite the original Vision Transformer paper in the model card",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "unit27research",
+          "created_at": "2026-08-02T17:59:09.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "unit27research",
+              "created_at": "2026-08-02T17:59:09.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "unit27research",
+              "created_at": "2026-08-02T17:59:09.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "ff49b21c74ef4776ee7d65b3dc7fe2db81a198698a20ebd1f07048760ea117c1"
+        },
+        {
+          "num": 24,
+          "title": "Question: edge/mobile deployment — anyone tested?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "3morixd",
+          "created_at": "2026-06-27T10:43:09.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "3morixd",
+              "created_at": "2026-06-27T10:43:09.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "466e2f4eed785dbb9ab221aae63b5e14de1da4f1727a0886fa354a6a0f0a4ec4"
+        },
+        {
+          "num": 23,
+          "title": "Request: DOI",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "moriahSquared",
+          "created_at": "2025-04-30T13:16:35.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "moriahSquared",
+              "created_at": "2025-04-30T13:16:35.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "moriahSquared",
+              "created_at": "2025-04-30T13:28:39.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "moriahSquared",
+              "created_at": "2025-04-30T13:28:43.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "4d91c32e1ed4093b4fad3974cfc30a00ca15b75a059841a0872099df5ee6489f"
+        },
+        {
+          "num": 22,
+          "title": "Upload 80138662-23CD-4D61-848A-FE7D297CF3E0.jpeg",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "D2T",
+          "created_at": "2025-02-23T23:19:39.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "D2T",
+              "created_at": "2025-02-23T23:19:39.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "D2T",
+              "created_at": "2025-02-23T23:19:40.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "2e95d244a61e61515377783e58b4f842d6159f51bd589c507db7046019993f22"
+        },
+        {
+          "num": 21,
+          "title": "Upload IMG_20241211_004929.jpg",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "Hamza4745",
+          "created_at": "2024-12-14T18:01:29.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "commit",
+              "author": "Hamza4745",
+              "created_at": "2024-12-14T18:01:28.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Hamza4745",
+              "created_at": "2024-12-14T18:01:29.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "d8eb4c823bd44785e0322e7a3cb8d39b30a3b80e81f17dc83b9ede2acb504d51"
+        },
+        {
+          "num": 20,
+          "title": "Update README.md",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "Seeflyer937",
+          "created_at": "2024-10-01T08:21:51.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Seeflyer937",
+              "created_at": "2024-10-01T08:21:51.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Seeflyer937",
+              "created_at": "2024-10-01T08:21:51.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "3b09c5fb72eaa9e695575772b208c502f922f671fceefca401dffd44dbe1415c"
+        },
+        {
+          "num": 19,
+          "title": "How can I fine tune the model on 16-bit images?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "abhishri-medewar",
+          "created_at": "2024-08-05T19:42:03.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "abhishri-medewar",
+              "created_at": "2024-08-05T19:42:03.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "9aacf45457e3384104215a6bfcb72e6790d66508580964af7bf07bf380c7b401"
+        }
+      ],
+      "commits": [
+        {
+          "id": "3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3",
+          "title": "Adding `safetensors` variant of this model (#7)",
+          "created_at": "2023-09-05T15:27:12.000Z",
+          "authors": [
+            {
+              "user": "lysandre",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/5e3aec01f55e2b62848a5217/PMKS0NNB4MJQlTSFzh918.jpeg"
+            },
+            {
+              "user": "SFconvertbot",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/635fd4cc14657fb8cff2a081/GDkyDwAcuqDBpaOvQgJuq.png"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3"
+        },
+        {
+          "id": "2ddc9d4e473d7ba52128f0df4723e478fa14fb80",
+          "title": "Update README.md",
+          "created_at": "2023-02-27T15:03:42.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/2ddc9d4e473d7ba52128f0df4723e478fa14fb80"
+        },
+        {
+          "id": "5dca96d358b3fcb9d53b3d3881eb1ae20b6752d1",
+          "title": "Update dataset tag",
+          "created_at": "2022-06-23T07:42:10.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/5dca96d358b3fcb9d53b3d3881eb1ae20b6752d1"
+        },
+        {
+          "id": "e15abf55f36bc1d95c852bc0d88f8c1ecb1a804f",
+          "title": "Add vision tag",
+          "created_at": "2022-01-12T08:04:56.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/e15abf55f36bc1d95c852bc0d88f8c1ecb1a804f"
+        },
+        {
+          "id": "db75733ce9ead4ed3dce26ab87a6ed2f6f565985",
+          "title": "Add TF model",
+          "created_at": "2021-11-15T10:29:26.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/db75733ce9ead4ed3dce26ab87a6ed2f6f565985"
+        },
+        {
+          "id": "df9a481f15ee72bc1e9ce6472d7b457fce91811f",
+          "title": "Update README.md",
+          "created_at": "2021-11-03T16:23:03.000Z",
+          "authors": [
+            {
+              "user": "mishig",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/60a551a34ecc5d054c8ad93e/Z3GDwcXyTyiAXfoeO7tEt.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/df9a481f15ee72bc1e9ce6472d7b457fce91811f"
+        },
+        {
+          "id": "c697c92e0e0530f6563c78d1715e7cf043d22cfd",
+          "title": "Update model card",
+          "created_at": "2021-09-13T19:52:27.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/c697c92e0e0530f6563c78d1715e7cf043d22cfd"
+        },
+        {
+          "id": "d2989d2d109cd66a8a6f923a1f2a683a30bb79fc",
+          "title": "add model",
+          "created_at": "2021-06-10T14:02:22.000Z",
+          "authors": [
+            {
+              "user": "valhalla",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1600014820272-5ec0135ded25d76864d553f1.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/d2989d2d109cd66a8a6f923a1f2a683a30bb79fc"
+        },
+        {
+          "id": "169f61ef20a203ff4fd23a41804286e1e6b8fb67",
+          "title": "Remove some tags",
+          "created_at": "2021-04-09T18:35:53.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/169f61ef20a203ff4fd23a41804286e1e6b8fb67"
+        },
+        {
+          "id": "3f17ff3748211e9eeb82c1f1c186dee05c2542e0",
+          "title": "Remove timm tag",
+          "created_at": "2021-04-09T18:24:38.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/3f17ff3748211e9eeb82c1f1c186dee05c2542e0"
+        },
+        {
+          "id": "6a24422d13ec7a182b46fed27952806ed940f9de",
+          "title": "Add tags",
+          "created_at": "2021-04-08T07:41:06.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/6a24422d13ec7a182b46fed27952806ed940f9de"
+        },
+        {
+          "id": "5cfe98bea6edb5e27e3a7c324c2bfd6d75471be7",
+          "title": "Merge branch 'main' of https://huggingface.co/google/vit-base-patch16-224 into main",
+          "created_at": "2021-03-30T18:19:53.000Z",
+          "authors": [
+            {
+              "user": "nielsr",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1608042047613-5f1158120c833276f61f1a84.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/google/vit-base-patch16-224/commit/5cfe98bea6edb5e27e3a7c324c2bfd6d75471be7"
+        }
+      ],
       "readme_sha256": "edb38cc47675c7320f41d9c9760bb0cc88c5820b482d87e1b5b6b5cc5459938d",
       "manifest_root_sha256": "7a0f66d285c7a1438ece29dbfd8b552d9a3d6ba9915aac6752e846bc2144fa9b",
-      "timeline": [],
-      "evidence_sha256": "34b075e672044119f977d76b87313863f1ee739f041ade45ae1539362a6ed51e"
+      "timeline": [
+        {
+          "at": "2026-08-23T01:59:03.000Z",
+          "type": "discussion",
+          "label": "Internal model structure preview",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/26"
+        },
+        {
+          "at": "2026-08-02T17:59:09.000Z",
+          "type": "discussion",
+          "label": "docs: cite the original Vision Transformer paper in the model card",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/25"
+        },
+        {
+          "at": "2026-06-27T10:43:09.000Z",
+          "type": "discussion",
+          "label": "Question: edge/mobile deployment — anyone tested?",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/24"
+        },
+        {
+          "at": "2025-04-30T13:16:35.000Z",
+          "type": "discussion",
+          "label": "Request: DOI",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/23"
+        },
+        {
+          "at": "2025-02-23T23:19:39.000Z",
+          "type": "discussion",
+          "label": "Upload 80138662-23CD-4D61-848A-FE7D297CF3E0.jpeg",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/22"
+        },
+        {
+          "at": "2024-12-14T18:01:29.000Z",
+          "type": "discussion",
+          "label": "Upload IMG_20241211_004929.jpg",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/21"
+        },
+        {
+          "at": "2024-10-01T08:21:51.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/20"
+        },
+        {
+          "at": "2024-08-05T19:42:03.000Z",
+          "type": "discussion",
+          "label": "How can I fine tune the model on 16-bit images?",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/discussions/19"
+        },
+        {
+          "at": "2023-09-05T15:27:12.000Z",
+          "type": "commit",
+          "label": "Adding `safetensors` variant of this model (#7)",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/3f49326eb077187dfe1c2a2bb15fbd74e6ab91e3"
+        },
+        {
+          "at": "2023-02-27T15:03:42.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/2ddc9d4e473d7ba52128f0df4723e478fa14fb80"
+        },
+        {
+          "at": "2022-06-23T07:42:10.000Z",
+          "type": "commit",
+          "label": "Update dataset tag",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/5dca96d358b3fcb9d53b3d3881eb1ae20b6752d1"
+        },
+        {
+          "at": "2022-01-12T08:04:56.000Z",
+          "type": "commit",
+          "label": "Add vision tag",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/e15abf55f36bc1d95c852bc0d88f8c1ecb1a804f"
+        },
+        {
+          "at": "2021-11-15T10:29:26.000Z",
+          "type": "commit",
+          "label": "Add TF model",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/db75733ce9ead4ed3dce26ab87a6ed2f6f565985"
+        },
+        {
+          "at": "2021-11-03T16:23:03.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/df9a481f15ee72bc1e9ce6472d7b457fce91811f"
+        },
+        {
+          "at": "2021-09-13T19:52:27.000Z",
+          "type": "commit",
+          "label": "Update model card",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/c697c92e0e0530f6563c78d1715e7cf043d22cfd"
+        },
+        {
+          "at": "2021-06-10T14:02:22.000Z",
+          "type": "commit",
+          "label": "add model",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/d2989d2d109cd66a8a6f923a1f2a683a30bb79fc"
+        },
+        {
+          "at": "2021-04-09T18:35:53.000Z",
+          "type": "commit",
+          "label": "Remove some tags",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/169f61ef20a203ff4fd23a41804286e1e6b8fb67"
+        },
+        {
+          "at": "2021-04-09T18:24:38.000Z",
+          "type": "commit",
+          "label": "Remove timm tag",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/3f17ff3748211e9eeb82c1f1c186dee05c2542e0"
+        },
+        {
+          "at": "2021-04-08T07:41:06.000Z",
+          "type": "commit",
+          "label": "Add tags",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/6a24422d13ec7a182b46fed27952806ed940f9de"
+        },
+        {
+          "at": "2021-03-30T18:19:53.000Z",
+          "type": "commit",
+          "label": "Merge branch 'main' of https://huggingface.co/google/vit-base-patch16-224 into main",
+          "source": "https://huggingface.co/google/vit-base-patch16-224/commit/5cfe98bea6edb5e27e3a7c324c2bfd6d75471be7"
+        }
+      ],
+      "evidence_sha256": "84b99df982154f190685b695a40aca5a9fa0e222678502dce406c5a3c9499790"
     },
     "huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated": {
-      "captured_at": "2026-09-23T16:59:41Z",
+      "captured_at": "2026-09-27T05:19:52Z",
       "repo": "huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated",
       "reason": {
@@ -79067,7 +79536,7 @@
       "readme_sha256": "1e34a1686fab74fef3db42e8dd2043652b41ecc5c249d68d4ad87f92bcc6da29",
       "manifest_root_sha256": "1d42c64dec7d3d2234e09d758e80aa7427d7990ec840d238dd28a5bc0062d6bb",
       "timeline": [],
-      "evidence_sha256": "47cbf60a486533634ace774f918bdeea960028739d8cb9795a20a979bb2c5cc1"
+      "evidence_sha256": "eb5ed8ab1255178520f8c22e121c40cecfa54cf14e8cd419ac7fc01b4947853e"
     },
     "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF": {
       "captured_at": "2026-09-24T17:12:05Z",
