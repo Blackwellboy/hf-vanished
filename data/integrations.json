@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.integrations.v1",
-  "updated_at": "2026-09-27T12:03:24Z",
+  "updated_at": "2026-09-27T16:58:42Z",
   "cursor": 244,
   "pirateface": {
     "models": {
@@ -323,113 +323,103 @@
       "stabilityai/stable-diffusion-2-1-base": {
         "url": "https://pirateface.co/stabilityai/stable-diffusion-2-1-base",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:48Z",
+        "checked_at": "2026-09-27T16:58:36Z",
         "http": 200
       },
       "stabilityai/stable-diffusion-2-inpainting": {
         "url": "https://pirateface.co/stabilityai/stable-diffusion-2-inpainting",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:49Z",
+        "checked_at": "2026-09-27T16:58:37Z",
         "http": 200
       },
       "runwayml/stable-diffusion-v1-4": {
         "url": "https://pirateface.co/runwayml/stable-diffusion-v1-4",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:49Z",
+        "checked_at": "2026-09-27T16:58:38Z",
         "http": 200
       },
       "runwayml/stable-diffusion-v1-5": {
         "url": "https://pirateface.co/runwayml/stable-diffusion-v1-5",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:49Z",
+        "checked_at": "2026-09-27T16:58:38Z",
         "http": 200
       },
       "WizardLMTeam/WizardLM-2-70B": {
         "url": "https://pirateface.co/WizardLMTeam/WizardLM-2-70B",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:17Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:50Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:38Z",
+        "http": 200
       },
       "WizardLMTeam/WizardLM-2-7B": {
         "url": "https://pirateface.co/WizardLMTeam/WizardLM-2-7B",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:17Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:50Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:39Z",
+        "http": 200
       },
       "WizardLMTeam/WizardLM-2-8x22B": {
         "url": "https://pirateface.co/WizardLMTeam/WizardLM-2-8x22B",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:17Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:51Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:39Z",
+        "http": 200
       },
       "microsoft/WizardLM-2-7B": {
         "url": "https://pirateface.co/microsoft/WizardLM-2-7B",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:18Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:51Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:39Z",
+        "http": 200
       },
       "microsoft/WizardLM-2-8x22B": {
         "url": "https://pirateface.co/microsoft/WizardLM-2-8x22B",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:18Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:51Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:39Z",
+        "http": 200
       },
       "audnai/penclaw-GLM-5.3-abliterated": {
         "url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:52Z",
+        "checked_at": "2026-09-27T16:58:40Z",
         "http": 200
       },
       "audnai/penclaw-Kimi-K3.0-abliterated-GGUF": {
         "url": "https://pirateface.co/audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:53Z",
+        "checked_at": "2026-09-27T16:58:41Z",
         "http": 200
       },
       "huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF": {
         "url": "https://pirateface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:53Z",
+        "checked_at": "2026-09-27T16:58:41Z",
         "http": 200
       },
       "huihui-ai/Qwen3-8B-abliterated": {
         "url": "https://pirateface.co/huihui-ai/Qwen3-8B-abliterated",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:54Z",
+        "checked_at": "2026-09-27T16:58:41Z",
         "http": 200
       },
       "orcarouter/Qwen3.8-27B-Uncensored": {
         "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:54Z",
+        "checked_at": "2026-09-27T16:58:41Z",
         "http": 200
       },
       "orcarouter/Qwen3.8-27B-Uncensored-FP8": {
         "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:54Z",
+        "checked_at": "2026-09-27T16:58:42Z",
         "http": 200
       },
       "orcarouter/Qwen3.8-27B-Uncensored-GGUF": {
         "url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:55Z",
+        "checked_at": "2026-09-27T16:58:42Z",
         "http": 200
       },
       "rogue-security/prompt-injection-jailbreak-sentinel-v2": {
         "url": "https://pirateface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
         "status": "unknown",
-        "checked_at": "2026-09-26T16:24:55Z",
+        "checked_at": "2026-09-27T16:58:42Z",
         "http": 200
       },
       "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
@@ -867,18 +857,14 @@
       "bigcode/starcoder": {
         "url": "https://pirateface.co/bigcode/starcoder",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:19Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:52Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:40Z",
+        "http": 200
       },
       "black-forest-labs/FLUX.1-dev": {
         "url": "https://pirateface.co/black-forest-labs/FLUX.1-dev",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:19Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:52Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:40Z",
+        "http": 200
       },
       "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF": {
         "url": "https://pirateface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
@@ -1427,10 +1413,8 @@
       "pyannote/speaker-diarization-3.1": {
         "url": "https://pirateface.co/pyannote/speaker-diarization-3.1",
         "status": "unknown",
-        "checked_at": "2026-09-25T17:12:18Z",
-        "http": 200,
-        "last_attempted_at": "2026-09-26T16:24:51Z",
-        "last_error_http": 500
+        "checked_at": "2026-09-27T16:58:39Z",
+        "http": 200
       },
       "rafw007/qwen3-coder-next-80b-redteam-GGUF": {
         "url": "https://pirateface.co/rafw007/qwen3-coder-next-80b-redteam-GGUF",
