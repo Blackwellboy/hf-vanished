@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-28T05:24:32Z",
+  "generated_at": "2026-09-28T13:54:51Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2183,7 +2183,7 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "7cd41e760c62e49af2073c869bc2b66bdac86258",
+      "revision": "8d0887daa8af483d79cdd2f0d7da85e59cff19fd",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
@@ -2269,6 +2269,28 @@
       "revision": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
       "license": "mit",
       "pipeline_tag": "feature-extraction"
+    },
+    "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "5936e88f1885b856b54520c372f2cd41e71819fd",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED": {
+      "id": "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED",
+      "external_to_watchset": true
+    },
+    "mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "1313820b2b1e16535e554bc97cd6b8a5e707ed98",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "OBLITERATUS/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED": {
+      "id": "OBLITERATUS/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3416,6 +3438,20 @@
     {
       "from": "zai-org/GLM-5.3-Flash",
       "to": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED",
+      "to": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED",
+      "to": "mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
