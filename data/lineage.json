@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-29T05:45:06Z",
+  "generated_at": "2026-09-29T12:53:55Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1504,7 +1504,7 @@
     "Comfy-Org/MiniMax-H3": {
       "id": "Comfy-Org/MiniMax-H3",
       "visibility": "public",
-      "revision": "bf92c4091e333e69b8ca1998e0a669f15cb0832b",
+      "revision": "e5eb578a89295337b8ff433a035929ce0279e0b6",
       "license": "other",
       "pipeline_tag": null
     },
@@ -2290,6 +2290,31 @@
     },
     "OBLITERATUS/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED": {
       "id": "OBLITERATUS/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED",
+      "external_to_watchset": true
+    },
+    "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF": {
+      "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+      "visibility": "public",
+      "revision": "acd5abe0c5ebd064f3863ca7d4bba2d924ec6544",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "MrPewpy/Qwen3.8-27B-OBLITERATED-FP8": {
+      "id": "MrPewpy/Qwen3.8-27B-OBLITERATED-FP8",
+      "visibility": "public",
+      "revision": "93fd9cc366eb5e7a9a1a88e8cf2e76a8fd21ceda",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3.5-4B": {
+      "id": "Qwen/Qwen3.5-4B",
+      "visibility": "public",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.5-4B-Base": {
+      "id": "Qwen/Qwen3.5-4B-Base",
       "external_to_watchset": true
     }
   },
@@ -3452,6 +3477,27 @@
     {
       "from": "OBLITERATUS/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED",
       "to": "mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-35B-A3B",
+      "to": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "to": "MrPewpy/Qwen3.8-27B-OBLITERATED-FP8",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-4B-Base",
+      "to": "Qwen/Qwen3.5-4B",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
