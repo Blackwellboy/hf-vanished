@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-09-30T05:33:00Z",
+  "generated_at": "2026-09-30T12:35:03Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2316,6 +2316,28 @@
     "Qwen/Qwen3.5-4B-Base": {
       "id": "Qwen/Qwen3.5-4B-Base",
       "external_to_watchset": true
+    },
+    "philbert440/Qwen3.8-27B-Uncensored-Cyber-GGUF": {
+      "id": "philbert440/Qwen3.8-27B-Uncensored-Cyber-GGUF",
+      "visibility": "public",
+      "revision": "b2dc3ee9a0216898684d8d0607009626662724d4",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "philbert440/Qwen3.8-27B-Uncensored-Cyber": {
+      "id": "philbert440/Qwen3.8-27B-Uncensored-Cyber",
+      "external_to_watchset": true
+    },
+    "mudler/locate-anything.cpp-gguf": {
+      "id": "mudler/locate-anything.cpp-gguf",
+      "visibility": "public",
+      "revision": "4e50db5b836dd876f5e464734ef5484cae754a52",
+      "license": "other",
+      "pipeline_tag": "object-detection"
+    },
+    "nvidia/LocateAnything-3B": {
+      "id": "nvidia/LocateAnything-3B",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3498,6 +3520,20 @@
     {
       "from": "Qwen/Qwen3.5-4B-Base",
       "to": "Qwen/Qwen3.5-4B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "philbert440/Qwen3.8-27B-Uncensored-Cyber",
+      "to": "philbert440/Qwen3.8-27B-Uncensored-Cyber-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/LocateAnything-3B",
+      "to": "mudler/locate-anything.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
