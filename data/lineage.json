@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-01T05:53:40Z",
+  "generated_at": "2026-10-01T13:14:50Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2338,6 +2338,24 @@
     "nvidia/LocateAnything-3B": {
       "id": "nvidia/LocateAnything-3B",
       "external_to_watchset": true
+    },
+    "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf": {
+      "id": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
+      "visibility": "public",
+      "revision": "8cf3088b8c1fdf1121fed4d52fbc46b71e3f7874",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16": {
+      "id": "AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
+      "external_to_watchset": true
+    },
+    "mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit": {
+      "id": "mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit",
+      "visibility": "public",
+      "revision": "db71b2644248b4f9e7e31ede5e6f631b870d8af5",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -3534,6 +3552,20 @@
     {
       "from": "nvidia/LocateAnything-3B",
       "to": "mudler/locate-anything.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "AEON-7/Qwen3.8-27B-AEON-ULTIMATE-UNCENSORED-BF16",
+      "to": "soyaakinohara/qwen3.8-27b-abliterated-3.69bpw-12GB-MTP.gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "to": "mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
