@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-02T05:37:37Z",
+  "generated_at": "2026-10-02T12:35:07Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1201,12 +1201,12 @@
     "llm-semantic-router/mmbert32k-jailbreak-detector-merged": {
       "id": "llm-semantic-router/mmbert32k-jailbreak-detector-merged",
       "visibility": "public",
-      "revision": "7939c8eaff2d9dbb4f198e128cc3dde58ceb773b",
+      "revision": "6a661694b9f46ca2f51b92f5874f9e0aad2915c4",
       "license": "apache-2.0",
       "pipeline_tag": "text-classification"
     },
-    "llm-semantic-router/mmbert-32k-yarn": {
-      "id": "llm-semantic-router/mmbert-32k-yarn",
+    "vllm-sr/mmbert-32k-yarn": {
+      "id": "vllm-sr/mmbert-32k-yarn",
       "external_to_watchset": true
     },
     "madhurjindal/Jailbreak-Detector": {
@@ -2356,6 +2356,38 @@
       "revision": "db71b2644248b4f9e7e31ede5e6f631b870d8af5",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF": {
+      "id": "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
+      "visibility": "public",
+      "revision": "d82fb040934e0a491600a49477114d005accf59f",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "jimmy31chen/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata": {
+      "id": "jimmy31chen/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata",
+      "visibility": "public",
+      "revision": "17876139539724fc6f0b0fbfdcf7b1daa494d045",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "0bserverx/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored": {
+      "id": "0bserverx/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored",
+      "external_to_watchset": true
+    },
+    "vllm-sr/mmbert32k-jailbreak-detector-merged": {
+      "id": "vllm-sr/mmbert32k-jailbreak-detector-merged",
+      "visibility": "public",
+      "revision": "6a661694b9f46ca2f51b92f5874f9e0aad2915c4",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-classification"
+    },
+    "vllm-sr/jailbreak_classifier_modernbert-base_model": {
+      "id": "vllm-sr/jailbreak_classifier_modernbert-base_model",
+      "visibility": "public",
+      "revision": "184f6772b740349c7aaea3320adaea6965f48f12",
+      "license": null,
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -3046,7 +3078,7 @@
       "inferred": false
     },
     {
-      "from": "llm-semantic-router/mmbert-32k-yarn",
+      "from": "vllm-sr/mmbert-32k-yarn",
       "to": "llm-semantic-router/mmbert32k-jailbreak-detector-merged",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
@@ -3566,6 +3598,27 @@
     {
       "from": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
       "to": "mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "philbert440/Qwen3.8-27B-Uncensored-Cyber",
+      "to": "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "0bserverx/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored",
+      "to": "jimmy31chen/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "vllm-sr/mmbert-32k-yarn",
+      "to": "vllm-sr/mmbert32k-jailbreak-detector-merged",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
