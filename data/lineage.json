@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-01T22:42:44Z",
+  "generated_at": "2026-10-02T05:37:37Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -73,7 +73,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored-FP8": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "visibility": "public",
-      "revision": "0f3cdb83820a8190ffedaef5b29cf4a635e49b4d",
+      "revision": "830602f9b81d083db78f60e889bca37b73b74469",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -84,7 +84,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored-GGUF": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "a855f377abf5cbda99a278414466743f427e97c8",
+      "revision": "fc437a3374c9977bdc339a8ec106dcd9a0357001",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -334,7 +334,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "425937812d28d85a5b5bd70f90e66b590db1fb3c",
+      "revision": "8b192a8e203440d6492a133f6cdfa4bf7bffac98",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -543,7 +543,7 @@
     "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
       "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "0434906af7b5202b676d43f108cf4f73d25691ef",
+      "revision": "e43d00f4e2b8b40b89f75e9adeb1045ac34c8acc",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -565,7 +565,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored-MLX": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
       "visibility": "public",
-      "revision": "14963e70f886455cf93090ac95bdbf4c8730cbe1",
+      "revision": "bc60491a36464626020ce82d5556b1b8f8cd90c7",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2007,7 +2007,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored",
       "visibility": "public",
-      "revision": "404ea47aaa5d8a8b00049c9e9750089aca011ab2",
+      "revision": "8cb32d72080f6a47bf34dc5adf8067daa6c63a31",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2255,7 +2255,7 @@
     "orcarouter/GLM-5.3-Flash-Uncensored-FP8": {
       "id": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
       "visibility": "public",
-      "revision": "3cec42d6ed14ec197e328c09650c17fd3660c26a",
+      "revision": "0480f690f80e8f4c4ee63edd10dcbea8b7d9e31b",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
