@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-03T05:19:06Z",
+  "generated_at": "2026-10-03T11:40:29Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1392,7 +1392,10 @@
     },
     "Qwen/Qwen3-4B": {
       "id": "Qwen/Qwen3-4B",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     },
     "R41NH4RD/Qwen3-1.7B-Refusal-Removed": {
       "id": "R41NH4RD/Qwen3-1.7B-Refusal-Removed",
@@ -2388,6 +2391,43 @@
       "revision": "184f6772b740349c7aaea3320adaea6965f48f12",
       "license": null,
       "pipeline_tag": null
+    },
+    "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored": {
+      "id": "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored",
+      "visibility": "public",
+      "revision": "b2bea2419c4f85c35f382e56ff6832843aedbbf8",
+      "license": null,
+      "pipeline_tag": "text-generation"
+    },
+    "Goekdeniz-Guelmez/Josiefied-Qwen3-8B-abliterated-v1": {
+      "id": "Goekdeniz-Guelmez/Josiefied-Qwen3-8B-abliterated-v1",
+      "external_to_watchset": true
+    },
+    "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
+      "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "838556ac5bb3ffed64bb8d76e1cc841d716498fc",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF": {
+      "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "external_to_watchset": true
+    },
+    "mradermacher/glm-4-9b-chat-hf-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/glm-4-9b-chat-hf-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "3b79f7639c21e2735204b61366ef01f40f6268b1",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "OBLITERATUS/glm-4-9b-chat-hf-OBLITERATED": {
+      "id": "OBLITERATUS/glm-4-9b-chat-hf-OBLITERATED",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-4B-Base": {
+      "id": "Qwen/Qwen3-4B-Base",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3619,6 +3659,34 @@
     {
       "from": "vllm-sr/mmbert-32k-yarn",
       "to": "vllm-sr/mmbert32k-jailbreak-detector-merged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Goekdeniz-Guelmez/Josiefied-Qwen3-8B-abliterated-v1",
+      "to": "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "to": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/glm-4-9b-chat-hf-OBLITERATED",
+      "to": "mradermacher/glm-4-9b-chat-hf-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-4B-Base",
+      "to": "Qwen/Qwen3-4B",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
