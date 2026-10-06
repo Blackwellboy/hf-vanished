@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-06T06:21:32Z",
+  "generated_at": "2026-10-06T18:23:12Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2485,6 +2485,27 @@
     },
     "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated": {
       "id": "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated",
+      "visibility": "public",
+      "revision": "3a26b4b31f8de76cb1d651491178c36f62a97249",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF": {
+      "id": "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "5fc72b57cecd37607495db00b0124becefd9dadd",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "safepaca/absolute-harmfulness-predictor-redteam": {
+      "id": "safepaca/absolute-harmfulness-predictor-redteam",
+      "visibility": "public",
+      "revision": "148a4d6297089a6dc4f024ebcbac1545552a928b",
+      "license": "mit",
+      "pipeline_tag": "text-classification"
+    },
+    "medismera/Qwen3.8-27B-Surgical-Abliterated": {
+      "id": "medismera/Qwen3.8-27B-Surgical-Abliterated",
       "external_to_watchset": true
     }
   },
@@ -3787,6 +3808,20 @@
     {
       "from": "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated",
       "to": "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
+      "to": "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "medismera/Qwen3.8-27B-Surgical-Abliterated",
+      "to": "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
