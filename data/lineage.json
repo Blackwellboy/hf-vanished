@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-06T00:04:26Z",
+  "generated_at": "2026-10-06T06:21:32Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -554,7 +554,7 @@
     "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
       "id": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
       "visibility": "public",
-      "revision": "7ddff52cbacb97c93d8110ae6a3352914021e132",
+      "revision": "51a930204c9e9753d8139f569e9370547455dc7e",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
@@ -2479,9 +2479,9 @@
     "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF": {
       "id": "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "ee00f6e8a4dad7b76a1851ce7519725a751c70de",
+      "revision": "7dc9e687f5561ebe7dc8813d99bed35513319f71",
       "license": "apache-2.0",
-      "pipeline_tag": "image-text-to-text"
+      "pipeline_tag": null
     },
     "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated": {
       "id": "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated",
