@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-07T06:00:14Z",
+  "generated_at": "2026-10-07T13:24:00Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -880,7 +880,7 @@
     "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF": {
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-GGUF",
       "visibility": "public",
-      "revision": "33806a177e79b9c6d0b0eff8a8043cb603ff7d0a",
+      "revision": "dbbce297ddae630724fe47ca14107659497f03de",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -2479,7 +2479,7 @@
     "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF": {
       "id": "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "7dc9e687f5561ebe7dc8813d99bed35513319f71",
+      "revision": "9f0104ea7d8b8a64dfbe9f69a0a616f6d1a76646",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -2507,6 +2507,13 @@
     "medismera/Qwen3.8-27B-Surgical-Abliterated": {
       "id": "medismera/Qwen3.8-27B-Surgical-Abliterated",
       "external_to_watchset": true
+    },
+    "Comfy-Org/Qwen-Image-2.1": {
+      "id": "Comfy-Org/Qwen-Image-2.1",
+      "visibility": "public",
+      "revision": "cb504a4090723e43f17ad01cec0359490e2de613",
+      "license": "other",
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -3822,6 +3829,13 @@
     {
       "from": "medismera/Qwen3.8-27B-Surgical-Abliterated",
       "to": "medismera/Qwen3.8-cyber-RedTeam-Surgical-Abliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen-Image-2.1",
+      "to": "Comfy-Org/Qwen-Image-2.1",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
