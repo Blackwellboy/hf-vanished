@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-07T13:24:00Z",
+  "generated_at": "2026-10-07T23:06:21Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -997,7 +997,7 @@
     "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF": {
       "id": "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
       "visibility": "public",
-      "revision": "22aecf47eb6799afabd593f27781e5ccbda3af2e",
+      "revision": "9219756830cd7fb6529c4bd679b57f3e1ad6b6d5",
       "license": "mit",
       "pipeline_tag": null
     },
@@ -2493,7 +2493,7 @@
     "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF": {
       "id": "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "5fc72b57cecd37607495db00b0124becefd9dadd",
+      "revision": "c24b2e29cb25ec7c157850f402b304a5dafc5c2c",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
