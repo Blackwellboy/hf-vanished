@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-08T13:30:11Z",
+  "generated_at": "2026-10-08T23:21:58Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2493,7 +2493,7 @@
     "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF": {
       "id": "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "c24b2e29cb25ec7c157850f402b304a5dafc5c2c",
+      "revision": "8a31ca66485373f9d5c002f5400b2aecaff84dfe",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
@@ -2532,7 +2532,7 @@
     "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF": {
       "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "b66f0aa143d601c22fceca9e4e9698eb1bbfc3b1",
+      "revision": "840c6e3536c69900e185950e593ce6b5c7a6cd7e",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
     },
@@ -2543,7 +2543,7 @@
     "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
       "id": "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "visibility": "public",
-      "revision": "06115ccc88a73484f7fa459ace5f790cfe87ff1c",
+      "revision": "2b89cf3f7f2d9cb84275439e2c0cda83db15d32f",
       "license": "other",
       "pipeline_tag": "image-text-to-text"
     },
