@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-08T06:04:46Z",
+  "generated_at": "2026-10-08T13:30:11Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -403,7 +403,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "17fd80b58a35d38fa308d2f00e4ff72cfed5dc60",
+      "revision": "c217e10971553977fbbc677973ccdee2c9554db3",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2514,6 +2514,42 @@
       "revision": "cb504a4090723e43f17ad01cec0359490e2de613",
       "license": "other",
       "pipeline_tag": null
+    },
+    "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
+      "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+      "visibility": "public",
+      "revision": "c217e10971553977fbbc677973ccdee2c9554db3",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF": {
+      "id": "OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF",
+      "visibility": "public",
+      "revision": "5ab50fd49410941a8d4f97912303b1c7d458ffa2",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF": {
+      "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+      "visibility": "public",
+      "revision": "b66f0aa143d601c22fceca9e4e9698eb1bbfc3b1",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "empero-ai/Qwen3.8-35B-A3B-Distill": {
+      "id": "empero-ai/Qwen3.8-35B-A3B-Distill",
+      "external_to_watchset": true
+    },
+    "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
+      "id": "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "06115ccc88a73484f7fa459ace5f790cfe87ff1c",
+      "license": "other",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "ukisai/Swift-Qwen3.8-Flash-Next": {
+      "id": "ukisai/Swift-Qwen3.8-Flash-Next",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3836,6 +3872,34 @@
     {
       "from": "Qwen/Qwen-Image-2.1",
       "to": "Comfy-Org/Qwen-Image-2.1",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "to": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "to": "OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "empero-ai/Qwen3.8-35B-A3B-Distill",
+      "to": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ukisai/Swift-Qwen3.8-Flash-Next",
+      "to": "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
