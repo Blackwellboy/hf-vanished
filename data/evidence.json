@@ -1,10 +1,10 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-10-08T23:21:58Z",
-  "cursor": 4,
+  "generated_at": "2026-10-09T06:09:38Z",
+  "cursor": 30,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
-      "captured_at": "2026-10-08T23:21:31Z",
+      "captured_at": "2026-10-09T06:08:56Z",
       "repo": "Aeala/ShareGPT_Vicuna_unfiltered",
       "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "reason": {
@@ -27,10 +27,10 @@
           "source": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered"
         }
       ],
-      "evidence_sha256": "428f4d94f19bc539da634961b440adfed5874892f5e663410c4a0f376624c67a"
+      "evidence_sha256": "e9ae9c8468288a7fd1683fc41003ac0620732cd1920011c20d0f4f2ec6a5bbc3"
     },
     "OpenAssistant/oasst-sft-6-llama-30b": {
-      "captured_at": "2026-10-08T23:21:32Z",
+      "captured_at": "2026-10-09T06:08:57Z",
       "repo": "OpenAssistant/oasst-sft-6-llama-30b",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "reason": {
@@ -53,10 +53,10 @@
           "source": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b"
         }
       ],
-      "evidence_sha256": "dd1dda6924040c2b15d16b1b00abbc1676883e391d0365cc1b5229c84be37afd"
+      "evidence_sha256": "69db31a7de0431b458d1752497cc154a433addb8d0038150431108b48a1deb50"
     },
     "Undi95/LLaMA-2-13B-GPTQ": {
-      "captured_at": "2026-10-08T23:21:32Z",
+      "captured_at": "2026-10-09T06:08:57Z",
       "repo": "Undi95/LLaMA-2-13B-GPTQ",
       "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
       "reason": {
@@ -79,10 +79,10 @@
           "source": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ"
         }
       ],
-      "evidence_sha256": "2e4563b04aa501b3d148c7ac182a7ed109ea11ef38d1243b39edcf26a7ffe946"
+      "evidence_sha256": "7f36c14738ca942d49808b8f59c27d502a2ee19ecb22f06a9800a3d641ffee55"
     },
     "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
-      "captured_at": "2026-10-08T23:21:32Z",
+      "captured_at": "2026-10-09T06:08:57Z",
       "repo": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "reason": {
@@ -105,10 +105,10 @@
           "source": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid"
         }
       ],
-      "evidence_sha256": "d2155d765f3cd2135c33d75f2bdc491ae91db2437b542d128e19ab067a15c9af"
+      "evidence_sha256": "fabd9ba8b1f1c25bf3c1dfa9d2c87bad4746f2d5def686c81b7a23499d141a9f"
     },
     "WizardLM/WizardLM-7B-V1.0": {
-      "captured_at": "2026-10-08T23:21:33Z",
+      "captured_at": "2026-10-09T06:08:58Z",
       "repo": "WizardLM/WizardLM-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
       "reason": {
@@ -131,10 +131,10 @@
           "source": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0"
         }
       ],
-      "evidence_sha256": "7664ccf791a9b44c62be8ea45d0c9b37a1db79dd706caca866a14916fc50419b"
+      "evidence_sha256": "ba6afa0e3bc865bd618db2730e64ac03da77b85ce046e28b29d3801ed0fbd64c"
     },
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
-      "captured_at": "2026-10-08T23:21:33Z",
+      "captured_at": "2026-10-09T06:08:58Z",
       "repo": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "hf_url": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "reason": {
@@ -157,10 +157,10 @@
           "source": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber"
         }
       ],
-      "evidence_sha256": "1e3782f88a1eaccc3108f7a9df38a5c46724a74ce24f4d0013546d58fe1a0a3e"
+      "evidence_sha256": "41c2e558c667b8362607bbd33283c89794cd2acafc75616aa4dd956257a9dd3d"
     },
     "databricks/dolly-v1-6b": {
-      "captured_at": "2026-10-08T23:21:33Z",
+      "captured_at": "2026-10-09T06:08:58Z",
       "repo": "databricks/dolly-v1-6b",
       "hf_url": "https://huggingface.co/databricks/dolly-v1-6b",
       "reason": {
@@ -183,10 +183,10 @@
           "source": "https://huggingface.co/databricks/dolly-v1-6b"
         }
       ],
-      "evidence_sha256": "cd424e34cb1a0360fddbf41c159d076b2eab787ac094e9d6bde252de65fbbcb4"
+      "evidence_sha256": "e4f2381c6e7bd5e2bbd6bf26a92072388238b7c47526a60c4ffb65e8ff5d6d17"
     },
     "databricks/dolly-v2-12b": {
-      "captured_at": "2026-10-08T23:21:34Z",
+      "captured_at": "2026-10-09T06:08:59Z",
       "repo": "databricks/dolly-v2-12b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-12b",
       "reason": {
@@ -209,10 +209,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-12b"
         }
       ],
-      "evidence_sha256": "3edb961946ef8047837fadc02c2a508ed284c0f7bcc8d5a5ee65591c7257d9e8"
+      "evidence_sha256": "4b15e4f5b3338ff0fc85a13d05b19c4ab697b5a5cfc30224570a7e9dc83afb5c"
     },
     "databricks/dolly-v2-3b": {
-      "captured_at": "2026-10-08T23:21:34Z",
+      "captured_at": "2026-10-09T06:08:59Z",
       "repo": "databricks/dolly-v2-3b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-3b",
       "reason": {
@@ -235,10 +235,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-3b"
         }
       ],
-      "evidence_sha256": "4952002d2e5d9c9ac374e88b95ac34d699e3a3a16d1282605a0eb828ac4e3a12"
+      "evidence_sha256": "0ed61aec0044ec9e6bfda4aa037fc43660b3776af964124fbcd3048bb75f9a72"
     },
     "databricks/dolly-v2-7b": {
-      "captured_at": "2026-10-08T23:21:34Z",
+      "captured_at": "2026-10-09T06:08:59Z",
       "repo": "databricks/dolly-v2-7b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-7b",
       "reason": {
@@ -261,10 +261,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-7b"
         }
       ],
-      "evidence_sha256": "1df7261a8b3495c822faa4897ee2e18de8e49cf3b506853f17bdd761fc02224e"
+      "evidence_sha256": "38e9d3fb9bdec966d347de2601cba9f36a220d8f8266af7f8ec1df25651a35fd"
     },
     "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
-      "captured_at": "2026-10-08T23:21:34Z",
+      "captured_at": "2026-10-09T06:09:00Z",
       "repo": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "reason": {
@@ -287,10 +287,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
         }
       ],
-      "evidence_sha256": "bc8d848837fdcb57ba66e10044c487b52d9d06132d2e6314d1a049b8ce2ea383"
+      "evidence_sha256": "317dd7256f25356221a3d1681a00697e324db03d690977445a7625f598b1e8eb"
     },
     "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
-      "captured_at": "2026-10-08T23:21:35Z",
+      "captured_at": "2026-10-09T06:09:00Z",
       "repo": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "reason": {
@@ -313,10 +313,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "835efc17a4cf1f61f2ce4b668137942509f988f5b6f5f3c571058c538ffbc14b"
+      "evidence_sha256": "e011347ca4fc4a2ef32bc728c08b18df54b739256350de128d7773fd05fcc002"
     },
     "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-10-08T23:21:35Z",
+      "captured_at": "2026-10-09T06:09:00Z",
       "repo": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -339,10 +339,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "4ede040b46f8e1514f6679b1952898f7df5bb5bf76360d9065ba5ff8cc91b901"
+      "evidence_sha256": "d8d1f4a591e0909cb224c25a6be97e12020884ab68e106d61c2b99f0d0f2568b"
     },
     "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
-      "captured_at": "2026-10-08T23:21:36Z",
+      "captured_at": "2026-10-09T06:09:01Z",
       "repo": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "reason": {
@@ -365,10 +365,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "6bd1317974dfd78cce4366d46c90dab95da1f3c33dc22162996a529d3ea52b32"
+      "evidence_sha256": "9bb93843d3ab94710516c895d293c18a75596dbf9b0828332e9b0a27d5f6e4cc"
     },
     "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
-      "captured_at": "2026-10-08T23:21:36Z",
+      "captured_at": "2026-10-09T06:09:01Z",
       "repo": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "reason": {
@@ -391,10 +391,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "e0706b68e981fcdaba3e59338dafe2726ef463d1fc90aa79e522d3f3229931ff"
+      "evidence_sha256": "3a31b9bce1dec1730ddefd63271b2e82a9cfe2dc82a4173f03d9d10ccd84061d"
     },
     "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-10-08T23:21:36Z",
+      "captured_at": "2026-10-09T06:09:02Z",
       "repo": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -417,10 +417,10 @@
           "source": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "7d6e4ac0789013f64ef536bb5e5cdf6538134444fe1f280549bee900ab1e5dac"
+      "evidence_sha256": "082a8195bbc29605ac50ecd58e12e6a76338def1744803a26eee364ea9cfccd8"
     },
     "mosaicml/mpt-7b-chat": {
-      "captured_at": "2026-10-08T23:21:37Z",
+      "captured_at": "2026-10-09T06:09:02Z",
       "repo": "mosaicml/mpt-7b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "reason": {
@@ -449,10 +449,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-chat"
         }
       ],
-      "evidence_sha256": "f7c0b0745ff9355ffd0b438f8fc9b4e60da644b693d3a10a59c0ff74e4189eb2"
+      "evidence_sha256": "d4ce9c374fbf521db7f447aa41862bb50966f3f1575c77594f31ec49133dd4b2"
     },
     "stabilityai/stable-diffusion-2-1": {
-      "captured_at": "2026-10-08T23:21:37Z",
+      "captured_at": "2026-10-09T06:09:02Z",
       "repo": "stabilityai/stable-diffusion-2-1",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "reason": {
@@ -481,10 +481,10 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2-1"
         }
       ],
-      "evidence_sha256": "08a962a42f4a7440820a96bd2f75bd75d42a4a3ace289fbd5aee79282af025ad"
+      "evidence_sha256": "6b6efe929aa9aaf792fbeba6b6acbfcb9c625e6ffa0a6f7b64ba92410bcdfe37"
     },
     "tencent/HunyuanDiT": {
-      "captured_at": "2026-10-08T23:21:37Z",
+      "captured_at": "2026-10-09T06:09:03Z",
       "repo": "tencent/HunyuanDiT",
       "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
       "reason": {
@@ -507,10 +507,10 @@
           "source": "https://huggingface.co/tencent/HunyuanDiT"
         }
       ],
-      "evidence_sha256": "f226555458fa607d9180b7a3581800579703652901641af1ade192907e0ab769"
+      "evidence_sha256": "598e6b958bcbec9c54dce9fa25ef787a0bb7ee1989f06a152e22eb51d6fe8d0d"
     },
     "databricks/dbrx-base": {
-      "captured_at": "2026-10-08T23:21:37Z",
+      "captured_at": "2026-10-09T06:09:03Z",
       "repo": "databricks/dbrx-base",
       "hf_url": "https://huggingface.co/databricks/dbrx-base",
       "reason": {
@@ -533,10 +533,10 @@
           "source": "https://huggingface.co/databricks/dbrx-base"
         }
       ],
-      "evidence_sha256": "ae9377b1c75fe58dbb71cbd8883b6d01222b0d250cfcafab94afe17dd1ba153c"
+      "evidence_sha256": "cabae8a2834831410bbd6fc839f4ca7b66dbcdec037b857a762e25f976db007e"
     },
     "databricks/dbrx-instruct": {
-      "captured_at": "2026-10-08T23:21:38Z",
+      "captured_at": "2026-10-09T06:09:03Z",
       "repo": "databricks/dbrx-instruct",
       "hf_url": "https://huggingface.co/databricks/dbrx-instruct",
       "reason": {
@@ -559,10 +559,10 @@
           "source": "https://huggingface.co/databricks/dbrx-instruct"
         }
       ],
-      "evidence_sha256": "dc658181bef8ca3ae3e77d521a39bd8eb7e7e79c1f8d157ce243568159c14146"
+      "evidence_sha256": "cde7722677a22aa86dc7c44e769188e3ac9255a0c1ad002daeafd7546dc5f5e2"
     },
     "mosaicml/mpt-30b": {
-      "captured_at": "2026-10-08T23:21:38Z",
+      "captured_at": "2026-10-09T06:09:04Z",
       "repo": "mosaicml/mpt-30b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b",
       "reason": {
@@ -585,10 +585,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b"
         }
       ],
-      "evidence_sha256": "3ef1ba3a247f45b7ca4cbd2d6626f4e1f311105fdf950112f37946617bd93ee5"
+      "evidence_sha256": "83eb4a8d69e044e0bd479189a6542abc13391bd1ac6f4d913af569551572072d"
     },
     "mosaicml/mpt-30b-chat": {
-      "captured_at": "2026-10-08T23:21:38Z",
+      "captured_at": "2026-10-09T06:09:04Z",
       "repo": "mosaicml/mpt-30b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-chat",
       "reason": {
@@ -611,10 +611,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-chat"
         }
       ],
-      "evidence_sha256": "80cbaba48141d699954686294c0faba810a678297ec49fb1d1e3f713417cf241"
+      "evidence_sha256": "b73641c9b657386958b17185e89bd20bea400e0fa5ac93a97cb3bfc85b04fc3e"
     },
     "mosaicml/mpt-30b-instruct": {
-      "captured_at": "2026-10-08T23:21:39Z",
+      "captured_at": "2026-10-09T06:09:04Z",
       "repo": "mosaicml/mpt-30b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-instruct",
       "reason": {
@@ -637,10 +637,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-instruct"
         }
       ],
-      "evidence_sha256": "d6f61cc9188319829b6aa1939e5cde7b0fcf6c64da6deab7c42a710003cd4426"
+      "evidence_sha256": "6a696b86f43c918d1735c28306c37ba9a85d74c1216b08ee33628c8cd634f7e9"
     },
     "mosaicml/mpt-7b": {
-      "captured_at": "2026-10-08T23:21:39Z",
+      "captured_at": "2026-10-09T06:09:05Z",
       "repo": "mosaicml/mpt-7b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b",
       "reason": {
@@ -663,10 +663,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b"
         }
       ],
-      "evidence_sha256": "6fc14d9a99fa23e6fa94970e6555462e4dff1cd64b84ce7d18ec3996d51fe566"
+      "evidence_sha256": "5e2cef001469e49c2fdb5d315d90eaca46409fd3ace2a3177bebac244648541e"
     },
     "mosaicml/mpt-7b-instruct": {
-      "captured_at": "2026-10-08T23:21:39Z",
+      "captured_at": "2026-10-09T06:09:05Z",
       "repo": "mosaicml/mpt-7b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-instruct",
       "reason": {
@@ -689,10 +689,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-instruct"
         }
       ],
-      "evidence_sha256": "4cbb120e57cdf25dfc9381a35004eddb86b264d3a4f797298638f07c459fa534"
+      "evidence_sha256": "d133185c4d714acf03a239d6b2cf672d9e5a86a2925378447bf59887c1ff74ec"
     },
     "mosaicml/mpt-7b-storywriter": {
-      "captured_at": "2026-10-08T23:21:40Z",
+      "captured_at": "2026-10-09T06:09:05Z",
       "repo": "mosaicml/mpt-7b-storywriter",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
       "reason": {
@@ -715,10 +715,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-storywriter"
         }
       ],
-      "evidence_sha256": "190ec078c4594741167a8fcbe5bdbd192c28a92fbeb020fb15f01c6642dc0e29"
+      "evidence_sha256": "e4600a30a6d31cfe06d332a96175b560871bb5d5fc046059d9b5acfa29d24515"
     },
     "stabilityai/stable-diffusion-2": {
-      "captured_at": "2026-10-08T23:21:40Z",
+      "captured_at": "2026-10-09T06:09:06Z",
       "repo": "stabilityai/stable-diffusion-2",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2",
       "reason": {
@@ -741,7 +741,7 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2"
         }
       ],
-      "evidence_sha256": "afa66347609984a697ec705fe4f087d8a90bd590f6ba742368774c5fe3453389"
+      "evidence_sha256": "5643d71942125f60244b100ee2bbbb27b055bd156f6ab04351170a2d9f41082f"
     },
     "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF": {
       "captured_at": "2026-10-08T23:21:57Z",
@@ -1927,7 +1927,7 @@
       "evidence_sha256": "ad9bbacc0275902f9ec493f15c1ec5ba4bfd516255fa20f1c9ccde7c846089ee"
     },
     "BAAI/bge-base-en-v1.5": {
-      "captured_at": "2026-10-05T05:40:05Z",
+      "captured_at": "2026-10-09T06:09:07Z",
       "repo": "BAAI/bge-base-en-v1.5",
       "hf_url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
       "reason": {
@@ -1998,7 +1998,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9b220260b5380c4075aaf3aec38f4b535e84abd31c9740ba14166e2c10c660e5"
+          "source_sha256": "e80e0b9995bd7a842b6b56504b8fb47ca307ab2167a2358b4754bfc0bcd22b29"
         },
         {
           "num": 15,
@@ -2058,7 +2058,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "c2bfa59b67e30a20082118aff9e53e292a07eb2af8c77e94018a0feb08b5f37d"
+          "source_sha256": "e3efd2b5ce9c19d902daa60108f9fa7ab953d9b0591c51d7274911eed0ce3080"
         },
         {
           "num": 12,
@@ -2082,7 +2082,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "521d101fd8094de53dc2f299ec3ff7f5d4b51d3785d818bb8b02625d9f3d4413"
+          "source_sha256": "4481173c3ae24e48ba57faa3ba65ec0c411b2b4f3e0fb33b9364d993c17643d3"
         },
         {
           "num": 11,
@@ -2106,7 +2106,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "a1dc66f88c0952165c49118fe75c0a2d5ebd58206abe70b172a23c658df69874"
+          "source_sha256": "ed9ca7d64759646524aca62abbf8bd700f1322a559c8522223651b6272a36da8"
         },
         {
           "num": 10,
@@ -2130,7 +2130,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "c1150e5b1b74030464a1497d168df2f6e1b2c38020d16941819d44af6321fa4b"
+          "source_sha256": "d9126a7ae557505d08afa96304ae3a434ecc2ad55db9bec0194437837b74584c"
         }
       ],
       "commits": [
@@ -2411,10 +2411,10 @@
           "source": "https://huggingface.co/BAAI/bge-base-en-v1.5/commit/6221169f04cebe20db3cbb3ca8d90fbd712770b6"
         }
       ],
-      "evidence_sha256": "56f68996589358137eb66440d5bc9f8703b3fa04a12b2efa48fead199c40f80b"
+      "evidence_sha256": "1cba4123b1f3beae67ac13c7824afc3acc0a35787822b8504d7ef9cd22f7f6e1"
     },
     "BAAI/bge-large-en-v1.5": {
-      "captured_at": "2026-10-05T05:40:05Z",
+      "captured_at": "2026-10-09T06:09:09Z",
       "repo": "BAAI/bge-large-en-v1.5",
       "hf_url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
       "reason": {
@@ -2491,7 +2491,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "e2cfcc8b3b095f8dfe1fffa7cc1457ad8e98cb58e9426bb1428989cd2fd7863e"
+          "source_sha256": "09dd9d8900113c11b228dcbf97fedb689f5b9c761f3303ae8322cb7f4c080be2"
         },
         {
           "num": 38,
@@ -2539,7 +2539,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "899b8f8bb3b8114b97b0bf5053ae59fe03b6b79af928d1f36c7949bc6ebe94b0"
+          "source_sha256": "9ac750613044501f27ba0d97965265fdcf45e1323d5ed93016c355f5bbed8879"
         },
         {
           "num": 36,
@@ -2563,7 +2563,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "89d298fb8951c7b2efd6ed3a3394ac0fdc547f97ba82e128a9e36370cca35fca"
+          "source_sha256": "1ba111901f1ccad565238a2bece1f38184898c1db263adad41d9104482492804"
         },
         {
           "num": 35,
@@ -2908,10 +2908,10 @@
           "source": "https://huggingface.co/BAAI/bge-large-en-v1.5/commit/33cd644c49ee8fef43039f8feeb555d52aa55fc0"
         }
       ],
-      "evidence_sha256": "4466fe2868d9f4f35a08db7bae535ffddc7e85280063dd82a2286e1401a5be41"
+      "evidence_sha256": "2a9c1e81600fd3a2ac67707c666c4f6a884d432e2d8358ef5265a5c68b8ae12f"
     },
     "BAAI/bge-m3": {
-      "captured_at": "2026-10-05T14:38:21Z",
+      "captured_at": "2026-10-09T06:09:11Z",
       "repo": "BAAI/bge-m3",
       "hf_url": "https://huggingface.co/BAAI/bge-m3",
       "reason": {
@@ -3387,10 +3387,10 @@
           "source": "https://huggingface.co/BAAI/bge-m3/commit/3641912a2b1366e8ee92fbdad6aa2abd45234114"
         }
       ],
-      "evidence_sha256": "0e5535cd300f48e7c8e277c27c9ae853571993b6aa30b6dd9e4ca8f808846a21"
+      "evidence_sha256": "67acf7e26e3ec76fcb13b2258d720679ff479edb93662f0803e22f8984052cc0"
     },
     "BAAI/bge-reranker-v2-m3": {
-      "captured_at": "2026-10-05T14:38:22Z",
+      "captured_at": "2026-10-09T06:09:12Z",
       "repo": "BAAI/bge-reranker-v2-m3",
       "hf_url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
       "reason": {
@@ -3864,10 +3864,10 @@
           "source": "https://huggingface.co/BAAI/bge-reranker-v2-m3/commit/44482ec41e66cfb3ced6fdf71c52c78e3e3b5654"
         }
       ],
-      "evidence_sha256": "273ce25d915adeeb704eea61610d84e6dd9fd281cabbe14abe735d2184626570"
+      "evidence_sha256": "f494f630bd955698a5a8e5c56a8fc9a0f05560e275e781d63de9960ee0a10ecd"
     },
     "BAAI/bge-small-en-v1.5": {
-      "captured_at": "2026-10-05T14:38:23Z",
+      "captured_at": "2026-10-09T06:09:14Z",
       "repo": "BAAI/bge-small-en-v1.5",
       "hf_url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
       "reason": {
@@ -4330,10 +4330,10 @@
           "source": "https://huggingface.co/BAAI/bge-small-en-v1.5/commit/0b329b72cad8d6ff9a504a30a6c239b87802dc84"
         }
       ],
-      "evidence_sha256": "f878a56c3abf962174b2e5c5dd2b828ce5c0a46aab422af190bf21dc6cb91b73"
+      "evidence_sha256": "54b0c34897acf89b13ea15bbf33687d53f836f7b51b69b39a6bd51579f3d26c9"
     },
     "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4": {
-      "captured_at": "2026-10-05T14:38:24Z",
+      "captured_at": "2026-10-09T06:09:14Z",
       "repo": "Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
       "hf_url": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4",
       "reason": {
@@ -4484,10 +4484,10 @@
           "source": "https://huggingface.co/Bahushruth/Qwen3.6-35B-A3B-abliterated-v4/commit/c3b04e8dc62e21f177a38a3509519304b7f7e86b"
         }
       ],
-      "evidence_sha256": "ab218a1770e1133752d9c24f1c54e050fb6e9703131766f3082e381870c0242a"
+      "evidence_sha256": "f153acad157ffcb04d2fff895f28bcf4f678b7250bdaa83f5452fc5451ab12ee"
     },
     "Bingsu/adetailer": {
-      "captured_at": "2026-10-05T14:38:24Z",
+      "captured_at": "2026-10-09T06:09:15Z",
       "repo": "Bingsu/adetailer",
       "hf_url": "https://huggingface.co/Bingsu/adetailer",
       "reason": {
@@ -4734,10 +4734,10 @@
           "source": "https://huggingface.co/Bingsu/adetailer/commit/06b88e8114e2dfc265ef8469ac598ef13ce5f4b3"
         }
       ],
-      "evidence_sha256": "990647c5becb6474729ef0af3107a7e7e37610f9db791fbee1a335021df40011"
+      "evidence_sha256": "d36242974f8d711da514771e89092dadf649f9687b7bb46f7e6a35dbb32643e8"
     },
     "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF": {
-      "captured_at": "2026-10-05T14:38:24Z",
+      "captured_at": "2026-10-09T06:09:15Z",
       "repo": "Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
       "hf_url": "https://huggingface.co/Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF",
       "reason": {
@@ -4816,10 +4816,10 @@
           "source": "https://huggingface.co/Bjarnos/foundation-sec-8b-red-team-Q5_K_M-GGUF/commit/6b0c6d0e453f4961ea499401b86877dbb3cd38cc"
         }
       ],
-      "evidence_sha256": "d7e0f5856c89d9c3dab627289f7d7249c8af1c9de8a6e7b5a191fe275a017006"
+      "evidence_sha256": "7576ea9d226aedd5845330345798ace43525ae71457b5f5f8155819e17f4876a"
     },
     "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF": {
-      "captured_at": "2026-10-05T14:38:25Z",
+      "captured_at": "2026-10-09T06:09:16Z",
       "repo": "Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "hf_url": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF",
       "reason": {
@@ -4914,7 +4914,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "56e011153081f2e6561b81fe49b5c24e1ba40e947bae3594b877357301aece45"
+          "source_sha256": "977f21b8b3df24fcd664e126e209e90b30852e698f397ef2129f3cbfe5deafe1"
         },
         {
           "num": 3,
@@ -4950,7 +4950,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "14fee17bbcbd0c9155ba2381e3614ae6decc9a24ecd2d81cc873fd83be07efd8"
+          "source_sha256": "8f71345128dbbb4f4a45543850a4d3572040cf81d1c7ac6d5ef6a885f8d2d777"
         },
         {
           "num": 2,
@@ -5016,7 +5016,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "6313ed86b8c3ba81ce3bc4f796ba04b6677ee7e4a940715afd8eadc25f9446f4"
+          "source_sha256": "dc5cab5022a4d87d3d40613043d51777fbfcd4016ac669311eb5547b1d8e5a44"
         },
         {
           "num": 1,
@@ -5076,7 +5076,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "792a09610ee24ec0e14ece7ef6dfd92995ccd7ba59a7fe4aa9f3642e799e1eac"
+          "source_sha256": "b58f8b9bc8526fcdb89f1f5423685f29f326df24beeaddd4385699afa205c8a6"
         }
       ],
       "commits": [
@@ -5331,10 +5331,10 @@
           "source": "https://huggingface.co/Blackfrost-AI/Qwen3.8-27B-ABLITERATED-GGUF/commit/e44855a243311868b4aca940d7b132190b7c35af"
         }
       ],
-      "evidence_sha256": "760241750237b4dc9fc202481948dc0aec874d4da24472599f1b77aa1d5ecc26"
+      "evidence_sha256": "8c567f6ed0eed86f1d7e1168c821a6181553e670d304ee7ed8c941140be155d0"
     },
     "Comfy-Org/Krea-2": {
-      "captured_at": "2026-10-05T14:38:26Z",
+      "captured_at": "2026-10-09T06:09:19Z",
       "repo": "Comfy-Org/Krea-2",
       "hf_url": "https://huggingface.co/Comfy-Org/Krea-2",
       "reason": {
@@ -5852,10 +5852,10 @@
           "source": "https://huggingface.co/Comfy-Org/Krea-2/commit/c44a6ad00cd7bb4b96e84b575fa17a494d831f63"
         }
       ],
-      "evidence_sha256": "3706ed4c61db23637677efedc33cae6ddb9d7f36be1bdf9d3d738717470d71a2"
+      "evidence_sha256": "8ed4f3edd1e1b211d37e292755f353231f4057ef626e59f898c977e0353b0fb7"
     },
     "Comfy-Org/MiniMax-H3": {
-      "captured_at": "2026-10-05T14:38:28Z",
+      "captured_at": "2026-10-09T06:09:21Z",
       "repo": "Comfy-Org/MiniMax-H3",
       "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
       "reason": {
@@ -6100,7 +6100,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "3a44d509848243f785a6926864067dfbc229713323c42ddd3af621c574c42b10"
+          "source_sha256": "d3352cfed76e8c28d76fe456977ca571fd056cfba3b328372965f8a76d4e2747"
         }
       ],
       "commits": [
@@ -6373,10 +6373,10 @@
           "source": "https://huggingface.co/Comfy-Org/MiniMax-H3/commit/08ba29e5a2ff05402d6975c3b9a2bb32eceff1a4"
         }
       ],
-      "evidence_sha256": "f8ff829856ff81875077bb56ddd9a45e4a17ddd5d7a4c6e6c793a5927b9c4bdd"
+      "evidence_sha256": "b970b8bea0545a54b703d764d4e93f743cb664b532a9f3720d1853cfb82e1dcb"
     },
     "Comfy-Org/stable-diffusion-v1-5-archive": {
-      "captured_at": "2026-10-05T14:38:29Z",
+      "captured_at": "2026-10-09T06:09:24Z",
       "repo": "Comfy-Org/stable-diffusion-v1-5-archive",
       "hf_url": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive",
       "reason": {
@@ -6561,7 +6561,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "860eb37a55c33613b7c9f1814ac0f26347c09ee4fc154b66b8db18e0930d1ca4"
+          "source_sha256": "3f849e82dcf218223c0e80f08c0da8c09d08f048d7c1b70f34843765df8fe972"
         },
         {
           "num": 1,
@@ -6603,7 +6603,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "b02be122b9904c99b97e4f9fac4856d98d72fac0b53c748273d2a9c1d0d99531"
+          "source_sha256": "31d86a7d64ff85e0c643c558bafa9034207596e2878a9f898684d403a7fd74d6"
         }
       ],
       "commits": [
@@ -6864,10 +6864,10 @@
           "source": "https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/commit/d0fdea3e841500e0700dfa08ebc37a4edfe3b610"
         }
       ],
-      "evidence_sha256": "7d419236afd7bc6d272d6f127044c3b168a0bca55b986910120dd8b17281f96d"
+      "evidence_sha256": "38ce20ca01debcd89ccea7ab3afbf14b36a9761ec2d32f24f7ce3b8cd3af3b50"
     },
     "CompVis/stable-diffusion-v1-4": {
-      "captured_at": "2026-10-05T14:38:31Z",
+      "captured_at": "2026-10-09T06:09:27Z",
       "repo": "CompVis/stable-diffusion-v1-4",
       "hf_url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
       "reason": {
@@ -7339,10 +7339,10 @@
           "source": "https://huggingface.co/CompVis/stable-diffusion-v1-4/commit/f10ab743429c449ef165dc8712d6fb602b930146"
         }
       ],
-      "evidence_sha256": "5dbb7a3feea404e40c3eb47e2b50ac7697be4f63f446942a3efcd2ad86011874"
+      "evidence_sha256": "37fe32bab8ef755e99977e463db7e8afbfb7d491a21e523f3a08c78f8eef794e"
     },
     "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
-      "captured_at": "2026-10-05T14:38:32Z",
+      "captured_at": "2026-10-09T06:09:28Z",
       "repo": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
       "reason": {
@@ -7395,7 +7395,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "138a1573dfbefd51c48be523e64f39aed9baa812b0a4bd3dd57bed18ae59871b"
+          "source_sha256": "533ed5383c6ec944ee416d52f013d514099679bb9c89bed491f1727515b7efc1"
         },
         {
           "num": 2,
@@ -7443,7 +7443,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9b393039f4dded8b2ebc33d3264208f2c175392222d52b9b2d180249e744a0b0"
+          "source_sha256": "e0a3dbc981853f5037714c8a29c257e55076d81dae9eecdf48a95521ce60b2fb"
         }
       ],
       "commits": [
@@ -7650,10 +7650,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED/commit/998f921b36c1014506c5a35d3096b9edd3809cb9"
         }
       ],
-      "evidence_sha256": "33e5b7fbe49f1eac91b64b89823dfd7e37bd26fe04c2332ed48e8630fd760d10"
+      "evidence_sha256": "385489a6d8d06b830c4ba02d60f55bc11131846e10d7d70957b6a0d538fa6527"
     },
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
-      "captured_at": "2026-10-05T14:38:32Z",
+      "captured_at": "2026-10-09T06:09:29Z",
       "repo": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "reason": {
@@ -7730,7 +7730,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d6f8c3624ba9392cdfe96f29a2ca68f1026e9fd1abf4e7daf5ccbbabcfa7b3c7"
+          "source_sha256": "d2c72e47d91da1d6a61c71a867c90900f64264b1ba9b825ab904b34a66e3ca43"
         },
         {
           "num": 25,
@@ -7778,7 +7778,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "3d7e6dc8c32029c465004948915932429efeaa3b79341bc5241c21ab648f57eb"
+          "source_sha256": "88f9eafb0f4d24faea5ebe4995319dc24f83240ded97c587927b5ca897110183"
         },
         {
           "num": 13,
@@ -7814,7 +7814,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "a9fe94a4afde86b18e74c21c624e4aaa8ea8f02deff961f86f59ed16cdc45dd5"
+          "source_sha256": "84f22c5215f22d744ba0c26a4609748a60e05f0707952c0238419b897752a9b8"
         },
         {
           "num": 7,
@@ -7904,7 +7904,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "49a7e0735d30b9ee8dcc446410468dff7894a4473bc426705622bac0632c461b"
+          "source_sha256": "446c78859d2dd5ca42688ed2492a199213c1e01ec817441c66a4f86c6bed687c"
         },
         {
           "num": 6,
@@ -7958,7 +7958,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "c069b9963d4748b4c11f031d7e5a1cd3b3bcc7bde7bee953ca4e664072426ac5"
+          "source_sha256": "be04c7a7ceec90c4fded2f42eb2d109ccb9b5a54f9ba5ced93d74a3a473f5780"
         },
         {
           "num": 4,
@@ -7988,7 +7988,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d6394ea3a68aa019775268cb22a3702b1046ed34a2b8acf686f52cb3d1cdf9da"
+          "source_sha256": "c006ca9c539453a26c44a6e8938812f214fa5106d352b15034a29990ae0acfa5"
         },
         {
           "num": 27,
@@ -8012,7 +8012,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "72f99e3b098fa26daaa3e6ca75ad2fcd92d8ec639071fe003e44c6f5bc1ac547"
+          "source_sha256": "c4b1cd03797f21b2ff1124c8e358868d4905511d2870d786c40b274113d7db1c"
         },
         {
           "num": 24,
@@ -8042,7 +8042,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "6de70bd9b44e2f455618b417469d417a3c70f0130cbb348b0da8a1801deba6fb"
+          "source_sha256": "26d4a7b8cf4dcc1b96dc4668c36795b7526b3bacd126c8e796250190a8406b36"
         }
       ],
       "commits": [
@@ -8315,10 +8315,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/discussions/4"
         }
       ],
-      "evidence_sha256": "89b22d83ccf46d2bc0ac582525544833b5f0cd58052b2da637383a4575511703"
+      "evidence_sha256": "493d675243e94d6cde7cf6d3d320920f6635129cde8fdbf1581152953cbb4a53"
     },
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
-      "captured_at": "2026-10-05T14:38:32Z",
+      "captured_at": "2026-10-09T06:09:31Z",
       "repo": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "reason": {
@@ -8395,7 +8395,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "273410f4b488ab7d6b90dae2c6557c3e0d0e09aac8fdc6528ec7aa1c4ea6de92"
+          "source_sha256": "c8d2fce481cda73231a2387e8364cb832bb29823cdfa8ff537065da7e4169de6"
         },
         {
           "num": 95,
@@ -8437,7 +8437,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "90fceae7addde29fa969c432a40681d9432d9b62746352f4e01abd39db095f7e"
+          "source_sha256": "df86d702cb2c9e5b1110511d693602431e0f09f0f99b625c434687405654de9a"
         },
         {
           "num": 94,
@@ -8461,7 +8461,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "edc2b85a7a810e7d09e8350c704d3aeea3042e819c59df72d1735d94f280de86"
+          "source_sha256": "d11f452408c5666c95f72dced06157dc645474030e8bd4f41fe9b4628691374a"
         },
         {
           "num": 91,
@@ -8557,7 +8557,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "950c642a317a0455a4cf338bca20939a6e1238cf148168503d34abb6afaf18d0"
+          "source_sha256": "703e1229253952fb70a7c72c68645ee49de7d841ead3bd9233d5f91ff4f88854"
         },
         {
           "num": 57,
@@ -8647,7 +8647,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f478bc26fd21fc10028e7de45a56c25d3ee540546fb1c333fd4361981f35e19f"
+          "source_sha256": "380e7141e26bad1b0cd8cb2d45e999114fc863c25b5223f49c830a5a074de063"
         },
         {
           "num": 41,
@@ -8773,7 +8773,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "0b0515434d459fbcf288efc6d34eb98abdb790def32a831dd258cbdfb7c1ea88"
+          "source_sha256": "b57ea4890cbe2940fb93382baf5bc7af2e03bc78108126090da64f13b412201a"
         },
         {
           "num": 35,
@@ -8875,7 +8875,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "13ee401be2f1bcc9318408fafd319011798d9f33a77bffe48551c7c0557d0f52"
+          "source_sha256": "d37cd6158c59b83c0ac6355e9edf649b990ad4b9647e34915edf1d49b8d080a8"
         },
         {
           "num": 12,
@@ -9007,7 +9007,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f95a17d21f781ca2709d69a59577fef0d43411ae3672eff2610367f13371b4c4"
+          "source_sha256": "84ba0a382ede10b6046d07c14b64c19ac6636ac0c48b94524440490971f550e7"
         }
       ],
       "commits": [
@@ -9280,10 +9280,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF/discussions/12"
         }
       ],
-      "evidence_sha256": "dec95166e5488c0a42f30165ea497a106904344b5ca9a87f3bb89aeec1936e2f"
+      "evidence_sha256": "05a0828ae3d82a648b89990c992c97787d291f4dbfbc15754eb39e5361b47bcd"
     },
     "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
-      "captured_at": "2026-10-05T14:38:33Z",
+      "captured_at": "2026-10-09T06:09:32Z",
       "repo": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "reason": {
@@ -9330,7 +9330,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "571bfed3520d4598d0af0ff0b313b43c5f3cfc06b1a2a3bc1a9ca07bdd71af46"
+          "source_sha256": "07396e3f6e83647fc86c000e357728d57ccd15bc79f45a1fe465794a80a2a7d1"
         },
         {
           "num": 16,
@@ -9384,7 +9384,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f5cbd0f912cc02e0dafb1cc2a494f5605e7b5643c69861dde3991da6f2c501f7"
+          "source_sha256": "935897c3a214dceda9a106524ea63b4f87b179816d1e092641d0b19033be10f1"
         },
         {
           "num": 15,
@@ -9432,7 +9432,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1e1ce97548b76a26cfa452b87158907e861abe453cf8a580812a7b487fc01adf"
+          "source_sha256": "00120a58a60df2fddca660a0f8ae5044514a15f49f0a3954875abe8a8dfff1c7"
         },
         {
           "num": 13,
@@ -9456,7 +9456,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1afa76528b09c6e8261381daa03520991ecba50afb771a1197378cac6cabb3ed"
+          "source_sha256": "8593e47803c5df8ac0d313d40018e17b5c78ed971c930f7e64f00bfa07bbabb5"
         },
         {
           "num": 11,
@@ -9492,7 +9492,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "093b020907fc5240fdfbd7f973fb05a79a2590aff98339eb5bc543db32c4f7b7"
+          "source_sha256": "a34240998883145f94e04b978fc174e44acfc295a0b42eed130a902156acae35"
         },
         {
           "num": 10,
@@ -9534,7 +9534,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f20c6f3567900cc8400c9125f1fd8c2a08a3c42de959672f781d4f21ff20a751"
+          "source_sha256": "bc153a311bde2d31bf74ca72c4bf3ad8dd8b36b7cb707f9e164c427b9e86ff23"
         },
         {
           "num": 9,
@@ -9624,7 +9624,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "7cbbd0ba62bb4c455138a42b545880133a2a1d2f4dc1e2f4aec30d952a2499a1"
+          "source_sha256": "ea45348b772c08077e9bc0c75d612a8c947919dd2fcd0303e783903b55c48d6a"
         }
       ],
       "commits": [
@@ -9897,10 +9897,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF/commit/9dd2c8b00e136e7d6e1ae438e12864ac2cf3220c"
         }
       ],
-      "evidence_sha256": "aeaf6aef7d60ca732015ec6bc6c9be5f01935ac1f3fbe327116ada7814883362"
+      "evidence_sha256": "2d9ce23af8e324261b22bed608ce5f7030690adfe768d514df16e13b85ba1347"
     },
     "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
-      "captured_at": "2026-10-05T14:38:33Z",
+      "captured_at": "2026-10-09T06:09:34Z",
       "repo": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "reason": {
@@ -9971,7 +9971,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f8f74697f67ba7ecfb70503751c525a9a2d2240b813ad7915932f2dd3ebee399"
+          "source_sha256": "971155fa14d296b6b688958815d6f5aeddc944ffaff8701bb6af78f7433b374d"
         },
         {
           "num": 29,
@@ -10071,9 +10071,21 @@
               "author": "Mike0365",
               "created_at": "2026-09-09T12:58:55.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "jacgalnot",
+              "created_at": "2026-10-04T22:51:28.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "DavidAU",
+              "created_at": "2026-10-04T22:59:17.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "1c8491808251e004284aa6cfd82647828ad8e778d805444c761a044d59e761b1"
+          "source_sha256": "f9feda59c1794b74ae1e07a2b2e5842ffee5ed519e63b9f09087053cbaa9fc4b"
         },
         {
           "num": 25,
@@ -10121,7 +10133,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1af282bdcd562a32ddefa27a7e46d871436fc239547ced40909d447f54711125"
+          "source_sha256": "58a436785cefda8147fc219631962f8fdbf9441bd233cddd535dc55fbedb9875"
         },
         {
           "num": 17,
@@ -10253,7 +10265,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "bb2ff0ce49cd7819a3ac3f6aea851a805e362e61e6110387f2f9b22b34ca4e7b"
+          "source_sha256": "3a50ddb51a201baf4b0da14fbed98be96e10bec71ea082481cd18e7e8b1c6a0a"
         },
         {
           "num": 34,
@@ -10269,9 +10281,15 @@
               "author": "BTGbullseye",
               "created_at": "2026-09-29T20:26:00.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "DavidAU",
+              "created_at": "2026-10-08T01:50:52.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "0f22cac250cd1f3babf63ab68896c5338ea9afe60d40480b7b2cb2921034c064"
+          "source_sha256": "29e3420984d301f809ff3e3b70bddab77bcc39578c10b7f703ebd3cf13b982e0"
         },
         {
           "num": 33,
@@ -10301,7 +10319,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "e6770bbb9a624c7841039c1bd00b985755ac79acb40a3da2705eadc0c4701463"
+          "source_sha256": "e6b1ea48f409afa1a4d8d636aa658bd24c75c7d93bf3a1d90b6bd3711fe7649e"
         },
         {
           "num": 31,
@@ -10331,7 +10349,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "42f298bbf7e56f21f77ba2859ea7edac69465487ee8076afbc7f540fadb8aa90"
+          "source_sha256": "6900bd3ea7432df0b706c462e35f19fcca207892346f97ff52247e481b051041"
         },
         {
           "num": 30,
@@ -10361,7 +10379,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "52a281a98fd6c1655755d077aa6639595d48154e7ddffe06c9bd1d2a3b8f126d"
+          "source_sha256": "e897c7ddc991392f7d6e1a7e4cb82b7097033cb63112fc1721f1dacdbf5d5b1b"
         }
       ],
       "commits": [
@@ -10634,10 +10652,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/commit/8f6654b98bf23b4d18374b7f72312cfba61d66db"
         }
       ],
-      "evidence_sha256": "7fcdc1897f9cd14adfed68607328604085117b232e746173595dedd77acd50b7"
+      "evidence_sha256": "54e81625239671116e04b1ba780f75fbd980e93ab705a51f3d7167714b46b93b"
     },
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
-      "captured_at": "2026-10-05T14:38:33Z",
+      "captured_at": "2026-10-09T06:09:36Z",
       "repo": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "reason": {
@@ -10828,7 +10846,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "89860fbf2cab4e909d65d3781fd1d89df744203179e0c746c1035b5474e80cfd"
+          "source_sha256": "9a3ea5156009d8d632e6f0e3d75c85841b7d9da59313b572738ab908559182e7"
         },
         {
           "num": 36,
@@ -10882,7 +10900,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "90b89ed354b6fee4c2bb609f3b29302d7bbece55a4be30c18222300e74f8738d"
+          "source_sha256": "83a043dfdb6c2f71eaff05c3eef58e5ff64e5e59d084030c429f1f8624a587f4"
         },
         {
           "num": 27,
@@ -10954,7 +10972,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "1232571ab29f9ba952a54b29fd44a9f4c5b3127401e22f04571c7eca6ddec491"
+          "source_sha256": "4472fdc534c1626181ab17ff20c52e69b20b54d881a5d57dddc5a2691b0c85ac"
         },
         {
           "num": 21,
@@ -11008,7 +11026,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "5e61297deb2d67f877d358ccc3c692e013d914d2b8451b14036eea05382bfc7b"
+          "source_sha256": "acb812f81f1e26b700dc7ef9231e6f33975d64a6783987cfae344e64705e109b"
         },
         {
           "num": 16,
@@ -11116,7 +11134,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "2fe5a6f217a731a8b6f9da05f98b6824f72456e5666b80e1c8ded660db0ca5b8"
+          "source_sha256": "31fe865806be7ac271120cbb26873880704f5e8afb635218a38a26b4f7c9420d"
         },
         {
           "num": 12,
@@ -11248,7 +11266,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "aa6d74844ff2d0cf4a38c82c20ea623b10ada81093b3eb599ad8a459379da812"
+          "source_sha256": "7d916f83bed69f8d38e1042d49540bf5bbc656f5ed1cf90e17fb6e3a4fc02386"
         },
         {
           "num": 11,
@@ -11308,7 +11326,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "3a4741e8034b716c1570c6db92733f5717620b79c1291fb899f21f108cbde950"
+          "source_sha256": "d6f59b6a38e0421403257552227f2374628820a2973abe842b4be031b4ae25e7"
         },
         {
           "num": 7,
@@ -11344,7 +11362,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "92414bcc3070586d0db1e78971042bc423d82baec0d125e50fb519f71a205285"
+          "source_sha256": "c786da5d1b208bb5b4898fb39b964b34cc9b702925468b76e1604175397e3ebd"
         }
       ],
       "commits": [
@@ -11617,10 +11635,10 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF/discussions/7"
         }
       ],
-      "evidence_sha256": "e2597e2318e39f8803767a10dfe6950f56f6cf08cf308b14477300f941f3efaa"
+      "evidence_sha256": "2cd4625842492927a566f7b7deae5efb89256be14bd6f744c4e133d4d9b08e03"
     },
     "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned": {
-      "captured_at": "2026-10-05T14:38:34Z",
+      "captured_at": "2026-10-09T06:09:38Z",
       "repo": "EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
       "hf_url": "https://huggingface.co/EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned",
       "reason": {
@@ -11710,7 +11728,7 @@
           "source": "https://huggingface.co/EDominguezISI/Sanctum-Crucible-RedTeam-FineTuned/commit/53ec970b029faf7ddfd51deef7b1904a67b2f8a8"
         }
       ],
-      "evidence_sha256": "50cea5c7eab86c5dff3eac26ea8ed81bbdf436b4f9439537554fbaa361c80a08"
+      "evidence_sha256": "cb5038640a1be7f13a8917ac63222d6669cd46a5a9f988e50fd1ac3238981ba4"
     },
     "FacebookAI/xlm-roberta-base": {
       "captured_at": "2026-10-05T14:38:34Z",
@@ -72414,7 +72432,7 @@
       "evidence_sha256": "68b0e90694ebb36226c58654de59e8ff3f03e92425d147611cfd004036e5941e"
     },
     "Comfy-Org/z_image_turbo": {
-      "captured_at": "2026-10-05T14:38:30Z",
+      "captured_at": "2026-10-09T06:09:25Z",
       "repo": "Comfy-Org/z_image_turbo",
       "hf_url": "https://huggingface.co/Comfy-Org/z_image_turbo",
       "reason": {
@@ -72908,7 +72926,7 @@
           "source": "https://huggingface.co/Comfy-Org/z_image_turbo/commit/d9885880b38188695c94f656eee9f76b3ea805f3"
         }
       ],
-      "evidence_sha256": "45ce0afb029bb3b1ed27068954aa22a3e47299bfd7d3a730c4261c0620068359"
+      "evidence_sha256": "657f3f55a18be754cb26dcc1b266e6163db65eb18bf8c58653a9728072b6a657"
     },
     "FacebookAI/roberta-base": {
       "captured_at": "2026-10-05T14:38:34Z",
@@ -74388,7 +74406,7 @@
       "evidence_sha256": "66276f8445d3eeabe90c40427141476b3d1ff48e1abe893fa78fbb4e07fd0351"
     },
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF": {
-      "captured_at": "2026-10-05T14:38:33Z",
+      "captured_at": "2026-10-09T06:09:38Z",
       "repo": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "reason": {
@@ -74489,7 +74507,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "f65a81277c8e3fc4e43452aa2a5fda8d957470c688b3a0a554ab4a3a2a26603c"
+          "source_sha256": "81d59b28f02061feaba96f512d68764a501fea7c1e3488b09753732018acbb64"
         },
         {
           "num": 14,
@@ -74537,7 +74555,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d535c7b90cfc2530b18a07688d9565fcf47e004b17c4517a8b8418404f15959f"
+          "source_sha256": "cc674f1604898e51558971476d8817d2d4d3fd7423315ab7590c9c1b6d760561"
         },
         {
           "num": 11,
@@ -74603,7 +74621,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "afc703a589f2a829d3157ca78cef601c44bca5e62863b4bec725de8efa28a21d"
+          "source_sha256": "6caf1f8fa40f2b1a82094b4912f2f41194f9b4618ffb1562244073d34112e425"
         },
         {
           "num": 10,
@@ -74735,7 +74753,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "4f1be5ceb4789faa58a4b61df808c076ef80ca15ed73450b01dc98c095fabe25"
+          "source_sha256": "a23f3892db18384ddd902afd66b8e0c5f8f29ba3abcc25ebcbb4cc3d52934ed1"
         },
         {
           "num": 4,
@@ -74867,7 +74885,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "8e5db988a47dabd4e17db6d73478f13476ab26fd356e9ef8af5e3723360ec431"
+          "source_sha256": "c9079b3177b47418086602763737b68426d21cd2124eb2a64b14938d388e321d"
         },
         {
           "num": 22,
@@ -74891,7 +74909,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "23a2ec000f64ba127d1368b2c7eaefe84429ade8752df4bb7faa37bda7c62b47"
+          "source_sha256": "97e5e16f878c64c7f9a6f503c88f6b711f8239e5dec789ab544aac2d37c7c451"
         },
         {
           "num": 21,
@@ -74921,7 +74939,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "da604132617b652d56e2b2c43575bb3e419f589818b28493b71ce2b7df33df06"
+          "source_sha256": "45f7dc4b7fbcd21fa743df65ee0470100dd71bf334544ccea583ae64711bb46f"
         },
         {
           "num": 19,
@@ -74951,7 +74969,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "d317c48967c73321701c33f0d702e214f601c4f7494b41e743f02818f97cebe8"
+          "source_sha256": "d7c8ffe241655c3220f202d6a6e7f71bdde120414e3e849bc3e75b6bcfd7caa1"
         }
       ],
       "commits": [
@@ -75224,7 +75242,7 @@
           "source": "https://huggingface.co/DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF/discussions/4"
         }
       ],
-      "evidence_sha256": "44101bec3432bd9400639adf8a96640331b2966311f5e8b92aa6f804eb36d2bd"
+      "evidence_sha256": "bb417f622c9410386e24a9f48db90f18016f573d0b259f81b91a20570fe25ef3"
     },
     "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF": {
       "captured_at": "2026-10-06T18:23:08Z",
@@ -81190,7 +81208,7 @@
       "evidence_sha256": "8db9a69ae67fbf74ed7599a5bfeb1a203e276e62e7f3c52b498b8f84ba6e8907"
     },
     "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF": {
-      "captured_at": "2026-10-02T22:15:05Z",
+      "captured_at": "2026-10-09T06:09:17Z",
       "repo": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "hf_url": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "reason": {
@@ -81267,7 +81285,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "9333109eb3b0d24e97ae6b1ca176fc07445b4ee8b2c3b1da06094e7c18b80a30"
+          "source_sha256": "323204497667821cbe094475d36c5f1b988878fb8c784a9fb49f10e3b4d8e67e"
         },
         {
           "num": 1,
@@ -81297,7 +81315,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "4a2269ddec2df69ceacbaf1b69f000ab7f177f5493e53969d386c5ea595f7ed3"
+          "source_sha256": "220ad14aaeeb0bbc8e2547fdbbe4482ea08520ece5cf68c65163b7983006378a"
         }
       ],
       "commits": [
@@ -81444,7 +81462,7 @@
           "source": "https://huggingface.co/BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF/commit/b4fb89891eb76b078756168e34574b5d5efee346"
         }
       ],
-      "evidence_sha256": "2fe10299858fc1ebdc500b215a7657e8c0ec524daab8ff3fb999bbc5b0ef54e3"
+      "evidence_sha256": "9e100c87869bfd1180926d55137925e17c572b96d7d46c1e2f8826fb561ecc97"
     },
     "intfloat/multilingual-e5-large": {
       "captured_at": "2026-10-07T13:23:58Z",
@@ -84692,7 +84710,7 @@
       "evidence_sha256": "b34ef4c3841ce7d678535199ff18e4dc18302dd79df8235f65c75c07368e234e"
     },
     "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored": {
-      "captured_at": "2026-10-03T16:18:58Z",
+      "captured_at": "2026-10-09T06:09:27Z",
       "repo": "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored",
       "hf_url": "https://huggingface.co/DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored",
       "reason": {
@@ -84926,7 +84944,7 @@
           "source": "https://huggingface.co/DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored/commit/76df5a69ec113811d0e1f4cde9d59cfeaec0dc0d"
         }
       ],
-      "evidence_sha256": "7e6fb9f263135b1e3dc6164767fef4f18921a34b9ddeeb6c44c6b45f942b0274"
+      "evidence_sha256": "23e8c73eea9122f8e7ac57700399d67be97c352ed2e025b1eacfd9ea8b22dc88"
     },
     "Qwen/Qwen3-4B": {
       "captured_at": "2026-10-03T16:19:00Z",
@@ -87435,6 +87453,1024 @@
         }
       ],
       "evidence_sha256": "7a0e06bcd9231e77a7e8635a032f0f2564b6029eb6f45f720fa28a54d701b7ab"
+    },
+    "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF": {
+      "captured_at": "2026-10-09T06:09:18Z",
+      "repo": "BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+      "hf_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "legal",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "odel.** Safety refusals were removed by OrcaRouter. It will comply with > harmful, unethical, and illegal requests. Released for research — red-teaming, refusal- > mechanism study, robustness evaluation. You are responsible for what you do with it. > 🔧 **What happened, and where it s",
+          "source_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/raw/8a31ca66485373f9d5c002f5400b2aecaff84dfe/README.md"
+        },
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: mit base_model: orcarouter/GLM-5.3-Flash-Uncensored-FP8 pipeline_tag: text-generation library_name: gguf tags: - gguf - uncensored - abliterated - moe - glm - imatrix",
+          "source_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/raw/8a31ca66485373f9d5c002f5400b2aecaff84dfe/README.md"
+        },
+        {
+          "signal": "safety",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "*320B total / 18B active · MoE, 288 routed experts top-8 · 1M context** > ⚠️ **Uncensored model.** Safety refusals were removed by OrcaRouter. It will comply with > harmful, unethical, and illegal requests. Released for research — red-teaming, refusal- > mechanism study, robustness ev",
+          "source_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/raw/8a31ca66485373f9d5c002f5400b2aecaff84dfe/README.md"
+        },
+        {
+          "signal": "removed",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "ive · MoE, 288 routed experts top-8 · 1M context** > ⚠️ **Uncensored model.** Safety refusals were removed by OrcaRouter. It will comply with > harmful, unethical, and illegal requests. Released for research — red-teaming, refusal- > mechanism study, robustness evaluation. You are resp",
+          "source_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/raw/8a31ca66485373f9d5c002f5400b2aecaff84dfe/README.md"
+        },
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "what you do with it. > 🔧 **What happened, and where it stands (2026-09-06).** On 2026-09-05 a user reported > looping and incoherent output from `IQ2_S` ([discussion #1](./discussions/1)). They were > right. The original build pinned only the `blk.45` MTP block at high precision; atte",
+          "source_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/raw/8a31ca66485373f9d5c002f5400b2aecaff84dfe/README.md"
+        },
+        {
+          "signal": "reported",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "what you do with it. > 🔧 **What happened, and where it stands (2026-09-06).** On 2026-09-05 a user reported > looping and incoherent output from `IQ2_S` ([discussion #1](./discussions/1)). They were > right. The original build pinned only the `blk.45` MTP block at high precision; attent",
+          "source_url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/raw/8a31ca66485373f9d5c002f5400b2aecaff84dfe/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 4,
+          "title": "Failed to parse Jinja template",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "Ob-iVan",
+          "created_at": "2026-10-07T18:50:52.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ob-iVan",
+              "created_at": "2026-10-07T18:50:52.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-10-07T20:29:42.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-10-07T22:06:46.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Ob-iVan",
+              "created_at": "2026-10-08T02:32:18.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-10-08T15:13:04.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "d354216d0844912c8074aa25e18edb6699bfce35062d8439f389621ca2582779"
+        },
+        {
+          "num": 3,
+          "title": "Performance result for IQ3_XXS on RTX 4090D with 48GB VRAM: 10 t/s",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "SlavikF",
+          "created_at": "2026-10-04T01:51:50.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "SlavikF",
+              "created_at": "2026-10-04T01:51:50.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "SlavikF",
+              "created_at": "2026-10-06T16:23:03.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "e6ca6325e118f4ed77f9c22385cbbf8f12564d4e6708844ee3115c79577304aa"
+        },
+        {
+          "num": 2,
+          "title": "unknown model architecture: 'glm5next'",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "SlavikF",
+          "created_at": "2026-10-02T02:33:17.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "SlavikF",
+              "created_at": "2026-10-02T02:33:17.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-10-03T16:17:38.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "SlavikF",
+              "created_at": "2026-10-03T21:36:54.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "SlavikF",
+              "created_at": "2026-10-03T21:36:54.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "56b8cdb40e5df9b5d1fc8a8eab34f14a377cc013ac914b4dd31722f61060475c"
+        },
+        {
+          "num": 1,
+          "title": "incoherent generations and looping w/ IQ2_S quant",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "swengler2",
+          "created_at": "2026-09-05T17:26:16.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "swengler2",
+              "created_at": "2026-09-05T17:26:16.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-09-05T18:06:20.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-09-05T19:20:04.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-09-06T01:26:44.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-09-06T13:22:08.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "BoldingBuilds",
+              "created_at": "2026-09-06T16:56:04.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "e0e1625c20738cd64667666bf14ae7d3d4200f0dd495e9d94baf47dd176b1f44"
+        }
+      ],
+      "commits": [
+        {
+          "id": "8a31ca66485373f9d5c002f5400b2aecaff84dfe",
+          "title": "Card: add IQ2_M (121.6 GB) - files row, changelog, shard hashes, recipe, gate result, 4x24GB+RAM run notes",
+          "created_at": "2026-10-08T15:09:50.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/8a31ca66485373f9d5c002f5400b2aecaff84dfe"
+        },
+        {
+          "id": "4f3ad4aa179a6278c99bb79863310e9ee0c53d2f",
+          "title": "Add IQ2_M (121.6 GB, 3 shards): corrected recipe + routed experts gate/up IQ2_S, down IQ3_XXS; passed the 48-run coherence gate",
+          "created_at": "2026-10-08T15:08:46.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/4f3ad4aa179a6278c99bb79863310e9ee0c53d2f"
+        },
+        {
+          "id": "c24b2e29cb25ec7c157850f402b304a5dafc5c2c",
+          "title": "Card: changelog 2026-10-02 row points at its own revision (5fc72b5)",
+          "created_at": "2026-10-07T22:04:53.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/c24b2e29cb25ec7c157850f402b304a5dafc5c2c"
+        },
+        {
+          "id": "c5acf06035cc9eeed94fc4bbe7d0f83e3c370d14",
+          "title": "Card: LM Studio chat-template fix (shard 1 re-published 2026-10-07), new shard-1 sha256",
+          "created_at": "2026-10-07T22:04:00.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/c5acf06035cc9eeed94fc4bbe7d0f83e3c370d14"
+        },
+        {
+          "id": "604dad3be3d5810ea90a04ebe6fef9606213fffd",
+          "title": "Shard 1: chat template x.0.type -> x[0].type (4 sites) so LM Studio's Jinja engine parses it; header only, tensor data unchanged",
+          "created_at": "2026-10-07T21:59:40.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/604dad3be3d5810ea90a04ebe6fef9606213fffd"
+        },
+        {
+          "id": "1c2e77c208af2d4754ae9538ecd50e747a891030",
+          "title": "Shard 1: chat template x.0.type -> x[0].type (4 sites) so LM Studio's Jinja engine parses it; header only, tensor data unchanged",
+          "created_at": "2026-10-07T21:55:30.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/1c2e77c208af2d4754ae9538ecd50e747a891030"
+        },
+        {
+          "id": "ccd6f6c6ad5f3662695179875c19603fab1346ef",
+          "title": "Shard 1: chat template x.0.type -> x[0].type (4 sites) so LM Studio's Jinja engine parses it; header only, tensor data unchanged",
+          "created_at": "2026-10-07T21:51:22.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/ccd6f6c6ad5f3662695179875c19603fab1346ef"
+        },
+        {
+          "id": "5fc72b57cecd37607495db00b0124becefd9dadd",
+          "title": "card: files re-published for mainline llama.cpp (glm5next -> glm5-next, mmproj glm5v); new shard-1 and mmproj hashes; vision smoke test",
+          "created_at": "2026-10-03T04:50:29.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/5fc72b57cecd37607495db00b0124becefd9dadd"
+        },
+        {
+          "id": "cd7e30f6818ee459409bb9073da58d54c2b2eaef",
+          "title": "Retarget mmproj for mainline llama.cpp (projector glm5next -> glm5v, swiglu_limit -> swiglu_clamp, image_min/max_pixels added); vision tensor data unchanged",
+          "created_at": "2026-10-03T04:48:37.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/cd7e30f6818ee459409bb9073da58d54c2b2eaef"
+        },
+        {
+          "id": "0d94b4652e584dfd17bc9c5908488b42917b5b12",
+          "title": "Retarget shard 1 header to mainline llama.cpp (glm5next -> glm5-next, PR 27773); tensor data unchanged",
+          "created_at": "2026-10-03T03:59:45.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/0d94b4652e584dfd17bc9c5908488b42917b5b12"
+        },
+        {
+          "id": "1fbb5c0aa59b14fad6cdac685f1f2f2f13c8e95d",
+          "title": "Retarget shard 1 header to mainline llama.cpp (glm5next -> glm5-next, PR 27773); tensor data unchanged",
+          "created_at": "2026-10-03T03:50:03.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/1fbb5c0aa59b14fad6cdac685f1f2f2f13c8e95d"
+        },
+        {
+          "id": "dc91d343b6fdd75d4debdf10223dbaad0ead9d55",
+          "title": "Retarget shard 1 header to mainline llama.cpp (glm5next -> glm5-next, PR 27773); tensor data unchanged",
+          "created_at": "2026-10-03T03:35:18.000Z",
+          "authors": [
+            {
+              "user": "BoldingBuilds",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62ae192cd77a3480f84f8c9d/BaJqfwymiT3SxDBprw1Ta.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/dc91d343b6fdd75d4debdf10223dbaad0ead9d55"
+        }
+      ],
+      "readme_sha256": "ddd6ad37d76d4ac69ee55b14088701b26fbc83e24923718b5899faad65bc5a16",
+      "manifest_root_sha256": "811d443c751217b9d42c587e3766328570f5631d789413c8e912e41f8d529723",
+      "timeline": [
+        {
+          "at": "2026-10-08T15:09:50.000Z",
+          "type": "commit",
+          "label": "Card: add IQ2_M (121.6 GB) - files row, changelog, shard hashes, recipe, gate result, 4x24GB+RAM run notes",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/8a31ca66485373f9d5c002f5400b2aecaff84dfe"
+        },
+        {
+          "at": "2026-10-08T15:08:46.000Z",
+          "type": "commit",
+          "label": "Add IQ2_M (121.6 GB, 3 shards): corrected recipe + routed experts gate/up IQ2_S, down IQ3_XXS; passed the 48-run coherence gate",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/4f3ad4aa179a6278c99bb79863310e9ee0c53d2f"
+        },
+        {
+          "at": "2026-10-07T22:04:53.000Z",
+          "type": "commit",
+          "label": "Card: changelog 2026-10-02 row points at its own revision (5fc72b5)",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/c24b2e29cb25ec7c157850f402b304a5dafc5c2c"
+        },
+        {
+          "at": "2026-10-07T22:04:00.000Z",
+          "type": "commit",
+          "label": "Card: LM Studio chat-template fix (shard 1 re-published 2026-10-07), new shard-1 sha256",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/c5acf06035cc9eeed94fc4bbe7d0f83e3c370d14"
+        },
+        {
+          "at": "2026-10-07T21:59:40.000Z",
+          "type": "commit",
+          "label": "Shard 1: chat template x.0.type -> x[0].type (4 sites) so LM Studio's Jinja engine parses it; header only, tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/604dad3be3d5810ea90a04ebe6fef9606213fffd"
+        },
+        {
+          "at": "2026-10-07T21:55:30.000Z",
+          "type": "commit",
+          "label": "Shard 1: chat template x.0.type -> x[0].type (4 sites) so LM Studio's Jinja engine parses it; header only, tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/1c2e77c208af2d4754ae9538ecd50e747a891030"
+        },
+        {
+          "at": "2026-10-07T21:51:22.000Z",
+          "type": "commit",
+          "label": "Shard 1: chat template x.0.type -> x[0].type (4 sites) so LM Studio's Jinja engine parses it; header only, tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/ccd6f6c6ad5f3662695179875c19603fab1346ef"
+        },
+        {
+          "at": "2026-10-07T18:50:52.000Z",
+          "type": "discussion",
+          "label": "Failed to parse Jinja template",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/discussions/4"
+        },
+        {
+          "at": "2026-10-04T01:51:50.000Z",
+          "type": "discussion",
+          "label": "Performance result for IQ3_XXS on RTX 4090D with 48GB VRAM: 10 t/s",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/discussions/3"
+        },
+        {
+          "at": "2026-10-03T04:50:29.000Z",
+          "type": "commit",
+          "label": "card: files re-published for mainline llama.cpp (glm5next -> glm5-next, mmproj glm5v); new shard-1 and mmproj hashes; vision smoke test",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/5fc72b57cecd37607495db00b0124becefd9dadd"
+        },
+        {
+          "at": "2026-10-03T04:48:37.000Z",
+          "type": "commit",
+          "label": "Retarget mmproj for mainline llama.cpp (projector glm5next -> glm5v, swiglu_limit -> swiglu_clamp, image_min/max_pixels added); vision tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/cd7e30f6818ee459409bb9073da58d54c2b2eaef"
+        },
+        {
+          "at": "2026-10-03T03:59:45.000Z",
+          "type": "commit",
+          "label": "Retarget shard 1 header to mainline llama.cpp (glm5next -> glm5-next, PR 27773); tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/0d94b4652e584dfd17bc9c5908488b42917b5b12"
+        },
+        {
+          "at": "2026-10-03T03:50:03.000Z",
+          "type": "commit",
+          "label": "Retarget shard 1 header to mainline llama.cpp (glm5next -> glm5-next, PR 27773); tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/1fbb5c0aa59b14fad6cdac685f1f2f2f13c8e95d"
+        },
+        {
+          "at": "2026-10-03T03:35:18.000Z",
+          "type": "commit",
+          "label": "Retarget shard 1 header to mainline llama.cpp (glm5next -> glm5-next, PR 27773); tensor data unchanged",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/commit/dc91d343b6fdd75d4debdf10223dbaad0ead9d55"
+        },
+        {
+          "at": "2026-10-02T02:33:17.000Z",
+          "type": "discussion",
+          "label": "unknown model architecture: 'glm5next'",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/discussions/2"
+        },
+        {
+          "at": "2026-09-05T17:26:16.000Z",
+          "type": "discussion",
+          "label": "incoherent generations and looping w/ IQ2_S quant",
+          "source": "https://huggingface.co/BoldingBuilds/orcarouter_GLM-5.3-Flash-Uncensored-GGUF/discussions/1"
+        }
+      ],
+      "evidence_sha256": "5ca9d2345ceb0a22bcd1d4fd0cb0a2f544a4d2bd32448fa78aef1afbc9f3beec"
+    },
+    "Comfy-Org/Qwen-Image-2.1": {
+      "captured_at": "2026-10-09T06:09:22Z",
+      "repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: other license_name: qwen-research license_link: https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE tags: - comfyui - diffusion-single-file base_model: - Qwen/Qwen-Image",
+          "source_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/raw/cb504a4090723e43f17ad01cec0359490e2de613/README.md"
+        },
+        {
+          "signal": "removal",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "https://github.com/Comfy-Org/workflow_templates/blob/main/templates/image_qwen_image_2_1_background_removal.json\">Remove Background: Qwen Image 2.1</a></td><td align=\"center\" valign=\"middle\" style=\"text-align:center;vertical-align:middle\"><a href=\"https://github.com/Comfy-Org/workflow_t",
+          "source_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/raw/cb504a4090723e43f17ad01cec0359490e2de613/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [
+        {
+          "num": 21,
+          "title": "Custom nodes not found (ROCm desktop version)",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "aeladawy",
+          "created_at": "2026-10-04T04:04:17.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "aeladawy",
+              "created_at": "2026-10-04T04:04:17.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "ctyytc",
+              "created_at": "2026-10-05T18:12:51.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "c31f269aa973f60010c99579a865df6c0d543e96b763b456a6667af01b3123d7"
+        },
+        {
+          "num": 20,
+          "title": "I don't think ComfyUI supports the official 4-step LoRA yet?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "KissMyShinyArse",
+          "created_at": "2026-09-26T03:30:44.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "KissMyShinyArse",
+              "created_at": "2026-09-26T03:30:44.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "2333722dcb3d7cba27d20153426b4458ac1d3393232ab2d139e921f7dfd5e2fd"
+        },
+        {
+          "num": 19,
+          "title": "Qwen 3.5_9b_qwen_image_2.1_pe_i2i",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "AIHentaiArt",
+          "created_at": "2026-09-25T18:18:04.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "AIHentaiArt",
+              "created_at": "2026-09-25T18:18:04.000Z",
+              "content": ""
+            },
+            {
+              "type": "title-change",
+              "author": "AIHentaiArt",
+              "created_at": "2026-09-25T18:18:33.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "AIHentaiArt",
+              "created_at": "2026-09-25T23:45:07.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "b3f9bf8fe2c0b3a42bb7c2b9b46b21d535b4d9108da7027ed855e03aa68b21e2"
+        },
+        {
+          "num": 18,
+          "title": "Upload 2025-11-15_001.jpg",
+          "status": "open",
+          "is_pull_request": true,
+          "author": "Blanter",
+          "created_at": "2026-09-25T12:04:36.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Blanter",
+              "created_at": "2026-09-25T12:04:36.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Blanter",
+              "created_at": "2026-09-25T12:04:37.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Blanter",
+              "created_at": "2026-09-25T12:05:11.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "8575d71acecfe4ca0c38cc4a9d5c688348bd0bb9c64ef11895eedb41cf3de165"
+        },
+        {
+          "num": 17,
+          "title": "Upload YmMRzt16S-2Wmg1Hi9oPMxpALBsGFS0iLBO0hzo9hemX4-pipE9ckpm3HvQGwImXRgZcRDGSg7PFOrDaYO5KwhfK.jpg",
+          "status": "closed",
+          "is_pull_request": true,
+          "author": "Blanter",
+          "created_at": "2026-09-25T12:01:22.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Blanter",
+              "created_at": "2026-09-25T12:01:22.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "Blanter",
+              "created_at": "2026-09-25T12:01:23.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "Blanter",
+              "created_at": "2026-09-25T12:01:46.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "483ce7374813f96f323fdeff5aa7dac13d96009055da6e210e4b7b6116754299"
+        },
+        {
+          "num": 16,
+          "title": "Controlnet is coming",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "Ton1989",
+          "created_at": "2026-09-24T10:37:20.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Ton1989",
+              "created_at": "2026-09-24T10:37:20.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "KissMyShinyArse",
+              "created_at": "2026-09-26T03:33:03.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "Ton1989",
+              "created_at": "2026-10-03T17:16:47.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "e086a53018b4b98a184a273ab1a53118b0473ea74eef847469a22c25cc3d5049"
+        },
+        {
+          "num": 15,
+          "title": "Add ComfyUI workflow template links",
+          "status": "merged",
+          "is_pull_request": true,
+          "author": "ComfyUI-Wiki",
+          "created_at": "2026-09-23T07:10:24.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "commit",
+              "author": "ComfyUI-Wiki",
+              "created_at": "2026-09-23T07:10:23.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "ComfyUI-Wiki",
+              "created_at": "2026-09-23T07:10:24.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "ComfyUI-Wiki",
+              "created_at": "2026-09-23T07:23:14.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "ComfyUI-Wiki",
+              "created_at": "2026-09-23T08:05:43.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "ef3c3efd7ae60a1b1f4e33d36463b691b6b90f266a7681fc08d1c4c79d3763de"
+        },
+        {
+          "num": 14,
+          "title": "Hello! What are the recommended CFG, Steps, and SAMPLERS as of today?",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "Liquidmind111",
+          "created_at": "2026-09-22T22:48:34.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "Liquidmind111",
+              "created_at": "2026-09-22T22:48:34.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "JackCure",
+              "created_at": "2026-09-22T23:01:31.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Liquidmind111",
+              "created_at": "2026-09-22T23:35:18.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Landsharkbaby",
+              "created_at": "2026-09-23T01:16:30.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "CHTL85",
+              "created_at": "2026-09-23T16:52:04.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Q995276820",
+              "created_at": "2026-09-23T17:21:46.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "pymo",
+              "created_at": "2026-09-24T07:06:21.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "UsoAiparalacufa",
+              "created_at": "2026-09-25T02:43:22.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Liquidmind111",
+              "created_at": "2026-09-25T02:46:40.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "UsoAiparalacufa",
+              "created_at": "2026-09-25T04:17:29.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "ce0c8862b2f73caefbd4eb031d4367e5ba4efd5b6b76af17736fa4dab6931c9c"
+        }
+      ],
+      "commits": [
+        {
+          "id": "cb504a4090723e43f17ad01cec0359490e2de613",
+          "title": "Update README.md",
+          "created_at": "2026-09-29T16:14:55.000Z",
+          "authors": [
+            {
+              "user": "ComfyUI-Wiki",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67e35ed98ac89c4c54917500/IkvzlMZnY5P6ZsFMvhE1j.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/cb504a4090723e43f17ad01cec0359490e2de613"
+        },
+        {
+          "id": "a1b8a8f11ccdc4a0787a1acd895a35712a787319",
+          "title": "Upload model_patches/qwen_image_2.1_fun_controlnet_union_int8_convrot.safetensors with huggingface_hub",
+          "created_at": "2026-09-29T16:13:21.000Z",
+          "authors": [
+            {
+              "user": "ComfyUI-Wiki",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67e35ed98ac89c4c54917500/IkvzlMZnY5P6ZsFMvhE1j.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/a1b8a8f11ccdc4a0787a1acd895a35712a787319"
+        },
+        {
+          "id": "1674986214eef30d5dbdedd241bce5bb88a9f8a2",
+          "title": "Upload model_patches/qwen_image_2.1_fun_controlnet_union_bf16.safetensors with huggingface_hub",
+          "created_at": "2026-09-29T16:11:35.000Z",
+          "authors": [
+            {
+              "user": "ComfyUI-Wiki",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67e35ed98ac89c4c54917500/IkvzlMZnY5P6ZsFMvhE1j.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/1674986214eef30d5dbdedd241bce5bb88a9f8a2"
+        },
+        {
+          "id": "9a44dbdb47cefd046be9c0a13476192f34c8db8e",
+          "title": "Add ComfyUI workflow template links (#15)",
+          "created_at": "2026-09-23T08:05:43.000Z",
+          "authors": [
+            {
+              "user": "ComfyUI-Wiki",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67e35ed98ac89c4c54917500/IkvzlMZnY5P6ZsFMvhE1j.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/9a44dbdb47cefd046be9c0a13476192f34c8db8e"
+        },
+        {
+          "id": "5dc5850eb514a3685f6a03a2641728a8f7549c69",
+          "title": "Update README.md",
+          "created_at": "2026-09-22T13:06:23.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/5dc5850eb514a3685f6a03a2641728a8f7549c69"
+        },
+        {
+          "id": "ace0edeb3791a594ddfa36ed5f41a178a394e921",
+          "title": "Rename text_encoders/qwen3.5_qwen_image_2.1_pe_t2i.int8_convrot.safetensors to text_encoders/qwen3.5_9b_qwen_image_2.1_pe_t2i.int8_convrot.safetensors",
+          "created_at": "2026-09-20T16:14:39.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/ace0edeb3791a594ddfa36ed5f41a178a394e921"
+        },
+        {
+          "id": "6e8c3331a4dcb0c125e94ad6a7cb6b850149be39",
+          "title": "Rename text_encoders/qwen3.5_qwen_image_2.1_pe_i2i.int8_convrot.safetensors to text_encoders/qwen3.5_9b_qwen_image_2.1_pe_i2i.int8_convrot.safetensors",
+          "created_at": "2026-09-20T16:14:21.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/6e8c3331a4dcb0c125e94ad6a7cb6b850149be39"
+        },
+        {
+          "id": "6cf0a9956686fbe34f81384e4fbcb6399fc33960",
+          "title": "Upload text_encoders/qwen3.5_qwen_image_2.1_pe_i2i.int8_convrot.safetensors with huggingface_hub",
+          "created_at": "2026-09-20T16:11:39.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/6cf0a9956686fbe34f81384e4fbcb6399fc33960"
+        },
+        {
+          "id": "5d5aa8513731040410f095271079b1ca9ddd9a15",
+          "title": "Upload text_encoders/qwen3.5_qwen_image_2.1_pe_t2i.int8_convrot.safetensors with huggingface_hub",
+          "created_at": "2026-09-20T16:09:39.000Z",
+          "authors": [
+            {
+              "user": "Kijai",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63297908f0b2fc94904a65b8/hr-fUccqYPlTfmfKgoZAO.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/5d5aa8513731040410f095271079b1ca9ddd9a15"
+        },
+        {
+          "id": "6ba8d44168a20144423d886669a4eb524fc14b02",
+          "title": "Update README.md",
+          "created_at": "2026-09-20T14:29:46.000Z",
+          "authors": [
+            {
+              "user": "Lexius",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630433fea362e7e8b51f5e2b/akvLJPM-ae2gfBS_Rrgfv.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/6ba8d44168a20144423d886669a4eb524fc14b02"
+        },
+        {
+          "id": "7562a343278731b94b18803d7de6d660cb56f841",
+          "title": "Update README.md",
+          "created_at": "2026-09-20T13:36:36.000Z",
+          "authors": [
+            {
+              "user": "ComfyUI-Wiki",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67e35ed98ac89c4c54917500/IkvzlMZnY5P6ZsFMvhE1j.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/7562a343278731b94b18803d7de6d660cb56f841"
+        },
+        {
+          "id": "b8abad01e16a50633160da778bec582b58761463",
+          "title": "Update README.md",
+          "created_at": "2026-09-20T13:01:46.000Z",
+          "authors": [
+            {
+              "user": "ComfyUI-Wiki",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/67e35ed98ac89c4c54917500/IkvzlMZnY5P6ZsFMvhE1j.png"
+            }
+          ],
+          "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/b8abad01e16a50633160da778bec582b58761463"
+        }
+      ],
+      "readme_sha256": "d9b55bb1a456ec844800f29958193bb85963e83083ec9d2f0ed8f7a23a115847",
+      "manifest_root_sha256": "cfd1f9f87af1d64682f80ec0f965206820ad7614731aa27d3e6ee9c6dc9647f4",
+      "timeline": [
+        {
+          "at": "2026-10-04T04:04:17.000Z",
+          "type": "discussion",
+          "label": "Custom nodes not found (ROCm desktop version)",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/21"
+        },
+        {
+          "at": "2026-09-29T16:14:55.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/cb504a4090723e43f17ad01cec0359490e2de613"
+        },
+        {
+          "at": "2026-09-29T16:13:21.000Z",
+          "type": "commit",
+          "label": "Upload model_patches/qwen_image_2.1_fun_controlnet_union_int8_convrot.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/a1b8a8f11ccdc4a0787a1acd895a35712a787319"
+        },
+        {
+          "at": "2026-09-29T16:11:35.000Z",
+          "type": "commit",
+          "label": "Upload model_patches/qwen_image_2.1_fun_controlnet_union_bf16.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/1674986214eef30d5dbdedd241bce5bb88a9f8a2"
+        },
+        {
+          "at": "2026-09-26T03:30:44.000Z",
+          "type": "discussion",
+          "label": "I don't think ComfyUI supports the official 4-step LoRA yet?",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/20"
+        },
+        {
+          "at": "2026-09-25T18:18:04.000Z",
+          "type": "discussion",
+          "label": "Qwen 3.5_9b_qwen_image_2.1_pe_i2i",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/19"
+        },
+        {
+          "at": "2026-09-25T12:04:36.000Z",
+          "type": "discussion",
+          "label": "Upload 2025-11-15_001.jpg",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/18"
+        },
+        {
+          "at": "2026-09-25T12:01:22.000Z",
+          "type": "discussion",
+          "label": "Upload YmMRzt16S-2Wmg1Hi9oPMxpALBsGFS0iLBO0hzo9hemX4-pipE9ckpm3HvQGwImXRgZcRDGSg7PFOrDaYO5KwhfK.jpg",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/17"
+        },
+        {
+          "at": "2026-09-24T10:37:20.000Z",
+          "type": "discussion",
+          "label": "Controlnet is coming",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/16"
+        },
+        {
+          "at": "2026-09-23T08:05:43.000Z",
+          "type": "commit",
+          "label": "Add ComfyUI workflow template links (#15)",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/9a44dbdb47cefd046be9c0a13476192f34c8db8e"
+        },
+        {
+          "at": "2026-09-23T07:10:24.000Z",
+          "type": "discussion",
+          "label": "Add ComfyUI workflow template links",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/15"
+        },
+        {
+          "at": "2026-09-22T22:48:34.000Z",
+          "type": "discussion",
+          "label": "Hello! What are the recommended CFG, Steps, and SAMPLERS as of today?",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/discussions/14"
+        },
+        {
+          "at": "2026-09-22T13:06:23.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/5dc5850eb514a3685f6a03a2641728a8f7549c69"
+        },
+        {
+          "at": "2026-09-20T16:14:39.000Z",
+          "type": "commit",
+          "label": "Rename text_encoders/qwen3.5_qwen_image_2.1_pe_t2i.int8_convrot.safetensors to text_encoders/qwen3.5_9b_qwen_image_2.1_pe_t2i.int8_convrot.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/ace0edeb3791a594ddfa36ed5f41a178a394e921"
+        },
+        {
+          "at": "2026-09-20T16:14:21.000Z",
+          "type": "commit",
+          "label": "Rename text_encoders/qwen3.5_qwen_image_2.1_pe_i2i.int8_convrot.safetensors to text_encoders/qwen3.5_9b_qwen_image_2.1_pe_i2i.int8_convrot.safetensors",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/6e8c3331a4dcb0c125e94ad6a7cb6b850149be39"
+        },
+        {
+          "at": "2026-09-20T16:11:39.000Z",
+          "type": "commit",
+          "label": "Upload text_encoders/qwen3.5_qwen_image_2.1_pe_i2i.int8_convrot.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/6cf0a9956686fbe34f81384e4fbcb6399fc33960"
+        },
+        {
+          "at": "2026-09-20T16:09:39.000Z",
+          "type": "commit",
+          "label": "Upload text_encoders/qwen3.5_qwen_image_2.1_pe_t2i.int8_convrot.safetensors with huggingface_hub",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/5d5aa8513731040410f095271079b1ca9ddd9a15"
+        },
+        {
+          "at": "2026-09-20T14:29:46.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/6ba8d44168a20144423d886669a4eb524fc14b02"
+        },
+        {
+          "at": "2026-09-20T13:36:36.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/7562a343278731b94b18803d7de6d660cb56f841"
+        },
+        {
+          "at": "2026-09-20T13:01:46.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/commit/b8abad01e16a50633160da778bec582b58761463"
+        }
+      ],
+      "evidence_sha256": "a33c1b9304f0645f42fe2ef2498704a36e6e68723bf995db74071383473540da"
     }
   }
 }
