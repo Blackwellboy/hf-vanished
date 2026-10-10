@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-09T22:40:05Z",
+  "generated_at": "2026-10-10T05:53:32Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -221,7 +221,7 @@
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "visibility": "public",
-      "revision": "b146b417080fd3e0e842e9539e69921707360aae",
+      "revision": "1c69098e9c32db6dc06fc48f1d6cc75ad07da89e",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2511,7 +2511,7 @@
     "Comfy-Org/Qwen-Image-2.1": {
       "id": "Comfy-Org/Qwen-Image-2.1",
       "visibility": "public",
-      "revision": "72a49122613a4f9afbcc443426d6c765c0c383cf",
+      "revision": "df94239739eef7205973a145ffa6f441f7b64e84",
       "license": "other",
       "pipeline_tag": null
     },
@@ -2532,7 +2532,7 @@
     "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF": {
       "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "c028e23813a7a3f6f9b9ea45928f2a4dd27680a2",
+      "revision": "bd75fb30a904d12894203e1a6823f9c2e931df06",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
     },
