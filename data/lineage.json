@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-10T05:53:32Z",
+  "generated_at": "2026-10-10T12:33:15Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2550,6 +2550,27 @@
     "ukisai/Swift-Qwen3.8-Flash-Next": {
       "id": "ukisai/Swift-Qwen3.8-Flash-Next",
       "external_to_watchset": true
+    },
+    "alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF": {
+      "id": "alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF",
+      "visibility": "public",
+      "revision": "d4af3be5701549435e0770d625f79dd2def1358f",
+      "license": "other",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF": {
+      "id": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "visibility": "public",
+      "revision": "e7f6daf95ab820ef8de7d8f5e883d95d546ab02c",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "lordofthejars/jailbreak-classifier": {
+      "id": "lordofthejars/jailbreak-classifier",
+      "visibility": "public",
+      "revision": "e038458127b68fee231acd595744873dffc8e9ed",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-classification"
     }
   },
   "edges": [
@@ -3900,6 +3921,20 @@
     {
       "from": "ukisai/Swift-Qwen3.8-Flash-Next",
       "to": "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "to": "alesha-pro/Qwen3.8-Flash-Next-abliterated-GSQ-RCO-Strata-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "to": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
