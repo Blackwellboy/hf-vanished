@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-11T05:47:31Z",
+  "generated_at": "2026-10-11T12:50:37Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -79,7 +79,10 @@
     },
     "Qwen/Qwen3.8-27B": {
       "id": "Qwen/Qwen3.8-27B",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
     },
     "orcarouter/Qwen3.8-27B-Uncensored-GGUF": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
@@ -2186,7 +2189,7 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "6b34e59458d3eb7ba6a6f86a116aed5253dc02c3",
+      "revision": "a6dc609469e6a66045dea689764067824fad1007",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
@@ -2571,6 +2574,13 @@
       "revision": "e038458127b68fee231acd595744873dffc8e9ed",
       "license": "apache-2.0",
       "pipeline_tag": "text-classification"
+    },
+    "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1": {
+      "id": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
+      "visibility": "public",
+      "revision": "a81b9af51120a78e285e57906f2250a2a02080e9",
+      "license": "other",
+      "pipeline_tag": "text-to-image"
     }
   },
   "edges": [
@@ -3935,6 +3945,13 @@
     {
       "from": "prism-ml/Ternary-Bonsai-2-27B-gguf",
       "to": "Hikari07jp/Ternary-Bonsai-2-27B-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen-Image-2.1",
+      "to": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
