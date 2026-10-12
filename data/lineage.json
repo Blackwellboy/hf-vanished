@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-12T05:58:52Z",
+  "generated_at": "2026-10-12T15:25:42Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2189,7 +2189,7 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "a6dc609469e6a66045dea689764067824fad1007",
+      "revision": "7959e658915f52274897fb573ffeda49de8dc16b",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
@@ -2581,6 +2581,90 @@
       "revision": "a81b9af51120a78e285e57906f2250a2a02080e9",
       "license": "other",
       "pipeline_tag": "text-to-image"
+    },
+    "abenzerps/Qwen-Image-2.1-Uncensored-Quantized": {
+      "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "visibility": "public",
+      "revision": "7959e658915f52274897fb573ffeda49de8dc16b",
+      "license": "other",
+      "pipeline_tag": "text-to-image"
+    },
+    "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF": {
+      "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "e3b01e9bfacc373148bdb93824496e0c72643250",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-to-image"
+    },
+    "legraphista/Meta-Llama-3-70B-Instruct-abliterated-v3.5-IMat-GGUF": {
+      "id": "legraphista/Meta-Llama-3-70B-Instruct-abliterated-v3.5-IMat-GGUF",
+      "visibility": "public",
+      "revision": "799805a56889a9cbaca5dab85403141660c2bff9",
+      "license": "llama3",
+      "pipeline_tag": "text-generation"
+    },
+    "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5": {
+      "id": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
+      "external_to_watchset": true
+    },
+    "Comfy-Org/Wan_2.2_ComfyUI_Repackaged": {
+      "id": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "visibility": "public",
+      "revision": "ee6f4a40737a995bf5818954cfce6d59443b0f04",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-to-video"
+    },
+    "nvidia/ChronoEdit-14B-Diffusers": {
+      "id": "nvidia/ChronoEdit-14B-Diffusers",
+      "external_to_watchset": true
+    },
+    "Wan-AI/Wan2.2-Animate-14B": {
+      "id": "Wan-AI/Wan2.2-Animate-14B",
+      "external_to_watchset": true
+    },
+    "alibaba-pai/Wan2.2-Fun-A14B-Control-Camera": {
+      "id": "alibaba-pai/Wan2.2-Fun-A14B-Control-Camera",
+      "external_to_watchset": true
+    },
+    "alibaba-pai/Wan2.2-Fun-A14B-Control": {
+      "id": "alibaba-pai/Wan2.2-Fun-A14B-Control",
+      "external_to_watchset": true
+    },
+    "alibaba-pai/Wan2.2-Fun-5B-Control": {
+      "id": "alibaba-pai/Wan2.2-Fun-5B-Control",
+      "external_to_watchset": true
+    },
+    "alibaba-pai/Wan2.2-Fun-5B-InP": {
+      "id": "alibaba-pai/Wan2.2-Fun-5B-InP",
+      "external_to_watchset": true
+    },
+    "alibaba-pai/Wan2.2-Fun-A14B-InP": {
+      "id": "alibaba-pai/Wan2.2-Fun-A14B-InP",
+      "external_to_watchset": true
+    },
+    "alibaba-pai/Wan2.2-VACE-Fun-A14B": {
+      "id": "alibaba-pai/Wan2.2-VACE-Fun-A14B",
+      "external_to_watchset": true
+    },
+    "Wan-AI/Wan2.2-I2V-A14B": {
+      "id": "Wan-AI/Wan2.2-I2V-A14B",
+      "external_to_watchset": true
+    },
+    "Wan-AI/Wan2.2-S2V-14B": {
+      "id": "Wan-AI/Wan2.2-S2V-14B",
+      "external_to_watchset": true
+    },
+    "Wan-AI/Wan2.2-T2V-A14B": {
+      "id": "Wan-AI/Wan2.2-T2V-A14B",
+      "external_to_watchset": true
+    },
+    "Wan-AI/Wan2.2-TI2V-5B": {
+      "id": "Wan-AI/Wan2.2-TI2V-5B",
+      "external_to_watchset": true
+    },
+    "lightx2v/Wan2.2-Distill-Loras": {
+      "id": "lightx2v/Wan2.2-Distill-Loras",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -3952,6 +4036,118 @@
     {
       "from": "Qwen/Qwen-Image-2.1",
       "to": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen-Image-2.1",
+      "to": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-VL-8B-Instruct",
+      "to": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3.5",
+      "to": "legraphista/Meta-Llama-3-70B-Instruct-abliterated-v3.5-IMat-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/ChronoEdit-14B-Diffusers",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-Animate-14B",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-A14B-Control-Camera",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-A14B-Control",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-5B-Control",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-5B-InP",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-A14B-InP",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-VACE-Fun-A14B",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-I2V-A14B",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-S2V-14B",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-T2V-A14B",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-TI2V-5B",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "lightx2v/Wan2.2-Distill-Loras",
+      "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
