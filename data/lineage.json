@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-11T21:59:08Z",
+  "generated_at": "2026-10-12T05:58:52Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -73,7 +73,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored-FP8": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "visibility": "public",
-      "revision": "830602f9b81d083db78f60e889bca37b73b74469",
+      "revision": "8b4ede700a2ee547a35daa035d5e62d9be05d10d",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -87,7 +87,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored-GGUF": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "fc437a3374c9977bdc339a8ec106dcd9a0357001",
+      "revision": "34e7cb013d66af05f668fe8a37087585de2e85f0",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -546,7 +546,7 @@
     "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF": {
       "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "e43d00f4e2b8b40b89f75e9adeb1045ac34c8acc",
+      "revision": "d27c0a15447dd92ae7c90919352c6810496945b1",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -568,7 +568,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored-MLX": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
       "visibility": "public",
-      "revision": "bc60491a36464626020ce82d5556b1b8f8cd90c7",
+      "revision": "34c32b5b1b2c24181e121a5cba3df8924fa66bce",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2013,7 +2013,7 @@
     "orcarouter/Qwen3.8-27B-Uncensored": {
       "id": "orcarouter/Qwen3.8-27B-Uncensored",
       "visibility": "public",
-      "revision": "8cb32d72080f6a47bf34dc5adf8067daa6c63a31",
+      "revision": "11a200330368fd04fa7b2f0b1e7f20bd819cf621",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2261,7 +2261,7 @@
     "orcarouter/GLM-5.3-Flash-Uncensored-FP8": {
       "id": "orcarouter/GLM-5.3-Flash-Uncensored-FP8",
       "visibility": "public",
-      "revision": "0480f690f80e8f4c4ee63edd10dcbea8b7d9e31b",
+      "revision": "150bd5e3a957db747db1224cc4f8891bcfa7a7f0",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
@@ -2535,7 +2535,7 @@
     "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF": {
       "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "bd75fb30a904d12894203e1a6823f9c2e931df06",
+      "revision": "24b38053cb54244cee9d400eae7841b8baa5b972",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
     },
