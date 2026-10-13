@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-13T00:41:05Z",
+  "generated_at": "2026-10-13T14:12:06Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1373,7 +1373,10 @@
     },
     "zemelee/qwen2.5-jailbreak": {
       "id": "zemelee/qwen2.5-jailbreak",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "dbb502ceca8c4b3760ae78249a60410a11518905",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     },
     "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF": {
       "id": "mradermacher/qwen3-32b-lora-jailbreak-detection-merged_v2-GGUF",
@@ -2664,6 +2667,17 @@
     },
     "lightx2v/Wan2.2-Distill-Loras": {
       "id": "lightx2v/Wan2.2-Distill-Loras",
+      "external_to_watchset": true
+    },
+    "minte1431/Qwen3.8-27B-OBLITERATED": {
+      "id": "minte1431/Qwen3.8-27B-OBLITERATED",
+      "visibility": "public",
+      "revision": "1de8161862c16b518b1cf1f0044e5f8e29bbc3c5",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "id": "Qwen/Qwen2.5-3B-Instruct",
       "external_to_watchset": true
     }
   },
@@ -4148,6 +4162,20 @@
     {
       "from": "lightx2v/Wan2.2-Distill-Loras",
       "to": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "minte1431/Qwen3.8-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-3B-Instruct",
+      "to": "zemelee/qwen2.5-jailbreak",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
