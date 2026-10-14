@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-14T04:53:57Z",
+  "generated_at": "2026-10-14T11:53:40Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -337,7 +337,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "8b192a8e203440d6492a133f6cdfa4bf7bffac98",
+      "revision": "1c3de241dd3b10890b96d163dbb05375a294be62",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -359,7 +359,7 @@
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "ceb55042229d17dcf45df52ad84698339e63d4c5",
+      "revision": "18bbb7658c951041aa2227076cb474e2bc53f82a",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -370,7 +370,7 @@
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "c6b3770b677093fafc44a801c23c9f88c41df93a",
+      "revision": "69528d2fe97846d1e8b4b8572b4f6b8b4a33069c",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2679,6 +2679,31 @@
     "Qwen/Qwen2.5-3B-Instruct": {
       "id": "Qwen/Qwen2.5-3B-Instruct",
       "external_to_watchset": true
+    },
+    "lukey03/Qwen3.5-9B-abliterated-GGUF": {
+      "id": "lukey03/Qwen3.5-9B-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "dac35c6385d79a6a9fe113d7a3b730348791d37f",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF": {
+      "id": "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "7b7cb0607c60a956000194bfd13529485432a62d",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-14B": {
+      "id": "Qwen/Qwen3-14B",
+      "visibility": "public",
+      "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Qwen/Qwen3-14B-Base": {
+      "id": "Qwen/Qwen3-14B-Base",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -4183,6 +4208,27 @@
     {
       "from": "Qwen/Qwen2.5-3B-Instruct",
       "to": "zemelee/qwen2.5-jailbreak",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-9B",
+      "to": "lukey03/Qwen3.5-9B-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
+      "to": "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-14B-Base",
+      "to": "Qwen/Qwen3-14B",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
