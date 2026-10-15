@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-15T04:40:25Z",
+  "generated_at": "2026-10-15T11:29:57Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2704,6 +2704,24 @@
     "Qwen/Qwen3-14B-Base": {
       "id": "Qwen/Qwen3-14B-Base",
       "external_to_watchset": true
+    },
+    "mradermacher/Qwen3.8-Flash-Next-Uncensored-i1-GGUF": {
+      "id": "mradermacher/Qwen3.8-Flash-Next-Uncensored-i1-GGUF",
+      "visibility": "public",
+      "revision": "27694ee82244cdac3539501330e9bbde98d5d8b8",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "orcarouter/Qwen3.8-Flash-Next-Uncensored": {
+      "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored",
+      "external_to_watchset": true
+    },
+    "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC": {
+      "id": "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
+      "visibility": "public",
+      "revision": "cf19d91c55d405c77c2b46f78b0255c0feb70763",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
     }
   },
   "edges": [
@@ -4229,6 +4247,20 @@
     {
       "from": "Qwen/Qwen3-14B-Base",
       "to": "Qwen/Qwen3-14B",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "orcarouter/Qwen3.8-Flash-Next-Uncensored",
+      "to": "mradermacher/Qwen3.8-Flash-Next-Uncensored-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated",
+      "to": "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
