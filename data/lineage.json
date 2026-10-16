@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-16T11:24:57Z",
+  "generated_at": "2026-10-16T16:40:45Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1128,7 +1128,7 @@
     "mradermacher/redteam-lexi-rl-GGUF": {
       "id": "mradermacher/redteam-lexi-rl-GGUF",
       "visibility": "public",
-      "revision": "176f8777cbb2dda991a8d4db578b90b8b0f63fec",
+      "revision": "0771bf2f8ab704f607429f2028d57f124a108ff7",
       "license": null,
       "pipeline_tag": null
     },
