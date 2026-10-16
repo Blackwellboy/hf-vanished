@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-16T16:40:45Z",
+  "generated_at": "2026-10-16T21:08:20Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1331,7 +1331,7 @@
     "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF": {
       "id": "mradermacher/gemma-3-12b-it-jailbreak-EN-GGUF",
       "visibility": "public",
-      "revision": "6a3d059d5dca4072ede6500984a8643454561069",
+      "revision": "fa524b0465795f7eb66bb13d5d929c0be6e4f4b0",
       "license": "gemma",
       "pipeline_tag": null
     },
