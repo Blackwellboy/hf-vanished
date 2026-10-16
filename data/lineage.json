@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-16T04:32:29Z",
+  "generated_at": "2026-10-16T11:24:57Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1766,7 +1766,7 @@
     "Comfy-Org/Krea-2": {
       "id": "Comfy-Org/Krea-2",
       "visibility": "public",
-      "revision": "eb1eddd3983a54678545a9b2c178c5853b30f7be",
+      "revision": "1171f4dc7e325bf3734586942e737872506c73e1",
       "license": "other",
       "pipeline_tag": null
     },
@@ -2485,7 +2485,7 @@
     "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF": {
       "id": "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "9f0104ea7d8b8a64dfbe9f69a0a616f6d1a76646",
+      "revision": "7d8e7064c099d8f5fde08bcd57bc27073c3988f4",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -2722,6 +2722,20 @@
       "revision": "cf19d91c55d405c77c2b46f78b0255c0feb70763",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
+    },
+    "huihui-ai/Huihui-Qwen3.6-27B-abliterated-MTP-GGUF": {
+      "id": "huihui-ai/Huihui-Qwen3.6-27B-abliterated-MTP-GGUF",
+      "visibility": "public",
+      "revision": "2da8c0432f0a42c25c14cbc99f90028a90d3dcd3",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF": {
+      "id": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "7c73bf1936109f6dd26fdb9877b40d77f281d86c",
+      "license": "apache-2.0",
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -4261,6 +4275,20 @@
     {
       "from": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated",
       "to": "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.6-27B",
+      "to": "huihui-ai/Huihui-Qwen3.6-27B-abliterated-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED",
+      "to": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
