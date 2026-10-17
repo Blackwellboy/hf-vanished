@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-16T21:08:20Z",
+  "generated_at": "2026-10-17T04:26:38Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -337,7 +337,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "1c3de241dd3b10890b96d163dbb05375a294be62",
+      "revision": "70b79e501161e3728ca0cabd731bc094d3fc17d6",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -359,7 +359,7 @@
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "18bbb7658c951041aa2227076cb474e2bc53f82a",
+      "revision": "daa7df2cff21a8e06cd2a49953d28d0f1dcb99c7",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -370,7 +370,7 @@
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "69528d2fe97846d1e8b4b8572b4f6b8b4a33069c",
+      "revision": "50f98b472ed6d7653eee1c44145a72886b150989",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
