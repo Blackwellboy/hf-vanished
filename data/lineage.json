@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-17T15:35:32Z",
+  "generated_at": "2026-10-17T20:37:33Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "5e1fb5c3708ba689eaa456121fe55d52f41e2988",
+      "revision": "5d97a7ca89c5036f8aa4b73e75cc478979ad32a0",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2524,7 +2524,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "5e1fb5c3708ba689eaa456121fe55d52f41e2988",
+      "revision": "5d97a7ca89c5036f8aa4b73e75cc478979ad32a0",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
