@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-18T04:34:26Z",
+  "generated_at": "2026-10-18T11:05:13Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "5d97a7ca89c5036f8aa4b73e75cc478979ad32a0",
+      "revision": "3dcd5bdb8d0c47e2f75221610554de23f7c48336",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2524,7 +2524,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "5d97a7ca89c5036f8aa4b73e75cc478979ad32a0",
+      "revision": "3dcd5bdb8d0c47e2f75221610554de23f7c48336",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2736,6 +2736,27 @@
       "revision": "7c73bf1936109f6dd26fdb9877b40d77f281d86c",
       "license": "apache-2.0",
       "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF": {
+      "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
+      "visibility": "public",
+      "revision": "43b4c1a8871afcc27e37bf996a431528b3d957e5",
+      "license": "other",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/Qwen3.8-27B-Obliterated-NOESIS-BF16-GGUF": {
+      "id": "mradermacher/Qwen3.8-27B-Obliterated-NOESIS-BF16-GGUF",
+      "visibility": "public",
+      "revision": "64c7867f207d5d17ecaff4d3927b344f4478b642",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mmiiguell10/Qwen3.8-27B-OBLITERATED": {
+      "id": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
+      "visibility": "public",
+      "revision": "214ece854a9a7b7dfb4f194632d825b1ba0cefdc",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -4289,6 +4310,27 @@
     {
       "from": "DuoNeural/Cyber-Ornith-1.5-9B-OBLITERATED",
       "to": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-Flash-Next",
+      "to": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "AMAImedia/Qwen3.8-27B-Obliterated-NOESIS-BF16",
+      "to": "mradermacher/Qwen3.8-27B-Obliterated-NOESIS-BF16-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
