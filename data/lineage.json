@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-17T20:37:33Z",
+  "generated_at": "2026-10-18T04:34:26Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -337,7 +337,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "70b79e501161e3728ca0cabd731bc094d3fc17d6",
+      "revision": "d5f3139249b7ee2535c20ab81125c9a6ab0c4915",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -359,7 +359,7 @@
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "daa7df2cff21a8e06cd2a49953d28d0f1dcb99c7",
+      "revision": "b9bce7e859c9b5047aca884e5bff76f8a0443de1",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -370,7 +370,7 @@
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "50f98b472ed6d7653eee1c44145a72886b150989",
+      "revision": "81e6f49c3faf5b83c57a740521bd2974b6362fd1",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2084,7 +2084,7 @@
     "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit": {
       "id": "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
       "visibility": "public",
-      "revision": "8b6416f56b92eb77ebc80ec7579992d700431198",
+      "revision": "59254a6257f382e01fcad8b2f466a9e19dbf74b8",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
