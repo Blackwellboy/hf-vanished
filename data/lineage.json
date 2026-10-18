@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-18T15:53:28Z",
+  "generated_at": "2026-10-18T20:44:01Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "69396f599d6e73148b6c1173085e5fd97722623f",
+      "revision": "7e1e7e665f95bb3cfa9d9950f5a24cd456580c69",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -936,7 +936,7 @@
     "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF": {
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-GGUF",
       "visibility": "public",
-      "revision": "0d43c9d42ca669a5b50ea49caed32e92ad20ae6d",
+      "revision": "2b26f567bd9e4ee31e071ffb46b5807b61049e25",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -968,7 +968,7 @@
     "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF": {
       "id": "mradermacher/Qwen3.8-27B-OBLITERATED-Mythos-Class-Agentic-i1-GGUF",
       "visibility": "public",
-      "revision": "eee7c1a5b34280252b44b1b16996d8edd2f76149",
+      "revision": "f0ffebf7414a240b35a219eebcc1477a2127f2f8",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -2524,7 +2524,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "69396f599d6e73148b6c1173085e5fd97722623f",
+      "revision": "7e1e7e665f95bb3cfa9d9950f5a24cd456580c69",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
