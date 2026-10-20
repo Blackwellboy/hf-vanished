@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-20T11:37:17Z",
+  "generated_at": "2026-10-20T17:04:34Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2113,9 +2113,13 @@
     "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF": {
       "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "cca54a443b65eac50ad43fd5018818fbc8959a9d",
+      "revision": "1aec78ee029eb6eb635727f5ecb7102be11456b3",
       "license": "mit",
       "pipeline_tag": null
+    },
+    "pqhaz/DeepSeek-V4.1-Flash-1017-heretic": {
+      "id": "pqhaz/DeepSeek-V4.1-Flash-1017-heretic",
+      "external_to_watchset": true
     },
     "s-zaizen/DeepSeek-V4.1-Flash-Abliterated": {
       "id": "s-zaizen/DeepSeek-V4.1-Flash-Abliterated",
@@ -3827,6 +3831,13 @@
     {
       "from": "junafinity/Ornith-1.5-9B-uncensored",
       "to": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "pqhaz/DeepSeek-V4.1-Flash-1017-heretic",
+      "to": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false

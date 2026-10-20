@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-10-20T11:37:17Z",
+  "generated_at": "2026-10-20T17:04:34Z",
   "cursor": 130,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
@@ -34507,7 +34507,7 @@
       "evidence_sha256": "490afb93009e239bc368a901a2758aa22ee65d024bd32c877bce2ba69911a393"
     },
     "bigcode/starcoder": {
-      "captured_at": "2026-10-17T15:35:10Z",
+      "captured_at": "2026-10-20T17:04:11Z",
       "repo": "bigcode/starcoder",
       "hf_url": "https://huggingface.co/bigcode/starcoder",
       "reason": {
@@ -34771,10 +34771,10 @@
           "source": "https://huggingface.co/bigcode/starcoder/discussions/121"
         }
       ],
-      "evidence_sha256": "00b80f23a654cf588448588015ce95d933eb9400e893f62102f7e5de81815597"
+      "evidence_sha256": "2d195916f66eea727c1491f5f68d2e04aa755ad7974a6a768962f172176ab090"
     },
     "black-forest-labs/FLUX.1-dev": {
-      "captured_at": "2026-10-17T15:35:11Z",
+      "captured_at": "2026-10-20T17:04:12Z",
       "repo": "black-forest-labs/FLUX.1-dev",
       "hf_url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "reason": {
@@ -34837,9 +34837,27 @@
               "author": "Jit2024",
               "created_at": "2026-09-07T02:42:10.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "AMIRKARANI",
+              "created_at": "2026-10-19T06:26:53.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "AMIRKARANI",
+              "created_at": "2026-10-19T06:27:12.000Z",
+              "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "Jit2024",
+              "created_at": "2026-10-19T10:39:42.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "dd728d083c09d72ac779d5dc6b659a4372eb27fc97551e8be5419745e3cf6fc3"
+          "source_sha256": "1fc90663675f5dd2429fe955cd4c6d1cc1085509067a544ca850e2daf7d59e4b"
         },
         {
           "num": 618,
@@ -35045,10 +35063,10 @@
           "source": "https://huggingface.co/black-forest-labs/FLUX.1-dev/discussions/613"
         }
       ],
-      "evidence_sha256": "3ac7f0ac6bdc08fb1ad2e32cb7a395e6fd5d8b39c01f7295f1d6a63e691453b5"
+      "evidence_sha256": "90109626bb296feda3598ec1afc5fbee388fcc281cf90267da970e5fa9dfe230"
     },
     "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF": {
-      "captured_at": "2026-10-17T15:35:12Z",
+      "captured_at": "2026-10-20T17:04:13Z",
       "repo": "chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
       "hf_url": "https://huggingface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF",
       "reason": {
@@ -35386,10 +35404,10 @@
           "source": "https://huggingface.co/chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF/commit/cd799526d8e26d8836ec9048492e11a22a1cbc47"
         }
       ],
-      "evidence_sha256": "3ae4aecceb621639eec14f571f30375f029c2bb48f2ae9f2f552cb0a7c7ee1a5"
+      "evidence_sha256": "36816a2265ce505271b84896817d589ceb017971b3bde8bd722c6f5bd866c414"
     },
     "cognitivecomputations/Wizard-Vicuna-13B-Uncensored": {
-      "captured_at": "2026-10-17T15:35:14Z",
+      "captured_at": "2026-10-20T17:04:16Z",
       "repo": "cognitivecomputations/Wizard-Vicuna-13B-Uncensored",
       "hf_url": "https://huggingface.co/cognitivecomputations/Wizard-Vicuna-13B-Uncensored",
       "reason": {
@@ -35574,7 +35592,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "64412c94e753d1b8ced5cece67a68388e0547acad7731c75e2732fad2b4dc98e"
+          "source_sha256": "b75d69eff747974b86747cfbac8d2d8ac60def138f82a5aabfa696ab49ce6cd3"
         },
         {
           "num": 9,
@@ -35616,7 +35634,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "44c47b8fda9eb338c8e583614b6f0bc2f336183672c068f591a3bb3b4114d704"
+          "source_sha256": "5d26cf81296af138333bcdbcff3b8d6e4917ad2c12dd1805d66775fcb0d84797"
         }
       ],
       "commits": [
@@ -35875,10 +35893,10 @@
           "source": "https://huggingface.co/cognitivecomputations/Wizard-Vicuna-13B-Uncensored/commit/9ef4382702da7459924c0906aee08a3fa8cf63d5"
         }
       ],
-      "evidence_sha256": "dac433acb866c0042f12fd28c66a514cdbe18fb975839af5efb33726d88e96c1"
+      "evidence_sha256": "cb63bd31c28d2942f4384e67edb4219c98058507aa4a413c712d16b838f65011"
     },
     "cognitivecomputations/WizardLM-7B-Uncensored": {
-      "captured_at": "2026-10-17T15:35:17Z",
+      "captured_at": "2026-10-20T17:04:18Z",
       "repo": "cognitivecomputations/WizardLM-7B-Uncensored",
       "hf_url": "https://huggingface.co/cognitivecomputations/WizardLM-7B-Uncensored",
       "reason": {
@@ -36359,10 +36377,10 @@
           "source": "https://huggingface.co/cognitivecomputations/WizardLM-7B-Uncensored/commit/acb71328f51730b28bb4c7ada61e46248b63052a"
         }
       ],
-      "evidence_sha256": "de43e5e727b04239530edd6ba69133302c64082e73621c006f9de370dee68bb6"
+      "evidence_sha256": "a4f515b70d7e63b80bb2888489861e8648b0bb443f85b8dd15be8bf355118b8d"
     },
     "cross-encoder/ms-marco-MiniLM-L6-v2": {
-      "captured_at": "2026-10-17T15:35:19Z",
+      "captured_at": "2026-10-20T17:04:20Z",
       "repo": "cross-encoder/ms-marco-MiniLM-L6-v2",
       "hf_url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
       "reason": {
@@ -36475,7 +36493,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "733e47b73277e1de209fc9655a8d2e2da71b23f3fa07c3de042be28fb5a433b1"
+          "source_sha256": "ba95996067d722a9c266887de5639ade2d4d770d2fccbabb37093ea2436a4c0c"
         },
         {
           "num": 19,
@@ -36847,10 +36865,10 @@
           "source": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/commit/16ca3b00566e115c71bf39926bf87f68e60ca020"
         }
       ],
-      "evidence_sha256": "6b137d7bab2260469b4ddf46764f17fa641da3c28c32eb619ad4e17508e20fa4"
+      "evidence_sha256": "a117122954dbd9d62fdbf26aa0205c34a4128094525a655333d67c25fdc126ae"
     },
     "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF": {
-      "captured_at": "2026-10-17T15:35:20Z",
+      "captured_at": "2026-10-20T17:04:21Z",
       "repo": "culturerevolt/gemma-4-12b-heretic-abliterated-GGUF",
       "hf_url": "https://huggingface.co/culturerevolt/gemma-4-12b-heretic-abliterated-GGUF",
       "reason": {
@@ -36883,9 +36901,15 @@
               "author": "rick-hf",
               "created_at": "2026-10-08T00:12:23.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "nebraska145",
+              "created_at": "2026-10-19T01:06:30.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "656df039deacedb16129a6540e4a5da4e3187f1ac11c48f3872138108811cb8f"
+          "source_sha256": "a569a8b59ab2e8a6c70d6b9576a5ee8e79892fce52daadd1ef1be931a0ed0584"
         },
         {
           "num": 5,
@@ -36937,9 +36961,15 @@
               "author": "ndzhai",
               "created_at": "2026-09-20T07:42:18.000Z",
               "content": ""
+            },
+            {
+              "type": "comment",
+              "author": "nebraska145",
+              "created_at": "2026-10-19T08:24:17.000Z",
+              "content": ""
             }
           ],
-          "source_sha256": "b0ce7daf93c8c3dd5836e02cbb1c400f8ddd4d6c2001d40f3625a7ca81520f78"
+          "source_sha256": "b7fe36c52d6fd279ed369c53fd1ffe44c9208f4e137a8bf9a9dd8f15fc5db445"
         },
         {
           "num": 2,
@@ -37236,10 +37266,10 @@
           "source": "https://huggingface.co/culturerevolt/gemma-4-12b-heretic-abliterated-GGUF/commit/9ac80a7d575fb563b9d3ed4e3eaf98be734648ad"
         }
       ],
-      "evidence_sha256": "740378dc604cc1f4f72600d02834db232a3fec9f0ef5da6a334b3cfe963f78b1"
+      "evidence_sha256": "afc804a563c4d1da4db83f86b46f861758533ab7817f539b2c3264c33bb8e32a"
     },
     "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF": {
-      "captured_at": "2026-10-17T15:35:21Z",
+      "captured_at": "2026-10-20T17:04:23Z",
       "repo": "deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
       "hf_url": "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF",
       "reason": {
@@ -37298,7 +37328,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "e2775fa8d05d9a2afb3bea7d403c8cabae4fc85eb3689c246e811dc8c5d434b1"
+          "source_sha256": "c499b9d47ed4c4f7f7c2e1cfb5ce0551348928a6ce456ce235871b634420cac7"
         },
         {
           "num": 1,
@@ -37322,7 +37352,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "491c73cb6b65bd4022fda575a598c50c8666ddcc2d7e9f08ff565b9c8bf89d87"
+          "source_sha256": "ef5305d292c9a8048a2fff12da1f66f7f9d1ce760ca319ad2395e9cef3eaaad3"
         }
       ],
       "commits": [
@@ -37469,10 +37499,10 @@
           "source": "https://huggingface.co/deadbydawn101/RavenXAiLabs-Chaos-Agent-Qwen3.8-27B-Frontier-Intelligence-Injected-OBLITERATED-GGUF/commit/ca7d6b65fb24e5aab8f283d8e4d9da383b75a75c"
         }
       ],
-      "evidence_sha256": "098f7d9929b8cafd04d9ebeee4afd8b18a605e7ad4e55ff7c1a364e62085d5f9"
+      "evidence_sha256": "c4c957e9b444781038f0169bfe13d076baf52012009e3fbc8eb09b63954f5938"
     },
     "ehartford/WizardLM-7B-Uncensored": {
-      "captured_at": "2026-10-17T15:35:25Z",
+      "captured_at": "2026-10-20T17:04:27Z",
       "repo": "ehartford/WizardLM-7B-Uncensored",
       "hf_url": "https://huggingface.co/ehartford/WizardLM-7B-Uncensored",
       "reason": {
@@ -37953,10 +37983,10 @@
           "source": "https://huggingface.co/ehartford/WizardLM-7B-Uncensored/commit/acb71328f51730b28bb4c7ada61e46248b63052a"
         }
       ],
-      "evidence_sha256": "ada3a6fe3a6a2f68facade913a8cfeb571de8ed84b031c0da140e25344242ddf"
+      "evidence_sha256": "3086bf5fc0d746b15e009149aa0b9a76aa91d9352b349bce375e9b7fd12be41f"
     },
     "facebook/contriever": {
-      "captured_at": "2026-10-17T15:35:26Z",
+      "captured_at": "2026-10-20T17:04:28Z",
       "repo": "facebook/contriever",
       "hf_url": "https://huggingface.co/facebook/contriever",
       "reason": {
@@ -38125,10 +38155,10 @@
           "source": "https://huggingface.co/facebook/contriever/commit/7cd78e006f0ac9b89f23692b7ea833595778644e"
         }
       ],
-      "evidence_sha256": "92e534788559c21066304cfd93656f2306dec692d6cb2eb0119916a0fbb030cc"
+      "evidence_sha256": "25d9f9efcb9b903af92e449efb998242ff82fcee0b589caff249b8861419a653"
     },
     "facebook/opt-125m": {
-      "captured_at": "2026-10-17T15:35:28Z",
+      "captured_at": "2026-10-20T17:04:29Z",
       "repo": "facebook/opt-125m",
       "hf_url": "https://huggingface.co/facebook/opt-125m",
       "reason": {
@@ -38304,22 +38334,7 @@
           "is_pull_request": true,
           "author": "SFconvertbot",
           "created_at": "2025-02-24T14:09:01.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "SFconvertbot",
-              "created_at": "2025-02-24T14:09:01.000Z",
-              "content": ""
-            },
-            {
-              "type": "commit",
-              "author": "SFconvertbot",
-              "created_at": "2025-02-24T14:09:02.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "c9bf6b0fdd323361adb6c00e3a6d880745a5acf5801c0fe41e5ff72859468936"
+          "updated_at": null
         }
       ],
       "commits": [
@@ -38604,10 +38619,10 @@
           "source": "https://huggingface.co/facebook/opt-125m/commit/46941ec8782154759c3f3ce856828179d91f9a5d"
         }
       ],
-      "evidence_sha256": "77d799322e928c4683569931acc440e4252c9b0ec7c4af7cdf43909439331232"
+      "evidence_sha256": "3e112b97f5c0474b40a81c11592258fe767ee7abf4f785217aaa70c19f16b7c9"
     },
     "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3": {
-      "captured_at": "2026-10-17T15:35:29Z",
+      "captured_at": "2026-10-20T17:04:30Z",
       "repo": "failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3",
       "reason": {
@@ -38990,10 +39005,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-8B-Instruct-abliterated-v3/commit/915247dd8c2c65904d4d896105f3d19fb8c57c9b"
         }
       ],
-      "evidence_sha256": "3e584281493fa5ca95185f6c53fe7d548dc27335d246551f1694a58cf9674366"
+      "evidence_sha256": "155138443c028d4806a3a91ee5a6eb863fb069220ae7cf34cea74765d88dd1e2"
     },
     "failspy/llama-3-70B-Instruct-abliterated": {
-      "captured_at": "2026-10-17T15:35:29Z",
+      "captured_at": "2026-10-20T17:04:30Z",
       "repo": "failspy/llama-3-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated",
       "reason": {
@@ -39481,10 +39496,10 @@
           "source": "https://huggingface.co/failspy/llama-3-70B-Instruct-abliterated/commit/3686eca504316e9e3ab40247a7a103cc7ce249d0"
         }
       ],
-      "evidence_sha256": "fda533a93f0739ceb2e04e0a0af6a83bbba59878cc9d7d041568ddca94ebe220"
+      "evidence_sha256": "8b98114297f94669eb465f707ac0609b03765a3841feda5ac046fe40805d13d7"
     },
     "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF": {
-      "captured_at": "2026-10-17T15:35:29Z",
+      "captured_at": "2026-10-20T17:04:30Z",
       "repo": "gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "hf_url": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF",
       "reason": {
@@ -40074,10 +40089,10 @@
           "source": "https://huggingface.co/gbuzhf/Ornith-1.5-35B-A3B-Abliterated-MTP-UD-APEX-GGUF/discussions/1"
         }
       ],
-      "evidence_sha256": "7196d3b8d0ca3faf9e7a348ad5246da41765d61375df6b594d70c21377bf028d"
+      "evidence_sha256": "16ad8a3fd4f4fcd414f19bf9e1994711e81728cc2467e324a33c97b72cb676e4"
     },
     "google-bert/bert-base-uncased": {
-      "captured_at": "2026-10-17T15:35:30Z",
+      "captured_at": "2026-10-20T17:04:31Z",
       "repo": "google-bert/bert-base-uncased",
       "hf_url": "https://huggingface.co/google-bert/bert-base-uncased",
       "reason": {
@@ -40575,10 +40590,10 @@
           "source": "https://huggingface.co/google-bert/bert-base-uncased/commit/b3409d9fba88a0d2a4a2a3c08bd5f33dd324cf38"
         }
       ],
-      "evidence_sha256": "a9f2cbffe233d3cf19ed54dc79769124639a7622509019286661493148fc7116"
+      "evidence_sha256": "f2e2eedd3735237e47ae267c5865539c20299987fba67c1fe209249a1752fcbb"
     },
     "google-t5/t5-small": {
-      "captured_at": "2026-10-17T15:35:30Z",
+      "captured_at": "2026-10-20T17:04:31Z",
       "repo": "google-t5/t5-small",
       "hf_url": "https://huggingface.co/google-t5/t5-small",
       "reason": {
@@ -41109,10 +41124,10 @@
           "source": "https://huggingface.co/google-t5/t5-small/commit/a3f81e09b2ac3ff1d0bd6aafde94183f45efec7c"
         }
       ],
-      "evidence_sha256": "ae84de65e0dfe8489a7a38e923872700468a2616dde3b114da52a82a0facd097"
+      "evidence_sha256": "0283772b46093b160c4135d76490145eac4c49531851abecb638b2323fdfffa2"
     },
     "google/electra-base-discriminator": {
-      "captured_at": "2026-10-17T15:35:30Z",
+      "captured_at": "2026-10-20T17:04:32Z",
       "repo": "google/electra-base-discriminator",
       "hf_url": "https://huggingface.co/google/electra-base-discriminator",
       "reason": {
@@ -41606,10 +41621,10 @@
           "source": "https://huggingface.co/google/electra-base-discriminator/commit/10fd983b5a0f59c34337b918720064939ef11c10"
         }
       ],
-      "evidence_sha256": "6f6df306227b95048c08ccffd27196d4cc3f0e9088586fb8a6a880171d4f13c5"
+      "evidence_sha256": "fb4e5bb69455c69c233645c95046567393b0c5282fbcaff70011bebb6a750500"
     },
     "google/gemma-2-9b": {
-      "captured_at": "2026-10-17T15:35:31Z",
+      "captured_at": "2026-10-20T17:04:32Z",
       "repo": "google/gemma-2-9b",
       "hf_url": "https://huggingface.co/google/gemma-2-9b",
       "reason": {
@@ -41928,10 +41943,10 @@
           "source": "https://huggingface.co/google/gemma-2-9b/discussions/39"
         }
       ],
-      "evidence_sha256": "5f091fe9c6b681f7b5dcc96e9120d53ce91b14d56b00ee751a6f423b89b2654a"
+      "evidence_sha256": "a2ac928206c4f97ab16e5facef772013f711767196aef28ebd976cb27f8c5a16"
     },
     "google/gemma-4-26B-A4B-it": {
-      "captured_at": "2026-10-17T15:35:31Z",
+      "captured_at": "2026-10-20T17:04:32Z",
       "repo": "google/gemma-4-26B-A4B-it",
       "hf_url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
       "reason": {
@@ -42499,10 +42514,10 @@
           "source": "https://huggingface.co/google/gemma-4-26B-A4B-it/commit/1db3cff1840c2ae59759d8e842ff37831cf8cb63"
         }
       ],
-      "evidence_sha256": "f079a2176cbacff7f7d8fe78dccd540e17a3a1226030b779c47144376ad9f20e"
+      "evidence_sha256": "a58fe6e6a29b1c640d920db83d3bea441a5e5151308f2c06327170aa06be3a6a"
     },
     "google/gemma-4-31B-it": {
-      "captured_at": "2026-10-17T15:35:31Z",
+      "captured_at": "2026-10-20T17:04:33Z",
       "repo": "google/gemma-4-31B-it",
       "hf_url": "https://huggingface.co/google/gemma-4-31B-it",
       "reason": {
@@ -43124,10 +43139,10 @@
           "source": "https://huggingface.co/google/gemma-4-31B-it/commit/e51e7dcdb6febd74c182fe0cb41c236363ae2ac5"
         }
       ],
-      "evidence_sha256": "98fa247a6540669cf6f684c7bbb005dc33416ae5094a23f9b8467074fefdcf74"
+      "evidence_sha256": "52ba6e94ed3dfc86c1acd06e5f1921d720a165f3240778cc2e947ab686516c02"
     },
     "google/gemma-7b": {
-      "captured_at": "2026-10-17T15:35:32Z",
+      "captured_at": "2026-10-20T17:04:33Z",
       "repo": "google/gemma-7b",
       "hf_url": "https://huggingface.co/google/gemma-7b",
       "reason": {
@@ -43410,7 +43425,7 @@
           "source": "https://huggingface.co/google/gemma-7b/discussions/120"
         }
       ],
-      "evidence_sha256": "dac4e737ebc2a0b3b9aa57338866e43c3dbad46c26cce4fd842010625c90f5f1"
+      "evidence_sha256": "9ab67fe3fa87c4f1ff56e9a4e1fef9345c5bab3684c2112aed9641abbdaf88f3"
     },
     "hexgrad/Kokoro-82M": {
       "captured_at": "2026-10-17T20:37:17Z",
@@ -73614,7 +73629,7 @@
       "evidence_sha256": "8b1a86c4db974c67f4fe0a961e60e2469d1a0e0f7e80a695d8dda7493ef0fe01"
     },
     "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF": {
-      "captured_at": "2026-10-17T15:35:22Z",
+      "captured_at": "2026-10-20T17:04:23Z",
       "repo": "dealignai/Ornith-1.5-9B-UNCENSORED-GGUF",
       "hf_url": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF",
       "reason": {
@@ -73904,7 +73919,7 @@
           "source": "https://huggingface.co/dealignai/Ornith-1.5-9B-UNCENSORED-GGUF/commit/bf2585bcc153be288a6c73fba1a764b8219846fe"
         }
       ],
-      "evidence_sha256": "6cb49bb28678ed43387090a045e8826f87c8441d6455793ae81d07936ea1ddd3"
+      "evidence_sha256": "ef200a927cce49676f8b489b3ee5d2bd9870b344e172f0a68dcc42babeccda93"
     },
     "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF": {
       "captured_at": "2026-10-17T20:37:29Z",
@@ -76485,7 +76500,7 @@
       "evidence_sha256": "5159ec2afc93a8b28569489b4e83709aabe86afa5085995786986aed54442ed0"
     },
     "distilbert/distilbert-base-uncased": {
-      "captured_at": "2026-10-17T15:35:23Z",
+      "captured_at": "2026-10-20T17:04:25Z",
       "repo": "distilbert/distilbert-base-uncased",
       "hf_url": "https://huggingface.co/distilbert/distilbert-base-uncased",
       "reason": {
@@ -76965,7 +76980,7 @@
           "source": "https://huggingface.co/distilbert/distilbert-base-uncased/commit/93a53c79f3eb5514f6f3f2f757416be9d4ee9617"
         }
       ],
-      "evidence_sha256": "4947d2a0db73886eda98ef58376a4d58e6aa271e226bd7d44e51115228570a44"
+      "evidence_sha256": "c54fc6d7659e069e193262cb32df40b9078aa4b1e6009f19ba68c6e6cb10eaf3"
     },
     "sakamakismile/Huihui-Qwen3.6-27B-abliterated-NVFP4-MTP": {
       "captured_at": "2026-10-18T15:53:21Z",
@@ -77996,7 +78011,7 @@
       "evidence_sha256": "ad8e76b4c6bab38d0c4799ecc4296590de385c4a66392aa6b40627909d6bf18e"
     },
     "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF": {
-      "captured_at": "2026-10-17T15:35:09Z",
+      "captured_at": "2026-10-20T17:04:09Z",
       "repo": "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
       "hf_url": "https://huggingface.co/bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
       "reason": {
@@ -78286,7 +78301,7 @@
           "source": "https://huggingface.co/bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF/commit/c6b9b8b154cea6c744e7ca5cfd26105e682e75fd"
         }
       ],
-      "evidence_sha256": "0a37d16ec7956e928093692e0e4f7b47fcbfb55ab2dbff5aa2c6f92ba643d17a"
+      "evidence_sha256": "0c3c0accdbbffd7b4d9149d94bb135d4765e7e46f7e71df7c7f2d8e847fa4d76"
     },
     "mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF": {
       "captured_at": "2026-10-18T11:05:07Z",
@@ -80889,7 +80904,7 @@
       "evidence_sha256": "948276b04f05ec478c1edc035e0e850b16a2adfb9b7b521a82d2f7960a85f72f"
     },
     "cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF": {
-      "captured_at": "2026-10-17T15:35:17Z",
+      "captured_at": "2026-10-20T17:04:19Z",
       "repo": "cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF",
       "hf_url": "https://huggingface.co/cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF",
       "reason": {
@@ -81142,7 +81157,7 @@
           "source": "https://huggingface.co/cognitivers/Qwen3.8-27B-OBLITERATED-12GB-GGUF/commit/ad034226d179088ccdd04b226961a6f802d69d65"
         }
       ],
-      "evidence_sha256": "934cf62b25a63f421fa421fbfef623840a30a52e6e5c6608b6b2391e61a841b5"
+      "evidence_sha256": "cfbcffca31de61a6bc339289f5c231934dd7e5613417c6c7681cb71587e7cd21"
     },
     "meta-llama/Llama-3.2-1B-Instruct": {
       "captured_at": "2026-10-18T04:34:14Z",
@@ -84329,7 +84344,7 @@
       "evidence_sha256": "8a70232cbb00083360397793d55981eb1c1aff4097571cc9cccd6d2dbd586ffc"
     },
     "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF": {
-      "captured_at": "2026-10-17T15:35:21Z",
+      "captured_at": "2026-10-20T17:04:22Z",
       "repo": "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
       "hf_url": "https://huggingface.co/cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF",
       "reason": {
@@ -84601,7 +84616,7 @@
           "source": "https://huggingface.co/cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF/commit/d14ba2ce5b876ac6dc35c2a1266ff29194093b9d"
         }
       ],
-      "evidence_sha256": "ea475051406cfa2988044d64852914a50b2a402b11359b22a7642cf3c9020ec7"
+      "evidence_sha256": "d257b0f43367837f464456ef95dca683df1388c3033fc3edf1567be44a11c928"
     },
     "jimmy31chen/RVN-Qwen3.8-Flash-Next-Abliterated-Uncensored-IQ3_S-Strata": {
       "captured_at": "2026-10-17T20:37:32Z",
@@ -95416,6 +95431,51 @@
         }
       ],
       "evidence_sha256": "e77fea29cc105931f387ef472e4eb54aac42c646f6e4cdac6e317269c032acb7"
+    },
+    "EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam": {
+      "captured_at": "2026-10-20T17:04:34Z",
+      "repo": "EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam",
+      "hf_url": "https://huggingface.co/EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [],
+      "readme_sha256": null,
+      "manifest_root_sha256": "05d28cc9005d963d767723480882ba3ae1abc600722b73d5e4f334da571d2731",
+      "timeline": [],
+      "evidence_sha256": "d22202f197cff9fe910eda6c2152ace1fd1df461203956319e222d5db5aca1d5"
+    },
+    "FacebookAI/roberta-large": {
+      "captured_at": "2026-10-20T17:04:34Z",
+      "repo": "FacebookAI/roberta-large",
+      "hf_url": "https://huggingface.co/FacebookAI/roberta-large",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- language: en tags: - exbert license: mit datasets: - bookcorpus - wikipedia --- # RoBERTa large model Pretrained model on English language using a masked language modeling (MLM) objective. It was introduce",
+          "source_url": "https://huggingface.co/FacebookAI/roberta-large/raw/722cf37b1afa9454edce342e7895e588b6ff1d59/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [],
+      "readme_sha256": "169bcb945dc37375faef8b0e4a327c3e80a107fb64a85dd2c6b7651519eeaba0",
+      "manifest_root_sha256": "759a6ae0e2434770d6460359240738fc9c30b96f375514989c6f13c8457cbed2",
+      "timeline": [],
+      "evidence_sha256": "d77f85e969f65e53885637a14bd7e9c58755cafd650213b4223cde125b65b31a"
     }
   }
 }
