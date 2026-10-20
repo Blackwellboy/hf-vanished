@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-20T04:51:40Z",
+  "generated_at": "2026-10-20T11:37:17Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2757,6 +2757,20 @@
       "revision": "214ece854a9a7b7dfb4f194632d825b1ba0cefdc",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam": {
+      "id": "EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam",
+      "visibility": "public",
+      "revision": "b5b479ebcfe8d36a059320718c855d22dccfb5c1",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "FacebookAI/roberta-large": {
+      "id": "FacebookAI/roberta-large",
+      "visibility": "public",
+      "revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+      "license": "mit",
+      "pipeline_tag": "fill-mask"
     }
   },
   "edges": [
