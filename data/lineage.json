@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-21T04:47:16Z",
+  "generated_at": "2026-10-21T11:49:13Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2775,6 +2775,13 @@
       "revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
       "license": "mit",
       "pipeline_tag": "fill-mask"
+    },
+    "azukivc/Qwen3.8-27B-Uncensored-GGUF": {
+      "id": "azukivc/Qwen3.8-27B-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "057fb9791591d9e5864c99a83f27cb492e5dc7b1",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -4356,6 +4363,13 @@
     {
       "from": "Qwen/Qwen3.8-27B",
       "to": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "azukivc/Qwen3.8-27B-Uncensored-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
