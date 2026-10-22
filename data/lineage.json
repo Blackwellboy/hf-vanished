@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-22T04:45:02Z",
+  "generated_at": "2026-10-22T11:52:28Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2521,7 +2521,7 @@
     "Comfy-Org/Qwen-Image-2.1": {
       "id": "Comfy-Org/Qwen-Image-2.1",
       "visibility": "public",
-      "revision": "a8342359c61979b06a8dafb1a47991fe1f30e994",
+      "revision": "0217efd1d9c9452e84f6448903d6e21bfa171ffd",
       "license": "other",
       "pipeline_tag": null
     },
@@ -2782,6 +2782,46 @@
       "revision": "057fb9791591d9e5864c99a83f27cb492e5dc7b1",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "a56bb66534a758a99991ae502316b07c18950941",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "empero-ai/Qwythos-9B-Claude-Mythos-5-1M": {
+      "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+      "external_to_watchset": true
+    },
+    "OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED": {
+      "id": "OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED",
+      "visibility": "public",
+      "revision": "9fca8324ba3d696746a0b7c443a691a751809f13",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "cyumizou/qwen3-4b-structured-output-merged-stage-a": {
+      "id": "cyumizou/qwen3-4b-structured-output-merged-stage-a",
+      "external_to_watchset": true
+    },
+    "Heoni/llama-3-KoEn-8b_sft_ep3_merged_red_teaming_20240614": {
+      "id": "Heoni/llama-3-KoEn-8b_sft_ep3_merged_red_teaming_20240614",
+      "visibility": "public",
+      "revision": "d6333ccf8face898a2d2f77f1a1bd315c7aed05e",
+      "license": "cc-by-nc-nd-4.0",
+      "pipeline_tag": "text-generation"
+    },
+    "BackdoorLLM/Jailbreak_Llama2-7B_BadNets": {
+      "id": "BackdoorLLM/Jailbreak_Llama2-7B_BadNets",
+      "visibility": "public",
+      "revision": "408295cd17df70e5164e7692e2aa3c5b9e2e4f3b",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "meta-llama/Llama-2-7b-chat-hf": {
+      "id": "meta-llama/Llama-2-7b-chat-hf",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -4370,6 +4410,27 @@
     {
       "from": "Qwen/Qwen3.8-27B",
       "to": "azukivc/Qwen3.8-27B-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+      "to": "huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "cyumizou/qwen3-4b-structured-output-merged-stage-a",
+      "to": "OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "meta-llama/Llama-2-7b-chat-hf",
+      "to": "BackdoorLLM/Jailbreak_Llama2-7B_BadNets",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
