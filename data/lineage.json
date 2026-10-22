@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-22T17:10:54Z",
+  "generated_at": "2026-10-22T21:36:40Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2113,7 +2113,7 @@
     "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF": {
       "id": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "1aec78ee029eb6eb635727f5ecb7102be11456b3",
+      "revision": "7832036cb557c6ccdacdff77ef4e6ea283e35f89",
       "license": "mit",
       "pipeline_tag": null
     },
@@ -2123,6 +2123,10 @@
     },
     "s-zaizen/DeepSeek-V4.1-Flash-Abliterated": {
       "id": "s-zaizen/DeepSeek-V4.1-Flash-Abliterated",
+      "external_to_watchset": true
+    },
+    "peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF": {
+      "id": "peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF",
       "external_to_watchset": true
     },
     "intfloat/multilingual-e5-base": {
@@ -2822,6 +2826,13 @@
     "meta-llama/Llama-2-7b-chat-hf": {
       "id": "meta-llama/Llama-2-7b-chat-hf",
       "external_to_watchset": true
+    },
+    "Comfy-Org/Z-Image-Turbo": {
+      "id": "Comfy-Org/Z-Image-Turbo",
+      "visibility": "public",
+      "revision": "6fc90a3b1b653e935a0d175e260736de25b84df5",
+      "license": "apache-2.0",
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -3897,6 +3908,13 @@
       "inferred": false
     },
     {
+      "from": "peasantsmith/DeepSeek-V4.1-Flash-1017-Maya-GGUF",
+      "to": "audreyt/DeepSeek-V4.1-Flash-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
       "from": "orcarouter/Qwen3.8-27B-Uncensored",
       "to": "bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF",
       "relation": "DECLARED_BASE_MODEL",
@@ -4431,6 +4449,13 @@
     {
       "from": "meta-llama/Llama-2-7b-chat-hf",
       "to": "BackdoorLLM/Jailbreak_Llama2-7B_BadNets",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Tongyi-MAI/Z-Image-Turbo",
+      "to": "Comfy-Org/Z-Image-Turbo",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
