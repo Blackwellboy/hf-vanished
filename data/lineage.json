@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-23T04:50:10Z",
+  "generated_at": "2026-10-23T11:40:09Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2426,7 +2426,10 @@
     },
     "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF": {
       "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "ed59f92082b1e93c0e96d60a8b11aab089b52f09",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
     },
     "mradermacher/glm-4-9b-chat-hf-OBLITERATED-i1-GGUF": {
       "id": "mradermacher/glm-4-9b-chat-hf-OBLITERATED-i1-GGUF",
@@ -2840,6 +2843,264 @@
       "revision": "ee6f4a40737a995bf5818954cfce6d59443b0f04",
       "license": "apache-2.0",
       "pipeline_tag": "image-to-video"
+    },
+    "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "4a5daa6fbefca5fe822dc65fcb95cc4576fa9720",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3.5-4B-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3.5-4B-abliterated",
+      "external_to_watchset": true
+    },
+    "audio-cpp/audio.cpp-gguf": {
+      "id": "audio-cpp/audio.cpp-gguf",
+      "visibility": "public",
+      "revision": "ef1ab2598f6d4d101486e4c5b9e605c687f20642",
+      "license": "other",
+      "pipeline_tag": "text-to-speech"
+    },
+    "ACE-Step/Ace-Step1.5": {
+      "id": "ACE-Step/Ace-Step1.5",
+      "external_to_watchset": true
+    },
+    "ACE-Step/acestep-v15-base": {
+      "id": "ACE-Step/acestep-v15-base",
+      "external_to_watchset": true
+    },
+    "Aratako/Irodori-TTS-500M-v3": {
+      "id": "Aratako/Irodori-TTS-500M-v3",
+      "external_to_watchset": true
+    },
+    "Aratako/Irodori-TTS-600M-v3-VoiceDesign": {
+      "id": "Aratako/Irodori-TTS-600M-v3-VoiceDesign",
+      "external_to_watchset": true
+    },
+    "Aratako/Irodori-TTS-v4.1-Small": {
+      "id": "Aratako/Irodori-TTS-v4.1-Small",
+      "external_to_watchset": true
+    },
+    "Aratako/MioCodec-25Hz-44.1kHz-v2": {
+      "id": "Aratako/MioCodec-25Hz-44.1kHz-v2",
+      "external_to_watchset": true
+    },
+    "Aratako/MioTTS-1.7B": {
+      "id": "Aratako/MioTTS-1.7B",
+      "external_to_watchset": true
+    },
+    "Aratako/Semantic-DACVAE-Japanese-32dim": {
+      "id": "Aratako/Semantic-DACVAE-Japanese-32dim",
+      "external_to_watchset": true
+    },
+    "Banafo/Kroko-ASR": {
+      "id": "Banafo/Kroko-ASR",
+      "external_to_watchset": true
+    },
+    "dots-studio/dots.tts-mf": {
+      "id": "dots-studio/dots.tts-mf",
+      "external_to_watchset": true
+    },
+    "dots-studio/dots.tts-soar": {
+      "id": "dots-studio/dots.tts-soar",
+      "external_to_watchset": true
+    },
+    "fishaudio/s2-pro": {
+      "id": "fishaudio/s2-pro",
+      "external_to_watchset": true
+    },
+    "FunAudioLLM/Fun-ASR-Nano-2512-hf": {
+      "id": "FunAudioLLM/Fun-ASR-Nano-2512-hf",
+      "external_to_watchset": true
+    },
+    "ai-sage/GigaAM-Multilingual": {
+      "id": "ai-sage/GigaAM-Multilingual",
+      "external_to_watchset": true
+    },
+    "ai-sage/GigaAM-v3": {
+      "id": "ai-sage/GigaAM-v3",
+      "external_to_watchset": true
+    },
+    "HeartMuLa/HeartCodec-oss-20260123": {
+      "id": "HeartMuLa/HeartCodec-oss-20260123",
+      "external_to_watchset": true
+    },
+    "HeartMuLa/HeartMuLa-oss-3B": {
+      "id": "HeartMuLa/HeartMuLa-oss-3B",
+      "external_to_watchset": true
+    },
+    "HeartMuLa/HeartMuLaGen": {
+      "id": "HeartMuLa/HeartMuLaGen",
+      "external_to_watchset": true
+    },
+    "IndexTeam/IndexTTS-2": {
+      "id": "IndexTeam/IndexTTS-2",
+      "external_to_watchset": true
+    },
+    "IndexTeam/IndexTTS-2.5": {
+      "id": "IndexTeam/IndexTTS-2.5",
+      "external_to_watchset": true
+    },
+    "ASLP-lab/MeanVC2": {
+      "id": "ASLP-lab/MeanVC2",
+      "external_to_watchset": true
+    },
+    "OpenBMB/VoxCPM2": {
+      "id": "OpenBMB/VoxCPM2",
+      "external_to_watchset": true
+    },
+    "OpenMOSS-Team/MOSS-Audio-Tokenizer-Nano": {
+      "id": "OpenMOSS-Team/MOSS-Audio-Tokenizer-Nano",
+      "external_to_watchset": true
+    },
+    "OpenMOSS-Team/MOSS-Audio-Tokenizer-v2": {
+      "id": "OpenMOSS-Team/MOSS-Audio-Tokenizer-v2",
+      "external_to_watchset": true
+    },
+    "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5": {
+      "id": "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5",
+      "external_to_watchset": true
+    },
+    "OpenMOSS-Team/MOSS-TTS-Nano-100M": {
+      "id": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-ASR-0.6B": {
+      "id": "Qwen/Qwen3-ASR-0.6B",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-ASR-1.7B-hf": {
+      "id": "Qwen/Qwen3-ASR-1.7B-hf",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-ForcedAligner-0.6B": {
+      "id": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-TTS-12Hz-0.6B-Base": {
+      "id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-TTS-12Hz-1.7B-Base": {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice": {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign": {
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "external_to_watchset": true
+    },
+    "Qwen/Qwen3-TTS-Tokenizer-12Hz": {
+      "id": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "external_to_watchset": true
+    },
+    "ResembleAI/chatterbox": {
+      "id": "ResembleAI/chatterbox",
+      "external_to_watchset": true
+    },
+    "RMSnow/Vevo2": {
+      "id": "RMSnow/Vevo2",
+      "external_to_watchset": true
+    },
+    "bosonai/higgs-audio-v3-stt": {
+      "id": "bosonai/higgs-audio-v3-stt",
+      "external_to_watchset": true
+    },
+    "bosonai/higgs-audio-v3-tts-4b": {
+      "id": "bosonai/higgs-audio-v3-tts-4b",
+      "external_to_watchset": true
+    },
+    "k2-fsa/OmniVoice": {
+      "id": "k2-fsa/OmniVoice",
+      "external_to_watchset": true
+    },
+    "kyutai/pocket-tts": {
+      "id": "kyutai/pocket-tts",
+      "external_to_watchset": true
+    },
+    "llm-jp/llm-jp-3-150m": {
+      "id": "llm-jp/llm-jp-3-150m",
+      "external_to_watchset": true
+    },
+    "microsoft/VibeVoice-1.5B": {
+      "id": "microsoft/VibeVoice-1.5B",
+      "external_to_watchset": true
+    },
+    "microsoft/VibeVoice-ASR": {
+      "id": "microsoft/VibeVoice-ASR",
+      "external_to_watchset": true
+    },
+    "mistralai/Voxtral-Mini-4B-Realtime-2602": {
+      "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "external_to_watchset": true
+    },
+    "mlx-community/SeedVC-MLX": {
+      "id": "mlx-community/SeedVC-MLX",
+      "external_to_watchset": true
+    },
+    "mlx-community/mel-roformer-mlx": {
+      "id": "mlx-community/mel-roformer-mlx",
+      "external_to_watchset": true
+    },
+    "mlx-community/supertonic-3-mlx": {
+      "id": "mlx-community/supertonic-3-mlx",
+      "external_to_watchset": true
+    },
+    "mlx-community/wavlm-base-plus-mlx": {
+      "id": "mlx-community/wavlm-base-plus-mlx",
+      "external_to_watchset": true
+    },
+    "MuScriptor/muscriptor-small": {
+      "id": "MuScriptor/muscriptor-small",
+      "external_to_watchset": true
+    },
+    "neuphonic/neutts-2e": {
+      "id": "neuphonic/neutts-2e",
+      "external_to_watchset": true
+    },
+    "syvai/hviske-v5.3": {
+      "id": "syvai/hviske-v5.3",
+      "external_to_watchset": true
+    },
+    "nvidia/diar_sortformer_4spk-v1": {
+      "id": "nvidia/diar_sortformer_4spk-v1",
+      "external_to_watchset": true
+    },
+    "nvidia/magpie_tts_multilingual_357m": {
+      "id": "nvidia/magpie_tts_multilingual_357m",
+      "external_to_watchset": true
+    },
+    "nvidia/nemotron-3.5-asr-streaming-0.6b": {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "external_to_watchset": true
+    },
+    "nvidia/parakeet-tdt-0.6b-v3": {
+      "id": "nvidia/parakeet-tdt-0.6b-v3",
+      "external_to_watchset": true
+    },
+    "nvidia/personaplex-7b-v1": {
+      "id": "nvidia/personaplex-7b-v1",
+      "external_to_watchset": true
+    },
+    "owensong/Inflect-Micro-v2": {
+      "id": "owensong/Inflect-Micro-v2",
+      "external_to_watchset": true
+    },
+    "stabilityai/stable-audio-3-medium": {
+      "id": "stabilityai/stable-audio-3-medium",
+      "external_to_watchset": true
+    },
+    "stabilityai/stable-audio-3-small-music": {
+      "id": "stabilityai/stable-audio-3-small-music",
+      "external_to_watchset": true
+    },
+    "stabilityai/stable-audio-3-small-sfx": {
+      "id": "stabilityai/stable-audio-3-small-sfx",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -4554,6 +4815,447 @@
     {
       "from": "lightx2v/Wan2.2-Distill-Loras",
       "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.5-4B-abliterated",
+      "to": "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "MiniMaxAI/MiniMax-H3",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ACE-Step/Ace-Step1.5",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ACE-Step/acestep-v15-base",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Aratako/Irodori-TTS-500M-v3",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Aratako/Irodori-TTS-600M-v3-VoiceDesign",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Aratako/Irodori-TTS-v4.1-Small",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Aratako/MioCodec-25Hz-44.1kHz-v2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Aratako/MioTTS-1.7B",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Aratako/Semantic-DACVAE-Japanese-32dim",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Banafo/Kroko-ASR",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "dots-studio/dots.tts-mf",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "dots-studio/dots.tts-soar",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "fishaudio/s2-pro",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "FunAudioLLM/Fun-ASR-Nano-2512-hf",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ai-sage/GigaAM-Multilingual",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ai-sage/GigaAM-v3",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HeartMuLa/HeartCodec-oss-20260123",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HeartMuLa/HeartMuLa-oss-3B",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HeartMuLa/HeartMuLaGen",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "IndexTeam/IndexTTS-2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "IndexTeam/IndexTTS-2.5",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ASLP-lab/MeanVC2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OpenBMB/VoxCPM2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OpenMOSS-Team/MOSS-Audio-Tokenizer-Nano",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OpenMOSS-Team/MOSS-Audio-Tokenizer-v2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-ASR-0.6B",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-ASR-1.7B-hf",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-ForcedAligner-0.6B",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ResembleAI/chatterbox",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "RMSnow/Vevo2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "bosonai/higgs-audio-v3-stt",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "bosonai/higgs-audio-v3-tts-4b",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "k2-fsa/OmniVoice",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "kyutai/pocket-tts",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "llm-jp/llm-jp-3-150m",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "microsoft/VibeVoice-1.5B",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "microsoft/VibeVoice-ASR",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mlx-community/SeedVC-MLX",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mlx-community/mel-roformer-mlx",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mlx-community/supertonic-3-mlx",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mlx-community/wavlm-base-plus-mlx",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "MuScriptor/muscriptor-small",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "neuphonic/neutts-2e",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "syvai/hviske-v5.3",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/diar_sortformer_4spk-v1",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/magpie_tts_multilingual_357m",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/parakeet-tdt-0.6b-v3",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/personaplex-7b-v1",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "owensong/Inflect-Micro-v2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "stabilityai/stable-audio-3-medium",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "stabilityai/stable-audio-3-small-music",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "stabilityai/stable-audio-3-small-sfx",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-Flash-Next",
+      "to": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false

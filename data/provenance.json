@@ -1,27 +1,27 @@
 {
   "schema": "hf-vanished.provenance.v1",
-  "generated_at": "2026-10-23T04:50:30Z",
+  "generated_at": "2026-10-23T11:41:16Z",
   "algorithm": "sha256",
   "files": [
     {
       "path": "data/events.json",
       "size": 87412,
-      "sha256": "f7e7e079ef543df42274b5f78629033c935196d17e95634abefc45e932944226"
+      "sha256": "82c452447a3f6bc6f58bfbbb1c7cff95ff287be3f9dc5369966d95a3332efccd"
     },
     {
       "path": "data/state.json",
-      "size": 994704,
-      "sha256": "6713145b2042359d4f0e6752646feee3d9877207be1238c4cfb12540511cd911"
+      "size": 1019213,
+      "sha256": "575f69e0c7b23aa0895b58ecd9c30352d2f83533d967bac5841f657313dd0e87"
     },
     {
       "path": "data/status.json",
-      "size": 780585,
-      "sha256": "87d63676ab596957dc504b74f58421881ec607f35966cd3f99729f9f39934c7f"
+      "size": 792575,
+      "sha256": "398ccfeb5c40a3c5930992d85b4a2963a4e5baa0c88459f08c01752d810172d2"
     },
     {
       "path": "data/integrations.json",
-      "size": 129031,
-      "sha256": "51221950c8479da0f539ee0672563024eb5d8d6b236abf2aeece0235566ca886"
+      "size": 131066,
+      "sha256": "e0832f751edeb23ce3723e3240fa6c795c61ae869c75d49faf4aa805c9f54094"
     },
     {
       "path": "data/reasons.json",
@@ -30,28 +30,28 @@
     },
     {
       "path": "data/evidence.json",
-      "size": 4136639,
-      "sha256": "5b73c4bbe7575112fcd3500fa2da8a67af274a8c1d89709267d75824ac3e9052"
+      "size": 4133985,
+      "sha256": "3ca3162e36efddd94840c25e5cb9e95a8a6204ee477cede32b750f7ac3026675"
     },
     {
       "path": "data/manifests.json",
       "size": 812004,
-      "sha256": "9a34ab7bf5a4ac11b2d6fed382b71c3c43a5c9781cbb9de5641ff86dfb377bae"
+      "sha256": "0a06d99e590894f6ba6a3dbefe2b85d6ece46746b6d6c57cd7d1200535d076d6"
     },
     {
       "path": "data/incidents.json",
       "size": 7935,
-      "sha256": "4ac2a7e25b2a633ebb004995c1707f6d55ed0b513a0e88fcc3d4ccb933c11301"
+      "sha256": "b857742b9b00c6fe216fb5e51fd3adbf33a39e6490673ded46c7a5f1b1dcb959"
     },
     {
       "path": "data/lineage.json",
-      "size": 167732,
-      "sha256": "d09c09f2d8ef3f78e3710cd990b2ca7cb2f19b26bfde67ecc5856555c3d67a86"
+      "size": 190236,
+      "sha256": "483aefb10b56558cd6fb4806bc5c30ceb6f3e3a17225cc9eab1281822a951248"
     },
     {
       "path": "data/analytics.json",
       "size": 1918,
-      "sha256": "b4b48e829d92eb245ed7305be32c80c9454059cab65655dd25f05a22735a2f86"
+      "sha256": "72cf52fcbfae6706a6dde7649ca2825c8e59651c0fe6e7cb335820cac37ed6e6"
     },
     {
       "path": "data/mirrors.json",
@@ -59,7 +59,7 @@
       "sha256": "a0ff148ec97146a67d8dfe579e68fc5058f3c2d173e11c33250c652673c5716b"
     }
   ],
-  "root_sha256": "a305962fbe0fbdf019e5bd347d98b8d0bf553731585c5f84a038dd9dafa78272",
+  "root_sha256": "fd60a7e47001e4a971d53ca8685b65c0b477887829912df988823a1ccf8cd87f",
   "signature": {
     "mode": "sigstore-keyless-if-available",
     "bundle_path": "data/provenance.sigstore.json",
