@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-22T21:36:40Z",
+  "generated_at": "2026-10-23T04:50:10Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -604,7 +604,7 @@
     "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF": {
       "id": "mradermacher/Qwen3-VL-8B-Instruct-abliterated-GGUF",
       "visibility": "public",
-      "revision": "292ee2bd5d0f1c49e1fb82b0fbd98cb3dbfb6269",
+      "revision": "913604f6b4e56b0d0475706f3df7a6eb8c4dd415",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -2833,6 +2833,13 @@
       "revision": "6fc90a3b1b653e935a0d175e260736de25b84df5",
       "license": "apache-2.0",
       "pipeline_tag": null
+    },
+    "Comfy-Org/Wan-2.2": {
+      "id": "Comfy-Org/Wan-2.2",
+      "visibility": "public",
+      "revision": "ee6f4a40737a995bf5818954cfce6d59443b0f04",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-to-video"
     }
   },
   "edges": [
@@ -4456,6 +4463,97 @@
     {
       "from": "Tongyi-MAI/Z-Image-Turbo",
       "to": "Comfy-Org/Z-Image-Turbo",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "nvidia/ChronoEdit-14B-Diffusers",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-Animate-14B",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-A14B-Control-Camera",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-A14B-Control",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-5B-Control",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-5B-InP",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-Fun-A14B-InP",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "alibaba-pai/Wan2.2-VACE-Fun-A14B",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-I2V-A14B",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-S2V-14B",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-T2V-A14B",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Wan-AI/Wan2.2-TI2V-5B",
+      "to": "Comfy-Org/Wan-2.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "lightx2v/Wan2.2-Distill-Loras",
+      "to": "Comfy-Org/Wan-2.2",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
