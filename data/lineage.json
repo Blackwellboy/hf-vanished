@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-24T11:00:29Z",
+  "generated_at": "2026-10-24T15:57:45Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3116,7 +3116,7 @@
     "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF": {
       "id": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
       "visibility": "public",
-      "revision": "45d401bf1c50cae5ab358128d7b705cb7ebf78ec",
+      "revision": "f7c4d3b5a6784388e3c005598ccd4f438293d1c9",
       "license": "other",
       "pipeline_tag": "image-text-to-text"
     },
