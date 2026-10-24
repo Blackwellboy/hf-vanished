@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-24T04:36:42Z",
+  "generated_at": "2026-10-24T11:00:29Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2420,7 +2420,7 @@
     "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
       "id": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "visibility": "public",
-      "revision": "eec4e10a2c29b440a2ae85591fa11569ce752963",
+      "revision": "90a3350cd800ec1fe0d1660a38414ad9e985782f",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2560,7 +2560,7 @@
     "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
       "id": "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
       "visibility": "public",
-      "revision": "2b89cf3f7f2d9cb84275439e2c0cda83db15d32f",
+      "revision": "3db919a964b1f0ae0d1000ba7be90b3e38b1f7a3",
       "license": "other",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3100,6 +3100,42 @@
     },
     "stabilityai/stable-audio-3-small-sfx": {
       "id": "stabilityai/stable-audio-3-small-sfx",
+      "external_to_watchset": true
+    },
+    "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF",
+      "visibility": "public",
+      "revision": "1fa96afc8a651d0ec8fa85087caa753cd0ab9556",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated",
+      "external_to_watchset": true
+    },
+    "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF": {
+      "id": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
+      "visibility": "public",
+      "revision": "45d401bf1c50cae5ab358128d7b705cb7ebf78ec",
+      "license": "other",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/gemma-4-E4B-it-OBLITERATED-GGUF": {
+      "id": "mradermacher/gemma-4-E4B-it-OBLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "e041f42ae1bb294b514982385d51c2a47e93465d",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "prithivMLmods/Gender-Classifier-Mini": {
+      "id": "prithivMLmods/Gender-Classifier-Mini",
+      "visibility": "public",
+      "revision": "4855356b698e88ba57996836bb35091f81932667",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-classification"
+    },
+    "google/siglip2-base-patch16-224": {
+      "id": "google/siglip2-base-patch16-224",
       "external_to_watchset": true
     }
   },
@@ -5256,6 +5292,34 @@
     {
       "from": "Qwen/Qwen3.8-Flash-Next",
       "to": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated",
+      "to": "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated",
+      "to": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+      "to": "mradermacher/gemma-4-E4B-it-OBLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/siglip2-base-patch16-224",
+      "to": "prithivMLmods/Gender-Classifier-Mini",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
