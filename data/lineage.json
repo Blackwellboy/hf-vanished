@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-25T04:41:40Z",
+  "generated_at": "2026-10-25T11:29:25Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3137,6 +3137,13 @@
     "google/siglip2-base-patch16-224": {
       "id": "google/siglip2-base-patch16-224",
       "external_to_watchset": true
+    },
+    "Aimeeluvssya/gemma-4-E4B-it-OBLITERATED": {
+      "id": "Aimeeluvssya/gemma-4-E4B-it-OBLITERATED",
+      "visibility": "public",
+      "revision": "675881940063f8d34883431fcc6f96e593aab3d6",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -5320,6 +5327,13 @@
     {
       "from": "google/siglip2-base-patch16-224",
       "to": "prithivMLmods/Gender-Classifier-Mini",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-E4B-it",
+      "to": "Aimeeluvssya/gemma-4-E4B-it-OBLITERATED",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
