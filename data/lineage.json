@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-25T11:29:25Z",
+  "generated_at": "2026-10-25T16:20:08Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2858,7 +2858,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "ef1ab2598f6d4d101486e4c5b9e605c687f20642",
+      "revision": "462b4cec041e06ffb3d8fcf0d8c655051b1cd9f5",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
