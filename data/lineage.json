@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-25T20:51:46Z",
+  "generated_at": "2026-10-26T04:47:04Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2549,7 +2549,7 @@
     "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF": {
       "id": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
       "visibility": "public",
-      "revision": "24b38053cb54244cee9d400eae7841b8baa5b972",
+      "revision": "7f0e96dd37314615a443b66fb6a3b9beeb90cbe1",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
     },
