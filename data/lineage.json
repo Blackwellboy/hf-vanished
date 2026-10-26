@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-26T04:47:04Z",
+  "generated_at": "2026-10-26T13:04:24Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "7e1e7e665f95bb3cfa9d9950f5a24cd456580c69",
+      "revision": "b1d4428c280a2cbfa69287445a57dd3da338cea1",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2535,7 +2535,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "7e1e7e665f95bb3cfa9d9950f5a24cd456580c69",
+      "revision": "b1d4428c280a2cbfa69287445a57dd3da338cea1",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3144,6 +3144,13 @@
       "revision": "675881940063f8d34883431fcc6f96e593aab3d6",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF": {
+      "id": "DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF",
+      "visibility": "public",
+      "revision": "b1b82c36770c826c41e1874f250228048cdb3f5c",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
     }
   },
   "edges": [
@@ -5334,6 +5341,13 @@
     {
       "from": "google/gemma-4-E4B-it",
       "to": "Aimeeluvssya/gemma-4-E4B-it-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "SC117/Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF",
+      "to": "DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
