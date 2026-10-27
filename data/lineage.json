@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-26T22:41:01Z",
+  "generated_at": "2026-10-27T05:05:35Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2858,7 +2858,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "462b4cec041e06ffb3d8fcf0d8c655051b1cd9f5",
+      "revision": "874fcb41ececda20bcbc0782d6b4ea7f7d069ea8",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
@@ -3018,6 +3018,10 @@
       "id": "k2-fsa/OmniVoice",
       "external_to_watchset": true
     },
+    "KittenML/kitten-tts-2": {
+      "id": "KittenML/kitten-tts-2",
+      "external_to_watchset": true
+    },
     "kyutai/pocket-tts": {
       "id": "kyutai/pocket-tts",
       "external_to_watchset": true
@@ -3032,6 +3036,10 @@
     },
     "microsoft/VibeVoice-ASR": {
       "id": "microsoft/VibeVoice-ASR",
+      "external_to_watchset": true
+    },
+    "microsoft/VibeVoice-ASR-Streaming-7B": {
+      "id": "microsoft/VibeVoice-ASR-Streaming-7B",
       "external_to_watchset": true
     },
     "mistralai/Voxtral-Mini-4B-Realtime-2602": {
@@ -5157,6 +5165,13 @@
       "inferred": false
     },
     {
+      "from": "KittenML/kitten-tts-2",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
       "from": "kyutai/pocket-tts",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
@@ -5179,6 +5194,13 @@
     },
     {
       "from": "microsoft/VibeVoice-ASR",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "microsoft/VibeVoice-ASR-Streaming-7B",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
