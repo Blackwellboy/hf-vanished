@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-28T05:42:45Z",
+  "generated_at": "2026-10-28T12:55:58Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2609,7 +2609,7 @@
     "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF": {
       "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "df96693dbdfb8738c0bf1bbd0337d149808db948",
+      "revision": "881a778e306c44920e42536def3e52c3a3ecc7cd",
       "license": "apache-2.0",
       "pipeline_tag": "text-to-image"
     },
@@ -3169,6 +3169,81 @@
       "revision": "06ea573da5159e4ac7a6a91b84e9870dadfa9dfb",
       "license": "gemma",
       "pipeline_tag": null
+    },
+    "AtomicChat/LFM2.5-24B-A2B-Uncensored-GGUF": {
+      "id": "AtomicChat/LFM2.5-24B-A2B-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "b0f357bb729bcf03269e7f138cd4d30060515dee",
+      "license": "other",
+      "pipeline_tag": "text-generation"
+    },
+    "LiquidAI/LFM2.5-24B-A2B": {
+      "id": "LiquidAI/LFM2.5-24B-A2B",
+      "external_to_watchset": true
+    },
+    "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF": {
+      "id": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+      "visibility": "public",
+      "revision": "1e664931451831589ce16389a55e0d5605dd4bc5",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF": {
+      "id": "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+      "external_to_watchset": true
+    },
+    "Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF": {
+      "id": "Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF",
+      "visibility": "public",
+      "revision": "c1d826d73831efcb819d9d64c625f0fab56ae8fc",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Kujira/Underdog-Saluki-27B-1.0-MTP-GGUF": {
+      "id": "Kujira/Underdog-Saluki-27B-1.0-MTP-GGUF",
+      "external_to_watchset": true
+    },
+    "ConwayResearch/Underdog-Saluki-27B-1.0": {
+      "id": "ConwayResearch/Underdog-Saluki-27B-1.0",
+      "external_to_watchset": true
+    },
+    "YuYu1015/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-NVFP4": {
+      "id": "YuYu1015/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-NVFP4",
+      "visibility": "public",
+      "revision": "af962b8fc79a02d68f9c96a7bb70df0c3395159b",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated": {
+      "id": "huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated",
+      "external_to_watchset": true
+    },
+    "Serveurperso/YuE2-GGUF": {
+      "id": "Serveurperso/YuE2-GGUF",
+      "visibility": "public",
+      "revision": "e630f2b8f6aedf8254c3186438633c1b5eeaf80a",
+      "license": "cc-by-nc-4.0",
+      "pipeline_tag": null
+    },
+    "m-a-p/YuE2-3B": {
+      "id": "m-a-p/YuE2-3B",
+      "external_to_watchset": true
+    },
+    "m-a-p/YuE2-Vae": {
+      "id": "m-a-p/YuE2-Vae",
+      "external_to_watchset": true
+    },
+    "m-a-p/SheetSage2": {
+      "id": "m-a-p/SheetSage2",
+      "external_to_watchset": true
+    },
+    "m-a-p/MERT-v2-FullSong": {
+      "id": "m-a-p/MERT-v2-FullSong",
+      "external_to_watchset": true
+    },
+    "Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4": {
+      "id": "Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -5387,6 +5462,83 @@
     {
       "from": "alexwirrell/gemma-3-12b-it-jailbreak-ES",
       "to": "mradermacher/gemma-3-12b-it-jailbreak-ES-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "LiquidAI/LFM2.5-24B-A2B",
+      "to": "AtomicChat/LFM2.5-24B-A2B-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "to": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
+      "to": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Kujira/Underdog-Saluki-27B-1.0-MTP-GGUF",
+      "to": "Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ConwayResearch/Underdog-Saluki-27B-1.0",
+      "to": "Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated",
+      "to": "YuYu1015/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-NVFP4",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "m-a-p/YuE2-3B",
+      "to": "Serveurperso/YuE2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "m-a-p/YuE2-Vae",
+      "to": "Serveurperso/YuE2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "m-a-p/SheetSage2",
+      "to": "Serveurperso/YuE2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "m-a-p/MERT-v2-FullSong",
+      "to": "Serveurperso/YuE2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4",
+      "to": "Serveurperso/YuE2-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
