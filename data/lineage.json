@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-29T05:48:02Z",
+  "generated_at": "2026-10-29T13:01:07Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1513,7 +1513,7 @@
     "Comfy-Org/MiniMax-H3": {
       "id": "Comfy-Org/MiniMax-H3",
       "visibility": "public",
-      "revision": "e5eb578a89295337b8ff433a035929ce0279e0b6",
+      "revision": "77aac5182eb85bb20930536bac73e498bbe2bfd7",
       "license": "other",
       "pipeline_tag": null
     },
@@ -3127,7 +3127,7 @@
     "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF": {
       "id": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
       "visibility": "public",
-      "revision": "f7c4d3b5a6784388e3c005598ccd4f438293d1c9",
+      "revision": "3c0312355cd203a304fae16e1bf7b72ef0239fbf",
       "license": "other",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3243,6 +3243,17 @@
     },
     "Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4": {
       "id": "Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4",
+      "external_to_watchset": true
+    },
+    "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF": {
+      "id": "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
+      "visibility": "public",
+      "revision": "99acb20f7c83a37d7f0ea6082e924f3d61615d72",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF": {
+      "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
       "external_to_watchset": true
     }
   },
@@ -5432,6 +5443,13 @@
       "inferred": false
     },
     {
+      "from": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
+      "to": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
       "from": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
       "to": "mradermacher/gemma-4-E4B-it-OBLITERATED-GGUF",
       "relation": "DECLARED_BASE_MODEL",
@@ -5539,6 +5557,13 @@
     {
       "from": "Mothersuperior/yue2-mothersuperior-realaudio-tokenizer-v4",
       "to": "Serveurperso/YuE2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "to": "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
