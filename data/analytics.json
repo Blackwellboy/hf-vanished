@@ -1,33 +1,34 @@
 {
   "schema": "hf-vanished.analytics.v1",
-  "generated_at": "2026-10-29T13:01:19Z",
+  "generated_at": "2026-10-29T22:47:10Z",
   "summary": {
-    "events": 50,
+    "events": 51,
     "restored": 0,
-    "evidence_packets": 346,
+    "evidence_packets": 348,
     "sourced_reasons": 0,
-    "unknown_reasons": 346,
+    "unknown_reasons": 348,
     "known_reason_rate": 0.0,
     "incident_clusters": 6
   },
   "event_status": {
-    "AUTH_REQUIRED": 37,
+    "AUTH_REQUIRED": 38,
     "DELETED": 1,
     "DISABLED": 1,
     "GATED": 11
   },
   "reason_status": {
-    "UNKNOWN": 346
+    "UNKNOWN": 348
   },
   "reason_category": {
-    "unknown": 346
+    "unknown": 348
   },
   "events_by_month": {
     "2024-04": 5,
     "2024-08": 2,
     "2025-11": 3,
     "2025-12": 8,
-    "2026-09": 32
+    "2026-09": 32,
+    "2026-10": 1
   },
   "top_event_owners": [
     {
@@ -69,6 +70,10 @@
     {
       "owner": "microsoft",
       "events": 2
+    },
+    {
+      "owner": "mmiiguell10",
+      "events": 1
     },
     {
       "owner": "Aeala",

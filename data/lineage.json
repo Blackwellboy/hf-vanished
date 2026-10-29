@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-29T13:01:07Z",
+  "generated_at": "2026-10-29T22:45:44Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -847,7 +847,7 @@
     "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF": {
       "id": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
       "visibility": "public",
-      "revision": "9f646d7eda193ddf2348134f3bff3d49eed7a2c6",
+      "revision": "419ca34f424adbd9276c09e0271cb6b718e8da1d",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -1513,7 +1513,7 @@
     "Comfy-Org/MiniMax-H3": {
       "id": "Comfy-Org/MiniMax-H3",
       "visibility": "public",
-      "revision": "77aac5182eb85bb20930536bac73e498bbe2bfd7",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
       "license": "other",
       "pipeline_tag": null
     },
@@ -2247,7 +2247,7 @@
     "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF": {
       "id": "BoldingBuilds/Ternary-Bonsai-2-27B-Abliterated-PTQ1_0-GGUF",
       "visibility": "public",
-      "revision": "b5f8b912289f873f421e7cc6389d1bdda22b3721",
+      "revision": "ae7325400cc0e394b387d5057fbf8bd31c5a4fdd",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
     },
@@ -2767,7 +2767,7 @@
     },
     "mmiiguell10/Qwen3.8-27B-OBLITERATED": {
       "id": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
-      "visibility": "public",
+      "visibility": "private",
       "revision": "214ece854a9a7b7dfb4f194632d825b1ba0cefdc",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
@@ -3254,6 +3254,17 @@
     },
     "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF": {
       "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "external_to_watchset": true
+    },
+    "mradermacher/feyospace-s1-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/feyospace-s1-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "50faa9f1c38dd652e745edf84d09e1925020b02a",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "OBLITERATUS/feyospace-s1-obliterated": {
+      "id": "OBLITERATUS/feyospace-s1-obliterated",
       "external_to_watchset": true
     }
   },
@@ -5564,6 +5575,13 @@
     {
       "from": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
       "to": "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/feyospace-s1-obliterated",
+      "to": "mradermacher/feyospace-s1-OBLITERATED-i1-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
