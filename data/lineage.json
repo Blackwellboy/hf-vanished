@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-30T05:49:32Z",
+  "generated_at": "2026-10-30T12:55:58Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "618634e5a05b9619b0aa74e3e2f00d8a9928f062",
+      "revision": "588b32ce0a6a7b34bfe677100a484de7b63f67c2",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -1538,7 +1538,7 @@
     "timm/mobilenetv3_small_100.lamb_in1k": {
       "id": "timm/mobilenetv3_small_100.lamb_in1k",
       "visibility": "public",
-      "revision": "1824797e7887cbec1990e4adbd6675960a36c589",
+      "revision": "76b303ec28c466e9df37f4745dfb7aef20ab87ae",
       "license": "apache-2.0",
       "pipeline_tag": "image-classification"
     },
@@ -2084,7 +2084,7 @@
     "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit": {
       "id": "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
       "visibility": "public",
-      "revision": "59254a6257f382e01fcad8b2f466a9e19dbf74b8",
+      "revision": "86af8a25a79db41c6d0c8b686de80a08d49cb396",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2538,7 +2538,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "618634e5a05b9619b0aa74e3e2f00d8a9928f062",
+      "revision": "588b32ce0a6a7b34bfe677100a484de7b63f67c2",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3265,6 +3265,53 @@
     },
     "OBLITERATUS/feyospace-s1-obliterated": {
       "id": "OBLITERATUS/feyospace-s1-obliterated",
+      "external_to_watchset": true
+    },
+    "mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF": {
+      "id": "mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF",
+      "visibility": "public",
+      "revision": "fc9fa98fb64ca192f13640d71ec81939d114c95a",
+      "license": "mit",
+      "pipeline_tag": null
+    },
+    "Blackfrost-AI/LING-3.0-FLASH-ABLITERATED": {
+      "id": "Blackfrost-AI/LING-3.0-FLASH-ABLITERATED",
+      "external_to_watchset": true
+    },
+    "mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF": {
+      "id": "mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF",
+      "visibility": "public",
+      "revision": "0195a89c6690847e12342d1482243d25c7bc140d",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "RavichandranJ/Hermes-4-14B-OBLITERATED-V2": {
+      "id": "RavichandranJ/Hermes-4-14B-OBLITERATED-V2",
+      "external_to_watchset": true
+    },
+    "mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF": {
+      "id": "mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF",
+      "visibility": "public",
+      "revision": "e5673985f23ec69afdba219a885e0ebc4b227b0b",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "ChonkE/Gemma-4-12b-RedTeam-BlackICE": {
+      "id": "ChonkE/Gemma-4-12b-RedTeam-BlackICE",
+      "visibility": "public",
+      "revision": "0e5af186bb567adca9cadb4a1eb9d2e73147563b",
+      "license": "gemma",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF": {
+      "id": "mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF",
+      "visibility": "public",
+      "revision": "60c91b38435a794dbe694cf3c83fa21fdc9de45d",
+      "license": "gemma",
+      "pipeline_tag": null
+    },
+    "google/gemma-4-12b": {
+      "id": "google/gemma-4-12b",
       "external_to_watchset": true
     }
   },
@@ -5582,6 +5629,41 @@
     {
       "from": "OBLITERATUS/feyospace-s1-obliterated",
       "to": "mradermacher/feyospace-s1-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Blackfrost-AI/LING-3.0-FLASH-ABLITERATED",
+      "to": "mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "RavichandranJ/Hermes-4-14B-OBLITERATED-V2",
+      "to": "mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ChonkE/Gemma-4-12b-RedTeam-BlackICE",
+      "to": "mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ChonkE/Gemma-4-12b-RedTeam-BlackICE",
+      "to": "mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "google/gemma-4-12b",
+      "to": "ChonkE/Gemma-4-12b-RedTeam-BlackICE",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
