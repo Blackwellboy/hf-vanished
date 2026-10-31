@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-10-31T05:40:39Z",
+  "generated_at": "2026-10-31T12:29:32Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3248,7 +3248,7 @@
     "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF": {
       "id": "Abiray/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-IQ2_XXS-GGUF",
       "visibility": "public",
-      "revision": "c80f80cbc342aa4f1bf8495672b9b43b3b0fece7",
+      "revision": "7cd42ba35d96db00d89feef3582a6e63214a56be",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
@@ -3313,6 +3313,35 @@
     "google/gemma-4-12b": {
       "id": "google/gemma-4-12b",
       "external_to_watchset": true
+    },
+    "AtomicChat/MiniCPM-V-4.7-35B-A3B-Uncensored-GGUF": {
+      "id": "AtomicChat/MiniCPM-V-4.7-35B-A3B-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "e9a10697334708b3bec654bbf42429917c16271b",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "openbmb/MiniCPM-V-4.7-35B-A3B": {
+      "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "external_to_watchset": true
+    },
+    "mradermacher/Qwable-9B-Claude-Fable-5-OBLITERATED-i1-GGUF": {
+      "id": "mradermacher/Qwable-9B-Claude-Fable-5-OBLITERATED-i1-GGUF",
+      "visibility": "public",
+      "revision": "2dcd72f3b88dde566afc8f51f1a9065067a5f52d",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "usermma/Qwable-9B-Claude-Fable-5-OBLITERATED": {
+      "id": "usermma/Qwable-9B-Claude-Fable-5-OBLITERATED",
+      "external_to_watchset": true
+    },
+    "ibm-granite/granite-embedding-small-english-r2": {
+      "id": "ibm-granite/granite-embedding-small-english-r2",
+      "visibility": "public",
+      "revision": "2ab6fa8ea2d674564defd37171ae19079b864b33",
+      "license": "apache-2.0",
+      "pipeline_tag": "feature-extraction"
     }
   },
   "edges": [
@@ -5664,6 +5693,20 @@
     {
       "from": "google/gemma-4-12b",
       "to": "ChonkE/Gemma-4-12b-RedTeam-BlackICE",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "to": "AtomicChat/MiniCPM-V-4.7-35B-A3B-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "usermma/Qwable-9B-Claude-Fable-5-OBLITERATED",
+      "to": "mradermacher/Qwable-9B-Claude-Fable-5-OBLITERATED-i1-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
