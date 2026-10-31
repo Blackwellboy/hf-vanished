@@ -1,10 +1,10 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-10-31T12:29:32Z",
-  "cursor": 236,
+  "generated_at": "2026-10-31T21:34:45Z",
+  "cursor": 271,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
-      "captured_at": "2026-10-31T12:28:57Z",
+      "captured_at": "2026-10-31T21:34:22Z",
       "repo": "Aeala/ShareGPT_Vicuna_unfiltered",
       "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "reason": {
@@ -27,10 +27,10 @@
           "source": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered"
         }
       ],
-      "evidence_sha256": "c0c8f9e12f9a9d46d4315c6e0fdc111597471594acbc648a91f9e0630be0ffbe"
+      "evidence_sha256": "8d1673c977c91bd79ca37cfdd0a43c88eb2c971aa777695b4a2a01521e7aba10"
     },
     "OpenAssistant/oasst-sft-6-llama-30b": {
-      "captured_at": "2026-10-31T12:28:57Z",
+      "captured_at": "2026-10-31T21:34:23Z",
       "repo": "OpenAssistant/oasst-sft-6-llama-30b",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "reason": {
@@ -53,10 +53,10 @@
           "source": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b"
         }
       ],
-      "evidence_sha256": "f4026c66551b28ad97fe373438412d00bfbfd287209a5359f37d539373263d6e"
+      "evidence_sha256": "c5c56b6a57e3c90bf7c3ae5de6af985ec97ac846469d6d482663846cf9ca3201"
     },
     "Undi95/LLaMA-2-13B-GPTQ": {
-      "captured_at": "2026-10-31T12:28:57Z",
+      "captured_at": "2026-10-31T21:34:23Z",
       "repo": "Undi95/LLaMA-2-13B-GPTQ",
       "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
       "reason": {
@@ -79,10 +79,10 @@
           "source": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ"
         }
       ],
-      "evidence_sha256": "c53467ff18cd42f9a5b26da191d59cf80668b8e2f4b70e4bbe4846418441bd0a"
+      "evidence_sha256": "18e2ecf421d496cae0847555eecd20b328746941a29f8d5d0cfa310804f9230f"
     },
     "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
-      "captured_at": "2026-10-31T12:28:58Z",
+      "captured_at": "2026-10-31T21:34:24Z",
       "repo": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "reason": {
@@ -105,10 +105,10 @@
           "source": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid"
         }
       ],
-      "evidence_sha256": "735b38e2d5481a378db417586af0f4b5dcd36b39813d00170d46a8d08864b449"
+      "evidence_sha256": "02e82e3a71acfa18e52970011e44157f7fe19f47c00bb98c3461859cbb134d48"
     },
     "WizardLM/WizardLM-7B-V1.0": {
-      "captured_at": "2026-10-31T12:28:58Z",
+      "captured_at": "2026-10-31T21:34:24Z",
       "repo": "WizardLM/WizardLM-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
       "reason": {
@@ -131,10 +131,10 @@
           "source": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0"
         }
       ],
-      "evidence_sha256": "79c8ef407e37e4a2391d33e13cf5a42456bae3d6fd1bc9939994279b333212e3"
+      "evidence_sha256": "2ef84f8cc0b84993908ee198fcd4b84ade328c2a0543c0a55e481f9bd5ad0de4"
     },
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
-      "captured_at": "2026-10-31T12:28:58Z",
+      "captured_at": "2026-10-31T21:34:24Z",
       "repo": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "hf_url": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "reason": {
@@ -157,10 +157,10 @@
           "source": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber"
         }
       ],
-      "evidence_sha256": "0a3f21b42514a469df3c3fc9b41377241993313365da4abf67ed2c423641c6b2"
+      "evidence_sha256": "6f6d882ee78f7e346ea14fd9f60579d49bb591b1e52e21c25ab898fe23e47b3b"
     },
     "databricks/dolly-v1-6b": {
-      "captured_at": "2026-10-31T12:28:59Z",
+      "captured_at": "2026-10-31T21:34:25Z",
       "repo": "databricks/dolly-v1-6b",
       "hf_url": "https://huggingface.co/databricks/dolly-v1-6b",
       "reason": {
@@ -183,10 +183,10 @@
           "source": "https://huggingface.co/databricks/dolly-v1-6b"
         }
       ],
-      "evidence_sha256": "92d20a152755bd8aeb83bd144bc1368e334a6131591d4f94405df1a59f970d31"
+      "evidence_sha256": "c99061f2258ea9085b54071234222ea411697db1cd952a323948db4f9e0c2553"
     },
     "databricks/dolly-v2-12b": {
-      "captured_at": "2026-10-31T12:28:59Z",
+      "captured_at": "2026-10-31T21:34:25Z",
       "repo": "databricks/dolly-v2-12b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-12b",
       "reason": {
@@ -209,10 +209,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-12b"
         }
       ],
-      "evidence_sha256": "5b8a77f0b45b83415a43dd59b4d836aacbda992bbbff44b68f595d3cd0fe521b"
+      "evidence_sha256": "0b8b69ef4e0ef892c8a7b9f06110191de505d43ab65c405285be8279a3df6ef0"
     },
     "databricks/dolly-v2-3b": {
-      "captured_at": "2026-10-31T12:28:59Z",
+      "captured_at": "2026-10-31T21:34:25Z",
       "repo": "databricks/dolly-v2-3b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-3b",
       "reason": {
@@ -235,10 +235,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-3b"
         }
       ],
-      "evidence_sha256": "0d7d5f38deaf28c7d7647eee75e83cb96f591ef0a439548de618def0174d8c84"
+      "evidence_sha256": "65229f466e87a265bf1201ae828e6db647ae9b5eb4ad427599a817273e02e542"
     },
     "databricks/dolly-v2-7b": {
-      "captured_at": "2026-10-31T12:29:00Z",
+      "captured_at": "2026-10-31T21:34:26Z",
       "repo": "databricks/dolly-v2-7b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-7b",
       "reason": {
@@ -261,10 +261,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-7b"
         }
       ],
-      "evidence_sha256": "93b2c2332abf58d6db69ddd89a64da5ae3207a59b6483b998c4dfd2b9fbff556"
+      "evidence_sha256": "4711fe370d57e46d85bc252d941532b4bc1a789cd2b8ec60f927e7f2e4e00316"
     },
     "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
-      "captured_at": "2026-10-31T12:29:00Z",
+      "captured_at": "2026-10-31T21:34:26Z",
       "repo": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "reason": {
@@ -287,10 +287,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
         }
       ],
-      "evidence_sha256": "48fe5c0d7deedd232cc49030f47262a7a0e70a42965f46b7647a772dea233ba5"
+      "evidence_sha256": "83d67628c57b3d13d121e30da017be78ba5e9dcc220700550f3497113b5be091"
     },
     "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
-      "captured_at": "2026-10-31T12:29:01Z",
+      "captured_at": "2026-10-31T21:34:26Z",
       "repo": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "reason": {
@@ -313,10 +313,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "17685d2087f5da5f96318d08af6687f13f379ae141cf397014f8edfdd9a74564"
+      "evidence_sha256": "aed86fbcbd371502cbef231a543d9e4e8134387cc6815ef321627283ba1778f3"
     },
     "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-10-31T12:29:01Z",
+      "captured_at": "2026-10-31T21:34:27Z",
       "repo": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -339,10 +339,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "ef454c040282eee86e68411997fcf923a5968174aac5a1aa715609dacb9a5b2a"
+      "evidence_sha256": "e02c51b36ab26f84dfd30cffbc6b549408f84ec70c852b3e088e4cbd74d991ea"
     },
     "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
-      "captured_at": "2026-10-31T12:29:01Z",
+      "captured_at": "2026-10-31T21:34:27Z",
       "repo": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "reason": {
@@ -365,10 +365,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "2a0fcda3bb97de4dee949363ab34a63c4eebcac45589681b761802ab0e5e88a3"
+      "evidence_sha256": "6a3e473f7aa73c9837b94d2e28e5a18b74ebc3f37d7ec18ad55541ce5fa6a48b"
     },
     "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
-      "captured_at": "2026-10-31T12:29:02Z",
+      "captured_at": "2026-10-31T21:34:27Z",
       "repo": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "reason": {
@@ -391,10 +391,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "5282398ad36a6fe7886bed42232694248273cc60501880347ef71977c5ce343b"
+      "evidence_sha256": "1a166afce23f580ccba7fd9b7876d6678f12233ee6deaedc2090a2d173e684b2"
     },
     "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-10-31T12:29:02Z",
+      "captured_at": "2026-10-31T21:34:28Z",
       "repo": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -417,10 +417,10 @@
           "source": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "f3918d2266ff056214bcc6386687065f656131109462bbd01e7000771aff40cc"
+      "evidence_sha256": "f4988aff7219f805f83763a1ae15a5f208eab8c5156e9ecbae7a8516bdca6d73"
     },
     "mosaicml/mpt-7b-chat": {
-      "captured_at": "2026-10-31T12:29:02Z",
+      "captured_at": "2026-10-31T21:34:28Z",
       "repo": "mosaicml/mpt-7b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "reason": {
@@ -449,10 +449,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-chat"
         }
       ],
-      "evidence_sha256": "884b7118e725130732e716d293ea66dd6cd5d8a2052bf777bcf9c7ffdf60dab8"
+      "evidence_sha256": "12a1e6c2372890de434f93b82e2b9ee05022c3a814635202ba5ed98b09708c99"
     },
     "stabilityai/stable-diffusion-2-1": {
-      "captured_at": "2026-10-31T12:29:03Z",
+      "captured_at": "2026-10-31T21:34:28Z",
       "repo": "stabilityai/stable-diffusion-2-1",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "reason": {
@@ -481,10 +481,10 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2-1"
         }
       ],
-      "evidence_sha256": "0c30204480f43238a89ba5f653d9b660b10981429a77c26882ec5099c3c20015"
+      "evidence_sha256": "ad61a5ed8e72ec4598ff68483a5b3b7094effc3d72f450b825aa0493e3aa58ae"
     },
     "tencent/HunyuanDiT": {
-      "captured_at": "2026-10-31T12:29:03Z",
+      "captured_at": "2026-10-31T21:34:29Z",
       "repo": "tencent/HunyuanDiT",
       "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
       "reason": {
@@ -507,10 +507,10 @@
           "source": "https://huggingface.co/tencent/HunyuanDiT"
         }
       ],
-      "evidence_sha256": "144db0b95957a701c822c6bf974f851e1194bd1658e66333c88101ad104a6e0c"
+      "evidence_sha256": "802e004cb4b33e95a8bde6d67c560adfe8f6893cb5bbe38e74350947f9d2c5ec"
     },
     "databricks/dbrx-base": {
-      "captured_at": "2026-10-31T12:29:03Z",
+      "captured_at": "2026-10-31T21:34:29Z",
       "repo": "databricks/dbrx-base",
       "hf_url": "https://huggingface.co/databricks/dbrx-base",
       "reason": {
@@ -533,10 +533,10 @@
           "source": "https://huggingface.co/databricks/dbrx-base"
         }
       ],
-      "evidence_sha256": "aba175aa53a329c3c7a80de6ab806751da574de522c57b0f6422e761de7d0a53"
+      "evidence_sha256": "5cc69f658d8879839809a59505b25205bed6ea68ce1ffab5ce7e3f39e7bdf6f3"
     },
     "databricks/dbrx-instruct": {
-      "captured_at": "2026-10-31T12:29:04Z",
+      "captured_at": "2026-10-31T21:34:29Z",
       "repo": "databricks/dbrx-instruct",
       "hf_url": "https://huggingface.co/databricks/dbrx-instruct",
       "reason": {
@@ -559,10 +559,10 @@
           "source": "https://huggingface.co/databricks/dbrx-instruct"
         }
       ],
-      "evidence_sha256": "3400162cc5fafb22050b651a7a98a99819e550d9bc98d2c5f934fc0a9760dfbd"
+      "evidence_sha256": "ce94b5029ec1897240a65c00f8f21428af45639003a2a31433b3c56bb4717180"
     },
     "mosaicml/mpt-30b": {
-      "captured_at": "2026-10-31T12:29:04Z",
+      "captured_at": "2026-10-31T21:34:30Z",
       "repo": "mosaicml/mpt-30b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b",
       "reason": {
@@ -585,10 +585,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b"
         }
       ],
-      "evidence_sha256": "a2c34a2628a590b479fff3e9db1feae632496f40b90710dfe85cc4138768def3"
+      "evidence_sha256": "ab00199b166f5a6eab5f8bbf0c4bbabb8f8dfb9da4d680d507524ab85b93ce85"
     },
     "mosaicml/mpt-30b-chat": {
-      "captured_at": "2026-10-31T12:29:05Z",
+      "captured_at": "2026-10-31T21:34:30Z",
       "repo": "mosaicml/mpt-30b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-chat",
       "reason": {
@@ -611,10 +611,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-chat"
         }
       ],
-      "evidence_sha256": "f8a863701c14d8bc9267cabb35388180ff0d3a83ec7d420c1c25730a9690e378"
+      "evidence_sha256": "83b18d630571255b6117255e0532f597964a1e56f6f05d0ce1fd3acc1f93bfc1"
     },
     "mosaicml/mpt-30b-instruct": {
-      "captured_at": "2026-10-31T12:29:05Z",
+      "captured_at": "2026-10-31T21:34:30Z",
       "repo": "mosaicml/mpt-30b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-instruct",
       "reason": {
@@ -637,10 +637,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-instruct"
         }
       ],
-      "evidence_sha256": "1b74d77a4984a18204baa81fc106f78eb77b99e475b972ef6422684dbd432250"
+      "evidence_sha256": "e583259e5be5d11692e229a5c93fbdc9a02b9cb93f4b6336be5ba2bfffe94878"
     },
     "mosaicml/mpt-7b": {
-      "captured_at": "2026-10-31T12:29:05Z",
+      "captured_at": "2026-10-31T21:34:31Z",
       "repo": "mosaicml/mpt-7b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b",
       "reason": {
@@ -663,10 +663,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b"
         }
       ],
-      "evidence_sha256": "2ba138117880b8a53fa8e6f4ecb79682ad4be12597a0f13400cdb52ad006bded"
+      "evidence_sha256": "89d6c587a7731e3b4bb17ab2c79f12ef4b17a1791443bd615958ac9784cce0d0"
     },
     "mosaicml/mpt-7b-instruct": {
-      "captured_at": "2026-10-31T12:29:06Z",
+      "captured_at": "2026-10-31T21:34:31Z",
       "repo": "mosaicml/mpt-7b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-instruct",
       "reason": {
@@ -689,10 +689,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-instruct"
         }
       ],
-      "evidence_sha256": "dd698ed2fb912d8679939d6be890eba9d269437fa307af414522375cb84b69b1"
+      "evidence_sha256": "b91e1c33b7edd5f309e8e31374865d28aafbc384d5f97316a7fee9573b07b8bb"
     },
     "mosaicml/mpt-7b-storywriter": {
-      "captured_at": "2026-10-31T12:29:06Z",
+      "captured_at": "2026-10-31T21:34:31Z",
       "repo": "mosaicml/mpt-7b-storywriter",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-storywriter",
       "reason": {
@@ -715,7 +715,7 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-storywriter"
         }
       ],
-      "evidence_sha256": "b571a7db2ebcb669df27379eeee7ca1fdbf01fd1ed79a882dc225810b5e86861"
+      "evidence_sha256": "9708bb898c55339490199e35a670896f2829137a780570179c40a419ca1b0e25"
     },
     "stabilityai/stable-diffusion-2": {
       "captured_at": "2026-10-29T13:00:53Z",
@@ -52939,7 +52939,7 @@
       "evidence_sha256": "a166624773495c9ad9196758c09d4bba8c5f0407ff8d71880496ec0069192119"
     },
     "mlabonne/Qwen3-30B-A3B-abliterated": {
-      "captured_at": "2026-10-27T18:01:43Z",
+      "captured_at": "2026-10-31T21:34:33Z",
       "repo": "mlabonne/Qwen3-30B-A3B-abliterated",
       "hf_url": "https://huggingface.co/mlabonne/Qwen3-30B-A3B-abliterated",
       "reason": {
@@ -52974,7 +52974,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "cc44585ce985585294b9b6186bcb40e9d52f04f8d7fcd4f8753493288a45ac6e"
+          "source_sha256": "f4084db9812e7bb18ba63b7c4a6472b567845a279e3b1ee13a82a7b503ebce40"
         },
         {
           "num": 6,
@@ -53010,7 +53010,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "cf2ae840419d0584a3d008cd007f35f0bd793a9847d3d47316e4268822a9d236"
+          "source_sha256": "d1cf87286f20380104947ccd5ad539b1b0cdc2fda84cacd81e9f92fd9fc49e9d"
         },
         {
           "num": 4,
@@ -53040,7 +53040,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "6d4ea7a0573719892514d206a0d35786d9e42acd807a7d85d86ce5bf68e485e6"
+          "source_sha256": "3f7c884ed5dd20232b3a314d43ff05002ec1f87297121696e6ad5184e185d825"
         },
         {
           "num": 3,
@@ -53076,7 +53076,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "76d4ad13f83a74965cbbce39b56ef995c7a7f3b0d3309ee031a4bae0767d90b7"
+          "source_sha256": "2385a6f2c4f7203d9f744a5f57db3ac8fce92b048911d398d96d716702b2ba28"
         },
         {
           "num": 2,
@@ -53100,7 +53100,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "574226926e260e8049294a18cf9f27529c2782aa63ae0cae584ef670af82f198"
+          "source_sha256": "b9e78a4746e09eb2642ce9d6dbff1c1f5f04174a6c44fe1288725daa4de77133"
         },
         {
           "num": 1,
@@ -53166,7 +53166,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "b1f460068a67ad9d575ff11355d41b1a81fc9a1d074df894740d806089464efe"
+          "source_sha256": "355fc76cd0e1bac5e1328b2e7e7d9247bc0534dda16c0ed087ee5ef472a990de"
         }
       ],
       "commits": [
@@ -53379,10 +53379,10 @@
           "source": "https://huggingface.co/mlabonne/Qwen3-30B-A3B-abliterated/commit/bca2980134d736b0f515441eadd859c3668c3c86"
         }
       ],
-      "evidence_sha256": "243f4146e22f3a107306b62f778ffb85737f347d1aebad8e88d3d8350da46a00"
+      "evidence_sha256": "3d847e69183d269e0ab6baf65b6f262e2c50dfb8cfd75f868df008c80dae6110"
     },
     "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF": {
-      "captured_at": "2026-10-27T18:01:45Z",
+      "captured_at": "2026-10-31T21:34:35Z",
       "repo": "mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF",
       "reason": {
@@ -53421,7 +53421,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/1bb49d2489ad2aba9c1682e0dea8aac03b0d1b3b"
@@ -53433,7 +53433,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/b064c8f504ad52f2f25686b780321ae31b6e43c0"
@@ -53445,7 +53445,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/f697bb4237ce2ee5e8176791bd7f26baa64e1bcd"
@@ -53457,7 +53457,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/9a0bd67cf5cb8335649b6bee6b3ec80a4ba8146c"
@@ -53469,7 +53469,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/031f019a735e5caa0dca69f8bc08cb4e2026b890"
@@ -53481,7 +53481,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/ae0697872eb5b62c29dd1afdb9a26710db608179"
@@ -53493,7 +53493,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/7186eb594a8b465d9724dd34d50cdc86deb48d2c"
@@ -53505,7 +53505,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/104b8b2625bb796ea3b3cdbd5c390394948a4b20"
@@ -53517,7 +53517,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/b750e73a79e6fdfc580a1754887b19699f7629db"
@@ -53529,7 +53529,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/78a051b724a4c39a975cb67597f49b1c5896744a"
@@ -53541,7 +53541,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/1edea2e1936921b078a5864fa105cdd708aad26b"
@@ -53553,7 +53553,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/36e3f27386e234dba1e4ace999d1f30a7b6880cf"
@@ -53635,10 +53635,10 @@
           "source": "https://huggingface.co/mradermacher/Gemma-4-12B-OBLITERATED-i1-GGUF/commit/36e3f27386e234dba1e4ace999d1f30a7b6880cf"
         }
       ],
-      "evidence_sha256": "b9753fc9a4277e8bf7c505ed3b69677ee9b2a19edf70df3dd6c566467218abf6"
+      "evidence_sha256": "07d367ea6720acafe7010263001f4540f2d7bd02cb951ed1d420ded919117ebf"
     },
     "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF": {
-      "captured_at": "2026-10-27T18:01:45Z",
+      "captured_at": "2026-10-31T21:34:37Z",
       "repo": "mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF",
       "reason": {
@@ -53671,7 +53671,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/a6d52bc87e9dce9d882a09c2de2d61ffe57e01e5"
@@ -53683,7 +53683,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/d1149b04dadd2d9afd0af66512787694e776eb47"
@@ -53695,7 +53695,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/0e56d40865d983ce64661831f4160c3b1be67905"
@@ -53707,7 +53707,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/449de7e32397f400a3fe8e7be2fc49973ae2e925"
@@ -53719,7 +53719,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/e4672a3c32a33b31565d0fbc823753b9d3290c74"
@@ -53731,7 +53731,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/f07b022309a53f78387bb033c3efc48f66c0e93d"
@@ -53743,7 +53743,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/00b213d27c1a3b28e4a326c3731d72d6d33a2606"
@@ -53755,7 +53755,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/a235405e27645827773987daf49cc17c1b3c090f"
@@ -53767,7 +53767,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/d4eb422eb008969fa9593e1ba2e3417f17939d83"
@@ -53779,7 +53779,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/7d77343ebabda2cb30fda212a24dfc82d3ee7787"
@@ -53791,7 +53791,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/8252444fa92a5c6268654a66041a1ca4c72a53aa"
@@ -53803,7 +53803,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/deee059f5d10f40a0e083d699b954348930af37e"
@@ -53885,10 +53885,10 @@
           "source": "https://huggingface.co/mradermacher/Huihui-Ornith-1.5-9B-abliterated-i1-GGUF/commit/deee059f5d10f40a0e083d699b954348930af37e"
         }
       ],
-      "evidence_sha256": "9748753f377e2f203b204244a3a14ffac71ac79645fb7beae175c32ae155df9c"
+      "evidence_sha256": "e4d238937746e96b23b7e834bc93eacfcc16c26087477cf5a21ff068e494639a"
     },
     "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF": {
-      "captured_at": "2026-10-27T22:14:58Z",
+      "captured_at": "2026-10-31T21:34:39Z",
       "repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
       "reason": {
@@ -53902,7 +53902,13 @@
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "--- base_model: huihui-ai/Huihui-Qwen3.5-9B-abliterated language: - en library_name: transformers license: apache-2.0 license_link: https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE mradermacher: readme_rev: 1 quantized_by: mradermacher tags: - abliterated - uncensored --- ##",
-          "source_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/raw/9f646d7eda193ddf2348134f3bff3d49eed7a2c6/README.md"
+          "source_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/raw/419ca34f424adbd9276c09e0271cb6b718e8da1d/README.md"
+        },
+        {
+          "signal": "private",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "time. Additional thanks to [@nicoboss](https://huggingface.co/nicoboss) for giving me access to his private supercomputer, enabling me to provide many more imatrix quants, at much higher quality, than I would otherwise be able to. <!-- end -->",
+          "source_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/raw/419ca34f424adbd9276c09e0271cb6b718e8da1d/README.md"
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
@@ -53933,6 +53939,18 @@
         }
       ],
       "commits": [
+        {
+          "id": "419ca34f424adbd9276c09e0271cb6b718e8da1d",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-29T22:09:25.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/commit/419ca34f424adbd9276c09e0271cb6b718e8da1d"
+        },
         {
           "id": "9f646d7eda193ddf2348134f3bff3d49eed7a2c6",
           "title": "auto-patch README.md",
@@ -54064,23 +54082,17 @@
             }
           ],
           "url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/commit/973d1fa8b79a4e7fe4aeeb1ac378bc78b4968a98"
-        },
-        {
-          "id": "d0e049614dd6a8a4e87e68d62de89afcc26cacca",
-          "title": "uploaded from nico1",
-          "created_at": "2026-03-10T06:24:02.000Z",
-          "authors": [
-            {
-              "user": "mradermacher",
-              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
-            }
-          ],
-          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/commit/d0e049614dd6a8a4e87e68d62de89afcc26cacca"
         }
       ],
-      "readme_sha256": "0718ab4de97a3e66410492f9cbd24007c070a35886783c335ff3df1295bad7ed",
-      "manifest_root_sha256": "db9f398c9bfc668a6f526d4ea062d7a111652338439d15c65abac000e10dba1b",
+      "readme_sha256": "6c0db3566388d17a5385fc2e422f364c06d8befbe35ff3f16cadf4df073b2178",
+      "manifest_root_sha256": "0db0087ceb6eac2e79ed8f49e9833ab0b8247907f6846a53a68cb1cc3ba514af",
       "timeline": [
+        {
+          "at": "2026-10-29T22:09:25.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/commit/419ca34f424adbd9276c09e0271cb6b718e8da1d"
+        },
         {
           "at": "2026-07-03T23:00:56.000Z",
           "type": "discussion",
@@ -54152,18 +54164,12 @@
           "type": "commit",
           "label": "uploaded from nico1",
           "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/commit/973d1fa8b79a4e7fe4aeeb1ac378bc78b4968a98"
-        },
-        {
-          "at": "2026-03-10T06:24:02.000Z",
-          "type": "commit",
-          "label": "uploaded from nico1",
-          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/commit/d0e049614dd6a8a4e87e68d62de89afcc26cacca"
         }
       ],
-      "evidence_sha256": "d0c0bc28a4b1b2711798b7dec0a643a342c19f74950941fd0339fbca7bb06c34"
+      "evidence_sha256": "2efe444dcbf2fbb580be174307f60daf9c3204b3c068adc60fc5ba99e9738e83"
     },
     "mradermacher/Jailbreak-generator-GGUF": {
-      "captured_at": "2026-10-27T22:15:02Z",
+      "captured_at": "2026-10-31T21:34:41Z",
       "repo": "mradermacher/Jailbreak-generator-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Jailbreak-generator-GGUF",
       "reason": {
@@ -54410,10 +54416,10 @@
           "source": "https://huggingface.co/mradermacher/Jailbreak-generator-GGUF/commit/3314a1909f1db9659bb44e92b6665526d602e6fe"
         }
       ],
-      "evidence_sha256": "0a5378bbcbd7c2fde485b0ccac5fdbc9491aca31eeec1ab6e9b6175bf23a697c"
+      "evidence_sha256": "caa51cc2eecbf5f2c80f6f2eed01508006bf4d6b9ed96ac8696221a57f540d44"
     },
     "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF": {
-      "captured_at": "2026-10-27T22:15:03Z",
+      "captured_at": "2026-10-31T21:34:43Z",
       "repo": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF",
       "reason": {
@@ -54654,10 +54660,10 @@
           "source": "https://huggingface.co/mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-GGUF/commit/51e1c4797f39cd232600201f3daa66095f30cbd9"
         }
       ],
-      "evidence_sha256": "c2eea1e6e41a2a3469a3961d723bfe2033e6b651752e313bcdf79a288807b67d"
+      "evidence_sha256": "4543fc61612d194169b778c1224998f2ce13b5c0aabffd7f2f6b9f46380d3d50"
     },
     "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF": {
-      "captured_at": "2026-10-27T22:15:03Z",
+      "captured_at": "2026-10-31T21:34:43Z",
       "repo": "mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF",
       "reason": {
@@ -54904,10 +54910,10 @@
           "source": "https://huggingface.co/mradermacher/Llama3.1-8b-instruct-LLMPC-Red-Team-i1-GGUF/commit/181295a897690bc97f6ec1aa5af66b2fbb3e1ce1"
         }
       ],
-      "evidence_sha256": "639b3ac7c02f34a26241d43e13fb42a7b73a500743c7dba358265f726c2cf3f9"
+      "evidence_sha256": "2dafd95e278ddb5c7532030cf7368aa8d2475c2178d1ba6e154c03d0e7a833a6"
     },
     "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF": {
-      "captured_at": "2026-10-27T22:15:04Z",
+      "captured_at": "2026-10-31T21:34:43Z",
       "repo": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF",
       "reason": {
@@ -55203,10 +55209,10 @@
           "source": "https://huggingface.co/mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-GGUF/commit/0151063ac9b868cb7a2ee31d8d87f4a44db2e37a"
         }
       ],
-      "evidence_sha256": "27a4e2464cca42fb1b03493b62621940889b005cb8e0885266e0f361832bb16a"
+      "evidence_sha256": "eb6cba923e238b496351245f3fa99640b7df3e4beb7bd2a40665dccd41278e56"
     },
     "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF": {
-      "captured_at": "2026-10-27T22:15:05Z",
+      "captured_at": "2026-10-31T21:34:44Z",
       "repo": "mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF",
       "reason": {
@@ -55490,10 +55496,10 @@
           "source": "https://huggingface.co/mradermacher/Ornith-1.5-35B-A3B-FULLY-OBLITERATED-i1-GGUF/commit/d77cdcc262c597b47a23647f1155330aadc4e521"
         }
       ],
-      "evidence_sha256": "07ef133e154dadff5323f5b4f34d81e422ff177b829c769c391398a0edd01ad8"
+      "evidence_sha256": "128856ce47d1c023442a8866352fdf888ae4b8aef0055ff5a3c86765d2599768"
     },
     "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF": {
-      "captured_at": "2026-10-27T22:15:05Z",
+      "captured_at": "2026-10-31T21:34:44Z",
       "repo": "mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF",
       "reason": {
@@ -55740,10 +55746,10 @@
           "source": "https://huggingface.co/mradermacher/Ornith-1.5-9B-OBLITERATED-GGUF/commit/ad20dd99cf16d13bbeeab960af62322a3a709a1f"
         }
       ],
-      "evidence_sha256": "ab5e69659c8f98f61b26a46822e4b906d073a85772145391ff0802d3b811b3a1"
+      "evidence_sha256": "fd6dc44d4fef0475c5445b38d90abda37e25ee6f42ee5e3692460d87ee5eb8a9"
     },
     "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF": {
-      "captured_at": "2026-10-27T22:15:06Z",
+      "captured_at": "2026-10-31T21:34:45Z",
       "repo": "mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF",
       "reason": {
@@ -55990,7 +55996,7 @@
           "source": "https://huggingface.co/mradermacher/Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/7b3a2792b48990edf6d54fa9df13337e4ebb066e"
         }
       ],
-      "evidence_sha256": "66421b03ca83cc170ab3dd3fc10c19df0540e35852ca2a12b5f0d4f706c498c9"
+      "evidence_sha256": "a6af7ed7b1e1d3977da7d561d1b73bd764d64b81ae9757d3093c36ee480e5a4f"
     },
     "mradermacher/Qwen3-1.7B-Jailbreak-reasoning-GGUF": {
       "captured_at": "2026-10-27T22:15:08Z",
@@ -74659,7 +74665,7 @@
       "evidence_sha256": "3991e19d02b59f7610e0a52210d5fe86a8e225fe8ca06853d7df96abbefaf5a2"
     },
     "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit": {
-      "captured_at": "2026-10-27T18:01:44Z",
+      "captured_at": "2026-10-31T21:34:34Z",
       "repo": "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
       "hf_url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
       "reason": {
@@ -74673,7 +74679,7 @@
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "--- license: apache-2.0 base_model: OBLITERATUS/Qwen3.8-27B-OBLITERATED base_model_relation: quantized library_name: mlx pipeline_tag: image-text-to-text language: - en tags: - mlx - optiq -",
-          "source_url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/raw/59254a6257f382e01fcad8b2f466a9e19dbf74b8/README.md"
+          "source_url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/raw/86af8a25a79db41c6d0c8b686de80a08d49cb396/README.md"
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
@@ -74706,10 +74712,22 @@
               "content": ""
             }
           ],
-          "source_sha256": "d630d55a3a5d428bb5c81c9ff5e996759359637705a0befeb24006f334c35dc8"
+          "source_sha256": "37ebe4dd919e0c979c2fa7f9208f02d413032111386d6a6c81c097bf9c1c8a7c"
         }
       ],
       "commits": [
+        {
+          "id": "86af8a25a79db41c6d0c8b686de80a08d49cb396",
+          "title": "card: the MTP head's norms are zero-centred (add 1.0 outside optiq serve)",
+          "created_at": "2026-10-30T10:14:28.000Z",
+          "authors": [
+            {
+              "user": "codelion",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1677134945205-62f32eab52ad88c930bb3f3b.png"
+            }
+          ],
+          "url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/86af8a25a79db41c6d0c8b686de80a08d49cb396"
+        },
         {
           "id": "59254a6257f382e01fcad8b2f466a9e19dbf74b8",
           "title": "Move the vision sidecar to the repo root and add the processor files (LM Studio flattens optiq/; mlx-vlm, oMLX and LM Studio load it from the root)",
@@ -74783,9 +74801,15 @@
           "url": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/75ece201d619104b0d3a6b519c93be1603e83cb3"
         }
       ],
-      "readme_sha256": "2bbe59a4410ca5b6a51180ae8deb1235599b91004ff224c97fef404def16fecf",
-      "manifest_root_sha256": "be005ba6a1e79e85e09cc02d6c2d064aa293194e68adc34563ae2ad2c0cf1eee",
+      "readme_sha256": "64a65b9bb3835459f50d529c4c5033a34dff6a0f7d6bfaa08dddce33f2af5ba7",
+      "manifest_root_sha256": "77df0daaa9fb29e268432b181eb2fa22693e1bb3fe181f3e70ad5d6fcd8a8950",
       "timeline": [
+        {
+          "at": "2026-10-30T10:14:28.000Z",
+          "type": "commit",
+          "label": "card: the MTP head's norms are zero-centred (add 1.0 outside optiq serve)",
+          "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/86af8a25a79db41c6d0c8b686de80a08d49cb396"
+        },
         {
           "at": "2026-10-18T02:27:46.000Z",
           "type": "commit",
@@ -74829,7 +74853,7 @@
           "source": "https://huggingface.co/mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit/commit/75ece201d619104b0d3a6b519c93be1603e83cb3"
         }
       ],
-      "evidence_sha256": "f109624e7e43ce60b772d981d24f46fa5dffa723eed57c1540b8090c533ecb74"
+      "evidence_sha256": "d996505c76c7add859a2b3f3e078cc1d08370a7667d78f7cc02a34d02c748edf"
     },
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF": {
       "captured_at": "2026-10-29T05:48:02Z",
@@ -76507,7 +76531,7 @@
       "evidence_sha256": "8f33d601114356970741e2a00de8539b71c6362f532ff19e81eb6a31fcc27929"
     },
     "mradermacher/Ornith-1.5-9B-uncensored-GGUF": {
-      "captured_at": "2026-10-27T22:15:06Z",
+      "captured_at": "2026-10-31T21:34:45Z",
       "repo": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Ornith-1.5-9B-uncensored-GGUF",
       "reason": {
@@ -76869,7 +76893,7 @@
           "source": "https://huggingface.co/mradermacher/Ornith-1.5-9B-uncensored-GGUF/commit/3d684998b7ceec8b581dc7fd70d2459d4551b971"
         }
       ],
-      "evidence_sha256": "5d863e8e2c49ebe2627381e550b718ad90073e6f65b57e0672ed638fd86a717a"
+      "evidence_sha256": "a9a1e9ac1327849acf865a6a95e345409e12196c9bbfbfb0f7398f93b74c565a"
     },
     "distilbert/distilbert-base-uncased": {
       "captured_at": "2026-10-30T22:20:45Z",
@@ -78664,7 +78688,7 @@
       "evidence_sha256": "827600111c7445f74dfbd5859a565606c762a8044977b9794991ffd46614ebe2"
     },
     "mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF": {
-      "captured_at": "2026-10-27T22:15:07Z",
+      "captured_at": "2026-10-31T21:34:45Z",
       "repo": "mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF",
       "reason": {
@@ -78911,7 +78935,7 @@
           "source": "https://huggingface.co/mradermacher/Ornith1.5-9B-3MPER0RR-obliterated-i1-GGUF/commit/551b6dbec1cc4f864983355c6f2fedb99dd679dc"
         }
       ],
-      "evidence_sha256": "d6153cacef9ceaf3a32547f589aa632d66bf4f846e92b4c52f46f9d7f30d8112"
+      "evidence_sha256": "3bc7d69056e42c67cb66b1f28d8492c0e4cb3de06d7ae34c7c88fb84b3893bd8"
     },
     "mradermacher/SGuard-JailbreakFilter-2B-v1-GGUF": {
       "captured_at": "2026-10-28T05:42:35Z",
@@ -80728,7 +80752,7 @@
       "evidence_sha256": "684cb2b91ec2ef6616e550f0e6944a93d01b8538bea3566ef36105051cd4fe3f"
     },
     "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF": {
-      "captured_at": "2026-10-27T22:14:59Z",
+      "captured_at": "2026-10-31T21:34:40Z",
       "repo": "mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF",
       "reason": {
@@ -80975,7 +80999,7 @@
           "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.6-35B-A3B-abliterated-GGUF/commit/f1ba3f36e163ffd2c0bdaad1165cfb50afdebf8b"
         }
       ],
-      "evidence_sha256": "10524866380a395efa038ea8c888f7c979fea32ee370139f1164924339b5d987"
+      "evidence_sha256": "0fecab8b5a3eb37be4706a33a71c1f143db399f9f44cbe9ec685f1f95b6d2e00"
     },
     "mradermacher/Qwen3.8-27B-Obliterated-NOESIS-BF16-i1-GGUF": {
       "captured_at": "2026-10-28T05:42:35Z",
@@ -82591,7 +82615,7 @@
       "evidence_sha256": "049c06cd58ee4e8492b2087f18aaa9f0bc003b4895455d4a634717dbabcc7266"
     },
     "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF": {
-      "captured_at": "2026-10-27T18:01:45Z",
+      "captured_at": "2026-10-31T21:34:35Z",
       "repo": "mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF",
       "reason": {
@@ -82632,7 +82656,7 @@
               "content": ""
             }
           ],
-          "source_sha256": "cdb29630d4aacb396e6a8bb62fa56dce3982d97f82bbc0e0e6cb6b02cb9b2e56"
+          "source_sha256": "d05ce1220eaa3bcce0b55971804f5d6d214ae77f4a5082411413717f4a7901ec"
         }
       ],
       "commits": [
@@ -82643,7 +82667,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/5936e88f1885b856b54520c372f2cd41e71819fd"
@@ -82655,7 +82679,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/6b1616ed7ff7ac8585cbe01413512cb6d3f8ecc6"
@@ -82667,7 +82691,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/354e553a0ef131a75605e0671932e09b5f2f204f"
@@ -82679,7 +82703,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/5892c0340f7dbac2da7cce568b8ba1395facbbde"
@@ -82691,7 +82715,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/a795340527d428657897362499940edb1e8885c0"
@@ -82703,7 +82727,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/afd55a031b25f838220a600b95b66df9c83ebc8f"
@@ -82715,7 +82739,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/02539dbdb2cc986d063ecedb22017a083b1b791e"
@@ -82727,7 +82751,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/3629783d7e345ef9acff5ba630cd3cf6da969cdf"
@@ -82739,7 +82763,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/95fd3ec2948382d477146299a574a16e9d951ad9"
@@ -82751,7 +82775,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/22a226934d3f5e9703e11168af218613aafa1161"
@@ -82763,7 +82787,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/fc0a28205742a61d8b5893ae60888025343afd7e"
@@ -82775,7 +82799,7 @@
           "authors": [
             {
               "user": "mradermacher",
-              "avatar": "/avatars/6b97d30ff0bdb5d5c633ba850af739cd.svg"
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
             }
           ],
           "url": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/82f07c7ffc5fe75f6c02d845b39caf082b514f65"
@@ -82863,10 +82887,10 @@
           "source": "https://huggingface.co/mradermacher/Cyber-Ornith-1.5-9B-OBLITERATED-i1-GGUF/commit/82f07c7ffc5fe75f6c02d845b39caf082b514f65"
         }
       ],
-      "evidence_sha256": "85b050a903b8cda99b4e11341440785b677d6d0cc2e0d1c7c97e2dbb30baa198"
+      "evidence_sha256": "32ff4d214e7562ccbe20a4466f21a14d17f45fd6ee8a3391e4a7e00934ca8053"
     },
     "mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF": {
-      "captured_at": "2026-10-27T22:15:02Z",
+      "captured_at": "2026-10-31T21:34:42Z",
       "repo": "mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF",
       "reason": {
@@ -83107,7 +83131,7 @@
           "source": "https://huggingface.co/mradermacher/Llama-3.1-8B-Lexi-Uncensored-V2-OBLITERATED-i1-GGUF/commit/6481a295dd2a0efd9288fd455e75424792429c12"
         }
       ],
-      "evidence_sha256": "91c918d7e824ec0d5d07b375bf84607f5d9e1832c036c0f9fc8e6ceba79e2984"
+      "evidence_sha256": "0b6dab9f95a7038b0dba36dc0be3d329bfbc170f36f5754fb1bdf5de4d788ff5"
     },
     "Qwen/Qwen3.5-4B": {
       "captured_at": "2026-10-30T05:49:25Z",
@@ -84511,7 +84535,7 @@
       "evidence_sha256": "bd68f5580ca958aeb0a9d8ad58511f7423df2a43ea6da672fb2dcde949b9851c"
     },
     "mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit": {
-      "captured_at": "2026-10-27T18:01:44Z",
+      "captured_at": "2026-10-31T21:34:34Z",
       "repo": "mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit",
       "hf_url": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit",
       "reason": {
@@ -84535,7 +84559,26 @@
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
-      "discussions": [],
+      "discussions": [
+        {
+          "num": 1,
+          "title": "Starting out",
+          "status": "open",
+          "is_pull_request": false,
+          "author": "sekolajoseph1988",
+          "created_at": "2026-10-27T21:34:38.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "sekolajoseph1988",
+              "created_at": "2026-10-27T21:34:38.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "7d56292b044c4755e1f7d0f54572a03d45a9601fd9458912ec58882eaa604383"
+        }
+      ],
       "commits": [
         {
           "id": "db71b2644248b4f9e7e31ede5e6f631b870d8af5",
@@ -84556,7 +84599,7 @@
           "authors": [
             {
               "user": "gautrr",
-              "avatar": "/avatars/a37b4f194f3c65729cb328f3259500ae.svg"
+              "avatar": "/avatars/91a0845334ab099eae9221918a4eb7f5.svg"
             }
           ],
           "url": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit/commit/335aad325d6e89432585ad0d7104af1088a33c5f"
@@ -84568,7 +84611,7 @@
           "authors": [
             {
               "user": "gautrr",
-              "avatar": "/avatars/a37b4f194f3c65729cb328f3259500ae.svg"
+              "avatar": "/avatars/91a0845334ab099eae9221918a4eb7f5.svg"
             }
           ],
           "url": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit/commit/75848501528b481f0b214f676d206d3e475e1432"
@@ -84580,7 +84623,7 @@
           "authors": [
             {
               "user": "gautrr",
-              "avatar": "/avatars/a37b4f194f3c65729cb328f3259500ae.svg"
+              "avatar": "/avatars/91a0845334ab099eae9221918a4eb7f5.svg"
             }
           ],
           "url": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit/commit/d1f41730d2a6c457eca93a6fd1b1dc71f0c8ecea"
@@ -84592,7 +84635,7 @@
           "authors": [
             {
               "user": "gautrr",
-              "avatar": "/avatars/a37b4f194f3c65729cb328f3259500ae.svg"
+              "avatar": "/avatars/91a0845334ab099eae9221918a4eb7f5.svg"
             }
           ],
           "url": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit/commit/4435959417c1482a7e5e7021660dab34c9457872"
@@ -84601,6 +84644,12 @@
       "readme_sha256": "98618d6d5073e27f0874ac18d7e9ecd9cc3f4b239fac95e18e710562b7eed2b3",
       "manifest_root_sha256": "a8326382a20eb183eba0617bbb4b996e8c70c83002061f2055fccc2b8864504a",
       "timeline": [
+        {
+          "at": "2026-10-27T21:34:38.000Z",
+          "type": "discussion",
+          "label": "Starting out",
+          "source": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit/discussions/1"
+        },
         {
           "at": "2026-05-19T13:18:52.000Z",
           "type": "commit",
@@ -84632,7 +84681,7 @@
           "source": "https://huggingface.co/mlx-community/gemma-4-E4B-it-OBLITERATED-mlx-8Bit/commit/4435959417c1482a7e5e7021660dab34c9457872"
         }
       ],
-      "evidence_sha256": "688552793f19f2547886f44a8f80d6722d6e0de04fcf3f6f7a78deb79e961634"
+      "evidence_sha256": "5a05df447e3207db591e41e8ea26257e7c4fd91ac7f7725008988d61b57a552a"
     },
     "cyjin-yl/Qwen3.8-27B-Uncensored-Cyber-agentic-imatrix-GGUF": {
       "captured_at": "2026-10-30T22:20:44Z",
@@ -87720,7 +87769,7 @@
       "evidence_sha256": "539e67e6120c0fe6947cfec26341176ed4370adeb47714ba9e6e007598b6d891"
     },
     "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF": {
-      "captured_at": "2026-10-27T22:15:00Z",
+      "captured_at": "2026-10-31T21:34:40Z",
       "repo": "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
       "reason": {
@@ -87961,10 +88010,10 @@
           "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF/commit/87ada33d81d52181a398f21c2b736cb1992c8d41"
         }
       ],
-      "evidence_sha256": "a3e887cbd3b5f820413d260529762c2fb0b974011bee5ee616784805a1e39ee2"
+      "evidence_sha256": "b1129898fe8465f3d96611c2fc8e651a9ae6ae755fe7ffe65921e1def2561a0d"
     },
     "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF": {
-      "captured_at": "2026-10-27T22:15:01Z",
+      "captured_at": "2026-10-31T21:34:41Z",
       "repo": "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF",
       "reason": {
@@ -88211,7 +88260,7 @@
           "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF/commit/feedd0af9c5e7713187dd747937ef31446e43072"
         }
       ],
-      "evidence_sha256": "04d7821e70ea56559d1a5ec82766875242aca3dd7830a656689fad59c41a0e58"
+      "evidence_sha256": "4d82141333e3913646482eea7b0a0b243daeb5bcfebf6e7a683faa7ecbad5d38"
     },
     "mradermacher/Qwen3.8-cyber-RedTeam-Surgical-Abliterated-GGUF": {
       "captured_at": "2026-10-28T05:42:35Z",
@@ -97101,7 +97150,7 @@
       "evidence_sha256": "4fb63a974a800084558fab25bb536ec344736622ebd0da748e880daaf75d06e5"
     },
     "mmiiguell10/Qwen3.8-27B-OBLITERATED": {
-      "captured_at": "2026-10-31T12:28:56Z",
+      "captured_at": "2026-10-31T21:34:22Z",
       "repo": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
       "hf_url": "https://huggingface.co/mmiiguell10/Qwen3.8-27B-OBLITERATED",
       "reason": {
@@ -97366,7 +97415,7 @@
           "source": "https://huggingface.co/mmiiguell10/Qwen3.8-27B-OBLITERATED/commit/23cd056ce9dde29f2ee1bb1ccf8fe3cf53c3de0f"
         }
       ],
-      "evidence_sha256": "2be40d5af7ecb0607023af12f1a763abda76d0975fe05ca33cddcbb45b1f972f"
+      "evidence_sha256": "f0c547acaf5af5e080ab5210dba6884c2e100bd415268e52cb398631e01c8393"
     },
     "EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam": {
       "captured_at": "2026-10-29T13:00:54Z",
@@ -99456,7 +99505,7 @@
       "evidence_sha256": "ea38906f4ffe5218078bfa6d10a62fc82ad524fb5c55971eeb7badffee1194fd"
     },
     "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF": {
-      "captured_at": "2026-10-27T22:14:58Z",
+      "captured_at": "2026-10-31T21:34:39Z",
       "repo": "mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF",
       "reason": {
@@ -99631,7 +99680,7 @@
           "source": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-4B-abliterated-GGUF/commit/ba9c77df8bef6426c1c7695bfefc23404d106f0a"
         }
       ],
-      "evidence_sha256": "a25a6882221bb21eb3ad9e334f8a5c213f0ff94cb77cd37dfc94dcda3a13b559"
+      "evidence_sha256": "973a71230b6528832c5fd8020ce60372326a266d48a3bdca6b1984efb0bb7d7c"
     },
     "Comfy-Org/Wan-2.2": {
       "captured_at": "2026-10-29T05:48:00Z",
@@ -100710,7 +100759,7 @@
       "evidence_sha256": "34c58160a550d775a99d25dcf4ece2decb05e24c6aed101fc23d5d7c81777e2c"
     },
     "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF": {
-      "captured_at": "2026-10-27T18:01:46Z",
+      "captured_at": "2026-10-31T21:34:38Z",
       "repo": "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF",
       "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF",
       "reason": {
@@ -100734,12 +100783,297 @@
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
-      "discussions": [],
-      "commits": [],
+      "discussions": [
+        {
+          "num": 2,
+          "title": "This model is the best present I got this year. THANKS",
+          "status": "closed",
+          "is_pull_request": false,
+          "author": "miguelgargallo",
+          "created_at": "2026-01-02T12:39:04.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "miguelgargallo",
+              "created_at": "2026-01-02T12:39:04.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "miguelgargallo",
+              "created_at": "2026-01-02T12:39:05.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "41c999ccf5705f2255c4dc37a80402175bc0037b3a3c318dd68a5482724232a2"
+        },
+        {
+          "num": 1,
+          "title": "Update README.md",
+          "status": "closed",
+          "is_pull_request": true,
+          "author": "hadi223",
+          "created_at": "2025-12-20T03:29:54.000Z",
+          "updated_at": null,
+          "events": [
+            {
+              "type": "comment",
+              "author": "hadi223",
+              "created_at": "2025-12-20T03:29:54.000Z",
+              "content": ""
+            },
+            {
+              "type": "commit",
+              "author": "hadi223",
+              "created_at": "2025-12-20T03:29:54.000Z",
+              "content": ""
+            },
+            {
+              "type": "status-change",
+              "author": "hadi223",
+              "created_at": "2025-12-20T03:30:02.000Z",
+              "content": ""
+            }
+          ],
+          "source_sha256": "faa973700726bce59fca9717ddae7e54ba1429a204d1ddc6a254f742a1ffac2c"
+        }
+      ],
+      "commits": [
+        {
+          "id": "1fa96afc8a651d0ec8fa85087caa753cd0ab9556",
+          "title": "auto-patch README.md",
+          "created_at": "2025-12-25T03:18:26.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/1fa96afc8a651d0ec8fa85087caa753cd0ab9556"
+        },
+        {
+          "id": "83a0e34c3872c856ae03f167566badd2b97804ba",
+          "title": "auto-patch README.md",
+          "created_at": "2025-08-03T14:10:46.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/83a0e34c3872c856ae03f167566badd2b97804ba"
+        },
+        {
+          "id": "d4cfd1b390f69eb12fcfa5e8ccd5b00dd83575c6",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T14:00:13.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/d4cfd1b390f69eb12fcfa5e8ccd5b00dd83575c6"
+        },
+        {
+          "id": "9ed502f5d3981882cadd7c687b35beb5a05e2e51",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T13:53:06.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/9ed502f5d3981882cadd7c687b35beb5a05e2e51"
+        },
+        {
+          "id": "0d106df8f8f81bf1310bf522944d7e98d57bc904",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T13:42:19.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/0d106df8f8f81bf1310bf522944d7e98d57bc904"
+        },
+        {
+          "id": "49432397185e8e23a5821b0727b777d177895ebf",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T13:33:05.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/49432397185e8e23a5821b0727b777d177895ebf"
+        },
+        {
+          "id": "d124460f5280c9e5d5eba5d8bc226366e380caf7",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T13:30:44.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/d124460f5280c9e5d5eba5d8bc226366e380caf7"
+        },
+        {
+          "id": "7f3ba0be6aa50100b66714b44fc05351eab71392",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T13:16:21.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/7f3ba0be6aa50100b66714b44fc05351eab71392"
+        },
+        {
+          "id": "8ce17d55c2c9d851baf012a25c1536bbb489e817",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T13:09:42.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/8ce17d55c2c9d851baf012a25c1536bbb489e817"
+        },
+        {
+          "id": "78b94f476da55d960f88d1830d0993f72f0ee1aa",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T12:51:58.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/78b94f476da55d960f88d1830d0993f72f0ee1aa"
+        },
+        {
+          "id": "37e63a50b3d41285a28b0c2cb35bbad73948db69",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T12:39:06.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/37e63a50b3d41285a28b0c2cb35bbad73948db69"
+        },
+        {
+          "id": "9579e02eb9a86ad5c9169898c19f4e30b504ea02",
+          "title": "uploaded from rich1",
+          "created_at": "2025-08-03T12:19:49.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/9579e02eb9a86ad5c9169898c19f4e30b504ea02"
+        }
+      ],
       "readme_sha256": "1528748923bdfb8ec14b143db531bb66583db191c1354b104f44d1d0b80d2992",
       "manifest_root_sha256": "259060a9866520b3bcc9442c0c1180c5dc03ec8c9d351d2398549cf20bb4bd04",
-      "timeline": [],
-      "evidence_sha256": "5acb3d587e7d8e530b41d00404d7a2f2126e2f563badd8f2e70e739aa09f01cf"
+      "timeline": [
+        {
+          "at": "2026-01-02T12:39:04.000Z",
+          "type": "discussion",
+          "label": "This model is the best present I got this year. THANKS",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/discussions/2"
+        },
+        {
+          "at": "2025-12-25T03:18:26.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/1fa96afc8a651d0ec8fa85087caa753cd0ab9556"
+        },
+        {
+          "at": "2025-12-20T03:29:54.000Z",
+          "type": "discussion",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/discussions/1"
+        },
+        {
+          "at": "2025-08-03T14:10:46.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/83a0e34c3872c856ae03f167566badd2b97804ba"
+        },
+        {
+          "at": "2025-08-03T14:00:13.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/d4cfd1b390f69eb12fcfa5e8ccd5b00dd83575c6"
+        },
+        {
+          "at": "2025-08-03T13:53:06.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/9ed502f5d3981882cadd7c687b35beb5a05e2e51"
+        },
+        {
+          "at": "2025-08-03T13:42:19.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/0d106df8f8f81bf1310bf522944d7e98d57bc904"
+        },
+        {
+          "at": "2025-08-03T13:33:05.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/49432397185e8e23a5821b0727b777d177895ebf"
+        },
+        {
+          "at": "2025-08-03T13:30:44.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/d124460f5280c9e5d5eba5d8bc226366e380caf7"
+        },
+        {
+          "at": "2025-08-03T13:16:21.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/7f3ba0be6aa50100b66714b44fc05351eab71392"
+        },
+        {
+          "at": "2025-08-03T13:09:42.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/8ce17d55c2c9d851baf012a25c1536bbb489e817"
+        },
+        {
+          "at": "2025-08-03T12:51:58.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/78b94f476da55d960f88d1830d0993f72f0ee1aa"
+        },
+        {
+          "at": "2025-08-03T12:39:06.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/37e63a50b3d41285a28b0c2cb35bbad73948db69"
+        },
+        {
+          "at": "2025-08-03T12:19:49.000Z",
+          "type": "commit",
+          "label": "uploaded from rich1",
+          "source": "https://huggingface.co/mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF/commit/9579e02eb9a86ad5c9169898c19f4e30b504ea02"
+        }
+      ],
+      "evidence_sha256": "e58c2edbd069f5d6063603c5fd4b920c31d8cd90f8d595e6b800743b1a0b7d72"
     },
     "mradermacher/gemma-4-E4B-it-OBLITERATED-GGUF": {
       "captured_at": "2026-10-28T05:42:37Z",
@@ -103975,6 +104309,994 @@
         }
       ],
       "evidence_sha256": "9516916c4ba917275dcce1fd0b505966592aef69816e7504242ecb2756c2aaa2"
+    },
+    "mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF": {
+      "captured_at": "2026-10-31T21:34:36Z",
+      "repo": "mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- base_model: ChonkE/Gemma-4-12b-RedTeam-BlackICE language: - en library_name: transformers license: gemma license_name: gemma-terms-of-use mradermacher: readme_rev: 1 quantized_by: mradermacher tags: - red-team - cybersecurity - security-research - pentesting - dual-use - whi",
+          "source_url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/raw/60c91b38435a794dbe694cf3c83fa21fdc9de45d/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [
+        {
+          "id": "60c91b38435a794dbe694cf3c83fa21fdc9de45d",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-30T01:26:22.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/60c91b38435a794dbe694cf3c83fa21fdc9de45d"
+        },
+        {
+          "id": "dcb1f20be421516ea667f474ea61fcabc6db659f",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-29T16:43:58.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/dcb1f20be421516ea667f474ea61fcabc6db659f"
+        },
+        {
+          "id": "a9558999a55ab1fddd143463fac48c439e7bcb77",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-29T08:35:09.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/a9558999a55ab1fddd143463fac48c439e7bcb77"
+        },
+        {
+          "id": "b0910eb37142ccafcdc40c5a178e646c9a22195c",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T08:13:00.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/b0910eb37142ccafcdc40c5a178e646c9a22195c"
+        },
+        {
+          "id": "fb469d5a984487953456b61d7b98d89961cd3505",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-29T08:10:46.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/fb469d5a984487953456b61d7b98d89961cd3505"
+        },
+        {
+          "id": "d5f11210c8f26007cd285d7792c75aa37cc07719",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T08:08:05.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/d5f11210c8f26007cd285d7792c75aa37cc07719"
+        },
+        {
+          "id": "03673a5883490064edf221e7c09f686b562601dc",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T08:07:45.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/03673a5883490064edf221e7c09f686b562601dc"
+        },
+        {
+          "id": "d8c2a37d90d2552434468e71ead762b08bb1cbf5",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T08:07:08.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/d8c2a37d90d2552434468e71ead762b08bb1cbf5"
+        },
+        {
+          "id": "c9c5eb4237ff531f3284d7bb6ee95306a1a1c44d",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T08:06:39.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/c9c5eb4237ff531f3284d7bb6ee95306a1a1c44d"
+        },
+        {
+          "id": "01fafe93c2544e01bccc2e5e40325000ece43ac3",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T08:05:42.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/01fafe93c2544e01bccc2e5e40325000ece43ac3"
+        },
+        {
+          "id": "e710643825ae1130657db491bb94625f73a39f00",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T07:59:25.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/e710643825ae1130657db491bb94625f73a39f00"
+        },
+        {
+          "id": "246b9a03fcec0b2afb5ed73b8b3627a61a7c0258",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T07:54:58.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/246b9a03fcec0b2afb5ed73b8b3627a61a7c0258"
+        }
+      ],
+      "readme_sha256": "213988f95404dd7fab4936408a249c1f6312c1e16433eecbde57a9cdcc9106fc",
+      "manifest_root_sha256": "9bad8c8bf27659f3b4527e024643789349933013a9f1292ab244fcc97ff0c102",
+      "timeline": [
+        {
+          "at": "2026-10-30T01:26:22.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/60c91b38435a794dbe694cf3c83fa21fdc9de45d"
+        },
+        {
+          "at": "2026-10-29T16:43:58.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/dcb1f20be421516ea667f474ea61fcabc6db659f"
+        },
+        {
+          "at": "2026-10-29T08:35:09.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/a9558999a55ab1fddd143463fac48c439e7bcb77"
+        },
+        {
+          "at": "2026-10-29T08:13:00.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/b0910eb37142ccafcdc40c5a178e646c9a22195c"
+        },
+        {
+          "at": "2026-10-29T08:10:46.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/fb469d5a984487953456b61d7b98d89961cd3505"
+        },
+        {
+          "at": "2026-10-29T08:08:05.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/d5f11210c8f26007cd285d7792c75aa37cc07719"
+        },
+        {
+          "at": "2026-10-29T08:07:45.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/03673a5883490064edf221e7c09f686b562601dc"
+        },
+        {
+          "at": "2026-10-29T08:07:08.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/d8c2a37d90d2552434468e71ead762b08bb1cbf5"
+        },
+        {
+          "at": "2026-10-29T08:06:39.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/c9c5eb4237ff531f3284d7bb6ee95306a1a1c44d"
+        },
+        {
+          "at": "2026-10-29T08:05:42.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/01fafe93c2544e01bccc2e5e40325000ece43ac3"
+        },
+        {
+          "at": "2026-10-29T07:59:25.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/e710643825ae1130657db491bb94625f73a39f00"
+        },
+        {
+          "at": "2026-10-29T07:54:58.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-GGUF/commit/246b9a03fcec0b2afb5ed73b8b3627a61a7c0258"
+        }
+      ],
+      "evidence_sha256": "92c9f735d629e8983e184680657a92f5e8f34aba753ac34cfa2a8f32d8ff57b3"
+    },
+    "mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF": {
+      "captured_at": "2026-10-31T21:34:36Z",
+      "repo": "mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- base_model: ChonkE/Gemma-4-12b-RedTeam-BlackICE language: - en library_name: transformers license: gemma license_name: gemma-terms-of-use mradermacher: readme_rev: 1 quantized_by: mradermacher tags: - red-team - cybersecurity - security-research - pentesting - dual-use - whi",
+          "source_url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/raw/e5673985f23ec69afdba219a885e0ebc4b227b0b/README.md"
+        },
+        {
+          "signal": "private",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "time. Additional thanks to [@nicoboss](https://huggingface.co/nicoboss) for giving me access to his private supercomputer, enabling me to provide many more imatrix quants, at much higher quality, than I would otherwise be able to. <!-- end -->",
+          "source_url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/raw/e5673985f23ec69afdba219a885e0ebc4b227b0b/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [
+        {
+          "id": "e5673985f23ec69afdba219a885e0ebc4b227b0b",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-30T01:24:40.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/e5673985f23ec69afdba219a885e0ebc4b227b0b"
+        },
+        {
+          "id": "14c4ec927e69dea40f0a2c932ce33dfc942185ab",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-29T19:50:14.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/14c4ec927e69dea40f0a2c932ce33dfc942185ab"
+        },
+        {
+          "id": "c66f87950663c47631f8062954eba22f3bbe0a56",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:43:57.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/c66f87950663c47631f8062954eba22f3bbe0a56"
+        },
+        {
+          "id": "c211f0c157cdaa8d88aa1675018fac437ff6c334",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:41:41.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/c211f0c157cdaa8d88aa1675018fac437ff6c334"
+        },
+        {
+          "id": "57652129c43d8631def18a376bbd5c0aef6017b7",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:37:47.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/57652129c43d8631def18a376bbd5c0aef6017b7"
+        },
+        {
+          "id": "92cdb394a9e21dd79f43ce535ed8dbae4f1c8d7e",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:34:21.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/92cdb394a9e21dd79f43ce535ed8dbae4f1c8d7e"
+        },
+        {
+          "id": "86924e7152f35891062938ddf964748a56bfd42b",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:30:58.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/86924e7152f35891062938ddf964748a56bfd42b"
+        },
+        {
+          "id": "d7c9fb531780a31faf220c472b7bf55e2f52fa81",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:29:30.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/d7c9fb531780a31faf220c472b7bf55e2f52fa81"
+        },
+        {
+          "id": "7252653dcf50158f7114ce0b4e1ff4cb5e7a587e",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:26:32.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/7252653dcf50158f7114ce0b4e1ff4cb5e7a587e"
+        },
+        {
+          "id": "f45f8234392f1c500770fc3afdae166ffa637e90",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:20:27.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/f45f8234392f1c500770fc3afdae166ffa637e90"
+        },
+        {
+          "id": "90f87e40c2f10c08277444df2eab3450e63b6ce5",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:17:32.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/90f87e40c2f10c08277444df2eab3450e63b6ce5"
+        },
+        {
+          "id": "043350dac81e7fa2b8630ebc4e1307878d680da9",
+          "title": "uploaded from marco",
+          "created_at": "2026-10-29T19:09:55.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/043350dac81e7fa2b8630ebc4e1307878d680da9"
+        }
+      ],
+      "readme_sha256": "6352a57106eb6adb6ed7b7130cbfdd087e5c331a9ba1f91c6bc58a23a22a7be5",
+      "manifest_root_sha256": "e14b38558f0eada0d275665bccb431bd3b0990c4bfa7bbae8e0b2a958895ea34",
+      "timeline": [
+        {
+          "at": "2026-10-30T01:24:40.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/e5673985f23ec69afdba219a885e0ebc4b227b0b"
+        },
+        {
+          "at": "2026-10-29T19:50:14.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/14c4ec927e69dea40f0a2c932ce33dfc942185ab"
+        },
+        {
+          "at": "2026-10-29T19:43:57.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/c66f87950663c47631f8062954eba22f3bbe0a56"
+        },
+        {
+          "at": "2026-10-29T19:41:41.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/c211f0c157cdaa8d88aa1675018fac437ff6c334"
+        },
+        {
+          "at": "2026-10-29T19:37:47.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/57652129c43d8631def18a376bbd5c0aef6017b7"
+        },
+        {
+          "at": "2026-10-29T19:34:21.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/92cdb394a9e21dd79f43ce535ed8dbae4f1c8d7e"
+        },
+        {
+          "at": "2026-10-29T19:30:58.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/86924e7152f35891062938ddf964748a56bfd42b"
+        },
+        {
+          "at": "2026-10-29T19:29:30.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/d7c9fb531780a31faf220c472b7bf55e2f52fa81"
+        },
+        {
+          "at": "2026-10-29T19:26:32.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/7252653dcf50158f7114ce0b4e1ff4cb5e7a587e"
+        },
+        {
+          "at": "2026-10-29T19:20:27.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/f45f8234392f1c500770fc3afdae166ffa637e90"
+        },
+        {
+          "at": "2026-10-29T19:17:32.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/90f87e40c2f10c08277444df2eab3450e63b6ce5"
+        },
+        {
+          "at": "2026-10-29T19:09:55.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Gemma-4-12b-RedTeam-BlackICE-i1-GGUF/commit/043350dac81e7fa2b8630ebc4e1307878d680da9"
+        }
+      ],
+      "evidence_sha256": "fcfc47c756de7c9230ba565e4e09002d33b11f690bda204fef843c27722178c9"
+    },
+    "mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF": {
+      "captured_at": "2026-10-31T21:34:37Z",
+      "repo": "mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "private",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "time. Additional thanks to [@nicoboss](https://huggingface.co/nicoboss) for giving me access to his private supercomputer, enabling me to provide many more imatrix quants, at much higher quality, than I would otherwise be able to. <!-- end -->",
+          "source_url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/raw/0195a89c6690847e12342d1482243d25c7bc140d/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [
+        {
+          "id": "0195a89c6690847e12342d1482243d25c7bc140d",
+          "title": "auto-patch README.md",
+          "created_at": "2026-07-31T04:00:18.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/0195a89c6690847e12342d1482243d25c7bc140d"
+        },
+        {
+          "id": "c104816f6dd0e38c66c5a9f88d9b9ee18bf18d2e",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:52:51.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/c104816f6dd0e38c66c5a9f88d9b9ee18bf18d2e"
+        },
+        {
+          "id": "2ce4d755e297fd76a3e13b2d4e744bf2f62cfac7",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:49:00.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/2ce4d755e297fd76a3e13b2d4e744bf2f62cfac7"
+        },
+        {
+          "id": "242c1dcce3dc7aa05ace6128a70306a3cfbc4054",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:43:23.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/242c1dcce3dc7aa05ace6128a70306a3cfbc4054"
+        },
+        {
+          "id": "75ed544c2a3b4c0b0b4521fbde983081f5789eba",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:38:34.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/75ed544c2a3b4c0b0b4521fbde983081f5789eba"
+        },
+        {
+          "id": "d1f2a7674ee887d0deeafc066f610c2eb5f3394f",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:30:12.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/d1f2a7674ee887d0deeafc066f610c2eb5f3394f"
+        },
+        {
+          "id": "c19d3f92822274a85a8871628cab560db0a648f6",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:26:59.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/c19d3f92822274a85a8871628cab560db0a648f6"
+        },
+        {
+          "id": "5c2c310350b6c8d325e851ba75025e6d27afcb31",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:22:41.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/5c2c310350b6c8d325e851ba75025e6d27afcb31"
+        },
+        {
+          "id": "9a033d96ee15853500688565fef1e95adab73c0c",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:14:26.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/9a033d96ee15853500688565fef1e95adab73c0c"
+        },
+        {
+          "id": "f187ff9d02547f8c3a3841ec4c837c9c773b6af5",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T03:09:46.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/f187ff9d02547f8c3a3841ec4c837c9c773b6af5"
+        },
+        {
+          "id": "7301958f58ae09a053906a0a1c6b58d8e67a48c7",
+          "title": "auto-patch README.md",
+          "created_at": "2026-07-31T03:02:05.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/7301958f58ae09a053906a0a1c6b58d8e67a48c7"
+        },
+        {
+          "id": "766a384a601cfe136c6e2e43f0541516b76ad752",
+          "title": "uploaded from marco",
+          "created_at": "2026-07-31T02:59:47.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/766a384a601cfe136c6e2e43f0541516b76ad752"
+        }
+      ],
+      "readme_sha256": "d1ad3802a7924017a68dde768ca2e2546a15111e33a6f2256a80da38083fc23a",
+      "manifest_root_sha256": "46245d36d6b9c704b1d291f9a185f6f5f9a433b8b4d937f1324b8b18dcea9125",
+      "timeline": [
+        {
+          "at": "2026-07-31T04:00:18.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/0195a89c6690847e12342d1482243d25c7bc140d"
+        },
+        {
+          "at": "2026-07-31T03:52:51.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/c104816f6dd0e38c66c5a9f88d9b9ee18bf18d2e"
+        },
+        {
+          "at": "2026-07-31T03:49:00.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/2ce4d755e297fd76a3e13b2d4e744bf2f62cfac7"
+        },
+        {
+          "at": "2026-07-31T03:43:23.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/242c1dcce3dc7aa05ace6128a70306a3cfbc4054"
+        },
+        {
+          "at": "2026-07-31T03:38:34.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/75ed544c2a3b4c0b0b4521fbde983081f5789eba"
+        },
+        {
+          "at": "2026-07-31T03:30:12.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/d1f2a7674ee887d0deeafc066f610c2eb5f3394f"
+        },
+        {
+          "at": "2026-07-31T03:26:59.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/c19d3f92822274a85a8871628cab560db0a648f6"
+        },
+        {
+          "at": "2026-07-31T03:22:41.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/5c2c310350b6c8d325e851ba75025e6d27afcb31"
+        },
+        {
+          "at": "2026-07-31T03:14:26.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/9a033d96ee15853500688565fef1e95adab73c0c"
+        },
+        {
+          "at": "2026-07-31T03:09:46.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/f187ff9d02547f8c3a3841ec4c837c9c773b6af5"
+        },
+        {
+          "at": "2026-07-31T03:02:05.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/7301958f58ae09a053906a0a1c6b58d8e67a48c7"
+        },
+        {
+          "at": "2026-07-31T02:59:47.000Z",
+          "type": "commit",
+          "label": "uploaded from marco",
+          "source": "https://huggingface.co/mradermacher/Hermes-4-14B-OBLITERATED-V2-i1-GGUF/commit/766a384a601cfe136c6e2e43f0541516b76ad752"
+        }
+      ],
+      "evidence_sha256": "94134bc0b1999f349488394c58e02ea025af441a6755d3196740c90201cdfe15"
+    },
+    "mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF": {
+      "captured_at": "2026-10-31T21:34:42Z",
+      "repo": "mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "base_model: Blackfrost-AI/LING-3.0-FLASH-ABLITERATED language: - en - zh library_name: transformers license: mit mradermacher: readme_rev: 1 quantized_by: mradermacher tags: - bailing-moe-v3 - ling - derisked - moe - hybrid-attention - mla - residual-intervention - conversational - lo",
+          "source_url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/raw/fc9fa98fb64ca192f13640d71ec81939d114c95a/README.md"
+        },
+        {
+          "signal": "private",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "time. Additional thanks to [@nicoboss](https://huggingface.co/nicoboss) for giving me access to his private supercomputer, enabling me to provide many more imatrix quants, at much higher quality, than I would otherwise be able to. <!-- end -->",
+          "source_url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/raw/fc9fa98fb64ca192f13640d71ec81939d114c95a/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [
+        {
+          "id": "fc9fa98fb64ca192f13640d71ec81939d114c95a",
+          "title": "auto-patch README.md",
+          "created_at": "2026-10-08T06:43:02.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/fc9fa98fb64ca192f13640d71ec81939d114c95a"
+        },
+        {
+          "id": "4accb946a1683f3c269143187b44c28912c1cab6",
+          "title": "auto-patch README.md",
+          "created_at": "2026-08-21T06:17:11.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/4accb946a1683f3c269143187b44c28912c1cab6"
+        },
+        {
+          "id": "daf8650426f47008261ac0d429aa228a3d0b17e9",
+          "title": "auto-patch README.md",
+          "created_at": "2026-08-21T01:44:19.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/daf8650426f47008261ac0d429aa228a3d0b17e9"
+        },
+        {
+          "id": "2ff5f6c421758c5d02a5d01b19ff8a91c008d246",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-21T00:44:34.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/2ff5f6c421758c5d02a5d01b19ff8a91c008d246"
+        },
+        {
+          "id": "d6ef09ca9906140c4eb7f39190c757287d0ccf00",
+          "title": "auto-patch README.md",
+          "created_at": "2026-08-21T00:38:58.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/d6ef09ca9906140c4eb7f39190c757287d0ccf00"
+        },
+        {
+          "id": "2efc3f753da4fff3c64b3413f72ece3685565123",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-21T00:26:55.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/2efc3f753da4fff3c64b3413f72ece3685565123"
+        },
+        {
+          "id": "60bfc72e153a5fb18693bf9780e60f2a01c2ba64",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-21T00:18:55.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/60bfc72e153a5fb18693bf9780e60f2a01c2ba64"
+        },
+        {
+          "id": "fcd2543c8dbd19a86a0c04046c464ffa3d6ac349",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-21T00:10:17.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/fcd2543c8dbd19a86a0c04046c464ffa3d6ac349"
+        },
+        {
+          "id": "62bc77b340274510b6fbeabe020c8776ad0965b5",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-21T00:02:48.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/62bc77b340274510b6fbeabe020c8776ad0965b5"
+        },
+        {
+          "id": "ef4eec5dafbad40615f3606ce4d427d9e67b6e65",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-20T23:55:11.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/ef4eec5dafbad40615f3606ce4d427d9e67b6e65"
+        },
+        {
+          "id": "94f6e53729687bc1c92aa91537d5b8f33917fffb",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-20T23:50:30.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/94f6e53729687bc1c92aa91537d5b8f33917fffb"
+        },
+        {
+          "id": "b26beb8def9cf8d637345dd194f98a307c258530",
+          "title": "uploaded from nico1",
+          "created_at": "2026-08-20T23:41:05.000Z",
+          "authors": [
+            {
+              "user": "mradermacher",
+              "avatar": "/avatars/96d0c12e8eb411b44ecefc1b6508a420.svg"
+            }
+          ],
+          "url": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/b26beb8def9cf8d637345dd194f98a307c258530"
+        }
+      ],
+      "readme_sha256": "23dc1f3b5d834193613e98440e315950866b5e560b91051bb3704209a87912d9",
+      "manifest_root_sha256": "1b09b998cfb4c746f89dd7cc1b456f1a20e08f1cd2ec88d438e9da5f85d1ff36",
+      "timeline": [
+        {
+          "at": "2026-10-08T06:43:02.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/fc9fa98fb64ca192f13640d71ec81939d114c95a"
+        },
+        {
+          "at": "2026-08-21T06:17:11.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/4accb946a1683f3c269143187b44c28912c1cab6"
+        },
+        {
+          "at": "2026-08-21T01:44:19.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/daf8650426f47008261ac0d429aa228a3d0b17e9"
+        },
+        {
+          "at": "2026-08-21T00:44:34.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/2ff5f6c421758c5d02a5d01b19ff8a91c008d246"
+        },
+        {
+          "at": "2026-08-21T00:38:58.000Z",
+          "type": "commit",
+          "label": "auto-patch README.md",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/d6ef09ca9906140c4eb7f39190c757287d0ccf00"
+        },
+        {
+          "at": "2026-08-21T00:26:55.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/2efc3f753da4fff3c64b3413f72ece3685565123"
+        },
+        {
+          "at": "2026-08-21T00:18:55.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/60bfc72e153a5fb18693bf9780e60f2a01c2ba64"
+        },
+        {
+          "at": "2026-08-21T00:10:17.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/fcd2543c8dbd19a86a0c04046c464ffa3d6ac349"
+        },
+        {
+          "at": "2026-08-21T00:02:48.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/62bc77b340274510b6fbeabe020c8776ad0965b5"
+        },
+        {
+          "at": "2026-08-20T23:55:11.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/ef4eec5dafbad40615f3606ce4d427d9e67b6e65"
+        },
+        {
+          "at": "2026-08-20T23:50:30.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/94f6e53729687bc1c92aa91537d5b8f33917fffb"
+        },
+        {
+          "at": "2026-08-20T23:41:05.000Z",
+          "type": "commit",
+          "label": "uploaded from nico1",
+          "source": "https://huggingface.co/mradermacher/LING-3.0-FLASH-ABLITERATED-GGUF/commit/b26beb8def9cf8d637345dd194f98a307c258530"
+        }
+      ],
+      "evidence_sha256": "0f822b45b0c16edcb81c22e0b407281e22c19ed22225c5906fffb2bdb48c2879"
     }
   }
 }
