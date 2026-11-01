@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-01T06:04:54Z",
+  "generated_at": "2026-11-01T13:24:41Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3342,6 +3342,17 @@
       "revision": "2ab6fa8ea2d674564defd37171ae19079b864b33",
       "license": "apache-2.0",
       "pipeline_tag": "feature-extraction"
+    },
+    "deepseek-ai/DeepSeek-V3.2": {
+      "id": "deepseek-ai/DeepSeek-V3.2",
+      "visibility": "public",
+      "revision": "a7e62ac04ecb2c0a54d736dc46601c5606cf10a6",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
+    },
+    "deepseek-ai/DeepSeek-V3.2-Exp-Base": {
+      "id": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -5707,6 +5718,13 @@
     {
       "from": "usermma/Qwable-9B-Claude-Fable-5-OBLITERATED",
       "to": "mradermacher/Qwable-9B-Claude-Fable-5-OBLITERATED-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+      "to": "deepseek-ai/DeepSeek-V3.2",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
