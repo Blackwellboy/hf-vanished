@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-02T06:02:05Z",
+  "generated_at": "2026-11-02T15:52:32Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1766,9 +1766,9 @@
     "Comfy-Org/Krea-2": {
       "id": "Comfy-Org/Krea-2",
       "visibility": "public",
-      "revision": "1171f4dc7e325bf3734586942e737872506c73e1",
+      "revision": "588feaf955b08b9ac4723eeb751752ab045dba71",
       "license": "other",
-      "pipeline_tag": null
+      "pipeline_tag": "text-to-image"
     },
     "krea/Krea-2-Raw": {
       "id": "krea/Krea-2-Raw",
