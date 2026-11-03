@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-03T00:58:56Z",
+  "generated_at": "2026-11-03T14:14:20Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2733,7 +2733,7 @@
     "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC": {
       "id": "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
       "visibility": "public",
-      "revision": "cf19d91c55d405c77c2b46f78b0255c0feb70763",
+      "revision": "fe4d199c989e78d923dad976308ecdb5bd173771",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3353,6 +3353,20 @@
     "deepseek-ai/DeepSeek-V3.2-Exp-Base": {
       "id": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
       "external_to_watchset": true
+    },
+    "orcarouter/Qwen3.8-Flash-Next-Uncensored-FP8": {
+      "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-FP8",
+      "visibility": "public",
+      "revision": "5638ef95592d5c0b6a83791f55b09051565cfd9b",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "microsoft/Florence-2-base": {
+      "id": "microsoft/Florence-2-base",
+      "visibility": "public",
+      "revision": "5ca5edf5bd017b9919c05d08aebef5e4c7ac3bac",
+      "license": "mit",
+      "pipeline_tag": "image-text-to-text"
     }
   },
   "edges": [
@@ -5725,6 +5739,13 @@
     {
       "from": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
       "to": "deepseek-ai/DeepSeek-V3.2",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-Flash-Next",
+      "to": "orcarouter/Qwen3.8-Flash-Next-Uncensored-FP8",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
