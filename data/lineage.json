@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-03T14:14:20Z",
+  "generated_at": "2026-11-03T23:23:32Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2861,7 +2861,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "874fcb41ececda20bcbc0782d6b4ea7f7d069ea8",
+      "revision": "9251401acab7d95b43e089e6304c5f58cb96d9a6",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
@@ -2901,12 +2901,20 @@
       "id": "Banafo/Kroko-ASR",
       "external_to_watchset": true
     },
+    "ConwayResearch/Underdog-Bark-3.0": {
+      "id": "ConwayResearch/Underdog-Bark-3.0",
+      "external_to_watchset": true
+    },
     "dots-studio/dots.tts-mf": {
       "id": "dots-studio/dots.tts-mf",
       "external_to_watchset": true
     },
     "dots-studio/dots.tts-soar": {
       "id": "dots-studio/dots.tts-soar",
+      "external_to_watchset": true
+    },
+    "FermionResearch/Phonon-2": {
+      "id": "FermionResearch/Phonon-2",
       "external_to_watchset": true
     },
     "fishaudio/s2-pro": {
@@ -3111,6 +3119,10 @@
     },
     "stabilityai/stable-audio-3-small-sfx": {
       "id": "stabilityai/stable-audio-3-small-sfx",
+      "external_to_watchset": true
+    },
+    "third-intelligence/Haas-ja-v1.0": {
+      "id": "third-intelligence/Haas-ja-v1.0",
       "external_to_watchset": true
     },
     "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF": {
@@ -5163,6 +5175,13 @@
       "inferred": false
     },
     {
+      "from": "ConwayResearch/Underdog-Bark-3.0",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
       "from": "dots-studio/dots.tts-mf",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
@@ -5171,6 +5190,13 @@
     },
     {
       "from": "dots-studio/dots.tts-soar",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "FermionResearch/Phonon-2",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
@@ -5528,6 +5554,13 @@
     },
     {
       "from": "stabilityai/stable-audio-3-small-sfx",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "third-intelligence/Haas-ja-v1.0",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
