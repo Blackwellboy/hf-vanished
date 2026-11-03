@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-02T15:52:32Z",
+  "generated_at": "2026-11-03T00:58:56Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -1513,7 +1513,7 @@
     "Comfy-Org/MiniMax-H3": {
       "id": "Comfy-Org/MiniMax-H3",
       "visibility": "public",
-      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "revision": "54472221d27c695fca9621b0c3ed52f06c4af707",
       "license": "other",
       "pipeline_tag": null
     },
