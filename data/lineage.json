@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-04T06:22:38Z",
+  "generated_at": "2026-11-04T19:45:58Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "3e9bdbea3a443b6d4166ce3b3dddf78ded15e034",
+      "revision": "9e031198823394a88cfec6052cd622f450a0a0a6",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -1519,7 +1519,10 @@
     },
     "MiniMaxAI/MiniMax-H3": {
       "id": "MiniMaxAI/MiniMax-H3",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "42ed227ee7df40d41602854ae760620d6eb651fe",
+      "license": "other",
+      "pipeline_tag": "image-text-to-video"
     },
     "Qwen/Qwen3-VL-8B-Instruct": {
       "id": "Qwen/Qwen3-VL-8B-Instruct",
@@ -2102,7 +2105,7 @@
     "mradermacher/Ornith-1.5-9B-uncensored-GGUF": {
       "id": "mradermacher/Ornith-1.5-9B-uncensored-GGUF",
       "visibility": "public",
-      "revision": "1041d1eabbce89549c1b6e28b52e972093e832a1",
+      "revision": "6fd9d4f96fc8efe5032032a2635898f744903d01",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -2542,7 +2545,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "3e9bdbea3a443b6d4166ce3b3dddf78ded15e034",
+      "revision": "9e031198823394a88cfec6052cd622f450a0a0a6",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3383,6 +3386,42 @@
       "revision": "5ca5edf5bd017b9919c05d08aebef5e4c7ac3bac",
       "license": "mit",
       "pipeline_tag": "image-text-to-text"
+    },
+    "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF": {
+      "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+      "visibility": "public",
+      "revision": "9e031198823394a88cfec6052cd622f450a0a0a6",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/Huihui-Qwen3-8B-abliterated-v2-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3-8B-abliterated-v2-GGUF",
+      "visibility": "public",
+      "revision": "64c8e52a68276ef181b7695813c5883070b783a0",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3-8B-abliterated-v2": {
+      "id": "huihui-ai/Huihui-Qwen3-8B-abliterated-v2",
+      "external_to_watchset": true
+    },
+    "fyb1214/Huihui-Qwen3.8-27B-Abliterated-Swift-1.5-GSQ-RCO-NInfer": {
+      "id": "fyb1214/Huihui-Qwen3.8-27B-Abliterated-Swift-1.5-GSQ-RCO-NInfer",
+      "visibility": "public",
+      "revision": "d63cfae481cc6cae344e60f3f7a0ca301dfcbfd1",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "mradermacher/jailbreak-analyzer-GGUF": {
+      "id": "mradermacher/jailbreak-analyzer-GGUF",
+      "visibility": "public",
+      "revision": "934aa806d8fc12d4a39af67c16e3cbaca508fb37",
+      "license": null,
+      "pipeline_tag": null
+    },
+    "Skskskd/jailbreak-analyzer": {
+      "id": "Skskskd/jailbreak-analyzer",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -5783,6 +5822,34 @@
     {
       "from": "Qwen/Qwen3.8-Flash-Next",
       "to": "orcarouter/Qwen3.8-Flash-Next-Uncensored-FP8",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "to": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3-8B-abliterated-v2",
+      "to": "mradermacher/Huihui-Qwen3-8B-abliterated-v2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+      "to": "fyb1214/Huihui-Qwen3.8-27B-Abliterated-Swift-1.5-GSQ-RCO-NInfer",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Skskskd/jailbreak-analyzer",
+      "to": "mradermacher/jailbreak-analyzer-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
