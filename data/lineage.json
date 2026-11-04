@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-03T23:23:32Z",
+  "generated_at": "2026-11-04T06:22:38Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2200,12 +2200,12 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-GGUF": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "7959e658915f52274897fb573ffeda49de8dc16b",
+      "revision": "24d33ddeffd21374e8b04a84f93eb73a645fc74e",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
-    "Qwen/Qwen-Image-2.1": {
-      "id": "Qwen/Qwen-Image-2.1",
+    "Qwen/Qwen-Image-2.1-Turbo": {
+      "id": "Qwen/Qwen-Image-2.1-Turbo",
       "external_to_watchset": true
     },
     "huihui-ai/Huihui-Qwen3-VL-8B-Instruct-abliterated": {
@@ -2535,6 +2535,10 @@
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
+    "Qwen/Qwen-Image-2.1": {
+      "id": "Qwen/Qwen-Image-2.1",
+      "external_to_watchset": true
+    },
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
@@ -2602,7 +2606,7 @@
     "abenzerps/Qwen-Image-2.1-Uncensored-Quantized": {
       "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "visibility": "public",
-      "revision": "7959e658915f52274897fb573ffeda49de8dc16b",
+      "revision": "24d33ddeffd21374e8b04a84f93eb73a645fc74e",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
@@ -2861,7 +2865,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "9251401acab7d95b43e089e6304c5f58cb96d9a6",
+      "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
@@ -4496,7 +4500,7 @@
       "inferred": false
     },
     {
-      "from": "Qwen/Qwen-Image-2.1",
+      "from": "Qwen/Qwen-Image-2.1-Turbo",
       "to": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
@@ -4776,7 +4780,7 @@
       "inferred": false
     },
     {
-      "from": "Qwen/Qwen-Image-2.1",
+      "from": "Qwen/Qwen-Image-2.1-Turbo",
       "to": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
