@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-05T06:47:25Z",
+  "generated_at": "2026-11-05T19:58:18Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -80,7 +80,7 @@
     "Qwen/Qwen3.8-27B": {
       "id": "Qwen/Qwen3.8-27B",
       "visibility": "public",
-      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "revision": "8c0b3d30f3ae96f5c7f774de704bf0ada83e422a",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "9dc23279dcbaadf54261382b39ae532fe46fa7a9",
+      "revision": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2545,7 +2545,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "9dc23279dcbaadf54261382b39ae532fe46fa7a9",
+      "revision": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3146,7 +3146,7 @@
     "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF": {
       "id": "agentionai/Qwen3.8-Flash-Next-Gyro-abliterated-Huihui-GGUF",
       "visibility": "public",
-      "revision": "3c0312355cd203a304fae16e1bf7b72ef0239fbf",
+      "revision": "5fcf975ad93999c713eb9af5572c653ffbbc2288",
       "license": "other",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3390,7 +3390,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
       "visibility": "public",
-      "revision": "9dc23279dcbaadf54261382b39ae532fe46fa7a9",
+      "revision": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3421,6 +3421,17 @@
     },
     "Skskskd/jailbreak-analyzer": {
       "id": "Skskskd/jailbreak-analyzer",
+      "external_to_watchset": true
+    },
+    "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive": {
+      "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "visibility": "public",
+      "revision": "f34c1414c2f9a3629187098bdf0e90c85f5034f5",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "Qwen/Qwen3.5-35B-A3B": {
+      "id": "Qwen/Qwen3.5-35B-A3B",
       "external_to_watchset": true
     }
   },
@@ -5850,6 +5861,13 @@
     {
       "from": "Skskskd/jailbreak-analyzer",
       "to": "mradermacher/jailbreak-analyzer-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.5-35B-A3B",
+      "to": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
