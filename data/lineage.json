@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-06T06:45:55Z",
+  "generated_at": "2026-11-06T19:24:51Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -406,7 +406,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "visibility": "public",
-      "revision": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
+      "revision": "5fee44808148828299dec576603a58b74e41a393",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2545,7 +2545,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
+      "revision": "5fee44808148828299dec576603a58b74e41a393",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3390,7 +3390,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
       "visibility": "public",
-      "revision": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
+      "revision": "5fee44808148828299dec576603a58b74e41a393",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3433,6 +3433,13 @@
     "Qwen/Qwen3.5-35B-A3B": {
       "id": "Qwen/Qwen3.5-35B-A3B",
       "external_to_watchset": true
+    },
+    "mradermacher/feyospace-s1-OBLITERATED-cybersec-GGUF": {
+      "id": "mradermacher/feyospace-s1-OBLITERATED-cybersec-GGUF",
+      "visibility": "public",
+      "revision": "0fb458b9c111c1587af2418ddabd6aad2c1ce302",
+      "license": "apache-2.0",
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -5868,6 +5875,13 @@
     {
       "from": "Qwen/Qwen3.5-35B-A3B",
       "to": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "OBLITERATUS/feyospace-s1-obliterated",
+      "to": "mradermacher/feyospace-s1-OBLITERATED-cybersec-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
