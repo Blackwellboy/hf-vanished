@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-06T19:24:51Z",
+  "generated_at": "2026-11-07T05:59:02Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -80,7 +80,7 @@
     "Qwen/Qwen3.8-27B": {
       "id": "Qwen/Qwen3.8-27B",
       "visibility": "public",
-      "revision": "8c0b3d30f3ae96f5c7f774de704bf0ada83e422a",
+      "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -1644,7 +1644,7 @@
     "Qwen/Qwen3.6-35B-A3B-FP8": {
       "id": "Qwen/Qwen3.6-35B-A3B-FP8",
       "visibility": "public",
-      "revision": "95a723d08a9490559dae23d0cff1d9466213d989",
+      "revision": "c653bba46dfa06e9658dcc0b0dc87fe4685f14a2",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -1791,7 +1791,7 @@
     "Qwen/Qwen3.8-27B-FP8": {
       "id": "Qwen/Qwen3.8-27B-FP8",
       "visibility": "public",
-      "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "revision": "c3a462cc3d38cf351f3b26cbd763469eeb74ef81",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2868,7 +2868,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "fd2fe4c3195bc410f8b817bf7c7519fd822686fb",
+      "revision": "57de533382ad47d5527e7562d1f80c41f769553b",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
