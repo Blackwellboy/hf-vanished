@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-08T06:01:25Z",
+  "generated_at": "2026-11-08T13:24:42Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3451,6 +3451,17 @@
     "deepseek-ai/DeepSeek-V4.1-Flash-1017": {
       "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "external_to_watchset": true
+    },
+    "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF": {
+      "id": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
+      "visibility": "public",
+      "revision": "fa96dc904fe4dafb415ca707afab30aee2d2e703",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved": {
+      "id": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -5900,6 +5911,13 @@
     {
       "from": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
       "to": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved",
+      "to": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
