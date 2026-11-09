@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-08T22:05:02Z",
+  "generated_at": "2026-11-09T06:27:29Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -337,7 +337,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "d5f3139249b7ee2535c20ab81125c9a6ab0c4915",
+      "revision": "7c3ead4a6f2a78f0e6f9fb534d4fdbd3d9190664",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -359,7 +359,7 @@
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "b9bce7e859c9b5047aca884e5bff76f8a0443de1",
+      "revision": "926f44a3d81936187ab2af7783ed759f33c39ff5",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -370,7 +370,7 @@
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "81e6f49c3faf5b83c57a740521bd2974b6362fd1",
+      "revision": "e3cf86bf32f73d2ba8523be232ccc119339260c8",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -427,7 +427,7 @@
     "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF": {
       "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "visibility": "public",
-      "revision": "a07c606ff200709e7094b1469aa8a1d9028720c9",
+      "revision": "55e8e0c9ac4376539f3ab91c16f53db4e3a6f2b4",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -438,7 +438,7 @@
     "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF",
       "visibility": "public",
-      "revision": "4e27a31558d0abc987bc57c1c9e31d6f4a3005e2",
+      "revision": "c64d9b9e1ee38ad10f2806b1ba7e6125636a47d6",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -492,7 +492,7 @@
     "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED": {
       "id": "DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED",
       "visibility": "public",
-      "revision": "975adf14b2c7e68b5fd1dbf8fa896d50574f8731",
+      "revision": "7236aa6052bbcb42551818a92a7d87f3e195c3d8",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2094,7 +2094,7 @@
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "visibility": "public",
-      "revision": "3e10f00b6620562e28d5132e077d8cc61a568881",
+      "revision": "47322806784c2436c59ba011753c2205d233ae5d",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2415,7 +2415,7 @@
     "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored": {
       "id": "DavidAU/Qwen3-8B-64k-Context-2X-Josiefied-Uncensored",
       "visibility": "public",
-      "revision": "b2bea2419c4f85c35f382e56ff6832843aedbbf8",
+      "revision": "e098adf6e7bca15c3d625bea368e351bd345fdc5",
       "license": null,
       "pipeline_tag": "text-generation"
     },
@@ -3178,7 +3178,7 @@
     "DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF": {
       "id": "DavidAU/Qwen3.8-Flash-Next-Abliterated-Uncensored-Turbo-Brilliance-50x-Reasoning-Instruct-GSQ-RCO-GGUF",
       "visibility": "public",
-      "revision": "b1b82c36770c826c41e1874f250228048cdb3f5c",
+      "revision": "623b419bd443e6e76ec51ca4b95d951da93c6969",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
