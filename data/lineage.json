@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-09T06:27:29Z",
+  "generated_at": "2026-11-09T22:22:14Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2318,7 +2318,7 @@
     "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
       "visibility": "public",
-      "revision": "acd5abe0c5ebd064f3863ca7d4bba2d924ec6544",
+      "revision": "98528df5677b3f030b38bf09110d376e903295e1",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2761,7 +2761,7 @@
     "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-v2-GGUF",
       "visibility": "public",
-      "revision": "6e298f56319a5735f88ae952dd27222369f2f44a",
+      "revision": "cbc7fba13f1939ac3fa42b18d77ccf43847d74ef",
       "license": "other",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3461,6 +3461,35 @@
     },
     "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved": {
       "id": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved",
+      "external_to_watchset": true
+    },
+    "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF": {
+      "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
+      "visibility": "public",
+      "revision": "3b6f11e221195ee3650d7ac0ffce6f9fe7275d8f",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic": {
+      "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "external_to_watchset": true
+    },
+    "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF": {
+      "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+      "visibility": "public",
+      "revision": "a4080b0d43ce739ed5a33f482bf584d7fd4fa4ac",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF": {
+      "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
+      "visibility": "public",
+      "revision": "24cb48fb814663c1a9687bcc6114f6e3f149fdc3",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored": {
+      "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored",
       "external_to_watchset": true
     }
   },
@@ -5918,6 +5947,27 @@
     {
       "from": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved",
       "to": "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "to": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "to": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored",
+      "to": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
