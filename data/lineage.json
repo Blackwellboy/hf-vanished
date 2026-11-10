@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-09T22:22:14Z",
+  "generated_at": "2026-11-10T07:18:04Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -557,7 +557,7 @@
     "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
       "id": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
       "visibility": "public",
-      "revision": "51a930204c9e9753d8139f569e9370547455dc7e",
+      "revision": "b54880ad4f8d109053b9ed745734718a40549b48",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
@@ -1520,7 +1520,7 @@
     "MiniMaxAI/MiniMax-H3": {
       "id": "MiniMaxAI/MiniMax-H3",
       "visibility": "public",
-      "revision": "42ed227ee7df40d41602854ae760620d6eb651fe",
+      "revision": "0919fb684102ef115126612f3fbb84d1027e7317",
       "license": "other",
       "pipeline_tag": "image-text-to-video"
     },
@@ -2318,7 +2318,7 @@
     "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.6-35B-A3B-abliterated-MTP-GGUF",
       "visibility": "public",
-      "revision": "98528df5677b3f030b38bf09110d376e903295e1",
+      "revision": "1fbb5305060b5365c84879612a619d0d2c0b137a",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
