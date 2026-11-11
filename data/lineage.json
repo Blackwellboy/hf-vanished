@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-10T19:44:21Z",
+  "generated_at": "2026-11-11T06:19:25Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -337,7 +337,7 @@
     "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "7c3ead4a6f2a78f0e6f9fb534d4fdbd3d9190664",
+      "revision": "4d47954f2ef8277567a20508dd3f88def5404455",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -359,7 +359,7 @@
     "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "926f44a3d81936187ab2af7783ed759f33c39ff5",
+      "revision": "e2d64985a4a5de0ff2ba67bc8a026f9531689c75",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -370,7 +370,7 @@
     "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
       "visibility": "public",
-      "revision": "e3cf86bf32f73d2ba8523be232ccc119339260c8",
+      "revision": "48bd90aa1d4da120f3d18fdff10414c58c4f7aba",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2094,7 +2094,7 @@
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "visibility": "public",
-      "revision": "47322806784c2436c59ba011753c2205d233ae5d",
+      "revision": "208c77c234a5173329f2c5bf89465e0aafa86813",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -3484,7 +3484,7 @@
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "visibility": "public",
-      "revision": "24cb48fb814663c1a9687bcc6114f6e3f149fdc3",
+      "revision": "738b8e5111585e547584d03a090bec09fd6de428",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
