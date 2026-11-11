@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-11T06:19:25Z",
+  "generated_at": "2026-11-11T19:36:39Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -224,7 +224,7 @@
     "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF": {
       "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
       "visibility": "public",
-      "revision": "1c69098e9c32db6dc06fc48f1d6cc75ad07da89e",
+      "revision": "c765b66c4b00e4be8689823fb04ba610b5e7658c",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -1680,7 +1680,7 @@
     "unsloth/Qwen3.8-27B-GGUF": {
       "id": "unsloth/Qwen3.8-27B-GGUF",
       "visibility": "public",
-      "revision": "43f522df59109a037f64f1e29ab1eff5c00e8e1e",
+      "revision": "ce331efc48d5722b4b8041f72793e530eae18d9b",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -3490,6 +3490,17 @@
     },
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored": {
       "id": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored",
+      "external_to_watchset": true
+    },
+    "mradermacher/Huihui-Qwen3-14B-abliterated-v2-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3-14B-abliterated-v2-GGUF",
+      "visibility": "public",
+      "revision": "daac977bbc287a398b4e46e190149142bb46c184",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-Qwen3-14B-abliterated-v2": {
+      "id": "huihui-ai/Huihui-Qwen3-14B-abliterated-v2",
       "external_to_watchset": true
     }
   },
@@ -5968,6 +5979,13 @@
     {
       "from": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored",
       "to": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3-14B-abliterated-v2",
+      "to": "mradermacher/Huihui-Qwen3-14B-abliterated-v2-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
