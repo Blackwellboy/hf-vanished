@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-12T07:10:33Z",
+  "generated_at": "2026-11-12T19:54:52Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3466,7 +3466,7 @@
     "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF": {
       "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
       "visibility": "public",
-      "revision": "3b6f11e221195ee3650d7ac0ffce6f9fe7275d8f",
+      "revision": "7db2fbdb0c6d3f8c0931b619fa1bb4e656de05fc",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -3477,8 +3477,8 @@
     "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF": {
       "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
       "visibility": "public",
-      "revision": "a4080b0d43ce739ed5a33f482bf584d7fd4fa4ac",
-      "license": "apache-2.0",
+      "revision": "53f7fcf561e85a296e57f3eb9fa61390ea77a0f2",
+      "license": null,
       "pipeline_tag": null
     },
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF": {
@@ -3502,6 +3502,20 @@
     "huihui-ai/Huihui-Qwen3-14B-abliterated-v2": {
       "id": "huihui-ai/Huihui-Qwen3-14B-abliterated-v2",
       "external_to_watchset": true
+    },
+    "mradermacher/Qwen3.8-Flash-Next-Uncensored-GGUF": {
+      "id": "mradermacher/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "3aa3ff434a0dc2b9dd6886fe12da134756229f74",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF": {
+      "id": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "visibility": "public",
+      "revision": "4f1d2f730cff977961db81789e81bfc0d3e6dd2e",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -5970,13 +5984,6 @@
       "inferred": false
     },
     {
-      "from": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-      "to": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
-      "relation": "DECLARED_BASE_MODEL",
-      "evidence": "Hugging Face model-card base_model metadata",
-      "inferred": false
-    },
-    {
       "from": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored",
       "to": "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF",
       "relation": "DECLARED_BASE_MODEL",
@@ -5986,6 +5993,27 @@
     {
       "from": "huihui-ai/Huihui-Qwen3-14B-abliterated-v2",
       "to": "mradermacher/Huihui-Qwen3-14B-abliterated-v2-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "orcarouter/Qwen3.8-Flash-Next-Uncensored",
+      "to": "mradermacher/Qwen3.8-Flash-Next-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "to": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "to": "AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
