@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-12T19:54:52Z",
+  "generated_at": "2026-11-13T06:45:12Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -557,7 +557,7 @@
     "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16": {
       "id": "AEON-7/Ornith-1.0-35B-AEON-Ultimate-Uncensored-BF16",
       "visibility": "public",
-      "revision": "b54880ad4f8d109053b9ed745734718a40549b48",
+      "revision": "c7092b90fc2fdea497f29c38f884da0977c38966",
       "license": "mit",
       "pipeline_tag": "text-generation"
     },
@@ -3466,7 +3466,7 @@
     "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF": {
       "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
       "visibility": "public",
-      "revision": "7db2fbdb0c6d3f8c0931b619fa1bb4e656de05fc",
+      "revision": "a713868aa6cd2df2225dee8f77d1b8b07414d742",
       "license": "apache-2.0",
       "pipeline_tag": null
     },
@@ -3477,8 +3477,8 @@
     "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF": {
       "id": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
       "visibility": "public",
-      "revision": "53f7fcf561e85a296e57f3eb9fa61390ea77a0f2",
-      "license": null,
+      "revision": "c6453f674da4d30f5737092d9371114cae3ca063",
+      "license": "apache-2.0",
       "pipeline_tag": null
     },
     "DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-ULTRA-HERETIC-Uncensored-NM-DAU-NEO-MTP-GGUF": {
@@ -5979,6 +5979,13 @@
     {
       "from": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "to": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "to": "mradermacher/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic-i1-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
