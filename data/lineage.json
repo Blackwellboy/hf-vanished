@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-14T06:22:59Z",
+  "generated_at": "2026-11-14T18:01:30Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3569,6 +3569,13 @@
     "OpenMOSS-Team/MOSS-Image-SFT": {
       "id": "OpenMOSS-Team/MOSS-Image-SFT",
       "external_to_watchset": true
+    },
+    "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF": {
+      "id": "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "2b465901dd60faa77d4ef23d63549930fcec41c2",
+      "license": "apache-2.0",
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -6144,6 +6151,13 @@
     {
       "from": "OpenMOSS-Team/MOSS-Image-SFT",
       "to": "Comfy-Org/MOSS-Image",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated",
+      "to": "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
