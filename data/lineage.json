@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-13T19:41:53Z",
+  "generated_at": "2026-11-14T06:22:59Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2740,7 +2740,7 @@
     "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC": {
       "id": "coolthor/Huihui-Qwen3.6-35B-A3B-abliterated-FP8-DYNAMIC",
       "visibility": "public",
-      "revision": "fe4d199c989e78d923dad976308ecdb5bd173771",
+      "revision": "8b00d5ee2f13180375ac60b22febbec89467b978",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
