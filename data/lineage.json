@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-16T06:30:05Z",
+  "generated_at": "2026-11-16T22:03:24Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3576,6 +3576,20 @@
       "revision": "2b465901dd60faa77d4ef23d63549930fcec41c2",
       "license": "apache-2.0",
       "pipeline_tag": null
+    },
+    "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF": {
+      "id": "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "73fa239749dfc09e847ea5e1149626d064224d92",
+      "license": "mit",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "007soham/Qwen3.8-27B-OBLITERATED": {
+      "id": "007soham/Qwen3.8-27B-OBLITERATED",
+      "visibility": "public",
+      "revision": "f6722eb13593ec8a27a0a1f0097f0e9777aa3558",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -6158,6 +6172,20 @@
     {
       "from": "huihui-ai/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated",
       "to": "mradermacher/Huihui-Qwen3-30B-A3B-Instruct-2507-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "to": "huihui-ai/Huihui-DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen3.8-27B",
+      "to": "007soham/Qwen3.8-27B-OBLITERATED",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
