@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-17T07:55:04Z",
+  "generated_at": "2026-11-17T20:56:25Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3590,6 +3590,13 @@
       "revision": "f6722eb13593ec8a27a0a1f0097f0e9777aa3558",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF": {
+      "id": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
+      "visibility": "public",
+      "revision": "83144a667924660c6ba0095585fd039d8daa9b91",
+      "license": "mit",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
@@ -6186,6 +6193,13 @@
     {
       "from": "Qwen/Qwen3.8-27B",
       "to": "007soham/Qwen3.8-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "to": "orcarouter/DeepSeek-V4.1-Flash-1017-abliterated-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
