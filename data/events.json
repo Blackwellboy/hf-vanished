@@ -1,9 +1,190 @@
 {
-  "generated_at": "2026-11-17T20:55:56Z",
+  "generated_at": "2026-11-18T07:30:07Z",
   "schema": "hf-vanished.events.v1",
   "cadence": "17 */6 * * *",
   "source": "https://github.com/Blackwellboy/hf-vanished",
   "events": [
+    {
+      "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+      "status": "AUTH_REQUIRED",
+      "severity": "hard",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
+      "detected_at": "2026-11-18T07:28:56Z",
+      "hf_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+      "prev": {
+        "visibility": "public",
+        "gated": false,
+        "weight_count": 5,
+        "checked_at": "2026-11-17T20:54:59Z"
+      },
+      "curr": {
+        "visibility": "auth_required",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-11-18T07:28:56Z",
+        "auth_required": true
+      },
+      "pirateface_url": "https://pirateface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
+      "reported_status": "PRIVATE",
+      "last_public": {
+        "checked_at": "2026-11-17T20:54:59Z",
+        "downloads": 273947,
+        "likes": 732,
+        "sha": "5fee44808148828299dec576603a58b74e41a393",
+        "last_modified": "2026-11-06T13:11:29.000Z",
+        "license": "apache-2.0",
+        "pipeline_tag": "image-text-to-text",
+        "library_name": "hermes",
+        "model_type": null,
+        "architectures": [],
+        "base_models": [
+          "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+        ],
+        "author": "LuffyTheFox",
+        "namespace": "LuffyTheFox",
+        "parameter_count": null,
+        "used_storage": 131202077136,
+        "formats": [
+          "gguf"
+        ],
+        "quantization": [],
+        "file_count": 15,
+        "weight_count": 5,
+        "weight_files": [
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-MXFP4.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-Q8_K_P.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MXFP4.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-Q8_K_P.gguf",
+          "mmproj-Hermes3.6-35B-A3B-Uncensored-Genesis-F16.gguf"
+        ],
+        "weight_files_truncated": 0
+      }
+    },
+    {
+      "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+      "status": "AUTH_REQUIRED",
+      "severity": "hard",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
+      "detected_at": "2026-11-18T07:28:53Z",
+      "hf_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+      "prev": {
+        "visibility": "public",
+        "gated": false,
+        "weight_count": 5,
+        "checked_at": "2026-11-17T20:55:50Z"
+      },
+      "curr": {
+        "visibility": "auth_required",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-11-18T07:28:53Z",
+        "auth_required": true
+      },
+      "wayback_url": "https://web.archive.org/web/20261014212334/https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+      "wayback_timestamp": "20261014212334",
+      "pirateface_url": "https://pirateface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+      "reported_status": "PRIVATE",
+      "last_public": {
+        "checked_at": "2026-11-17T20:55:50Z",
+        "downloads": 273947,
+        "likes": 732,
+        "sha": "5fee44808148828299dec576603a58b74e41a393",
+        "last_modified": "2026-11-06T13:11:29.000Z",
+        "license": "apache-2.0",
+        "pipeline_tag": "image-text-to-text",
+        "library_name": "hermes",
+        "model_type": null,
+        "architectures": [],
+        "base_models": [
+          "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+        ],
+        "author": "LuffyTheFox",
+        "namespace": "LuffyTheFox",
+        "parameter_count": null,
+        "used_storage": 131202077136,
+        "formats": [
+          "gguf"
+        ],
+        "quantization": [],
+        "file_count": 15,
+        "weight_count": 5,
+        "weight_files": [
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-MXFP4.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-Q8_K_P.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MXFP4.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-Q8_K_P.gguf",
+          "mmproj-Hermes3.6-35B-A3B-Uncensored-Genesis-F16.gguf"
+        ],
+        "weight_files_truncated": 0
+      }
+    },
+    {
+      "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+      "status": "AUTH_REQUIRED",
+      "severity": "hard",
+      "kind": "auth_required",
+      "summary": "Unauthenticated Hub access returns HTTP 401/403 after prior public evidence; exact private/deleted state is not inferred.",
+      "detected_at": "2026-11-18T07:28:35Z",
+      "hf_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+      "prev": {
+        "visibility": "public",
+        "gated": false,
+        "weight_count": 5,
+        "checked_at": "2026-11-17T20:55:27Z"
+      },
+      "curr": {
+        "visibility": "auth_required",
+        "gated": false,
+        "disabled": false,
+        "weight_count": 0,
+        "http": 401,
+        "checked_at": "2026-11-18T07:28:35Z",
+        "auth_required": true
+      },
+      "wayback_url": "https://web.archive.org/web/20261006100853/https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+      "wayback_timestamp": "20261006100853",
+      "pirateface_url": "https://pirateface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+      "reported_status": "PRIVATE",
+      "last_public": {
+        "checked_at": "2026-11-17T20:55:27Z",
+        "downloads": 273947,
+        "likes": 732,
+        "sha": "5fee44808148828299dec576603a58b74e41a393",
+        "last_modified": "2026-11-06T13:11:29.000Z",
+        "license": "apache-2.0",
+        "pipeline_tag": "image-text-to-text",
+        "library_name": "hermes",
+        "model_type": null,
+        "architectures": [],
+        "base_models": [
+          "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+        ],
+        "author": "LuffyTheFox",
+        "namespace": "LuffyTheFox",
+        "parameter_count": null,
+        "used_storage": 131202077136,
+        "formats": [
+          "gguf"
+        ],
+        "quantization": [],
+        "file_count": 15,
+        "weight_count": 5,
+        "weight_files": [
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-MXFP4.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-Q8_K_P.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-MXFP4.gguf",
+          "Hermes3.6-35B-A3B-Uncensored-Genesis-Q8_K_P.gguf",
+          "mmproj-Hermes3.6-35B-A3B-Uncensored-Genesis-F16.gguf"
+        ],
+        "weight_files_truncated": 0
+      }
+    },
     {
       "id": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
       "status": "AUTH_REQUIRED",
@@ -1409,9 +1590,9 @@
       },
       "pirateface_url": "https://pirateface.co/runwayml/stable-diffusion-v1-5",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:41Z",
+        "checked_at": "2026-11-18T07:28:06Z",
         "downloads": 1162568,
-        "likes": 1372,
+        "likes": 1375,
         "sha": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
         "last_modified": "2024-09-07T16:20:30.000Z",
         "license": "creativeml-openrail-m",
@@ -1666,7 +1847,7 @@
       },
       "pirateface_url": "https://pirateface.co/windowsxp811203/Qwen3.8-Flash-Next-Abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-11-17T20:55:32Z",
+        "checked_at": "2026-11-18T07:28:41Z",
         "downloads": 7538,
         "likes": 13,
         "sha": "c82c96684dffbf5153d74bd8411677008db6b668",
@@ -1723,9 +1904,9 @@
       },
       "pirateface_url": "https://pirateface.co/pyannote/speaker-diarization-3.1",
       "last_public": {
-        "checked_at": "2026-11-17T20:55:26Z",
+        "checked_at": "2026-11-18T07:28:35Z",
         "downloads": 6375689,
-        "likes": 5279,
+        "likes": 5312,
         "sha": "84fd25912480287da0247647c3d2b4853cb3ee5d",
         "last_modified": "2024-05-10T19:43:23.000Z",
         "license": "mit",
@@ -1770,8 +1951,8 @@
       },
       "pirateface_url": "https://pirateface.co/bigcode/starcoder",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:40Z",
-        "downloads": 6375,
+        "checked_at": "2026-11-18T07:28:06Z",
+        "downloads": 6332,
         "likes": 2990,
         "sha": "827cd7721231872c152e3faef5cae1b22964ed58",
         "last_modified": "2024-10-08T20:53:18.000Z",
@@ -1837,9 +2018,9 @@
       },
       "pirateface_url": "https://pirateface.co/black-forest-labs/FLUX.1-dev",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:40Z",
+        "checked_at": "2026-11-18T07:28:05Z",
         "downloads": 460251,
-        "likes": 16224,
+        "likes": 16238,
         "sha": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
         "last_modified": "2025-06-27T16:22:19.000Z",
         "license": "other",
@@ -1894,7 +2075,7 @@
       },
       "pirateface_url": "https://pirateface.co/audnai/penclaw-GLM-5.3-abliterated",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:53Z",
+        "checked_at": "2026-11-18T07:28:13Z",
         "downloads": 3710,
         "likes": 561,
         "sha": "027ae98a6f9dc37093b26759d7b8dbbfed9a97f8",
@@ -2040,7 +2221,7 @@
       },
       "pirateface_url": "https://pirateface.co/audnai/penclaw-Kimi-K3.0-abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:53Z",
+        "checked_at": "2026-11-18T07:28:14Z",
         "downloads": 157,
         "likes": 249,
         "sha": "a25be9b42b5e0396728c3997d56ea1dd4c608c05",
@@ -2126,7 +2307,7 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/BaronLLM_Offensive_Security-abliterated-GGUF",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:53Z",
+        "checked_at": "2026-11-18T07:28:14Z",
         "downloads": 992,
         "likes": 80,
         "sha": "7f7535bff0c301ec99fd3a8124aa4a48f50dfbde",
@@ -2179,9 +2360,9 @@
       },
       "pirateface_url": "https://pirateface.co/huihui-ai/Qwen3-8B-abliterated",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:53Z",
+        "checked_at": "2026-11-18T07:28:14Z",
         "downloads": 1652,
-        "likes": 115,
+        "likes": 116,
         "sha": "065db89f9e8ebadca8fd0d7e9f4d030df2fe0285",
         "last_modified": "2025-06-18T16:14:15.000Z",
         "license": "apache-2.0",
@@ -2241,9 +2422,9 @@
       },
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:54Z",
+        "checked_at": "2026-11-18T07:28:14Z",
         "downloads": 8387,
-        "likes": 541,
+        "likes": 542,
         "sha": "0f639a9bde23fe229a7b064b40a5153c5bec0b48",
         "last_modified": "2026-10-27T06:56:53.000Z",
         "license": "apache-2.0",
@@ -2308,9 +2489,9 @@
       },
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:45Z",
+        "checked_at": "2026-11-18T07:28:08Z",
         "downloads": 55982,
-        "likes": 1900,
+        "likes": 1902,
         "sha": "b32584cc1599eb3ad06191cc32b3bc3288ddd4d5",
         "last_modified": "2026-10-27T06:56:37.000Z",
         "license": "apache-2.0",
@@ -2367,9 +2548,9 @@
       "wayback_url": "https://web.archive.org/web/*/https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "pirateface_url": "https://pirateface.co/orcarouter/Qwen3.8-27B-Uncensored-GGUF",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:45Z",
+        "checked_at": "2026-11-18T07:28:08Z",
         "downloads": 114355,
-        "likes": 1832,
+        "likes": 1839,
         "sha": "b2e5cef033c0832fff1cc8c4937865abab9455f4",
         "last_modified": "2026-10-27T06:56:40.000Z",
         "license": "apache-2.0",
@@ -2432,7 +2613,7 @@
       },
       "pirateface_url": "https://pirateface.co/rogue-security/prompt-injection-jailbreak-sentinel-v2",
       "last_public": {
-        "checked_at": "2026-11-17T20:54:45Z",
+        "checked_at": "2026-11-18T07:28:09Z",
         "downloads": 8119,
         "likes": 68,
         "sha": "05ff9bfd1f28c5228e53121d5ee4427bb5205212",

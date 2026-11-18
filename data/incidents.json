@@ -1,7 +1,36 @@
 {
   "schema": "hf-vanished.incidents.v1",
-  "generated_at": "2026-11-17T20:56:25Z",
+  "generated_at": "2026-11-18T07:30:36Z",
   "incidents": [
+    {
+      "id": "INC-42383288B7",
+      "start": "2026-11-18T07:28:35Z",
+      "end": "2026-11-18T07:28:56Z",
+      "models": [
+        "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
+        "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+        "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF"
+      ],
+      "signals": [
+        {
+          "type": "TEMPORAL_CLUSTER",
+          "count": 3,
+          "window_hours": 24
+        },
+        {
+          "type": "SAME_OWNER_CLUSTER",
+          "owner": "LuffyTheFox",
+          "count": 3
+        },
+        {
+          "type": "SAME_MODEL_FAMILY",
+          "family": "qwen3-6-35b",
+          "count": 3
+        }
+      ],
+      "interpretation": "CORRELATION_ONLY",
+      "note": "Signals describe timing/metadata correlation only; they do not establish coordination, motive, reporting campaigns, or government action."
+    },
     {
       "id": "INC-4D54D57490",
       "start": "2026-09-19T15:53:16Z",
