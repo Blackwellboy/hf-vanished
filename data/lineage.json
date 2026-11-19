@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-18T20:31:03Z",
+  "generated_at": "2026-11-19T07:24:59Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2634,7 +2634,7 @@
     "Comfy-Org/Wan_2.2_ComfyUI_Repackaged": {
       "id": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "visibility": "public",
-      "revision": "ee6f4a40737a995bf5818954cfce6d59443b0f04",
+      "revision": "5df3a4a3ed0628002308022198249dbbbd045d09",
       "license": "apache-2.0",
       "pipeline_tag": "image-to-video"
     },
@@ -2850,7 +2850,7 @@
     "Comfy-Org/Wan-2.2": {
       "id": "Comfy-Org/Wan-2.2",
       "visibility": "public",
-      "revision": "ee6f4a40737a995bf5818954cfce6d59443b0f04",
+      "revision": "5df3a4a3ed0628002308022198249dbbbd045d09",
       "license": "apache-2.0",
       "pipeline_tag": "image-to-video"
     },
@@ -2868,7 +2868,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "7a103b33f04120535bdfe97b5f65b79d3c90d708",
+      "revision": "32c1ce1fea57a513eb9386aa62408d47b1cf7ab2",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
