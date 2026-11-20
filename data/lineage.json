@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-20T07:15:05Z",
+  "generated_at": "2026-11-20T20:19:10Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -481,7 +481,7 @@
     "llmfan46/gemma-4-E4B-it-uncensored-heretic": {
       "id": "llmfan46/gemma-4-E4B-it-uncensored-heretic",
       "visibility": "public",
-      "revision": "446ec370626e1fda5b6cfb67e2c90152315d3aab",
+      "revision": "ec4904ff1e5ea4617f2bd1372ce4cea40fb9aaac",
       "license": "apache-2.0",
       "pipeline_tag": "any-to-any"
     },
@@ -1520,7 +1520,7 @@
     "MiniMaxAI/MiniMax-H3": {
       "id": "MiniMaxAI/MiniMax-H3",
       "visibility": "public",
-      "revision": "0919fb684102ef115126612f3fbb84d1027e7317",
+      "revision": "1cc7549f2cf0af8ff2f09b24f3c57303c8aa6317",
       "license": "other",
       "pipeline_tag": "image-text-to-video"
     },
@@ -2495,7 +2495,7 @@
     "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF": {
       "id": "mradermacher/Huihui-Qwen3.8-Flash-Next-abliterated-i1-GGUF",
       "visibility": "public",
-      "revision": "8c4ef5b35b6314f06f233d600d8bcb562dfca6a4",
+      "revision": "e89cd5d34d89ae57650f9de5a25981019f45a15f",
       "license": "other",
       "pipeline_tag": null
     },
@@ -2868,9 +2868,33 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "b7b9aa1f16c819c3b2d69a602b51786bdfb361a3",
+      "revision": "33120a4cfdf0d56786db934a03a093d4675de938",
       "license": "other",
       "pipeline_tag": "text-to-speech"
+    },
+    "ASLP-lab/M5-TTS-50M-VoiceClone": {
+      "id": "ASLP-lab/M5-TTS-50M-VoiceClone",
+      "external_to_watchset": true
+    },
+    "ASLP-lab/M5-TTS-50M-CustomVoice": {
+      "id": "ASLP-lab/M5-TTS-50M-CustomVoice",
+      "external_to_watchset": true
+    },
+    "ASLP-lab/M5-TTS-Audio-Tokenizer": {
+      "id": "ASLP-lab/M5-TTS-Audio-Tokenizer",
+      "external_to_watchset": true
+    },
+    "ibm-granite/granite-speech-5.0-2b": {
+      "id": "ibm-granite/granite-speech-5.0-2b",
+      "external_to_watchset": true
+    },
+    "VoxDance-Lab/VoxMel-0.6B": {
+      "id": "VoxDance-Lab/VoxMel-0.6B",
+      "external_to_watchset": true
+    },
+    "charactr/vocos-mel-24khz": {
+      "id": "charactr/vocos-mel-24khz",
+      "external_to_watchset": true
     },
     "alibabasglab/MossFormer2_SR_48K": {
       "id": "alibabasglab/MossFormer2_SR_48K",
@@ -3611,6 +3635,28 @@
       "revision": "536b0662742c02347bc0e980a01041f333bce120",
       "license": "mit",
       "pipeline_tag": "automatic-speech-recognition"
+    },
+    "jenerallee78/Mistral-Small-4-119B-2603-obliterated-Q4_K_M-GGUF": {
+      "id": "jenerallee78/Mistral-Small-4-119B-2603-obliterated-Q4_K_M-GGUF",
+      "visibility": "public",
+      "revision": "e2eb1ee9d356405cd70577699cda8b0276839efe",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "mistralai/Mistral-Small-4-119B-2603": {
+      "id": "mistralai/Mistral-Small-4-119B-2603",
+      "external_to_watchset": true
+    },
+    "mradermacher/jailbreak-creator-GGUF": {
+      "id": "mradermacher/jailbreak-creator-GGUF",
+      "visibility": "public",
+      "revision": "3e034a98628adbc67f71c4aeb4a05fbdfee3a4dd",
+      "license": "openrail",
+      "pipeline_tag": null
+    },
+    "SynastriaNetworks/jailbreak-creator": {
+      "id": "SynastriaNetworks/jailbreak-creator",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -5337,6 +5383,48 @@
       "inferred": false
     },
     {
+      "from": "ASLP-lab/M5-TTS-50M-VoiceClone",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ASLP-lab/M5-TTS-50M-CustomVoice",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ASLP-lab/M5-TTS-Audio-Tokenizer",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "ibm-granite/granite-speech-5.0-2b",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "VoxDance-Lab/VoxMel-0.6B",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "charactr/vocos-mel-24khz",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
       "from": "alibabasglab/MossFormer2_SR_48K",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
@@ -6221,6 +6309,20 @@
     {
       "from": "Qwen/Qwen-Image-2.1",
       "to": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "mistralai/Mistral-Small-4-119B-2603",
+      "to": "jenerallee78/Mistral-Small-4-119B-2603-obliterated-Q4_K_M-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "SynastriaNetworks/jailbreak-creator",
+      "to": "mradermacher/jailbreak-creator-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
