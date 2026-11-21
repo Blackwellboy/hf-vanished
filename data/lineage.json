@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-21T07:07:27Z",
+  "generated_at": "2026-11-21T19:15:52Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3657,6 +3657,13 @@
     "SynastriaNetworks/jailbreak-creator": {
       "id": "SynastriaNetworks/jailbreak-creator",
       "external_to_watchset": true
+    },
+    "Qwen/Qwen3-4B-Instruct-2507": {
+      "id": "Qwen/Qwen3-4B-Instruct-2507",
+      "visibility": "public",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
     }
   },
   "edges": [
