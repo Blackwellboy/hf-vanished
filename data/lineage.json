@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-22T06:47:39Z",
+  "generated_at": "2026-11-22T19:40:18Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3664,6 +3664,24 @@
       "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "AEON-7/supergemma4-26b-abliterated-multimodal-nvfp4": {
+      "id": "AEON-7/supergemma4-26b-abliterated-multimodal-nvfp4",
+      "visibility": "public",
+      "revision": "5b89b15d265a4aaef6bc2f9e474ff0601d3e342b",
+      "license": "gemma",
+      "pipeline_tag": "text-generation"
+    },
+    "Jiunsong/supergemma4-26b-abliterated-multimodal": {
+      "id": "Jiunsong/supergemma4-26b-abliterated-multimodal",
+      "external_to_watchset": true
+    },
+    "openai/whisper-base": {
+      "id": "openai/whisper-base",
+      "visibility": "public",
+      "revision": "e37978b90ca9030d5170a5c07aadb050351a65bb",
+      "license": "apache-2.0",
+      "pipeline_tag": "automatic-speech-recognition"
     }
   },
   "edges": [
@@ -6330,6 +6348,13 @@
     {
       "from": "SynastriaNetworks/jailbreak-creator",
       "to": "mradermacher/jailbreak-creator-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Jiunsong/supergemma4-26b-abliterated-multimodal",
+      "to": "AEON-7/supergemma4-26b-abliterated-multimodal-nvfp4",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
