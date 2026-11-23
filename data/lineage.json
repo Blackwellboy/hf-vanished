@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-23T07:38:27Z",
+  "generated_at": "2026-11-23T23:54:33Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3682,6 +3682,35 @@
       "revision": "e37978b90ca9030d5170a5c07aadb050351a65bb",
       "license": "apache-2.0",
       "pipeline_tag": "automatic-speech-recognition"
+    },
+    "AtomicChat/Inkling-2-Mini-Uncensored-GGUF": {
+      "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "visibility": "public",
+      "revision": "40886ab636cabb4decf4998224f790b462ab048e",
+      "license": "apache-2.0",
+      "pipeline_tag": "image-text-to-text"
+    },
+    "thinkingmachines/Inkling-2-Mini": {
+      "id": "thinkingmachines/Inkling-2-Mini",
+      "external_to_watchset": true
+    },
+    "llmfan46/Qwen3-Coder-Next-Uncensored-Heretic-GGUF": {
+      "id": "llmfan46/Qwen3-Coder-Next-Uncensored-Heretic-GGUF",
+      "visibility": "public",
+      "revision": "4ff143b5462280c505c5ffae6881802218ed94a0",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "llmfan46/Qwen3-Coder-Next-Uncensored-Heretic": {
+      "id": "llmfan46/Qwen3-Coder-Next-Uncensored-Heretic",
+      "external_to_watchset": true
+    },
+    "mradermacher/Hermes-4-14B-OBLITERATED-V2-GGUF": {
+      "id": "mradermacher/Hermes-4-14B-OBLITERATED-V2-GGUF",
+      "visibility": "public",
+      "revision": "9b4e9055a357a5405b557a2392ddc9f880a3122c",
+      "license": null,
+      "pipeline_tag": null
     }
   },
   "edges": [
@@ -6355,6 +6384,27 @@
     {
       "from": "Jiunsong/supergemma4-26b-abliterated-multimodal",
       "to": "AEON-7/supergemma4-26b-abliterated-multimodal-nvfp4",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "thinkingmachines/Inkling-2-Mini",
+      "to": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "llmfan46/Qwen3-Coder-Next-Uncensored-Heretic",
+      "to": "llmfan46/Qwen3-Coder-Next-Uncensored-Heretic-GGUF",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "RavichandranJ/Hermes-4-14B-OBLITERATED-V2",
+      "to": "mradermacher/Hermes-4-14B-OBLITERATED-V2-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
