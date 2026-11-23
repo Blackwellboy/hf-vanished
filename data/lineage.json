@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-22T19:40:18Z",
+  "generated_at": "2026-11-23T07:38:27Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2868,7 +2868,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "5140b027d3c416e5e3719002f98f09a196e0db6a",
+      "revision": "8aa1ea478487ca24608573bbc7c4f4e3ecac3f91",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
@@ -3251,9 +3251,9 @@
     "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF": {
       "id": "ttindall/Qwen3.8-27B-Defiance-Uncensored-MTP-GGUF",
       "visibility": "public",
-      "revision": "1e664931451831589ce16389a55e0d5605dd4bc5",
+      "revision": "22f1fb9eb4846bdea6bce6b32fc96f05c9db5f6b",
       "license": "apache-2.0",
-      "pipeline_tag": "text-generation"
+      "pipeline_tag": "image-text-to-text"
     },
     "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF": {
       "id": "DavidAU/Qwen3.8-27B-Turbo-Brilliance-50X-Reasoning-Instruct-NEO-MAX-MTP-GGUF",
@@ -3625,7 +3625,7 @@
     "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized": {
       "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
       "visibility": "public",
-      "revision": "85156a863c05a58b73831d21bd968b5344d7296e",
+      "revision": "af0343c259513913de8056af85819c70f627d681",
       "license": "other",
       "pipeline_tag": "text-to-image"
     },
