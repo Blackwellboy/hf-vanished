@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-24T09:54:59Z",
+  "generated_at": "2026-11-24T22:27:38Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2868,7 +2868,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "1b2445c0e3bcf41ea5fa60fd9e3e722075eb45b1",
+      "revision": "047ec541cc3f7e50c583acd56e0177ae286c4078",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
@@ -3686,7 +3686,7 @@
     "AtomicChat/Inkling-2-Mini-Uncensored-GGUF": {
       "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "40886ab636cabb4decf4998224f790b462ab048e",
+      "revision": "82b34b9b0e5bc2e3e7b6d617ec8cc3e0f9692ee2",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
