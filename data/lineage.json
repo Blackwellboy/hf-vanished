@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-25T08:34:18Z",
+  "generated_at": "2026-11-25T21:42:44Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2868,9 +2868,37 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "047ec541cc3f7e50c583acd56e0177ae286c4078",
+      "revision": "dac3915042a8ddfbb79f87b108214fda57e4b753",
       "license": "other",
       "pipeline_tag": "text-to-speech"
+    },
+    "kobimusic/dettato": {
+      "id": "kobimusic/dettato",
+      "external_to_watchset": true
+    },
+    "kobimusic/dettato-evidence": {
+      "id": "kobimusic/dettato-evidence",
+      "external_to_watchset": true
+    },
+    "kobimusic/dettato-grouper": {
+      "id": "kobimusic/dettato-grouper",
+      "external_to_watchset": true
+    },
+    "kobimusic/dettato-drums": {
+      "id": "kobimusic/dettato-drums",
+      "external_to_watchset": true
+    },
+    "gradium/phonon-40m-fr": {
+      "id": "gradium/phonon-40m-fr",
+      "external_to_watchset": true
+    },
+    "gradium/phonon-40m-multilingual": {
+      "id": "gradium/phonon-40m-multilingual",
+      "external_to_watchset": true
+    },
+    "Reson8/Rumble-2-Flash": {
+      "id": "Reson8/Rumble-2-Flash",
+      "external_to_watchset": true
     },
     "ASLP-lab/M5-TTS-50M-VoiceClone": {
       "id": "ASLP-lab/M5-TTS-50M-VoiceClone",
@@ -3082,6 +3110,14 @@
     },
     "k2-fsa/OmniVoice": {
       "id": "k2-fsa/OmniVoice",
+      "external_to_watchset": true
+    },
+    "KaleComputer/kale-tts-1-nano": {
+      "id": "KaleComputer/kale-tts-1-nano",
+      "external_to_watchset": true
+    },
+    "KaleComputer/kale-tts-1-tiny": {
+      "id": "KaleComputer/kale-tts-1-tiny",
       "external_to_watchset": true
     },
     "KittenML/kitten-tts-2": {
@@ -3656,7 +3692,10 @@
     },
     "SynastriaNetworks/jailbreak-creator": {
       "id": "SynastriaNetworks/jailbreak-creator",
-      "external_to_watchset": true
+      "visibility": "public",
+      "revision": "ebd07a1428d65a7d73380f1a0628ef615050f058",
+      "license": "openrail",
+      "pipeline_tag": "text-generation"
     },
     "Qwen/Qwen3-4B-Instruct-2507": {
       "id": "Qwen/Qwen3-4B-Instruct-2507",
@@ -3718,6 +3757,17 @@
       "revision": "27b8dae721f6fcc91da85cba26520b41849a45b2",
       "license": "apache-2.0",
       "pipeline_tag": "text-generation"
+    },
+    "PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS": {
+      "id": "PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS",
+      "visibility": "public",
+      "revision": "cc16ae5f78e364eaf4665651ff46a3a36cf33de4",
+      "license": "apache-2.0",
+      "pipeline_tag": "text-generation"
+    },
+    "Kwaipilot/KAT-Coder-V2.5-Dev": {
+      "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -5444,6 +5494,55 @@
       "inferred": false
     },
     {
+      "from": "kobimusic/dettato",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "kobimusic/dettato-evidence",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "kobimusic/dettato-grouper",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "kobimusic/dettato-drums",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "gradium/phonon-40m-fr",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "gradium/phonon-40m-multilingual",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Reson8/Rumble-2-Flash",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
       "from": "ASLP-lab/M5-TTS-50M-VoiceClone",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
@@ -5816,6 +5915,20 @@
     },
     {
       "from": "k2-fsa/OmniVoice",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "KaleComputer/kale-tts-1-nano",
+      "to": "audio-cpp/audio.cpp-gguf",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "KaleComputer/kale-tts-1-tiny",
       "to": "audio-cpp/audio.cpp-gguf",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
@@ -6419,6 +6532,20 @@
     {
       "from": "Qwen/Qwen3.8-27B",
       "to": "N8STORM/Qwen3.8-27B-OBLITERATED",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Kwaipilot/KAT-Coder-V2.5-Dev",
+      "to": "PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "Qwen/Qwen2.5-0.5B-Instruct",
+      "to": "SynastriaNetworks/jailbreak-creator",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
