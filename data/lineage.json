@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-25T21:42:44Z",
+  "generated_at": "2026-11-26T08:18:18Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3768,6 +3768,17 @@
     "Kwaipilot/KAT-Coder-V2.5-Dev": {
       "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
       "external_to_watchset": true
+    },
+    "mradermacher/Qwen2.5-7B-Instruct-abliterated-i1-GGUF": {
+      "id": "mradermacher/Qwen2.5-7B-Instruct-abliterated-i1-GGUF",
+      "visibility": "public",
+      "revision": "57457b9c12a88552f6ae116c1a3302c33ecb9460",
+      "license": "apache-2.0",
+      "pipeline_tag": null
+    },
+    "huihui-ai/Qwen2.5-7B-Instruct-abliterated": {
+      "id": "huihui-ai/Qwen2.5-7B-Instruct-abliterated",
+      "external_to_watchset": true
     }
   },
   "edges": [
@@ -6546,6 +6557,13 @@
     {
       "from": "Qwen/Qwen2.5-0.5B-Instruct",
       "to": "SynastriaNetworks/jailbreak-creator",
+      "relation": "DECLARED_BASE_MODEL",
+      "evidence": "Hugging Face model-card base_model metadata",
+      "inferred": false
+    },
+    {
+      "from": "huihui-ai/Qwen2.5-7B-Instruct-abliterated",
+      "to": "mradermacher/Qwen2.5-7B-Instruct-abliterated-i1-GGUF",
       "relation": "DECLARED_BASE_MODEL",
       "evidence": "Hugging Face model-card base_model metadata",
       "inferred": false
