@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-26T21:31:49Z",
+  "generated_at": "2026-11-27T08:31:54Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -3725,7 +3725,7 @@
     "AtomicChat/Inkling-2-Mini-Uncensored-GGUF": {
       "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "visibility": "public",
-      "revision": "43a235415e3cddf4467de7469c42c93241f48090",
+      "revision": "c311009ce2b34e35c07a0f374b7eeff24a8d95c6",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
