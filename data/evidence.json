@@ -1,10 +1,10 @@
 {
   "schema": "hf-vanished.evidence.v1",
-  "generated_at": "2026-11-27T08:31:54Z",
-  "cursor": 68,
+  "generated_at": "2026-11-27T21:18:00Z",
+  "cursor": 98,
   "models": {
     "Aeala/ShareGPT_Vicuna_unfiltered": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:41Z",
       "repo": "Aeala/ShareGPT_Vicuna_unfiltered",
       "hf_url": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered",
       "reason": {
@@ -27,10 +27,10 @@
           "source": "https://huggingface.co/Aeala/ShareGPT_Vicuna_unfiltered"
         }
       ],
-      "evidence_sha256": "fc018dc4f56b7cd1eb01284c49477eda7ed9dea930c11cd8d3c75fe833c843f7"
+      "evidence_sha256": "53cc4bdc442332b866e715fac4924ea99ea87865692c1b15e8da8aae8ca1921b"
     },
     "OpenAssistant/oasst-sft-6-llama-30b": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:42Z",
       "repo": "OpenAssistant/oasst-sft-6-llama-30b",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b",
       "reason": {
@@ -53,10 +53,10 @@
           "source": "https://huggingface.co/OpenAssistant/oasst-sft-6-llama-30b"
         }
       ],
-      "evidence_sha256": "670e1c0853dcb9d8d63fc9ceac728268af76215bc0efb404061e06cc6ba6e305"
+      "evidence_sha256": "544aad7a7cae4875a2bc74f3223b1a7d5d0dc126e3ca7290977ed12eabf8f57d"
     },
     "Undi95/LLaMA-2-13B-GPTQ": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:42Z",
       "repo": "Undi95/LLaMA-2-13B-GPTQ",
       "hf_url": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ",
       "reason": {
@@ -79,10 +79,10 @@
           "source": "https://huggingface.co/Undi95/LLaMA-2-13B-GPTQ"
         }
       ],
-      "evidence_sha256": "3b2c686792f94bf17243f742b6df192317f60072ba83907d698db153f29e78db"
+      "evidence_sha256": "b7342b9e06c460026149d81cd0975862e8b32325194cefa88cb47fe51897b89e"
     },
     "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:42Z",
       "repo": "Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "hf_url": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid",
       "reason": {
@@ -105,10 +105,10 @@
           "source": "https://huggingface.co/Undi95/MLewd-ReMM-L2-Chat-20B-Hybrid"
         }
       ],
-      "evidence_sha256": "c892c6ff384efdaa6403fb4b8f9a9422359a6033db5fcd62019296c8b12b3f1d"
+      "evidence_sha256": "d7caa87d4cd3ce478557111dd40e810d811fef7afd3cf9d424e44288c0da03da"
     },
     "WizardLM/WizardLM-7B-V1.0": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:43Z",
       "repo": "WizardLM/WizardLM-7B-V1.0",
       "hf_url": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0",
       "reason": {
@@ -131,10 +131,10 @@
           "source": "https://huggingface.co/WizardLM/WizardLM-7B-V1.0"
         }
       ],
-      "evidence_sha256": "08130d635b2c3c69f6b7e36765b3372ad7d9cfb10f85de7f0de6f950f6f9cc44"
+      "evidence_sha256": "93678506f5e815eb7153016e1c13b17f2e427f6a9f7c00da28248ddc34eb0532"
     },
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:43Z",
       "repo": "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "hf_url": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber",
       "reason": {
@@ -157,10 +157,10 @@
           "source": "https://huggingface.co/audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber"
         }
       ],
-      "evidence_sha256": "87fddf4bf3b3701bd85da22bc0ae3796713a523d20a73cbb8ea01fc0f1a88049"
+      "evidence_sha256": "959b22331180b811c98f70123837250f502152a85d2f02192e907353ed0bd705"
     },
     "databricks/dolly-v1-6b": {
-      "captured_at": "2026-11-27T08:31:48Z",
+      "captured_at": "2026-11-27T21:17:44Z",
       "repo": "databricks/dolly-v1-6b",
       "hf_url": "https://huggingface.co/databricks/dolly-v1-6b",
       "reason": {
@@ -183,10 +183,10 @@
           "source": "https://huggingface.co/databricks/dolly-v1-6b"
         }
       ],
-      "evidence_sha256": "66bd97dbf2ed797cea2ec895dce188ce69975bc68b181a34ebb54197b225ff81"
+      "evidence_sha256": "2a83334e47bb8060711719587edafc2217250497a71fa72a9d25552b90c4eca8"
     },
     "databricks/dolly-v2-12b": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:44Z",
       "repo": "databricks/dolly-v2-12b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-12b",
       "reason": {
@@ -209,10 +209,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-12b"
         }
       ],
-      "evidence_sha256": "31f514c4b255d30cfbcedb5a19bd422a56279928e5a157d2b8c4c65de35c6997"
+      "evidence_sha256": "11c2acd3a947ccbcc3730af7c0174d978fd10a134469b18fb710d3ff5054bcdb"
     },
     "databricks/dolly-v2-3b": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:44Z",
       "repo": "databricks/dolly-v2-3b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-3b",
       "reason": {
@@ -235,10 +235,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-3b"
         }
       ],
-      "evidence_sha256": "fff216d7403d166f05bd56a58a34d2c8a6915f686886a618739224e54a6b2346"
+      "evidence_sha256": "342c75a47802fc053c5070cb958172d2c7f904c5157697fecc961ed721281eba"
     },
     "databricks/dolly-v2-7b": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:45Z",
       "repo": "databricks/dolly-v2-7b",
       "hf_url": "https://huggingface.co/databricks/dolly-v2-7b",
       "reason": {
@@ -261,10 +261,10 @@
           "source": "https://huggingface.co/databricks/dolly-v2-7b"
         }
       ],
-      "evidence_sha256": "ceef00887f79f26e9e549026000389e2b8a8ff87485dd04bdeab607a9e330bdb"
+      "evidence_sha256": "1b3c2c71b7a8691012b0891e8e72769a171ec850a134a0826f62d96e59f06ad4"
     },
     "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:45Z",
       "repo": "failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "hf_url": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3",
       "reason": {
@@ -287,10 +287,10 @@
           "source": "https://huggingface.co/failspy/Meta-Llama-3-70B-Instruct-abliterated-v3"
         }
       ],
-      "evidence_sha256": "44222223420c89b23f4ae117f0f9b89a0367bcbe991b42b313954772ad751b2d"
+      "evidence_sha256": "d307020358afc74f67e5ae11aab5681f1ac7a3ae438f9ba318d300a596a68d60"
     },
     "huihui-ai/Llama-3.1-70B-Instruct-abliterated": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:45Z",
       "repo": "huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated",
       "reason": {
@@ -313,10 +313,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-70B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "09837d36f10c7e47893f9378890fe45fcb5adf0f3bb174583e66e003f7e1c31d"
+      "evidence_sha256": "399b775b3c68315fadffc75bb49531f33a0220054f52c42eb1033e2628a7d493"
     },
     "huihui-ai/Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:46Z",
       "repo": "huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -339,10 +339,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "2baaee5281499dcf81b29ea61b0021a33f61a079d106daba691eda6fbcf0cf6e"
+      "evidence_sha256": "583b17f7a6d3de49585440c148d0b3e870dd7554f1caf4dabf14377fd890fa57"
     },
     "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated": {
-      "captured_at": "2026-11-27T08:31:49Z",
+      "captured_at": "2026-11-27T21:17:46Z",
       "repo": "huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated",
       "reason": {
@@ -365,10 +365,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-11B-Vision-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "61e1b32ff26cf6e41a1f317227f6af40ab2daa293bee14a34f030ec3b843dc09"
+      "evidence_sha256": "c0164d896850ffd4912a1751d33ad515fcd864b5f65e3df0e052f3e637c2e576"
     },
     "huihui-ai/Llama-3.2-1B-Instruct-abliterated": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:47Z",
       "repo": "huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated",
       "reason": {
@@ -391,10 +391,10 @@
           "source": "https://huggingface.co/huihui-ai/Llama-3.2-1B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "725651976ef5943664a7524b178b5a1068d766da61641d1261ecd3188147d822"
+      "evidence_sha256": "460b26a507200519a49830c5e86df98be7a2ffe2e66064f76a49a4cac8dbf0a9"
     },
     "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:47Z",
       "repo": "huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "hf_url": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated",
       "reason": {
@@ -417,10 +417,10 @@
           "source": "https://huggingface.co/huihui-ai/Meta-Llama-3.1-8B-Instruct-abliterated"
         }
       ],
-      "evidence_sha256": "ddab97dfd02e5e52c83fd117a4e1d83e3217218b6c7f00c7bad6a3e04e65e6bd"
+      "evidence_sha256": "8cd4c5cdfa2d12d67368e0818a590080d1b76113c665a26f4ad83fe15c094d8d"
     },
     "mosaicml/mpt-7b-chat": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:47Z",
       "repo": "mosaicml/mpt-7b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-7b-chat",
       "reason": {
@@ -449,10 +449,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-7b-chat"
         }
       ],
-      "evidence_sha256": "1a93a62a50e6d225867a10f0375bc7176c38ba06d1d3b3a53c2c406ccbfde86e"
+      "evidence_sha256": "63b72cda49cfdd5e28e90a98bb4a273c201b39cf9cd4ea7e24dd188c91bcd1cb"
     },
     "stabilityai/stable-diffusion-2-1": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:48Z",
       "repo": "stabilityai/stable-diffusion-2-1",
       "hf_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1",
       "reason": {
@@ -481,10 +481,10 @@
           "source": "https://huggingface.co/stabilityai/stable-diffusion-2-1"
         }
       ],
-      "evidence_sha256": "cd459a04748dfe10909fe60d7aee07b584b0efedaef47e4b877ee7ffce590745"
+      "evidence_sha256": "490dcb8c9bcd2e86144387d4ba82889961a320be943da10fae9a4a919c5341e4"
     },
     "tencent/HunyuanDiT": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:48Z",
       "repo": "tencent/HunyuanDiT",
       "hf_url": "https://huggingface.co/tencent/HunyuanDiT",
       "reason": {
@@ -507,10 +507,10 @@
           "source": "https://huggingface.co/tencent/HunyuanDiT"
         }
       ],
-      "evidence_sha256": "20dc186abe559ba6538c920a095159c3270b560697a15f0cdf5f712b5dfecff6"
+      "evidence_sha256": "82f456bf33d3cdc912d48d629dad3a29c2441f3f06bad0e6eb1eae3d6f6822e8"
     },
     "databricks/dbrx-base": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:48Z",
       "repo": "databricks/dbrx-base",
       "hf_url": "https://huggingface.co/databricks/dbrx-base",
       "reason": {
@@ -533,10 +533,10 @@
           "source": "https://huggingface.co/databricks/dbrx-base"
         }
       ],
-      "evidence_sha256": "1f53866b1799647d85ff647622142c276f871f6683733ced20d125bb551d0f99"
+      "evidence_sha256": "0fb4b9b032df3d99de7b72abd3210288c3ab0826c5bf466d03b7bedebf5e2020"
     },
     "databricks/dbrx-instruct": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:49Z",
       "repo": "databricks/dbrx-instruct",
       "hf_url": "https://huggingface.co/databricks/dbrx-instruct",
       "reason": {
@@ -559,10 +559,10 @@
           "source": "https://huggingface.co/databricks/dbrx-instruct"
         }
       ],
-      "evidence_sha256": "d361bae69d576418f28646ce67ca9d3dd199812079e6952d5b1a9d89f2640c2b"
+      "evidence_sha256": "e326b011c06492d449acfb142ac2229991ba5a60d9832db7d8769124ade1bd1e"
     },
     "mosaicml/mpt-30b": {
-      "captured_at": "2026-11-27T08:31:50Z",
+      "captured_at": "2026-11-27T21:17:49Z",
       "repo": "mosaicml/mpt-30b",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b",
       "reason": {
@@ -585,10 +585,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b"
         }
       ],
-      "evidence_sha256": "cb4753f50fee2cdf638378790f5590e8217edbfc4705806603d1f037ec84590d"
+      "evidence_sha256": "3d52e5ec2ddc905ca8a375a790b6af21a1fda97960ad418e2476b308e45f0986"
     },
     "mosaicml/mpt-30b-chat": {
-      "captured_at": "2026-11-27T08:31:51Z",
+      "captured_at": "2026-11-27T21:17:49Z",
       "repo": "mosaicml/mpt-30b-chat",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-chat",
       "reason": {
@@ -611,10 +611,10 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-chat"
         }
       ],
-      "evidence_sha256": "33c18099b47e12a52e4ed5cf276147174c3dbd7ed79d911e78e55e3bf9bfc5ac"
+      "evidence_sha256": "5606e987991cbcc17ea28d020ce9a6d0cc67a7109bb4e099f4ee918b00fba548"
     },
     "mosaicml/mpt-30b-instruct": {
-      "captured_at": "2026-11-27T08:31:51Z",
+      "captured_at": "2026-11-27T21:17:50Z",
       "repo": "mosaicml/mpt-30b-instruct",
       "hf_url": "https://huggingface.co/mosaicml/mpt-30b-instruct",
       "reason": {
@@ -637,7 +637,7 @@
           "source": "https://huggingface.co/mosaicml/mpt-30b-instruct"
         }
       ],
-      "evidence_sha256": "86ef9d95b3dddcb872a7aace625514aa0cdaa517a38ed2c4b7be691ec16453d3"
+      "evidence_sha256": "cd987419a2257aea8df35e1ba0d37474ece6ee5c8593f31980193397cb378b36"
     },
     "mosaicml/mpt-7b": {
       "captured_at": "2026-11-23T23:54:27Z",
@@ -16599,7 +16599,7 @@
       "evidence_sha256": "a1582821abe65558a4852d17041e209d711546ddcda4f69191dd70ebdc0d80e2"
     },
     "J1244/qwen2.5-jailbreak-Q8_0-GGUF": {
-      "captured_at": "2026-11-20T20:19:02Z",
+      "captured_at": "2026-11-27T21:17:51Z",
       "repo": "J1244/qwen2.5-jailbreak-Q8_0-GGUF",
       "hf_url": "https://huggingface.co/J1244/qwen2.5-jailbreak-Q8_0-GGUF",
       "reason": {
@@ -16678,10 +16678,10 @@
           "source": "https://huggingface.co/J1244/qwen2.5-jailbreak-Q8_0-GGUF/commit/6e2823c622ee3f6ff5e6b46b9cd9c17f58a61f77"
         }
       ],
-      "evidence_sha256": "d3abfe868a1670700153fb65c9f954110c7b060589fc566037e4aa05280cb5e8"
+      "evidence_sha256": "2dc6bfeabbb8afd907167f30b508d56b18899e36afae323d28f4314baa389149"
     },
     "Jiunsong/supergemma4-26b-uncensored-gguf-v2": {
-      "captured_at": "2026-11-20T20:19:02Z",
+      "captured_at": "2026-11-27T21:17:52Z",
       "repo": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
       "hf_url": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2",
       "reason": {
@@ -17145,10 +17145,10 @@
           "source": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2/commit/684c3dedbce7d78d48a36d692b2b477a99d724fa"
         }
       ],
-      "evidence_sha256": "dac76879dcc44dd7ed2fc51f4738f811c9e62aa10e2a09e9e1b5300a1e1f6b66"
+      "evidence_sha256": "2740c7f163c61c4c52aec004cb136da5c5b7a0707be29c4616d8df1640bf9175"
     },
     "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF": {
-      "captured_at": "2026-11-20T20:19:02Z",
+      "captured_at": "2026-11-27T21:17:52Z",
       "repo": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
       "hf_url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
       "reason": {
@@ -17768,10 +17768,10 @@
           "source": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF/discussions/13"
         }
       ],
-      "evidence_sha256": "440bbc47748916ada133638f7b159bbc55af583c7cff6bf209b4e0c9d29967bb"
+      "evidence_sha256": "55f1ad5b5d743a87dc83f8ceda17000a70930f0122713fb62b97a493917087bf"
     },
     "Kakadutheking/redteam-lexi-rl-GGUF": {
-      "captured_at": "2026-11-20T20:19:03Z",
+      "captured_at": "2026-11-27T21:17:52Z",
       "repo": "Kakadutheking/redteam-lexi-rl-GGUF",
       "hf_url": "https://huggingface.co/Kakadutheking/redteam-lexi-rl-GGUF",
       "reason": {
@@ -17811,10 +17811,10 @@
           "source": "https://huggingface.co/Kakadutheking/redteam-lexi-rl-GGUF/commit/5de0bcf74c0550e82fe8d32ee2a9bcfe60327a25"
         }
       ],
-      "evidence_sha256": "f0dc0810bc287c33f0141c96d2e8f803188eba937b49ed163b5a62fc4e5ca5fc"
+      "evidence_sha256": "817554a7bab4611c940bc0ee021e18c1234144ac65ba6d5e01f9ee0b91276217"
     },
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF": {
-      "captured_at": "2026-11-27T08:31:47Z",
+      "captured_at": "2026-11-27T21:17:41Z",
       "repo": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "hf_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF",
       "reason": {
@@ -18584,10 +18584,10 @@
           "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF/discussions/64"
         }
       ],
-      "evidence_sha256": "850fd9f0c9ac01129c5fda66550564b8456a815f39b3547b17e68887bbaa11b7"
+      "evidence_sha256": "7e9f7aecebba010ae88cca28b432c25aa8de623b2abe6c7e7bb142b25b7aa7a4"
     },
     "LuisPPB16/Qwen3.5-9B-Red_Team": {
-      "captured_at": "2026-11-20T20:19:04Z",
+      "captured_at": "2026-11-27T21:17:53Z",
       "repo": "LuisPPB16/Qwen3.5-9B-Red_Team",
       "hf_url": "https://huggingface.co/LuisPPB16/Qwen3.5-9B-Red_Team",
       "reason": {
@@ -18821,10 +18821,10 @@
           "source": "https://huggingface.co/LuisPPB16/Qwen3.5-9B-Red_Team/commit/064bfa4cf4fd7824bdebb80d62bde85df8fb00e6"
         }
       ],
-      "evidence_sha256": "84b860461f9243750c5437904de28f1bf193a838f3c68512fdda8eb37809ced7"
+      "evidence_sha256": "ee829247e00364b8c8dda52c244e85adad5699c04bc982e6f74f97736446c6e4"
     },
     "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16": {
-      "captured_at": "2026-11-20T20:19:05Z",
+      "captured_at": "2026-11-27T21:17:54Z",
       "repo": "MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16",
       "hf_url": "https://huggingface.co/MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16",
       "reason": {
@@ -18909,10 +18909,10 @@
           "source": "https://huggingface.co/MurtazaNasir/Qwen3.8-27B-OBLITERATED-AWQ-W4A16/commit/61197590d9359d543c189b65d44596dbae2013b0"
         }
       ],
-      "evidence_sha256": "46769f5b646a3f16873c03d12632a7a097fbe61fee6b0827506cafc640dafe72"
+      "evidence_sha256": "ead06b240a46c5774d523de810885d6fd6a02003e58b6bf041f83e04c400b88d"
     },
     "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO": {
-      "captured_at": "2026-11-20T20:19:06Z",
+      "captured_at": "2026-11-27T21:17:55Z",
       "repo": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
       "hf_url": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
       "reason": {
@@ -19428,10 +19428,10 @@
           "source": "https://huggingface.co/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO/commit/f43d97fe26570135a999d0eb7cb5232fa020cbdf"
         }
       ],
-      "evidence_sha256": "442a64e04f0e826c3a6c579400a3190eb7d90a96b1e130e4cba60b2d7218a1f8"
+      "evidence_sha256": "9db6944fafc756bfc216b6cda319f86342911f1db4ff94c567443692bd013c9f"
     },
     "OBLITERATUS/Gemma-4-12B-OBLITERATED": {
-      "captured_at": "2026-11-20T20:19:07Z",
+      "captured_at": "2026-11-27T21:17:56Z",
       "repo": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
       "hf_url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED",
       "reason": {
@@ -19966,10 +19966,10 @@
           "source": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED/commit/11a8b5f8140e7a8ac6ba763b9c4fcd1b7193616c"
         }
       ],
-      "evidence_sha256": "0b18cf6b0cdfd6609eb025c111e68110b772e1223d90e18fa1fbf66664cc856e"
+      "evidence_sha256": "c76d21312ce7512a33407778d068e79c5412c72e69834dad8c7283995d94d273"
     },
     "OBLITERATUS/Ornith-1.5-9B-OBLITERATED": {
-      "captured_at": "2026-11-20T20:19:07Z",
+      "captured_at": "2026-11-27T21:17:56Z",
       "repo": "OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
       "hf_url": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED",
       "reason": {
@@ -20283,10 +20283,10 @@
           "source": "https://huggingface.co/OBLITERATUS/Ornith-1.5-9B-OBLITERATED/commit/73e8ce79e57399618f5d4dafee7558a7fc02c70e"
         }
       ],
-      "evidence_sha256": "15473c64b740a9f5843131b045ae3dfa336dd259e468092abea77d185ab4ba35"
+      "evidence_sha256": "c3122c043d5d4a9aadadf4557dcd3ab4d72bcd49c78870ac118b4762b57a9721"
     },
     "OBLITERATUS/Qwen3.6-27B-OBLITERATED": {
-      "captured_at": "2026-11-20T20:19:08Z",
+      "captured_at": "2026-11-27T21:17:57Z",
       "repo": "OBLITERATUS/Qwen3.6-27B-OBLITERATED",
       "hf_url": "https://huggingface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED",
       "reason": {
@@ -20690,10 +20690,10 @@
           "source": "https://huggingface.co/OBLITERATUS/Qwen3.6-27B-OBLITERATED/commit/8fb1de5f328f4659da4c4443351907cc70de844c"
         }
       ],
-      "evidence_sha256": "f3b4c4b8e6c4fc6a830573061e78bddc70b442da61e9efdda9f8a47b1e854242"
+      "evidence_sha256": "37facbc18ec0b9d814275420941ec302bc5589da8fce9080713cb6afcebb498f"
     },
     "OBLITERATUS/Qwen3.8-27B-OBLITERATED": {
-      "captured_at": "2026-11-20T20:19:08Z",
+      "captured_at": "2026-11-27T21:17:57Z",
       "repo": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "hf_url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
       "reason": {
@@ -21130,10 +21130,10 @@
           "source": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/commit/efd3f4eaea83428cd4b276c2b759f415bd229e79"
         }
       ],
-      "evidence_sha256": "11967ca349d6bcc3b5cba1c7eb6bd1a2169485a29197aad10b08cc4e37b5e4e5"
+      "evidence_sha256": "dd2faa0c1169e22bc95c98ab05b3a1af20bbddadb8c21386a955e67ebc38273c"
     },
     "OBLITERATUS/gemma-4-E4B-it-OBLITERATED": {
-      "captured_at": "2026-11-20T20:19:09Z",
+      "captured_at": "2026-11-27T21:17:58Z",
       "repo": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
       "hf_url": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
       "reason": {
@@ -21612,10 +21612,10 @@
           "source": "https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED/commit/bdf2451f2988ec7d35dd5c39e07588b71a0b207e"
         }
       ],
-      "evidence_sha256": "e731d90146e2538fde39e4967ab97a7c1d58ca339b5b222ecff11f301aa125d1"
+      "evidence_sha256": "fdf13abbd348f7e2302bb7008d11dd4c330bfb101456b405572b2c06b0391f2a"
     },
     "OpenAssistant/oasst-sft-7-llama-30b-xor": {
-      "captured_at": "2026-11-20T20:19:10Z",
+      "captured_at": "2026-11-27T21:17:59Z",
       "repo": "OpenAssistant/oasst-sft-7-llama-30b-xor",
       "hf_url": "https://huggingface.co/OpenAssistant/oasst-sft-7-llama-30b-xor",
       "reason": {
@@ -22011,10 +22011,10 @@
           "source": "https://huggingface.co/OpenAssistant/oasst-sft-7-llama-30b-xor/commit/3ead783a458ad02b26e902b0b5ecd6d54d9ff566"
         }
       ],
-      "evidence_sha256": "9262efd760bb6d6f4f38f13d4ef7dfa54f8c09ddcaa7c622c2fb0890677184a3"
+      "evidence_sha256": "20993748688ecf857e7d13fcaffcbe4d4593e677532fd1d8e8e13e2099943124"
     },
     "Orenguteng/Llama-3-8B-Lexi-Uncensored": {
-      "captured_at": "2026-11-21T07:07:02Z",
+      "captured_at": "2026-11-27T21:17:59Z",
       "repo": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
       "hf_url": "https://huggingface.co/Orenguteng/Llama-3-8B-Lexi-Uncensored",
       "reason": {
@@ -22440,7 +22440,7 @@
           "source": "https://huggingface.co/Orenguteng/Llama-3-8B-Lexi-Uncensored/commit/16cd36aee6736913cdbb3245b48d600cd3f63ee3"
         }
       ],
-      "evidence_sha256": "701d029d29b966faf9ea972167cb9fc1a245a17e574b73dfe5e9d3f89c9f2b76"
+      "evidence_sha256": "3275e945c1271d550670a2200c4c2eab89be220da0d8439aa31e8af1c31cfae0"
     },
     "PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF": {
       "captured_at": "2026-11-21T07:07:02Z",
@@ -76569,7 +76569,7 @@
       "evidence_sha256": "3697c27887c1c43765385c86acb5f88310906ca442b5666bd247d8bd599f7735"
     },
     "Ironcybersec/foundation-sec-8b-red-team": {
-      "captured_at": "2026-11-20T20:19:01Z",
+      "captured_at": "2026-11-27T21:17:51Z",
       "repo": "Ironcybersec/foundation-sec-8b-red-team",
       "hf_url": "https://huggingface.co/Ironcybersec/foundation-sec-8b-red-team",
       "reason": {
@@ -76816,7 +76816,7 @@
           "source": "https://huggingface.co/Ironcybersec/foundation-sec-8b-red-team/commit/051dc1da4d4fbd8704dd66c14cf207ec2fd221f1"
         }
       ],
-      "evidence_sha256": "fb8cb12b02265279dcb466426e0663fa1053912206b4302b0e46c3bef565bd5b"
+      "evidence_sha256": "396dc8d57301d03df174fa392cd5d8be55f5bd6816e56177bbfdd75c93834069"
     },
     "Qwen/Qwen2.5-1.5B-Instruct": {
       "captured_at": "2026-11-21T07:07:05Z",
@@ -82416,7 +82416,7 @@
       "evidence_sha256": "409226cc5db12045054614102caf61523481d16f5df644dfc4845d45207b903e"
     },
     "MrPewpy/Qwen3.8-27B-OBLITERATED-FP8": {
-      "captured_at": "2026-11-20T20:19:05Z",
+      "captured_at": "2026-11-27T21:17:54Z",
       "repo": "MrPewpy/Qwen3.8-27B-OBLITERATED-FP8",
       "hf_url": "https://huggingface.co/MrPewpy/Qwen3.8-27B-OBLITERATED-FP8",
       "reason": {
@@ -82549,7 +82549,7 @@
           "source": "https://huggingface.co/MrPewpy/Qwen3.8-27B-OBLITERATED-FP8/commit/dfb67fda1dacdcea9d00440d7f9c3316b0b70cc3"
         }
       ],
-      "evidence_sha256": "97e809c201e4c533c02158fa0f1c2634ddf7c214ee113141fd666ee416c5e556"
+      "evidence_sha256": "50b48e6ef4db3c5790fe6a23b1b5504663617b6446645a4772439b82c56f05ba"
     },
     "mudler/locate-anything.cpp-gguf": {
       "captured_at": "2026-11-25T08:33:57Z",
@@ -88299,7 +88299,7 @@
       "evidence_sha256": "f477d89ff88ee097988353b756a6be9b5984264a6aa67f138d44ed90b517246f"
     },
     "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF": {
-      "captured_at": "2026-11-20T20:19:01Z",
+      "captured_at": "2026-11-27T21:17:51Z",
       "repo": "IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
       "hf_url": "https://huggingface.co/IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF",
       "reason": {
@@ -88817,10 +88817,10 @@
           "source": "https://huggingface.co/IsValorum/Qwen3.8-35B-A3B-Distill-MTP-APEX-I-MiniPlus-V2.1-Abliterated-GGUF/discussions/1"
         }
       ],
-      "evidence_sha256": "09e2f32e713d4226f07ff6d908d0a71613b1e30f10d0aac234add02858f606f1"
+      "evidence_sha256": "7600f67746828ea851a72b1bc5a3f1810113c2a68d433da1fd6693d472cac2dc"
     },
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
-      "captured_at": "2026-11-27T08:31:47Z",
+      "captured_at": "2026-11-27T21:17:40Z",
       "repo": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "hf_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "reason": {
@@ -88833,785 +88833,413 @@
         {
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
-          "excerpt": "--- license: apache-2.0 tags: - uncensored - qwen3.6 - moe - gguf - vision - multimodal - genesis - hermes - agentic language: - en - zh - multilingual datasets: - NousResearch/hermes-functio",
-          "source_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/raw/5fee44808148828299dec576603a58b74e41a393/README.md"
-        },
-        {
-          "signal": "disabled",
-          "classification": "NON_CAUSAL_SIGNAL",
-          "excerpt": "eneral: `temperature=0.6, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=disabled` **Non Thinking mode:** - General: `temperature=0.75, top_p=0.75, top_k=20, min_p=0.05, seed=42, presence_penalty=disabled, repeat_penalty=disabled` For Hermes Agent you can use",
-          "source_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/raw/5fee44808148828299dec576603a58b74e41a393/README.md"
-        },
-        {
-          "signal": "report",
-          "classification": "NON_CAUSAL_SIGNAL",
-          "excerpt": "ehind this project. 🤝 Can't Donate? You Can Still Help! Downloading models, sharing your results, reporting bugs, contributing benchmarks, and recommending Genesis to other developers are all valuable ways to support the project. The models are available regardless of whether you do",
-          "source_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/raw/5fee44808148828299dec576603a58b74e41a393/README.md"
+          "excerpt": "--- license: apache-2.0 tags: - uncensored - qwen3.6 - moe - gguf - Noise Gate - Genesis - Hermes - vision - multimodal language: - en - zh - multilingual pipeline_tag: image-text-to-text bas",
+          "source_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/raw/ac5b2ccc6dfb40c04231660913d6a8a1805965a5/README.md"
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
       "discussions": [
         {
-          "num": 76,
-          "title": "New update for Genesis Hermes coming today",
+          "num": 5,
+          "title": "I uploaded final release for Genesis project for this year",
           "status": "open",
           "is_pull_request": false,
           "author": "LuffyTheFox",
-          "created_at": "2026-10-17T16:59:13.000Z",
+          "created_at": "2026-11-27T11:36:26.000Z",
           "updated_at": null,
           "events": [
             {
               "type": "comment",
               "author": "LuffyTheFox",
-              "created_at": "2026-10-17T16:59:13.000Z",
+              "created_at": "2026-11-27T11:36:26.000Z",
               "content": ""
             },
             {
               "type": "pinning-change",
               "author": "LuffyTheFox",
-              "created_at": "2026-10-17T17:01:04.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "deekz",
-              "created_at": "2026-10-17T22:05:31.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "sinfee",
-              "created_at": "2026-10-18T03:08:30.000Z",
+              "created_at": "2026-11-27T11:37:20.000Z",
               "content": ""
             },
             {
               "type": "comment",
               "author": "LuffyTheFox",
-              "created_at": "2026-10-26T08:53:12.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "K-Tul-Khu",
-              "created_at": "2026-10-26T16:41:04.000Z",
+              "created_at": "2026-11-27T16:33:01.000Z",
               "content": ""
             },
             {
               "type": "comment",
               "author": "LuffyTheFox",
-              "created_at": "2026-10-26T17:11:02.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "Birdik",
-              "created_at": "2026-11-14T18:08:35.000Z",
+              "created_at": "2026-11-27T18:07:58.000Z",
               "content": ""
             }
           ],
-          "source_sha256": "1629ba19450b298ac98b0d753f62b348c2dd709e04074f77e5d32e90a5081cd3"
+          "source_sha256": "2bfc708ad71ff13524a79bd34d0b5590c526cb6ef0e5cadfba7af7e025d7be07"
         },
         {
-          "num": 75,
-          "title": "I got fired from my work. I am starting fundraising for processing big LLMs via Genesis.",
+          "num": 4,
+          "title": "OS conversion scripts?",
           "status": "open",
           "is_pull_request": false,
-          "author": "LuffyTheFox",
-          "created_at": "2026-10-09T06:29:25.000Z",
+          "author": "aaaaaaaad",
+          "created_at": "2026-11-22T18:56:04.000Z",
           "updated_at": null,
           "events": [
             {
               "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-09T06:29:25.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-09T06:30:06.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "n900t",
-              "created_at": "2026-10-09T17:37:15.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "deekz",
-              "created_at": "2026-10-17T22:09:35.000Z",
+              "author": "aaaaaaaad",
+              "created_at": "2026-11-22T18:56:04.000Z",
               "content": ""
             },
             {
               "type": "comment",
               "author": "LuffyTheFox",
-              "created_at": "2026-10-18T05:14:56.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "mihaileliseev",
-              "created_at": "2026-10-19T19:49:34.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-20T04:36:51.000Z",
+              "created_at": "2026-11-22T18:59:20.000Z",
               "content": ""
             }
           ],
-          "source_sha256": "8937571516c112b08b9ccc19eba9df21016153be568d811d0d5120e41c98eb81"
+          "source_sha256": "d31d814fb23a53a9b8b0f46b2e05b5d7a3020f799af38fe956eb57a61851077b"
         },
         {
-          "num": 74,
-          "title": "I updated quants for this model with latest revision of Genesis.",
+          "num": 3,
+          "title": "Luffy the Great",
           "status": "open",
           "is_pull_request": false,
-          "author": "LuffyTheFox",
-          "created_at": "2026-10-08T09:01:10.000Z",
+          "author": "Nevermore9898",
+          "created_at": "2026-11-18T17:04:42.000Z",
           "updated_at": null,
           "events": [
             {
               "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-08T09:01:10.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-08T09:01:17.000Z",
+              "author": "Nevermore9898",
+              "created_at": "2026-11-18T17:04:42.000Z",
               "content": ""
             }
           ],
-          "source_sha256": "b910629c51332f6dbb97d9674d6d05105ce8efc2014f05b4de9c4d6c19315b29"
+          "source_sha256": "171c1add6f529325af0d1b248e3c8e1c5e83b6a5964632d2fdfb7a953e10bcff"
         },
         {
-          "num": 72,
-          "title": "I am done with Qwen.",
+          "num": 2,
+          "title": "Thank you",
           "status": "open",
           "is_pull_request": false,
-          "author": "LuffyTheFox",
-          "created_at": "2026-10-01T07:53:38.000Z",
+          "author": "qianmianguai",
+          "created_at": "2026-11-18T11:45:54.000Z",
           "updated_at": null,
           "events": [
             {
               "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-01T07:53:38.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-01T07:53:42.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-05T08:57:09.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-06T01:24:15.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-06T03:54:02.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-06T06:29:21.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-06T06:42:35.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "kingsenglishvietnam",
-              "created_at": "2026-10-06T06:43:56.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-06T06:45:39.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-06T07:00:05.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-06T07:28:40.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-06T13:49:50.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-07T05:42:32.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-07T06:08:17.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-07T06:35:09.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-07T08:23:40.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-07T21:53:20.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-10-09T06:42:03.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-09T20:18:56.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "EnlistedGhost",
-              "created_at": "2026-10-10T23:13:29.000Z",
+              "author": "qianmianguai",
+              "created_at": "2026-11-18T11:45:54.000Z",
               "content": ""
             }
           ],
-          "source_sha256": "e674e8f6af12c1bb99ad83709bb7fa8af7deb843452360b3f346059911c68583"
+          "source_sha256": "a7d278aed74d2fcf7fa1370433e6f7d9eb847655433eabb050e37b73bd7adee7"
         },
         {
-          "num": 69,
-          "title": "I am gonna take a long break from AI development",
+          "num": 1,
+          "title": "<3 Farewell",
           "status": "open",
           "is_pull_request": false,
-          "author": "LuffyTheFox",
-          "created_at": "2026-09-19T06:06:24.000Z",
+          "author": "jan1k",
+          "created_at": "2026-11-18T10:47:49.000Z",
           "updated_at": null,
           "events": [
             {
               "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-19T06:06:24.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-19T06:06:27.000Z",
+              "author": "jan1k",
+              "created_at": "2026-11-18T10:47:49.000Z",
               "content": ""
             },
             {
               "type": "comment",
-              "author": "Dargoth",
-              "created_at": "2026-09-19T06:35:05.000Z",
+              "author": "Sdoh",
+              "created_at": "2026-11-18T11:16:44.000Z",
               "content": ""
             },
             {
               "type": "comment",
-              "author": "brigar",
-              "created_at": "2026-09-19T06:49:34.000Z",
+              "author": "Sdoh",
+              "created_at": "2026-11-18T11:35:53.000Z",
               "content": ""
             },
             {
               "type": "comment",
-              "author": "ysysysysysys",
-              "created_at": "2026-09-19T07:03:42.000Z",
+              "author": "younyokel",
+              "created_at": "2026-11-19T18:29:39.000Z",
               "content": ""
             }
           ],
-          "source_sha256": "cf059754a9d6b1c5e63773f68215daad8f45d0f948163c3574a1ead62c82e77e"
-        },
-        {
-          "num": 67,
-          "title": "LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-V1-MTP-GGUF was truly great :)",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "maxvision",
-          "created_at": "2026-09-15T05:56:49.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "maxvision",
-              "created_at": "2026-09-15T05:56:49.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-15T06:01:06.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "maxvision",
-              "created_at": "2026-09-15T10:05:35.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-15T11:03:09.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "sergeyborovkov",
-              "created_at": "2026-09-15T13:28:20.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-15T14:25:48.000Z",
-              "content": ""
-            },
-            {
-              "type": "title-change",
-              "author": "maxvision",
-              "created_at": "2026-09-15T14:36:42.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-15T14:55:55.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "willworker",
-              "created_at": "2026-09-15T19:33:43.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "58d18efb870a4287460cb2f4a4bd68f295ed820727d5d39f449025633e694ada"
-        },
-        {
-          "num": 65,
-          "title": "Damn me. I made mistake yesterday. With Genesis and Genesis Hermes models Noise Gate threshold was selected incorrectly.",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "LuffyTheFox",
-          "created_at": "2026-09-14T13:57:28.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-14T13:57:28.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-14T13:59:34.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-14T14:02:12.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "seazen911",
-              "created_at": "2026-09-18T03:37:33.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "ysysysysysys",
-              "created_at": "2026-09-18T08:30:43.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-18T08:32:06.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "seazen911",
-              "created_at": "2026-09-18T09:37:31.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "fritzape",
-              "created_at": "2026-09-19T07:37:04.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "c99df45a5380167d2bbed99ccad43336df7c512faedc4070b9697086d8a257b3"
-        },
-        {
-          "num": 64,
-          "title": "Some people asked me to bring back APEX quant for this model with MTP support.",
-          "status": "open",
-          "is_pull_request": false,
-          "author": "LuffyTheFox",
-          "created_at": "2026-09-13T04:55:50.000Z",
-          "updated_at": null,
-          "events": [
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-13T04:55:50.000Z",
-              "content": ""
-            },
-            {
-              "type": "pinning-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-13T04:56:24.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-13T05:00:15.000Z",
-              "content": ""
-            },
-            {
-              "type": "title-change",
-              "author": "LuffyTheFox",
-              "created_at": "2026-09-13T05:01:15.000Z",
-              "content": ""
-            },
-            {
-              "type": "comment",
-              "author": "semz66",
-              "created_at": "2026-09-13T13:55:19.000Z",
-              "content": ""
-            }
-          ],
-          "source_sha256": "aa8b10f173caf4cd37b3a157e8deb36b2336f33c590b880764294ad407c980a2"
+          "source_sha256": "20f68c0105cefbf41b75338c6a2cec7d9b50c839f53f95192d7e3e11b2e13990"
         }
       ],
       "commits": [
         {
-          "id": "5fee44808148828299dec576603a58b74e41a393",
+          "id": "ac5b2ccc6dfb40c04231660913d6a8a1805965a5",
           "title": "Update README.md",
-          "created_at": "2026-11-06T13:11:29.000Z",
+          "created_at": "2026-11-27T19:53:14.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/5fee44808148828299dec576603a58b74e41a393"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/ac5b2ccc6dfb40c04231660913d6a8a1805965a5"
         },
         {
-          "id": "bb703f2087f43f2f706e3da86577ea3b3b42da42",
+          "id": "f44ec23038ba5e266962e0b255543636d3b4a8f4",
           "title": "Update README.md",
-          "created_at": "2026-11-05T12:55:30.000Z",
+          "created_at": "2026-11-27T18:09:31.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/bb703f2087f43f2f706e3da86577ea3b3b42da42"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/f44ec23038ba5e266962e0b255543636d3b4a8f4"
         },
         {
-          "id": "a71edcb87a7d5d5c25dfbf259bec0a2ebe5864ef",
+          "id": "2a907ea82c7ce3effd85ec21aff5b30ca943e73f",
           "title": "Update README.md",
-          "created_at": "2026-11-05T12:23:52.000Z",
+          "created_at": "2026-11-27T18:05:29.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/a71edcb87a7d5d5c25dfbf259bec0a2ebe5864ef"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/2a907ea82c7ce3effd85ec21aff5b30ca943e73f"
         },
         {
-          "id": "2bfd46fb22d8cd420045a876a893054c3ec8756c",
+          "id": "52b49758feabafbeed164cb0f5455b47ddc208f0",
+          "title": "Upload pelikan.svg",
+          "created_at": "2026-11-27T18:02:38.000Z",
+          "authors": [
+            {
+              "user": "LuffyTheFox",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/52b49758feabafbeed164cb0f5455b47ddc208f0"
+        },
+        {
+          "id": "907af04ed62b908689432f9a7320f6269867a1c1",
           "title": "Update README.md",
-          "created_at": "2026-11-05T08:04:43.000Z",
+          "created_at": "2026-11-27T17:53:22.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/2bfd46fb22d8cd420045a876a893054c3ec8756c"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/907af04ed62b908689432f9a7320f6269867a1c1"
         },
         {
-          "id": "eaeb650c352c45231e1d6f9c49d9110665846bb7",
+          "id": "a41682dfd507d569a01e72184efb3e3c655dc405",
           "title": "Update README.md",
-          "created_at": "2026-11-05T08:03:55.000Z",
+          "created_at": "2026-11-27T17:43:39.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/eaeb650c352c45231e1d6f9c49d9110665846bb7"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/a41682dfd507d569a01e72184efb3e3c655dc405"
         },
         {
-          "id": "debc359ebd7218a34b3bc8072ac343a81fce8d5a",
+          "id": "e7f8ccf8b884608837ff55121e78522250d1fd5b",
           "title": "Update README.md",
-          "created_at": "2026-11-05T07:55:03.000Z",
+          "created_at": "2026-11-27T17:23:22.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/debc359ebd7218a34b3bc8072ac343a81fce8d5a"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/e7f8ccf8b884608837ff55121e78522250d1fd5b"
         },
         {
-          "id": "9dc23279dcbaadf54261382b39ae532fe46fa7a9",
+          "id": "5b0eb82f74640a424dc8ecb6eb9c28bbf7d9be47",
           "title": "Update README.md",
-          "created_at": "2026-11-05T05:57:32.000Z",
+          "created_at": "2026-11-27T17:21:37.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/9dc23279dcbaadf54261382b39ae532fe46fa7a9"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/5b0eb82f74640a424dc8ecb6eb9c28bbf7d9be47"
         },
         {
-          "id": "c9e66ef8f3326e8378f7d3940660461519be5397",
+          "id": "b4075b000123862c45501c33329d21eae76e260e",
+          "title": "Upload Genesis3.6-35B-A3B-Uncensored-NVFP4.gguf with huggingface_hub",
+          "created_at": "2026-11-27T17:14:30.000Z",
+          "authors": [
+            {
+              "user": "LuffyTheFox",
+              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
+            }
+          ],
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/b4075b000123862c45501c33329d21eae76e260e"
+        },
+        {
+          "id": "7e4ba4f9f67d3a8dedbec011387dd7e1155e7726",
           "title": "Update README.md",
-          "created_at": "2026-11-05T05:54:38.000Z",
+          "created_at": "2026-11-27T17:03:58.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/c9e66ef8f3326e8378f7d3940660461519be5397"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/7e4ba4f9f67d3a8dedbec011387dd7e1155e7726"
         },
         {
-          "id": "a2b6814ad500fdbd94fc72d5677a95190163a106",
-          "title": "Upload Arakali.png",
-          "created_at": "2026-11-05T05:40:20.000Z",
+          "id": "d034245d4a5fffa11fdb76b82f4214f8ee04203a",
+          "title": "Update README.md",
+          "created_at": "2026-11-27T17:03:40.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/a2b6814ad500fdbd94fc72d5677a95190163a106"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/d034245d4a5fffa11fdb76b82f4214f8ee04203a"
         },
         {
-          "id": "0e1e6a42de787e274af7d23abed11df2cf084b21",
-          "title": "Delete Arakali.png",
-          "created_at": "2026-11-05T05:39:32.000Z",
+          "id": "cd6e3bdb8ee5e0285e554d08f1988887f478701c",
+          "title": "Update README.md",
+          "created_at": "2026-11-27T16:53:48.000Z",
           "authors": [
             {
               "user": "LuffyTheFox",
               "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
             }
           ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/0e1e6a42de787e274af7d23abed11df2cf084b21"
-        },
-        {
-          "id": "9e031198823394a88cfec6052cd622f450a0a0a6",
-          "title": "Upload Hermes3.6-35B-A3B-Uncensored-Genesis-MXFP4-Mini.gguf with huggingface_hub",
-          "created_at": "2026-11-04T18:33:45.000Z",
-          "authors": [
-            {
-              "user": "LuffyTheFox",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/9e031198823394a88cfec6052cd622f450a0a0a6"
-        },
-        {
-          "id": "509f37e040adc86d5b5e85e725d76872780bb60d",
-          "title": "Upload Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-MXFP4.gguf with huggingface_hub",
-          "created_at": "2026-11-04T18:14:53.000Z",
-          "authors": [
-            {
-              "user": "LuffyTheFox",
-              "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/63177af9aea37e1333dc05fb/r_1prKqfaBbpC8Ep9Tl70.jpeg"
-            }
-          ],
-          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/509f37e040adc86d5b5e85e725d76872780bb60d"
+          "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/cd6e3bdb8ee5e0285e554d08f1988887f478701c"
         }
       ],
-      "readme_sha256": "f9a70d0ddeb023990a70f9a03a87308e2c897d08779a553bc4021dda8b7ba539",
-      "manifest_root_sha256": "bb7e6e69cef6fac389dc4b6fa25f60f51bf8e391002062432d9290665b22fc98",
+      "readme_sha256": "67f3dcb1924a7ebf09c2c8a37b224c980548400a12facde2e92728eb10883616",
+      "manifest_root_sha256": "fad4e747b2f3546f987f1fc15a2abcea0bcd1382783ebc666df3d0aaec150784",
       "timeline": [
+        {
+          "at": "2026-11-27T21:17:30Z",
+          "type": "availability_event",
+          "label": "RESTORED",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF"
+        },
+        {
+          "at": "2026-11-27T19:53:14.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/ac5b2ccc6dfb40c04231660913d6a8a1805965a5"
+        },
+        {
+          "at": "2026-11-27T18:09:31.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/f44ec23038ba5e266962e0b255543636d3b4a8f4"
+        },
+        {
+          "at": "2026-11-27T18:05:29.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/2a907ea82c7ce3effd85ec21aff5b30ca943e73f"
+        },
+        {
+          "at": "2026-11-27T18:02:38.000Z",
+          "type": "commit",
+          "label": "Upload pelikan.svg",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/52b49758feabafbeed164cb0f5455b47ddc208f0"
+        },
+        {
+          "at": "2026-11-27T17:53:22.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/907af04ed62b908689432f9a7320f6269867a1c1"
+        },
+        {
+          "at": "2026-11-27T17:43:39.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/a41682dfd507d569a01e72184efb3e3c655dc405"
+        },
+        {
+          "at": "2026-11-27T17:23:22.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/e7f8ccf8b884608837ff55121e78522250d1fd5b"
+        },
+        {
+          "at": "2026-11-27T17:21:37.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/5b0eb82f74640a424dc8ecb6eb9c28bbf7d9be47"
+        },
+        {
+          "at": "2026-11-27T17:14:30.000Z",
+          "type": "commit",
+          "label": "Upload Genesis3.6-35B-A3B-Uncensored-NVFP4.gguf with huggingface_hub",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/b4075b000123862c45501c33329d21eae76e260e"
+        },
+        {
+          "at": "2026-11-27T17:03:58.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/7e4ba4f9f67d3a8dedbec011387dd7e1155e7726"
+        },
+        {
+          "at": "2026-11-27T17:03:40.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/d034245d4a5fffa11fdb76b82f4214f8ee04203a"
+        },
+        {
+          "at": "2026-11-27T16:53:48.000Z",
+          "type": "commit",
+          "label": "Update README.md",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/cd6e3bdb8ee5e0285e554d08f1988887f478701c"
+        },
+        {
+          "at": "2026-11-27T11:36:26.000Z",
+          "type": "discussion",
+          "label": "I uploaded final release for Genesis project for this year",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/5"
+        },
+        {
+          "at": "2026-11-22T18:56:04.000Z",
+          "type": "discussion",
+          "label": "OS conversion scripts?",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/4"
+        },
+        {
+          "at": "2026-11-18T17:04:42.000Z",
+          "type": "discussion",
+          "label": "Luffy the Great",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/3"
+        },
+        {
+          "at": "2026-11-18T11:45:54.000Z",
+          "type": "discussion",
+          "label": "Thank you",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/2"
+        },
+        {
+          "at": "2026-11-18T10:47:49.000Z",
+          "type": "discussion",
+          "label": "<3 Farewell",
+          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/1"
+        },
         {
           "at": "2026-11-18T07:28:53Z",
           "type": "availability_event",
           "label": "AUTH_REQUIRED",
           "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF"
-        },
-        {
-          "at": "2026-11-06T13:11:29.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/5fee44808148828299dec576603a58b74e41a393"
-        },
-        {
-          "at": "2026-11-05T12:55:30.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/bb703f2087f43f2f706e3da86577ea3b3b42da42"
-        },
-        {
-          "at": "2026-11-05T12:23:52.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/a71edcb87a7d5d5c25dfbf259bec0a2ebe5864ef"
-        },
-        {
-          "at": "2026-11-05T08:04:43.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/2bfd46fb22d8cd420045a876a893054c3ec8756c"
-        },
-        {
-          "at": "2026-11-05T08:03:55.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/eaeb650c352c45231e1d6f9c49d9110665846bb7"
-        },
-        {
-          "at": "2026-11-05T07:55:03.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/debc359ebd7218a34b3bc8072ac343a81fce8d5a"
-        },
-        {
-          "at": "2026-11-05T05:57:32.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/9dc23279dcbaadf54261382b39ae532fe46fa7a9"
-        },
-        {
-          "at": "2026-11-05T05:54:38.000Z",
-          "type": "commit",
-          "label": "Update README.md",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/c9e66ef8f3326e8378f7d3940660461519be5397"
-        },
-        {
-          "at": "2026-11-05T05:40:20.000Z",
-          "type": "commit",
-          "label": "Upload Arakali.png",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/a2b6814ad500fdbd94fc72d5677a95190163a106"
-        },
-        {
-          "at": "2026-11-05T05:39:32.000Z",
-          "type": "commit",
-          "label": "Delete Arakali.png",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/0e1e6a42de787e274af7d23abed11df2cf084b21"
-        },
-        {
-          "at": "2026-11-04T18:33:45.000Z",
-          "type": "commit",
-          "label": "Upload Hermes3.6-35B-A3B-Uncensored-Genesis-MXFP4-Mini.gguf with huggingface_hub",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/9e031198823394a88cfec6052cd622f450a0a0a6"
-        },
-        {
-          "at": "2026-11-04T18:14:53.000Z",
-          "type": "commit",
-          "label": "Upload Hermes3.6-35B-A3B-Uncensored-Genesis-MTP-MXFP4.gguf with huggingface_hub",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/commit/509f37e040adc86d5b5e85e725d76872780bb60d"
-        },
-        {
-          "at": "2026-10-17T16:59:13.000Z",
-          "type": "discussion",
-          "label": "New update for Genesis Hermes coming today",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/76"
-        },
-        {
-          "at": "2026-10-09T06:29:25.000Z",
-          "type": "discussion",
-          "label": "I got fired from my work. I am starting fundraising for processing big LLMs via Genesis.",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/75"
-        },
-        {
-          "at": "2026-10-08T09:01:10.000Z",
-          "type": "discussion",
-          "label": "I updated quants for this model with latest revision of Genesis.",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/74"
-        },
-        {
-          "at": "2026-10-01T07:53:38.000Z",
-          "type": "discussion",
-          "label": "I am done with Qwen.",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/72"
-        },
-        {
-          "at": "2026-09-19T06:06:24.000Z",
-          "type": "discussion",
-          "label": "I am gonna take a long break from AI development",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/69"
-        },
-        {
-          "at": "2026-09-15T05:56:49.000Z",
-          "type": "discussion",
-          "label": "LuffyTheFox/Qwen3.8-27B-Uncensored-Genesis-V1-MTP-GGUF was truly great :)",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/67"
-        },
-        {
-          "at": "2026-09-14T13:57:28.000Z",
-          "type": "discussion",
-          "label": "Damn me. I made mistake yesterday. With Genesis and Genesis Hermes models Noise Gate threshold was selected incorrectly.",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/65"
-        },
-        {
-          "at": "2026-09-13T04:55:50.000Z",
-          "type": "discussion",
-          "label": "Some people asked me to bring back APEX quant for this model with MTP support.",
-          "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF/discussions/64"
         }
       ],
-      "evidence_sha256": "6e100e4fd3533f1bbbc0e88b99c191245fd33690512ee79e2c4dbddbdc2ce92b"
+      "evidence_sha256": "a04ce6c7b15a4c6d9e8d13cbc2580d9b4c7b2a9d41c802ec05adb06c3b9602ea"
     },
     "OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF": {
-      "captured_at": "2026-11-20T20:19:10Z",
+      "captured_at": "2026-11-27T21:17:58Z",
       "repo": "OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF",
       "hf_url": "https://huggingface.co/OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF",
       "reason": {
@@ -89721,7 +89349,7 @@
           "source": "https://huggingface.co/OS-Software/Ternary-Bonsai-2-27B-Uncensored-Heretic-GGUF/commit/1136eaa04936ad01b9aaa46a9082c44da0610b46"
         }
       ],
-      "evidence_sha256": "1aa85274198ca57781b5c4434f069d7a6d1695a7f909d0cf733175adcc7b02a3"
+      "evidence_sha256": "2f44fcda94546e44f6b3a11ccb853f6067c843d6e5478d89751436210b2ec372"
     },
     "SC117/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-GGUF": {
       "captured_at": "2026-11-21T19:15:48Z",
@@ -91349,7 +90977,7 @@
       "evidence_sha256": "190d85e09440bb3f1d63d050366f7b2f5bc2f391ace33fe2cb1c5840102f9049"
     },
     "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1": {
-      "captured_at": "2026-11-20T20:19:06Z",
+      "captured_at": "2026-11-27T21:17:55Z",
       "repo": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
       "hf_url": "https://huggingface.co/Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
       "reason": {
@@ -91525,7 +91153,7 @@
           "source": "https://huggingface.co/Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1/commit/cd04b0f97252c8a2cb800a5a05e1b207cc9ea1a6"
         }
       ],
-      "evidence_sha256": "7032795e907ee0c52e9ebefea642a41b40d615a389c74006b3b2e45548ef7e20"
+      "evidence_sha256": "3a991190978f09c1e07cf39c68f148eb936b8678f988ef1eb134578e28fdd5c7"
     },
     "Qwen/Qwen3.8-27B": {
       "captured_at": "2026-11-21T07:07:21Z",
@@ -96097,7 +95725,7 @@
       "evidence_sha256": "75b28838a38f907977df8beae25ed38f633b955668cd3d2bbe943aeb9d65efa2"
     },
     "mmiiguell10/Qwen3.8-27B-OBLITERATED": {
-      "captured_at": "2026-11-27T08:31:47Z",
+      "captured_at": "2026-11-27T21:17:41Z",
       "repo": "mmiiguell10/Qwen3.8-27B-OBLITERATED",
       "hf_url": "https://huggingface.co/mmiiguell10/Qwen3.8-27B-OBLITERATED",
       "reason": {
@@ -96362,7 +95990,7 @@
           "source": "https://huggingface.co/mmiiguell10/Qwen3.8-27B-OBLITERATED/commit/23cd056ce9dde29f2ee1bb1ccf8fe3cf53c3de0f"
         }
       ],
-      "evidence_sha256": "d207445e67a250a3bfa607752c32aa2c06284cf72e1e4ca471067a80f37fabb2"
+      "evidence_sha256": "417d14385164f03630bb2d9363e857a066c750bba668338a8f50d33fa4507115"
     },
     "EDominguezISI/qwen25-7b-abliterated-finetuned-RedTeam": {
       "captured_at": "2026-11-27T08:31:52Z",
@@ -97068,7 +96696,7 @@
       "evidence_sha256": "55b500f0281db94bc06397f24d43647d1f7f7111b3136509e19402ea75fda29e"
     },
     "OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED": {
-      "captured_at": "2026-11-20T20:19:09Z",
+      "captured_at": "2026-11-27T21:17:58Z",
       "repo": "OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED",
       "hf_url": "https://huggingface.co/OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED",
       "reason": {
@@ -97122,7 +96750,7 @@
           "source": "https://huggingface.co/OBLITERATUS/qwen3-4b-structured-output-merged-stage-a-OBLITERATED/commit/e0cc62036786889ead87423be230feb7544725c6"
         }
       ],
-      "evidence_sha256": "29ea15c2a7f6902b75c427e3ed1fabf94ad5a3c26e6ed6fce40c7e7ab056aacb"
+      "evidence_sha256": "4477c178abf942a23513a706e5cf06a3f1f3dcfd9b8632373fc720f20baf2c13"
     },
     "huihui-ai/Huihui-Qwythos-9B-Claude-Mythos-5-1M-abliterated-GGUF": {
       "captured_at": "2026-11-23T07:38:19Z",
@@ -99149,7 +98777,7 @@
       "evidence_sha256": "94b8d36bd9fbc0b05855c30f4fc7a5ebafada3fc5e82e2efc1dd5af62db70d73"
     },
     "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF": {
-      "captured_at": "2026-11-20T20:19:00Z",
+      "captured_at": "2026-11-27T21:17:50Z",
       "repo": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "hf_url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
       "reason": {
@@ -99703,7 +99331,7 @@
           "source": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF/commit/0f29bf65c901a0f4c0942303b50f536e195e2121"
         }
       ],
-      "evidence_sha256": "c482967aa9e3067269c913c1c75b14648b55dc18bad44958dacd583f19293a8e"
+      "evidence_sha256": "7c07b4df5631e8fb9b777f4b08aefc5248fda4a010809e66c8fe629b604e1d2c"
     },
     "mradermacher/Huihui-Qwen3-Coder-30B-A3B-Instruct-abliterated-i1-GGUF": {
       "captured_at": "2026-11-24T09:54:48Z",
@@ -102632,7 +102260,7 @@
       "evidence_sha256": "910e6172f002a90eab324cf482e9e6708aa8bb206bb93e1daa0413d6dbcd84be"
     },
     "Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF": {
-      "captured_at": "2026-11-20T20:19:03Z",
+      "captured_at": "2026-11-27T21:17:53Z",
       "repo": "Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF",
       "hf_url": "https://huggingface.co/Kujira/Underdog-Saluki-27B-1.0-MTP-Abliterated-GGUF",
       "reason": {
@@ -102661,7 +102289,7 @@
       "readme_sha256": "92729a9f13bbdf91013f82fbf3b672adb8a7648316793e2afd3e235fff2d0e82",
       "manifest_root_sha256": "0210bac92554cf433c10b8870ca4911b43f894aec44a7bc7ff4c811e4ba20c59",
       "timeline": [],
-      "evidence_sha256": "3d7bf5e309c4cf2e12bd790139ae599144dc162da739d255bacd7a8127ac8791"
+      "evidence_sha256": "f8c6e75818c11123c051bc8439b80d889e2a77a8fee2cb88a843946af48b9919"
     },
     "Serveurperso/YuE2-GGUF": {
       "captured_at": "2026-11-21T19:15:48Z",
@@ -107346,7 +106974,7 @@
       "evidence_sha256": "44f6c52b2efb006d47ae2d7afc89975beb55eb61a54c397366f213344a734e94"
     },
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF": {
-      "captured_at": "2026-11-27T08:31:47Z",
+      "captured_at": "2026-11-27T21:17:38Z",
       "repo": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
       "hf_url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF",
       "reason": {
@@ -108134,10 +107762,10 @@
           "source": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-MTP-GGUF/discussions/64"
         }
       ],
-      "evidence_sha256": "ba478bef7c66c56e7b91cc472e43a1083ae847dc27720f38cb2805edcc8ceadb"
+      "evidence_sha256": "6c53f5dfb7a55c755e866a96291f24f282c21d14c3c0158c5d1f2234d78ce775"
     },
     "MiniMaxAI/MiniMax-H3": {
-      "captured_at": "2026-11-20T20:19:04Z",
+      "captured_at": "2026-11-27T21:17:53Z",
       "repo": "MiniMaxAI/MiniMax-H3",
       "hf_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
       "reason": {
@@ -108151,19 +107779,19 @@
           "signal": "license",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "--- pipeline_tag: image-text-to-video license: other license_name: minimax-h3-community-license-agreement license_link: LICENSE library_name: minimax-h3 tags: - text-to-video - image-to-video - image-text-to-video - video-to-",
-          "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/1cc7549f2cf0af8ff2f09b24f3c57303c8aa6317/README.md"
+          "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/12253298adb81e36757eabebb81d2ba1c0cc70cc/README.md"
         },
         {
           "signal": "moderation",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "s** User\\-submitted text, images and videos, as well as enhanced prompts, are subject to automated moderation\\. Content suspected of being unlawful, pornographic, or infringing third\\-party rights may be blocked\\. We use industry\\-standard filtering measures but cannot eliminate false pos",
-          "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/1cc7549f2cf0af8ff2f09b24f3c57303c8aa6317/README.md"
+          "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/12253298adb81e36757eabebb81d2ba1c0cc70cc/README.md"
         },
         {
           "signal": "safety",
           "classification": "NON_CAUSAL_SIGNAL",
           "excerpt": "ng systems\\. For detailed usage instructions, see **Recommended Workflow — Full 2K Workflow**\\. **Safety Guardrails** User\\-submitted text, images and videos, as well as enhanced prompts, are subject to automated moderation\\. Content suspected of being unlawful, pornographic, or inf",
-          "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/1cc7549f2cf0af8ff2f09b24f3c57303c8aa6317/README.md"
+          "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/raw/12253298adb81e36757eabebb81d2ba1c0cc70cc/README.md"
         }
       ],
       "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
@@ -108668,7 +108296,7 @@
         }
       ],
       "readme_sha256": "059f4722e2e9331c8c128fd9b11e53e5afab8c002076329cfff1a12c6b3b8f2e",
-      "manifest_root_sha256": "a46122684385836cd06cb4755c347cee03912fba137fd2acf9762221c926fe04",
+      "manifest_root_sha256": "64e495be8481a30a0def299af12a51ffcc6d8bb738f4fb45d048f8e1367aeb64",
       "timeline": [
         {
           "at": "2026-11-12T22:30:37.000Z",
@@ -108791,10 +108419,10 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-H3/discussions/12"
         }
       ],
-      "evidence_sha256": "28c644c57278368fb7a708a00eee90bb91715dc19dfb40c9490f68f1ecd919f3"
+      "evidence_sha256": "9feef9659eeb3a9066da574d20aa2f4908375a0bfa6ce518f160cc6422fdfdda"
     },
     "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated": {
-      "captured_at": "2026-11-20T20:19:06Z",
+      "captured_at": "2026-11-27T21:17:56Z",
       "repo": "OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
       "hf_url": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated",
       "reason": {
@@ -109084,7 +108712,7 @@
           "source": "https://huggingface.co/OBLITERATUS/DeepSeek-V4.1-Flash-1017-obliterated/discussions/1"
         }
       ],
-      "evidence_sha256": "d56a5ddfcda25585b82480b3f46b72e60a9a3916c4a20245fdd03c112f402610"
+      "evidence_sha256": "db2f02cb4fe2c002e324d95b65fecfe65c87bb77e9904faa8ed3fb0df8e76ffe"
     },
     "llmfan46/Qwen3.6-35B-A3B-uncensored-heretic-Native-MTP-Preserved-GGUF": {
       "captured_at": "2026-11-23T07:38:25Z",
@@ -112899,6 +112527,88 @@
       "manifest_root_sha256": "d1449a912f0650a85887f72f75c407846304a23fe3f59bca2855bb8cf9186a75",
       "timeline": [],
       "evidence_sha256": "012b68ba94a1e1eb6316eb547ffee89d5a9777af5f5d2645e1bca270e17549ec"
+    },
+    "N8STORM/Qwen3.8-27B-OBLITERATED": {
+      "captured_at": "2026-11-27T21:17:55Z",
+      "repo": "N8STORM/Qwen3.8-27B-OBLITERATED",
+      "hf_url": "https://huggingface.co/N8STORM/Qwen3.8-27B-OBLITERATED",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: apache-2.0 base_model: Qwen/Qwen3.8-27B tags: - abliterated - uncensored - obliteratus - qwen3 - qwen3.8 - red-team - ai-safety-research - gguf - safetensors",
+          "source_url": "https://huggingface.co/N8STORM/Qwen3.8-27B-OBLITERATED/raw/27b8dae721f6fcc91da85cba26520b41849a45b2/README.md"
+        },
+        {
+          "signal": "safety",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "-27B tags: - abliterated - uncensored - obliteratus - qwen3 - qwen3.8 - red-team - ai-safety-research - gguf - safetensors - mlx model_type: qwen3 pipeline_tag: text-generation --- # ⛓️‍💥 Qwen3.8-27B — OBLITERATED > Genuinely uncensored. Real answers, not safety l",
+          "source_url": "https://huggingface.co/N8STORM/Qwen3.8-27B-OBLITERATED/raw/27b8dae721f6fcc91da85cba26520b41849a45b2/README.md"
+        },
+        {
+          "signal": "removed",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "** | | vs stock | — | -6.0pp | -0.3pp | **-2.1pp** | | Liberation quality | refuses | hard refusals removed | soft deflections remain | **genuinely answers** ✅ | | Cyber/code tasks (20 prompts) | refuses | untested | untested | **20/20 with working code** ✅ | | Advanced real-world | 5/8",
+          "source_url": "https://huggingface.co/N8STORM/Qwen3.8-27B-OBLITERATED/raw/27b8dae721f6fcc91da85cba26520b41849a45b2/README.md"
+        },
+        {
+          "signal": "removal",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "'s complementary blend, with targeted corpus expansion. The result: **genuine liberation — not just removal of hard refusals but elimination of safety-lecture deflections.** | | Stock Qwen3.8-27B | V1 | V2 | **V3** | |---|---|---|---|---| | MMLU (lm-eval, 0-shot) | 84.5% (n=5700) | 81.",
+          "source_url": "https://huggingface.co/N8STORM/Qwen3.8-27B-OBLITERATED/raw/27b8dae721f6fcc91da85cba26520b41849a45b2/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [],
+      "readme_sha256": "5ea5bdfb42b286f4171a6f16810899ec49577b700f02dfcfe6d0c321396f4251",
+      "manifest_root_sha256": "f5117d21a038b0e0bb2b86ffdaf6b6cda16ed8dbf6e24868f3f6adc3818bb1fc",
+      "timeline": [],
+      "evidence_sha256": "e95f65998a0ee56c20093933b138f75280af9a610353a563a229db2698c9e2c2"
+    },
+    "PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS": {
+      "captured_at": "2026-11-27T21:17:59Z",
+      "repo": "PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS",
+      "hf_url": "https://huggingface.co/PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS",
+      "reason": {
+        "category": "unknown",
+        "status": "UNKNOWN",
+        "summary": "No public source documenting the cause has been recorded.",
+        "sources": []
+      },
+      "reason_signals": [
+        {
+          "signal": "license",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "--- license: apache-2.0 language: - en - zh library_name: transformers pipeline_tag: text-generation base_model: - Kwaipilot/KAT-Coder-V2.5-Dev tags: - kat-coder - kat-coder-v2.5 - qwen3.6 -",
+          "source_url": "https://huggingface.co/PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS/raw/cc16ae5f78e364eaf4665651ff46a3a36cf33de4/README.md"
+        },
+        {
+          "signal": "report",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "reduction does not guarantee better coding ability, factual accuracy, judgment, or tool use. - The reported results are based on internal evaluations and have not been independently audited. - This release is text-only and cannot accept image or video inputs. - The model can generate",
+          "source_url": "https://huggingface.co/PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS/raw/cc16ae5f78e364eaf4665651ff46a3a36cf33de4/README.md"
+        },
+        {
+          "signal": "reported",
+          "classification": "NON_CAUSAL_SIGNAL",
+          "excerpt": "reduction does not guarantee better coding ability, factual accuracy, judgment, or tool use. - The reported results are based on internal evaluations and have not been independently audited. - This release is text-only and cannot accept image or video inputs. - The model can generate in",
+          "source_url": "https://huggingface.co/PhillyLabs/KAT-Coder-V2.5-Dev-35B-A3B-ABLITERATED-UNCENSORED-PHILADELPHIA-CLASS/raw/cc16ae5f78e364eaf4665651ff46a3a36cf33de4/README.md"
+        }
+      ],
+      "reason_signals_note": "Keyword/context signals are leads only and are never converted into a causal reason automatically.",
+      "discussions": [],
+      "commits": [],
+      "readme_sha256": "fd37a39c493d304aee10c4ebb6b596374a400426721a56550b10fb3a94ccdf4c",
+      "manifest_root_sha256": "32022909531272cd2fc1323a4a2025ba9c8b0cf9aa0588c7bc0f813bb7ef79ac",
+      "timeline": [],
+      "evidence_sha256": "4debefce23538dbcdf5d648a4c6ed3cde3de0617d1aab4ed3b5ca4cc3906885b"
     }
   }
 }
