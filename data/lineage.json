@@ -1,6 +1,6 @@
 {
   "schema": "hf-vanished.lineage.v1",
-  "generated_at": "2026-11-27T21:18:00Z",
+  "generated_at": "2026-11-28T07:48:53Z",
   "policy": "Only explicit public base_model metadata creates lineage edges. Name similarity is not treated as provenance.",
   "nodes": {
     "audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber": {
@@ -2087,7 +2087,7 @@
     "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit": {
       "id": "mlx-community/Qwen3.8-27B-OBLITERATED-OptiQ-4bit",
       "visibility": "public",
-      "revision": "86af8a25a79db41c6d0c8b686de80a08d49cb396",
+      "revision": "f11f9854ec24fd00e7ca17fb3cc187c2f2a085d2",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2545,7 +2545,7 @@
     "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF": {
       "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
       "visibility": "public",
-      "revision": "ac5b2ccc6dfb40c04231660913d6a8a1805965a5",
+      "revision": "0526f030ec94b3c568e46e6ebafc1cddb7b7a9b9",
       "license": "apache-2.0",
       "pipeline_tag": "image-text-to-text"
     },
@@ -2868,7 +2868,7 @@
     "audio-cpp/audio.cpp-gguf": {
       "id": "audio-cpp/audio.cpp-gguf",
       "visibility": "public",
-      "revision": "dac3915042a8ddfbb79f87b108214fda57e4b753",
+      "revision": "260c7cdefe0c7508190235869deae079782dd5e4",
       "license": "other",
       "pipeline_tag": "text-to-speech"
     },
